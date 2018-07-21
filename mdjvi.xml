@@ -362,6 +362,46 @@
                     </label>
                   </labels>
                 </item>
+                 <item idno="acq_ethno" enabled="1" default="0">
+                  <labels>
+                    <label locale="fr_FR" preferred="1">
+                      <name_singular>ethno</name_singular>
+                      <name_plural>ethno</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="acq_nat" enabled="1" default="0">
+                  <labels>
+                    <label locale="fr_FR" preferred="1">
+                      <name_singular>nat</name_singular>
+                      <name_plural>nat</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="acq_peinture" enabled="1" default="0">
+                  <labels>
+                    <label locale="fr_FR" preferred="1">
+                      <name_singular>peinture</name_singular>
+                      <name_plural>peinture</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="acq_other" enabled="1" default="0">
+                  <labels>
+                    <label locale="fr_FR" preferred="1">
+                      <name_singular>other</name_singular>
+                      <name_plural>other</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="acq_costume" enabled="1" default="0">
+                  <labels>
+                    <label locale="fr_FR" preferred="1">
+                      <name_singular>costume</name_singular>
+                      <name_plural>costume</name_plural>
+                    </label>
+                  </labels>
+                </item>
               </items>
             </item>
             <item idno="dep" enabled="1" default="0" value="2">
