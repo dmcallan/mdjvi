@@ -19,9 +19,6 @@
         <label locale="pt_BR">
           <name>Listar os tipos de um item</name>
         </label>
-        <label locale="pt_BR">
-          <name>Listar os tipos de itens</name>
-        </label>
       </labels>
       <items>
         <item idno="concept" enabled="1" default="1">
@@ -170,9 +167,6 @@
           <name>Types d'ensembles</name>
         </label>
         <label locale="pt_BR">
-          <name>Tipos de conjuntos</name>
-        </label>
-       <label locale="pt_BR">
           <name>Tipos de conjuntos</name>
         </label>
       </labels>
@@ -503,46 +497,6 @@
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Conjunto Complexo</name_singular>
                       <name_plural>Conjunto Complexo</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                 <item idno="acq_ethno" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>ethno</name_singular>
-                      <name_plural>ethno</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="acq_nat" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>nat</name_singular>
-                      <name_plural>nat</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="acq_peinture" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>peinture</name_singular>
-                      <name_plural>peinture</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="acq_other" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>other</name_singular>
-                      <name_plural>other</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="acq_costume" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>costume</name_singular>
-                      <name_plural>costume</name_plural>
                     </label>
                   </labels>
                 </item>
@@ -928,9 +882,6 @@
         <label locale="en_US">
           <name>Object statuses</name>
         </label>
-        <label locale="pt_BR">
-          <name>Status do objeto</name>
-        </label>
         <label locale="fr_FR">
           <name>Status d objets</name>
         </label>
@@ -1011,7 +962,7 @@
           <name>Object deaccession types</name>
         </label>
         <label locale="pt_BR">
-          <name>Tipos de desativação de objetos</name>
+          <name>Tipos de baixa do acervo de objetos</name>
         </label>
       </labels>
       <items>
@@ -1039,9 +990,6 @@
         </label>
         <label locale="pt_BR">
           <name>Tipo de aquisição de objetos</name>
-        </label>
-        <label locale="pt_BR">
-          <name>Tipos de aquisição de objetos</name>
         </label>
       </labels>
       <items>
@@ -1131,9 +1079,6 @@
       <labels>
         <label locale="en_US">
           <name>Object label types</name>
-        </label>
-        <label locale="pt_BR">
-          <name>Tipos de etiquetas de objeto</name>
         </label>
         <label locale="fr_FR">
           <name>Types de libellés d objet</name>
