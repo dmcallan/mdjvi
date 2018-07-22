@@ -16,6 +16,9 @@
         <label locale="fr_FR">
           <name>Lister les types d item</name>
         </label>
+        <label locale="pt_BR">
+          <name>Listar os tipos de itens</name>
+        </label>
       </labels>
       <items>
         <item idno="concept" enabled="1" default="1">
@@ -29,8 +32,8 @@
               <name_plural>concepts</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>concept</name_singular>
-              <name_plural>concepts</name_plural>
+              <name_singular>conceito</name_singular>
+              <name_plural>conceitos</name_plural>
             </label>
           </labels>
         </item>
@@ -41,8 +44,8 @@
               <name_plural>facets</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>facet</name_singular>
-              <name_plural>facets</name_plural>
+              <name_singular>faceta</name_singular>
+              <name_plural>facetas</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>facette</name_singular>
@@ -57,8 +60,8 @@
               <name_plural>guide terms</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>guide term</name_singular>
-              <name_plural>guide terms</name_plural>
+              <name_singular>termo do guia</name_singular>
+              <name_plural>termos do guia</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>terme du guide</name_singular>
@@ -76,6 +79,10 @@
               <name_singular>nom de hiérarchie</name_singular>
               <name_plural>noms de hiérarchie</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>nome da hierarquia</name_singular>
+              <name_plural>nomes das hierarquias</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -86,13 +93,17 @@
           <name>List item sources</name>
         </label>
         <label locale="pt_BR">
-          <name>List item sources</name>
+          <name>Fontes da lista de itens</name>
         </label>
       </labels>
       <items>
         <item idno="local" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
+              <name_singular>Local</name_singular>
+              <name_plural>Local</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Local</name_singular>
               <name_plural>Local</name_plural>
             </label>
@@ -108,6 +119,9 @@
         <label locale="fr_FR">
           <name>Types de libellés pour les éléments de liste</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de etiqueta dos itens da lista</name>
+        </label>
       </labels>
       <items>
         <item idno="uf" enabled="1" default="1">
@@ -119,6 +133,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Utiliser pour</name_singular>
               <name_plural>Utiliser pour</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Usar para</name_singular>
+              <name_plural>Usar para</name_plural>
             </label>
           </labels>
         </item>
@@ -132,6 +150,10 @@
               <name_singular>Alternatif</name_singular>
               <name_plural>Alternatifs</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Alternativa</name_singular>
+              <name_plural>Alternativas</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -143,6 +165,9 @@
         </label>
         <label locale="fr_FR">
           <name>Types d ensembles</name>
+        </label>
+       <label locale="pt_BR">
+          <name>Tipos de conjuntos</name>
         </label>
       </labels>
       <items>
@@ -157,8 +182,8 @@
               <name_plural>User sets</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>User set</name_singular>
-              <name_plural>User sets</name_plural>
+              <name_singular>Conjunto de usuários</name_singular>
+              <name_plural>Conjuntos de usuários</name_plural>
             </label>
           </labels>
         </item>
@@ -173,8 +198,8 @@
               <name_plural>Public presentations</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Public presentation</name_singular>
-              <name_plural>Public presentations</name_plural>
+              <name_singular>Apresentação pública</name_singular>
+              <name_plural>Apresentações públicas</name_plural>
             </label>
           </labels>
         </item>
@@ -187,6 +212,9 @@
         </label>
         <label locale="fr_FR">
           <name>Définir des types de présentation</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Definir tipos de apresentação</name>
         </label>
       </labels>
       <items>
@@ -201,8 +229,8 @@
               <name_plural>Slideshows</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Slideshow</name_singular>
-              <name_plural>Slideshows</name_plural>
+              <name_singular>Apresentação de Slides</name_singular>
+              <name_plural>Apresentações de Slides</name_plural>
             </label>
           </labels>
         </item>
@@ -217,8 +245,8 @@
               <name_plural>Thumbnail image lists</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Thumbnail image list</name_singular>
-              <name_plural>Thumbnail image lists</name_plural>
+              <name_singular>Lista de imagens em miniatura</name_singular>
+              <name_plural>Listas de imagens em miniatura</name_plural>
             </label>
           </labels>
         </item>
@@ -233,8 +261,8 @@
               <name_plural>Title lists</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Title list</name_singular>
-              <name_plural>Title lists</name_plural>
+              <name_singular>Lista de títulos</name_singular>
+              <name_plural>Lista de títulos</name_plural>
             </label>
           </labels>
         </item>
@@ -249,8 +277,8 @@
               <name_plural>Chronologies</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Chronology</name_singular>
-              <name_plural>Chronologies</name_plural>
+              <name_singular>Cronologia</name_singular>
+              <name_plural>Cronologias</name_plural>
             </label>
           </labels>
         </item>
@@ -264,6 +292,9 @@
         <label locale="fr_FR">
           <name>Défini les types de statut pour les items primaires</name>
         </label>
+        <label locale="pt_BR">
+          <name>Definir tipos de status primários do item</name>
+        </label>
       </labels>
       <items>
         <item idno="is_primary" enabled="1" default="0">
@@ -273,8 +304,8 @@
               <name_plural>Is primary</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Is primary</name_singular>
-              <name_plural>Is primary</name_plural>
+              <name_singular>É primário</name_singular>
+              <name_plural>São primários</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>Principal</name_singular>
@@ -289,8 +320,8 @@
               <name_plural>Is not primary</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Is not primary</name_singular>
-              <name_plural>Is not primary</name_plural>
+              <name_singular>Não é primário</name_singular>
+              <name_plural>Não são primários</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>Secondaire</name_singular>
@@ -308,6 +339,9 @@
         <label locale="fr_FR">
           <name>Types d objets</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de objetos</name>
+        </label>
       </labels>
       <items>
         <item idno="musee" enabled="1" default="0">
@@ -315,6 +349,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Musée</name_singular>
               <name_plural>Musée</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Museu</name_singular>
+              <name_plural>Museus</name_plural>
             </label>
           </labels>
           <items>
@@ -570,6 +608,10 @@
                   <name_singular>Livre</name_singular>
                   <name_plural>Livres</name_plural>
                 </label>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Livro</name_singular>
+                  <name_plural>Livros</name_plural>
+                </label>
               </labels>
             </item>
             <item idno="serial" enabled="1" default="0">
@@ -577,6 +619,10 @@
                 <label locale="fr_FR" preferred="1">
                   <name_singular>Revue</name_singular>
                   <name_plural>Revues</name_plural>
+                </label>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Periódico</name_singular>
+                  <name_plural>Periódicos</name_plural>
                 </label>
               </labels>
               <items>
@@ -586,6 +632,10 @@
                       <name_singular>Numéro</name_singular>
                       <name_plural>Numéro</name_plural>
                     </label>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Edição</name_singular>
+                      <name_plural>Edições</name_plural>
+                    </label>
                   </labels>
                   <items>
                     <item idno="article" enabled="1" default="0">
@@ -593,6 +643,10 @@
                         <label locale="fr_FR" preferred="1">
                           <name_singular>Article</name_singular>
                           <name_plural>Articles</name_plural>
+                        </label>
+                        <label locale="pt_BR" preferred="1">
+                          <name_singular>Artigo</name_singular>
+                          <name_plural>Artigos</name_plural>
                         </label>
                       </labels>
                     </item>
@@ -606,6 +660,10 @@
                   <name_singular>Audio</name_singular>
                   <name_plural>Audio</name_plural>
                 </label>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Audio</name_singular>
+                  <name_plural>Audios</name_plural>
+                </label>
               </labels>
             </item>
             <item idno="video" enabled="1" default="0">
@@ -613,6 +671,10 @@
                 <label locale="fr_FR" preferred="1">
                   <name_singular>Video</name_singular>
                   <name_plural>Video</name_plural>
+                </label>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Video</name_singular>
+                  <name_plural>Videos</name_plural>
                 </label>
               </labels>
             </item>
@@ -623,6 +685,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Artothèque</name_singular>
               <name_plural>Artothèque</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Biblioteca de arte</name_singular>
+              <name_plural>Bibliotecas de arte</name_plural>
             </label>
           </labels>
         </item>
@@ -636,6 +702,9 @@
         <label locale="fr_FR">
           <name>Sources d objet</name>
         </label>
+        <label locale="pt_BR">
+          <name>Fonte do objeto</name>
+        </label>
       </labels>
       <items>
         <item idno="internal" enabled="1" default="1">
@@ -648,6 +717,10 @@
               <name_singular>Our collection</name_singular>
               <name_plural>Our collections</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Coleção permanente</name_singular>
+              <name_plural>Coleções permanentes</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="external" enabled="1" default="0">
@@ -659,6 +732,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>External collection</name_singular>
               <name_plural>External collections</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Coleção externa</name_singular>
+              <name_plural>Coleções externas</name_plural>
             </label>
           </labels>
         </item>
@@ -677,6 +754,9 @@
         <label locale="en_US">
           <name>Object statuses</name>
         </label>
+        <label locale="pt_BR">
+          <name>Status do objeto</name>
+        </label>
         <label locale="fr_FR">
           <name>Status d objets</name>
         </label>
@@ -692,6 +772,10 @@
               <name_singular>pending accession</name_singular>
               <name_plural>pending accession</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Aquisição pendente</name_singular>
+              <name_plural>Aquisição pendente</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="accessioned" enabled="1" default="0">
@@ -701,8 +785,8 @@
               <name_plural>accessioned</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>accessioned</name_singular>
-              <name_plural>accessioned</name_plural>
+              <name_singular>adquirido</name_singular>
+              <name_plural>adquiridos</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>acquis</name_singular>
@@ -721,8 +805,8 @@
               <name_plural>non-accessioned</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>non-accessioned</name_singular>
-              <name_plural>non-accessioned</name_plural>
+              <name_singular>não adquirido</name_singular>
+              <name_plural>não adquiridos</name_plural>
             </label>
           </labels>
         </item>
@@ -737,8 +821,8 @@
               <name_plural>potential acquisitions</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>potential acquisition</name_singular>
-              <name_plural>potential acquisitions</name_plural>
+              <name_singular>aquisição potencial</name_singular>
+              <name_plural>aquisições potenciais</name_plural>
             </label>
           </labels>
         </item>
@@ -749,6 +833,9 @@
         <label locale="en_US">
           <name>Object deaccession types</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de desativação de objetos</name>
+        </label>
       </labels>
       <items>
         <item idno="disposed" enabled="1" default="1">
@@ -756,6 +843,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>disposed</name_singular>
               <name_plural>disposed</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>descartado</name_singular>
+              <name_plural>descartados</name_plural>
             </label>
           </labels>
         </item>
@@ -768,6 +859,9 @@
         </label>
         <label locale="fr_FR">
           <name>Type d acquisitions d objets</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Tipos de aquisição de objetos</name>
         </label>
       </labels>
       <items>
@@ -782,8 +876,8 @@
               <name_plural>gifts</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>gift</name_singular>
-              <name_plural>gifts</name_plural>
+              <name_singular>presente</name_singular>
+              <name_plural>presentes</name_plural>
             </label>
           </labels>
         </item>
@@ -794,8 +888,8 @@
               <name_plural>bequests</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>bequest</name_singular>
-              <name_plural>bequests</name_plural>
+              <name_singular>herença</name_singular>
+              <name_plural>heranças</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>leg</name_singular>
@@ -814,8 +908,8 @@
               <name_plural>purchases</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>purchase</name_singular>
-              <name_plural>purchases</name_plural>
+              <name_singular>compra</name_singular>
+              <name_plural>compras</name_plural>
             </label>
           </labels>
         </item>
@@ -826,8 +920,8 @@
               <name_plural>loans</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>loan</name_singular>
-              <name_plural>loans</name_plural>
+              <name_singular>empréstimo</name_singular>
+              <name_plural>empréstimos</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>prêt</name_singular>
@@ -842,8 +936,8 @@
               <name_plural>long-term loans</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>long-term loan</name_singular>
-              <name_plural>long-term loans</name_plural>
+              <name_singular>empréstimo de longo prazo</name_singular>
+              <name_plural>empréstimos de longo prazo</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>prêt longue durée</name_singular>
@@ -858,6 +952,9 @@
         <label locale="en_US">
           <name>Object label types</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de etiquetas de objeto</name>
+        </label>
         <label locale="fr_FR">
           <name>Types de libellés d objet</name>
         </label>
@@ -866,6 +963,10 @@
         <item idno="appellation" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
+              <name_singular>Appellation</name_singular>
+              <name_plural>Appellations</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Appellation</name_singular>
               <name_plural>Appellations</name_plural>
             </label>
