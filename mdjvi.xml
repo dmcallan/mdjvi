@@ -1205,10 +1205,6 @@
               <name_singular>completed</name_singular>
               <name_plural>completed</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>completed</name_singular>
-              <name_plural>completed</name_plural>
-            </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>validé</name_singular>
               <name_plural>validés</name_plural>
@@ -1394,7 +1390,7 @@
         <label locale="fr_FR">
           <name>Valeurs de type de libellés pour les lots d objets</name>
         </label>
-        <label locale="fr_FR">
+        <label locale="pt_BR">
           <name>Valores do tipo de etiqueta para o lote de objetos</name>
         </label>
       </labels>
@@ -1654,8 +1650,8 @@
               <name_plural>ISADG entity list</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Lista de entifdades ISADG</name_singular>
-              <name_plural>ILista de entifdades ISADG</name_plural>
+              <name_singular>Lista de entidades ISADG</name_singular>
+              <name_plural>ILista de entidades ISADG</name_plural>
             </label>
           </labels>
         </item>
@@ -1682,7 +1678,7 @@
             </label>
             <label locale="pt_BR" preferred="1">
               <name_singular>usar para</name_singular>
-              <name_plural>uusar para</name_plural>
+              <name_plural>usar para</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -1870,6 +1866,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>site</name_singular>
               <name_plural>site</name_plural>
+            </label
+            <label locale="pt_BR" preferred="1">
+              <name_singular>sítio</name_singular>
+              <name_plural>sítios</name_plural>
             </label>
           </labels>
         </item>
@@ -1878,6 +1878,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>sous_site</name_singular>
               <name_plural>sous_site</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sob sítio</name_singular>
+              <name_plural>Sob sítio</name_plural>
             </label>
           </labels>
         </item>
@@ -2190,8 +2194,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>use for</name_singular>
-              <name_plural>use for</name_plural>
+              <name_singular>usar para</name_singular>
+              <name_plural>usar para</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2206,8 +2210,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternate</name_singular>
-              <name_plural>alternates</name_plural>
+              <name_singular>alternativa</name_singular>
+              <name_plural>alternativas</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2248,6 +2252,10 @@
               <name_singular>ISADG</name_singular>
               <name_plural>ISADG</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>ISADG</name_singular>
+              <name_plural>ISADG</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -2271,6 +2279,10 @@
               <name_singular>Collections municipales</name_singular>
               <name_plural>Collections municipales</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Coleção municipal</name_singular>
+              <name_plural>Coleções municipais</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -2283,7 +2295,7 @@
         <label locale="fr_FR">
           <name>Origines de la collection</name>
         </label>
-        <label locale="fr_FR">
+        <label locale="pt_BR">
           <name>Origens da coleção</name>
         </label>
       </labels>
@@ -2298,11 +2310,19 @@
               <name_singular>SPECTRUM</name_singular>
               <name_plural>SPECTRUM</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>SPECTRUM</name_singular>
+              <name_plural>SPECTRUM</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="isadg" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
+              <name_singular>ISADG</name_singular>
+              <name_plural>ISADG</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>ISADG</name_singular>
               <name_plural>ISADG</name_plural>
             </label>
@@ -2330,8 +2350,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>use for</name_singular>
-              <name_plural>use for</name_plural>
+              <name_singular>usar para</name_singular>
+              <name_plural>usar para</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2346,8 +2366,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternate</name_singular>
-              <name_plural>alternates</name_plural>
+              <name_singular>alternativa</name_singular>
+              <name_plural>alternativas</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2380,6 +2400,10 @@
               <name_singular>Musée</name_singular>
               <name_plural>Musées</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Museu</name_singular>
+              <name_plural>Museus</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="building" enabled="1" default="0">
@@ -2391,6 +2415,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>building</name_singular>
               <name_plural>buildings</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>edifício</name_singular>
+              <name_plural>edifícios</name_plural>
             </label>
           </labels>
         </item>
@@ -2404,6 +2432,10 @@
               <name_singular>floor</name_singular>
               <name_plural>floors</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>andar</name_singular>
+              <name_plural>andares</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="room" enabled="1" default="0">
@@ -2415,6 +2447,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>salle</name_singular>
               <name_plural>salles</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>sala</name_singular>
+              <name_plural>salas</name_plural>
             </label>
           </labels>
         </item>
@@ -2428,6 +2464,10 @@
               <name_singular>placard</name_singular>
               <name_plural>placards</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>armário</name_singular>
+              <name_plural>armários</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="drawer" enabled="1" default="0">
@@ -2439,6 +2479,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>tiroir</name_singular>
               <name_plural>tiroirs</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>gaveta</name_singular>
+              <name_plural>gavetas</name_plural>
             </label>
           </labels>
         </item>
@@ -2452,6 +2496,10 @@
               <name_singular>shelf</name_singular>
               <name_plural>shelf</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>prateleira</name_singular>
+              <name_plural>prateleiras</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="campus_1" enabled="1" default="1">
@@ -2459,6 +2507,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>campus</name_singular>
               <name_plural>campuses</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Museu</name_singular>
+              <name_plural>Museus</name_plural>
             </label>
           </labels>
         </item>
@@ -2468,6 +2520,10 @@
               <name_singular>boite</name_singular>
               <name_plural>boite</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>caixa pequena</name_singular>
+              <name_plural>caixas pequenas</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="floor_1" enabled="1" default="0">
@@ -2475,6 +2531,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>floor</name_singular>
               <name_plural>floors</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>andar</name_singular>
+              <name_plural>andares</name_plural>
             </label>
           </labels>
         </item>
@@ -2484,6 +2544,10 @@
               <name_singular>room</name_singular>
               <name_plural>rooms</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>sala</name_singular>
+              <name_plural>salas</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="caisse" enabled="1" default="0">
@@ -2491,6 +2555,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>caisse</name_singular>
               <name_plural>caisse</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>caixa grande</name_singular>
+              <name_plural>caixas grandes</name_plural>
             </label>
           </labels>
         </item>
@@ -2500,6 +2568,10 @@
               <name_singular>drawer</name_singular>
               <name_plural>drawer</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>gaveta</name_singular>
+              <name_plural>gavetas</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="shelf_1" enabled="1" default="0">
@@ -2507,6 +2579,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>shelf</name_singular>
               <name_plural>shelf</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>prateleira</name_singular>
+              <name_plural>prateleiras</name_plural>
             </label>
           </labels>
         </item>
@@ -2542,8 +2618,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>use for</name_singular>
-              <name_plural>use for</name_plural>
+              <name_singular>usar para</name_singular>
+              <name_plural>usar para</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2558,8 +2634,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternate</name_singular>
-              <name_plural>alternates</name_plural>
+              <name_singular>alternativa</name_singular>
+              <name_plural>alternativas</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2592,6 +2668,10 @@
               <name_singular>front</name_singular>
               <name_plural>front</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>frontal</name_singular>
+              <name_plural>frontais</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="back" enabled="1" default="0">
@@ -2603,6 +2683,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>de derrière</name_singular>
               <name_plural>de derrière</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>posterior</name_singular>
+              <name_plural>posteriores</name_plural>
             </label>
           </labels>
         </item>
@@ -2642,8 +2726,8 @@
               <name_plural>full tours</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>full tour</name_singular>
-              <name_plural>full tours</name_plural>
+              <name_singular>navegação completa</name_singular>
+              <name_plural>navegações completas</name_plural>
             </label>
           </labels>
         </item>
@@ -2658,8 +2742,8 @@
               <name_plural>short tours</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>short tour</name_singular>
-              <name_plural>short tours</name_plural>
+              <name_singular>navegação curta</name_singular>
+              <name_plural>navegações curtas</name_plural>
             </label>
           </labels>
         </item>
@@ -2699,8 +2783,8 @@
               <name_plural>primary stops</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>primary stop</name_singular>
-              <name_plural>primary stops</name_plural>
+              <name_singular>parada primária</name_singular>
+              <name_plural>paradas primárias</name_plural>
             </label>
           </labels>
         </item>
@@ -2715,8 +2799,8 @@
               <name_plural>optional stops</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>optional stop</name_singular>
-              <name_plural>optional stops</name_plural>
+              <name_singular>parada opcional</name_singular>
+              <name_plural>paradas opcionais</name_plural>
             </label>
           </labels>
         </item>
@@ -2743,7 +2827,7 @@
         <label locale="fr_FR">
           <name>Catégorie d accès</name>
         </label>
-        <label locale="fr_FR">
+        <label locale="pt_BR">
           <name>Categoria de acesso</name>
         </label>
       </labels>
@@ -2773,6 +2857,10 @@
               <name_singular>public</name_singular>
               <name_plural>publics</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>público</name_singular>
+              <name_plural>públicos</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -2784,6 +2872,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>restricted</name_singular>
               <name_plural>restricted</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>restrito</name_singular>
+              <name_plural>restritos</name_plural>
             </label>
           </labels>
         </item>
@@ -2797,6 +2889,10 @@
               <name_singular>privé</name_singular>
               <name_plural>privés</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>privado</name_singular>
+              <name_plural>privados</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i4" enabled="1" default="0">
@@ -2808,6 +2904,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>other</name_singular>
               <name_plural>other</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>outro</name_singular>
+              <name_plural>outros</name_plural>
             </label>
           </labels>
         </item>
@@ -2835,7 +2935,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -2865,7 +2966,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -2880,7 +2982,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -2896,7 +2999,7 @@
         <label locale="fr_FR">
           <name>Types de méthode d évaluation</name>
         </label>
-        <label locale="fr_FR">
+        <label locale="pt_BR">
           <name>Tipos de métodos de avaliação</name>
         </label>
       </labels>
@@ -2910,7 +3013,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -2925,7 +3029,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
             </label>
@@ -2940,7 +3045,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -2955,7 +3061,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -2971,7 +3078,7 @@
         <label locale="fr_FR">
           <name>Types de raison d évaluation</name>
         </label>
-        <label locale="fr_FR">
+        <label locale="pt_BR">
           <name>Tipos de razões de avaliação</name>
         </label>
       </labels>
@@ -2985,7 +3092,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3000,7 +3108,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
             </label>
@@ -3015,7 +3124,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -3030,7 +3140,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -3060,7 +3171,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3076,6 +3188,10 @@
               <name_singular>K-12 (général)</name_singular>
               <name_plural>K-12 (général)</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>K-12 (geral)</name_singular>
+              <name_plural>K-12 (geral)</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option2" enabled="1" default="0">
@@ -3087,6 +3203,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Pre-school (kindergarten)</name_singular>
               <name_plural>Pre-school (kindergarten)</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Educação Infantil</name_singular>
+              <name_plural>Educação Infantil</name_plural>
             </label>
           </labels>
         </item>
@@ -3100,6 +3220,10 @@
               <name_singular>Primary (grades 1-6)</name_singular>
               <name_plural>Primary (grades 1-6)</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Ensino Fundamental (séries 1-6)</name_singular>
+              <name_plural>Ensino Fundamental (séries 1-6)</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option4" enabled="1" default="0">
@@ -3111,6 +3235,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Secondaire (collège)</name_singular>
               <name_plural>Secondaire (collège)</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Ensino Fundamental (séries 7-9)</name_singular>
+              <name_plural>Ensino Fundamental (séries 7-9)</name_plural>
             </label>
           </labels>
         </item>
@@ -3124,6 +3252,10 @@
               <name_singular>Lycée</name_singular>
               <name_plural>Lycée</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Ensino Médio</name_singular>
+              <name_plural>Ensino Médio</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option6" enabled="1" default="0">
@@ -3135,6 +3267,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Université</name_singular>
               <name_plural>Universités</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Ensino Superior</name_singular>
+              <name_plural>Ensino Superior</name_plural>
             </label>
           </labels>
         </item>
@@ -3148,6 +3284,10 @@
               <name_singular>Post Graduate</name_singular>
               <name_plural>Post Graduate</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Pós Graduado</name_singular>
+              <name_plural>Pós Graduado</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option8" enabled="1" default="0">
@@ -3159,6 +3299,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>General Education</name_singular>
               <name_plural>General Education</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Educação Geral</name_singular>
+              <name_plural>Educação Geral</name_plural>
             </label>
           </labels>
         </item>
@@ -3172,6 +3316,10 @@
               <name_singular>Educator</name_singular>
               <name_plural>Educator</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Educador</name_singular>
+              <name_plural>Educadores</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option10" enabled="1" default="0">
@@ -3183,6 +3331,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Vocational</name_singular>
               <name_plural>Vocational</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Profissional</name_singular>
+              <name_plural>Profissionais</name_plural>
             </label>
           </labels>
         </item>
@@ -3196,6 +3348,10 @@
               <name_singular>Adulte</name_singular>
               <name_plural>Adultes</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Adulto</name_singular>
+              <name_plural>Adultos</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option12" enabled="1" default="0">
@@ -3207,6 +3363,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Special Audiences</name_singular>
               <name_plural>Special Audiences</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Público Especial</name_singular>
+              <name_plural>Público Especial</name_plural>
             </label>
           </labels>
         </item>
@@ -3220,6 +3380,10 @@
               <name_singular>Général</name_singular>
               <name_plural>Général</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Geral</name_singular>
+              <name_plural>Geral</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option14" enabled="1" default="0">
@@ -3232,6 +3396,10 @@
               <name_singular>Masculin</name_singular>
               <name_plural>Masculin</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Masculino</name_singular>
+              <name_plural>Masculino</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="option15" enabled="1" default="0">
@@ -3243,6 +3411,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Féminin</name_singular>
               <name_plural>Féminin</name_plural>
+            </label
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Feminino</name_singular>
+              <name_plural>Feminino</name_plural>
             </label>
           </labels>
         </item>
@@ -3255,6 +3427,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Other</name_singular>
               <name_plural>Other</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Outro</name_singular>
+              <name_plural>Outros</name_plural>
             </label>
           </labels>
         </item>
@@ -3299,6 +3475,10 @@
               <name_singular>full</name_singular>
               <name_plural>full</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>completa</name_singular>
+              <name_plural>completas</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -3311,6 +3491,10 @@
               <name_singular>random</name_singular>
               <name_plural>random</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>aleatória</name_singular>
+              <name_plural>aleatórias</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i3" enabled="1" default="0">
@@ -3322,6 +3506,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>selective</name_singular>
               <name_plural>selective</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>seletiva</name_singular>
+              <name_plural>seletivas</name_plural>
             </label>
           </labels>
         </item>
@@ -3349,7 +3537,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3365,6 +3554,10 @@
               <name_singular>condition</name_singular>
               <name_plural>conditions</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>condição</name_singular>
+              <name_plural>condições</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -3377,6 +3570,10 @@
               <name_singular>information</name_singular>
               <name_plural>informations</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>informação</name_singular>
+              <name_plural>informações</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i3" enabled="1" default="0">
@@ -3388,6 +3585,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>location</name_singular>
               <name_plural>location</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>localização</name_singular>
+              <name_plural>localizações</name_plural>
             </label>
           </labels>
         </item>
@@ -16751,6 +16952,9 @@
         <label locale="fr_FR">
           <name>Autre numéro</name>
         </label>
+        <label locale="pt_BR">
+          <name>Outro número</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -16773,6 +16977,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Autre numéro</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Outro número</name>
                 </label>
               </labels>
               <settings>
@@ -16808,6 +17015,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Type d'autre numéro</name>
+                </label>
+                label locale="fr_FR">
+                  <name>Tipo do outro número</name>
                 </label>
               </labels>
               <settings>
@@ -18337,6 +18547,9 @@ If appropriate, include information on where to obtain a copy.</description>
           <labels>
             <label locale="fr_FR">
               <name>Commentaires</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Comentários</name>
             </label>
           </labels>
           <settings>
@@ -30447,7 +30660,8 @@ If appropriate, include information on where to obtain a copy.</description>
                 <setting name="label" locale="fr_FR">Désignation principale&lt;/span&gt;&lt;span class='formLabelDocumentationLink'&gt;&lt;a href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#TITR target='_blank'&gt;?&lt;/a&gt;</setting>
                 <setting name="label" locale="pt_BR">Designação principal&lt;/span&gt;&lt;span class='formLabelDocumentationLink'&gt;&lt;a href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#TITR target='_blank'&gt;?&lt;/a&gt;</setting>
                 <setting name="add_label" locale="fr_FR">Désignation principale</setting>
-                <setting name="add_label" locale="pt_BR">Designação principal</setting><setting name="readonly"/>
+                <setting name="add_label" locale="pt_BR">Designação principal</setting>
+                <setting name="readonly"/>
                 <setting name="expand_collapse_value">bubbles</setting>
                 <setting name="expand_collapse_no_value">bubbles</setting>
                 <setting name="usewysiwygeditor"/>
@@ -36661,7 +36875,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
               <settings>
                 <setting name="label" locale="fr_FR">Autres titres</setting>
                 <setting name="label" locale="en_US">Autres titres</setting>
-                <setting name="label" locale="pt_BR">Outros títulos titres</setting>
+                <setting name="label" locale="pt_BR">Outros títulos</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter un autre titre</setting>
                 <setting name="add_label" locale="en_US">Ajouter un autre titre</setting>
                 <setting name="add_label" locale="pt_BR">Adicionar um outro título</setting>
@@ -37043,7 +37257,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
     <userInterface code="saisie_artotheque" type="ca_objects" typeRestrictions="artotheque" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
-          <name>Saisie acervo arquivológico</name>
+          <name>Saisie artothèque</name>
         </label>
         <label locale="pt_BR">
           <name>Entrada acervo arquivológico</name>
@@ -37053,7 +37267,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <screen idno="screen_39_0" default="1" typeRestrictions="artotheque" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
-              <name>Saisie acervo arquivológico</name>
+              <name>Saisie artotheque</name>
             </label>
             <label locale="pt_BR">
               <name>Entrada acervo arquivológico</name>
