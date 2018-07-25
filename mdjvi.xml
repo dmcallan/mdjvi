@@ -333,12 +333,6 @@
     </list>
     <list code="object_types" hierarchical="0" system="0" vocabulary="1">
       <labels>
-        <label locale="en_US">
-          <name>Object Types</name>
-        </label>
-        <label locale="fr_FR">
-          <name>Types d objets</name>
-        </label>
         <label locale="pt_BR">
           <name>Tipos de objetos</name>
         </label>
@@ -352,7 +346,7 @@
             </label>
           </labels>
           <items>
-            <item idno="arv" enabled="1" default="0" value="1">
+            <item idno="artvis" enabled="1" default="0" value="1">
               <labels>
                 <label locale="pt_BR" preferred="1">
                   <name_singular>Artes visuais</name_singular>
@@ -360,7 +354,7 @@
                 </label>
               </labels>
               <items>
-                <item idno="arv_consart" enabled="1" default="0">
+                <item idno="artvis_consart" enabled="1" default="0">
                   <labels>
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Construção artística</name_singular>
@@ -368,7 +362,7 @@
                     </label>
                   </labels>
                 </item>
-                <item idno="arv_desenho" enabled="1" default="0">
+                <item idno="artvis_desenho" enabled="1" default="0">
                   <labels>
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Desenho</name_singular>
@@ -376,7 +370,7 @@
                     </label>
                   </labels>
                 </item>
-                <item idno="arv_desarq" enabled="1" default="0">
+                <item idno="artvis_desarq" enabled="1" default="0">
                   <labels>
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Desenho arquitetônico</name_singular>
@@ -384,7 +378,7 @@
                     </label>
                   </labels>
                 </item>
-                <item idno="arv_escultura" enabled="1" default="0">
+                <item idno="artvis_escultura" enabled="1" default="0">
               <labels>
                 <label locale="pt_BR" preferred="1">
                   <name_singular>Escultura</name_singular>
@@ -392,7 +386,7 @@
                 </label>
               </labels>
             </item>
-                <item idno="arv_gravura" enabled="1" default="0">
+                <item idno="artvis_gravura" enabled="1" default="0">
                   <labels>
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Gravura</name_singular>
@@ -400,7 +394,7 @@
                     </label>
                   </labels>
                 </item>
-                <item idno="arv_pintura" enabled="1" default="0">
+                <item idno="artvis_pintura" enabled="1" default="0">
                   <labels>
                     <label locale="pt_BR" preferred="1">
                       <name_singular>Pintura</name_singular>
@@ -410,7 +404,7 @@
                 </item>
               </items>
             </item>
-            <item idno="dep" enabled="1" default="0" value="2">
+            <item idno="cag" enabled="1" default="0" value="2">
               <labels>
                 <label locale="pt_BR" preferred="1">
                   <name_singular>Caça/Guerra</name_singular>
@@ -418,302 +412,317 @@
                 </label>
               </labels>
               <items>
-                <item idno="dep_art" enabled="1" default="0">
+                <item idno="cag_acarmaria" enabled="1" default="0">
                   <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Art</name_singular>
-                      <name_plural>Art</name_plural>
-                    </label>
                     <label locale="pt_BR" preferred="1">
-                      <name_singular>Arte</name_singular>
-                      <name_plural>Arte</name_plural>
+                      <name_singular>Acessório de armaria</name_singular>
+                      <name_plural>Acessórios de armaria</name_plural>
                     </label>
                   </labels>
                 </item>
-                <item idno="dep_other" enabled="1" default="0">
+                <item idno="cag_arma" enabled="1" default="0">
                   <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Autre</name_singular>
-                      <name_plural>Autres</name_plural>
-                    </label>
                     <label locale="pt_BR" preferred="1">
-                      <name_singular>Autro</name_singular>
-                      <name_plural>Autros</name_plural>
+                      <name_singular>Arma</name_singular>
+                      <name_plural>Armas</name_plural>
                     </label>
                   </labels>
                 </item>
-                <item idno="dep_costume" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Costume</name_singular>
-                      <name_plural>Costumes</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Indumentária</name_singular>
-                      <name_plural>Indumentária</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_ethno" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Ethnologie</name_singular>
-                      <name_plural>Ethnologie</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Etnologia</name_singular>
-                      <name_plural>Etnologia</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_archeo" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Histoire, Archéologie</name_singular>
-                      <name_plural>Histoire, Archéologie</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>História, Arqueologia</name_singular>
-                      <name_plural>História, Arqueologia</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_nat" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Sciences naturelles</name_singular>
-                      <name_plural>Sciences naturelles</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Ciências Naturais</name_singular>
-                      <name_plural>Ciências Naturais</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_techno" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Technologie</name_singular>
-                      <name_plural>Technologie</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Tecnologia</name_singular>
-                      <name_plural>Tecnologia</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_peinture" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Tableau</name_singular>
-                      <name_plural>Tableau</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Pintura</name_singular>
-                      <name_plural>Pinturas</name_plural>
-                    </label>
-                  </labels>
-                </item>
-                <item idno="dep_complexe" enabled="1" default="0">
-                  <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Ensemble complexe</name_singular>
-                      <name_plural>Ensemble complexe</name_plural>
-                    </label>
-                    <label locale="pt_BR" preferred="1">
-                      <name_singular>Conjunto complexo</name_singular>
-                      <name_plural>Conjunto complexo</name_plural>
-                    </label>
-                  </labels>
-                </item>
+
               </items>
             </item>
-            <item idno="fonds" enabled="1" default="0">
+            <item idno="amostfrag" enabled="1" default="0">
               <labels>
-                <label locale="en_US" preferred="1">
-                  <name_singular>Fonds</name_singular>
-                  <name_plural>Fonds</name_plural>
-                </label>
                 <label locale="pt_BR" preferred="1">
-                  <name_singular>Fundos</name_singular>
-                  <name_plural>Fundos</name_plural>
+                  <name_singular>Amostras/Fragmentos</name_singular>
+                  <name_plural>Amostras/Fragmentos</name_plural>
+                </label>
+              </labels>
+            </item>
+            <item idno="comunic" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Comunicação</name_singular>
+                  <name_plural>Comunicações</name_plural>
                 </label>
               </labels>
               <items>
-                <item idno="subfonds" enabled="1" default="0">
+                <item idno="comunic_doc_diploma" enabled="1" default="0">
                   <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Sous-fonds</name_singular>
-                      <name_plural>Sous-fonds</name_plural>
-                    </label>
-                    <label locale="en_US" preferred="1">
-                      <name_singular>Sub-fonds</name_singular>
-                      <name_plural>Sub-fonds</name_plural>
-                    </label>
                     <label locale="pt_BR" preferred="1">
-                      <name_singular>Sub-fundos</name_singular>
-                      <name_plural>Sub-fundos</name_plural>
+                      <name_singular>Documento diploma</name_singular>
+                      <name_plural>Documentos diplomas</name_plural>
                     </label>
                   </labels>
-                  <items>
-                    <item idno="series" enabled="1" default="0">
-                      <labels>
-                        <label locale="fr_FR" preferred="1">
-                          <name_singular>Série organique</name_singular>
-                          <name_plural>Séries organiques</name_plural>
-                        </label>
-                        <label locale="en_US" preferred="1">
-                          <name_singular>Series</name_singular>
-                          <name_plural>Series</name_plural>
-                        </label>
-                        <label locale="pt_BR" preferred="1">
-                          <name_singular>Série orgânica</name_singular>
-                          <name_plural>Séries orgânicas</name_plural>
-                        </label>
-                      </labels>
-                      <items>
-                        <item idno="subseries" enabled="1" default="0">
-                          <labels>
-                            <label locale="fr_FR" preferred="1">
-                              <name_singular>Sous-série organique</name_singular>
-                              <name_plural>Sous-séries organiques</name_plural>
-                            </label>
-                            <label locale="pt_BR" preferred="1">
-                              <name_singular>Sub-série orgânica</name_singular>
-                              <name_plural>Sub-séries orgânicas</name_plural>
-                            </label>
-                            <label locale="en_US" preferred="1">
-                              <name_singular>Sub-series</name_singular>
-                              <name_plural>Sub-series</name_plural>
-                            </label>
-                          </labels>
-                          <items>
-                            <item idno="file" enabled="1" default="0">
-                              <labels>
-                                <label locale="fr_FR" preferred="1">
-                                  <name_singular>Dossier</name_singular>
-                                  <name_plural>Dossiers</name_plural>
-                                </label>
-                                <label locale="en_US" preferred="1">
-                                  <name_singular>File</name_singular>
-                                  <name_plural>Files</name_plural>
-                                </label>
-                                <label locale="pt_BR" preferred="1">
-                                  <name_singular>Arquivo</name_singular>
-                                  <name_plural>Arquivos</name_plural>
-                                </label>
-                              </labels>
-                              <items>
-                                <item idno="item" enabled="1" default="1">
-                                  <labels>
-                                    <label locale="en_US" preferred="1">
-                                      <name_singular>Item</name_singular>
-                                      <name_plural>Items</name_plural>
-                                    </label>
-                                    <label locale="fr_FR" preferred="1">
-                                      <name_singular>Pièce</name_singular>
-                                      <name_plural>Pièces</name_plural>
-                                    </label>
-                                    <label locale="pt_BR" preferred="1">
-                                      <name_singular>Item</name_singular>
-                                      <name_plural>Itens</name_plural>
-                                    </label>
-                                  </labels>
-                                </item>
-                              </items>
-                            </item>
-                          </items>
-                        </item>
-                      </items>
-                    </item>
-                  </items>
+                </item>
+                 <item idno="comunic_eqescrita" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Equipamento de comunicação escrita</name_singular>
+                      <name_plural>Equipamentos de comunicação escrita</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="comunic_doc_foto" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Documento fotográfico</name_singular>
+                      <name_plural>Documentos fotográficos</name_plural>
+                    </label>
+                  </labels>
                 </item>
               </items>
             </item>
-            <item idno="book" enabled="1" default="0">
+            <item idno="constru" enabled="1" default="0">
               <labels>
-                <label locale="fr_FR" preferred="1">
-                  <name_singular>Livre</name_singular>
-                  <name_plural>Livres</name_plural>
-                </label>
                 <label locale="pt_BR" preferred="1">
-                  <name_singular>Livro</name_singular>
-                  <name_plural>Livros</name_plural>
-                </label>
-              </labels>
-            </item>
-            <item idno="serial" enabled="1" default="0">
-              <labels>
-                <label locale="fr_FR" preferred="1">
-                  <name_singular>Revue</name_singular>
-                  <name_plural>Revues</name_plural>
-                </label>
-                <label locale="pt_BR" preferred="1">
-                  <name_singular>Periódico</name_singular>
-                  <name_plural>Periódicos</name_plural>
+                  <name_singular>Construção</name_singular>
+                  <name_plural>Construções</name_plural>
                 </label>
               </labels>
               <items>
-                <item idno="issue" enabled="1" default="0">
+                <item idno="constru_fragmento" enabled="1" default="0">
                   <labels>
-                    <label locale="fr_FR" preferred="1">
-                      <name_singular>Numéro</name_singular>
-                      <name_plural>Numéro</name_plural>
-                    </label>
                     <label locale="pt_BR" preferred="1">
-                      <name_singular>Edição</name_singular>
-                      <name_plural>Edições</name_plural>
+                      <name_singular>Fragmento de construção</name_singular>
+                      <name_plural>Fragmentos de construção</name_plural>
                     </label>
                   </labels>
-                  <items>
-                    <item idno="article" enabled="1" default="0">
-                      <labels>
-                        <label locale="fr_FR" preferred="1">
-                          <name_singular>Article</name_singular>
-                          <name_plural>Articles</name_plural>
-                        </label>
-                        <label locale="pt_BR" preferred="1">
-                          <name_singular>Artigo</name_singular>
-                          <name_plural>Artigos</name_plural>
-                        </label>
-                      </labels>
-                    </item>
-                  </items>
                 </item>
               </items>
             </item>
-            <item idno="audio" enabled="1" default="0">
+            <item idno="insign" enabled="1" default="0">
               <labels>
-                <label locale="fr_FR" preferred="1">
-                  <name_singular>Audio</name_singular>
-                  <name_plural>Audio</name_plural>
-                </label>
                 <label locale="pt_BR" preferred="1">
-                  <name_singular>Áudio</name_singular>
-                  <name_plural>Áudios</name_plural>
+                  <name_singular>Insígnia</name_singular>
+                  <name_plural>Insígnias</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="insign_bandeira" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Bandeira</name_singular>
+                      <name_plural>Bandeiras</name_plural>
+                    </label>
+                  </labels>
+                </item>
+              </items>
+            </item>
+            <item idno="interior" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Interior</name_singular>
+                  <name_plural>Interiores</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="interior_acessorio" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Acessório de interiores</name_singular>
+                      <name_plural>Acessórios de interiores</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="interior_ilumina" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto de iluminação</name_singular>
+                      <name_plural>Objetos de iluminação</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="interior_mobil" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Peça de mobiliário</name_singular>
+                      <name_plural>Peças de mobiliário</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="interior_cozinha" enabled="1" default="1">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Utensílio de cozinha/mesa</name_singular>
+                      <name_plural>Utensílios de cozinha/mesa</name_plural>
+                    </label>
+                  </labels>
+                </item>
+              </items>
+            </item>
+            <item idno="embala" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Embalagem/Recipiente</name_singular>
+                  <name_plural>Embalagens/Recipientes</name_plural>
                 </label>
               </labels>
             </item>
-            <item idno="video" enabled="1" default="0">
+            <item idno="lazer" enabled="1" default="0">
               <labels>
-                <label locale="fr_FR" preferred="1">
-                  <name_singular>Video</name_singular>
-                  <name_plural>Video</name_plural>
-                </label>
                 <label locale="pt_BR" preferred="1">
-                  <name_singular>Vídeo</name_singular>
-                  <name_plural>Vídeos</name_plural>
+                  <name_singular>Lazer/Desporto</name_singular>
+                  <name_plural>Lazer/Desporto</name_plural>
                 </label>
               </labels>
+            </item>
+            <item idno="medicao" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Medição/registro/...</name_singular>
+                  <name_plural>Medição/registro/observação/processamento</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="medicao_precisao" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Instrumento de precisão/ótico</name_singular>
+                      <name_plural>Instrumento de precisão/ótico</name_plural>
+                    </label>
+                  </labels>
+                </item>
+              </items>
+            </item>
+            <item idno="cerimon" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Objeto cerimonial</name_singular>
+                  <name_plural>Objetos cerimoniais</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="cerimon_comemora" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto comemorativo</name_singular>
+                      <name_plural>Objetos comemorativo</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="cerimon_culto" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto de culto</name_singular>
+                      <name_plural>Objetos de culto</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="cerimon_panegi" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Panegírico</name_singular>
+                        <name_plural>Panegírico</name_plural>
+                    </label>
+                  </labels>
+                </item>
+              </items>
+            </item>
+            <item idno="opessoal" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Objeto pessoal</name_singular>
+                  <name_plural>Objetos pessoais</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="opessoal_acindum" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Acessório de indumentária</name_singular>
+                      <name_plural>Acessórios de indumentária</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="opessoal_tabag" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Artigo de tabagismo</name_singular>
+                      <name_plural>Artigos de tabagismo</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+                <item idno="opessoal_toalete" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Artigo de toalete</name_singular>
+                      <name_plural>Artigos de toalete</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+                <item idno="opessoal_adorno" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto de adorno</name_singular>
+                      <name_plural>Objetos de adorno</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+                <item idno="opessoal_conforto" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto de auxílio/conforto pessoais</name_singular>
+                      <name_plural>Objetos de auxílio/conforto pessoais</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+                <item idno="opessoal_devocao" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Objeto de devoção pessoal</name_singular>
+                      <name_plural>Objetos de devoção pessoal</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+                <item idno="opessoal_indum" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Peça de indumentária</name_singular>
+                      <name_plural>Peças de indumentária</name_plural>
+                    </label>
+                  </labels>
+                </item> 
+              </items>
+            </item>
+            <item idno="trab" enabled="1" default="0">
+              <labels>
+                <label locale="pt_BR" preferred="1">
+                  <name_singular>Trabalho</name_singular>
+                  <name_plural>Trabalhos</name_plural>
+                </label>
+              </labels>
+              <items>
+                <item idno="trab_eqart" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Equipamento de artistas/artesãos</name_singular>
+                      <name_plural>Equipamentos de artistas/artesãos</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="trab_eqfia" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Equipamento de fiação/tecelagem</name_singular>
+                      <name_plural>EEquipamentos de fiação/tecelagem</name_plural>
+                    </label>
+                  </labels>
+                </item>
+                <item idno="trab_instrumusic" enabled="1" default="0">
+                  <labels>
+                    <label locale="pt_BR" preferred="1">
+                      <name_singular>Instrumento musical</name_singular>
+                      <name_plural>Instrumentos musicais</name_plural>
+                    </label>
+                  </labels>
+                </item>
+              </items>
             </item>
           </items>
         </item>
         <item idno="arquivo" enabled="1" default="0">
           <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>Archives</name_singular>
-              <name_plural>Archives</name_plural>
-            </label>
             <label locale="pt_BR" preferred="1">
               <name_singular>Acervo Arquivológico</name_singular>
               <name_plural>Acervo Arquivológico</name_plural>
@@ -809,16 +818,16 @@
               <name_plural>inventariados</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
-              <name_singular>arvuis</name_singular>
-              <name_plural>arvuis</name_plural>
+              <name_singular>acquis</name_singular>
+              <name_plural>acquis</name_plural>
             </label>
           </labels>
         </item>
         <item idno="non_accessioned" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
-              <name_singular>non arvuis</name_singular>
-              <name_plural>non arvuis</name_plural>
+              <name_singular>non acquis</name_singular>
+              <name_plural>non acquis</name_plural>
             </label>
             <label locale="en_US" preferred="1">
               <name_singular>non-accessioned</name_singular>
@@ -872,7 +881,7 @@
         </item>
       </items>
     </list>
-    <list code="object_arv_types" hierarchical="0" system="0" vocabulary="0">
+    <list code="object_acq_types" hierarchical="0" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
           <name>Object acquisition types</name>
@@ -1097,6 +1106,10 @@
               <name_singular>completed</name_singular>
               <name_plural>completed</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>completed</name_singular>
+              <name_plural>completed</name_plural>
+            </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>validé</name_singular>
               <name_plural>validés</name_plural>
@@ -1235,16 +1248,16 @@
               <name_plural>adquirido</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
-              <name_singular>arvuis</name_singular>
-              <name_plural>arvuis</name_plural>
+              <name_singular>acquis</name_singular>
+              <name_plural>acquis</name_plural>
             </label>
           </labels>
         </item>
         <item idno="non_accessioned" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
-              <name_singular>non arvuis</name_singular>
-              <name_plural>non arvuis</name_plural>
+              <name_singular>non acquis</name_singular>
+              <name_plural>non acquis</name_plural>
             </label>
             <label locale="en_US" preferred="1">
               <name_singular>non-accessioned</name_singular>
@@ -1282,7 +1295,7 @@
         <label locale="fr_FR">
           <name>Valeurs de type de libellés pour les lots d objets</name>
         </label>
-        <label locale="pt_BR">
+        <label locale="fr_FR">
           <name>Valores do tipo de etiqueta para o lote de objetos</name>
         </label>
       </labels>
@@ -1542,8 +1555,8 @@
               <name_plural>ISADG entity list</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>Lista de entidades ISADG</name_singular>
-              <name_plural>ILista de entidades ISADG</name_plural>
+              <name_singular>Lista de entifdades ISADG</name_singular>
+              <name_plural>ILista de entifdades ISADG</name_plural>
             </label>
           </labels>
         </item>
@@ -1570,7 +1583,7 @@
             </label>
             <label locale="pt_BR" preferred="1">
               <name_singular>usar para</name_singular>
-              <name_plural>usar para</name_plural>
+              <name_plural>uusar para</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -1758,10 +1771,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>site</name_singular>
               <name_plural>site</name_plural>
-            </label
-            <label locale="pt_BR" preferred="1">
-              <name_singular>sítio</name_singular>
-              <name_plural>sítios</name_plural>
             </label>
           </labels>
         </item>
@@ -1770,10 +1779,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>sous_site</name_singular>
               <name_plural>sous_site</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Sob sítio</name_singular>
-              <name_plural>Sob sítio</name_plural>
             </label>
           </labels>
         </item>
@@ -2086,8 +2091,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>usar para</name_singular>
-              <name_plural>usar para</name_plural>
+              <name_singular>use for</name_singular>
+              <name_plural>use for</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2102,8 +2107,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternativa</name_singular>
-              <name_plural>alternativas</name_plural>
+              <name_singular>alternate</name_singular>
+              <name_plural>alternates</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2144,10 +2149,6 @@
               <name_singular>ISADG</name_singular>
               <name_plural>ISADG</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>ISADG</name_singular>
-              <name_plural>ISADG</name_plural>
-            </label>
           </labels>
         </item>
       </items>
@@ -2171,10 +2172,6 @@
               <name_singular>Collections municipales</name_singular>
               <name_plural>Collections municipales</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Coleção municipal</name_singular>
-              <name_plural>Coleções municipais</name_plural>
-            </label>
           </labels>
         </item>
       </items>
@@ -2187,7 +2184,7 @@
         <label locale="fr_FR">
           <name>Origines de la collection</name>
         </label>
-        <label locale="pt_BR">
+        <label locale="fr_FR">
           <name>Origens da coleção</name>
         </label>
       </labels>
@@ -2202,19 +2199,11 @@
               <name_singular>SPECTRUM</name_singular>
               <name_plural>SPECTRUM</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>SPECTRUM</name_singular>
-              <name_plural>SPECTRUM</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="isadg" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>ISADG</name_singular>
-              <name_plural>ISADG</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
               <name_singular>ISADG</name_singular>
               <name_plural>ISADG</name_plural>
             </label>
@@ -2242,8 +2231,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>usar para</name_singular>
-              <name_plural>usar para</name_plural>
+              <name_singular>use for</name_singular>
+              <name_plural>use for</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2258,8 +2247,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternativa</name_singular>
-              <name_plural>alternativas</name_plural>
+              <name_singular>alternate</name_singular>
+              <name_plural>alternates</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2292,10 +2281,6 @@
               <name_singular>Musée</name_singular>
               <name_plural>Musées</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Museu</name_singular>
-              <name_plural>Museus</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="building" enabled="1" default="0">
@@ -2307,10 +2292,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>building</name_singular>
               <name_plural>buildings</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>edifício</name_singular>
-              <name_plural>edifícios</name_plural>
             </label>
           </labels>
         </item>
@@ -2324,10 +2305,6 @@
               <name_singular>floor</name_singular>
               <name_plural>floors</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>andar</name_singular>
-              <name_plural>andares</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="room" enabled="1" default="0">
@@ -2339,10 +2316,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>salle</name_singular>
               <name_plural>salles</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>sala</name_singular>
-              <name_plural>salas</name_plural>
             </label>
           </labels>
         </item>
@@ -2356,10 +2329,6 @@
               <name_singular>placard</name_singular>
               <name_plural>placards</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>armário</name_singular>
-              <name_plural>armários</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="drawer" enabled="1" default="0">
@@ -2371,10 +2340,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>tiroir</name_singular>
               <name_plural>tiroirs</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>gaveta</name_singular>
-              <name_plural>gavetas</name_plural>
             </label>
           </labels>
         </item>
@@ -2388,10 +2353,6 @@
               <name_singular>shelf</name_singular>
               <name_plural>shelf</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>prateleira</name_singular>
-              <name_plural>prateleiras</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="campus_1" enabled="1" default="1">
@@ -2399,10 +2360,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>campus</name_singular>
               <name_plural>campuses</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Museu</name_singular>
-              <name_plural>Museus</name_plural>
             </label>
           </labels>
         </item>
@@ -2412,10 +2369,6 @@
               <name_singular>boite</name_singular>
               <name_plural>boite</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>caixa pequena</name_singular>
-              <name_plural>caixas pequenas</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="floor_1" enabled="1" default="0">
@@ -2423,10 +2376,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>floor</name_singular>
               <name_plural>floors</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>andar</name_singular>
-              <name_plural>andares</name_plural>
             </label>
           </labels>
         </item>
@@ -2436,10 +2385,6 @@
               <name_singular>room</name_singular>
               <name_plural>rooms</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>sala</name_singular>
-              <name_plural>salas</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="caisse" enabled="1" default="0">
@@ -2447,10 +2392,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>caisse</name_singular>
               <name_plural>caisse</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>caixa grande</name_singular>
-              <name_plural>caixas grandes</name_plural>
             </label>
           </labels>
         </item>
@@ -2460,10 +2401,6 @@
               <name_singular>drawer</name_singular>
               <name_plural>drawer</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>gaveta</name_singular>
-              <name_plural>gavetas</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="shelf_1" enabled="1" default="0">
@@ -2471,10 +2408,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>shelf</name_singular>
               <name_plural>shelf</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>prateleira</name_singular>
-              <name_plural>prateleiras</name_plural>
             </label>
           </labels>
         </item>
@@ -2510,8 +2443,8 @@
               <name_plural>use for</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>usar para</name_singular>
-              <name_plural>usar para</name_plural>
+              <name_singular>use for</name_singular>
+              <name_plural>use for</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>utiliser pour</name_singular>
@@ -2526,8 +2459,8 @@
               <name_plural>alternates</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>alternativa</name_singular>
-              <name_plural>alternativas</name_plural>
+              <name_singular>alternate</name_singular>
+              <name_plural>alternates</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>alternatif</name_singular>
@@ -2560,10 +2493,6 @@
               <name_singular>front</name_singular>
               <name_plural>front</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>frontal</name_singular>
-              <name_plural>frontais</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="back" enabled="1" default="0">
@@ -2575,10 +2504,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>de derrière</name_singular>
               <name_plural>de derrière</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>posterior</name_singular>
-              <name_plural>posteriores</name_plural>
             </label>
           </labels>
         </item>
@@ -2618,8 +2543,8 @@
               <name_plural>full tours</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>navegação completa</name_singular>
-              <name_plural>navegações completas</name_plural>
+              <name_singular>full tour</name_singular>
+              <name_plural>full tours</name_plural>
             </label>
           </labels>
         </item>
@@ -2634,8 +2559,8 @@
               <name_plural>short tours</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>navegação curta</name_singular>
-              <name_plural>navegações curtas</name_plural>
+              <name_singular>short tour</name_singular>
+              <name_plural>short tours</name_plural>
             </label>
           </labels>
         </item>
@@ -2675,8 +2600,8 @@
               <name_plural>primary stops</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>parada primária</name_singular>
-              <name_plural>paradas primárias</name_plural>
+              <name_singular>primary stop</name_singular>
+              <name_plural>primary stops</name_plural>
             </label>
           </labels>
         </item>
@@ -2691,8 +2616,8 @@
               <name_plural>optional stops</name_plural>
             </label>
             <label locale="pt_BR" preferred="1">
-              <name_singular>parada opcional</name_singular>
-              <name_plural>paradas opcionais</name_plural>
+              <name_singular>optional stop</name_singular>
+              <name_plural>optional stops</name_plural>
             </label>
           </labels>
         </item>
@@ -2719,7 +2644,7 @@
         <label locale="fr_FR">
           <name>Catégorie d accès</name>
         </label>
-        <label locale="pt_BR">
+        <label locale="fr_FR">
           <name>Categoria de acesso</name>
         </label>
       </labels>
@@ -2749,10 +2674,6 @@
               <name_singular>public</name_singular>
               <name_plural>publics</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>público</name_singular>
-              <name_plural>públicos</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -2764,10 +2685,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>restricted</name_singular>
               <name_plural>restricted</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>restrito</name_singular>
-              <name_plural>restritos</name_plural>
             </label>
           </labels>
         </item>
@@ -2781,10 +2698,6 @@
               <name_singular>privé</name_singular>
               <name_plural>privés</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>privado</name_singular>
-              <name_plural>privados</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i4" enabled="1" default="0">
@@ -2796,10 +2709,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>other</name_singular>
               <name_plural>other</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>outro</name_singular>
-              <name_plural>outros</name_plural>
             </label>
           </labels>
         </item>
@@ -2827,8 +2736,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -2858,8 +2766,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -2874,8 +2781,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -2891,7 +2797,7 @@
         <label locale="fr_FR">
           <name>Types de méthode d évaluation</name>
         </label>
-        <label locale="pt_BR">
+        <label locale="fr_FR">
           <name>Tipos de métodos de avaliação</name>
         </label>
       </labels>
@@ -2905,8 +2811,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -2921,8 +2826,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
             </label>
@@ -2937,8 +2841,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -2953,8 +2856,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -2970,7 +2872,7 @@
         <label locale="fr_FR">
           <name>Types de raison d évaluation</name>
         </label>
-        <label locale="pt_BR">
+        <label locale="fr_FR">
           <name>Tipos de razões de avaliação</name>
         </label>
       </labels>
@@ -2984,8 +2886,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3000,8 +2901,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype1</name_singular>
               <name_plural>Entertype1</name_plural>
             </label>
@@ -3016,8 +2916,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype2</name_singular>
               <name_plural>Entertype2</name_plural>
             </label>
@@ -3032,8 +2931,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>Entertype3</name_singular>
               <name_plural>Entertype3</name_plural>
             </label>
@@ -3063,8 +2961,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3080,10 +2977,6 @@
               <name_singular>K-12 (général)</name_singular>
               <name_plural>K-12 (général)</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>K-12 (geral)</name_singular>
-              <name_plural>K-12 (geral)</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option2" enabled="1" default="0">
@@ -3095,10 +2988,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>Pre-school (kindergarten)</name_singular>
               <name_plural>Pre-school (kindergarten)</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Educação Infantil</name_singular>
-              <name_plural>Educação Infantil</name_plural>
             </label>
           </labels>
         </item>
@@ -3112,10 +3001,6 @@
               <name_singular>Primary (grades 1-6)</name_singular>
               <name_plural>Primary (grades 1-6)</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Ensino Fundamental (séries 1-6)</name_singular>
-              <name_plural>Ensino Fundamental (séries 1-6)</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option4" enabled="1" default="0">
@@ -3127,10 +3012,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Secondaire (collège)</name_singular>
               <name_plural>Secondaire (collège)</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Ensino Fundamental (séries 7-9)</name_singular>
-              <name_plural>Ensino Fundamental (séries 7-9)</name_plural>
             </label>
           </labels>
         </item>
@@ -3144,10 +3025,6 @@
               <name_singular>Lycée</name_singular>
               <name_plural>Lycée</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Ensino Médio</name_singular>
-              <name_plural>Ensino Médio</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option6" enabled="1" default="0">
@@ -3159,10 +3036,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Université</name_singular>
               <name_plural>Universités</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Ensino Superior</name_singular>
-              <name_plural>Ensino Superior</name_plural>
             </label>
           </labels>
         </item>
@@ -3176,10 +3049,6 @@
               <name_singular>Post Graduate</name_singular>
               <name_plural>Post Graduate</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Pós Graduado</name_singular>
-              <name_plural>Pós Graduado</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option8" enabled="1" default="0">
@@ -3191,10 +3060,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>General Education</name_singular>
               <name_plural>General Education</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Educação Geral</name_singular>
-              <name_plural>Educação Geral</name_plural>
             </label>
           </labels>
         </item>
@@ -3208,10 +3073,6 @@
               <name_singular>Educator</name_singular>
               <name_plural>Educator</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Educador</name_singular>
-              <name_plural>Educadores</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option10" enabled="1" default="0">
@@ -3223,10 +3084,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>Vocational</name_singular>
               <name_plural>Vocational</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Profissional</name_singular>
-              <name_plural>Profissionais</name_plural>
             </label>
           </labels>
         </item>
@@ -3240,10 +3097,6 @@
               <name_singular>Adulte</name_singular>
               <name_plural>Adultes</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Adulto</name_singular>
-              <name_plural>Adultos</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option12" enabled="1" default="0">
@@ -3255,10 +3108,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>Special Audiences</name_singular>
               <name_plural>Special Audiences</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Público Especial</name_singular>
-              <name_plural>Público Especial</name_plural>
             </label>
           </labels>
         </item>
@@ -3272,10 +3121,6 @@
               <name_singular>Général</name_singular>
               <name_plural>Général</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Geral</name_singular>
-              <name_plural>Geral</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option14" enabled="1" default="0">
@@ -3288,10 +3133,6 @@
               <name_singular>Masculin</name_singular>
               <name_plural>Masculin</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Masculino</name_singular>
-              <name_plural>Masculino</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="option15" enabled="1" default="0">
@@ -3303,10 +3144,6 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Féminin</name_singular>
               <name_plural>Féminin</name_plural>
-            </label
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Feminino</name_singular>
-              <name_plural>Feminino</name_plural>
             </label>
           </labels>
         </item>
@@ -3319,10 +3156,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>Other</name_singular>
               <name_plural>Other</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>Outro</name_singular>
-              <name_plural>Outros</name_plural>
             </label>
           </labels>
         </item>
@@ -3367,10 +3200,6 @@
               <name_singular>full</name_singular>
               <name_plural>full</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>completa</name_singular>
-              <name_plural>completas</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -3383,10 +3212,6 @@
               <name_singular>random</name_singular>
               <name_plural>random</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>aleatória</name_singular>
-              <name_plural>aleatórias</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i3" enabled="1" default="0">
@@ -3398,10 +3223,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>selective</name_singular>
               <name_plural>selective</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>seletiva</name_singular>
-              <name_plural>seletivas</name_plural>
             </label>
           </labels>
         </item>
@@ -3429,8 +3250,7 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
+            </label><label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -3446,10 +3266,6 @@
               <name_singular>condition</name_singular>
               <name_plural>conditions</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>condição</name_singular>
-              <name_plural>condições</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -3462,10 +3278,6 @@
               <name_singular>information</name_singular>
               <name_plural>informations</name_plural>
             </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>informação</name_singular>
-              <name_plural>informações</name_plural>
-            </label>
           </labels>
         </item>
         <item idno="i3" enabled="1" default="0">
@@ -3477,10 +3289,6 @@
             <label locale="en_US" preferred="1">
               <name_singular>location</name_singular>
               <name_plural>location</name_plural>
-            </label>
-            <label locale="pt_BR" preferred="1">
-              <name_singular>localização</name_singular>
-              <name_plural>localizações</name_plural>
             </label>
           </labels>
         </item>
@@ -5904,7 +5712,7 @@
         </item>
       </items>
     </list>
-    <list code="modearv" hierarchical="1" system="1" vocabulary="0">
+    <list code="modeacq" hierarchical="1" system="1" vocabulary="0">
       <labels>
         <label locale="fr_FR">
           <name>Modes d acquisition</name>
@@ -5914,7 +5722,7 @@
         </label>
       </labels>
       <items>
-        <item idno="modearv1" enabled="1" default="0">
+        <item idno="modeacq1" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>achat</name_singular>
@@ -5926,7 +5734,7 @@
             </label>
           </labels>
           <items>
-            <item idno="modearv14" enabled="1" default="0">
+            <item idno="modeacq14" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat après commande</name_singular>
@@ -5938,7 +5746,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv15" enabled="1" default="0">
+            <item idno="modeacq15" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat après arrêt en douane</name_singular>
@@ -5950,7 +5758,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv16" enabled="1" default="0">
+            <item idno="modeacq16" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat au salon</name_singular>
@@ -5962,7 +5770,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv17" enabled="1" default="0">
+            <item idno="modeacq17" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat en vente publique</name_singular>
@@ -5986,7 +5794,7 @@
                 </label>
               </labels>
               <items>
-                <item idno="modearv19" enabled="1" default="0">
+                <item idno="modeacq19" enabled="1" default="0">
                   <labels>
                     <label locale="fr_FR" preferred="1">
                       <name_singular>achat avec participation du FRAM</name_singular>
@@ -5996,7 +5804,7 @@
                 </item>
               </items>
             </item>
-            <item idno="modearv20" enabled="1" default="0">
+            <item idno="modeacq20" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat sous réserve d'usufruit</name_singular>
@@ -6008,7 +5816,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv21" enabled="1" default="0">
+            <item idno="modeacq21" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat sur les arrérages d'un legs</name_singular>
@@ -6020,7 +5828,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv22" enabled="1" default="0">
+            <item idno="modeacq22" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat sur les arrérages d'une donation</name_singular>
@@ -6032,7 +5840,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv23" enabled="1" default="0">
+            <item idno="modeacq23" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat sur les arrérages d'une fondation</name_singular>
@@ -6044,7 +5852,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modarv24" enabled="1" default="0">
+            <item idno="modacq24" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>achat par préemption</name_singular>
@@ -6056,7 +5864,7 @@
                 </label>
               </labels>
               <items>
-                <item idno="modearv25" enabled="1" default="0">
+                <item idno="modeacq25" enabled="1" default="0">
                   <labels>
                     <label locale="fr_FR" preferred="1">
                       <name_singular>achat par préemption en vente publique</name_singular>
@@ -6068,7 +5876,7 @@
                     </label>
                   </labels>
                 </item>
-                <item idno="modearv26" enabled="1" default="0">
+                <item idno="modeacq26" enabled="1" default="0">
                   <labels>
                     <label locale="fr_FR" preferred="1">
                       <name_singular>achat par préemption après saisie en douane</name_singular>
@@ -6084,7 +5892,7 @@
             </item>
           </items>
         </item>
-        <item idno="modearv2" enabled="1" default="0">
+        <item idno="modeacq2" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>ancien fonds</name_singular>
@@ -6096,7 +5904,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv3" enabled="1" default="0">
+        <item idno="modeacq3" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>attribution par l'office des biens privés</name_singular>
@@ -6108,7 +5916,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv4" enabled="1" default="0">
+        <item idno="modeacq4" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>cession à titre gratuit</name_singular>
@@ -6120,7 +5928,7 @@
             </label>
           </labels>
           <items>
-            <item idno="modearv27" enabled="1" default="0">
+            <item idno="modeacq27" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>cession à titre gratuit après saisie en douane</name_singular>
@@ -6132,7 +5940,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv28" enabled="1" default="0">
+            <item idno="modeacq28" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>cession gratuite de l'Etat</name_singular>
@@ -6144,7 +5952,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv29" enabled="1" default="0">
+            <item idno="modeacq29" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>= transfert de propriété</name_singular>
@@ -6158,7 +5966,7 @@
             </item>
           </items>
         </item>
-        <item idno="modearv5" enabled="1" default="0">
+        <item idno="modeacq5" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>cession à titre onéreux</name_singular>
@@ -6170,7 +5978,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv6" enabled="1" default="0">
+        <item idno="modeacq6" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>changement d'affectation</name_singular>
@@ -6182,7 +5990,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv7" enabled="1" default="0">
+        <item idno="modeacq7" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>dation</name_singular>
@@ -6194,7 +6002,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv8" enabled="1" default="0">
+        <item idno="modeacq8" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>donation</name_singular>
@@ -6206,7 +6014,7 @@
             </label>
           </labels>
           <items>
-            <item idno="modearv30" enabled="1" default="0">
+            <item idno="modeacq30" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>don</name_singular>
@@ -6218,7 +6026,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv31" enabled="1" default="0">
+            <item idno="modeacq31" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>donation sous réserve d'usufruit</name_singular>
@@ -6232,7 +6040,7 @@
             </item>
           </items>
         </item>
-        <item idno="modearv9" enabled="1" default="0">
+        <item idno="modeacq9" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>échange</name_singular>
@@ -6244,7 +6052,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv10" enabled="1" default="0">
+        <item idno="modeacq10" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>legs</name_singular>
@@ -6256,7 +6064,7 @@
             </label>
           </labels>
           <items>
-            <item idno="modearv32" enabled="1" default="0">
+            <item idno="modeacq32" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>legs sous réserve d'usufruit</name_singular>
@@ -6270,7 +6078,7 @@
             </item>
           </items>
         </item>
-        <item idno="modearv11" enabled="1" default="0">
+        <item idno="modeacq11" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>mode d'acquisition inconnu</name_singular>
@@ -6282,7 +6090,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv12" enabled="1" default="0">
+        <item idno="modeacq12" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>mode d'acquisition particulier</name_singular>
@@ -6294,7 +6102,7 @@
             </label>
           </labels>
         </item>
-        <item idno="modearv13" enabled="1" default="0">
+        <item idno="modeacq13" enabled="1" default="0">
           <labels>
             <label locale="fr_FR" preferred="1">
               <name_singular>saisie</name_singular>
@@ -6306,7 +6114,7 @@
             </label>
           </labels>
           <items>
-            <item idno="modearv33" enabled="1" default="0">
+            <item idno="modeacq33" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>saisie révolutionnaire</name_singular>
@@ -6318,7 +6126,7 @@
                 </label>
               </labels>
             </item>
-            <item idno="modearv34" enabled="1" default="0">
+            <item idno="modeacq34" enabled="1" default="0">
               <labels>
                 <label locale="fr_FR" preferred="1">
                   <name_singular>conquête militaire</name_singular>
@@ -10293,7 +10101,7 @@
         <setting name="doesNotTakeLocale">1</setting>
       </settings>
       <elements>
-        <metadataElement code="AcquisitionMode_l" datatype="List" list="modearv">
+        <metadataElement code="AcquisitionMode_l" datatype="List" list="modeacq">
           <labels>
             <label locale="fr_FR">
               <name>Mode d'acquisition</name>
@@ -10316,7 +10124,7 @@
             <setting name="canMakePDFForValue">0</setting>
           </settings>
         </metadataElement>
-        <metadataElement code="commentaire_mode_arv" datatype="Text">
+        <metadataElement code="commentaire_mode_acq" datatype="Text">
           <labels>
             <label locale="fr_FR">
               <name>Commentaire sur mode d'acquisition</name>
@@ -10445,22 +10253,22 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="arvinfo" datatype="Container">
+    <metadataElement code="acqinfo" datatype="Container">
       <labels>
         <label locale="en_US">
           <name>Immediate Source of Acquisition or Transfer</name>
-          <description>Record the source from which the unit of description was arvuired and the date and/or method of acquisition if any or all of this information is not confidential. If the source  is unknown, record that information. Optionally, add accession numbers or codes.</description>
+          <description>Record the source from which the unit of description was acquired and the date and/or method of acquisition if any or all of this information is not confidential. If the source  is unknown, record that information. Optionally, add accession numbers or codes.</description>
         </label>
         <label locale="fr_FR">
           <name>Source immédiate d'acquisition ou de transfert</name>
-          <description>Enregistrer la source auprès de laquelle l'unité de description a été arvuise et la date et/ou le mode d'acquisition si toutes ou au moins une de ces informations n'est pas confidentielle. Si la source est inconnue, enregistrer cette information. De manière optionnelle, ajouter les références de l'acquisition.</description>
+          <description>Enregistrer la source auprès de laquelle l'unité de description a été acquise et la date et/ou le mode d'acquisition si toutes ou au moins une de ces informations n'est pas confidentielle. Si la source est inconnue, enregistrer cette information. De manière optionnelle, ajouter les références de l'acquisition.</description>
         </label>
       </labels>
       <settings>
         <setting name="displayDelimiter">,</setting>
       </settings>
       <elements>
-        <metadataElement code="arvinfo_line1" datatype="Container">
+        <metadataElement code="acqinfo_line1" datatype="Container">
           <labels>
             <label locale="en_US">
               <name>Aqcuisition date(s)</name>
@@ -10468,7 +10276,7 @@
           </labels>
           <settings/>
           <elements>
-            <metadataElement code="arvinfoDate" datatype="DateRange">
+            <metadataElement code="acqinfoDate" datatype="DateRange">
               <labels>
                 <label locale="en_US">
                   <name>Aqcuisition date(s)</name>
@@ -10480,7 +10288,7 @@
             </metadataElement>
           </elements>
         </metadataElement>
-        <metadataElement code="arvinfo_line2" datatype="Container">
+        <metadataElement code="acqinfo_line2" datatype="Container">
           <labels>
             <label locale="en_US">
               <name>Aqcuisition details</name>
@@ -10488,7 +10296,7 @@
           </labels>
           <settings/>
           <elements>
-            <metadataElement code="arvinfoDetail" datatype="Text">
+            <metadataElement code="acqinfoDetail" datatype="Text">
               <labels>
                 <label locale="en_US">
                   <name>Aqcuisition details</name>
@@ -12923,7 +12731,7 @@
             </metadataElement>
           </elements>
         </metadataElement>
-        <metadataElement code="arv_doc_associe_c" datatype="Container">
+        <metadataElement code="artvis_doc_associe_c" datatype="Container">
           <labels>
             <label locale="fr_FR">
               <name>Document associé</name>
@@ -12937,7 +12745,7 @@
             <setting name="canMakePDFForValue">0</setting>
           </settings>
           <elements>
-            <metadataElement code="arv_doc_associe" datatype="File">
+            <metadataElement code="artvis_doc_associe" datatype="File">
               <labels>
                 <label locale="fr_FR">
                   <name>Document associé</name>
@@ -16844,9 +16652,6 @@
         <label locale="fr_FR">
           <name>Autre numéro</name>
         </label>
-        <label locale="pt_BR">
-          <name>Outro número</name>
-        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -16869,9 +16674,6 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Autre numéro</name>
-                </label>
-                <label locale="pt_BR">
-                  <name>Outro número</name>
                 </label>
               </labels>
               <settings>
@@ -16907,9 +16709,6 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Type d'autre numéro</name>
-                </label>
-                label locale="fr_FR">
-                  <name>Tipo do outro número</name>
                 </label>
               </labels>
               <settings>
@@ -18439,9 +18238,6 @@ If appropriate, include information on where to obtain a copy.</description>
           <labels>
             <label locale="fr_FR">
               <name>Commentaires</name>
-            </label>
-            <label locale="pt_BR">
-              <name>Comentários</name>
             </label>
           </labels>
           <settings>
@@ -27140,7 +26936,7 @@ If appropriate, include information on where to obtain a copy.</description>
         </screen>
       </screens>
     </userInterface>
-    <userInterface code="depot" type="ca_objects" typeRestrictions="dep_art,dep_other,dep,dep_costume,dep_ethno,dep_archeo,dep_nat,dep_peinture,dep_techno,dep_complexe" includeSubtypes="0">
+    <userInterface code="depot" type="ca_objects" typeRestrictions="cag_acarmaria,cag_arma,cag,comunic_doc_diploma,constru_fragmento,interior_acessorio,interior_ilumina,comunic_doc_foto,comunic_eqescrita,interior_mobil" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
           <name>Joconde : Registre des biens déposés</name>
@@ -29024,7 +28820,7 @@ If appropriate, include information on where to obtain a copy.</description>
         </screen>
       </screens>
     </userInterface>
-    <userInterface code="joconde_inventaire" type="ca_objects" typeRestrictions="arv_desenho,arv_consart,arv_other,arv,arv_costume,arv_escultura,arv_desarq,arv_pintura,arv_gravura,arv_complexe" includeSubtypes="0">
+    <userInterface code="joconde_inventaire" type="ca_objects" typeRestrictions="artvis_desenho,artvis_consart,artvis,artvis_escultura,artvis_desarq,artvis_pintura,artvis_gravura" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
           <name>Joconde : Registre des biens affectés</name>
@@ -29968,7 +29764,7 @@ If appropriate, include information on where to obtain a copy.</description>
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="screen_16_9" default="0" typeRestrictions="arv_desenho" includeSubtypes="0">
+        <screen idno="screen_16_9" default="0" typeRestrictions="artvis_desenho" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Données archéologiques</name>
@@ -30025,7 +29821,7 @@ If appropriate, include information on where to obtain a copy.</description>
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="screen_16_11" default="0" typeRestrictions="arv_desenho,arv_consart,arv,arv_complexe,arv_gravura" includeSubtypes="0">
+        <screen idno="screen_16_11" default="0" typeRestrictions="artvis_desenho,artvis_consart,artvis,artvis_gravura" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Saisie Joconde</name>
@@ -30526,7 +30322,7 @@ If appropriate, include information on where to obtain a copy.</description>
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="inv_ens_complexe" default="1" typeRestrictions="arv_complexe" includeSubtypes="0">
+        <screen idno="inv_ens_complexe" default="1" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Ensemble complexe</name>
@@ -30552,8 +30348,7 @@ If appropriate, include information on where to obtain a copy.</description>
                 <setting name="label" locale="fr_FR">Désignation principale&lt;/span&gt;&lt;span class='formLabelDocumentationLink'&gt;&lt;a href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#TITR target='_blank'&gt;?&lt;/a&gt;</setting>
                 <setting name="label" locale="pt_BR">Designação principal&lt;/span&gt;&lt;span class='formLabelDocumentationLink'&gt;&lt;a href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#TITR target='_blank'&gt;?&lt;/a&gt;</setting>
                 <setting name="add_label" locale="fr_FR">Désignation principale</setting>
-                <setting name="add_label" locale="pt_BR">Designação principal</setting>
-                <setting name="readonly"/>
+                <setting name="add_label" locale="pt_BR">Designação principal</setting><setting name="readonly"/>
                 <setting name="expand_collapse_value">bubbles</setting>
                 <setting name="expand_collapse_no_value">bubbles</setting>
                 <setting name="usewysiwygeditor"/>
@@ -34363,8 +34158,8 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
                 <setting name="sortDirection">ASC</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_arvinfo">
-              <bundle>ca_attribute_arvinfo</bundle>
+            <placement code="ca_attribute_acqinfo">
+              <bundle>ca_attribute_acqinfo</bundle>
               <settings>
                 <setting name="readonly"/>
                 <setting name="expand_collapse_value">bubbles</setting>
@@ -35209,7 +35004,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         </screen>
       </screens>
     </userInterface>
-    <userInterface code="ead_object_ui" type="ca_objects" typeRestrictions="file,fonds,item,series,subfonds,subseries" includeSubtypes="0">
+    <userInterface code="ead_object_ui" type="ca_objects" typeRestrictions="file,amostfrag,interior_cozinha,series,subfonds,subseries" includeSubtypes="0">
       <labels>
         <label locale="en_US">
           <name>ISAD/EAD : Editeur d'objet</name>
@@ -35340,8 +35135,8 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
                 <setting name="sortDirection">ASC</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_arvinfo">
-              <bundle>ca_attribute_arvinfo</bundle>
+            <placement code="ca_attribute_acqinfo">
+              <bundle>ca_attribute_acqinfo</bundle>
               <settings>
                 <setting name="readonly"/>
                 <setting name="expand_collapse_value">bubbles</setting>
@@ -36717,7 +36512,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         </screen>
       </screens>
     </userInterface>
-    <userInterface code="book_object_editor" type="ca_objects" typeRestrictions="book" includeSubtypes="0">
+    <userInterface code="book_object_editor" type="ca_objects" typeRestrictions="constru" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
           <name>MARC : Editeur de livre</name>
@@ -36767,7 +36562,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
               <settings>
                 <setting name="label" locale="fr_FR">Autres titres</setting>
                 <setting name="label" locale="en_US">Autres titres</setting>
-                <setting name="label" locale="pt_BR">Outros títulos</setting>
+                <setting name="label" locale="pt_BR">Outros títulos titres</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter un autre titre</setting>
                 <setting name="add_label" locale="en_US">Ajouter un autre titre</setting>
                 <setting name="add_label" locale="pt_BR">Adicionar um outro título</setting>
@@ -36897,7 +36692,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         </screen>
       </screens>
     </userInterface>
-    <userInterface code="marc_review_object_editor" type="ca_objects" typeRestrictions="article,issue,serial" includeSubtypes="0">
+    <userInterface code="marc_review_object_editor" type="ca_objects" typeRestrictions="article,insign_bandeira,insign" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
           <name>MARC : Editeur de revue/numéro/article</name>
@@ -36907,7 +36702,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         </label>
       </labels>
       <screens>
-        <screen idno="screen_37_0" default="1" typeRestrictions="serial" includeSubtypes="0">
+        <screen idno="screen_37_0" default="1" typeRestrictions="insign" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Revue</name>
@@ -36979,7 +36774,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="screen_37_1" default="1" typeRestrictions="issue" includeSubtypes="0">
+        <screen idno="screen_37_1" default="1" typeRestrictions="insign_bandeira" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Numéro</name>
@@ -37028,7 +36823,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="screen_37_2" default="1" typeRestrictions="article" includeSubtypes="0">
+        <screen idno="screen_37_2" default="1" typeRestrictions="cerimon_panegi" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
               <name>Article</name>
@@ -37149,7 +36944,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
     <userInterface code="saisie_arquivo" type="ca_objects" typeRestrictions="arquivo" includeSubtypes="0">
       <labels>
         <label locale="fr_FR">
-          <name>Saisie artothèque</name>
+          <name>Saisie acervo arquivológico</name>
         </label>
         <label locale="pt_BR">
           <name>Entrada acervo arquivológico</name>
@@ -37159,7 +36954,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <screen idno="screen_39_0" default="1" typeRestrictions="arquivo" includeSubtypes="0">
           <labels>
             <label locale="fr_FR">
-              <name>Saisie artotheque</name>
+              <name>Saisie acervo arquivológico</name>
             </label>
             <label locale="pt_BR">
               <name>Entrada acervo arquivológico</name>
@@ -39720,7 +39515,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="edit"/>
@@ -40087,7 +39882,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="edit"/>
@@ -40240,7 +40035,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="edit"/>
@@ -40518,40 +40313,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="edit"/>
-        <permission table="ca_objects" type="dep_art" access="edit"/>
-        <permission table="ca_objects" type="article" access="edit"/>
+        <permission table="ca_objects" type="artvis_desenho" access="edit"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="edit"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="edit"/>
         <permission table="ca_objects" type="arquivo" access="read"/>
-        <permission table="ca_objects" type="arv_consart" access="edit"/>
-        <permission table="ca_objects" type="audio" access="edit"/>
-        <permission table="ca_objects" type="dep_other" access="edit"/>
-        <permission table="ca_objects" type="arv" access="edit"/>
-        <permission table="ca_objects" type="dep" access="edit"/>
-        <permission table="ca_objects" type="arv_costume" access="edit"/>
-        <permission table="ca_objects" type="dep_costume" access="edit"/>
-        <permission table="ca_objects" type="file" access="edit"/>
-        <permission table="ca_objects" type="arv_complexe" access="edit"/>
-        <permission table="ca_objects" type="dep_complexe" access="edit"/>
-        <permission table="ca_objects" type="arv_escultura" access="edit"/>
-        <permission table="ca_objects" type="dep_ethno" access="edit"/>
-        <permission table="ca_objects" type="fonds" access="edit"/>
-        <permission table="ca_objects" type="dep_archeo" access="edit"/>
-        <permission table="ca_objects" type="item" access="edit"/>
-        <permission table="ca_objects" type="book" access="edit"/>
+        <permission table="ca_objects" type="artvis_consart" access="edit"/>
+        <permission table="ca_objects" type="interior" access="edit"/>
+        <permission table="ca_objects" type="cag_arma" access="edit"/>
+        <permission table="ca_objects" type="artvis" access="edit"/>
+        <permission table="ca_objects" type="cag" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="edit"/>
+        <permission table="ca_objects" type="medicao_precisao" access="edit"/>
+        <permission table="ca_objects" type="interior_mobil" access="edit"/>
+        <permission table="ca_objects" type="artvis_escultura" access="edit"/>
+        <permission table="ca_objects" type="constru_fragmento" access="edit"/>
+        <permission table="ca_objects" type="amostfrag" access="edit"/>
+        <permission table="ca_objects" type="interior_acessorio" access="edit"/>
+        <permission table="ca_objects" type="interior_cozinha" access="edit"/>
+        <permission table="ca_objects" type="constru" access="edit"/>
         <permission table="ca_objects" type="museu" access="edit"/>
-        <permission table="ca_objects" type="arv_desarq" access="edit"/>
-        <permission table="ca_objects" type="issue" access="edit"/>
-        <permission table="ca_objects" type="serial" access="edit"/>
+        <permission table="ca_objects" type="artvis_desarq" access="edit"/>
+        <permission table="ca_objects" type="insign_bandeira" access="edit"/>
+        <permission table="ca_objects" type="insign" access="edit"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="edit"/>
-        <permission table="ca_objects" type="series" access="edit"/>
-        <permission table="ca_objects" type="subfonds" access="edit"/>
-        <permission table="ca_objects" type="subseries" access="edit"/>
-        <permission table="ca_objects" type="arv_pintura" access="edit"/>
-        <permission table="ca_objects" type="dep_peinture" access="edit"/>
-        <permission table="ca_objects" type="arv_gravura" access="edit"/>
-        <permission table="ca_objects" type="dep_techno" access="edit"/>
-        <permission table="ca_objects" type="video" access="edit"/>
+        <permission table="ca_objects" type="interior_ilumina" access="edit"/>
+        <permission table="ca_objects" type="cerimon_culto" access="edit"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="edit"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="edit"/>
+        <permission table="ca_objects" type="artvis_pintura" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="edit"/>
+        <permission table="ca_objects" type="artvis_gravura" access="edit"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="edit"/>
+        <permission table="ca_objects" type="embala" access="edit"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="edit"/>
         <permission table="ca_entities" type="ind" access="edit"/>
@@ -40733,7 +40526,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="edit"/>
@@ -41119,7 +40912,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="edit"/>
@@ -41272,7 +41065,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="edit"/>
@@ -41550,41 +41343,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="edit"/>
-        <permission table="ca_objects" type="dep_art" access="edit"/>
-        <permission table="ca_objects" type="article" access="edit"/>
+        <permission table="ca_objects" type="artvis_desenho" access="edit"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="edit"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="edit"/>
         <permission table="ca_objects" type="arquivo" access="edit"/>
-        <permission table="ca_objects" type="arv_consart" access="edit"/>
-        <permission table="ca_objects" type="audio" access="edit"/>
-        <permission table="ca_objects" type="arv_other" access="edit"/>
-        <permission table="ca_objects" type="dep_other" access="edit"/>
-        <permission table="ca_objects" type="arv" access="edit"/>
-        <permission table="ca_objects" type="dep" access="edit"/>
-        <permission table="ca_objects" type="arv_costume" access="edit"/>
-        <permission table="ca_objects" type="dep_costume" access="edit"/>
-        <permission table="ca_objects" type="file" access="edit"/>
-        <permission table="ca_objects" type="arv_complexe" access="edit"/>
-        <permission table="ca_objects" type="dep_complexe" access="edit"/>
-        <permission table="ca_objects" type="arv_escultura" access="edit"/>
-        <permission table="ca_objects" type="dep_ethno" access="edit"/>
-        <permission table="ca_objects" type="fonds" access="edit"/>
-        <permission table="ca_objects" type="dep_archeo" access="edit"/>
-        <permission table="ca_objects" type="item" access="edit"/>
-        <permission table="ca_objects" type="book" access="edit"/>
+        <permission table="ca_objects" type="artvis_consart" access="edit"/>
+        <permission table="ca_objects" type="interior" access="edit"/>
+        <permission table="ca_objects" type="cag_arma" access="edit"/>
+        <permission table="ca_objects" type="artvis" access="edit"/>
+        <permission table="ca_objects" type="cag" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="edit"/>
+        <permission table="ca_objects" type="medicao_precisao" access="edit"/>
+        <permission table="ca_objects" type="interior_mobil" access="edit"/>
+        <permission table="ca_objects" type="artvis_escultura" access="edit"/>
+        <permission table="ca_objects" type="constru_fragmento" access="edit"/>
+        <permission table="ca_objects" type="amostfrag" access="edit"/>
+        <permission table="ca_objects" type="interior_acessorio" access="edit"/>
+        <permission table="ca_objects" type="interior_cozinha" access="edit"/>
+        <permission table="ca_objects" type="constru" access="edit"/>
         <permission table="ca_objects" type="museu" access="edit"/>
-        <permission table="ca_objects" type="arv_desarq" access="edit"/>
-        <permission table="ca_objects" type="issue" access="edit"/>
-        <permission table="ca_objects" type="serial" access="edit"/>
+        <permission table="ca_objects" type="artvis_desarq" access="edit"/>
+        <permission table="ca_objects" type="insign_bandeira" access="edit"/>
+        <permission table="ca_objects" type="insign" access="edit"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="edit"/>
-        <permission table="ca_objects" type="series" access="edit"/>
-        <permission table="ca_objects" type="subfonds" access="edit"/>
-        <permission table="ca_objects" type="subseries" access="edit"/>
-        <permission table="ca_objects" type="arv_pintura" access="edit"/>
-        <permission table="ca_objects" type="dep_peinture" access="edit"/>
-        <permission table="ca_objects" type="arv_gravura" access="edit"/>
-        <permission table="ca_objects" type="dep_techno" access="edit"/>
-        <permission table="ca_objects" type="video" access="edit"/>
+        <permission table="ca_objects" type="interior_ilumina" access="edit"/>
+        <permission table="ca_objects" type="cerimon_culto" access="edit"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="edit"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="edit"/>
+        <permission table="ca_objects" type="artvis_pintura" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="edit"/>
+        <permission table="ca_objects" type="artvis_gravura" access="edit"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="edit"/>
+        <permission table="ca_objects" type="embala" access="edit"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="edit"/>
         <permission table="ca_entities" type="ind" access="edit"/>
@@ -41722,7 +41512,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="read"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="read"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="read"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="read"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="read"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="read"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="read"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="read"/>
@@ -42089,7 +41879,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="read"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="read"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="read"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="read"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="read"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="read"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="read"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="read"/>
@@ -42242,7 +42032,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="read"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="read"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="read"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="read"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="read"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="read"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="read"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="read"/>
@@ -42520,41 +42310,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="read"/>
-        <permission table="ca_objects" type="dep_art" access="read"/>
-        <permission table="ca_objects" type="article" access="read"/>
+        <permission table="ca_objects" type="artvis_desenho" access="read"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="read"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="read"/>
         <permission table="ca_objects" type="arquivo" access="read"/>
-        <permission table="ca_objects" type="arv_consart" access="read"/>
-        <permission table="ca_objects" type="audio" access="read"/>
-        <permission table="ca_objects" type="arv_other" access="read"/>
-        <permission table="ca_objects" type="dep_other" access="read"/>
-        <permission table="ca_objects" type="arv" access="read"/>
-        <permission table="ca_objects" type="dep" access="read"/>
-        <permission table="ca_objects" type="arv_costume" access="read"/>
-        <permission table="ca_objects" type="dep_costume" access="read"/>
-        <permission table="ca_objects" type="file" access="read"/>
-        <permission table="ca_objects" type="arv_complexe" access="read"/>
-        <permission table="ca_objects" type="dep_complexe" access="read"/>
-        <permission table="ca_objects" type="arv_escultura" access="read"/>
-        <permission table="ca_objects" type="dep_ethno" access="read"/>
-        <permission table="ca_objects" type="fonds" access="read"/>
-        <permission table="ca_objects" type="dep_archeo" access="read"/>
-        <permission table="ca_objects" type="item" access="read"/>
-        <permission table="ca_objects" type="book" access="read"/>
+        <permission table="ca_objects" type="artvis_consart" access="read"/>
+        <permission table="ca_objects" type="interior" access="read"/>
+        <permission table="ca_objects" type="cag_arma" access="read"/>
+        <permission table="ca_objects" type="artvis" access="read"/>
+        <permission table="ca_objects" type="cag" access="read"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="read"/>
+        <permission table="ca_objects" type="medicao_precisao" access="read"/>
+        <permission table="ca_objects" type="interior_mobil" access="read"/>
+        <permission table="ca_objects" type="artvis_escultura" access="read"/>
+        <permission table="ca_objects" type="constru_fragmento" access="read"/>
+        <permission table="ca_objects" type="amostfrag" access="read"/>
+        <permission table="ca_objects" type="interior_acessorio" access="read"/>
+        <permission table="ca_objects" type="interior_cozinha" access="read"/>
+        <permission table="ca_objects" type="constru" access="read"/>
         <permission table="ca_objects" type="museu" access="read"/>
-        <permission table="ca_objects" type="arv_desarq" access="read"/>
-        <permission table="ca_objects" type="issue" access="read"/>
-        <permission table="ca_objects" type="serial" access="read"/>
+        <permission table="ca_objects" type="artvis_desarq" access="read"/>
+        <permission table="ca_objects" type="insign_bandeira" access="read"/>
+        <permission table="ca_objects" type="insign" access="read"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="read"/>
-        <permission table="ca_objects" type="series" access="read"/>
-        <permission table="ca_objects" type="subfonds" access="read"/>
-        <permission table="ca_objects" type="subseries" access="read"/>
-        <permission table="ca_objects" type="arv_pintura" access="read"/>
-        <permission table="ca_objects" type="dep_peinture" access="read"/>
-        <permission table="ca_objects" type="arv_gravura" access="read"/>
-        <permission table="ca_objects" type="dep_techno" access="read"/>
-        <permission table="ca_objects" type="video" access="read"/>
+        <permission table="ca_objects" type="interior_ilumina" access="read"/>
+        <permission table="ca_objects" type="cerimon_culto" access="read"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="read"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="read"/>
+        <permission table="ca_objects" type="artvis_pintura" access="read"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="read"/>
+        <permission table="ca_objects" type="artvis_gravura" access="read"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="read"/>
+        <permission table="ca_objects" type="embala" access="read"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="read"/>
         <permission table="ca_entities" type="ind" access="read"/>
@@ -42655,7 +42442,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="edit"/>
@@ -43022,7 +42809,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="edit"/>
@@ -43175,7 +42962,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="edit"/>
@@ -43453,41 +43240,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="edit"/>
-        <permission table="ca_objects" type="dep_art" access="edit"/>
-        <permission table="ca_objects" type="article" access="edit"/>
+        <permission table="ca_objects" type="artvis_desenho" access="edit"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="edit"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="edit"/>
         <permission table="ca_objects" type="arquivo" access="read"/>
-        <permission table="ca_objects" type="arv_consart" access="edit"/>
-        <permission table="ca_objects" type="audio" access="edit"/>
-        <permission table="ca_objects" type="arv_other" access="edit"/>
-        <permission table="ca_objects" type="dep_other" access="edit"/>
-        <permission table="ca_objects" type="arv" access="edit"/>
-        <permission table="ca_objects" type="dep" access="edit"/>
-        <permission table="ca_objects" type="arv_costume" access="edit"/>
-        <permission table="ca_objects" type="dep_costume" access="edit"/>
-        <permission table="ca_objects" type="file" access="edit"/>
-        <permission table="ca_objects" type="arv_complexe" access="edit"/>
-        <permission table="ca_objects" type="dep_complexe" access="edit"/>
-        <permission table="ca_objects" type="arv_escultura" access="edit"/>
-        <permission table="ca_objects" type="dep_ethno" access="edit"/>
-        <permission table="ca_objects" type="fonds" access="edit"/>
-        <permission table="ca_objects" type="dep_archeo" access="edit"/>
-        <permission table="ca_objects" type="item" access="edit"/>
-        <permission table="ca_objects" type="book" access="edit"/>
+        <permission table="ca_objects" type="artvis_consart" access="edit"/>
+        <permission table="ca_objects" type="interior" access="edit"/>
+        <permission table="ca_objects" type="cag_arma" access="edit"/>
+        <permission table="ca_objects" type="artvis" access="edit"/>
+        <permission table="ca_objects" type="cag" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="edit"/>
+        <permission table="ca_objects" type="medicao_precisao" access="edit"/>
+        <permission table="ca_objects" type="interior_mobil" access="edit"/>
+        <permission table="ca_objects" type="artvis_escultura" access="edit"/>
+        <permission table="ca_objects" type="constru_fragmento" access="edit"/>
+        <permission table="ca_objects" type="amostfrag" access="edit"/>
+        <permission table="ca_objects" type="interior_acessorio" access="edit"/>
+        <permission table="ca_objects" type="interior_cozinha" access="edit"/>
+        <permission table="ca_objects" type="constru" access="edit"/>
         <permission table="ca_objects" type="museu" access="edit"/>
-        <permission table="ca_objects" type="arv_desarq" access="edit"/>
-        <permission table="ca_objects" type="issue" access="edit"/>
-        <permission table="ca_objects" type="serial" access="edit"/>
+        <permission table="ca_objects" type="artvis_desarq" access="edit"/>
+        <permission table="ca_objects" type="insign_bandeira" access="edit"/>
+        <permission table="ca_objects" type="insign" access="edit"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="edit"/>
-        <permission table="ca_objects" type="series" access="edit"/>
-        <permission table="ca_objects" type="subfonds" access="edit"/>
-        <permission table="ca_objects" type="subseries" access="edit"/>
-        <permission table="ca_objects" type="arv_pintura" access="edit"/>
-        <permission table="ca_objects" type="dep_peinture" access="edit"/>
-        <permission table="ca_objects" type="arv_gravura" access="edit"/>
-        <permission table="ca_objects" type="dep_techno" access="edit"/>
-        <permission table="ca_objects" type="video" access="edit"/>
+        <permission table="ca_objects" type="interior_ilumina" access="edit"/>
+        <permission table="ca_objects" type="cerimon_culto" access="edit"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="edit"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="edit"/>
+        <permission table="ca_objects" type="artvis_pintura" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="edit"/>
+        <permission table="ca_objects" type="artvis_gravura" access="edit"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="edit"/>
+        <permission table="ca_objects" type="embala" access="edit"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="edit"/>
         <permission table="ca_entities" type="ind" access="edit"/>
@@ -43720,7 +43504,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adherent_arquivo" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="edit"/>
@@ -44156,7 +43940,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="edit"/>
@@ -44311,7 +44095,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="edit"/>
@@ -44603,36 +44387,35 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="edit"/>
-        <permission table="ca_objects" type="dep_art" access="edit"/>
-        <permission table="ca_objects" type="article" access="edit"/>
+        <permission table="ca_objects" type="artvis_desenho" access="edit"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="edit"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="edit"/>
         <permission table="ca_objects" type="arquivo" access="edit"/>
-        <permission table="ca_objects" type="audio" access="edit"/>
-        <permission table="ca_objects" type="dep_other" access="edit"/>
-        <permission table="ca_objects" type="arv_consart" access="edit"/>
-        <permission table="ca_objects" type="arv" access="edit"/>
-        <permission table="ca_objects" type="dep" access="edit"/>
-        <permission table="ca_objects" type="dep_costume" access="edit"/>
-        <permission table="ca_objects" type="file" access="edit"/>
-        <permission table="ca_objects" type="arv_complexe" access="edit"/>
-        <permission table="ca_objects" type="dep_complexe" access="edit"/>
-        <permission table="ca_objects" type="arv_gravura" access="edit"/>
-        <permission table="ca_objects" type="dep_ethno" access="edit"/>
-        <permission table="ca_objects" type="fonds" access="edit"/>
-        <permission table="ca_objects" type="dep_archeo" access="edit"/>
-        <permission table="ca_objects" type="item" access="edit"/>
-        <permission table="ca_objects" type="book" access="edit"/>
+        <permission table="ca_objects" type="interior" access="edit"/>
+        <permission table="ca_objects" type="cag_arma" access="edit"/>
+        <permission table="ca_objects" type="artvis_consart" access="edit"/>
+        <permission table="ca_objects" type="artvis" access="edit"/>
+        <permission table="ca_objects" type="cag" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="edit"/>
+        <permission table="ca_objects" type="medicao_precisao" access="edit"/>
+        <permission table="ca_objects" type="interior_mobil" access="edit"/>
+        <permission table="ca_objects" type="artvis_gravura" access="edit"/>
+        <permission table="ca_objects" type="constru_fragmento" access="edit"/>
+        <permission table="ca_objects" type="amostfrag" access="edit"/>
+        <permission table="ca_objects" type="interior_acessorio" access="edit"/>
+        <permission table="ca_objects" type="interior_cozinha" access="edit"/>
+        <permission table="ca_objects" type="constru" access="edit"/>
         <permission table="ca_objects" type="museu" access="edit"/>
-        <permission table="ca_objects" type="issue" access="edit"/>
-        <permission table="ca_objects" type="serial" access="edit"/>
+        <permission table="ca_objects" type="insign_bandeira" access="edit"/>
+        <permission table="ca_objects" type="insign" access="edit"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="edit"/>
-        <permission table="ca_objects" type="series" access="edit"/>
-        <permission table="ca_objects" type="subfonds" access="edit"/>
-        <permission table="ca_objects" type="subseries" access="edit"/>
-        <permission table="ca_objects" type="dep_peinture" access="edit"/>
-        <permission table="ca_objects" type="dep_techno" access="edit"/>
-        <permission table="ca_objects" type="video" access="edit"/>
+        <permission table="ca_objects" type="interior_ilumina" access="edit"/>
+        <permission table="ca_objects" type="cerimon_culto" access="edit"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="edit"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="edit"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="edit"/>
+        <permission table="ca_objects" type="embala" access="edit"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="edit"/>
         <permission table="ca_entities" type="ind" access="edit"/>
@@ -44806,7 +44589,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="none"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="none"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="none"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="none"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="none"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="none"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="none"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="none"/>
@@ -45192,7 +44975,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="none"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="none"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="none"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="none"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="none"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="none"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="none"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="none"/>
@@ -45345,7 +45128,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="none"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="none"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="none"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="none"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="none"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="none"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="none"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="none"/>
@@ -45623,41 +45406,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="none"/>
-        <permission table="ca_objects" type="dep_art" access="none"/>
-        <permission table="ca_objects" type="article" access="none"/>
+        <permission table="ca_objects" type="artvis_desenho" access="none"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="none"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="none"/>
         <permission table="ca_objects" type="arquivo" access="none"/>
-        <permission table="ca_objects" type="arv_consart" access="none"/>
-        <permission table="ca_objects" type="audio" access="none"/>
-        <permission table="ca_objects" type="arv_other" access="none"/>
-        <permission table="ca_objects" type="dep_other" access="none"/>
-        <permission table="ca_objects" type="arv" access="none"/>
-        <permission table="ca_objects" type="dep" access="none"/>
-        <permission table="ca_objects" type="arv_costume" access="none"/>
-        <permission table="ca_objects" type="dep_costume" access="none"/>
-        <permission table="ca_objects" type="file" access="none"/>
-        <permission table="ca_objects" type="arv_complexe" access="none"/>
-        <permission table="ca_objects" type="dep_complexe" access="none"/>
-        <permission table="ca_objects" type="arv_escultura" access="none"/>
-        <permission table="ca_objects" type="dep_ethno" access="none"/>
-        <permission table="ca_objects" type="fonds" access="none"/>
-        <permission table="ca_objects" type="dep_archeo" access="none"/>
-        <permission table="ca_objects" type="item" access="none"/>
-        <permission table="ca_objects" type="book" access="none"/>
+        <permission table="ca_objects" type="artvis_consart" access="none"/>
+        <permission table="ca_objects" type="interior" access="none"/>
+        <permission table="ca_objects" type="cag_arma" access="none"/>
+        <permission table="ca_objects" type="artvis" access="none"/>
+        <permission table="ca_objects" type="cag" access="none"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="none"/>
+        <permission table="ca_objects" type="medicao_precisao" access="none"/>
+        <permission table="ca_objects" type="interior_mobil" access="none"/>
+        <permission table="ca_objects" type="artvis_escultura" access="none"/>
+        <permission table="ca_objects" type="constru_fragmento" access="none"/>
+        <permission table="ca_objects" type="amostfrag" access="none"/>
+        <permission table="ca_objects" type="interior_acessorio" access="none"/>
+        <permission table="ca_objects" type="interior_cozinha" access="none"/>
+        <permission table="ca_objects" type="constru" access="none"/>
         <permission table="ca_objects" type="museu" access="none"/>
-        <permission table="ca_objects" type="arv_desarq" access="none"/>
-        <permission table="ca_objects" type="issue" access="none"/>
-        <permission table="ca_objects" type="serial" access="none"/>
+        <permission table="ca_objects" type="artvis_desarq" access="none"/>
+        <permission table="ca_objects" type="insign_bandeira" access="none"/>
+        <permission table="ca_objects" type="insign" access="none"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="none"/>
-        <permission table="ca_objects" type="series" access="none"/>
-        <permission table="ca_objects" type="subfonds" access="none"/>
-        <permission table="ca_objects" type="subseries" access="none"/>
-        <permission table="ca_objects" type="arv_pintura" access="none"/>
-        <permission table="ca_objects" type="dep_peinture" access="none"/>
-        <permission table="ca_objects" type="arv_gravura" access="none"/>
-        <permission table="ca_objects" type="dep_techno" access="none"/>
-        <permission table="ca_objects" type="video" access="none"/>
+        <permission table="ca_objects" type="interior_ilumina" access="none"/>
+        <permission table="ca_objects" type="cerimon_culto" access="none"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="none"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="none"/>
+        <permission table="ca_objects" type="artvis_pintura" access="none"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="none"/>
+        <permission table="ca_objects" type="artvis_gravura" access="none"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="none"/>
+        <permission table="ca_objects" type="embala" access="none"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="none"/>
         <permission table="ca_entities" type="ind" access="none"/>
@@ -45769,7 +45549,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_altformavail" access="edit"/>
@@ -46155,7 +45935,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_occurrences" bundle="access" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_accruals" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_appraisal" access="edit"/>
@@ -46308,7 +46088,7 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_collections" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_accruals" access="edit"/>
         <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_arvinfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_acqinfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_adminbiohist" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_altformavail" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_appraisal" access="edit"/>
@@ -46586,41 +46366,38 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
       </bundleLevelAccessControl>
       <typeLevelAccessControl>
-        <permission table="ca_objects" type="arv_desenho" access="edit"/>
-        <permission table="ca_objects" type="dep_art" access="edit"/>
-        <permission table="ca_objects" type="article" access="edit"/>
+        <permission table="ca_objects" type="artvis_desenho" access="edit"/>
+        <permission table="ca_objects" type="cag_acarmaria" access="edit"/>
+        <permission table="ca_objects" type="cerimon_panegi" access="edit"/>
         <permission table="ca_objects" type="arquivo" access="edit"/>
-        <permission table="ca_objects" type="arv_consart" access="edit"/>
-        <permission table="ca_objects" type="audio" access="edit"/>
-        <permission table="ca_objects" type="arv_other" access="edit"/>
-        <permission table="ca_objects" type="dep_other" access="edit"/>
-        <permission table="ca_objects" type="arv" access="edit"/>
-        <permission table="ca_objects" type="dep" access="edit"/>
-        <permission table="ca_objects" type="arv_costume" access="edit"/>
-        <permission table="ca_objects" type="dep_costume" access="edit"/>
-        <permission table="ca_objects" type="file" access="edit"/>
-        <permission table="ca_objects" type="arv_complexe" access="edit"/>
-        <permission table="ca_objects" type="dep_complexe" access="edit"/>
-        <permission table="ca_objects" type="arv_escultura" access="edit"/>
-        <permission table="ca_objects" type="dep_ethno" access="edit"/>
-        <permission table="ca_objects" type="fonds" access="edit"/>
-        <permission table="ca_objects" type="dep_archeo" access="edit"/>
-        <permission table="ca_objects" type="item" access="edit"/>
-        <permission table="ca_objects" type="book" access="edit"/>
+        <permission table="ca_objects" type="artvis_consart" access="edit"/>
+        <permission table="ca_objects" type="interior" access="edit"/>
+        <permission table="ca_objects" type="cag_arma" access="edit"/>
+        <permission table="ca_objects" type="artvis" access="edit"/>
+        <permission table="ca_objects" type="cag" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_diploma" access="edit"/>
+        <permission table="ca_objects" type="medicao_precisao" access="edit"/>
+        <permission table="ca_objects" type="interior_mobil" access="edit"/>
+        <permission table="ca_objects" type="artvis_escultura" access="edit"/>
+        <permission table="ca_objects" type="constru_fragmento" access="edit"/>
+        <permission table="ca_objects" type="amostfrag" access="edit"/>
+        <permission table="ca_objects" type="interior_acessorio" access="edit"/>
+        <permission table="ca_objects" type="interior_cozinha" access="edit"/>
+        <permission table="ca_objects" type="constru" access="edit"/>
         <permission table="ca_objects" type="museu" access="edit"/>
-        <permission table="ca_objects" type="arv_desarq" access="edit"/>
-        <permission table="ca_objects" type="issue" access="edit"/>
-        <permission table="ca_objects" type="serial" access="edit"/>
+        <permission table="ca_objects" type="artvis_desarq" access="edit"/>
+        <permission table="ca_objects" type="insign_bandeira" access="edit"/>
+        <permission table="ca_objects" type="insign" access="edit"/>
         <permission table="ca_objects" type="Root node for object_types" access="none"/>
-        <permission table="ca_objects" type="dep_nat" access="edit"/>
-        <permission table="ca_objects" type="series" access="edit"/>
-        <permission table="ca_objects" type="subfonds" access="edit"/>
-        <permission table="ca_objects" type="subseries" access="edit"/>
-        <permission table="ca_objects" type="arv_pintura" access="edit"/>
-        <permission table="ca_objects" type="dep_peinture" access="edit"/>
-        <permission table="ca_objects" type="arv_gravura" access="edit"/>
-        <permission table="ca_objects" type="dep_techno" access="edit"/>
-        <permission table="ca_objects" type="video" access="edit"/>
+        <permission table="ca_objects" type="interior_ilumina" access="edit"/>
+        <permission table="ca_objects" type="cerimon_culto" access="edit"/>
+        <permission table="ca_objects" type="opessoal_acindum" access="edit"/>
+        <permission table="ca_objects" type="cerimon_comemora" access="edit"/>
+        <permission table="ca_objects" type="artvis_pintura" access="edit"/>
+        <permission table="ca_objects" type="comunic_doc_foto" access="edit"/>
+        <permission table="ca_objects" type="artvis_gravura" access="edit"/>
+        <permission table="ca_objects" type="comunic_eqescrita" access="edit"/>
+        <permission table="ca_objects" type="embala" access="edit"/>
         <permission table="ca_object_lots" type="Root node for object_lot_types" access="none"/>
         <permission table="ca_entities" type="fam" access="edit"/>
         <permission table="ca_entities" type="ind" access="edit"/>
