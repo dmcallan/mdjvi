@@ -8164,6 +8164,9 @@
         <label locale="fr_FR">
           <name>Objet à inventorier</name>
         </label>
+        <label locale="pt_BR">
+          <name>Objeto a ser inventoriado</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_objet_ainv_oui" enabled="1" default="0">
@@ -8172,6 +8175,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_objet_ainv_non_" enabled="1" default="0">
@@ -8179,7 +8186,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8192,6 +8200,9 @@
         <label locale="fr_FR">
           <name>Objet à localiser</name>
         </label>
+        <label locale="pt_BR">
+          <name>Objeto a ser localizado</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_objet_alocal_oui" enabled="1" default="0">
@@ -8200,6 +8211,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_objet_alocal_non" enabled="1" default="0">
@@ -8207,6 +8222,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>non</name_singular>
               <name_plural>non</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Não</name_singular>
+              <name_plural>Não</name_plural>
             </label>
           </labels>
         </item>
@@ -8217,6 +8236,9 @@
         <label locale="fr_FR">
           <name>Objet à marquer</name>
         </label>
+        <label locale="pt_BR">
+          <name>Objeto a ser marcado</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_objet_amarque_oui" enabled="1" default="0">
@@ -8225,6 +8247,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_objet_amarque_non" enabled="1" default="0">
@@ -8232,7 +8258,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8245,6 +8272,9 @@
         <label locale="fr_FR">
           <name>Objet à photographier</name>
         </label>
+        <label locale="pt_BR">
+          <name>Objeto a ser fotografado</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_objet_aphoto_oui" enabled="1" default="0">
@@ -8253,6 +8283,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_objet_aphoto_non" enabled="1" default="0">
@@ -8260,6 +8294,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>non</name_singular>
               <name_plural>non</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Não</name_singular>
+              <name_plural>Não</name_plural>
             </label>
           </labels>
         </item>
@@ -8270,6 +8308,9 @@
         <label locale="fr_FR">
           <name>Objet à traiter</name>
         </label>
+        <label locale="pt_BR">
+          <name>Objeto a ser tratado</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_objet_atraiter_oui" enabled="1" default="0">
@@ -8278,6 +8319,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_objet_atraiter_non" enabled="1" default="0">
@@ -8285,6 +8330,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>non</name_singular>
               <name_plural>non</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Não</name_singular>
+              <name_plural>Não</name_plural>
             </label>
           </labels>
         </item>
@@ -8295,6 +8344,9 @@
         <label locale="fr_FR">
           <name>Photographie existante</name>
         </label>
+        <label locale="pt_BR">
+          <name>Fotografia existente</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_photo_exist_oui" enabled="1" default="0">
@@ -8302,7 +8354,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Oui</name_singular>
               <name_plural>Oui</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Sim</name_singular>
               <name_plural>Sim</name_plural>
             </label>
@@ -8313,7 +8366,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8326,6 +8380,9 @@
         <label locale="fr_FR">
           <name>Photographies du  ou  des numéros d inventaire</name>
         </label>
+        <label locale="pt_BR">
+          <name>Fotografias do(s) números de inventário</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_photo_inv_oui" enabled="1" default="0">
@@ -8333,7 +8390,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Oui</name_singular>
               <name_plural>Oui</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Sim</name_singular>
               <name_plural>Sim</name_plural>
             </label>
@@ -8344,7 +8402,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8357,6 +8416,9 @@
         <label locale="fr_FR">
           <name>Photographies des marques</name>
         </label>
+        <label locale="fr_FR">
+          <name>Fotografias das marcas</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_photo_marques_oui" enabled="1" default="0">
@@ -8364,7 +8426,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Oui</name_singular>
               <name_plural>Oui</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Sim</name_singular>
               <name_plural>Sim</name_plural>
             </label>
@@ -8375,7 +8438,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8388,6 +8452,9 @@
         <label locale="fr_FR">
           <name>Photographie réalisée lors du récolement</name>
         </label>
+        <label locale="pt_BR">
+          <name>Fotografia realizada na conferência do inventário</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_photo_recol_oui" enabled="1" default="0">
@@ -8396,6 +8463,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_photo_recol_non" enabled="1" default="0">
@@ -8403,7 +8474,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8416,6 +8488,9 @@
         <label locale="fr_FR">
           <name>Plainte à déposer</name>
         </label>
+        <label locale="pt_BR">
+          <name>Abrir processo</name>
+        </label>
       </labels>
       <items>
         <item idno="recol_plainte_oui" enabled="1" default="0">
@@ -8424,6 +8499,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recol_plainte_non" enabled="1" default="0">
@@ -8431,6 +8510,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>non</name_singular>
               <name_plural>non</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Não</name_singular>
+              <name_plural>Não</name_plural>
             </label>
           </labels>
         </item>
@@ -8444,6 +8527,9 @@
         <label locale="fr_FR">
           <name>Types d enregistrements</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de registros</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -8455,7 +8541,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -8516,6 +8603,9 @@
         <label locale="fr_FR">
           <name>Types de référence</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de referência</name>
+        </label>
       </labels>
       <items>
         <item idno="option0" enabled="1" default="1">
@@ -8527,7 +8617,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -8543,6 +8634,10 @@
               <name_singular>Collection</name_singular>
               <name_plural>Collections</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Coleção</name_singular>
+              <name_plural>Coleções</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="dataset" enabled="1" default="0">
@@ -8554,6 +8649,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Ensemble de données</name_singular>
               <name_plural>Ensembles de données</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Conjunto de dados</name_singular>
+              <name_plural>Conjuntos de dados</name_plural>
             </label>
           </labels>
         </item>
@@ -8567,6 +8666,10 @@
               <name_singular>Event</name_singular>
               <name_plural>Events</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Evento</name_singular>
+              <name_plural>Eventos</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="image" enabled="1" default="0">
@@ -8578,6 +8681,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Image</name_singular>
               <name_plural>Images</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Imagem</name_singular>
+              <name_plural>Imagens</name_plural>
             </label>
           </labels>
         </item>
@@ -8591,6 +8698,10 @@
               <name_singular>Ressource interractive</name_singular>
               <name_plural>Ressources interractives</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Recurso interativo</name_singular>
+              <name_plural>Recursos interativo</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="moving_image" enabled="1" default="0">
@@ -8602,6 +8713,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Moving Image</name_singular>
               <name_plural>Moving Images</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Filme</name_singular>
+              <name_plural>Filmes</name_plural>
             </label>
           </labels>
         </item>
@@ -8615,6 +8730,10 @@
               <name_singular>Physical Object</name_singular>
               <name_plural>Physical Objects</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Objeto físico</name_singular>
+              <name_plural>Objetos físico</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="service" enabled="1" default="0">
@@ -8627,6 +8746,10 @@
               <name_singular>Service</name_singular>
               <name_plural>Services</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Serviço</name_singular>
+              <name_plural>Serviços</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="software" enabled="1" default="0">
@@ -8636,6 +8759,10 @@
               <name_plural>Logiciels</name_plural>
             </label>
             <label locale="en_US" preferred="1">
+              <name_singular>Software</name_singular>
+              <name_plural>Software</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Software</name_singular>
               <name_plural>Software</name_plural>
             </label>
@@ -8651,6 +8778,10 @@
               <name_singular>Sound</name_singular>
               <name_plural>Sounds</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Áudio</name_singular>
+              <name_plural>Áudio</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="still_image" enabled="1" default="0">
@@ -8662,6 +8793,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>Still Image</name_singular>
               <name_plural>Still Images</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Imagem</name_singular>
+              <name_plural>Imagens</name_plural>
             </label>
           </labels>
         </item>
@@ -8675,6 +8810,10 @@
               <name_singular>Texte</name_singular>
               <name_plural>Textes</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Texto</name_singular>
+              <name_plural>Textos</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -8687,6 +8826,9 @@
         <label locale="fr_FR">
           <name>Type de droit</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de direito</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -8698,7 +8840,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -8714,6 +8857,10 @@
               <name_singular>copyright</name_singular>
               <name_plural>copyright</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>copyright</name_singular>
+              <name_plural>copyright</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -8725,6 +8872,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>publication rights</name_singular>
               <name_plural>publication rights</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Direito de publicação</name_singular>
+              <name_plural>Direitos de publicação</name_plural>
             </label>
           </labels>
         </item>
@@ -8738,6 +8889,10 @@
               <name_singular>droit de protection des données</name_singular>
               <name_plural>droits de protection des données</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>direito de proteção de informação</name_singular>
+              <name_plural>direitos de proteção de informação</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i4" enabled="1" default="0">
@@ -8749,6 +8904,10 @@
             <label locale="en_US" preferred="1">
               <name_singular>other</name_singular>
               <name_plural>other</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>outro</name_singular>
+              <name_plural>outros</name_plural>
             </label>
           </labels>
         </item>
@@ -8827,6 +8986,9 @@
         <label locale="fr_FR">
           <name>Sexe</name>
         </label>
+        <label locale="pt_BR">
+          <name>Sexo</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -8838,7 +9000,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -8854,6 +9017,10 @@
               <name_singular>masculin</name_singular>
               <name_plural>masculin</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>masculino</name_singular>
+              <name_plural>masculino</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -8865,6 +9032,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>feminin</name_singular>
               <name_plural>feminin</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>feminino</name_singular>
+              <name_plural>feminino</name_plural>
             </label>
           </labels>
         </item>
@@ -8878,6 +9049,10 @@
               <name_singular>unknown</name_singular>
               <name_plural>unknown</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>desconhecido</name_singular>
+              <name_plural>desconhecido</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -8887,6 +9062,9 @@
         <label locale="fr_FR">
           <name>Existence du sous inventaire</name>
         </label>
+        <label locale="pt_BR">
+          <name>Existência de sub-inventárioi</name>
+        </label>
       </labels>
       <items>
         <item idno="_oui" enabled="1" default="0">
@@ -8895,6 +9073,10 @@
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Sim</name_singular>
+              <name_plural>Sim</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="non" enabled="1" default="0">
@@ -8902,7 +9084,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -8918,6 +9101,9 @@
         <label locale="fr_FR">
           <name>Type d estimation d objet</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de avaliação do objeto</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -8929,7 +9115,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -8945,6 +9132,10 @@
               <name_singular>requested</name_singular>
               <name_plural>requested</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>requisitada</name_singular>
+              <name_plural>requisitadas</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -8956,6 +9147,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>autorisé</name_singular>
               <name_plural>autorisés</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>autorizada</name_singular>
+              <name_plural>autorizadas</name_plural>
             </label>
           </labels>
         </item>
@@ -8969,6 +9164,10 @@
               <name_singular>Fermé</name_singular>
               <name_plural>Fermés</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Fechada</name_singular>
+              <name_plural>Fechada</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -8981,6 +9180,9 @@
         <label locale="fr_FR">
           <name>Types de style</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de estilo</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -8992,7 +9194,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -9053,6 +9256,9 @@
         <label locale="fr_FR">
           <name>Type de technique</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de técnica</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -9064,7 +9270,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -9125,6 +9332,9 @@
         <label locale="fr_FR">
           <name>Technique</name>
         </label>
+        <label locale="pt_BR">
+          <name>Técnica</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -9136,7 +9346,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -9194,6 +9405,9 @@
         <label locale="fr_FR">
           <name>Type de date</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de data</name>
+        </label>
       </labels>
       <items>
         <item idno="collecte" enabled="1" default="0">
@@ -9201,6 +9415,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Date de collecte</name_singular>
               <name_plural>Date de collecte</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Data de coleta</name_singular>
+              <name_plural>Datas de coleta</name_plural>
             </label>
           </labels>
         </item>
@@ -9210,6 +9428,10 @@
               <name_singular>Date de découverte</name_singular>
               <name_plural>Date de découverte</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Data de descoberta</name_singular>
+              <name_plural>Data de descoberta</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="recolte" enabled="1" default="0">
@@ -9217,6 +9439,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Date de récolte</name_singular>
               <name_plural>Date de récolte</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Data de registro</name_singular>
+              <name_plural>Data de registro</name_plural>
             </label>
           </labels>
         </item>
@@ -9227,6 +9453,9 @@
         <label locale="fr_FR">
           <name>Type de millésime</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de ano</name>
+        </label>
       </labels>
       <items>
         <item idno="millesime_creation" enabled="1" default="0">
@@ -9235,6 +9464,10 @@
               <name_singular>millésime de création / exécution</name_singular>
               <name_plural>millésime de création / exécution</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>ano de criação / execução</name_singular>
+              <name_plural>no de criação / execução</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="millesime_utilisation" enabled="1" default="0">
@@ -9242,6 +9475,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>millésime d'utilisation</name_singular>
               <name_plural>millésime d'utilisation</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>ano de utilização</name_singular>
+              <name_plural>ano de utilização</name_plural>
             </label>
           </labels>
         </item>
@@ -9252,6 +9489,9 @@
         <label locale="fr_FR">
           <name>Type de période</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de período</name>
+        </label>
       </labels>
       <items>
         <item idno="creation" enabled="1" default="1">
@@ -9260,6 +9500,10 @@
               <name_singular>Création / Exécution</name_singular>
               <name_plural>Création / Exécution</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Criação / Execução</name_singular>
+              <name_plural>Criação / Execução</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="utilisation" enabled="1" default="0">
@@ -9267,6 +9511,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Utilisation</name_singular>
               <name_plural>Utilisation</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Utilização</name_singular>
+              <name_plural>Utilização</name_plural>
             </label>
           </labels>
         </item>
@@ -9280,6 +9528,9 @@
         <label locale="fr_FR">
           <name>Types de méthode d utilisation</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipos de método de utilização</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -9291,7 +9542,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -9352,6 +9604,9 @@
         <label locale="fr_FR">
           <name>Type d estimation d objet</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de avaliação do objeto</name>
+        </label>
       </labels>
       <items>
         <item idno="blank" enabled="1" default="1">
@@ -9363,7 +9618,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>-</name_singular>
               <name_plural>-</name_plural>
             </label>
@@ -9379,6 +9635,10 @@
               <name_singular>Valeur originale</name_singular>
               <name_plural>Valeurs originales</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Valor original</name_singular>
+              <name_plural>Valores originais</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="i2" enabled="1" default="0">
@@ -9390,6 +9650,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Valeur de remplacement</name_singular>
               <name_plural>Valeur de remplacement</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Valor de substituição</name_singular>
+              <name_plural>Valor de substituição</name_plural>
             </label>
           </labels>
         </item>
@@ -9403,6 +9667,10 @@
               <name_singular>Valeur courante</name_singular>
               <name_plural>Valeur courante</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Valor atual</name_singular>
+              <name_plural>Valor atual</name_plural>
+            </label>
           </labels>
         </item>
       </items>
@@ -9412,6 +9680,9 @@
         <label locale="fr_FR">
           <name>Oui non</name>
         </label>
+        <label locale="pt_BR">
+          <name>Sim não</name>
+        </label>
       </labels>
       <items>
         <item idno="0" enabled="1" default="0" value="0">
@@ -9419,7 +9690,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Non</name_singular>
               <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Não</name_singular>
               <name_plural>Não</name_plural>
             </label>
@@ -9430,7 +9702,8 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Oui</name_singular>
               <name_plural>Oui</name_plural>
-            </label><label locale="pt_BR" preferred="1">
+            </label>
+            <label locale="pt_BR" preferred="1">
               <name_singular>Sim</name_singular>
               <name_plural>Sim</name_plural>
             </label>
@@ -9443,6 +9716,9 @@
         <label locale="fr_FR">
           <name>Type artothèque</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de arquivo</name>
+        </label>
       </labels>
       <items>
         <item idno="achat" enabled="1" default="0">
@@ -9450,6 +9726,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Achat</name_singular>
               <name_plural>Achat</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Compra</name_singular>
+              <name_plural>Compra</name_plural>
             </label>
           </labels>
         </item>
@@ -9459,43 +9739,9 @@
               <name_singular>Dépôt</name_singular>
               <name_plural>Dépôt</name_plural>
             </label>
-          </labels>
-        </item>
-      </items>
-    </list>
-    <list code="dmf_lexlieux" hierarchical="1" system="1" vocabulary="1">
-      <labels>
-        <label locale="fr_FR">
-          <name>SMF : liste des lieux</name>
-        </label>
-      </labels>
-    </list>
-    <list code="joconde_diffusion" hierarchical="0" system="1" vocabulary="0" defaultSort="1">
-      <labels>
-        <label locale="fr_FR">
-          <name>Diffusion Joconde</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="joconde_diffusion_oui" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>Oui</name_singular>
-              <name_plural>Oui</name_plural>
-            </label><label locale="pt_BR" preferred="1">
-              <name_singular>Sim</name_singular>
-              <name_plural>Sim</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="joconde_diffusion_non" enabled="1" default="1">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>Non</name_singular>
-              <name_plural>Non</name_plural>
-            </label><label locale="pt_BR" preferred="1">
-              <name_singular>Não</name_singular>
-              <name_plural>Não</name_plural>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Depósito</name_singular>
+              <name_plural>Depósito</name_plural>
             </label>
           </labels>
         </item>
@@ -9506,6 +9752,9 @@
         <label locale="fr_FR">
           <name>Statut de l'auteur</name>
         </label>
+        <label locale="pt_BR">
+          <name>Situação do autor</name>
+        </label>
       </labels>
       <items>
         <item idno="statut_auteur_decede" enabled="1" default="0">
@@ -9513,6 +9762,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Décédé</name_singular>
               <name_plural>Décédés</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Falecido</name_singular>
+              <name_plural>Falecidos</name_plural>
             </label>
           </labels>
         </item>
@@ -9522,6 +9775,10 @@
               <name_singular>Vivant</name_singular>
               <name_plural>Vivant</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Vivo</name_singular>
+              <name_plural>Vivo</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="statut_auteur_indetermine" enabled="1" default="1">
@@ -9529,6 +9786,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>Indéterminé</name_singular>
               <name_plural>Indéterminé</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>Indeterminado</name_singular>
+              <name_plural>Indeterminado</name_plural>
             </label>
           </labels>
         </item>
@@ -9539,6 +9800,9 @@
         <label locale="fr_FR">
           <name>Droits</name>
         </label>
+        <label locale="pt_BR">
+          <name>Direitos</name>
+        </label>
       </labels>
       <items>
         <item idno="libre_droits" enabled="1" default="0">
@@ -9546,6 +9810,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>libre de droits</name_singular>
               <name_plural>libres de droits</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>livre de direitos</name_singular>
+              <name_plural>livre de direitos</name_plural>
             </label>
           </labels>
         </item>
@@ -9555,6 +9823,10 @@
               <name_singular>non libre de droits</name_singular>
               <name_plural>non libre de droits</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>não livre de direitos</name_singular>
+              <name_plural>não livre de direitos</name_plural>
+            </label>
           </labels>
         </item>
         <item idno="droits_a_rechercher" enabled="1" default="1">
@@ -9562,6 +9834,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>à rechercher</name_singular>
               <name_plural>à rechercher</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>a ser pesquisado</name_singular>
+              <name_plural>a ser pesquisado</name_plural>
             </label>
           </labels>
         </item>
@@ -9572,6 +9848,9 @@
         <label locale="fr_FR">
           <name>Contrat (oui/non)</name>
         </label>
+        <label locale="pt_BR">
+          <name>Contrato (sim/não)</name>
+        </label>
       </labels>
       <items>
         <item idno="contrat_oui" enabled="1" default="0">
@@ -9579,6 +9858,10 @@
             <label locale="fr_FR" preferred="1">
               <name_singular>oui</name_singular>
               <name_plural>oui</name_plural>
+            </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>sim</name_singular>
+              <name_plural>sim</name_plural>
             </label>
           </labels>
         </item>
@@ -9588,71 +9871,9 @@
               <name_singular>non</name_singular>
               <name_plural>non</name_plural>
             </label>
-          </labels>
-        </item>
-      </items>
-    </list>
-    <list code="type_support_abandon" hierarchical="0" system="0" vocabulary="0">
-      <labels>
-        <label locale="fr_FR">
-          <name>Type de support d'abandon des droits</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="support_abandon_catalogue" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>catalogue</name_singular>
-              <name_plural>catalogue</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="support_abandon_borne" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>borne interactive</name_singular>
-              <name_plural>borne interactive</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="support_abandon_site_internet" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>site internet</name_singular>
-              <name_plural>site internet</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="support_abandon_joconde" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>joconde</name_singular>
-              <name_plural>joconde</name_plural>
-            </label>
-          </labels>
-        </item>
-      </items>
-    </list>
-    <list code="abandon_droits" hierarchical="0" system="0" vocabulary="0">
-      <labels>
-        <label locale="fr_FR">
-          <name>Abandon des droits</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="abandon_gracieux" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>Abandon à titre gracieux</name_singular>
-              <name_plural>Abandon à titre gracieux</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="abandon_on__reux" enabled="1" default="0">
-          <labels>
-            <label locale="fr_FR" preferred="1">
-              <name_singular>Abandon à titre onéreux</name_singular>
-              <name_plural>Abandon à titre onéreux</name_plural>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>não</name_singular>
+              <name_plural>não</name_plural>
             </label>
           </labels>
         </item>
@@ -24199,31 +24420,6 @@ If appropriate, include information on where to obtain a copy.</description>
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="joconde_diffusable" datatype="List" list="joconde_diffusion">
-      <labels>
-        <label locale="fr_FR">
-          <name>Notice à diffuser dans Joconde</name>
-        </label>
-      </labels>
-      <settings>
-        <setting name="requireValue">1</setting>
-        <setting name="nullOptionText"/>
-        <setting name="useDefaultWhenNull">1</setting>
-        <setting name="render">radio_buttons</setting>
-        <setting name="canMakePDF">1</setting>
-        <setting name="canMakePDFForValue">1</setting>
-      </settings>
-      <typeRestrictions>
-        <restriction>
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>
     <metadataElement code="joconde_statut_auteur" datatype="List" list="statut_auteur">
       <labels>
         <label locale="fr_FR">
@@ -24563,206 +24759,6 @@ If appropriate, include information on where to obtain a copy.</description>
                 <setting name="canMakePDFForValue">0</setting>
                 <setting name="displayTemplate"/>
                 <setting name="displayDelimiter">; </setting>
-              </settings>
-            </metadataElement>
-          </elements>
-        </metadataElement>
-      </elements>
-      <typeRestrictions>
-        <restriction>
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">5</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction>
-          <table>ca_entities</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">5</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>
-    <metadataElement code="abandon_droits_c" datatype="Container">
-      <labels>
-        <label locale="fr_FR">
-          <name>Abandon des droits</name>
-        </label>
-      </labels>
-      <settings>
-        <setting name="doesNotTakeLocale">1</setting>
-        <setting name="canMakePDF">1</setting>
-      </settings>
-      <elements>
-        <metadataElement code="support_abandon_c" datatype="Container">
-          <labels>
-            <label locale="fr_FR">
-              <name>Type de support d'abandon des droits</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="doesNotTakeLocale">0</setting>
-            <setting name="lineBreakAfterNumberOfElements">0</setting>
-            <setting name="canBeUsedInSearchForm">1</setting>
-            <setting name="canBeUsedInDisplay">1</setting>
-            <setting name="canMakePDF">1</setting>
-            <setting name="canMakePDFForValue">0</setting>
-          </settings>
-          <elements>
-            <metadataElement code="support_abandon" datatype="List" list="type_support_abandon">
-              <labels>
-                <label locale="fr_FR">
-                  <name>Type de support d'abandon des droits</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="listWidth">40</setting>
-                <setting name="listHeight">200px</setting>
-                <setting name="doesNotTakeLocale">1</setting>
-                <setting name="requireValue">0</setting>
-                <setting name="nullOptionText"/>
-                <setting name="useDefaultWhenNull">0</setting>
-                <setting name="canBeUsedInSort">1</setting>
-                <setting name="render">select</setting>
-                <setting name="auto_shrink">0</setting>
-                <setting name="maxColumns">3</setting>
-                <setting name="canBeUsedInSearchForm">1</setting>
-                <setting name="canBeUsedInDisplay">1</setting>
-                <setting name="canMakePDF">0</setting>
-                <setting name="canMakePDFForValue">0</setting>
-              </settings>
-            </metadataElement>
-          </elements>
-        </metadataElement>
-        <metadataElement code="abandon_droits_duree_c" datatype="Container">
-          <labels>
-            <label locale="fr_FR">
-              <name>Durée d'abandon des droits</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="doesNotTakeLocale">0</setting>
-            <setting name="lineBreakAfterNumberOfElements">0</setting>
-            <setting name="canBeUsedInSearchForm">1</setting>
-            <setting name="canBeUsedInDisplay">1</setting>
-            <setting name="canMakePDF">1</setting>
-            <setting name="canMakePDFForValue">0</setting>
-            <setting name="readonlyTemplate"/>
-          </settings>
-          <elements>
-            <metadataElement code="abandon_droits_duree" datatype="Text">
-              <labels>
-                <label locale="fr_FR">
-                  <name>Durée d'abandon des droits</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="minChars">0</setting>
-                <setting name="maxChars">65535</setting>
-                <setting name="regex"/>
-                <setting name="fieldWidth">40</setting>
-                <setting name="fieldHeight">1</setting>
-                <setting name="usewysiwygeditor">0</setting>
-                <setting name="doesNotTakeLocale">0</setting>
-                <setting name="canBeUsedInSort">1</setting>
-                <setting name="suggestExistingValues">0</setting>
-                <setting name="suggestExistingValueSort">value</setting>
-                <setting name="default_text"/>
-                <setting name="canBeUsedInSearchForm">1</setting>
-                <setting name="canBeUsedInDisplay">1</setting>
-                <setting name="canMakePDF">0</setting>
-                <setting name="canMakePDFForValue">0</setting>
-                <setting name="displayTemplate"/>
-                <setting name="displayDelimiter">; </setting>
-                <setting name="isDependentValue">0</setting>
-              </settings>
-            </metadataElement>
-          </elements>
-        </metadataElement>
-        <metadataElement code="abandon_droits_geo_c" datatype="Container">
-          <labels>
-            <label locale="fr_FR">
-              <name>Couverture géographique</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="doesNotTakeLocale">0</setting>
-            <setting name="lineBreakAfterNumberOfElements">0</setting>
-            <setting name="canBeUsedInSearchForm">1</setting>
-            <setting name="canBeUsedInDisplay">1</setting>
-            <setting name="canMakePDF">1</setting>
-            <setting name="canMakePDFForValue">0</setting>
-          </settings>
-          <elements>
-            <metadataElement code="abandon_droits_geo" datatype="Text">
-              <labels>
-                <label locale="fr_FR">
-                  <name>Couverture géographique</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="minChars">0</setting>
-                <setting name="maxChars">65535</setting>
-                <setting name="regex"/>
-                <setting name="fieldWidth">70</setting>
-                <setting name="fieldHeight">1</setting>
-                <setting name="usewysiwygeditor">0</setting>
-                <setting name="doesNotTakeLocale">0</setting>
-                <setting name="canBeUsedInSort">1</setting>
-                <setting name="suggestExistingValues">0</setting>
-                <setting name="suggestExistingValueSort">value</setting>
-                <setting name="default_text"/>
-                <setting name="canBeUsedInSearchForm">1</setting>
-                <setting name="canBeUsedInDisplay">1</setting>
-                <setting name="canMakePDF">0</setting>
-                <setting name="canMakePDFForValue">0</setting>
-                <setting name="displayTemplate"/>
-                <setting name="displayDelimiter">; </setting>
-                <setting name="isDependentValue">0</setting>
-              </settings>
-            </metadataElement>
-          </elements>
-        </metadataElement>
-        <metadataElement code="abandon_droits_cout" datatype="Container">
-          <labels>
-            <label locale="fr_FR">
-              <name>Abandon à titre gracieux ou onéreux</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="doesNotTakeLocale">0</setting>
-            <setting name="lineBreakAfterNumberOfElements">0</setting>
-            <setting name="canBeUsedInSearchForm">1</setting>
-            <setting name="canBeUsedInDisplay">1</setting>
-            <setting name="canMakePDF">1</setting>
-            <setting name="canMakePDFForValue">0</setting>
-          </settings>
-          <elements>
-            <metadataElement code="abandon_droits_couts" datatype="List" list="abandon_droits">
-              <labels>
-                <label locale="fr_FR">
-                  <name>Abandon à titre gracieux ou onéreux</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="listWidth">40</setting>
-                <setting name="listHeight">200px</setting>
-                <setting name="doesNotTakeLocale">1</setting>
-                <setting name="requireValue">0</setting>
-                <setting name="nullOptionText"/>
-                <setting name="useDefaultWhenNull">0</setting>
-                <setting name="canBeUsedInSort">1</setting>
-                <setting name="render">radio_buttons</setting>
-                <setting name="auto_shrink">0</setting>
-                <setting name="maxColumns">3</setting>
-                <setting name="canBeUsedInSearchForm">1</setting>
-                <setting name="canBeUsedInDisplay">1</setting>
-                <setting name="canMakePDF">0</setting>
-                <setting name="canMakePDFForValue">0</setting>
               </settings>
             </metadataElement>
           </elements>
@@ -30243,9 +30239,6 @@ If appropriate, include information on where to obtain a copy.</description>
             </label>
           </labels>
           <bundlePlacements>
-            <placement code="ca_attribute_joconde_diffusabl">
-              <bundle>ca_attribute_joconde_diffusable</bundle>
-            </placement>
             <placement code="status1">
               <bundle>status</bundle>
             </placement>
@@ -30275,9 +30268,6 @@ If appropriate, include information on where to obtain a copy.</description>
             </placement>
             <placement code="ca_attribute_contrat_c7">
               <bundle>ca_attribute_contrat_c</bundle>
-            </placement>
-            <placement code="ca_attribute_abandon_droits_c8">
-              <bundle>ca_attribute_abandon_droits_c</bundle>
             </placement>
           </bundlePlacements>
         </screen>
@@ -43566,7 +43556,6 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
       </actions>
       <bundleLevelAccessControl>
         <permission table="ca_objects" bundle="ca_attribute_AcquisitionMode" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_abandon_droits_c" access="edit"/>
         <permission table="ca_objects" bundle="access" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_accessrestrict" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_accruals" access="edit"/>
@@ -43712,7 +43701,6 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_objects" bundle="ca_attribute_isbn" access="edit"/>
         <permission table="ca_objects" bundle="item_status_id" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_joconde_denomination_c" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_joconde_diffusable" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_mdjvi_estado_c" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_joconde_statut_auteur" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_keywords" access="edit"/>
@@ -43866,7 +43854,6 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
         <permission table="ca_object_lots" bundle="rank" access="edit"/>
         <permission table="ca_object_lots" bundle="source_id" access="edit"/>
         <permission table="ca_object_lots" bundle="status" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_abandon_droits_c" access="edit"/>
         <permission table="ca_entities" bundle="access" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_address" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_addressType" access="edit"/>
@@ -48302,9 +48289,6 @@ x ø ^ca_objects.dimensions.circumference [^ca_objects.dimensions.type_dimension
       <bundlePlacements>
         <placement code="p53">
           <bundle>ca_objects.type_id</bundle>
-        </placement>
-        <placement code="p54">
-          <bundle>ca_objects.joconde_diffusable</bundle>
         </placement>
       </bundlePlacements>
     </searchForm>
