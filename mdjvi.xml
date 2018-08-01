@@ -9891,6 +9891,10 @@
           <name>Introduction</name>
           <description>Description narrative pour l'ensemble. Il s'agit du texte principal utilisé lors d'un affichage public de l'élément.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Introdução</name>
+          <description>Descrição do conjunto. Corresponde ao texto principal utilizado quando o elemento for exibido publicamente.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -9912,6 +9916,10 @@
         <label locale="fr_FR">
           <name>Description de l'objet</name>
           <description>Description narrative pour un élément de cet ensemble. Il s'agit du texte principal utilisé lors d'un affichage public d'un élément dans le contexte de cet ensemble.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Descrição do objeto</name>
+          <description>Descrição de um elmento do conjunto. Corresponde ao texto principal utilizado no momento da exibição pública do elemento dentro do contexto do conjunto.</description>
         </label>
       </labels>
       <settings>
@@ -9939,6 +9947,10 @@
           <name>Type de présentation</name>
           <description>Détermine comment l'ensemble est affiché dans le catalogue public Pawtucket/Pawtucket2.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de apresentação</name>
+          <description>Determina como o conjunto é mostrado no catálogo público  Pawtucket/Pawtucket2.</description>
+        </label>
       </labels>
       <settings>
         <setting name="render">select</setting>
@@ -9964,6 +9976,10 @@
         <label locale="fr_FR">
           <name>Est l'item principal de l'ensemble ?</name>
           <description>L'item marqué comme principal sera utilisé pour représenter l'ensemble comme un tout dans l'affichage d'une liste d'ensembles.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>É o item principal do conjunto?</name>
+          <description>O item marcado como principal será utilizado para representar o conjunto como um todo na exibição de uma lista de conjuntos.</description>
         </label>
       </labels>
       <settings>
@@ -9991,6 +10007,10 @@
           <name>Code de période</name>
           <description>Code d'une plage de dates à utiliser lorsque les items sont affichés en ordre chronologique.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Código de período</name>
+          <description>Cdigo de uma faixa de datas a serem utilizadas quando os itens são exibidos em uma ordem cronológica.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -10017,6 +10037,10 @@
           <name>Date d'autorisation</name>
           <description>La date à laquelle le prêt a été autorisé.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de autorização</name>
+          <description>A data em que o empréstimo foi autorizado.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -10041,6 +10065,10 @@
         <label locale="fr_FR">
           <name>Prêt planifié</name>
           <description>La date où un prêt rejoindra l'institution.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Empréstimo planejado</name>
+          <description>A data na qual um empréstimo voltará para o museu.</description>
         </label>
       </labels>
       <settings>
@@ -10068,6 +10096,10 @@
           <name>Date de prêt</name>
           <description>La date à laquelle un prêt entrera dans l'institution.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de empréstimo</name>
+          <description>A data na qual um empréstimo entrará no museu.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -10094,6 +10126,10 @@
           <name>Date de retour de prêt</name>
           <description>La date à laquelle le prêt doit être retourné à l'institution prêtante.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de retorno do empréstimo</name>
+          <description>A data na qual o empréstimo deve retornar `instituição que emprestou.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -10119,6 +10155,10 @@
           <name>Date du renouvellement de prêt</name>
           <description>La date de réalisation du renouvellement du prêt.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data da renovação do empréstimo</name>
+          <description>A data da renovação do empréstimo.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -10143,6 +10183,10 @@
         <label locale="fr_FR">
           <name>Conditions de prêt</name>
           <description>Un rappel des conditions du prêt.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Condições do empréstimo</name>
+          <description>Um lembrete das condições do empréstimo.</description>
         </label>
       </labels>
       <settings>
@@ -10170,6 +10214,10 @@
           <name>Note sur le prêt</name>
           <description>Informations générales sur le prêt.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Nota sobre o empréstimo</name>
+          <description>Informações gerais sobre o empréstimo.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -10195,6 +10243,10 @@
         <label locale="fr_FR">
           <name>Proposition de prêt</name>
           <description>Information générale sur la proposition de prêt.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Proposta de empréstimo</name>
+          <description>Informação geral sobre a proposta de empréstimo.</description>
         </label>
       </labels>
       <settings>
@@ -10222,6 +10274,10 @@
           <name>Méthode de mouvement</name>
           <description>La méthode utilisée pour le mouvement d'un objet.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Método de movimento</name>
+          <description>O método utilizado para o movimento de um objeto.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -10246,6 +10302,10 @@
         <label locale="fr_FR">
           <name>Note de mouvement</name>
           <description>Informations additionnelles à propos du mouvement de l'objet ou d'un groupe d'objets.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Nota de movimento</name>
+          <description>Informações adicionais sobre o movimento do objeto ou grupo de objetos.</description>
         </label>
       </labels>
       <settings>
@@ -10272,6 +10332,10 @@
           <name>Date de retrait prévu</name>
           <description>La date où l'objet doit être retiré de sa localisation actuelle.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data prevista para retirada</name>
+          <description>A data na qual o objeto deverá ser retirado de sua localização atual.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -10296,6 +10360,10 @@
         <label locale="fr_FR">
           <name>Plage de retrait prévu</name>
           <description>Les dates auxquelles l'objet a été actuellement retiré de sa localisation actuelle.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Faixa de datas prevista para retirada</name>
+          <description>As datas nas quais o objeto foi realmente retirado de sua localização atual.</description>
         </label>
       </labels>
       <settings>
@@ -10322,6 +10390,10 @@
           <name>Raison du mouvement</name>
           <description>Le motif ou la raison du mouvement de l'objet ou du groupe d'objets.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Motivo do movimento</name>
+          <description>O motivo ou a razão do movimento do objeto ou do grupo de objetos.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -10346,6 +10418,10 @@
         <label locale="fr_FR">
           <name>Introduction</name>
           <description>Description narrative du parcours. Ceci est le texte utilisé par défaut pour présenter le parcours.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Introdução</name>
+          <description>Descrição do percurso. Este texto é utilizado para apresentar o percurso.</description>
         </label>
       </labels>
       <settings>
@@ -10373,6 +10449,10 @@
           <name>Introduction</name>
           <description>Description narrative du point du parcours. Ceci est le texte utilisé par défaut pour présenter le point du parcours.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Introdução</name>
+          <description>Descrição de um ponto do percurso. Este texto é utilizado para apresentar o ponto do percurso.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -10396,8 +10476,8 @@
           <description>Location of this stop.</description>
         </label>
         <label locale="pt_BR">
-          <name>Georeference</name>
-          <description>Location of this stop.</description>
+          <name>Georeferência</name>
+          <description>Local desta parada.</description>
         </label>
         <label locale="fr_FR">
           <name>Georeference</name>
@@ -10420,6 +10500,9 @@
         <label locale="fr_FR">
           <name>Mode d'acquisition</name>
         </label>
+        <label locale="pt_BR">
+          <name>Modo de aquisição</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -10429,6 +10512,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Mode d'acquisition</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Modo de aquisição</name>
             </label>
           </labels>
           <settings>
@@ -10450,6 +10536,9 @@
         </metadataElement>
         <metadataElement code="commentaire_mode_acq" datatype="Text">
           <labels>
+            <label locale="pt_BR">
+              <name>Comentário sobre o modo de aquisição</name>
+            </label>
             <label locale="fr_FR">
               <name>Commentaire sur mode d'acquisition</name>
             </label>
@@ -10503,6 +10592,9 @@
         <label locale="fr_FR">
           <name>Conditions d'accès</name>
         </label>
+        <label locale="pt_BR">
+          <name>Condições de acesso</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -10544,6 +10636,10 @@
         <label locale="fr_FR">
           <name>Accroissements</name>
           <description>Accroissements prévisibles de l’ensemble documentaire. On peut en indiquer la quantité et la périodicité. On peut aussi utiliser cet élément pour préciser que le fonds est clos.</description>
+        </label>
+        <label locale="fr_FR">
+          <name>Crescimento</name>
+          <description>Crescimentos previsíveis do conjunto de documentos. Podemos indicar a quantidade e a peridiocidade. Podemos também utilizar este elemento para indicar que o acervo está fechado.</description>
         </label>
       </labels>
       <settings>
@@ -10587,6 +10683,10 @@
           <name>Source immédiate d'acquisition ou de transfert</name>
           <description>Enregistrer la source auprès de laquelle l'unité de description a été acquise et la date et/ou le mode d'acquisition si toutes ou au moins une de ces informations n'est pas confidentielle. Si la source est inconnue, enregistrer cette information. De manière optionnelle, ajouter les références de l'acquisition.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Fonte imediata de aquisição ou de transferência</name>
+          <description>Registre a fonte da qual a unidade de descrição foi adquirida e a data e / ou modo de aquisição se todas ou pelo menos uma dessas informações não forem confidenciais. Se a fonte for desconhecida, registre esta informação. Opcionalmente, adicione as referências da aquisição.</description>
+        </label>
       </labels>
       <settings>
         <setting name="displayDelimiter">,</setting>
@@ -10597,6 +10697,9 @@
             <label locale="en_US">
               <name>Aqcuisition date(s)</name>
             </label>
+            <label locale="pt_BR">
+              <name>Data(s) de aquisição</name>
+            </label>
           </labels>
           <settings/>
           <elements>
@@ -10604,6 +10707,9 @@
               <labels>
                 <label locale="en_US">
                   <name>Aqcuisition date(s)</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data(s) de aquisição</name>
                 </label>
               </labels>
               <settings>
@@ -10617,6 +10723,9 @@
             <label locale="en_US">
               <name>Aqcuisition details</name>
             </label>
+            <label locale="pt_BR">
+              <name>Detalhes da aquisição</name>
+            </label>
           </labels>
           <settings/>
           <elements>
@@ -10624,6 +10733,9 @@
               <labels>
                 <label locale="en_US">
                   <name>Aqcuisition details</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Detalhes da aquisição</name>
                 </label>
               </labels>
               <settings>
@@ -10671,6 +10783,9 @@
         <label locale="fr_FR">
           <name>Adresse</name>
         </label>
+        <label locale="pt_BR">
+          <name>Endereço</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -10684,8 +10799,10 @@
             <label locale="fr_FR">
               <name>Adresse ligne 1</name>
             </label>
+            <label locale="pt_BR">
+              <name>Endereço linha 1</name>
+            </label>
           </labels>
-          <settings/>
           <elements>
             <metadataElement code="address1" datatype="Text">
               <labels>
@@ -10694,6 +10811,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Adresse ligne 1</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Endereço linha 1</name>
                 </label>
               </labels>
               <settings>
@@ -10713,6 +10833,9 @@
             <label locale="fr_FR">
               <name>Adresse ligne 1</name>
             </label>
+            <label locale="pt_BR">
+              <name>Endereço linha 1</name>
+            </label>
           </labels>
           <settings/>
           <elements>
@@ -10723,6 +10846,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Adresse ligne 2</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Endereço linha 2</name>
                 </label>
               </labels>
               <settings>
@@ -10742,6 +10868,9 @@
             <label locale="fr_FR">
               <name>Adresse ligne 3</name>
             </label>
+            <label locale="pt_BR">
+              <name>Endereço linha 3</name>
+            </label>
           </labels>
           <settings/>
           <elements>
@@ -10752,6 +10881,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Ville</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Cidade</name>
                 </label>
               </labels>
               <settings>
@@ -10769,6 +10901,9 @@
                 <label locale="fr_FR">
                   <name>Pays</name>
                 </label>
+                <label locale="pt_BR">
+                  <name>País</name>
+                </label>
               </labels>
               <settings>
                 <setting name="fieldWidth">15</setting>
@@ -10785,6 +10920,9 @@
                 <label locale="fr_FR">
                   <name>Code postal</name>
                 </label>
+                <label locale="pt_BR">
+                  <name>Código postal</name>
+                </label>
               </labels>
               <settings>
                 <setting name="fieldWidth">10</setting>
@@ -10800,6 +10938,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Pays</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Estado</name>
                 </label>
               </labels>
               <settings>
@@ -10839,6 +10980,9 @@
         <label locale="fr_FR">
           <name>Type d'adresse</name>
         </label>
+        <label locale="pt_BR">
+          <name>Tipo de endereço</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -10869,6 +11013,9 @@
         <label locale="fr_FR">
           <name>Prédécesseur et successeur</name>
         </label>
+        <label locale="pt_BR">
+          <name>Predecessor e sucessor</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -10894,6 +11041,9 @@
         </label>
         <label locale="fr_FR">
           <name>Elément d'histoire biographique ou administrative</name>
+        </label>
+        <label locale="fr_FR">
+          <name>Elemento de história biogrfica ou administrativa</name>
         </label>
       </labels>
       <settings>
@@ -10945,6 +11095,10 @@
           <name>Histoire administrative</name>
           <description>Fournit des informations liées à la compréhension des fonctions du créateur, ses activités, et les relations avec d'autres entités.</description>
         </label>
+        <label locale="pt_BR">
+          <name>História administrativa</name>
+          <description>Fornece informações ligadas à compreensão das funções do criador, suas atividades e as relações com outras entidades.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -10973,6 +11127,10 @@
           <name>Structure administrative</name>
           <description>Décrit la structure interne d'une organisation et les dates de tout changement au sein de la structure qui soit signifiants pour la compréhension dont la structure gère ses affaires.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Estrutura administrativa</name>
+          <description>Descreve a estrutura interna de uma organização e as datas de qualquer mudança dentro da estrutura que seja significante para a compreensão do modo como a instituição gerencia seus negócios.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -11000,6 +11158,10 @@
         <label locale="fr_FR">
           <name>Existence et lieu de copies</name>
           <description>Si des copies de l'unité de description sont disponibles (soit dans l'institution soit ailleurs), enregistrer leurs emplacements, ainsi que toute référence ou numéro d'identification utile.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Existência e lugar de cópias</name>
+          <description>Se são disponíveis cópias da unidade de descrição (dentro ou fora da instituição), registrar suas localizações assim como toda referência ou número de identificação útil.</description>
         </label>
       </labels>
       <settings>
@@ -11039,6 +11201,10 @@
           <name>Anciennes appartenances</name>
           <description>Utilisateur illustre, premier et dernier propriétaire</description>
         </label>
+        <label locale="pt_BR">
+          <name>Ex-membros</name>
+          <description>Usuário ilustre, primeiro e último proprietário</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11060,6 +11226,9 @@
         <label locale="fr_FR">
           <name>Anciennes attributions</name>
         </label>
+        <label locale="pt_BR">
+          <name>Atribuições antigas</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11080,6 +11249,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Anciens Dépôts</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Depósitos antigos</name>
         </label>
       </labels>
       <settings>
@@ -11104,6 +11276,9 @@
         </label>
         <label locale="fr_FR">
           <name>Evaluation, destruction et planification</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Avaliação, destruição e planejamento</name>
         </label>
       </labels>
       <settings>
@@ -11146,6 +11321,9 @@
         <label locale="fr_FR">
           <name>Note de l'archiviste</name>
         </label>
+        <label locale="pt_BR">
+          <name>Nota do arquivista</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -11183,6 +11361,9 @@
         <label locale="fr_FR">
           <name>A récoler</name>
         </label>
+        <label locale="pt_BR">
+          <name>Para conferir</name>
+        </label>
       </labels>
       <settings>
         <setting name="render">select</setting>
@@ -11206,6 +11387,9 @@
         </label>
         <label locale="fr_FR">
           <name>Système d'arrangement</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Sistema de arranjo</name>
         </label>
       </labels>
       <settings>
@@ -11249,6 +11433,10 @@
           <name>Date d'autorisation</name>
           <description>Date à laquelle un expert donne l'approbation finale pour une procédure devant avoir lieu.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de autorização</name>
+          <description>A data em que um especialista dá a aprovação final para que um procedimento ocorra.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -11273,6 +11461,9 @@
         <label locale="fr_FR">
           <name>Avis des instances scientifiques compétentes</name>
         </label>
+        <label locale="pt_BR">
+          <name>Parecer dos órgãos científicos competentes</name>
+        </label>
       </labels>
       <elements>
         <metadataElement code="avis_sens_c" datatype="Container">
@@ -11280,6 +11471,10 @@
             <label locale="fr_FR">
               <name>Sens de l'avis</name>
               <description>L'avis est-il favorable ou non ?</description>
+            </label>
+            <label locale="pt_BR">
+              <name>Significado da opinião</name>
+              <description>A opinião é favorável ou não?</description>
             </label>
           </labels>
           <settings>
@@ -11292,6 +11487,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Sens de l'avis</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Significado da opinião</name>
                 </label>
               </labels>
               <settings>
@@ -11313,6 +11511,9 @@
             <label locale="fr_FR">
               <name>Commentaires</name>
             </label>
+            <label locale="pt_BR">
+              <name>Comentários</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -11325,6 +11526,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Commentaires</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Comentários</name>
                 </label>
               </labels>
               <settings>
@@ -11348,6 +11552,9 @@
             <label locale="fr_FR">
               <name>Date de l'avis</name>
             </label>
+            <label locale="pt_BR">
+              <name>Data da opinião</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -11359,6 +11566,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de l'avis</name>
+                </label>
+               <label locale="pt_BR">
+                  <name>Data da opinião</name>
                 </label>
               </labels>
               <settings>
@@ -11380,6 +11590,9 @@
             <label locale="fr_FR">
               <name>Choix de l'instance scientifique</name>
             </label>
+            <label locale="pt_BR">
+              <name>Escolha do corpo científico</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -11391,6 +11604,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Instance scientifique</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Instância Científica</name>
                 </label>
               </labels>
               <settings>
@@ -11425,6 +11641,10 @@
         <label locale="fr_FR">
           <name>Bibliographie ou note de publication</name>
           <description>Enregistrer une citation et/ou l'information d'une publication à propos ou basée sur l'utilisation, l'étude ou l'analyse de l'unité de description. Inclure les références à publier dans des facsimilés ou des transcriptions.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Bibliografia ou nota de publicação</name>
+          <description>Registre uma citação e / ou informação de uma publicação sobre ou baseada no uso, estudo ou análise da unidade de descrição. Inclua referências a serem publicadas em fac-símiles ou transcrições.</description>
         </label>
       </labels>
       <settings>
@@ -11471,6 +11691,10 @@
           <name>Biographie ou histoire</name>
           <description>Élément contenant un texte rédigé ou une chronologie, qui place de façon concise les documents d’archives dans leur contexte, en fournissant des informations à propos de leur(s) producteur(s). Cela inclut des informations significatives sur la vie d’un individu ou d’une famille, ou sur l’histoire administrative d’une collectivité. </description>
         </label>
+        <label locale="pt_BR">
+          <name>Biografia ou história</name>
+          <description>Elemento contendo um texto escrito ou cronologia, que contextualiza documentos arquivísticos de maneira concisa, fornecendo informações sobre o(s) seu(s) produtor(es). Isso inclui informações significativas sobre a vida de um indivíduo ou uma família, ou sobre a história administrativa de uma comunidade.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -11503,6 +11727,10 @@
           <name>Accessibilité</name>
           <description>Accessibilité, contraintes (poids, accrochage en hauteur...)</description>
         </label>
+        <label locale="pt_BR">
+          <name>Acessibilidade</name>
+          <description>Acessibilidade, restrições (peso, altura de suspensão ...)</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11523,6 +11751,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Caractérisation de l'espace</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Caracterização do espaço</name>
         </label>
       </labels>
       <settings>
@@ -11545,12 +11776,19 @@
           <name>Champs couverts</name>
           <description>Décrire les champs couvert par la campgne de récolement</description>
         </label>
+        <label locale="pt_BR">
+          <name>Campos cobertos</name>
+          <description>Descrever os campos abrangidos pela campanha de conferência</description>
+        </label>
       </labels>
       <elements>
         <metadataElement code="campagne_champs_champs_c" datatype="Container">
           <labels>
             <label locale="fr_FR">
               <name>Champs couverts par la campagne de récolement</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Campos abrangidos pela campanha de conferência</name>
             </label>
           </labels>
           <settings>
@@ -11563,6 +11801,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Champs couverts par la campagne</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Campos abrangidos pela campanha</name>
                 </label>
               </labels>
               <settings>
@@ -11586,6 +11827,9 @@
             <label locale="fr_FR">
               <name>Note relative aux champs couverts</name>
             </label>
+            <label locale="pt_BR">
+              <name>Nota sobre campos cobertos</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -11597,6 +11841,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Note relative aux champs couverts</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Nota sobre campos cobertos</name>
                 </label>
               </labels>
               <settings>
@@ -11633,6 +11880,10 @@
           <name>Conditionnement des biens à récoler</name>
           <description>Conditionnement de la campagne ou muséographie (vitrine, étagère, accrochage...)</description>
         </label>
+        <label locale="pt_BR">
+          <name>Condicionamento de bens a serem colhidos</name>
+          <description>Embalagem da campanha ou museografia (mostruário, prateleira, pendurado ...)</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11653,6 +11904,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Dates prévisionnelles de réalisation de la campagne</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Datas estimadas de conclusão da campanha</name>
         </label>
       </labels>
       <settings>
@@ -11692,6 +11946,9 @@
         <label locale="fr_FR">
           <name>Fichier numérique attaché à la campagne</name>
         </label>
+        <label locale="pt_BR">
+          <name>Arquivo digital anexado à campanha</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -11710,12 +11967,19 @@
           <name>Méthode utilisée pour la campagne</name>
           <description>Caractéristiques techniques et moyens mis en oeuvres lors de la campagne de récolement</description>
         </label>
+        <label locale="pt_BR">
+          <name>Método utilizado para a campanha</name>
+          <description>Características técnicas e meios utilizados durante a campanha de revisão</description>
+        </label>
       </labels>
       <elements>
         <metadataElement code="campagne_caracteristiques_c" datatype="Container">
           <labels>
             <label locale="fr_FR">
               <name>Caractéristiques techniques de la campagne de récolement</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Características técnicas da campanha de revisão</name>
             </label>
           </labels>
           <settings>
@@ -11728,6 +11992,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Caractéristiques techniques de la campagne</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Características técnicas da campanha</name>
                 </label>
               </labels>
               <settings>
@@ -11751,6 +12018,9 @@
             <label locale="fr_FR">
               <name>Moyens mis en oeuvre</name>
             </label>
+            <label locale="pt_BR">
+              <name>Meios implementados</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -11763,6 +12033,10 @@
                 <label locale="fr_FR">
                   <name>Moyens mis en oeuvre</name>
                   <description>Décrire les moyens mis en oeuvre lors de la réalisation de la campagne de récolement</description>
+                </label>
+                <label locale="pt_BR">
+                  <name>Meios implementados</name>
+                  <description>Descrever os meios usados ​​para realizar a campanha de conferência</description>
                 </label>
               </labels>
               <settings>
@@ -11806,6 +12080,9 @@
         <label locale="fr_FR">
           <name>Contenu scientifique de la campagne</name>
         </label>
+        <label locale="pt_BR">
+          <name>Conteúdo científico da campanha</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11831,6 +12108,10 @@
         <label locale="fr_FR">
           <name>Légende</name>
           <description>Courte légende pour l'élément</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Legenda</name>
+          <description>Legenda curta para o elemento</description>
         </label>
       </labels>
       <settings>
@@ -11873,6 +12154,10 @@
         <label locale="fr_FR">
           <name>Numéro de catalogue</name>
           <description>Numéro associé à un objet dans un catalogue d'exposition.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Número de catálogo</name>
+          <description>Número associado a um objeto em um catálogo da exposição.</description>
         </label>
       </labels>
       <typeRestrictions>
@@ -11921,6 +12206,10 @@
           <name>Noms des responsables</name>
           <description>Enregistrer les noms des personnes en fonction de responsable ou dirigeant</description>
         </label>
+        <label locale="pt_BR">
+          <name>Nomes das pessoas responsáveis</name>
+          <description>Registre nomes de pessoas em função de gerente ou líder</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -11942,6 +12231,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Clauses particulières liées au dépôt</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Cláusulas específicas relacionadas ao depósito</name>
         </label>
       </labels>
       <settings>
@@ -11969,6 +12261,10 @@
           <name>Commentaires</name>
           <description>Commentaires complémentaires faits pour un objet par des visiteurs, conservateurs ou chercheurs.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Comentários</name>
+          <description>Comentários adicionais feitos para um objeto por visitantes, curadores ou pesquisadores.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -11989,6 +12285,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Conformité avec la source</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Conformidade com a fonte</name>
         </label>
       </labels>
       <settings>
@@ -12022,6 +12321,10 @@
         <label locale="fr_FR">
           <name>Méthode de conservation</name>
           <description>Méthode utilisée dans la conservation d'un objet.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Método de conservação</name>
+          <description>Método utilizado na preservação de um objeto.</description>
         </label>
       </labels>
       <typeRestrictions>
@@ -12062,6 +12365,10 @@
           <name>Numéro de référence de conservation</name>
           <description>Identifiant unique numéroté pour la conservation d'un objet ou un groupe d'objets. Il devrait servir de référence à la rédaction de documentation sur la conservation.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Número de referência de conservação</name>
+          <description>Identificador exclusivo numerado para a preservação de um objeto ou grupo de objetos. Deve servir como referência para escrever documentação de conservação.</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -12096,6 +12403,9 @@
         <label locale="fr_FR">
           <name>Constat d'état</name>
         </label>
+        <label locale="pt_BR">
+          <name>Declaração de estado</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -12106,6 +12416,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Document attaché</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Documento anexo</name>
             </label>
           </labels>
           <settings>
@@ -12134,6 +12447,9 @@
             <label locale="fr_FR">
               <name>Date du constat</name>
             </label>
+            <label locale="pt_BR">
+              <name>Data do relatório</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">1</setting>
@@ -12148,6 +12464,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date du constat</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data do relatório</name>
                 </label>
               </labels>
               <settings>
@@ -12174,6 +12493,9 @@
             <label locale="fr_FR">
               <name>Constat d'Etat</name>
             </label>
+            <label locale="pt_BR">
+              <name>Data do relatório</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">1</setting>
@@ -12186,6 +12508,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Etat général</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Estado geral</name>
                 </label>
               </labels>
               <settings>
@@ -12201,6 +12526,9 @@
                   <labels>
                     <label locale="fr_FR">
                       <name>Etat général</name>
+                    </label>
+                    <label locale="pt_BR">
+                      <name>Estado geral</name>
                     </label>
                   </labels>
                   <settings>
@@ -12229,6 +12557,10 @@
             <label locale="fr_FR">
               <name>Commentaires</name>
               <description>Commentaires sur l'état de l'objet</description>
+            </label>
+            <label locale="pt_BR">
+              <name>Comentários</name>
+              <description>Comentários sobre o estado do objeto</description>
             </label>
           </labels>
           <settings>
@@ -12281,6 +12613,10 @@
           <name>Nom du contact</name>
           <description>Réprésentant d'une organisation normalement en lien avec l'objet.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Nome do contato</name>
+          <description>Representante de uma organização normalmente relacionada ao objeto.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -12310,6 +12646,9 @@
         <label locale="fr_FR">
           <name>Poids (texte libre)</name>
         </label>
+        <label locale="pt_BR">
+          <name>Peso (texto livre)</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -12326,6 +12665,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Contexte archéologique</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Contexto arqueológico</name>
         </label>
       </labels>
       <settings>
@@ -12348,6 +12690,9 @@
       <labels>
         <label locale="en_US">
           <name>Copyright de la notice</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Aviso de direitos autorais</name>
         </label>
       </labels>
       <settings>
@@ -12375,6 +12720,10 @@
           <name>Coût</name>
           <description>Somme payée au cours d'une procédure.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Custo</name>
+          <description>Soma paga durante um processo.</description>
+        </label>
       </labels>
       <elements>
         <metadataElement code="cost_line1" datatype="Container">
@@ -12384,6 +12733,9 @@
             </label>
             <label locale="fr_FR">
               <name>Coût</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Custo</name>
             </label>
           </labels>
           <settings/>
@@ -12395,6 +12747,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Coût</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Custo</name>
                 </label>
               </labels>
               <settings>
@@ -12412,6 +12767,9 @@
             <label locale="fr_FR">
               <name>Note sur le coût</name>
             </label>
+            <label locale="pt_BR">
+              <name>Nota de custo</name>
+            </label>
           </labels>
           <settings/>
           <elements>
@@ -12422,6 +12780,9 @@
                 </label>
                 <label locale="fr_FR">
                   <name>Note sur le coût</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Nota sobre o custo</name>
                 </label>
               </labels>
               <settings/>
@@ -12448,6 +12809,9 @@
         </label>
         <label locale="en_US">
           <name>Image rights</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Créditos da foto</name>
         </label>
       </labels>
       <settings>
@@ -12502,6 +12866,10 @@
           <name>Histoire de l'archive</name>
           <description>Enregistre les transferts successifs de propriété, la responsabilité et/ou la conservation de l'unité de description et indique des actions, comme l'histoire de sa collecte, la production des instruments de recherche, la réutilisation des documents à d'autres fins ou les migrations de logiciels, qui ont contribué à sa structure actuelle et l'arrangement. Donner les dates de ces actions, dans la mesure où elles peuvent être établies. Si l'histoire des archives est inconnue, enregistrer cette information.</description>
         </label>
+        <label locale="pt_BR">
+          <name>História do arquivo</name>
+          <description>Registra as transferências sucessivas de propriedade, responsabilidade e / ou retenção da unidade de descrição e indica ações, como o histórico de sua coleta, a produção de recursos de pesquisa, a reutilização de documentos para outros fins ou migrações de software, que contribuíram para sua estrutura e organização atuais. Dê as datas dessas ações, na medida em que elas possam ser estabelecidas. Se o histórico do arquivo for desconhecido, registre esta informação.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -12539,6 +12907,9 @@
         <label locale="fr_FR">
           <name>Date de l'emplacement permanent</name>
         </label>
+        <label locale="pt_BR">
+          <name>Data da localização permanente</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -12559,6 +12930,9 @@
         <label locale="fr_FR">
           <name>Millésime</name>
         </label>
+        <label locale="pt_BR">
+          <name>Ano</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -12571,6 +12945,9 @@
             <label locale="fr_FR">
               <name>Datation</name>
             </label>
+            <label locale="pt_BR">
+              <name>Datação</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -12582,6 +12959,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Millésime</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Ano</name>
                 </label>
               </labels>
               <settings>
@@ -12605,6 +12985,9 @@
             <label locale="fr_FR">
               <name>Type de millésime</name>
             </label>
+            <label locale="pt_BR">
+              <name>Tipo de ano</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -12616,6 +12999,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Type de millésime</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Tipo de ano</name>
                 </label>
               </labels>
               <settings>
@@ -12660,6 +13046,9 @@
         <label locale="fr_FR">
           <name>Période de création, exécution, utilisation</name>
         </label>
+        <label locale="pt_BR">
+          <name>Período de criação, execução, uso</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -12669,6 +13058,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Datation</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Datação</name>
             </label>
           </labels>
           <settings>
@@ -12681,6 +13073,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Période</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Período</name>
                 </label>
               </labels>
               <settings>
@@ -12702,6 +13097,9 @@
             <label locale="fr_FR">
               <name>Type de date de période</name>
             </label>
+            <label locale="pt_BR">
+              <name>Tipo de data do período</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -12714,6 +13112,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Type de date de période</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Tipo de data do período</name>
                 </label>
               </labels>
               <settings>
@@ -12735,6 +13136,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Note sur la période</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Nota sobre o período</name>
             </label>
           </labels>
           <settings>
@@ -12772,6 +13176,10 @@
           <name>Date d'affectation au musée</name>
           <description>Date d'affectation au musée</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de atribuição no museu</name>
+          <description>Data de atribuição no museu</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -12788,6 +13196,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Date à laquelle le bien a été retrouvé</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Data em que o item foi encontrado</name>
         </label>
       </labels>
       <typeRestrictions>
@@ -12807,6 +13218,10 @@
           <name>Dates effectives de réalisation de la campagne</name>
           <description>Dates effectives de réalisation de la campagne de récolement</description>
         </label>
+        <label locale="pt_BR">
+          <name>Datas reais de realização da campanha</name>
+          <description>Datas reais de conclusão da campanha de revisão</description>
+        </label>
       </labels>
       <settings>
         <setting name="canBeUsedInSearchForm">0</setting>
@@ -12819,6 +13234,9 @@
             <label locale="fr_FR">
               <name>Date de début de la campagne</name>
             </label>
+            <label locale="pt_BR">
+              <name>Data de início da campanha</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -12830,6 +13248,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de début de la campagne</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data de início da campanha</name>
                 </label>
               </labels>
               <settings>
@@ -12852,6 +13273,10 @@
               <name>Date de fin de la campagne</name>
               <description>Date de fin de la campagne de récolement</description>
             </label>
+            <label locale="pt_BR">
+              <name>Data de término da campanha</name>
+              <description>Data de término da campanha de revisão</description>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">1</setting>
@@ -12863,6 +13288,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de fin de la campagne de récolement</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data de término da campanha de revisão</name>
                 </label>
               </labels>
               <settings>
@@ -12897,6 +13325,10 @@
           <name>Date d'inscription au registre des biens reçus en dépôt</name>
           <description>Date d'inscription au registre des biens reçus en dépôt</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de entrada no registo de mercadorias recebidas no depósito</name>
+          <description>Data de entrada no registo de mercadorias recebidas no depósito</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -12913,6 +13345,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Date d'inscription au registre d'inventaire</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Data de registro no registro de inventário</name>
         </label>
       </labels>
       <settings>
@@ -12935,6 +13370,10 @@
           <name>Première date de présence</name>
           <description>Première date de présence dans le musée si origine inconnue</description>
         </label>
+        <label locale="pt_BR">
+          <name>Primeira data de presença</name>
+          <description>Primeira data de presença no museu, se origem desconhecida</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -12951,6 +13390,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Date de prise en charge du bien</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Data de assumir o controle da propriedade</name>
         </label>
       </labels>
       <typeRestrictions>
@@ -12969,6 +13411,9 @@
         <label locale="fr_FR">
           <name>Date et référence de l'acte d'acquisition</name>
         </label>
+        <label locale="pt_BR">
+          <name>Data e referência do ato de aquisição</name>
+        </label>
       </labels>
       <settings>
         <setting name="displayDelimiter">,</setting>
@@ -12978,6 +13423,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Date de l'acte d'acquisition</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Data do ato de aquisição</name>
             </label>
           </labels>
           <settings>
@@ -12993,6 +13441,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de l'acte d'acquisition</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data do ato de aquisição</name>
                 </label>
                 <label locale="en_US">
                   <name>Date de l'acte d'acquisition</name>
@@ -13023,6 +13474,10 @@
               <name>Référence de l'acte d'acquisition</name>
               <description>Référence de l'acte d'acquisition</description>
             </label>
+            <label locale="pt_BR">
+              <name>Referência do ato de aquisição</name>
+              <description>Referência do ato de aquisição</description>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13034,6 +13489,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Référence de l'acte d'acquisition</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Referência do ato de aquisição</name>
                 </label>
                 <label locale="en_US">
                   <name>Référence de l'acte d'acquisition</name>
@@ -13060,6 +13518,9 @@
             <label locale="fr_FR">
               <name>Document associé</name>
             </label>
+            <label locale="pt_BR">
+              <name>Documento associado</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13074,6 +13535,9 @@
                 <label locale="fr_FR">
                   <name>Document associé</name>
                 </label>
+              <label locale="pt_BR">
+                <name>Documento associado</name>
+              </label>
               </labels>
               <settings>
                 <setting name="doesNotTakeLocale">1</setting>
@@ -13112,6 +13576,10 @@
           <name>Date et référence de l'acte de dépôt</name>
           <description>Date et référence de l'acte de dépôt</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data e referência do ato do depósito</name>
+          <description>Data e referência do ato do depósito</description>
+        </label>
       </labels>
       <settings>
         <setting name="canBeUsedInSearchForm">0</setting>
@@ -13122,6 +13590,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Date de l'acte de dépôt</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Data do depósito</name>
             </label>
           </labels>
           <settings>
@@ -13134,6 +13605,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de l'acte de dépôt</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data do depósito</name>
                 </label>
                 <label locale="en_US">
                   <name>Date de l'acte de dépôt</name>
@@ -13159,6 +13633,10 @@
               <name>Référence de l'acte de dépôt</name>
               <description>Référence de l'acte de dépôt</description>
             </label>
+            <label locale="pt_BR">
+              <name>Referência do depósito</name>
+              <description>Referência do depósito</description>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13170,6 +13648,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Référence de l'acte de dépôt</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Referência do depósito</name>
                 </label>
                 <label locale="en_US">
                   <name>Référence de l'acte de dépôt</name>
@@ -13217,6 +13698,10 @@
           <name>Date et référence de l'acte mettant fin au dépôt</name>
           <description>Date et référence de l'acte mettant fin au dépôt</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data e referência do ato que encerra o depósito</name>
+          <description>Data e referência do ato que encerra o depósito</description>
+        </label>
       </labels>
       <settings>
         <setting name="displayDelimiter">,</setting>
@@ -13226,6 +13711,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Date de l'acte mettant fin au dépôt</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Data do ato que termina o depósito</name>
             </label>
           </labels>
           <settings>
@@ -13238,6 +13726,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de l'acte mettant fin au dépôt</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data do ato que termina o depósito</name>
                 </label>
                 <label locale="en_US">
                   <name>Date de l'acte mettant fin au dépôt</name>
@@ -13263,6 +13754,10 @@
               <name>Référence de l'acte mettant fin au dépôt</name>
               <description>Référence de l'acte mettant fin au dépôt</description>
             </label>
+            <label locale="pt_BR">
+              <name>Referência do ato que termina o depósito</name>
+              <description>Referência do ato que termina o depósito</description>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13274,6 +13769,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Référence de l'acte mettant fin au dépôt</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Referência do ato que termina o arquivamento</name>
                 </label>
                 <label locale="en_US">
                   <name>Référence de l'acte mettant fin au dépôt</name>
@@ -13320,6 +13818,9 @@
         <label locale="fr_FR">
           <name>Date de restitution du bien déposé</name>
         </label>
+        <label locale="pt_BR">
+          <name>Data de retorno do bem depositado</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -13338,6 +13839,10 @@
           <name>Date de validation du récolement</name>
           <description>Date de validation du récolement de l'objet ; 2 niveaux de validations possibles</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de validação da conferência</name>
+          <description>Data de validação da prova do objeto; 2 níveis de validações possíveis</description>
+        </label>
       </labels>
       <settings>
         <setting name="canBeUsedInSearchForm">0</setting>
@@ -13348,6 +13853,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Validation sur pièce et sur place</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Validação na peça e no local</name>
             </label>
           </labels>
           <settings>
@@ -13360,6 +13868,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de validation sur pièce et sur place</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Validação na peça e no local</name>
                 </label>
               </labels>
               <settings>
@@ -13382,6 +13893,10 @@
               <name>Validation définitive</name>
               <description>Validation définitive après d'éventuelles recherches complémentaires</description>
             </label>
+            <label locale="pt_BR">
+              <name>Validação final</name>
+              <description>Validação final após qualquer pesquisa adicional</description>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13393,6 +13908,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de validation définitive</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data de validação final</name>
                 </label>
               </labels>
               <settings>
@@ -13435,6 +13953,10 @@
           <name>Date de visualisation</name>
           <description>Date à laquelle l'objet a été vu dans les collections</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data de visualização</name>
+          <description>Data em que o objeto foi visto nas coleções</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -13460,6 +13982,9 @@
         <label locale="fr_FR">
           <name>Date de vol ou de disparition</name>
         </label>
+        <label locale="pt_BR">
+          <name>Data do roubo ou desaparecimento</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -13476,6 +14001,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Dépôt/changement affectation</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Depósito / mudança de designação</name>
         </label>
       </labels>
       <settings>
@@ -13501,6 +14029,10 @@
         <label locale="fr_FR">
           <name>Description</name>
           <description>Description narrative.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Descrição</name>
+          <description>Descrição narrativa.</description>
         </label>
       </labels>
       <settings>
@@ -13529,6 +14061,9 @@
         </label>
         <label locale="fr_FR">
           <name>Source de la description</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Fonte da descrição</name>
         </label>
       </labels>
       <settings>
@@ -13573,6 +14108,10 @@
           <name>Règles ou conventions</name>
           <description>Enregistrer les conventions ou règles internationales, nationales ou locales utilisées lors de l'établissement de cette description.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Regras ou convenções</name>
+          <description>Registre quaisquer convenções ou regras internacionais, nacionais ou locais usadas para fazer essa descrição.</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -13609,6 +14148,9 @@
         <label locale="fr_FR">
           <name>Remarques sur les dimensions</name>
         </label>
+        <label locale="pt_BR">
+          <name>Notas sobre as dimensões</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">90</setting>
@@ -13635,6 +14177,9 @@
         <label locale="fr_FR">
           <name>Dimensions</name>
         </label>
+        <label locale="pt_BR">
+          <name>Dimensões</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -13649,6 +14194,10 @@
             <label locale="fr_FR">
               <name>Diamètre</name>
               <description>Circonférence de l'objet ; saisir votre unité préférée (ex. 10 cm)</description>
+            </label>
+            <label locale="pt_BR">
+              <name>Circumferência</name>
+              <description>Circunferência do objeto; escolha sua unidade favorita (por exemplo, 10 cm)</description>
             </label>
           </labels>
           <settings>
@@ -13671,6 +14220,10 @@
               <name>Profondeur</name>
               <description>Profondeur de l'objet ; saisir votre unité préférée (ex. 10 cm)</description>
             </label>
+            <label locale="pt_BR">
+              <name>Profundidade</name>
+              <description>Profundidade do objeto; escolha sua unidade favorita (por exemplo, 10 cm)</description>
+            </label>
           </labels>
           <settings>
             <setting name="fieldWidth">6</setting>
@@ -13690,6 +14243,10 @@
               <name>Hauteur</name>
               <description>Hauteur de l'objet ; saisir votre unité préférée (ex. 10 cm)</description>
             </label>
+            <label locale="pt_BR">
+              <name>Altura</name>
+              <description>Altura do objeto; escolha sua unidade favorita (por exemplo, 10 cm)</description>
+            </label>
           </labels>
           <settings>
             <setting name="fieldWidth">6</setting>
@@ -13707,6 +14264,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Poids</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Peso</name>
             </label>
           </labels>
           <settings>
@@ -13729,6 +14289,9 @@
             <label locale="fr_FR">
               <name>Type de dimensions</name>
             </label>
+            <label locale="pt_BR">
+              <name>Tipo de dimensões</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -13741,6 +14304,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Type de dimensions</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Tipo de dimensões</name>
                 </label>
               </labels>
               <settings>
@@ -13770,6 +14336,10 @@
               <name>Largeur</name>
               <description>Largeur de l'objet ; saisir votre unité préférée (ex. 10 cm)</description>
             </label>
+            <label locale="pt_BR">
+              <name>Largura</name>
+              <description>Largura do objeto; use sua unidade favorita (por exemplo, 10 cm)</description>
+            </label>
           </labels>
           <settings>
             <setting name="fieldWidth">6</setting>
@@ -13784,6 +14354,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Longueur</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Comprimento</name>
             </label>
           </labels>
           <settings>
@@ -13802,6 +14375,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Epaisseur</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Espessura</name>
             </label>
           </labels>
           <settings>
@@ -13841,6 +14417,9 @@
         <label locale="fr_FR">
           <name>Discipline</name>
         </label>
+        <label locale="pt_BR">
+          <name>Disciplina</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -13857,6 +14436,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Domaine</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Domínio</name>
         </label>
       </labels>
       <settings>
@@ -13888,6 +14470,9 @@
         <label locale="fr_FR">
           <name>Récolement fait</name>
         </label>
+        <label locale="pt_BR">
+          <name>Verificação feita</name>
+        </label>
       </labels>
       <settings>
         <setting name="render">radio_buttons</setting>
@@ -13914,6 +14499,10 @@
         <label locale="fr_FR">
           <name>Education</name>
           <description>Enregistrer des informations à propos de l'éducation formelle des personnes, incluant les membres de famille dont l'éducation est importante pour la compréhension de leur vie.</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Educação</name>
+          <description>Registre informações sobre a educação formal das pessoas, incluindo membros da família cuja educação é importante para compreender suas vidas.</description>
         </label>
       </labels>
       <settings>
@@ -13946,6 +14535,9 @@
         <label locale="fr_FR">
           <name>Decor (representation)</name>
         </label>
+        <label locale="pt_BR">
+          <name>Decoração (representação)</name>
+        </label>
       </labels>
       <settings>
         <setting name="doesNotTakeLocale">1</setting>
@@ -13958,6 +14550,9 @@
           <labels>
             <label locale="fr_FR">
               <name>Date de la représentation</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Data do representação</name>
             </label>
           </labels>
           <settings>
@@ -13973,6 +14568,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date de la représentation</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data da representação</name>
                 </label>
               </labels>
               <settings>
@@ -13999,6 +14597,9 @@
             <label locale="fr_FR">
               <name>Représentation</name>
             </label>
+            <label locale="pt_BR">
+              <name>Representação</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">1</setting>
@@ -14013,6 +14614,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Decor</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Decoração</name>
                 </label>
               </labels>
               <settings>
@@ -14039,6 +14643,9 @@
             <label locale="fr_FR">
               <name>Précisions sur la représentation (décor)</name>
             </label>
+            <label locale="pt_BR">
+              <name>Detalhes sobre o representação (decoração)</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">1</setting>
@@ -14053,6 +14660,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Précisions sur la représentation (décor)</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Detalhes sobre o representação (decoração)</name>
                 </label>
               </labels>
               <settings>
@@ -14097,6 +14707,9 @@
         <label locale="fr_FR">
           <name>Adresse email</name>
         </label>
+        <label locale="pt_BR">
+          <name>Endereço de e-mail</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">70</setting>
@@ -14126,6 +14739,9 @@
         <label locale="fr_FR">
           <name>Média</name>
         </label>
+        <label locale="pt_BR">
+          <name>Mídia</name>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -14142,6 +14758,9 @@
       <labels>
         <label locale="fr_FR">
           <name>Epoque, styles</name>
+        </label>
+        <label locale="pt_BR">
+          <name>Época, estilos</name>
         </label>
       </labels>
       <settings>
@@ -14168,6 +14787,10 @@
         <label locale="fr_FR">
           <name>Date de début d'exposition</name>
           <description>Date d'ouverture d'une exposition</description>
+        </label>
+        <label locale="pt_BR">
+          <name>Data de início da exposição</name>
+          <description>Data de abertura de uma exposição</description>
         </label>
       </labels>
       <settings>
@@ -14211,6 +14834,10 @@
           <name>Date de fin d'exposition</name>
           <description>Date de fermeture d'exposition</description>
         </label>
+        <label locale="pt_BR">
+          <name>Data final da exposição</name>
+          <description>Data de encerramento da exposição</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">40</setting>
@@ -14253,6 +14880,10 @@
           <name>Numéro de référence d'exposition</name>
           <description>Identifiant unique numéroté pour l'exposition d'un objet ou d'un groupe d'objets sous les auspices de l'organisation. Il devrait servir de référence à la documentation écrite d'une exposition.</description>
         </label>
+        <label locale="pt_BR">
+          <name>Número de referência da exposição</name>
+          <description>Identificador exclusivo numerado para expor um objeto ou grupo de objetos sob os auspícios da organização. Deve ser usado como referência para a documentação escrita de uma exposição.</description>
+        </label>
       </labels>
       <typeRestrictions>
         <restriction>
@@ -14292,6 +14923,10 @@
           <name>Titre d'exposition</name>
           <description>Nom d'une exposition</description>
         </label>
+        <label locale="pt_BR">
+          <name>Título da exposição</name>
+          <description>Nome de uma exposição</description>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">80</setting>
@@ -14330,6 +14965,9 @@
         <label locale="fr_FR">
           <name>Description de l'exposition</name>
         </label>
+        <label locale="pt_BR">
+          <name>Descrição da exposição</name>
+        </label>
       </labels>
       <settings>
         <setting name="fieldWidth">110</setting>
@@ -14352,12 +14990,18 @@
         <label locale="fr_FR">
           <name>Documents associés à l'exposition</name>
         </label>
+        <label locale="pt_BR">
+          <name>Documentos associados à exposição</name>
+        </label>
       </labels>
       <elements>
         <metadataElement code="expo_docs_date_c" datatype="Container">
           <labels>
             <label locale="fr_FR">
               <name>Date du document</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Data do documento</name>
             </label>
           </labels>
           <settings>
@@ -14371,6 +15015,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Date du document</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Data do documento</name>
                 </label>
               </labels>
               <settings>
@@ -14393,6 +15040,9 @@
             <label locale="fr_FR">
               <name>Document</name>
             </label>
+            <label locale="pt_BR">
+              <name>Documento</name>
+            </label>
           </labels>
           <settings>
             <setting name="doesNotTakeLocale">0</setting>
@@ -14404,6 +15054,9 @@
               <labels>
                 <label locale="fr_FR">
                   <name>Document</name>
+                </label>
+                <label locale="pt_BR">
+                  <name>Documento</name>
                 </label>
               </labels>
               <settings>
