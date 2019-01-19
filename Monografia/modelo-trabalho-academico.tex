@@ -1,0 +1,3400 @@
+% --------------------------------------------------------------------
+% --------------------------------------------------------------------
+% Modelo de Trabalho Acadêmico utilizando classe repUERJ para elaboração
+% de teses, dissertação e trabalhos monográficos em geral.
+%
+% Este arquivo está editado na codificação de caracteres UTF-8.
+%
+% As referencia estão baseadas no modelo bibtex e citação em autor-data
+%
+% Este modelo foi criado por Dr. Luís Fernando de Oliveira.
+% Professor Adjunto do Departamento de Física Aplicada e Termodinâmica
+% Instituto de Física Armando Dias Tavares
+% Universidade do Estado do Rio de Janeiro - UERJ
+%
+% A classe repUERJ.cls foi criada a partir do código original 
+% disponibilizado pelo grupo CódigoLivre (coordenado por
+% Gerald Weber).
+% Foram feitas adequações para implementação das normas de elaboração
+% de teses e dissertações da UERJ.
+%
+% Os estilos repUERJformat.sty codificam os elementos pré-textuais e
+% pós-textuais.
+% O estilo repUERJpseudocode.sty codifica a elaboração de algoritmos
+% utilizando um glossário desenvolvido por mim (Luís Fernando), o mesmo
+% usado em meu curso de Física Computacional.
+%
+% Todo este material está disponível também no meu site
+%      http://sites.google.com/site/deoliveiralf
+%
+% As normas da UERJ para elaboração de teses e dissertações pode ser
+% obtidas no documento disponível no site
+%      http://www.bdtd.uerj.br/roteiro_uerj_web.pdf
+%
+% Agradecimentos ao grupo da Rede Sirius - BDTD e à Biblioteca Setorial
+% da Física.
+%
+% Rio de Janeiro, 24 de Novembro de 2015.
+%
+% --------------------------------------------------------------------
+% --------------------------------------------------------------------
+%
+\documentclass[a4paper,12pt,oneside,onecolumn,final,fleqn]{repUERJ}
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage[brazil]{babel}  % adequação para o português Brasil
+\usepackage[utf8]{inputenc} % Determina a codificação utilizada
+                            % (conversão automática dos acentos)
+\usepackage{makeidx}        % Cria o índice
+\usepackage{hyperref}       % Controla a formação do índice
+\usepackage{indentfirst}    % Endenta o primeiro paragrafo de
+                            % cada seção.
+\usepackage{graphicx}       % Inclusão de gráficos
+\usepackage{subfig}
+\usepackage{amsmath}        % pacote matemático
+% ---
+% Pacote auxiliar para as normas da UERJ
+% ---
+% font=default/times/lmodern/sans
+\usepackage[frame=no,algline=yes,font=default]{repUERJformat}
+\usepackage{repUERJpseudocode}
+% ---
+% Pacotes de citacoes
+% ---
+\usepackage[alf]{abntex2cite}
+
+% ********************************************************************
+% Informações de autoria e institucionais
+% ********************************************************************
+
+%---------------------------------------------------------------------
+% Imagens pré-textuais (precisam estar no mesmo diretório deste arquivo .tex)
+%---------------------------------------------------------------------
+
+\logo{logo_uerj_cinza.png}
+\marcadagua{marcadagua_uerj_cinza.png}{1}{160}{255}
+
+%---------------------------------------------------------------------
+% Informações da instituição
+%---------------------------------------------------------------------
+
+\instituicao{Universidade do Estado do Rio de Janeiro}
+            {Centro de Tecnologia e Ciências}
+            {Instituto de Física}{Armando Dias Tavares} 
+            
+%---------------------------------------------------------------------
+% Informações da autoria do documento
+%---------------------------------------------------------------------
+
+\autor{Nome}
+      {Sobrenome}
+      {Iniciais. Do. Nome.}
+
+\titulo{Título do trabalho acadêmico}
+
+% se não for usar a quarta palavra chave, deixar o campo vazio: {}
+\palavraschaves{primeira palavra chave}
+               {segunda palavra chave}
+               {terceira palavra chave}
+               {}
+
+\title{Title of dissertation}
+\keywords{first keyword}
+         {second keyword}
+         {third keyword}
+         {}
+
+\orientador{Cargo Titulação} 
+           {Nome}{Sobrenome} 
+           {Unidade -- Instituição} 
+
+%coorientador é opcional
+\coorientador{Cargo Titulação} 
+             {Nome}{Sobrenome} 
+             {Unidade -- Instituição} 
+             
+%---------------------------------------------------------------------
+% Grau pretendido (Doutor, Mestre, Bacharel, Licenciado) e Curso
+%---------------------------------------------------------------------
+
+\grau{Doutor} % Doutor, Mestre, Bacharel, Licenciado, Graduado
+\curso{Curso}
+% área de concentração é opcional
+%\areadeconcentracao{área}
+
+%---------------------------------------------------------------------
+% Informações adicionais (local, data e paginas)
+%---------------------------------------------------------------------
+
+\local{Rio de Janeiro} 
+\data{24}{Novembro}{2015} 
+
+% ********************************************************************
+% Configurações de aparência do PDF final
+% ********************************************************************
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+%\definecolor{apricot}{RGB}{251,206,177}
+
+% informações do PDF
+\hypersetup{
+  %backref=true,
+  %pagebackref=true,
+  %bookmarks=true,
+  unicode=false,
+  pdftitle={\UERJtitulo},
+  pdfauthor={\UERJautor},
+  pdfsubject={\UERJpreambulo},
+  pdfkeywords={PALAVRAS}{CHAVES}{\chaveA}{\chaveB}{\chaveC}{\chaveD},
+  pdfproducer={\packagename},       % producer of the document
+  pdfcreator={\UERJautor},
+  colorlinks=true,       % false: boxed links; true: colored links
+  linkcolor=black,       % color of internal links blue
+  citecolor=black,       % color of links to bibliography blue
+  filecolor=black,       % color of file links magenta
+  urlcolor=black,
+  bookmarksdepth=4
+}
+
+% ********************************************************************
+% Início do documento
+% ********************************************************************
+% ---
+% para compilar o índice; se não for usar, comentar
+% lembrar de comentar também o comando \printindex ao final do documento
+
+\makeindex
+
+% ********************************************************************
+% ********************************************************************
+\begin{document}
+% ********************************************************************
+% ********************************************************************
+
+% ----------------------------------------------------------
+% ELEMENTOS PRE-TEXTUAIS
+% ----------------------------------------------------------
+
+\frontmatter % marca o início dos elementos pré-textuais
+
+% ----------------------------------------------------------
+% Capa e a folha de rosto
+% ----------------------------------------------------------
+
+\capa
+\folhaderosto
+
+% ----------------------------------------------------------
+% Inserir a ficha catalográfica
+% ----------------------------------------------------------
+
+% A biblioteca deverá providenciar a ficha catalográfica. Salve a ficha no formato PDF.
+% Use o nome do arquivo PDF como argumento do comando. Exemplo: ficha catalográfica
+% no arquivo 'ficha.pdf'
+
+%\fichacatalografica{ficha.pdf}
+
+% Enquanto não possuir a ficha catalográfica, use o comando sem argumentos...
+
+\fichacatalografica{}
+
+% ----------------------------------------------------------
+% Folha de aprovação
+% ----------------------------------------------------------
+
+% membros da banca: máximo 6
+\begin{folhadeaprovacao}
+  \assinatura{primeiro membro titular da banca}{instituição}
+  \assinatura{segundo membro titular da banca}{instituição}
+  \assinatura{terceiro membro titular da banca}{instituição}
+% suplente só é incluído se efetivamente substitui um titular
+  \assinatura{primeiro membro suplente da banca}{instituição}
+  \assinatura{segundo membro suplente da banca}{instituição}
+  \assinatura{terceiro membro suplente da banca}{instituição instituição instituição instituição }
+\end{folhadeaprovacao}
+
+% ----------------------------------------------------------
+% Dedicatória
+% ----------------------------------------------------------
+
+\pretextualchapter{Dedicatória}
+
+\vfill
+Texto da dedicatória
+
+% ----------------------------------------------------------
+% Agradecimentos
+% ----------------------------------------------------------
+
+\pretextualchapter{Agradecimentos}
+
+Texto de agradecimento
+
+% ----------------------------------------------------------
+% Epigrafe (opcional)
+% ----------------------------------------------------------
+
+\pretextualchapter{}
+
+  \vfill\
+  \begin{flushright}
+    Texto da epígrafe
+  \end{flushright}
+  
+% ----------------------------------------------------------
+% RESUMO
+% ----------------------------------------------------------
+
+\pretextualchapter{Resumo}
+
+\referencia
+
+Texto do resumo em português.\\
+
+\imprimirchaves
+
+% ----------------------------------------------------------
+% Abstract
+% ----------------------------------------------------------
+
+\pretextualchapter{Abstract}
+
+\reference
+
+Abstract in English.\\
+
+\printkeys
+
+% ----------------------------------------------------------
+% Listas de ilustrações e tabelas
+% ----------------------------------------------------------
+
+\listadefiguras
+\listadetabelas
+
+% ----------------------------------------------------------
+% Outras listas
+% ----------------------------------------------------------
+
+\listadealgoritmos
+
+% ----------------------------------------------------------
+% Lista de abreviaturas e siglas
+% ----------------------------------------------------------
+
+\pretextualchapter{Lista de abreviaturas e siglas}
+
+\abreviatura{UERJ}{Universidade do Estado do Rio de Janeiro
+				  \index{UERJ@\textbf{UERJ}}}
+\abreviatura{IFADT}{Instituto de Física Armando Dias Tavares}
+\abreviatura{DFAT}{Departamento de Física Aplicada e Termodinâmica}
+\abreviatura{ABNT}{Associação Brasileira de Normas Técnicas}
+\abreviatura{ABNT}{Núcleo de Processos Técnicos}
+\abreviatura{UnB}{Universidade de Brasília}
+\abreviatura{CTAN}{Comprehensive TeX Archive Network}
+
+% ----------------------------------------------------------
+% Lista de simbolos
+% ----------------------------------------------------------
+
+\pretextualchapter{Lista de s\'imbolos}
+
+\simbolo{simbolo1}{significado e/ou valor}
+\simbolo{simbolo2}{significado e/ou valor}
+\simbolo{simbolo3}{significado e/ou valor}
+
+% ----------------------------------------------------------
+% Sumario
+% ----------------------------------------------------------
+
+\sumario
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+
+\mainmatter % marca o início dos elementos textuais
+
+%=====================================================================
+\chapter*{Introdução}
+%=====================================================================
+
+Este modelo de trabalho acadêmico utiliza um pacote chamado \textsl{repUERJ} desenvolvido pelo Prof. Dr. Luís Fernando de Oliveira, DFAT/IFADT/UERJ, a partir do pacote \textsf{abnTeX} original, desenvolvido pelo grupo CódigoLivre, coordenado por Gerald Weber.
+
+O método escolhido pelos desenvolvedores do \textsf{abnTeX} foi a adaptação da classe \texttt{report.cls} como base da implementação das normas da ABNT para elaboração de trabalhos acadêmicos.
+
+A UERJ possui normas para elaboração de teses e dissertações que seguem as normas e recomendações também da ABNT. Na UERJ, a equipe responsável pela organização e apresentação das normas técnicas é o NPROTEC, núcleo este pertencente à estrutura da Rede Sirius -- Bibliotecas da UERJ.
+
+A partir das normais dispostas pelo NPROTEC, adaptou-se o pacote original \texttt{abntex.cls}. As principais intervenções ocorreram nos elementos pré-textuais e na diagramação em geral.
+
+O pacote \textsl{repUERJ} é composto por três arquivos: 
+\begin{itemizacao}
+\item \texttt{repUERJ.cls}, classe base do documento;
+\item \texttt{repUERJformat.sty}, estilo desenvolvido para implementar os diferentes elementos do trabalho técnico;
+\item \texttt{repUERJpseudocode.sty}, estilo desenvolvido para implementar a escrita de pseudocódigos.
+\end{itemizacao}
+
+Em relação a construção da bibliografia do trabalho acadêmico, o pacote \textsf{abnTeX} utilizava o sistema \textsf{BibTeX} com suporte para citações numeradas ou no formato autor-data. A implementação original deste pacote mostrou-se bastante adequada no que diz respeito à geração da bibliografia. Assim, o pacote \textsf{repUERJ} não dispõe uma implementação específica para bibliografia, pois utiliza os recursos fornecidos pelo \textsf{abnTeX}.
+
+Bem, o pacote \textsf{abnTeX} foi descontinuado em 2006 e a UnB assumiu a elaboração de outro pacote, desta vez baseado no pacote \textsf{memoir}, para elaboração de trabalhos técnicos. Acolhendo a motivação do grupo original, o pacote disponibilizado pela UnB chama-se \textsf{abnTeX2}\footnote{http://www.abntex.net.br/}. Este pacote faz parte do repositório de contribuições do CTAN\footnote{http://texcatalogue.ctan.org/entries/abntex2.html}.
+
+Entre a implementação do pacote \textsf{repUERJ} baseado no \textsf{abnTeX}
+ou no \textsf{abnTeX2}, o peso recaiu sobre o pacote original pela facilidade de adaptação e manutenção. Mas o suporte para a bibliografia vem do pacote \textsf{abnTeX2}, dado que o pacote original não está mais disponível. O novo pacote mantém a estrutura de construção de referências e citações do pacote original (estilo \texttt{abntex2cite.sty}).
+
+Assim, como pode ser visto neste modelo, a classe base para o documento é o \texttt{repUERJ.cls}. A implementação dos elementos pré-textuais, pós-textuais e outras adequações estão no estilo \texttt{repUERJformat.sty}. Este último é obrigatório. O estilo \texttt{repUERJpseudocode.sty} somente é significativo para quem desejar inserir pseudocódigos no trabalho acadêmico. O glossário e a sintaxe do pseudocódigo foram desenvolvidos por Luís Fernando seguindo o material elaborado por ele para o curso de Física Computacional\footnote{https://sites.google.com/site/deoliveiralf/disciplinas/fisica-computacional}.
+
+Ao trabalho.\\
+
+\begin{flushright}O autor, 2015.\end{flushright}
+
+%=====================================================================
+\chapter{Elementos pré-textuais}
+%=====================================================================
+
+Os elementos pré-textuais\index{elementos pré-textuais@\textbf{elementos pré-textuais}} são construídos a partir das informações inseridas através de comandos próprios.
+
+Os elementos pré-textuais e seus respectivos comandos são:
+\begin{itemizacao}
+\item \makebox[5.5cm][l]{capa}
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!capa}
+	\texttt{\textbackslash capa}
+\item \makebox[5.5cm][l]{folha de rosto}
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!folha de rosto}
+	\texttt{\textbackslash folhaderosto}
+\item \makebox[5.5cm][l]{folha de aprovação}
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!folha de aprovação}
+	\parbox[t][35pt][t]{\textwidth-8cm}{\texttt{\ignorespaces
+       	\textbackslash begin\{folhadeaprovacao\}\\
+	   	\textbackslash end\{folhadeaprovacao\}}}
+\item \makebox[5.5cm][l]{dedicatória}
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!dedicatória}
+	\texttt{\textbackslash pretextualchapter\{Dedicatória\}}
+\item \makebox[5.5cm][l]{agradecimentos} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!agradecimentos}
+	\texttt{\textbackslash pretextualchapter\{Agradecimentos\}}
+\item \makebox[5.5cm][l]{epígrafe} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!epígrafe}
+	\texttt{\textbackslash pretextualchapter\{ \}}
+\item \makebox[5.5cm][l]{resumo} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!resumo}
+	\texttt{\textbackslash pretextualchapter\{Resumo\}}
+\item \makebox[5.5cm][l]{abstract} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!folha de aprovação}
+	\texttt{\textbackslash pretextualchapter\{Abstract\}}
+\item \makebox[5.5cm][l]{lista de ilustrações} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!lista de ilustrações}
+	\texttt{\textbackslash listadefiguras};
+\item \makebox[5.5cm][l]{lista de tabelas} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!lista de tabelas}
+	\texttt{\textbackslash listadetabelas};
+\item \makebox[5.5cm][l]{lista de algoritmos} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!lista de algoritmos}
+	\texttt{\textbackslash listadealgoritmos};
+\item \makebox[5.5cm][l]{lista de abreviaturas e siglas} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!lista de abreviaturas e siglas}
+		\parbox[t][35pt][t]{\textwidth-8cm}{
+        	\texttt{\textbackslash pretextualchapter\{Lista de}\\
+            \texttt{abreviaturas e siglas\}}}
+\item \makebox[5.5cm][l]{lista de símbolos} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!lista de símbolos}
+	\texttt{\textbackslash pretextualchapter\{Lista de símbolos\}}
+\item \makebox[5.5cm][l]{sumário} 
+    \index{elementos pré-textuais@\textbf{elementos pré-textuais}!sumário}
+	\texttt{\textbackslash sumario}
+\end{itemizacao}
+
+%--------------------------------------------------------
+\section{Informações de autoria e institucionais}
+%--------------------------------------------------------
+
+A capa, a folha de rosto, folha de aprovação, o resumo e o abstract possuem informações que dizem respeito ao autor do trabalho, local, instituição, ao grau pretendido, curso, orientador, coorientador, título e banca examinadora\index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}}.
+
+Estas informações são inseridas no documento através de comandos que antecedem o início do documento propriamente dito.
+
+Os comandos obrigatórios são:
+\begin{alinea}
+\item \texttt{\textbackslash autor\{nome\}\{sobrenome\}\{iniciais do nome\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!autor}
+\item \texttt{\textbackslash titulo\{título do trabalho acadêmico\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!titulo}
+\item \texttt{\textbackslash title\{título do trabalho acadêmico em língua estrangeira\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!title}
+\item \texttt{\textbackslash palavraschaves\{primeira\}\{segunda\}\ignorespaces
+									       \{terceira\}\{quarta\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!palavras chaves}
+\item \texttt{\textbackslash keywords\{primeira\}\{segunda\}\ignorespaces
+									 \{terceira\}\{quarta\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!keywords}
+\item \texttt{\textbackslash orientador\{cargo título\}\{nome\}\ignorespaces
+			                           \{sobrenome\}\{afiliação\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!orientador}
+\item \texttt{\textbackslash grau\{grau pretendido\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!grau}
+\item \texttt{\textbackslash curso\{curso conclu\'ido\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!curso}
+\item \texttt{\textbackslash local\{cidade\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!local}
+\item \texttt{\textbackslash data\{dd\}\{mês\}\{aaaa\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!data}
+\end{alinea}
+
+Os comandos facultativos são:
+
+\begin{alinea}
+\item \texttt{\textbackslash coorientador\{cargo título\}\{nome\}\ignorespaces
+			                             \{sobrenome\}\{afiliação\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!coorientador}
+\item \texttt{\textbackslash areadeconcentracao\{linha de pesquisa\}}
+    \index{informações de autoria e institucionais@\textbf{Informações de autoria e institucionais}!área de concentração}
+\end{alinea}
+
+O parâmetro \texttt{grau pretendido} está restrito às seguintes possibilidades: \texttt{Doutor}, \texttt{Mestre}, \texttt{Bacharel}, \texttt{Licenciado} e \texttt{Graduado}.
+
+A ficha catalográfica é fornecida pela biblioteca. Para inseri-la no corpo do documento, criou-se o comando \texttt{\textbackslash fichacatalografica\{arquivo.pdf\}}. Não há necessidade de inseri-lo enquanto o trabalho acadêmico está sendo elaborado. Depois de apresentado à biblioteca, esta deverá fornecer a ficha catalográfica correspondente devidamente preenchida no formato \textbf{pdf}. O nome do arquivo \textbf{pdf} será o argumento do comando, incluindo a extensão .pdf.
+
+%--------------------------------------------------------
+\section{Folha de aprovação}
+%--------------------------------------------------------
+
+A banca examinadora deve constar da folha de aprovação. Cada membro da banca deve encontrar uma linha devidamente identificada para que possa assinar. Esta linha e a identificação de cada membro é provida pelo comando \texttt{\textbackslash assinatura\{título nome\}\{afiliação\}}.
+
+Como deve ter sido visto, a folha de aprovação é construída por um ambiente próprio chamado \texttt{folhadeaprovacao}. As assinaturas devem acontecer dentro deste ambiente.
+
+\paragraph{Exemplo}
+
+\begin{verbatim}
+\begin{folhadeaprovacao}
+  \assinatura{nome do membro da banca}{instituição}
+  % máximo de seis assinaturas
+\end{folhadeaprovacao}
+\end{verbatim}
+
+%--------------------------------------------------------
+\section{Resumo em português e em língua estrangeira}
+%--------------------------------------------------------
+
+O elemento pré-textual destinado à apresentação do resumo do trabalho acadêmico, seja em língua vernácula seja em língua estrangeira, segue um padrão simples:
+\begin{itemizacao}
+\item título do elemento;
+\item referência do trabalho;
+\item corpo do resumo;
+\item palavras chaves.
+\end{itemizacao}
+
+O título do elemento é inserido pelo comando \texttt{\textbackslash pretextualchapter\{título\}}. Se for o resumo em língua portuguesa, o comando será \texttt{\textbackslash pretextualchapter\{Resumo\}} e em inglês, \texttt{\textbackslash pretextualchapter\{Abstract\}}.
+
+A referência é inserida automaticamente pelo comando \texttt{\textbackslash referencia} para o caso do resumo em português e \texttt{\textbackslash reference} para inglês.
+
+As palavras chaves foram inseridas no início do arquivo, junto das informações de autoria e institucionais. Para que elas sejam impressas após o corpo do resumo, basta incluir o comando \texttt{\textbackslash imprimirchaves} para a versão em português e \texttt{\textbackslash printkeys} para inglês.
+
+O corpo do texto do resumo é inserido entre a referência e as palavras chaves.
+
+%--------------------------------------------------------
+\section{Listas e sumário}
+%--------------------------------------------------------
+
+Três listas estão disponíveis no pacote \textsf{repUERJ}:
+\begin{itemizacao}
+\item lista de ilustrações, cujo comando é \texttt{\textbackslash listadefiguras}
+\item lista de tabelas, cujo comando é \texttt{\textbackslash listadetabelas}
+\item lista de algoritmos, cujo comando é \texttt{\textbackslash listadealgoritmos}
+\end{itemizacao}
+
+Duas outras listas, neste caso não numeradas, estão disponíveis:
+\begin{itemizacao}
+\item lista de abreviaturas e siglas;
+\item lista de símbolos.
+\end{itemizacao}
+
+A forma de inseri-las difere das três listas anteriores (listas numeradas). As listas de abreviaturas, siglas e símbolos são relações de significantes e significados. Para inserir uma abreviatura ou sigla, utiliza-se o comando \texttt{\textbackslash sigla\{abreviatura ou sigla\}\{significado por extenso\}}. A inserção de um símbolo segue o mesmo padrão com o comando \texttt{\textbackslash simbolo \{símbolo\}\{significado e/ou valor\}}. Neste comando, o símbolo é interpretado com elementos matemático. Não é necessário a inserção de \$ \$, pois o comando já está em modo matemático. Neste caso, não é possível inserir símbolos com acentuação gráfica.
+
+A lista de abreviaturas e siglas é iniciada com o comando \texttt{\textbackslash pretextualchapter \{Lista de abreviaturas e siglas\}} e seguida dos comandos \texttt{\textbackslash sigla\{abreviatura ou sigla\}\{significado por extenso\}}.
+
+A lista de símbolos é iniciada com o comando \texttt{\textbackslash pretextualchapter\{Lista de símbolos\}} seguido dos comandos \texttt{\textbackslash simbolo\{símbolo\}\{significado e/ou valor\}}.
+
+Por fim, o sumário é um elemento organizado automaticamente a partir das inserções de capítulos, seções, subseções, referências, anexos e apêndices.
+
+Para inseri-lo o trabalho acadêmico, basta inserir o comando \texttt{\textbackslash sumario}.
+
+%=====================================================================
+\chapter{Elementos pós-textuais}
+%=====================================================================
+
+Os elementos pós-textuais estão presentes ao final do trabalho acadêmico, após o capítulo de conclusão. São eles:
+\begin{alinea}
+\item \makebox[3cm][l]{referências} 
+		\texttt{\textbackslash bibliography\{arquivos bibtex\}}
+\item \makebox[3cm][l]{glossário} 
+		\texttt{\textbackslash pretextualchapter\{Glossário\}}
+\item \makebox[3cm][l]{apêndices} 
+		\texttt{\textbackslash appendix}
+\item \makebox[3cm][l]{anexos} 
+		\texttt{\textbackslash annex}
+\item \makebox[3cm][l]{índice} 
+		\texttt{\textbackslash printindex}
+\end{alinea}
+
+%--------------------------------------------------------
+\section{Referências}
+%--------------------------------------------------------
+
+As referências são inseridas no trabalho através do comando \texttt{\textbackslash bibliography\{ar\-quivos bibtex\}}, onde \texttt{arquivos bibtex} é a sequência de nomes dos arquivos que contêm as seleções de referências elaboradas pelo autor e escritas segundo a sintaxe da ferramenta de formatação de referências \textsf{BibTeX} sem a extensão do arquivo (.bib).
+
+Na ferramenta \textsf{BibTeX}, os estilos dos diferentes documentos referenciados podem ser preestabelecidos. No caso do pacote \textsf{repUERJ}, os estilos de formatação das referências está por conta da configurações já implementadas no pacote \textsf{abnTeX2}. Este provê dois sistemas de ordenamento de referências: numérica ou alfabética.
+
+Por uma questão de escolha pessoal, este modelo de trabalho acadêmico que está sendo lido utiliza o ordenamento alfabético. Esta opção pode ser alterada no preâmbulo do documento através do comando \texttt{\textbackslash usepackage[ordenamento]\{abntex2cite\}}, onde o termo \texttt{ordenamento} deve ser substituído por \texttt{alf} para ordenação alfabética ou \texttt{num} para numerada.
+
+Para que as normas da ABNT sejam reproduzidas corretamente, é importante que o autor do trabalho acadêmico inclua um arquivo de configuração para o pacote \texttt{abntex2cite} chamado \texttt{abnt-options4.bib} através do comando \texttt{\textbackslash citeoption\{abnt\-options4\}} ou através do comando \texttt{\textbackslash bibliography\{abnt-options4,arquivos bibtex\}}.
+
+%--------------------------------------------------------
+\section{Glossário}
+%--------------------------------------------------------
+
+O glossário é uma lista de palavras e significados similar à lista de abreviaturas e siglas. Cada termo do glossário e seu correspondente significado é inserido pelo comando \texttt{\textbackslash definicao\{termo\}\{significado\}}. A página dedicada ao glossário é identificada pelo comando \texttt{\textbackslash postextualchapter*\{Glossário\}}.
+
+%--------------------------------------------------------
+\section{Apêndices, anexos e índice}
+%--------------------------------------------------------
+
+Em linhas gerais, o \textsf{TeX} divide o documento em três partes: corpo principal de texto, apêndices e anexos.
+
+No corpo de texto, os capítulos, seções, subseções e demais elementos estruturais são formatados com estilos próprios, como os descritos nas normas de elaboração de trabalhos acadêmicos da UERJ: título do capítulo em caixa alta e negrito precedido por numeração contínua a partir do número 1; título de seção em negrito precedido da numeração do capítulo e da seção dentro do capítulo, e assim por diante.
+
+Os apêndices e anexos também possuem elementos estruturais. No entanto, podem ter estilos diferentes dos do corpo de texto. Pelas normas da UERJ, os estilos de apêndices e anexos são particulares. Assim, através do \textsf{LaTeX}, marca-se o fim do corpo de texto e início dos apêndices através do comando \texttt{\textbackslash appendix}. Após este comando, os estilos das seções, subseções e demais elementos são alterados para acompanhar as normas.
+
+Da mesma forma, o fim do espaço dos apêndices e início dos anexos é marcado pelo comando \texttt{\textbackslash annex}.
+
+Os títulos de cada apêndice e de cada anexo são inseridos pelo comando \texttt{\textbackslash postex\-tualchapter\{título\}}. Se este comando estiver no espaço dos apêndices, a página impressa correspondente apresentará o texto ``\textbf{APÊNDICE ?} -- Título'', onde `?' será substituído por uma letra. No caso de vários apêndices, a letra inicial é o `A' e avança alfabeticamente até o `Z'.
+
+Se o comando estiver no espaço dos anexos, a única diferença do que foi descrito para apêndices é que o texto do título terá a palavra `ANEXO' em vez de `APÊNDICE'. O resto é idêntico.
+
+Por fim, o índice remissivo de assuntos e autores é inserido via o comando \texttt{\textbackslash printindex}. Para que este tenha efeito, é necessário a inserção do comando \texttt{\textbackslash makeindex} no ínicio do documento, no preâmbulo, antes do início do documento propriamente dito.
+
+Para que um assunto (termo) apareça no índice, é necessário a aplicação do comando \texttt{\textbackslash index\{estrutura de termo\}}.
+
+A estrutura de termos possui uma sintaxe elaborada pelo próprio \LaTeX\ e que deve originar a diagramação correta (em árvore) dos termos. O termo principal segue o seguinte modelo de comando: \texttt{\textbackslash index\{termo principal$@$\textbackslash textbf\{Termo principal\}}
+
+Este argumento \texttt{termo principal$@$\textbackslash textbf\{Termo principal\}} é necessário para que o mesmo seja inserido no índice com o estilo correto: termo principal em negrito, com primeira letra em caixa alta e um espaço simples separando-o do termo anterior. O primeiro subconjunto de termos dentro do termo principal é identificado pelo uso do operador `!' entre o termo principal e o termo secundário, como no exemplo: \texttt{\textbackslash index\{termo principal$@$\textbackslash textbf\{Termo principal\}!termo secundário\}}
+
+Se houver um terceiro subconjunto de termos abaixo do termo secundário, segue-se o mesmo raciocínio, separando-se o termo terciário do secundário com o operador `!': \texttt{\textbackslash index\{termo principal$@$\textbackslash textbf\{Termo principal\}!termo secundário!termo terciário\}}
+
+O comando \texttt{\textbackslash index} deve estar posicionado logo após o termo ao qual se refere no corpo do texto. Assim o comando será capaz de registrar a página onde o termo desejado se encontra. Pode se repetir o comando de indexação para o mesmo termo quantas vezes forem necessárias e/ou desejadas. Para cada incidência do comando de indexação, mais um número de página será acrescentado ao lado do termo no índice de assuntos.
+
+%=====================================================================
+\chapter{Figuras e tabelas}
+%=====================================================================
+
+No pacote \textsf{repUERJ}, os ambientes \texttt{figure} e \texttt{table} foram adaptados para reproduzir as normas de elaboração de teses e dissertações da UERJ.
+
+Um corpo de figura ou tabela é composto por um título, uma legenda, fonte, figuras ou tabela. O título é inserido pelo comando tradicional \texttt{\textbackslash caption\{título\}}. A legenda é inserida pelo comando \texttt{\textbackslash legend\{texto.\}}. A fonte é inserida pelo comando \texttt{\textbackslash source\{citação\}}.
+
+Pelas normas, tanto figura quanto tabela devem ser apresentadas centralizadas em relação à área textual da folha. Os elementos que acompanham as figuras e as tabelas devem estar alinhadas em relação à margem esquerda do corpo. 
+
+Para tanto, incluiu-se nos ambientes \texttt{figure} e \texttt{table} mais um parâmetro: largura do corpo. Este comprimento cria uma área centralizada onde serão inseridos os elementos do corpo. No caso de figuras, sugere-se que se deixe o ajuste da largura da imagem em função do parâmetro \texttt{\textbackslash hsize}.
+
+Como exemplos, os blocos de comandos referentes à Figura \ref{rotulo} e à Tabela \ref{mais.rotulo} são
+\begin{verbatim}
+\begin{figure}[!ht]{6cm}
+  \caption{Título da figura.} \label{rotulo}
+  \includegraphics[width=\hsize]{logo_uerj_cor.jpg}
+  \legend{Texto da legenda.}
+  \source{Citação da fonte ou `O autor.'.}
+\end{figure}
+\end{verbatim}
+\begin{verbatim}
+\begin{table}[!ht]{4cm}
+  \caption{Título da tabela.}\label{mais.rotulo}
+  \hfill\begin{tabular}{l|l}
+    \hline
+      X & Y\\
+    \hline
+      1,20 & 15,7\\
+      1,23 & 15,6\\
+      1,19 & 15,3\\
+      1,26 & 15,1\\
+      1,22 & 15,5\\
+      1,16 & 15,3\\
+      1,37 & 15,7\\
+    \hline
+  \end{tabular}\hfill
+  \legend{Texto da legenda.}
+  \source{Citação da fonte ou `O autor.'.}
+\end{table}
+\end{verbatim}
+
+\begin{figure}[!ht]{10cm}
+  \caption{Título da figura.} \label{rotulo}
+  \includegraphics[width=\hsize]{logo_uerj_cor.jpg}
+  \legend{Texto da legenda.}
+  \source{Citação da fonte ou `O autor.'.}
+\end{figure}
+
+\begin{table}[!ht]{4cm}
+  \caption{Título da tabela.}\label{mais.rotulo}
+  \hfill\begin{tabular}{l|l}
+    \hline
+      X & Y\\
+    \hline
+      1,20 & 15,7\\
+      1,23 & 15,6\\
+      1,19 & 15,3\\
+      1,26 & 15,1\\
+      1,22 & 15,5\\
+      1,16 & 15,3\\
+      1,37 & 15,7\\
+    \hline
+  \end{tabular}\hfill
+  \legend{Texto da legenda.}
+  \source{Citação da fonte ou `O autor.'.}
+\end{table}
+
+No caso de figuras organizadas sob um mesmo título, sugere-se o uso do pacote \textsl{subfig}. A largura de cada imagem do corpo pode ser ajustada da mesma forma -- usando-se o parâmetro \texttt{\textbackslash hsize}. Veja o bloco de comandos para a Figura \ref{outro.rotulo}.%\subref{subrotulo1}.
+
+\begin{verbatim}
+\begin{figure}[!ht]{11cm}
+  \caption{Título da figura.} \label{outro.rotulo}
+  \subfloat[][]{
+    \label{subrotulo1}
+    \fbox{\includegraphics[width=0.45\hsize]{logo_uerj_cinza.png}}}\hfill
+  \subfloat[][]{
+    \label{subrotulo2}
+    \fbox{\includegraphics[width=0.45\hsize]{marcadagua_uerj_cinza.png}}}\\
+  \subfloat[][]{
+    \label{subrotulo3}
+    \fbox{\includegraphics[width=0.45\hsize]{logo_uerj_cor.jpg}}}\hfill
+  \legend{Texto da legenda.
+    Texto da imagem \subref{subrotulo1}.
+    Texto da imagem \subref{subrotulo2}.
+    Texto da imagem \subref{subrotulo3}.}
+  \source{Citação da fonte ou `O autor'.}
+\end{figure}
+\end{verbatim}
+
+\begin{figure}[!ht]{11cm}
+  \caption{Título da figura.} \label{outro.rotulo}
+  \subfloat[][]{
+    \label{subrotulo1}
+    \fbox{\includegraphics[width=0.45\hsize]{logo_uerj_cinza.png}}}\hfill
+  \subfloat[][]{
+    \label{subrotulo2}
+    \fbox{
+      \includegraphics[width=0.45\hsize]{marcadagua_uerj_cinza.png}}}\\
+  \subfloat[][]{
+    \label{subrotulo3}
+    \fbox{
+      \includegraphics[width=0.45\hsize]{logo_uerj_cor.jpg}}}\hfill
+  \legend{Texto da legenda.
+    Texto da imagem \subref{subrotulo1}.
+    Texto da imagem \subref{subrotulo2}.
+    Texto da imagem \subref{subrotulo3}.}
+  \source{Citação da fonte ou `O autor'.}
+\end{figure}
+
+%=====================================================================
+\chapter{Algoritmos}
+%=====================================================================
+
+Comum nas áreas de engenharia e ciências exatas, a elaboração de algoritmos em \LaTeX{} conta com vários pacotes. Com a intenção de manter compatibilidade com o pacote \textsf{repUERJ}, desenvolveu-se um pacote a parte, o \textsf{repUERJpseudocode}, que implementa a formulação de pseudocódigos segundo as regras de sintaxe definidas no curso de Física Computacional do Instituto de Física da UERJ. Neste pacote, são oferecidos dois ambientes para a elaboração de pseudocódigos:\\
+
+\texttt{\textbackslash begin\{algorithm\}} \texttt{\textbackslash end\{algorithm\}}
+
+\texttt{\textbackslash begin\{pseudocode\}} \texttt{\textbackslash end\{pseudocode\}}\\
+
+O ambiente \texttt{algorithm} tem a função de apresentar o algoritmo como elemento flutuante, pelo incremento do contador de algoritmos e prover a lista de algoritmos que pode ser incluída no início do documento. Já o ambiente \texttt{pseudocode} é responsável pela inicialização dos contadores próprios das linhas e tabulações. O ambiente \texttt{pseudocode} não depende do ambiente  \texttt{algorithm}, mas o inverso não é verdadeiro.
+
+Cada algoritmo é identificado por um título, que é inserido via comando \texttt{\textbackslash caption\{ tí\-tulo\}}. Para a correta referência no corpo de texto do documento, é facultado o uso de rótulos (\texttt{\textbackslash label\{rótulo\}}).
+
+Veja um rápido exemplo (Algoritmo \ref{alg:rotulo}):
+\begin{verbatim}
+\begin{algorithm}[!ht]
+    \caption{Um exemplo rápido.} \label{alg:rotulo}
+    \begin{pseudocode}
+    \Algoritmo{Exemplo\_1}
+        \Declarar[variáveis numéricas]{$var$, $mat[3,4]$}{numéricas}
+            {$var\leftarrow$0}{}
+        \Declarar[variável lógica]{$resp$}{lógica}{}{}
+        \Declarar[variáveis literais]{$ch$, $str[64]$}{literais}
+            {$str\leftarrow$\String{sequência}}{ }
+        
+        \Escrever[menu de opções]{\String{Escolha uma opção:}}{}
+        \Escrever{\String{a) opção 1}}{}
+        \Escrever{\String{b) opção 2}}{}
+        \Escrever{\String{c) opção 3}}{}
+        \Escrever{\String{x) para sair}}{}
+        \Comentario{força o usuário acertar uma das opções válidas}
+        \Repetir
+            \Ler{$opc$}{}
+        \AteQue{$opc=$'a' ou $opc=$'b' ou $opc=$'c' ou $opc=$'x'}
+        
+        \SeEntao{$opc=$'x'}
+            \Parar
+        \FimSe
+        \Comentario{processamento das demais opções}
+        \Comentario{...........}
+    \FimAlgoritmo
+    \end{pseudocode}
+\end{algorithm}
+\end{verbatim}
+
+\begin{algorithm}[!ht]
+    \caption{Um exemplo rápido.} \label{alg:rotulo}
+    \begin{pseudocode}
+    \Algoritmo{Exemplo\_1}
+        \Declarar[variáveis numéricas]{$var$, $mat[3,4]$}{numéricas}
+            {$var\leftarrow$0}{}
+        \Declarar[variável lógica]{$resp$}{lógica}{}{}
+        \Declarar[variáveis literais]{$ch$, $str[64]$}{literais}
+            {$str\leftarrow$\String{sequência}}{}
+        
+        \Escrever[menu de opções]{\String{Escolha uma opção:}}{}
+        \Escrever{\String{a) opção 1}}{}
+        \Escrever{\String{b) opção 2}}{}
+        \Escrever{\String{c) opção 3}}{}
+        \Escrever{\String{x) para sair}}{}
+        \Comentario{força o usuário acertar uma das opções válidas}
+        \Repetir
+            \Ler{$opc$}{}
+        \AteQue{$opc=$'a' ou $opc=$'b' ou $opc=$'c' ou $opc=$'x'}
+        
+        \SeEntao{$opc=$'x'}
+            \Parar
+        \FimSe
+        \Comentario{processamento das demais opções}
+        \Comentario{...........}
+    \FimAlgoritmo
+    \end{pseudocode}
+\end{algorithm}
+
+Quando o algoritmo é longo e precisa ser ``quebrado'', a retomada se dá com os mesmos ambientes, porém, marcados com ``estrela''. Isso faz com que a continuação do algoritmo não incremente o contador de algoritmos e a numeração das linhas segue normalmente, a partir da última numeração de linhas do trecho anterior.
+
+Veja outro exemplo rápido; neste caso, Algoritmo \ref{alg:rotulo2} em duas partes:
+\begin{verbatim}
+\begin{algorithm}[!ht]
+    \caption{O mesmo exemplo rápido.} \label{alg:rotulo2}
+    \begin{pseudocode}
+    \Algoritmo{Exemplo\_1}
+        \Declarar[variáveis numéricas]{$var$, $mat[3,4]$}{numéricas}
+            {$var\leftarrow$0}{}
+        \Declarar[variável lógica]{$resp$}{lógica}{}{}
+        \Declarar[variáveis literais]{$ch$, $str[64]$}{literais}
+            {$str\leftarrow$\String{sequência}}{}
+        
+        \Escrever[menu de opções]{\String{Escolha uma opção:}}{}
+        \Escrever{\String{a) opção 1}}{}
+        \Escrever{\String{b) opção 2}}{}
+        \Escrever{\String{c) opção 3}}{}
+        \Escrever{\String{x) para sair}}{}
+    \Continua
+    \end{pseudocode}
+\end{algorithm}
+\end{verbatim}
+
+\begin{algorithm}[!ht]
+    \caption{O mesmo exemplo rápido.} \label{alg:rotulo2}
+    \begin{pseudocode}
+    \Algoritmo{Exemplo\_1}
+        \Declarar[variáveis numéricas]{$var$, $mat[3,4]$}{numéricas}
+            {$var\leftarrow$0}{}
+        \Declarar[variável lógica]{$resp$}{lógica}{}{}
+        \Declarar[variáveis literais]{$ch$, $str[64]$}{literais}
+            {$str\leftarrow$\String{sequência}}{}
+        
+        \Escrever[menu de opções]{\String{Escolha uma opção:}}{}
+        \Escrever{\String{a) opção 1}}{}
+        \Escrever{\String{b) opção 2}}{}
+        \Escrever{\String{c) opção 3}}{}
+        \Escrever{\String{x) para sair}}{}
+    \Continua
+    \end{pseudocode}
+\end{algorithm}
+
+\begin{verbatim}
+\begin{algorithm*}[!ht]
+    \caption{O mesmo exemplo rápido (continuação).}
+    \begin{pseudocode*}
+    \Continuacao
+        \Comentario{força o usuário acertar uma das opções válidas}
+        \Repetir
+            \Ler{$opc$}{}
+        \AteQue{$opc=$'a' ou $opc=$'b' ou $opc=$'c' ou $opc=$'x'}
+        
+        \SeEntao{$opc=$'x'}
+            \Parar
+        \FimSe
+        \Comentario{processamento das demais opções}
+        \Comentario{...........}
+    \FimAlgoritmo
+    \end{pseudocode*}
+\end{algorithm*}
+\end{verbatim}
+
+\begin{algorithm*}[!ht]
+    \caption{O mesmo exemplo rápido (continuação).}
+    \begin{pseudocode*}
+    \Continuacao
+        \Comentario{força o usuário acertar uma das opções válidas}
+        \Repetir
+            \Ler{$opc$}{}
+        \AteQue{$opc=$'a' ou $opc=$'b' ou $opc=$'c' ou $opc=$'x'}
+        
+        \SeEntao{$opc=$'x'}
+            \Parar
+        \FimSe
+        \Comentario{processamento das demais opções}
+        \Comentario{...........}
+    \FimAlgoritmo
+    \end{pseudocode*}
+\end{algorithm*}
+
+Além dos ambientes, o autor pode usar os comandos \texttt{\textbackslash alglinenumbersoff} e \texttt{\textbackslash alg\-line\-numberson} para desligar/ligar a numeração das linhas do pseudocódigo.
+
+%-------------------------------------------------------------------
+\section{Elementos de documentação do algoritmo}
+%-------------------------------------------------------------------
+
+A documentação de um algoritmo é extremamente importante, pois preserva a memória do desenvolvedor em relação ao que se fez, seu propósito, objetivos, restrições, requisitos, métodos utilizados na lógica, entradas, saídas, além de registrar a autoria e identificar a lógica.
+
+A documentação não é obrigatória no sentido da apresentação do(s) algoritmo(s). No entanto, a prática da documentação é incentivada.
+
+Os comandos de documentação são:
+\begin{alinea}
+\item \texttt{\textbackslash Documentacao}\\
+      \texttt{\textbackslash FimDocumentacao}
+    \begin{alinea}
+        \item Abrem e fecham a documentação relativa ao 
+        algoritmo. O propósito é delimitar o início e o fim da
+        documentação.
+    \end{alinea}
+    
+\item \texttt{\textbackslash Título\{\textit{identificação}\}} \\
+    onde:
+    \begin{alinea}
+        \item \texttt{\textit{identificação}}: sentença que 
+        identifica a implementação que está sendo documentada.
+    \end{alinea}
+\item \texttt{\textbackslash Propósito\{\textit{texto}\}} \\
+    onde:
+    \begin{alinea}
+        \item \texttt{\textit{texto}}: texto apresentando o 
+        propósito da solução e os objetivos.
+    \end{alinea}
+\item \texttt{\textbackslash Método\{\textit{texto}\}} \\
+    onde:
+    \begin{alinea}
+        \item \texttt{\textit{texto}}: texto apresentando o 
+        método utilizado como solução do problema. Se a 
+        documentação encerra vários algoritmos, os métodos 
+        relativos a cada um devem estar presentes nesta 
+        seção. O método \textit{per si} pode ser entendido 
+        como a apresentação da lógica do algoritmo sem o
+        formalismo do pseudocódigo. É mais narrativo que 
+        formal.
+    \end{alinea}
+\item \texttt{\textbackslash Entradas\{\textit{texto}\}}\\
+      \texttt{\textbackslash Saídas\{\textit{texto}\}}\\
+    onde:
+    \begin{alinea}
+        \item \texttt{\textit{texto}}: texto apresentando as
+        informações de entrada e saída do algoritmo.
+    \end{alinea}
+\item \texttt{\textbackslash Observações\{\textit{texto}\}} \\
+    onde:
+    \begin{alinea}
+        \item \texttt{\textit{texto}}: texto apresentando as
+        as observações pertinentes ao algoritmo, suas 
+        restrições e requisitos.\\
+    \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplo}
+\begin{verbatim}
+\begin{algorithm}[!ht]
+    \caption{Raízes de polinômio quadrático.} \label{alg:baskara}
+    \begin{pseudocode}
+        \Documentacao
+            \Titulo{Raízes de polinômio quadrático}
+            \Proposito{
+                Calcular as raízes de um polinômio quadrático 
+                a partir dos coeficientes deste polinômio.}
+            \Metodo{
+                Um polinômio quadrático segue a expressão\\
+                \inctab  $ax^2 + by + c = 0$\\
+                A partir dos coeficientes a, b e c, calcula-se as
+                raízes do polinômio pelo método de Baskara.
+                Neste método, as raízes reais são dadas pelas 
+                expressões\\
+                \inctab $r_1 = (-b-\sqrt{b^2-4ac}/(2a)$\\
+                \inctab $r_2 = (-b+\sqrt{b^2-4ac}/(2a)$\\
+                Pela aplicação da operação de radiciação, o seu 
+                argumento deve ser não negativo, pois, caso
+                contrário, o resultado da operação seria um 
+                valor complexo. Assim, se o termo $b^2-4ac$ é
+                não negativo, o método calcula as raízes reais
+                do polinômio.}
+            \Entradas{
+                $a$: coeficiente do termo quadrático\\
+                $b$: coeficiente do termo linear\\
+                $c$: termo constante}
+            \Saidas{
+                $r_1$ e $r_2$: raízes reais do polinômio}
+            \Observacoes{
+                O método só permite o cálculo das raízes reais
+                do polinômio quadrático. O método não funciona 
+                caso o coeficiente $a$ seja nulo, ou seja, que 
+                o polinômio seja reduzido para uma expressão 
+                linear.}
+        \FimDocumentacao
+    \end{pseudocode}
+\end{algorithm}
+\end{verbatim}
+
+\begin{algorithm}[!ht]
+    \caption{Raízes de polinômio quadrático.} \label{alg:baskara}
+    \begin{pseudocode}
+        \Documentacao
+            \Titulo{Raízes de polinômio quadrático}
+            \Proposito{
+                Calcular as raízes de um polinômio quadrático 
+                a partir dos coeficientes deste polinômio.}
+            \Metodo{
+                Um polinômio quadrático segue a expressão\\
+                \inctab  $ax^2 + by + c = 0$\\
+                A partir dos coeficientes a, b e c, calcula-se as
+                raízes do polinômio pelo método de Baskara.
+                Neste método, as raízes reais são dadas pelas 
+                expressões\\
+                \inctab $r_1 = (-b-\sqrt{b^2-4ac}/(2a)$\\
+                \inctab $r_2 = (-b+\sqrt{b^2-4ac}/(2a)$\\
+                Pela aplicação da operação de radiciação, o seu 
+                argumento deve ser não negativo, pois, caso
+                contrário, o resultado da operação seria um 
+                valor complexo. Assim, se o termo $b^2-4ac$ é
+                não negativo, o método calcula as raízes reais
+                do polinômio.}
+            \Entradas{
+                $a$: coeficiente do termo quadrático\\
+                $b$: coeficiente do termo linear\\
+                $c$: termo constante}
+            \Saidas{
+                $r_1$ e $r_2$: raízes reais do polinômio}
+            \Observacoes{
+                O método só permite o cálculo das raízes reais
+                do polinômio quadrático. O método não funciona 
+                caso o coeficiente $a$ seja nulo, ou seja, que 
+                o polinômio seja reduzido para uma expressão 
+                linear.}
+        \FimDocumentacao
+    \end{pseudocode}
+\end{algorithm}
+
+%-------------------------------------------------------------------
+\section{Elementos de lógica de programação}
+%-------------------------------------------------------------------
+
+Para a construção do pseudocódigo, o pacote \textsf{repUERJpseudocode} provê diversos comandos cujas sintaxes serão apresentadas a seguir.
+
+%..............................................................
+\subsection{Declaração de dados}
+%..............................................................
+
+\begin{alinea}
+  \item \texttt{\textbackslash Declarar[\textit{comentário}]\{\textit{rótulos}\}\{\textit{natureza}\}\{\textit{valores inici-}\\
+        \textit{ais}\}\{\textit{mecanismo de passagem}\}}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{comentário}}: texto informativo;
+            \item \textit{\texttt{rótulos}}: lista de
+                  identificadores;
+            \item \textit{\texttt{natureza}}: numérico, literal,
+                  lógico, arquivo ou definido pelo usuário via
+                  definição de registro;
+            \item \textit{\texttt{valores iniciais}}: inicialização
+                  de dados (opcional para variáveis; obrigatório
+                  para constantes);
+            \item \textit{\texttt{mecanismo de passagem}}: por cópia
+                  ou por referência (significativo somente para
+                  elaboração de funções, subrotinas ou
+                  procedimentos).
+    \end{alinea}
+  \item \texttt{\textbackslash Definir[\textit{comentário}]\{\textit{rótulo}\}}\\
+        \texttt{\textbackslash FimRegistro}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{comentário}}: texto informativo;
+            \item \textit{\texttt{rótulo}}: identificador do registro.\\
+        \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplo}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Definir{complexo}
+        \Declarar[r: real; i: imaginário]{$r$, $i$}{numéricos}{}{}
+    \FimRegistro
+    \Definir{coord}
+        \Declarar[coordenada]{$x$, $y$, $z$}{numéricos}{}{}
+    \FimRegistro
+    \LinhaEmBranco
+    \Declarar[variáveis auxiliares]{$m$, $n$}{numéricos}{}{}
+    \Declarar[variáveis auxiliares]{$i$, $j$}{numéricos}{$i\leftarrow0$}{}
+    \Declarar[string]{$nome[36]$}{literal}{}{}
+    \Declarar[string]{$endereco[90]$}{literal}
+                     {$endereco\leftarrow$``R. Bituca''}{}
+    \Declarar[gravidade ao nível do mar]{$g$}{numérico constante}
+                     {$g\leftarrow9,78$}{}
+    \Declarar[inicializando campos individualmente]{$p$}
+        {coord}{$p.x\leftarrow0; p.y\leftarrow0;p.z\leftarrow1$}{}
+    \Declarar{$q$}{coord}{$q\leftarrow(0; 0; 1)$}{}
+    \Declarar[lista de 100 pontos]{$r[100]$}{coord}{}{}
+    \Declarar{$z1$, $z2$}{complexos}{$z1.r\leftarrow1;
+        z1.i\leftarrow0; z1.r\leftarrow0; z2.i\leftarrow1$}{}
+    \Declarar[complexo com inicialização compacta]{$w$}{complexo}
+        {$w\leftarrow(2;-1)$}{}
+    \Declarar[arquivos de dados]{$cadastro$, $medidas$}{arquivo}{}{}
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][274pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+    \LinhaEmBranco
+    \Definir{complexo}
+        \Declarar[r: real; i: imaginário]{$r$, $i$}{numéricos}{}{}
+    \FimRegistro
+    \Definir{coord}
+        \Declarar[coordenada]{$x$, $y$, $z$}{numéricos}{}{}
+    \FimRegistro
+    \LinhaEmBranco
+    \Declarar[variáveis auxiliares]{$m$, $n$}{numéricos}{}{}
+    \Declarar[variáveis auxiliares]{$i$, $j$}{numéricos}{$i\leftarrow0$}{}
+    \Declarar[string]{$nome[36]$}{literal}{}{}
+    \Declarar[string]{$endereco[90]$}{literal}{$endereco\leftarrow$``R. Bituca''}{}
+    \Declarar[gravidade ao nível do mar]{$g$}{numérico constante}{$g\leftarrow9,78$}{}
+    \Declarar[inicializando campos individualmente]{$p$}
+        {coord}{$p.x\leftarrow0; p.y\leftarrow0;p.z\leftarrow1$}{}
+    \Declarar{$q$}{coord}{$q\leftarrow(0; 0; 1)$}{}
+    \Declarar[lista de 100 pontos]{$r[100]$}{coord}{}{}
+    \Declarar{$z1$, $z2$}{complexos}{$z1.r\leftarrow1;
+        z1.i\leftarrow0; z1.r\leftarrow0; z2.i\leftarrow1$}{}
+    \Declarar[complexo com inicialização compacta]{$w$}{complexo}
+        {$w\leftarrow(2;-1)$}{}
+    \Declarar[arquivos de dados]{$cadastro$, $medidas$}{arquivo}{}{}
+\end{pseudocode}
+}}
+
+%..............................................................
+\subsection{Entrada e saída de dados}
+%..............................................................
+
+\begin{alinea}
+\item \texttt{\textbackslash Abrir[\textit{comentário}]\{\textit{nome do arquivo }(\textit{string})\}\{\textit{rótulo}\}\{\textit{ação sobre o arquivo}\}}\\
+      \texttt{\textbackslash Fechar[\textit{comentário}]\{\textit{rótulos}\}}\\
+      onde:
+      \begin{alinea}
+          \item \textit{\texttt{comentário}}: texto informativo;
+          \item \texttt{\textit{nome do arquivo}}: \textit{string}
+                contendo o nome do arquivo que será aberto;
+          \item \texttt{\textit{rótulo}(\textit{s})}: 
+                identificador(es) declarado(s) como
+                \textbf{arquivo(s)} e que estará(ão) 
+                associado(s) ao(s) nome(s) do(s) arquivo(s);
+          \item \texttt{\textit{ação sobre o arquivo}}: leitura
+                ou escrita.
+      \end{alinea}
+\item \texttt{\textbackslash Ler[\textit{comentário}]\{\textit{lista de variáveis}\}\{\textit{rótulo de arquivo} (\textit{se houver})\}}\\
+      onde:
+      \begin{alinea}
+          \item \textit{\texttt{comentário}}: texto informativo;
+          \item \texttt{\textit{lista de variáveis}}: sequência
+                de variáveis;
+          \item \texttt{\textit{rótulo de arquivo}}:
+                identificador declarado como \textbf{arquivo}
+                no caso de leitura de arquivo; se não, deixar
+                vazio.
+      \end{alinea}
+\item \texttt{\textbackslash Escrever[\textit{comentário}]\{\textit{lista de dados}\}\{\textit{rótulo de arquivo} (\textit{se houver})\}}\\
+      onde:
+      \begin{alinea}
+          \item \textit{\texttt{comentário}}: texto informativo;
+          \item \texttt{\textit{lista de dados}}: sequência de 
+                dados de saída;
+          \item \texttt{\textit{rótulo de arquivo}}:
+                identificador declarado como \textbf{arquivo} 
+                no caso de escrita em arquivo; se não, deixar
+                vazio.\\
+      \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplos}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Declarar[dados]{$x, y, t$}{numéricos}{}{}
+    \LinhaEmBranco
+    \Ler[entrada por dispositivo padrão -- teclado]
+        {$x$, $y$, $t$}{}
+    \Escrever[saída em dispositivo padrão -- monitor]
+        {$2*x$, $2*y$, $t*0,5$}{}
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][69pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+    \LinhaEmBranco
+    \Declarar[dados]{$x, y, t$}{numéricos}{}{}
+    \LinhaEmBranco
+    \Ler[entrada por dispositivo padrão -- teclado]{$x$, $y$, $t$}{}
+    \Escrever[saída em dispositivo padrão -- monitor]{$2*x$, $2*y$, $t*0,5$}{}
+\end{pseudocode}
+}}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Declarar[dados]{$x, y, t$}{numéricos}{}{}
+    \Declarar[arquivo 1 e arquivo 2]{$arq1$, $arq2$}{arquivos}{}{}
+    \LinhaEmBranco
+    \Abrir[abrindo arquivo 1]{``entrada.txt''}{$arq1$}{leitura}
+    \Abrir[abrindo arquivo 2]{``saida.txt''}{$arq2$}{escrita}
+    \Ler[entrada de arq1]{$x$, $y$, $t$}{$arq1$}
+    \Escrever[saída em arq2]{$2*x$, $2*y$, $t*0,5$}{$arq2$}
+    \Fechar[fechando arq1 e arq2]{$arq1$, $arq2$}
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][130pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+    \LinhaEmBranco
+    \Declarar[dados]{$x, y, t$}{numéricos}{}{}
+    \Declarar[arquivo 1 e arquivo 2]{$arq1$, $arq2$}{arquivos}{}{}
+    \LinhaEmBranco
+    \Abrir[abrindo arquivo 1]{``entrada.txt''}{$arq1$}{leitura}
+    \Abrir[abrindo arquivo 2]{``saida.txt''}{$arq2$}{escrita}
+    \Ler[entrada de arq1]{$x$, $y$, $t$}{$arq1$}
+    \Escrever[saída em arq2]{$2*x$, $2*y$, $t*0,5$}{$arq2$}
+    \Fechar[fechando arq1 e arq2]{$arq1$, $arq2$}
+\end{pseudocode}
+}}
+
+%..............................................................
+\subsection{Desvios}
+%..............................................................
+
+\begin{alinea}
+  \item \texttt{\textbackslash SeEntao[\textit{comentário}]\{\textit{condição}\}}\\
+        \texttt{\textbackslash SenaoSeEntao[\textit{comentário}]\{\textit{condição}\}}\\
+        \texttt{\textbackslash Senao[\textit{comentário}]}\\
+        \texttt{\textbackslash FimSe}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{comentário}}: texto
+                  informativo;
+            \item \textit{\texttt{condição}}: teste a ser
+                  avaliado.\\
+        \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplo}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \alglinenumbersoff
+    \SeEntao[comentário 1]{$opc=0$}
+        \Escrever{``Opção 0''}{}
+    \SenaoSeEntao[comentário 2]{$opc=1$}
+        \Escrever{``Opção 1''}{}
+    \SenaoSeEntao[comentário 3]{$opc=2$}
+        \Escrever{``Opção 2''}{}
+    \Senao[comentário 4]
+        \Escrever{``Nenhuma das opções anteriores.''}{}
+    \FimSe
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][143pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+    \alglinenumbersoff
+    \LinhaEmBranco
+    \SeEntao[comentário 1]{$opc=0$}
+        \Escrever{``Opção 0''}{}
+    \SenaoSeEntao[comentário 2]{$opc=1$}
+        \Escrever{``Opção 1''}{}
+    \SenaoSeEntao[comentário 3]{$opc=2$}
+        \Escrever{``Opção 2''}{}
+    \Senao[comentário 4]
+        \Escrever{``Nenhuma das opções anteriores.''}{}
+    \FimSe
+\end{pseudocode}
+}}
+
+%..............................................................
+\subsection{Repetições}
+%..............................................................
+
+\begin{alinea}
+  \item \texttt{\textbackslash Enquanto[\textit{comentário}]\{\textit{condição}\}}\\
+        \texttt{\textbackslash FimEnquanto}
+  \item \texttt{\textbackslash Fazer[\textit{comentário}]}\\
+        \texttt{\textbackslash Enquanto[\textit{comentário}]\{\textit{condição}\}}
+  \item \texttt{\textbackslash Repetir[\textit{comentário}]}\\
+        \texttt{\textbackslash AteQue[\textit{comentário}]\{\textit{condição}\}}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{comentário}}: texto
+                  informativo;
+            \item \textit{\texttt{condição}}: teste a ser
+                  avaliado.
+        \end{alinea}
+  \item \texttt{\textbackslash ParaDeAtePasso [\textit{comentário}]\{\textit{rótulo}\}\{\textit{valor inicial}\}\{\textit{valor \\final}\}\{\textit{razão}\}}\\
+        \texttt{\textbackslash FimPara}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{comentário}}: texto
+                  informativo;
+            \item \textit{\texttt{rótulo}}: identificador da
+                  variável contadora;
+            \item \textit{\texttt{valor inicial}}: 
+                  valor numérico inicial atribuído ao rótulo;
+            \item \textit{\texttt{valor final}}: 
+                  valor numérico final atribuído ao rótulo;
+            \item \textit{\texttt{razão}}: 
+                  passo incremental de progressão dos valores
+                  (opcional; se não for usado, deixar vazio).\\
+        \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplos}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \alglinenumbersoff
+    \Enquanto[comentário 1]{$opc<0$}
+        \Escrever{``Opção inválida''}{}
+        \Ler{$opc$}{}
+    \FimEnquanto
+    \LinhaEmBranco
+    \Fazer[comentário 2]
+        \Escrever{``Opções de 1 a 10''}{}
+        \Ler{$opc$}{}
+    \Enquanto[comentário 3]{$opc<1$ ou $opc>10$}
+    \LinhaEmBranco
+    \Repetir[comentário 4]
+        \Escrever{``Opções de 1 a 10''}{}
+        \Ler{$opc$}{}
+    \AteQue[comentário 5]{$opc>=1$ e $opc<=10$}
+    \LinhaEmBranco
+    \ParaDeAtePasso[comentário 6]{$opc$}{1}{10}{2}
+        \Escrever{``opc = '', $opc$}{}
+    \FimPara
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][275pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+    \alglinenumbersoff
+    \LinhaEmBranco
+    \Enquanto[comentário 1]{$opc<0$}
+        \Escrever{``Opção inválida''}{}
+        \Ler{$opc$}{}
+    \FimEnquanto
+    \LinhaEmBranco
+    \Fazer[comentário 2]
+        \Escrever{``Opções de 1 a 10''}{}
+        \Ler{$opc$}{}
+    \Enquanto[comentário 3]{$opc<1$ ou $opc>10$}
+    \LinhaEmBranco
+    \Repetir[comentário 4]
+        \Escrever{``Opções de 1 a 10''}{}
+        \Ler{$opc$}{}
+    \AteQue[comentário 5]{$opc>=1$ e $opc<=10$}
+    \LinhaEmBranco
+    \ParaDeAtePasso[comentário 6]{$opc$}{1}{10}{2}
+        \Escrever{``opc = '', $opc$}{}
+    \FimPara
+\end{pseudocode}
+}}
+
+%..............................................................
+\subsection{Módulos}
+%..............................................................
+
+\begin{alinea}
+  \item \texttt{\textbackslash Funcao\{\textit{identificador}\}\{\textit{argumentos}\}}\\
+        \texttt{\textbackslash FimFuncao}
+  \item \texttt{\textbackslash Subrotina\{\textit{identificador}\}\{\textit{argumentos}\}}\\
+        \texttt{\textbackslash FimSubrotina}
+  \item \texttt{\textbackslash Procedimento\{\textit{identificador}\}\{\textit{argumentos}\}}\\
+        \texttt{\textbackslash FimProcedimento}\\
+        onde:
+        \begin{alinea}
+            \item \textit{\texttt{identificador}}: nome pelo qual 
+                  a função será invocada;
+            \item \textit{\texttt{argumentos}}: lista de variáveis
+                  usadas como passagem de informação.\\
+        \end{alinea}
+\end{alinea}
+
+\noindent\textbf{Exemplos}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Funcao{Maior\_de\_3}{$a$, $b$, $c$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}
+            {numéricos}{}{por cópia}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ e $a>c$}
+            \Retornar{$a$}
+        \SenaoSeEntao[comentário 2]{$b>a$ e $b>c$}
+            \Retornar{$b$}
+        \Senao[comentário 4]
+            \Retornar{$c$}
+        \FimSe
+    \FimFuncao
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][171pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+%    \alglinenumbersoff
+    \LinhaEmBranco
+    \Funcao{Maior\_de\_3}{$a$, $b$, $c$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}
+            {numéricos}{}{por cópia}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ e $a>c$}
+            \Retornar{$a$}
+        \SenaoSeEntao[comentário 2]{$b>a$ e $b>c$}
+            \Retornar{$b$}
+        \Senao[comentário 4]
+            \Retornar{$c$}
+        \FimSe
+    \FimFuncao
+\end{pseudocode}
+}}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Subrotina{Maior\_de\_3}{$a$, $b$, $c$, $m$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}
+            {numéricos}{}{por cópia}
+        \Declarar{$m$}{numérico}{}{por referência}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ {e} $a>c$}
+            \Ins{$m\leftarrow a$}
+        \SenaoSeEntao{$b>a$ e $b>c$}
+            \Ins{$m\leftarrow b$}
+        \Senao
+            \Ins{$m\leftarrow c$}
+        \FimSe
+    \FimSubrotina
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][187pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+%    \alglinenumbersoff
+    \LinhaEmBranco
+    \Subrotina{Maior\_de\_3}{$a$, $b$, $c$, $m$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}{numéricos}{}
+                                             {por cópia}
+        \Declarar{$m$}{numérico}{}{por referência}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ {e} $a>c$}
+            \Ins{$m\leftarrow a$}
+        \SenaoSeEntao{$b>a$ e $b>c$}
+            \Ins{$m\leftarrow b$}
+        \Senao
+            \Ins{$m\leftarrow c$}
+        \FimSe
+    \FimSubrotina
+\end{pseudocode}
+}}
+
+\begin{verbatim}
+\begin{pseudocode}
+    \Procedimento{Maior\_de\_3}{$a$, $b$, $c$, $m$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}
+            {numéricos}{}{por cópia}
+        \Declarar{$m$}{numérico}{}{por referência}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ e $a>c$}
+            \Ins{$m\leftarrow a$}
+        \SenaoSeEntao{$b>a$ e $b>c$}
+            \Ins{$m\leftarrow b$}
+        \Senao
+            \Ins{$m\leftarrow c$}
+        \FimSe
+    \FimProcedimento
+\end{pseudocode}
+\end{verbatim}
+
+\noindent\fbox{\parbox[b][187pt][t]{\textwidth}{\singlespace
+\begin{pseudocode}
+%    \alglinenumbersoff
+    \LinhaEmBranco
+    \Procedimento{Maior\_de\_3}{$a$, $b$, $c$, $m$}
+        \Declarar[declarações dos argumentos]{$a$, $b$, $c$}
+            {numéricos}{}{por cópia}
+        \Declarar{$m$}{numérico}{}{por referência}
+        \LinhaEmBranco
+        \SeEntao[instruções]{$a>b$ e $a>c$}
+            \Ins{$m\leftarrow a$}
+        \SenaoSeEntao{$b>a$ e $b>c$}
+            \Ins{$m\leftarrow b$}
+        \Senao
+            \Ins{$m\leftarrow c$}
+        \FimSe
+    \FimProcedimento
+\end{pseudocode}
+}}
+
+
+
+~ \newline
+
+\par Texto. Texto, texto Algoritmo \ref{alg:baskara}. Texto. 
+
+\begin{algorithm}[!ht]
+    \caption{Raízes de polinômio quadrático.} \label{alg:baskara}
+    \begin{pseudocode}
+        \Documentacao
+            \Titulo{Raízes de polinômio quadrático}
+            \Proposito{
+                Calcular as raízes de um polinômio quadrático 
+                a partir dos coeficientes deste polinômio.}
+            \Metodo{
+                Um polinômio quadrático segue a expressão\\
+                \inctab  $ax^2 + by + c = 0$\\
+                A partir dos coeficientes a, b e c, calcula-se as
+                raízes do polinômio pelo método de Baskara.
+                Neste método, as raízes reais são dadas pelas 
+                expressões\\
+                \inctab $r_1 = (-b-\sqrt{b^2-4ac}/(2a)$\\
+                \inctab $r_2 = (-b+\sqrt{b^2-4ac}/(2a)$\\
+                Pela aplicação da operação de radiciação, o seu 
+                argumento deve ser não negativo, pois, caso
+                contrário, o resultado da operação seria um 
+                valor complexo. Assim, se o termo $b^2-4ac$ é
+                não negativo, o método calcula as raízes reais
+                do polinômio.}
+            \Entradas{
+                $a$: coeficiente do termo quadrático\\
+                $b$: coeficiente do termo linear\\
+                $c$: termo constante}
+            \Saidas{
+                $r_1$ e $r_2$: raízes reais do polinômio}
+        \Continua
+    \end{pseudocode}
+\end{algorithm}
+
+\begin{algorithm*}[!ht]
+    \caption{Título do algoritmo. (continuação)}
+    \begin{pseudocode*}
+        \LinhaEmBranco
+        \Continuacao
+          \LinhaEmBranco
+            \Observacoes{
+                O método só permite o cálculo das raízes reais
+                do polinômio quadrático. O método não funciona 
+                caso o coeficiente $a$ seja nulo, ou seja, que 
+                o polinômio seja reduzido para uma expressão 
+                linear.}
+        \Algoritmo{Raizes\_Reais}
+          \Declarar{$a, m, i$}{numéricos}{}{}
+          \Declarar{$n0, n$}{numéricos}{}{}
+          \Ins{$m \leftarrow 13$}
+          \Ins{$n0 \leftarrow 1$}
+          \Comentario{repetição}
+          \ParaDeAtePasso[para cada possível valor de `a']{$a$}{2}{$m-1$}{}
+            \Escrever{``a = '', $a$, ``: n = \{''}{}
+            \Ins[reinicia a geração com a semente n0]{$n \leftarrow n0$}
+            \Comentario{nova repetição}
+            \ParaDeAtePasso{$i$}{0}{$m-1$}{}
+              \Ins[gerador de números aleatórios]{$n \leftarrow resto(a*n, m)$}
+              \SeEntao[se fim da sequência ...]{$n == n0$}
+                \Escrever{$n$,``\}''}{}
+                \Parar
+              \Senao
+                \Escrever{$n$}{}
+              \FimSe
+            \FimPara
+          \FimPara
+    \alglinenumbersoff
+          \Ins{$a \leftarrow 1$}
+          \Enquanto[comentário]{$a<10$}
+            \Escrever{$a$}{}
+            \Ins{$a \leftarrow a+1$}
+          \FimEnquanto
+          \Ins{$a \leftarrow 1$}
+          \Repetir[comentário]
+            \Escrever{$a$}{}
+            \Ins{$a \leftarrow a+1$}
+          \AteQue{$a\ge10$}
+    \alglinenumberson
+          \Ins{$a \leftarrow 1$}
+          \Fazer[comentário]
+            \Escrever{$a$}{}
+            \Ins{$a \leftarrow a+1$}
+          \Enquanto{$a<10$}
+        \FimAlgoritmo
+      \FimDocumentacao
+    \end{pseudocode*}
+\end{algorithm*}
+
+%=====================================================================
+\chapter{Citações}
+%=====================================================================
+
+O pacote \textsf{repUERJ} adota preferencialmente o sistema de chamada nomeada autor-data para citações. Este é um dos sistemas permitidos pelas normas da UERJ. O fato deste texto mostrar como construir as citações neste sistema não exclui o uso do sistema numerado se esta for a decisão do autor.
+
+O sistema autor-data tem seu efeito a partir da inclusão do pacote \textsf{abntex2cite} no preâmbulo do documento \textbf{tex} com a opção \texttt{[alf]}: \texttt{\textbackslash usepackage[alf]\{abntex2cite\}}.
+
+%-------------------------------------------------------------------
+\section{Citação direta e indireta -- referências explicitas}
+%-------------------------------------------------------------------
+
+As referências explicitas são aquelas onde o texto se menciona diretamente o(s) autor(es) da referência. A forma de inserção se dá pelos comandos \texttt{\textbackslash citeonline[p.\~{}n]\{re\-fe\-rên\-cia\}} e \texttt{\textbackslash cite[p.\~{}n]\{referência\}}, onde \texttt{n} é o número da página, fonte da citação. O número da página é opcional na citação.\\
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\makebox[8cm][l]{\texttt{\textbackslash citeonline\{bib:Amado1991\}}} produz: \citeonline{bib:Amado1991}
+
+\noindent\makebox[8cm][l]{\texttt{\textbackslash citeonline[p.\~{}101]\{bib:Amado1991\}}} produz: \citeonline[p.~101]{bib:Amado1991}
+
+\noindent\makebox[8cm][l]{\texttt{\textbackslash cite\{bib:Amado1991\}}} produz: \cite{bib:Amado1991}
+
+\noindent\makebox[8cm][l]{\texttt{\textbackslash cite[p.\~{}320]\{bib:Amado1991\}}} produz: \cite[p.~320]{bib:Amado1991}
+
+
+%-------------------------------------------------------------------
+\section{Citação de citação -- referência citada por outra referência}
+%-------------------------------------------------------------------
+
+A citação de citação aplica a expressão latina \textsl{apud}, que quer dizer ``citado por''. Os comandos que inserem citações de citações são \texttt{\textbackslash apudonline\{referência\}\{citada por\}} e \texttt{\textbackslash apud\{referência\}\{citada por\}}.\\
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\texttt{\textbackslash apudonline\{bib:Austin2001\}\{bib:Schlemm2004\}}\\
+ \hspace*{\parindent}produz: \apudonline{bib:Austin2001}{bib:Schlemm2004}
+
+\noindent\texttt{\textbackslash apudonline[p.\~{}101]\{bib:Austin2001\}\{bib:Schlemm2004\}}\\
+\hspace*{\parindent}produz: \apudonline[p.~101]{bib:Austin2001}{bib:Schlemm2004}
+
+\noindent\texttt{\textbackslash apud\{bib:Austin2001\}\{bib:Schlemm2004\}}\\
+\hspace*{\parindent}produz: \apud{bib:Austin2001}{bib:Schlemm2004}
+
+\noindent\texttt{\textbackslash apud[p.\~{}320]\{bib:Austin2001\}\{bib:Schlemm2004\}}\\
+\hspace*{\parindent}produz: \apud[p.~320]{bib:Austin2001}{bib:Schlemm2004}\\
+
+O uso do termo \textsl{apud} na citação impõe que as referências também utilizem o mesmo termo. As referências devem ser combinadas no registro da primeira citação. A referência mais recente (aquela que cita a outra) deve ser registrada isoladamente.\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Austin2001}}}
+
+\begin{verbatim}
+@book{bib:Austin2001,
+  author = {Austin, James},
+  title = {Parcerias},
+  subtitle = {fundamentos e benefícios para o terceiro setor},
+  address = {São Paulo},
+  publisher = {Futura},
+  year = {2001},
+  note = {{apud} \citetext{bib:Schlemm2004}}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Schlemm2004}}}
+
+\begin{verbatim}
+@misc{bib:Schlemm2004,
+  author = {Schlemm, Marcos Mueller and Souza, Queila Regina},
+  title = {COEP Paran{\'a} e empreendedorismo social},
+  subtitle = {uma experiência de gestão do conhecimento para inovação},
+  year = {2004},
+  url = {http://www.coepbrasil.org.br/downloads/tese_queila.doc},
+  urlaccessdate = {9 set. 2004}
+}
+\end{verbatim}
+
+%-------------------------------------------------------------------
+\section{Citação de partes da referência}
+%-------------------------------------------------------------------
+
+\noindent\textbf{Exemplos}\\
+
+\noindent Autor(es) da referência fora da caixa alta: \texttt{\textbackslash citeauthoronline\{bib:Andrade1997\}} \\
+\hspace*{\parindent}produz: \citeauthoronline{bib:Andrade1997}
+
+\noindent Autor(es) da referência em caixa alta: \texttt{\textbackslash citeauthor\{bib:Andrade1997\}} \\
+\hspace*{\parindent}produz: \citeauthor{bib:Andrade1997}
+
+\noindent Ano da publicação: \texttt{\textbackslash citeyear\{bib:Andrade1997\}} \\
+\hspace*{\parindent}produz: \citeyear{bib:Andrade1997}
+
+%-------------------------------------------------------------------
+\section{\textsf{BibTeX} e os modelos de referência}
+%-------------------------------------------------------------------
+
+As normas da UERJ estabelecem vários estilos diferentes para construção das referências. O \textsf{BibTeX} torna-se extremamente útil nesta tarefa, pois, através do pacote \textsf{abnTeX2}, os estilos são ajustados para cada tipo de produção. Confira no Apêndice \ref{sec:modelos} os modelos suportados pelo \textsf{BibTeX}.
+
+Para uma simples conferência, listar-se-á os modelos previstos formalmente no \textsf{BibTeX}:
+\begin{alinea}
+\item [\textbf{article}] artigo de um jornal ou revista.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{journal}, \textit{year} (autor, título, periódico, ano).\\
+Campos opcionais: \textit{volume}, \textit{number}, \textit{pages}, \textit{month}, \textit{note} (volume, número, páginas, mês, anotação).
+
+\item [\textbf{book}] livro com uma editora identificada.\\
+Campos obrigatórios: \textit{author} ou \textit{editor}, \textit{title}, \textit{publisher}, \textit{year} (autor ou editor, título, editora, ano).\\
+Campos opcionais: \textit{volume} ou \textit{number}, \textit{series}, \textit{address}, \textit{edition}, \textit{month}, \textit{note} (volume ou número, série, endereço, edição, mês, anotação).
+
+\item [\textbf{booklet}] (livreto) obra impressa e encadernado, mas sem uma editora identificada ou instituição patrocinadora.\\
+Campo obrigatório: \textit{title} (título).\\
+Campos opcionais: \textit{author}, \textit{howpublished}\footnote{A tradução para \textit{howpublished} seria ``como foi editado''. Aqui, será interpretado como inserção de uma observação sobre o documento.}, \textit{address}, \textit{month}, \textit{year}, \textit{note} (autor, observação, endereço, mês, ano, anotação).
+
+\item [\textbf{inbook}] parte de um livro, que pode ser um capítulo (ou seção ou qualquer outro elemento estrutural) e/ou uma série de páginas.\\
+Campos obrigatórios: \textit{author} ou \textit{editor}, \textit{title}, \textit{chapter} e/ou \textit{pages}, \textit{publisher}, \textit{year} (autor ou editor, título, capítulo e/ou páginas, editora, ano).\\
+Campos opcionais: \textit{volume} ou \textit{number}, \textit{series}, \textit{type}, \textit{address}, \textit{edition}, \textit{month}, \textit{note} (volume ou número, série, tipo, endereço, edição, mês, anotação).
+
+\item [\textbf{incollection}] parte de um livro que tem o seu próprio título e/ou autoria.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{booktitle}, \textit{publisher}, \textit{year} (autor, título da parte, título do livro, editora, ano).\\
+Campos opcionais:\textit{editor}, \textit{volume} ou \textit{number}, \textit{series}, \textit{type}, \textit{chapter}, \textit{pages}, \textit{address}, \textit{edition}, \textit{month}, \textit{note} (editor, volume ou número, série, tipo, capítulo, páginas, endereço, edição, mês, anotação).
+
+\item [\textbf{inproceedings}] artigo publicado em anais de evento.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{booktitle}, \textit{year} (autor, título do artigo, título dos anais, ano).\\
+Campos opcionais: \textit{editor}, \textit{volume} ou \textit{number}, \textit{series}, \textit{pages}, \textit{address}, \textit{month}, \textit{organization}, \textit{publisher}, \textit{note} (editor, volume ou número, série, páginas, endereço, mês, organização, editora, anotação).
+
+\item [\textbf{manual}] documentação técnica, manual.\\
+Campo obrigatório: \textit{title} (título).\\
+Campos opcionais: \textit{author}, \textit{organization}, \textit{address}, \textit{edition}, \textit{month}, \textit{year}, \textit{note} (autor, organização, endereço, edição, mês, ano, anotação).
+
+\item [\textbf{mastersthesis}] dissertação de mestrado.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{school}, \textit{year} (autor, título, instituição acadêmica, ano).\\
+Campos opcionais: \textit{type}, \textit{address}, \textit{month}, \textit{note} (tipo, endereço, mês, noanotaçãota).
+
+\item [\textbf{misc}] documento de natureza indefinida, utilizado quando não se encaixa em nenhuma categoria existente.\\
+Campos obrigatórios: nenhum.\\
+Campos opcionais: \textit{author}, \textit{title}, \textit{howpublished}\footnote{Ver nota 4.}, \textit{month}, \textit{year}, \textit{note} (autor, título, observação, mês, ano, anotação).
+
+\item [\textbf{phdthesis}] tese de doutorado.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{school}, \textit{year} (autor, título, instituição acadêmica, ano).\\
+Campos opcionais: \textit{type}, \textit{address}, \textit{month}, \textit{note} (tipo, endereço, mês, anotação).
+
+\item [\textbf{proceedings}] anais de eventos (conferência, simpósio, congresso, etc).\\
+Campos obrigatórios: \textit{title}, \textit{year} (título, ano).\\
+Campos opcionais: \textit{editor}, \textit{volume} ou \textit{number}, \textit{series}, \textit{address}, \textit{month}, \textit{organization}, \textit{publisher}, \textit{note} (editor, volume ou número, série, endereço, mês, organização, editora, anotação).
+
+\item [\textbf{techreport}] relatório técnico publicado por uma instituição, geralmente numerado dentro de uma série.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{institution}, \textit{year} (autor, título, instituição, anos).\\
+Campos opcionais: \textit{type}, \textit{number}, \textit{address}, \textit{month}, \textit{note} (tipo, número, endereço, mês, anotação).
+
+\item [\textbf{unpublished}] documento com autoria e título, mas não formalmente divulgado.\\
+Campos obrigatórios: \textit{author}, \textit{title}, \textit{note} (autor, título, anotação).\\
+Campos opcionais: \textit{month}, \textit{year} (mês, ano).
+\end{alinea}
+
+
+%-----------------------------------------------------------------
+\section{Exemplos de referências usando os modelos do \textsf{BibTeX}}
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+\subsection{Documentos no todo}
+%-----------------------------------------------------------------
+
+%..............................................................
+\subsubsection{Eventos (congressos, conferências, seminários)}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:proceedings}}}
+
+\begin{verbatim}
+@proceedings{bib:proceedings,
+      organization = {Nome do evento},
+      org-short = {Abreviatura do evento},
+      conference-number = {Número},
+      conference-year = {Ano da realização},
+      conference-location = {Local da realização},
+      title = {Título do documento},
+      address = {Local da publicação},
+      publisher = {Editora},
+      year = {Data da publicação},
+      note = {Número de páginas ou volumes}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:CBA1996}}}
+
+\begin{verbatim}
+@proceedings{bib:CBA1996,
+  organization = {Congresso Brasileiro de Automática},
+  org-short = {CBA'96},
+  conference-number = {11},
+  conference-year = {1996},
+  conference-location = {São Paulo},
+  title = {Anais...},
+  address = {São Paulo},
+  publisher = {SBA},
+  year = {1996},
+  note = {3 v},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:CBAS1980}}}
+
+\begin{verbatim}
+@proceedings{bib:CBAS1980,
+  organization = {Congresso Brasileiro de Águas Subterrâneas},
+  org-short = {CBAS'80},
+  conference-number = {1},
+  conference-year = {1980},
+  conference-location = {Recife},
+  title = {Anais...},
+  address = {Recife},
+  publisher = {ABAS},
+  year = {1980},
+  pages = {626}
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Livros, folhetos, manuais, guias, catálogos, enciclopédias, dicionários}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:livro}}}
+
+\begin{verbatim}
+@book{bib:livro,
+    author = {Sobrenome1, Nome1 and Sobrenome2, Nome2 and
+              Sobrenome3, Nome3},
+    title = {Título do livro},
+    subtitle = {Subtítulo do livro},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Data da publicação},
+    pages = {Número de paginas ou volumes (opcional)}
+}
+\end{verbatim}%\footnote{Número de páginas ou volumes é opcional.}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Borheim1976}}}
+
+\begin{verbatim}
+@book{bib:Borheim1976,
+  author = {Borheim, Gerd A},
+  title = {Introdu{\c c}{\~a}o ao filosofar},
+  subtitle = {o pensamento filos{\'o}fico em bases existenciais},
+  edition = {3},
+  address = {Porto Alegre},
+  publisher = {Ed. Globo},
+  year = {1976},
+  pages = {117},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Borheim2001}}}
+
+\begin{verbatim}
+@book{bib:Borheim2001,
+  author={Borheim, Gerd A},
+  title={Os fil{\'o}sofos pr{\'e}-socr{\'a}ticos},
+  subtitle={o pensamento filos{\'o}fico em bases existenciais},
+  edition={11},
+  address={Rio de Janeiro},
+  publisher={Cultrix},
+  year={2001}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Rabaca2001}}}
+
+\begin{verbatim}
+@book{bib:Rabaca2001,
+  author = {Raba{\c c}a, C. A. and Barbosa, G. G.},
+  title = {Dicionário de Comunicação},
+  edition = {Ed. rev. e atual.},
+  address = {Rio de Janeiro},
+  publisher = {Campus},
+  year = {2001},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Normas técnicas}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:normas}}}
+
+\begin{verbatim}
+@manual{bib:normas,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pela norma},
+    org-short = {Sigla},
+    title = {T{\'i}tulo da norma},
+    subtitle = {Sub{\'i}tulo da norma},
+    address = {Local de publicação},
+    year = {data da publicação},
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:ABNT2011}}}
+
+\begin{verbatim}
+@manual{bib:ABNT2011,
+    organization = {Associa{\c c}{\~a}o Brasileira de Normas T{\'e}cnicas},
+    org-short = {ABNT},
+    title = {NBR 14724},
+    subtitle = {informação e documentação: trabalhos acadêmicos: 
+                apresentação},
+    address = {Rio de Janeiro},
+    year = {2011},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Publicações periódicas (revistas, boletins, anuários, etc.)}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:journalpart}}}
+
+\begin{verbatim}
+@journalpart{bib:journalpart,
+      title = {T\'itulo do peri\'odico},
+      address = {Local da publicação},
+      publisher = {Editora},
+      year = {Data do primeiro volume-data do último volume},
+      note = {Periodicidade}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:AGEV1968}}}
+
+\begin{verbatim}
+@journalpart{bib:AGEV1968,
+      title = {Anu{\'a}rio Internacional},
+      address = {São Paulo},
+      publisher = {AGEV},
+      year = {1997--1978}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Bibliophilos1968}}}
+
+\begin{verbatim}
+@journalpart{bib:Bibliophilos1968,
+      title = {Boletim da Sociedade de Bibliophilos Barbosa Machado},
+      address = {Lisboa},
+      publisher = {Impr. Libano da Silva},
+      year = {1910--{ }{ }{ }{ }},
+      note = {Irregular}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:RevistaRio1985}}}
+
+\begin{verbatim}
+@journalpart{bib:RevistaRio1985,
+      title = {Revista Rio de Janeiro},
+      address = {Niterói},
+      publisher = {EDUFF},
+      year = {1985-{ }{ }{ }{ }},
+      note = {Quadrimestral}
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Relatórios técnicos}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:relatorio}}}
+
+\begin{verbatim}
+@book{bib:relatorio,
+    author = {Sobrenome1, Nome1 and Sobrenome2, Nome2 and
+              Sobrenome3, Nome3 and Sobrenome4, Nome4},
+    title = {Título do relatório técnico},
+    subtitle = {Subtítulo},
+    edition = {Edição},
+    address = {Local},
+    publisher = {Editora},
+    year = {Ano},
+    pages = {Número de páginas},
+    howpublished  = {Relat{\'o}rio t{\'e}cnico}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplo}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Silva1985}}}
+
+\begin{verbatim}
+@book{bib:Silva1985,
+  author = {Silva, L. S.},
+  title = {Manuten{\c c}{\~a}o de softwares},
+  address = {Campinas},
+  publisher = {UNICAMP-FEE-DCA},
+  year = {1985},
+  pages = {110},
+  howpublished = {Relat{\'o}rio T{\'e}cnico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:CETESB1994}}}
+
+\begin{verbatim}
+@book{bib:CETESB1994,
+    organization = {Companhia Estadual de Tecnologia de Saneamento 
+                    B{\'a}sico e de Defesa do Meio Ambiente (SP)},
+    org-short = {CETESB},
+    title = {Bacia hidrográfica do Ribeirão Pinheiros},
+    address = {São Paulo},
+    publisher = {CETESB},
+    year = {1994},
+    pages = {39},
+    note = {Relatório Técnico},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Teses e dissertações}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:tese}}}
+
+\begin{verbatim}
+@phdthesis{bib:tese,
+  author = {Sobrenome, Nome},
+  title = {Título do trabalho acadêmico},
+  subtitle = {Subtítulo},
+  year-presented = {Ano da conclusão},
+  school = {Instituição},
+  type = {Grau em Curso},
+  address = {Local},
+  year = {Ano na folha de aprovação},
+  pages = {Número de folhas},
+  pagename = {f.},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:dissertacao}}}
+
+\begin{verbatim}
+@masterthesis{bib:dissertacao,
+  author = {Sobrenome, Nome},
+  title = {Título do trabalho acadêmico},
+  subtitle = {Subtítulo},
+  year-presented = {Ano da conclusão},
+  school = {Instituição},
+  type = {Grau em Curso},
+  address = {Local},
+  year = {Ano na folha de aprovação},
+  pages = {Número de folhas},
+  pagename = {f.},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:monografia}}}
+
+\begin{verbatim}
+@monography{bib:monografia,
+  author = {Sobrenome, Nome},
+  title = {Título do trabalho acadêmico},
+  subtitle = {Subtítulo},
+  year-presented = {Ano da conclusão},
+  school = {Instituição},
+  type = {Grau em Curso},
+  address = {Local},
+  year = {Ano na folha de aprovação},
+  pages = {Número de folhas},
+  pagename = {f.},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:TCC}}}
+
+\begin{verbatim}
+@thesis{bib:TCC,
+  author = {Sobrenome, Nome},
+  title = {Título do trabalho acadêmico},
+  subtitle = {Subtítulo},
+  year-presented = {Ano da conclusão},
+  school = {Instituição},
+  type = {Trabalho de Conclusão de Curso (Grau em Curso)},
+  address = {Local},
+  year = {Ano na folha de aprovação},
+  pages = {Número de folhas},
+  pagename = {f.},
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Correa1997}}}
+
+\begin{verbatim}
+@PhDThesis{bib:Correa1997,
+  author = {Corrêa, Marilena Cordeiro Dias Villela},
+  title = {A tecnologia a servi{\c c}o de um sonho},
+  subtitle = {um estudo sobre a reprodu{\c c}ão assistida},
+  year-presented = {1997},
+  school = {Instituto de Medicina Social,
+            Universidade do Estado do Rio de Janeiro},
+  type = {Doutorado em Saúde Coletiva},
+  address = {Rio de Janeiro},
+  year = {1998},
+  pages = {290},
+  pagename = {f.},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Rebeca1999}}}
+
+\begin{verbatim}
+@mastersthesis{bib:Rebeca1999,
+  author = {Rebeca, Rosilene},
+  title  = {Influência do ciclo estral no comportamento rotacional 
+            em nado livre de camundongos suíços adultos},
+  year-presented  = {1999},
+  pages    = {79},
+  pagename = {f.},
+  type    = {Mestrado em Biologia},
+  school  = {Instituto de Biologia Roberto Alcântara Gomes,
+             Universidade do Estado do Rio de Janeiro},
+  address = {Rio de Janeiro},
+  year    = {1999}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Morgado1990}}}
+
+\begin{verbatim}
+@monography{bib:Morgado1990,
+    author = {M. L. C. Morgado},
+    title = {Reimplante dent\'ario},
+    year-presented = {1990},
+    pages = {51},
+    pagename = {f.},
+    type = {Gradua{\c c}\~ao em Odontologia},
+    school = {Faculdade de Odontologia, 
+              Universidade Camilo Castelo Branco},
+    address = {São Paulo},
+    year = {1990},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Silva2000}}}
+
+\begin{verbatim}
+@thesis{bib:Silva2000,
+  author={N. C. Silva},
+  title={Bibliotecas da UERJ},
+  subtitle={proposta de um Centro Referencial baseado num estudo
+            historiogr{\'a}fico},
+  year-presented={2000},
+  pages={161},
+  pagename={f.},
+  type={Trabalho de Conclusão de Curso (Especializa{\c c}{\~a}o
+        em Organiza{\c c}{\~a}o do Conhecimento para 
+        Recupera{\c c}{\~a}o da Informa{\c c}{\~a}o)},
+  school={Escola de Biblioteconomia, 
+          Universidade Federal do Estado do Rio de Janeiro},
+  address={Rio de Janeiro},
+  year={2000},
+}
+\end{verbatim}
+
+%-----------------------------------------------------------------
+\subsection{Partes de documentos}
+%-----------------------------------------------------------------
+
+%..............................................................
+\subsubsection{Artigos em periódicos}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:article}}}
+
+\begin{verbatim}
+@article{bib:article,
+    author = {Sobrenome2, Nome2 and Sobrenome1, Nome1 and
+              Sobrenome3, Nome3 and Sobrenome4, Nome4},
+    title = {Título do artigo},
+    journal = {Título da revista},
+    address = {Local de publicação},
+    volume = {Número do volume e/ou ano},
+    number = {Número do fascículo},
+    pages = {pág inicial -- pág final},
+    month = {Mês},
+    year = {Ano do fascículo}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplo}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Moura1983}}}
+
+\begin{verbatim}
+@article{bib:Moura1983,
+  author = {Moura, Alexandrina Sobreira de},
+  title = {Direito de habitação às classes de baixa renda},
+  journal = {Ciência \& Trópico},
+  address = {Recife},
+  volume = {11},
+  number = {1},
+  pages = {71--78},
+  month = {jan./jun.},
+  year = {1983}
+}
+\end{verbatim}
+
+
+%..............................................................
+\subsubsection{Partes de documento (capítulo, volume, etc.)}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:partedocumento}}}
+
+\begin{verbatim}
+@incollection{bib:partedocumento,
+    author = {Autores da parte},
+    title = {T{\'i}tulo da parte},
+    subtitle = {Subt{\'i}tulo da parte},
+    editor = {Corpo Editorial do documento},
+    editortype = {Org. ou Ed.},
+    booktitle = {T{\'i}tulo do documento},
+    booksubtitle = {Subt{\'i}tulo do documento},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    volume = {Volume da parte referenciada},
+    chapter = {Capítulo da parte referenciada},
+    number = {Número da parte referenciada},
+    pages = {pág. inicial -- pág. final},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:partedocumento1}}}
+
+\begin{verbatim}
+@inbook{bib:partedocumento1,
+    author = {Autores de parte do livro},
+    title = {T{\'i}tulo de parte do livro},
+    subtitle = {Subtítulo de parte do livro},
+    booktitle = {T{\'i}tulo do livro},
+    booksubtitle = {Subt{\'i}tulo do livro},
+    furtherresp = {Responsabilidade},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    volume = {Volume da parte referenciada},
+    chapter = {Capítulo da parte referenciada},
+    number = {Número da parte referenciada},
+    pages = {pág. inicial -- pág. final},
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplo}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Ferreira2008}}}
+
+\begin{verbatim}
+@incollection{bib:Ferreira2008,
+    author = {Ferreira, S. M. P.},
+    title = {Repositórios \textsl{versus} revistas científicas},
+    subtitle = {convergências e convivências},
+    editor = {Ferreira, S. M. P. and Trajano, M. G.},
+    booktitle = {Mais sobre revistas científicas},
+    booksubtitle = {em foco a gestão},
+    address = {São Paulo},
+    publisher = {SENAC; CENGAGE Learning},
+    year = {2008},
+    pages = {111--137},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Ferreira2008}}}
+
+\begin{verbatim}
+@incollection{bib:Ferreira2008,
+    author = {Arendt, H.},
+    title = {A tradição e a época moderna},
+    booktitle = {Entre o passado e o futuro},
+    address = {São Paulo},
+    publisher = {Perspectiva},
+    year = {1992},
+    pages = {43--68},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Trabalhos apresentados em eventos (congressos, conferências, seminários, etc.)}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inproceedings}}}
+
+\begin{verbatim}
+@inproceedings{bib:inproceedings,
+    author = {Sobrenome3, Nome3 and Sobrenome1, Nome1 and
+              Sobrenome2, Nome2 and Sobrenome4, Nome4},
+    title = {Título do trabalho},
+    organization = {Nome do evento},
+    conference-number = {Número do evento},
+    conference-year = {Ano da realização},
+    conference-location = {Local de realização},
+    booktitle = {Título},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Data de publicação},
+    pages = {pág. inicial -- pág. final}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplo}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Silva2009}}}
+
+\begin{verbatim}
+@inproceedings{bib:Silva2009,
+  author = {Silva, A. P. and Freire, J. R. B.},
+  title = {Mem{\'o}ria oral e patrim{\^o}nio ind{\'i}gena no Brasil nas
+           crônicas do s{\'e}culo XVI},
+  organization = {SIMPÓSIO NACIONAL DE HISTÓRIA},
+  conference-number = {36},
+  conference-year = {2009},
+  conference-location = {Fortaleza},
+  booktitle = {História e Ética...},
+  address = {Fortaleza},
+  publisher = {UFC},
+  year = {2009},
+  url = {http://www.ifch.unicamp.br/ihb/ST36-Prog.htm},
+  urlaccessdate = {23 nov. 2010},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Machado1998}}}
+
+\begin{verbatim}
+@inproceedings{bib:Machado1998,
+  author = {Machado, Caio G. and Rodrigues, N{\'\i}vea M. R.},
+  title = {Altera{\c c}{\~a}o de altura de forrageamento de esp{\'e}cies 
+           de aves quando associadas a bandos mistos},
+  organization = {Congresso Brasileiro de Ornitologia},
+  conference-number = {7},
+  conference-year = {1998},
+  conference-location = {Rio de Janeiro},
+  booktitle = {Resumos...},
+  address = {Rio de Janeiro},
+  publisher = {UERJ, NAPE},
+  year = {1998},
+  pages = {60-85}
+}
+\end{verbatim}
+
+%-----------------------------------------------------------------
+\subsection{Documentos em meio eletrônico}
+%-----------------------------------------------------------------
+
+%..............................................................
+\subsubsection{Acesso online}
+%..............................................................
+
+A inserção de referência a documento acessado na modalidade \textsl{online} deve respeitar a natureza do documento e acrescentar, ao final, o endereço eletrônico para acesso e a data em que o documento foi consultado.\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:online}}}
+
+\begin{verbatim}
+@book{bib:online,
+    author = {Sobrenome1, Nome1 and Sobrenome2, Nome2},
+    title = {T\'itulo do documento},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Data de publicação},
+    pages = {Número de páginas ou volumes},
+    url = {http://endereco.eletronico},
+    urlaccessdate = {Data de acesso}
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplo}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Moura1996}}}
+
+\begin{verbatim}
+@book{bib:Moura1996,
+    author = {Moura, Gevilacio Aguiar Coelho de},
+    title = {Cita{\c c}{\~o}es e refer{\^e}ncias de documentos
+             eletr{\^o}nicos},
+    edition = {},
+    address = {{[}S.l.},
+    publisher = {s.n.},
+    year = {19{---}{]}},
+    pages = {86},
+    url = {http://www.elogica.com.br/users/gmoura/reft},
+    urlaccessdate = {9 dez. 1996}
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{\textsl{e-book}}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:ebook}}}
+
+\begin{verbatim}
+@book{bib:ebook,
+    author = {Sobrenome1, Nome1 and Sobrenome2, Nome2 and
+              Sobrenome3, Nome3},
+    title = {Título do e-book},
+    subtitle = {Subtítulo do e-book},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Data da publicação},
+    pages = {Número de paginas ou volumes (opcional)},
+    pagename = {p.},
+    note = {Mídia utilizada},
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Lemos2010}}}
+
+\begin{verbatim}
+@book{bib:Lemos2010,
+    author = {Lemos, A.},
+    title = {Caderno de viagem},
+    subtitle = {comunicação, lugares e tecnologias},
+    address = {Porto Alegre},
+    publisher = {Editora Plus},
+    year = {2010},
+    note = {E-book},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Pires2010}}}
+
+\begin{verbatim}
+@book{bib:Pires2010,
+    author = {Pires, A.},
+    title = {Direito tributário},
+    address = {São Paulo},
+    publisher = {Cia. das Letras},
+    year = {2010},
+    note = {Edição Kindle},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{\textsl{Homepage} institucional}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:homepage}}}
+
+\begin{verbatim}
+@misc{bib:homepage,
+    organization = {T{\'i}tulo da homepage},
+    furtherresp = {Respons{\'a}vel (se houver)},
+    howpublished  = {Descrição sucinta do conteúdo},
+    url = {http://endereco.eletronico},
+    urlaccessdate = {Data de acesso},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:homepage1}}}
+
+\begin{verbatim}
+@misc{bib:homepage1,
+    title = {T{\'i}tulo da homepage},
+    furtherresp = {Respons{\'a}vel (se houver)},
+    howpublished  = {Descrição sucinta do conteúdo},
+    url = {http://endereco.eletronico},
+    urlaccessdate = {Data de acesso},
+}
+\end{verbatim}
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Pinturabrasileira2005}}}
+
+\begin{verbatim}
+@misc{bib:Pinturabrasileira2005,
+  title = {Arte e pintura brasileira: galeria virtual de arte},
+  howpublished = {Apresenta reprodu{\c c}{\~o}es virtuais de pinturas 
+                  brasileiras},
+  url = {http://www.pinturabrasileira.com},
+  urlaccessdate = {10 abr. 2005}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:ufjf2006}}}
+
+\begin{verbatim}
+@misc{bib:ufjf2006,
+  organization = {Universidade Federal de Juiz de Fora},
+  furtherresp = {Desenvolvido por {C}idaeli {I}nformática {L}tda},
+  howpublished = {Apresenta informa{\c c}{\~o}es gerais sobre a 
+                  universidade},
+  url = {http://www.ufjf.br},
+  urlaccessdate = {15 maio 2006}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:UERJ2011}}}
+
+\begin{verbatim}
+@misc{bib:UERJ2011,
+    organization = {Universidade do Estado do Rio de Janeiro},
+    furtherresp = {Desenvolvido pela Diretoria de Comunicação 
+                   Social - COMUNS},
+    howpublished  = {Apresenta informações gerais sobre a universidade},
+    url = {http://www.uerj.br/},
+    urlaccessdate = {10 abr. 2011},
+}
+\end{verbatim}
+
+%..............................................................
+\subsubsection{Programas (\textsl{software})}
+%..............................................................
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:software}}}
+
+\begin{verbatim}
+@book{bib:software,
+    organization = {Autoria},
+    title = {T\'itulo do programa},
+    subtitle = {subtítulo},
+    furtherresp = {Versão (se houver)},
+    address = {Local de criação},
+    publisher = {Editor (se houver)},
+    year = {data de publicação},
+    url = {http://endereco.eletronico},
+    urlaccessdate = {Data de acesso},
+}
+\end{verbatim}
+
+\noindent\textbf{Exemplos}\\
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:Nourau2005}}}
+
+\begin{verbatim}
+@book{bib:Nourau2005,
+    organization = {Universidade Estadual de Campinas},
+    title = {Nou-Rau},
+    subtitle = {software livre},
+    furtherresp = {Versão beta 2},
+    address = {Campinas},
+    year = {2002},
+    url = {http://www.rau-tu.unicamp.br/nou-rau/},
+    urlaccessdate = {12 jan. 2005}
+}
+\end{verbatim}
+
+%=====================================================================
+\chapter*{Conclusão}
+%=====================================================================
+
+Texto da conclusão.
+
+% ----------------------------------------------------------
+% ELEMENTOS POS-TEXTUAIS
+% ----------------------------------------------------------
+
+\backmatter % marca o início do elementos pós-textuais
+
+%=====================================================================
+% Referencias via BibTeX
+%=====================================================================
+
+% citeoption indica o arquivo de opções, mas não o carrega
+\citeoption{abnt-options4}
+% a carga do arquivo de opções ocorre no bibliography
+% insira sua bibliografia no arquivo bibliografia.bib
+% exemplos.bib e modelos_bibtex.bib são arquivos com exemplos
+% e modelos a partir das quais você poderá criar os seus
+\bibliography{abnt-options4,bibliografia,exemplos,modelos_bibtex}
+
+%=====================================================================
+\postextualchapter*{Glossário}
+%=====================================================================
+
+\definicao{termo}{significado}
+\definicao{termo}{significado}
+\definicao{termo}{significado}
+
+% ----------------------------------------------------------
+% Apêndices (opcionais)
+% ----------------------------------------------------------
+
+\appendix % marca o início dos apêndices
+
+%=====================================================================
+\postextualchapter{Modelos em \textsf{BibTeX}}
+%=====================================================================
+
+%------------------------------------------------------------------
+\section{Modelo $@$article} \label{sec:modelos}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:article0}}}
+
+\begin{verbatim}
+@article{bib:article0,
+    author = {Autores do artigo},
+    title = {T{\'i}tulo do artigo},
+    subtitle = {Subtítulo do artigo},
+    journal = {Título do periódico},
+    section = {Seção},
+    publisher = {Editora},
+    address = {Local},
+    volume = {Volume},
+    number = {Número},
+    pages = {pág. inicial -- pág. final},
+    month = {Mês abreviado},
+    year = {Ano da publicação},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:article1}}}\\
+
+\begin{verbatim}
+@article{bib:article1,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo artigo},
+    org-short = {Sigla},
+    title = {T{\'i}tulo do artigo},
+    subtitle = {Subtítulo do artigo},
+    journal = {Título do periódico},
+    section = {Seção},
+    publisher = {Editora},
+    address = {Local de publicação},
+    volume = {Número do volume e/ou ano},
+    number = {número do fascículo},
+    pages = {pág. inicial -- pág. final},
+    month = {Mês abreviado},
+    year = {Ano do fascículo},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$book}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:book0}}}
+
+\begin{verbatim}
+@book{bib:book0,
+    author = {Autores do livro},
+    type = {Tipo},
+    title = {T{\'i}tulo do livro},
+    subtitle = {Subtítulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:book1}}}
+
+\begin{verbatim}
+@book{bib:book1,
+    editor = {Corpo Editorial do livro},
+    type = {Tipo},
+    title = {T{\'i}tulo do livro},
+    subtitle = {Subtítulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:book2}}}
+
+\begin{verbatim}
+@book{bib:book2,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo livro},
+    org-short = {Sigla},
+    type = {Tipo},
+    title = {T{\'i}tulo do livro},
+    subtitle = {Subtítulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:book3}}}\\
+
+\begin{verbatim}
+@book{bib:book3,
+    type = {Tipo},
+    title = {T{\'i}tulo do livro},
+    subtitle = {Subtítulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$manual}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:manual0}}}
+
+\begin{verbatim}
+@manual{bib:manual0,
+    author = {Autores do manual},
+    title = {T{\'i}tulo do manual},
+    subtitle = {Sub{\'i}tulo do manual},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:manual1}}}
+
+\begin{verbatim}
+@manual{bib:manual1,
+    editor = {Corpo Editorial do manual},
+    title = {T{\'i}tulo do manual},
+    subtitle = {Sub{\'i}tulo do manual},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:manual2}}}
+
+\begin{verbatim}
+@manual{bib:manual2,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo manual},
+    org-short = {Sigla},
+    title = {T{\'i}tulo do manual},
+    subtitle = {Sub{\'i}tulo do manual},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:manual3}}}\\
+
+\begin{verbatim}
+@manual{bib:manual3,
+    title = {T{\'i}tulo do manual},
+    subtitle = {Sub{\'i}tulo do manual},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$techreport}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:techreport0}}}
+
+\begin{verbatim}
+@techreport{bib:techreport0,
+    author = {Autores do Relat{\'o}rio T{\'e}cnico},
+    title = {T{\'i}tulo do relatório técnico},
+    subtitle = {Subtítulo do relatório técnico},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+
+    type = {Tipo},
+    publisher = {Editora},
+    howpublished = {Comentário},
+    volume = {Volume da publicação},
+    month = {Mês abreviado},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:techreport1}}}
+
+\begin{verbatim}
+@techreport{bib:techreport1,
+    editor = {Corpo Editorial do Relat{\'o}rio T{\'e}cnico},
+    title = {T{\'i}tulo do relatório técnico},
+    subtitle = {Subtítulo do relatório técnico},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:techreport2}}}
+
+\begin{verbatim}
+@techreport{bib:techreport2,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel 
+    				pelo relat{\'o}rio t{\'e}cnico},
+    org-short = {Sigla},
+    title = {T{\'i}tulo do relatório técnico},
+    subtitle = {Subtítulo do relatório técnico},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:techreport3}}}\\
+
+\begin{verbatim}
+@techreport{bib:techreport3,
+    title = {T{\'i}tulo do relatório técnico},
+    subtitle = {Subtítulo do relatório técnico},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$inbook}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inbook0}}}
+
+\begin{verbatim}
+@inbook{bib:inbook0,
+    author = {Autores de parte do livro},
+    title = {T{\'i}tulo de parte do livro},
+    subtitle = {Subtítulo de parte do livro},
+    booktitle = {T{\'i}tulo do livro},
+    booksubtitle = {Subt{\'i}tulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inbook1}}}
+
+\begin{verbatim}
+@inbook{bib:inbook1,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel 
+    				pela parte do livro},
+    org-short = {Sigla},
+    title = {T{\'i}tulo de parte do livro},
+    subtitle = {Subt{\'i}tulo de parte do livro},
+    editor = {Corpo Editorial do livro},
+    booktitle = {T{\'i}tulo do livro},
+    booksubtitle = {Subt{\'i}tulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inbook2}}}
+
+\begin{verbatim}
+@inbook{bib:inbook2,
+    title = {T{\'i}tulo de parte do livro},
+    subtitle = {Subt{\'i}tulo de parte do livro},
+    editor = {Corpo Editorial do livro},
+    booktitle = {T{\'i}tulo do livro},
+    booksubtitle = {Subt{\'i}tulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inbook3}}}\\
+
+\begin{verbatim}
+@inbook{bib:inbook3,
+    title = {T{\'i}tulo de parte do livro},
+    subtitle = {Subt{\'i}tulo de parte do livro},
+    booktitle = {T{\'i}tulo do livro},
+    booksubtitle = {Subt{\'i}tulo do livro},
+    furtherresp = {Nota},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    series = {Série},
+    number = {Número de publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$incollection}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:incollection0}}}
+
+\begin{verbatim}
+@incollection{bib:incollection0,
+    author = {Autores do documento},
+    title = {T{\'i}tulo do documento},
+    subtitle = {Subt{\'i}tulo do documento},
+    editor = {Corpo Editorial da cole{\c c}{\~a}o},
+    booktitle = {T{\'i}tulo da cole{\c c}{\~a}o},
+    booksubtitle = {Subt{\'i}tulo da cole{\c c}{\~a}o},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:incollection1}}}
+
+\begin{verbatim}
+@incollection{bib:incollection1,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo documento},
+    org-short = {Sigla},
+    title = {T{\'i}tulo do documento},
+    subtitle = {Subt{\'i}tulo do documento},
+    editor = {Corpo Editorial da cole{\c c}{\~a}o},
+    booktitle = {T{\'i}tulo da cole{\c c}{\~a}o},
+    edition = {Edição},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico}
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:incollection2}}}
+
+\begin{verbatim}
+@incollection{bib:incollection2,
+    editor = {Corpo Editorial da cole{\c c}{\~a}o},
+    title = {T{\'i}tulo do documento},
+    subtitle = {Subt{\'i}tulo do documento},
+    booktitle = {T{\'i}tulo da cole{\c c}{\~a}o},
+    booksubtitle = {Subt{\'i}tulo da cole{\c c}{\~a}o},
+    edition = {Edição},
+    address = {Local da publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:incollection3}}}\\
+
+\begin{verbatim}
+@incollection{bib:incollection3,
+    title = {T{\'i}tulo do documento},
+    subtitle = {Subt{\'i}tulo do documento},
+    booktitle = {T{\'i}tulo da cole{\c c}{\~a}o},
+    booksubtitle = {Subt{\'i}tulo da cole{\c c}{\~a}o},
+    edition = {Edição},
+    address = {Local da publicação},
+    publisher = {Editora},
+    year = {Ano da publicação},
+    series = {Série},
+    number = {Número da publicação},
+    chapter = {Capítulo},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$inproceedings}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inproceedings0}}}
+
+\begin{verbatim}
+@inproceedings{bib:inproceedings0,
+    author = {Autores do trabalho},
+    title = {T{\'i}tulo do trabalho},
+    subtitle = {Subt{\'i}tulo do trabalho},
+    editor = {Corpo Editorial dos proceedings},
+    booktitle = {T{\'i}tulo dos proceedings},
+    booksubtitle = {Subt{\'i}tulo dos proceedings},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inproceedings1}}}
+
+\begin{verbatim}
+@inproceedings{bib:inproceedings1,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo trabalho},
+    org-short = {Sigla},
+    title = {T{\'i}tulo do trabalho},
+    subtitle = {Subt{\'i}tulo do trabalho},
+    editor = {Corpo Editorial dos proceedings},
+    booktitle = {T{\'i}tulo dos proceedings},
+    booksubtitle = {Subt{\'i}tulo dos proceedings},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inproceedings2}}}
+
+\begin{verbatim}
+@inproceedings{bib:inproceedings2,
+    title = {T{\'i}tulo do trabalho},
+    subtitle = {Subt{\'i}tulo do trabalho},
+    editor = {Corpo Editorial dos proceedings},
+    booktitle = {T{\'i}tulo dos proceedings},
+    booksubtitle = {Subt{\'i}tulo dos proceedings},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:inproceedings3}}}\\
+
+\begin{verbatim}
+@inproceedings{bib:inproceedings3,
+    title = {T{\'i}tulo do trabalho},
+    subtitle = {Subt{\'i}tulo do trabalho},
+    booktitle = {T{\'i}tulo dos proceedings},
+    booksubtitle = {Subt{\'i}tulo dos proceedings},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    series = {Série},
+    number = {Número da publicação},
+    pages = {pág. inicial -- pág. final},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$proceedings}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:proceedings0}}}
+
+\begin{verbatim}
+@proceedings{bib:proceedings0,
+    editor = {Corpo Editorial dos proceedings},
+    title = {T{\'i}tulo dos proceedings},
+    subtitle = {Subt{\'i}tulo dos proceedings},
+    volume = {Volume},
+    number = {Número},
+    series = {Série},
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelos proceedings},
+    org-short = {Sigla},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    pages = {Número de páginas},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:proceedings1}}}
+
+\begin{verbatim}
+@proceedings{bib:proceedings1,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelos proceedings},
+    org-short = {Sigla},
+    title = {T{\'i}tulo dos proceedings},
+    subtitle = {Subt{\'i}tulo dos proceedings},
+    volume = {Volume},
+    number = {Número},
+    series = {Série},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    pages = {Número de páginas},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:proceedings2}}}\\
+
+\begin{verbatim}
+@proceedings{bib:proceedings2,
+    title = {T{\'i}tulo dos proceedings},
+    subtitle = {Subt{\'i}tulo dos proceedings},
+    volume = {Volume},
+    number = {Número},
+    series = {Série},
+    address = {Local de publicação},
+    publisher = {Editora},
+    year = {Ano de publicação},
+    pages = {Número de páginas},
+    note = {Anotações},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$misc}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:misc0}}}
+
+\begin{verbatim}
+@misc{bib:misc0,
+    author = {Autor},
+    type = {Tipo},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    furtherresp = {Complemento},
+    address = {Local},
+    publisher = {Editora},
+    month = {Mês abreviado},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:misc1}}}
+
+\begin{verbatim}
+@misc{bib:misc1,
+    editor = {Editor},
+    type = {Tipo},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    furtherresp = {Complemento},
+    address = {Local},
+    publisher = {Editora},
+    month = {Mês abreviado},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:misc2}}}
+
+\begin{verbatim}
+@misc{bib:misc2,
+    organization = {Organiza{\c c}{\~a}o},
+    org-short = {Sigla},
+    type = {Tipo},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    furtherresp = {Complemento},
+    address = {Local},
+    publisher = {Editora},
+    month = {Mês abreviado},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:misc3}}}\\
+
+\begin{verbatim}
+@misc{bib:misc3,
+    type = {Tipo},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    furtherresp = {Complemento},
+    address = {Local},
+    publisher = {Editora},
+    month = {Mês abreviado},
+    year = {Ano da publicação},
+    pages = {Número de páginas},
+    howpublished = {Comentário},
+    series = {Série},
+    number = {Número da publicação},
+    note = {Anotação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%------------------------------------------------------------------
+\section{Modelo $@$unpublished}
+%------------------------------------------------------------------
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:unpublished0}}}
+
+\begin{verbatim}
+@unpublished{bib:unpublished0,
+    author = {Autor de trabalho não publicado},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    note = {Anotação},
+    year = {Ano da publicação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:unpublished1}}}
+
+\begin{verbatim}
+@unpublished{bib:unpublished1,
+    editor = {Editor de trabalho não publicado},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    note = {Anotação},
+    year = {Ano da publicação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:unpublished2}}}
+
+\begin{verbatim}
+@unpublished{bib:unpublished2,
+    organization = {Organiza{\c c}{\~a}o respons{\'a}vel pelo trabalho
+                    n{\~a}o publicado},
+    org-short = {Sigla},
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    note = {Anotação},
+    year = {Ano da publicação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+\noindent\fbox{\parbox{\textwidth}{\citetext{bib:unpublished3}}}\\
+
+\begin{verbatim}
+@unpublished{bib:unpublished3,
+    title = {T{\'i}tulo},
+    subtitle = {Subt{\'i}tulo},
+    note = {Anotação},
+    year = {Ano da publicação},
+    url = {http://endereco.eletronico},
+}
+\end{verbatim}
+
+%=====================================================================
+\postextualchapter{Segundo apêndice}
+%=====================================================================
+
+\section{Primeira seção}
+
+Texto da primeira seção.
+
+\subsection{Primeira subseção}
+
+Texto da primeira subseção.
+
+\subsubsection{Primeira subsubseção}
+
+Texto da primeira subsubseção.
+
+% ----------------------------------------------------------
+% Anexos (opcionais)
+% ----------------------------------------------------------
+
+\annex % marca o início dos anexos
+
+%=====================================================================
+\postextualchapter{Primeiro anexo}
+%=====================================================================
+
+\section{Primeira seção}
+
+Texto da primeira seção.
+
+\subsection{Primeira subseção}
+
+Texto da primeira subseção.
+
+\subsubsection{Primeira subsubseção}
+
+Texto da primeira subsubseção.
+
+%=====================================================================
+\postextualchapter{Segundo anexo}
+%=====================================================================
+
+\section{Primeira seção}
+
+Texto da primeira seção.
+
+\subsection{Primeira subseção}
+
+Texto da primeira subseção.
+
+\subsubsection{Primeira subsubseção}
+
+Texto da primeira subsubseção.
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO (relativo ao makeindex)
+%---------------------------------------------------------------------
+
+\printindex
+
+% ********************************************************************
+% ********************************************************************
+\end{document}
+% ********************************************************************
+% ********************************************************************

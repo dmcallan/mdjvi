@@ -1,0 +1,383 @@
+%================================================================
+\postextualchapter{Arquivo de Perfil em XML}
+%================================================================
+
+\lstset{language=XML}
+%----------------------------------------------------------------
+\section{Locales}
+%----------------------------------------------------------------
+
+O item \textbf{locales} determina as línguas que poderão ser usadas para catalogar os itens. Note que essas línguas são aquelas da interface, não as línguas dos itens ou metadados. Este recurso permite a tradução de toda a interface, inclusive os textos de ajuda.
+
+Foram escolhidas 3 línguas: Português, Francês e Inglês. Os termos que aparecem no site poderão, desta forma terem versões nessas 3 línguas.
+
+\begin{lstlisting}
+<locales>
+  <locale lang="en" country="US">English</locale>
+  <locale lang="fr" country="FR">Français</locale>
+  <locale lang="pt" country="BR">Português (Brasil)</locale>
+</locales>
+\end{lstlisting}
+
+\section{Listas}
+
+As definições de listas permitem criar três tipos de listas: listas que definem elementos específicos da interface do catálogo (``listas do sistema''), listas que definem conjuntos de valores para controlar o conteúdo e listas que definem um vocabulário controlado para ser usado para uma catalogação descritiva. 
+
+
+CollectiveAccess define 14 tipos de registros no seu modelo de dados:
+
+\begin{description}
+	\item[Objeto (ca\_objects)] Um objeto é um elemento ativo de uma coleção. São elementos físicos ou numéricos que você administra.
+	\item[Entidade (ca\_entities)] Uma entidade corresponde a uma pessoa ou organismo, administrado dentro de uma lista de autoridades, isto é, uma lista autônoma de registros. Deste modo, uma pessoa será criada apenas uma vez e poderá em seguida ser relacionada a outros registros de todo tipo: objetos criados ou que temos propriedade, lugar de nascimento ou vida, coleção legada, etc.  As entidades correspondem aos criadores, artistas, depositantes, editores, transportadores, seguradoras e outros atores implicados de alguma maneira à coleção.
+	\item[Lugar (ca\_places)] Os lugares correspondem aos lugares físicos e geográficos. Os lugares são intrinsecamente hierarquizados e permitem situar precisamente os objetos (ex: continente > país > região > cidade > endereço...). Como para as entidades, e assim de maneira global em CollectiveAccess, cada registro pode estar ligado a outros registros do mesmo tipo ou de outro. 
+	\item[Ocorrência (ca\_occurrences)] O registro ``Ocorrência'' é usado para designar os eventos (exposições, ...), procedimentos (restauração, conservação, campanha de conferência, ...) relacionados a várias outras entradas no banco de dados. Cada ocorrência é descrita por elementos de entrada e será vinculada a um ou mais objetos e outros registros (entidades, lugares ...). Uma ocorrência é um termo dado a elementos contextuais que requerem entrada complexa, não incorporada em objetos, entidades, locais, coleções ou locais.	Em geral, as ocorrências são usadas para capturar eventos históricos, exposições e bibliografias e servem como um pivô para a gravação de registros de revisão e para todos os procedimentos internos de uma instituição: restauração, procedimento de retenção, organização de roteamento, etc.
+	\item[Coleção (ca\_collections)] As coleções representam coleções físicas ou simbólicas e objetos de grupo. Você pode associar um objeto a várias coleções simultaneamente.
+	\item[Lote (ca\_object\_lots)] Um lote de objetos torna possível coletar informações sobre a admissão de objetos registrados (doador, data de recebimento, etc.) para uma doação ou aquisição de vários objetos.	Um objeto só pode fazer parte de um único lote.
+	\item[Conjunto c(a\_sets)] Um conjunto de objetos é um agrupamento ordenado de objetos definidos pelos usuários para um propósito específico.	Ao contrário de ``coleções'', os conjuntos são grupos adequados para uma única coleção de registros, sejam eles específicos de um dos usuários do CollectiveAccess ou compartilhados com outros.	Assim, um conjunto será criado para preparar uma exibição ou para executar o processamento em lote de um conjunto de objetos.
+	\item[Elemento de um conjunto (ca\_set\_items)] Um registro atribuído a um conjunto. Os registros em um conjunto podem ter catalogação adicional, permitindo que um para contextualizar e anotar registros dentro de um conjunto atribuído. Isso permite a construção de conjuntos em que cada registro contém legendas e links específicos do conjunto. Isto faz dos Sets e Set Items uma ótima ferramenta para construir slideshows e tours baseados nos seus registros de coleção.
+	\item[Representações (ca\_object\_representations)] As representações permitem detalhar e adicionar uma entrada descritiva à mídia vinculada a um objeto: legendas, termos de acesso, direitos de reprodução e quaisquer restrições e todas as informações necessárias. Esse metadado descritivo enriquece a mídia associada a objetos (ou outros registros).	No entanto, em muitos quadros de uso, optamos por simplificar a interface Providence, e só completamos o campo ``Representação de mídia'' do objeto.
+	\item[Locais de armazenamento (ca\_storage\_locations)] Locais físicos onde os objetos são armazenados. Como os lugares, os locais de armazenamento são hierárquicos - você pode aninhar locais para permitir a notação em qualquer nível de especificidade (construção, sala, gabinete, gaveta). Cada Local de Armazenamento pode ter catalogações arbitrariamente complexas, incluindo restrições de acesso, coordenadas de mapas e outras informações. Os locais de armazenamento podem ser vinculados a objetos e lotes, diretamente ou por meio de eventos de objeto ou de lote.
+	\item[Empréstimos (ca\_loans)] Rastreia empréstimos relacionados a objetos. Os empréstimos podem ser definidos por tipos e são definidos como empréstimos de entrada, quando o item entra no museu, e saída, quando sai, por padrão. Qualquer tipo de empréstimo pode ser configurado e registrado, atribuindo os elementos de metadados apropriados para cada tipo.
+	\item[Movimentos (ca\_movements)] 
+	Rastreia os movimentos relacionados a objetos (por exemplo, locais temporários, remoções, etc). Os movimentos podem ser configurados com tipos de movimento e registrados pela atribuição dos elementos de metadados apropriados para cada tipo.
+	\item[Listas (ca\_lists)] 
+	Um grupo simples ou hierárquico de itens de lista. As listas são usadas em todo o CollectiveAccess nos seguintes contextos: 
+	\begin{enumerate}
+		\item como listas suspensas que restringem os valores de um campo;
+		\item como vocabulários controlados cujos Itens de Lista podem ser associados a Objetos, Entidades, Lugares, etc .;
+		\item como listas de sistema cujos valores de Item de Lista personalizam CollectiveAccess para usos em nível de aplicativo.
+	\end{enumerate} Todas as listas devem receber um nome de lista exclusivo, que é usado internamente para identificar sua lista.
+	\item[Itens de lista (ca\_list\_items)] As entradas que compõem uma lista. Todos os itens da lista têm um valor intrínseco e um identificador, bem como um ou mais rótulos de texto usados para exibição.
+\end{description}
+
+\subsection{Listas do Sistema}
+Para \textbf{CollectiveAccess} funcionar corretamente, 33 tipos de System Lists precisam estar presentes e definidos para os \textbf{Tipos Primários }- objetos, eventos de objeto, lotes, eventos de lote, entidades, locais, ocorrências, coleções, locais de armazenamento, itens de lista, representações de objeto, objeto anotações e conjuntos de representação. Todas as listas podem ser hierárquicas, embora a maioria seja de nível único na maioria dos casos.
+
+\subsubsection{object\_sources}
+Preenche a lista suspensa de ``origem'' do objeto. Cada registro de objeto pode, opcionalmente, ter uma (e apenas uma) fonte designada. Isso é normalmente usado para indicar de onde um registro foi importado/obtido, mas pode ser usado para qualquer valor de objeto não restrito e restrito a lista.
+
+Foram definidas as seguintes fontes:
+\begin{enumerate}
+	\item idno="internal" - Coleção Permanente
+	\item idno="external" - Coleção Externa
+\end{enumerate}
+
+
+
+%----------------------------------------------------------------
+\subsubsection{object\_types}
+%----------------------------------------------------------------
+Define o conjunto de tipos de objetos suportados pelo sistema. Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+
+\begin{enumerate}
+	\item idno="museu": Acervo Museológico
+	\begin{enumerate}
+		\item idno="artvis": Artes visuais
+		\begin{enumerate}
+			\item idno="artvis\_consart": Construção Artística
+			\item idno="artvis\_desenho": Desenho
+			\item idno="artvis\_desarq" : Desenho Arquitetônico
+			\item idno="artvis\_escultura" : Escultura
+			\item idno="artvis\_gravura" : Gravura
+			\item idno="artvis\_pintura" : Pintura
+		\end{enumerate}
+	   \item idno="cag": Caça/Guerra
+	   \begin{enumerate}
+	   	\item idno="cag\_acarmaria": Acessório de armaria
+	   	\item idno="cag\_arma": Arma
+	   \end{enumerate}
+	   \item idno="amostfrag": Amostras/Fragmentos
+	   \item idno="comunic": Comunicação
+	   \begin{enumerate}
+	   	\item idno="comunic\_doc\_diploma": Documento diploma
+	   	\item idno="comunic\_eqescrita": Equipamento de comunicação escrita
+	   	\item idno="comunic\_doc\_foto": Documento fotográfico
+	   \end{enumerate}
+	   \item idno="constru": Construção
+	   \begin{enumerate}
+	   	\item idno="constru\_fragmento": Fragmento de construção
+	   \end{enumerate}
+	   \item idno="insign": Insígnia
+	   \begin{enumerate}
+	   	\item idno="insign\_bandeira": Bandeira
+	   \end{enumerate}
+	   \item idno="interior": Interior
+	   \begin{enumerate}
+	   	\item idno="interior\_acessorio": Acessório de interiores
+	   	\item idno="interior\_ilumina": Objeto de iluminação
+	   	\item idno="interior\_mobil": Peça de mobiliário
+	   	\item idno="interior\_cozinha": Utensílio de cozinha/mesa
+	   \end{enumerate}
+	   \item idno="embala": Embalagem/Recipiente
+	   \item idno="lazer": Lazer/Desporto
+	   \item idno="medicao": Medição/registro/observação/processamento
+	   \begin{enumerate}
+	   	\item idno="medicao\_precisao": Instrumento de precisão/ótico
+	   \end{enumerate}
+	   \item idno="cerimon": Objeto cerimonial
+	   \begin{enumerate}
+	   	\item idno="cerimon\_comemora": Objeto comemorativo
+	   	\item idno="cerimon\_culto" : Objeto de culto
+	   	\item idno="cerimon\_panegi": Panegírico
+	   \end{enumerate}
+	   \item idno="opessoal": Objeto pessoal
+	   \begin{enumerate}
+	   	\item idno="opessoal\_acindum" : Acessório de indumentária
+	   	\item idno="opessoal\_tabag": Artigo de tabagismo
+	   	\item idno="opessoal\_toalete": Artigo de toalete
+	   	\item idno="opessoal\_adorno": Objeto de adorno
+	   	\item idno="opessoal\_conforto" : Objeto de auxílio/conforto pessoais
+	   	\item idno="opessoal\_devocao": Objeto de devoção pessoal
+	   	\item idno="opessoal\_indum" : Peça de indumentária
+	   \end{enumerate}
+	   \item idno="trab": Trabalho
+	\end{enumerate}
+	\item idno="arquivo" : Acervo Arquivológico
+\end{enumerate}
+
+\subsubsection{object\_statuses}
+Popula a lista suspensa de ``\textbf{status de registro}'' do objeto. Cada registro de objeto pode, opcionalmente, ter um (e apenas um) status de registro. Isso é normalmente usado para indicar se um objeto é registrado, não registrado, um empréstimo etc.
+\begin{enumerate}
+	\item idno="pending\_accession": registro pendente
+	\item idno="accessioned" : registrado
+	\item idno="non\_accessioned": não registrado
+	\item idno="potential\_acquisition": aquisição potencial
+\end{enumerate}
+
+\subsubsection{object\_label\_types}
+Preenche a lista suspensa de tipos de rótulo para rótulos de objeto (os títulos de objetos são chamados de ``rótulos'' internamente). Os tipos de rótulo são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais. 
+
+\begin{enumerate}
+	\item idno="alt": Título alternativo
+	\item idno="uf": Usar para
+	\item idno="issue\_title": Título do número
+	\item idno="soustitre" : Sub-título
+\end{enumerate}
+
+\subsubsection{object\_acq\_types}
+
+Preenche a lista suspensa do tipo de aquisição de objeto. Cada registro de objeto pode ter um (e apenas um) tipo de aquisição. Isso é normalmente usado para indicar como um objeto foi adquirido para a coleção.
+
+\begin{enumerate}
+	\item idno="gift": doação
+	\item idno="bequest": legado
+	\item idno="purchase": compra
+	\item idno="loan": empréstimo
+	\item idno="long\_term\_loan": emprétimo de longo prazo
+	\item idno="permuta": permuta
+\end{enumerate}
+
+\subsubsection{object\_lot\_types}
+Define o conjunto de tipos de lote suportados pelo sistema (por exemplo, presentes, legados, compras). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+
+Não foram atribuídos valores. Pode ser preenchida pela interface gráfica.
+
+\subsubsection{object\_lot\_statuses}
+Preenche a lista suspensa ``status do lote'' do lote. Cada registro de lote pode, opcionalmente, ter um (e apenas um) status de lote. Isto é tipicamente usado para indicar se um objeto é registrado, não registrado, pendente de registro, etc.
+
+\begin{enumerate}
+	\item idno="pending\_accession": registro pendente
+	\item idno="accessioned" : registrado
+	\item idno="non\_accessioned": não registrado
+	\item idno="potential\_acquisition": aquisição potencial
+\end{enumerate}
+
+\subsubsection{object\_lot\_label\_types}
+Preenche a lista suspensa de tipos de rótulo para rótulos de lote (os títulos de lote são chamados de ``rótulos'' internamente). Os tipos de rótulos são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": Título alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de entidades entity\_types}
+Define o conjunto de tipos de entidade suportados pelo sistema (por exemplo, indivíduos, organizações, famílias). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados. A lista de tipos de entidade também possui uma configuração especial chamada ``entity class'' que define como o rótulo preferencial deve se comportar por tipo.
+
+\begin{enumerate}
+	\item idno="ind" : Pessoas físicas
+	\item idno="org": Organização
+	\item idno="fam": Família
+\end{enumerate}
+
+\subsubsection{Fontes de entidades entity\_sources}
+
+Preenche a lista suspensa de ``origem'' da entidade. Cada registro de entidade pode, opcionalmente, ter uma (e apenas uma) fonte designada. Isso é normalmente usado para indicar de onde um registro foi importado/obtido, mas pode ser usado para qualquer valor de objeto não restrito e restrito a lista.
+
+\begin{enumerate}
+	\item idno="i1": Norma Spectrum
+	\item idno="isadg": Lista de entidades ISADG
+\end{enumerate}
+
+\subsubsection{entity\_label\_types}
+Preenche a lista suspensa de tipos de rótulo para rótulos de entidade (os nomes de entidade são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": Título alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de local place\_types}
+Define o conjunto de tipos de locais suportados pelo sistema (por exemplo, continentes, países, estados, províncias, condados). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+\begin{enumerate}
+	\item idno="continent": continente
+	\item idno="country": país
+	\item idno="state": estado/região
+	\item idno="city": cidade/município
+	\item idno="neighborhood": bairro
+	\item idno="location": local
+	\item idno="river": rio
+	\item idno="socken": paróquia
+	\item idno="commune": comunidade
+	\item idno="other": outro
+\end{enumerate}
+
+\subsubsection{place\_hierarchies}
+Define as hierarquias de locais disponíveis no editor de locais. Se você deseja usar a autoridade de nomes de lugares, deve definir pelo menos uma entrada nesta lista.
+\begin{enumerate}
+	\item idno="isadg" : Locais
+\end{enumerate}
+
+\subsubsection{place\_sources}
+Popula a lista suspensa de ``origem'' do local. Cada registro de local pode opcionalmente ter uma (e apenas uma) fonte designada. Isso é normalmente usado para indicar de onde um registro foi importado/obtido, mas pode ser usado para qualquer valor de objeto não repetido e restrito na lista.
+\begin{enumerate}
+	\item idno="blank": sem fonte específica\\
+	\item idno="isadg": Fontes de locais ISADG
+\end{enumerate}
+
+\subsubsection{place\_label\_types}
+Preenche a lista suspensa de tipos de rótulo para rótulos de entidade (os nomes de entidade são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": Título alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de ocorrências occurrence\_types}
+Define o conjunto de tipos de ocorrências suportados pelo sistema (por exemplo, exposições, eventos históricos, bibliografia). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados. Ao contrário de outras autoridades, onde os tipos são apresentados como subdivisões, cada tipo de ocorrência é apresentado como uma autoridade independente. Isso permite que você crie listas de autoridade personalizadas (e editores) simplesmente criando um novo tipo de ocorrência.
+
+\begin{enumerate}
+	\item idno="reference": Referência bibliográfica
+	\item idno="procedure": Procedimento
+	\begin{enumerate}
+		\item idno="audit": Auditoria
+		\item idno="condition": Conferência de condição
+		\item idno="conservation": Conservação
+		\item idno="valuation": estimativa de valor
+		\item idno="restauration": Restauração
+		\item idno="localisation": Verificação de localização
+	\end{enumerate}
+    \item idno="exhibition": Exposição
+    \item idno="campagne": Campanha de conferência de inventário
+    \item idno="recolement": Verificação de objeto no inventário
+    \item idno="event": Evento
+\end{enumerate}
+
+\subsubsection{occurrence\_sources}
+
+Preenche a lista suspensa de ``origem'' de ocorrência. Cada registro de ocorrência pode opcionalmente ter uma (e apenas uma) fonte designada. Isso é normalmente usado para indicar de onde um registro foi importado/obtido, mas pode ser usado para qualquer valor de objeto não repetido restrito na lista.
+\begin{enumerate}
+	\item idno="i1": spectrum
+	\item idno="isadg": Fontes ISADG
+\end{enumerate}
+
+\subsubsection{occurrence\_label\_types}
+Preenche a lista suspensa de tipos de rótulo para rótulos de entidade (os nomes de entidade são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de Coleção (collection\_types)}
+Define o conjunto de tipos de coleção suportados pelo sistema (por exemplo, coleção externa, coleção virtual, coleção interna). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+\begin{enumerate}
+	\item idno="museum": Coleção do museu
+\end{enumerate}
+
+\subsubsection{Fontes da coleção (collection\_sources)}
+Preenche a lista suspensa de ``origem'' da coleção. Cada registro de coleção pode, opcionalmente, ter uma (e apenas uma) fonte designada. Isso é normalmente usado para indicar de onde um registro foi importado/obtido, mas pode ser usado para qualquer valor de objeto não repetido restrito na lista.
+\begin{enumerate}
+	\item idno="i1": spectrum
+	\item idno="isadg": Fontes ISADG
+\end{enumerate}
+
+\subsubsection{Tipos de etiquetas de coleções (collection\_label\_types)}
+Preenche a lista suspensa de tipos de rótulo para rótulos de coleção (nomes de coleção são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+\begin{enumerate}
+	\item idno="alt": alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de locais de armazenamento (storage\_location\_types)}
+Define o conjunto de tipos de locais de armazenamento suportados pelo sistema (por exemplo, edifícios, pisos, salas, gabinetes, gavetas). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+\begin{enumerate}
+	\item idno="campus": Museu
+	\item idno="building": prédio
+	\item idno="floor": andar
+	\item idno="room": sala
+	\item idno="cabinet": armário
+	\item idno="drawer": gaveta
+	\item idno="shelf": prateleira
+	\item idno="boite": caixa
+\end{enumerate}
+
+\subsubsection{Valores dos tipos de etiquetas de armazenamento (storage\_location\_label\_types)}
+Preenche a lista suspensa de tipos de rótulo para rótulos de local de armazenamento (nomes de locais de armazenamento são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de representação do objeto (object\_representation\_label\_types)}
+Preenche a lista suspensa de tipos de rótulo para rótulos de representação de objeto (títulos de representação de objeto são chamados de ``rótulos'' internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+Não usado no projeto.
+
+\subsubsection{(representation\_annotation\_label\_types)}
+Preenche a lista suspensa de tipos de rótulo para rótulos de anotação de representação (títulos de anotação são chamados de “rótulos” internamente). Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.  
+
+Não usado no projeto.
+
+\subsubsection{Tipos de itens de lista (list\_item\_types)}
+
+Define o conjunto de tipos de itens de lista suportados pelo sistema (por exemplo, termos, títulos, facetas). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados. Tipos são opcionais para itens de lista. Você só precisa defini-los se precisar distinguir entre vários tipos de itens em suas listas.
+\begin{enumerate}
+	\item idno="concept": conceito
+	\item idno="facet": faceta
+	\item idno="guide\_term": termo do guia
+	\item idno="hierarchy\_name": nome da hierarquia
+\end{enumerate}
+
+\subsubsection{Tipos de rótulo para itens de lista (list\_item\_label\_types)}
+
+Preenche a lista suspensa de tipos de rótulo para rótulos de objeto. Os tipos de etiqueta são usados para, opcionalmente, distinguir diferentes tipos de rótulos não preferenciais.
+
+\begin{enumerate}
+	\item idno="alt": alternativo
+	\item idno="uf": Usar para
+\end{enumerate}
+
+\subsubsection{Tipos de conjuntos (set\_types)}
+Define o intervalo de tipos de conjuntos suportados pelo sistema (por exemplo, conjuntos com curadoria, conjuntos gerados pelo usuário, exposições on-line). Cada tipo pode ter um conjunto distinto de atributos de metadados vinculados a ele. Você pode estruturar a lista hierarquicamente para agrupar tipos relacionados.
+
+\begin{enumerate}
+	\item idno="user": Conjunto criado por usuário
+	\item idno="public\_presentation" : Apresentação pública
+\end{enumerate}
+
+\subsubsection{Status do fluxo de trabalho (workflow\_statuses)}
+Preenche o menu suspenso ``status'' presente para todos os tipos de itens (objetos, entidades, locais, ocorrências, coleções, itens de lista, representações de objetos, anotações de representação, locais de armazenamento). O valor de ``status'' é normalmente usado para indicar em que estágio do fluxo de trabalho um determinado item está (por exemplo, ``Em edição'', ``Precisa de aprovação'', ``Aprovado'').
+
+\begin{enumerate}
+	\item idno="new": em validação
+	\item idno="completed": validado
+\end{enumerate}
+
+\subsubsection{Tipos de representação do objeto object\_representation\_types}
+As maneiras como um objeto pode ser representado no inventário.
+\begin{enumerate}
+	\item frente
+	\item verso
+\end{enumerate}
+
