@@ -118,10 +118,10 @@
 % \oautor{Nóme}{Sóbrenome}
 %       {Iniciais do nome} % iniciais do nome
 
-\autor{Nóme}{Sóbrenome}
-      {Iniciais do nome} % iniciais do nome
+\autor{Dennis Stuart}{McAllan}
+      {D.S.} % iniciais do nome
 
-\titulo{Título do trabalho}
+\titulo{Gerenciamento e Publicação do Acervo do Museu Dom João VI}
 \title{Título do trabalho em inglês}
 
 % se não for usar a quarta palavra chave, deixar o campo vazio: {}
@@ -135,13 +135,13 @@
          {Third keyword}
          {Fourth keyword or empty}
 
-\orientador{Cargo Titulação} 
-           {Nome}{Sobrenome} 
-           {Unidade -- UERJ} 
+\orientador{Prof. Dr.} 
+           {João Araújo}{Ribeiro} 
+           {Faculdade de Engenharia -- UERJ} 
 
-\coorientador{Cargo Titulação} 
-             {Nome}{Sobrenome} 
-             {Unidade -- Instituição} 
+%\coorientador{Cargo Titulação} 
+ %            {Nome}{Sobrenome} 
+ %            {Unidade -- Instituição} 
 
 %----------------------------------------------------------------
 % Grau pretendido (Doutor, Mestre, Bacharel, Licenciado) e Curso
@@ -156,7 +156,7 @@
 %----------------------------------------------------------------
 
 \local{Rio de Janeiro} 
-\data{dd}{mês}{aaaa} 
+\data{dd}{mês}{2019} 
 
 % ***************************************************************
 % Configurações de aparência do PDF final
@@ -315,7 +315,7 @@ Texto do resumo em inglês.
 % ----------------------------------------------------------
 %
 \pretextualchapter{Lista de abreviaturas e siglas}
-    \abreviatura{sigla 1}{por extenso}
+    \abreviatura{EBA/UFRJ}{Escola de Belas Artes da Universidade Federal do Rio de Janeiro}
     \abreviatura{sigla 2}{por extenso}
     \abreviatura{sigla 3}{por extenso}
 %
@@ -349,8 +349,144 @@ Texto do resumo em inglês.
 \hspace*{\fill}\textit{Autor}\\
 \end{epigrafeonline}
 
-Texto da introdução.
+$\!$\\
+\textbf{Apresentação}
 
+\vspace{10pt}
+
+O Museu Dom João VI da EBA/UFRJ foi criado em 1979 com a finalidade de se preservar e catalogar o material que se encontrava distribuído nas salas e ateliês da faculdade e servir como fonte de consulta e estudo sobre a história da arte brasileira. 
+
+Com a finalidade de auxiliar a atividade de pesquisa e desenvolvimento do Museu, em 1999 foi desenvolvido o projeto que realizou um novo inventário dos dois acervos presentes nele, um de obras de artes, o Acervo Museológico, e o outro de documentos, o Acervo Arquivístico. Todas as peças sem registro contidas no Museu foram catalogadas, mantendo o padrão do Livro de Tombo original, criando um sistema informatizado usando o Microsoft Access onde se poderia atualizar informações sobre o acervo, adicionar ou remover novas peças e realizar consultas através de um site.
+
+O projeto original previa que toda edição no acervo deveria ser realizada utilizando um único computador "Mãe" e o arquivo do banco de dados atualizado transferido para o diretório no servidor de forma manual através de um CD. Além dessa forma de manutenção de dados não ser prática, após alguns anos ocorreu um problema no computador "Mãe" impossibilitando qualquer forma da equipe responsável fazer qualquer alteração necessária. Ainda mais recentemente, devido a falta de suporte da equipe de informática da faculdade e fragilidades existentes em utilizar um sistema obsoleto, o site com a pesquisa do acervo teve que ser removido.
+
+\vspace{10pt}
+$\!$\\
+\textbf{Objetivo}
+\vspace{10pt}
+
+Este projeto tem por objetivo possibilitar que a equipe do Museu Dom João VI tenha uma forma prática de adicionar, remover e atualizar qualquer peça do acervo, sem as limitações anteriores da transferência manual do arquivo que só poderia ser editado em um único computador.
+
+Esse banco de dados deverá ser exibido em um novo site, contendo um sistema de pesquisa de fácil utilização onde através de um ou mais parâmetros definidos pelo usuário ele possa obter uma resposta rápida sobre as peças desejadas.
+
+\vspace{10pt}
+$\!$\\
+\textbf{Estrutura da Monografia}
+\vspace{10pt}
+
+Esta monografia está dividida em REVISAR capítulos, os quais são: Introdução, REVISAR...
+
+No primeiro e atual capítulo foi fornecido o histórico do Museu Dom João VI da EBA/UFRJ, apresentando dados da criação do acervo e do sistema informatizado atual, assim como a motivação para este projeto.
+
+No segundo...
+
+
+%================================================================
+\chapter{DESENVOLVIMENTO INICIAL}
+%================================================================
+
+Neste capítulo será apresentado o conceito do programa utilizado para gerenciar acervos e coleções, sejam elas de museus ou não. Também será apontado um histórico mais detalhado do banco de dados contendo o acervo do Museu que foi utilizado para o desenvolvimento do projeto.
+
+
+
+
+\section{Sistema de Gerenciamento de Conteúdo}
+
+Para facilitar o desenvolvimento e futura manutenção do acervo do site foi decidido utilizar um sistema de gerenciamento de conteúdo. Este sistema é um software construído para acompanhar cada parte do conteúdo em um website, sem requerer um conhecimento técnico ou de gerenciamento de dados prévio~\cite{CMS}.
+
+%A maior desvantagem no uso dessa tecnologia é a necessidade de treinamento por parte da equipe que irá gerenciar o conteúdo na utilização do programa.
+
+Neste projeto, devido as várias opções disponíveis no mercado, optou-se pelo uso de um software de gerenciamento de conteúdo especializado em museus. Também foi dada a preferência por programas de utilização gratuita e que sejam compatíveis com o sistema operacional LINUX para evitar qualquer custo para o Museu Dom João VI.
+
+\section{Gerenciamento e Publicação de Coleções e Acervos}
+
+
+Para definir o software a ser utilizado no projeto, várias alternativas foram avaliadas e testadas. Um resumo de cada uma delas e os motivos que levaram a sua escolha ou não será apresentado a seguir.
+
+\subsection{Museum Archive Software Project}
+
+Dividido em duas versões, uma gratuita e uma \textit{premium} que podia ser acessada após a compra do livro do autor do programa, possui várias limitações como somente funcionar em Windows, não possibilitar algumas edições em categorias e dados do objeto. O programa não é atualizado desde 2014 e o único suporte oferecido é através de email.~\citetext{MUSARCH}
+
+\subsection{Adlib Museum Lite}
+
+Versão gratuita e com menos recursos da solução paga, Adlib Museum, oferecida pela mesma empresa. Limitado a um máximo de 5000 objetos cadastrados, não oferece suporte ao usuário e só funciona em Windows. Não permite a instalação em um servidor, impossibilitando a edição do banco de dados de mais de um computador.~\citetext{Adlib}
+
+\subsection{Museolog}
+
+Software para controle do acervo de museus, possui versões para Windows e Linux, mas parou de ser atualizado em 2013. Possui controle de movimentações como empréstimo e restaurações, possibilitando inclusive o cadastro da restauração a ser realizada e o armazenamento das fotos tiradas antes e após o serviço.~\citetext{Museolog}
+
+\subsection{eHive}
+
+Solução online onde ao invés de oferecer um programa para utilização, todo os dados ficam no servidor própio deles. Com utilização gratuita até o limite de 50Mb ou 5000 objetos, após atingir esse limite seria necessário contratar o serviço deles pagando uma anuidade. Oferece somente opções de publicação da coleção, não tendo meios para gerenciar e controlar o acervo.~\citetext{eHive}
+
+\subsection{ResourceMate}
+
+Programa com foco em bibliotecas e museus, funciona em Windows e possui versão de demonstração gratuita. Para contar com suporte e a instalação completa é necessário comprar o produto e renovar a licença de suporte anualmente. Com um maior foco em livros, possui pesquisa e registro baseado em ISBN, sistema internacional de identificação de livros.~\citetext{ResourceMate}
+
+\subsection{PastPerfect Museum Software}
+
+Com ferramentas para controlar e automatizar todos os aspectos de um museu ou qualquer tipo de coleção, como por exemplo exibições, empréstimos, aquisições, relatórios dentre outros, possui milhares de clientes nos Estados Unidos e em outros países.
+
+Além de ser necessário adquirir a licença de uso do programa que só funciona em Windows, algumas funcionalidades são vendidas a parte, como a possibilidade de se anexar imagens nos artigos da coleção, conectar outros computadores a base de dados para que se possa realizar as edições na coleção de mais de um local e até mesmo a hospedagem da coleção online.~\citetext{PastPerfect}
+
+\subsection{Argus}
+
+Além da aquisição do programa é necessário a hospedagem do mesmo em conjunto com o banco de dados do acervo em um servidor com Windows que irá controlar todas as operações realizadas no acervo do museu. Essa hospedagem pode ser realizada pelo cliente ou contratada opcionalmente da empresa. 
+
+Tem como foco a exposição online da coleção do Museu e possui como diferencial a integração com redes sociais como Facebook e Twitter entre outras, para facilitar o envio de links e aumentar a integração com os visitantes online do site.~\citetext{Argus}
+
+\subsection{CollectionSpace}
+
+Programa com muitas opções de personalização e recursos como importação/exportação de dados, registro de empréstimos, localização e movimentação de objetos, entre outros. Oferece a possibilidade de se utilizar o programa deles gratuitamente armazenando os dados em um servidor próprio ou contratá-los para contar com o armazenamento e suporte da empresa.~\citetext{CSpace}  
+
+Apesar do início do desenvolvimento do programa em 2007, o número de instituições pesquisadas que usam o programa é escasso comparado com outras soluções como Omeka e Collective Access.
+
+O programa não funciona nos browsers Internet Explorer 9/10 e não oferece suporte em caso de erros para o Microsoft Edge, o que talvez pudesse causar alguma limitação de uso no futuro.~\citetext{CSpace2} 
+
+
+\subsection{Omeka}
+
+O Omeka pode ser dividido em dois projetos diferentes, a omeka.net e a omeka.org que serão descritos a seguir.
+
+\subsubsection{Omeka.net}
+
+A primeira, omeka.net, funciona com o usuário ou empresa contratando o serviço, onde a Omeka fica responsável pelo hardware e hospedagem, e o usuário faz toda a customização e edição de forma online.
+
+Possui a possibilidade de se utilizar uma versão de teste, mais limitada, e oferece planos pagos para diferentes tipos de uso, com um espaço maior de hospedagem, número de sites diferentes que podem ser criados e a disponibilidade de plugins e temas que podem ser utilizados na criação e customização dos mesmos.
+
+Devido as limitações do plano gratuito seu uso foi descartado.~\citetext{OmekaNet} 
+
+\subsubsection{Omeka.org}
+
+Dividido em duas opções diferentes, Omeka Classic e Omeka S. Resumidamente a versão Classic foi desenhada para trabalhar com um único site, o qual seria o caso do \textbf{Museu D. João VI}, e foi a utilizada para teste antes de se definir o sistema que seria utilizado. A versão S foi criada para instituições que precisam trabalhar com múltiplos sites e conteúdos ou recursos que conversam entre si.
+
+Com foco na exposição online de coleções, o Omeka possui uma das menores curva de aprendizado, com uma interface simples e fácil instalação e configuração. Permite a utilização de plugins e temas pré configurados, além da instalação e criação de novos conforme necessidade do usuário.~\citetext{OmekaOrg}
+
+Sua maior limitação é a falta de possibilidade de configuração e administração do banco de dados, sendo mais utilizado como uma ferramenta \textit{front-end} ou para projetos mais simples. Ele permite a conexão com o banco de dados criados por outras ferramentas, como por exemplo o Collective Access, neste caso servindo somente para mostrar os objetos e coleções criados, sem gerenciar os mesmos.
+
+\subsection{Collective Access}
+
+A solução escolhida para o desenvolvimento do projeto de gerenciamento do banco de dados e publicação dos objetos e coleções do \textbf{Museu D. João VI} foi o Collective Access. Dentre suas inúmeras vantagens podemos destacar o fato do mesmo ser gratuito, apesar de oferecer a possibilidade de contratá-los para auxiliar no desenvolvimento e hospedagem, possuir uma equipe disponível para auxiliar e tirar dúvidas no próprio site, uma página em formato de \textit{wiki} com as instruções de instalação e configuração, além de ser dividido em duas partes para melhor organização do projeto: O Providence que trata do \textit{back-end} e o Pawtucket que fica responsável pelo \textit{front-end}.
+
+Utilizado por centenas de museus, instituições, empresas, dentre outros, o Collective Access possui uma ampla gama de utilidades, sendo uma das principais soluções adotadas para organizar e exibir coleções no mundo.
+
+Podem-se utilizar perfis de instalações do projeto para que os mesmos sejam aderentes ao \textit{DublinCore}, \textit{SPECTRUM}, ou qualquer outro padrão necessário, desde que o mesmo seja configurado anteriormente. 
+
+A configuração, instalação e uso serão descritos nos próximos capítulos. ~\citetext{CA}
+
+%================================================================
+\chapter{Providence}
+%================================================================
+
+Os dois principais componentes do Collective Access são o Providence, que gerencia os dados e catálogo dos objetos, e o Pawtucket, a ferramenta de \textit{front-end} opcional que publica e apresenta os objetos e coleções do Museu. Este capítulo demonstrará a configuração, instalação e exemplo de uso do Providence, conforme o mesmo foi utilizado no projeto do \textbf{Museu D. João VI}.
+
+\section{Configuração do perfil de Instalação}
+
+A instalação do providence é baseada em um perfil, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que podem ser preenchidas para um objeto (categoria, localização, estado atual, entre outros), uma localização
+
+%================================================================
+\chapter{Pawtucket}
+%================================================================
 
 %================================================================
 \chapter*{Conclusão}
