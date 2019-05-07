@@ -482,7 +482,66 @@ Os dois principais componentes do Collective Access são o Providence, que geren
 
 \section{Configuração do perfil de Instalação}
 
-A instalação do providence é baseada em um perfil, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que podem ser preenchidas para um objeto (categoria, localização, estado atual, entre outros), uma localização
+A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas.
+
+Além disso é neste perfil onde são criadas todas as relações entre as tabelas do banco de dados que irão compor as informações dos objetos do Museu. Com isso já são estabelecidos os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si. Como exemplo a lista a seguir traz todas as possíveis relações entre um objeto e outras tabelas:
+
+\begin{itemize}
+	\item Objetos X Coleções
+	\item Objetos X Entidades
+	\item Objetos X Objetos
+	\item Objetos X Ocorrências
+	\item Objetos X Locais
+	\item Objetos X Termos de vocabulário	
+\end{itemize}
+
+Cada uma dessas relações estabelece uma ou mais formas em que elas podem se comunicar, uma entidade pode ser a pessoa que criou, é proprietário, emprestou ou até mesmo o autor da conservação de uma obra, entre outros.
+
+Todas essas configurações podem ser editadas posteriormente utilizando a interface gráfica do Providence, sem necessidade de se conhecer ou utilizar qualquer linguagem de programação. Porém é recomendável que o perfil utilizado tenha todas as informações necessárias e que serão utilizadas para facilitar e acelerar a instalação e configuração do programa.
+
+O Collective Access oferece alguns perfis pré-configurados para teste e instalação, contendo diferentes padrões de metadados para uso. Além disso é possível criar um perfil novo ou editar um existente que mais se aproxime do uso desejado.
+
+Para este projeto foi utilizado o perfil validado pelo Ministério da Cultura da França para os \textit{Musées de France}, o "joconde". O mesmo foi traduzido para o português e editado para que ele pudesse ser utilizado com o catálogo do \textbf{Museu D. João VI}, suas classes e subclasses. Esta configuração já é preparada para administração da coleção com funções para realização de auditorias, registro do estado dos objetos, criação de ações para conservação ou restauração e até mesmo controlar os empréstimos de peças e lotes.
+
+\section{Tratamento do banco de dados do Museu}
+
+Após a preparação do perfil e instalação do mesmo no Providence, a próxima etapa é a importação dos dados para o Collective Access, porém antes disso foi necessário tratar o banco de dados existente feito pelo projeto anterior conforme visto no Apêndice A. Este banco de dados foi criado utilizando a ferramenta do Microsoft Access 97 e desde então, devido a falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
+
+Com as atualizações do programa Microsoft Access, a última versão não conseguia abrir o arquivo existente. Para se poder utilizar o mesmo foi necessário a instalação de uma versão intermediária, neste caso foi utilizado o Access 2003. Com isto o arquivo pode ser salvo em um formato mais recente que pode ser aberto e tratado utilizando as ferramentas mais atuais.
+
+Dentro do banco de dados foram encontradas as seguintes tabelas:
+
+\begin{itemize}
+	\item \textbf{Acervo -} A tabela principal com todos os dados do Acervo Museológico: número de registro, classe, localização, entre outros.
+	\item \textbf{Arquivo - Ordenação de Relatórios -} - Contém informações sobre os relatórios que podem ser extraídos do Acervo Arquivístico.
+	\item \textbf{Arquivo -} A tabela principal do Acervo Arquivístico com o registro, conservação, resumo do conteúdo, entre outros.
+	\item \textbf{Arquivologia - Tabela de Relatórios -} Contém os possíveis relatórios que podem ser feitos no Acervo Arquivístico e a informação extraída neles.
+	\item \textbf{Autores -} Lista dos autores dos objetos do Acervo Museológico e o código de identificação dos mesmos. Apesar de conter um campo para data de nascimento e falecimento, quando esta informação era conhecida, as mesmas foram adicionadas junto com o nome do autor.
+	\item \textbf{Classe -} Contém as possíveis classes do Acervo Museológico e seu número identificador.
+	\item \textbf{CoAutoria -} Lista dos CoAutores dos objetos do Acervo Museológico e o local da assinatura dos mesmos quando aplicável.
+	\item \textbf{Concursos -} Tabela dos concursos relacionados as peças do Acervo Museológico.
+	\item \textbf{Índice\_Onomástico -} Índice Onomástico relacionado ao Acervo Arquivístico.
+	\item \textbf{Índice\_Temático -} Índice Temático relacionado ao Acervo Arquivístico.
+	\item \textbf{Museologia - Tabela de Relatórios -} Similar a tabela Arquivologia - Tabela de Relatórios, porém referente ao Acervo Museológico.
+	\item \textbf{Museu - Ordenação dos Relatórios -} Similar a tabela Arquivo - Ordenação de Relatórios, porém referente ao Acervo Museológico.
+	\item \textbf{MUSEU -} Similar ao Acervo, contém informações do Acervo Museológico, porém omitindo algumas colunas.
+	\item \textbf{Obs antiga -} Lista antiga das observações relativas ao Acervo Museológico.
+	\item \textbf{Obs -} Contém alguma observação relativa a um objeto do Acervo Museológico.
+	\item \textbf{Subclasse -} Contém as possíveis subclasses do Acervo Museológico e seu número identificador.
+	\item \textbf{Tema -} Relaciona os objetos com a classe Artes Visuais com o seu respectivo tema.
+\end{itemize}
+
+Para a importação do Acervo Museológico a tabela Acervo foi selecionada e revisada, removendo registros duplicados e corrigindo o número de registro de alguns objetos.
+
+\section{Importação dos dados}
+
+Para realizar a importação dos dados para o Providence é necessário primeiro criar uma planilha de mapeamento, que irá conter as regras e definições como o tipo de informação que será transferida. Deverá ser criada uma planilha para cada categoria da informação que se deseja importar, como por exemplo uma para as Pinturas, outra para as Gravuras, até abranger todas as categorias e objetos do Acervo.
+
+O programa aceita vários formatos diferentes de arquivo contendo os dados, desde planilhas de Excel com formato .xls ou .xlsx, tabelas de banco de dados do MYSQL, arquivos .csv e até mesmos alguns tipos de .xml exportados de outros programas de gerenciamento já mencionados na Introdução como o Omeka, o Past Perfect, entre outros.
+
+O Acervo Museológico foi separado em 34 arquivos diferentes, um para cada tipo de Classe/Subclasse existente, logo também foi necessário criar uma planilha de mapeamento para cada um desses arquivos.
+
+
 
 %================================================================
 \chapter{Pawtucket}
