@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2\n"
 "POT-Creation-Date: 2019-05-16 11:14-0300\n"
-"PO-Revision-Date: 2019-05-16 13:12-0300\n"
+"PO-Revision-Date: 2019-05-16 23:24-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language: pt_BR\n"
@@ -624,7 +624,7 @@ msgstr "Você foi logado"
 
 #: controllers/LoginRegController.php:286
 msgid "You have been logged out"
-msgstr "Você foi deslogado"
+msgstr "Você foi desconectado"
 
 #: controllers/LoginRegController.php:340
 #: controllers/LoginRegController.php:676
@@ -751,251 +751,268 @@ msgstr "O código do elemento não está vinculado à tabela especificada"
 #: controllers/lookup/InformationServiceController.php:60
 #: controllers/lookup/InformationServiceController.php:100
 msgid "ERROR: Invalid element_id"
-msgstr ""
+msgstr "ERRO: element_id inválido"
 
 #: controllers/lookup/InformationServiceController.php:70
 #: controllers/lookup/InformationServiceController.php:116
 msgid "ERROR: Invalid service"
-msgstr ""
+msgstr "ERRO: Serviço inválido"
 
 #: controllers/lookup/InformationServiceController.php:81
 msgid "ERROR"
-msgstr ""
+msgstr "ERRO"
 
 #: controllers/lookup/InformationServiceController.php:112
 msgid "ERROR: You do not have access to this item"
-msgstr ""
+msgstr "ERRO: Você não tem acesso a este item"
 
 #: controllers/system/AuthController.php:39
 msgid "Login was invalid"
-msgstr ""
+msgstr "Login foi inválido"
 
 #: controllers/system/AuthController.php:56
 msgid "You are now logged out"
-msgstr ""
+msgstr "Agora você está desconectado"
 
 #: controllers/system/PreferencesController.php:60
 msgid ""
 "Could not save your changes because an error occurred: <em>passwords don't "
 "match</em>"
 msgstr ""
+"Não foi possível salvar suas alterações porque ocorreu um erro: <em>as "
+"senhas não correspondem<em>"
 
 #: controllers/system/PreferencesController.php:77
 msgid "Could not save your changes because an error occurred: <em>%1</em>"
 msgstr ""
+"Não foi possível salvar suas alterações porque ocorreu um erro: <em>%1<em>"
 
 #: controllers/system/PreferencesController.php:79
 msgid "Saved new profile settings"
-msgstr ""
+msgstr "Novas configurações do perfil salvas"
 
 #: controllers/system/PreferencesController.php:82
 msgid "Please complete all key fields before saving."
-msgstr ""
+msgstr "Por favor, preencha todos os campos-chave antes de salvar."
 
 #: helpers/batchHelpers.php:51 helpers/batchHelpers.php:58
 #: helpers/batchHelpers.php:93 helpers/batchHelpers.php:125
 #: helpers/batchHelpers.php:157 helpers/batchHelpers.php:189
 #: helpers/batchHelpers.php:217
 msgid "do not use"
-msgstr ""
+msgstr "não use"
 
 #: helpers/batchHelpers.php:52 helpers/batchHelpers.php:60
 #: helpers/batchHelpers.php:95 helpers/batchHelpers.php:127
 #: helpers/batchHelpers.php:159
 msgid "replace value"
-msgstr ""
+msgstr "substituir valor"
 
 #: helpers/batchHelpers.php:53 helpers/batchHelpers.php:61
 #: helpers/batchHelpers.php:96 helpers/batchHelpers.php:128
 #: helpers/batchHelpers.php:160 helpers/batchHelpers.php:220
 msgid "remove all values"
-msgstr ""
+msgstr "remover todos os valores"
 
 #: helpers/batchHelpers.php:59
 msgid "add to each"
-msgstr ""
+msgstr "adicionar a cada"
 
 #: helpers/batchHelpers.php:65 helpers/batchHelpers.php:91
 #: helpers/batchHelpers.php:123 helpers/batchHelpers.php:155
 #: helpers/batchHelpers.php:187 helpers/batchHelpers.php:215
 msgid "In batch"
-msgstr ""
+msgstr "Em lote"
 
 #: helpers/batchHelpers.php:94 helpers/batchHelpers.php:126
 #: helpers/batchHelpers.php:158 helpers/batchHelpers.php:218
 msgid "add to each item"
-msgstr ""
+msgstr "adicionar a cada item"
 
 #: helpers/batchHelpers.php:190
 msgid "set for each item"
-msgstr ""
+msgstr "definir para cada item"
 
 #: helpers/batchHelpers.php:219
 msgid "replace values"
-msgstr ""
+msgstr "substituir valores"
 
 #: helpers/batchHelpers.php:264
 msgid ""
 "List of search expressions for replacement %1 is invalid. Check your "
 "configuration."
 msgstr ""
+"Lista de expressões de pesquisa para substituição %1 é inválida. Verifique "
+"sua configuração."
 
 #: helpers/batchHelpers.php:269
 msgid ""
 "List of replacement patterns for replacement %1 is invalid. Check your "
 "configuration."
 msgstr ""
+"Lista de padrões de substituição para substituição %1 é inválida. Verifique "
+"sua configuração."
 
 #: helpers/batchHelpers.php:274
 msgid ""
 "The search and replacement pattern lists for replacement %1 have different "
 "lengths. Check your configuration."
 msgstr ""
+"As listas de pesquisa e padrões de substituição para substituição %1 têm "
+"comprimentos diferentes. Verifique sua configuração."
 
 #: helpers/batchHelpers.php:281
 msgid ""
 "One of the search patterns for replacement %1 is not a valid PCRE. Check "
 "your configuration."
 msgstr ""
+"Um dos padrões de pesquisa para substituição %1 não é um PCRE válido. "
+"Verifique sua configuração."
 
 #: helpers/batchHelpers.php:341 lib/BatchProcessor.php:750
 msgid "Processing mediaFilenameToObjectIdnoRegexes entry %1"
-msgstr ""
+msgstr "Processando mediaFilenameToObjectIdnoRegexes entrada %1"
 
 #: helpers/batchHelpers.php:347 lib/BatchProcessor.php:756
 msgid "Trying to match on directory '%1'"
-msgstr ""
+msgstr "Tentando corresponder no diretório '%1'"
 
 #: helpers/batchHelpers.php:351 lib/BatchProcessor.php:760
 msgid "Trying to match on directory '%1' and file name '%2'"
-msgstr ""
+msgstr "Tentando corresponder no diretório '%1' e arquivo de nome '%2'"
 
 #: helpers/batchHelpers.php:356 lib/BatchProcessor.php:765
 msgid "Trying to match on file name '%1'"
-msgstr ""
+msgstr "Tentando corresponder no nome do arquivo '%1'"
 
 #: helpers/batchHelpers.php:376 lib/BatchProcessor.php:785
 msgid "There was an error in preg_replace while processing replacement %1."
 msgstr ""
+"Houve um erro no preg_replace durante o processamento da substituição %1."
 
 #: helpers/batchHelpers.php:380 lib/BatchProcessor.php:789
 msgid ""
 "The result for replacement with code %1 applied to value '%2' is '%3' and "
 "was added to the list of file names used for matching."
 msgstr ""
+"O resultado para a substituição com código %1 aplicado ao valor '%2' é '%3' "
+"e foi adicionado à lista de nome dos arquivos utilizados para "
+"correspondência."
 
 #: helpers/batchHelpers.php:384 lib/BatchProcessor.php:793
 msgid "Skipped replacement %1 because no search expression was defined."
 msgstr ""
+"A substituição %1 foi ignorada pois não foi definida nenhuma expressão de "
+"pesquisa."
 
 #: helpers/batchHelpers.php:396 lib/BatchProcessor.php:805
 msgid "Matched name %1 on regex %2"
-msgstr ""
+msgstr "Correspondente nome %1 no regex %2"
 
 #: helpers/batchHelpers.php:423 lib/BatchProcessor.php:863
 msgid "Couldn't match name %1 on regex %2"
-msgstr ""
+msgstr "Não foi possível corresponder o nome %1 no regex %2"
 
 #: helpers/displayHelpers.php:258
 msgid "Really delete \"%1\"?"
-msgstr ""
+msgstr "Realmente excluit \"%1\"?"
 
 #: helpers/displayHelpers.php:261 helpers/themeHelpers.php:678
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 #: helpers/displayHelpers.php:262
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: helpers/displayHelpers.php:290 helpers/displayHelpers.php:292
 msgid "Type is used by %1 %2"
-msgstr ""
+msgstr "Tipo é usado por %1 %2"
 
 #: helpers/displayHelpers.php:296 models/ca_relationship_types.php:41
 msgid "relationship type"
-msgstr ""
+msgstr "tipo de relacionamento"
 
 #: helpers/displayHelpers.php:311
 msgid "Has %1 relationship to %2"
-msgstr ""
+msgstr "Tem %1 relacionamento com %2"
 
 #: helpers/displayHelpers.php:313
 msgid "Has %1 relationships to %2"
-msgstr ""
+msgstr "Tem %1 relacionamentos com %2"
 
 #: helpers/displayHelpers.php:322
 msgid "Is referenced %1 time"
-msgstr ""
+msgstr "É referenciado %1 vez"
 
 #: helpers/displayHelpers.php:324
 msgid "Is referenced %1 times"
-msgstr ""
+msgstr "É referenciado %1 vezes"
 
 #: helpers/displayHelpers.php:336
 msgid "%1 reference in %2"
-msgstr ""
+msgstr "%1 referência em %2"
 
 #: helpers/displayHelpers.php:345
 msgid "Has %1 child"
-msgstr ""
+msgstr "Tem %1 filho"
 
 #: helpers/displayHelpers.php:347
 msgid "Has %1 children"
-msgstr ""
+msgstr "Tem %1 filhos"
 
 #: helpers/displayHelpers.php:380
 msgid "This %1 is referenced %2 time"
-msgstr ""
+msgstr "Este %1 é referenciado %2 vez"
 
 #: helpers/displayHelpers.php:380 helpers/displayHelpers.php:382
 #: helpers/displayHelpers.php:436 helpers/displayHelpers.php:438
 msgid "When deleting this %1:"
-msgstr ""
+msgstr "Quando deletar este %1:"
 
 #: helpers/displayHelpers.php:382
 msgid "This %1 is referenced %2 times"
-msgstr ""
+msgstr "Este %1 é referenciado %2 vezes"
 
 #: helpers/displayHelpers.php:394
 msgid "remove all references"
-msgstr ""
+msgstr "remove todas as referências"
 
 #: helpers/displayHelpers.php:395
 msgid "transfer references to"
-msgstr ""
+msgstr "transfere referências para"
 
 #: helpers/displayHelpers.php:396 helpers/displayHelpers.php:452
 msgid "Clear"
-msgstr ""
+msgstr "Limpar"
 
 #: helpers/displayHelpers.php:400
 msgid "Child records will be deleted"
-msgstr ""
+msgstr "Os registros filho serão excluídos"
 
 #: helpers/displayHelpers.php:430
 msgid "References to this %1"
-msgstr ""
+msgstr "Referências a este %1"
 
 #: helpers/displayHelpers.php:436
 msgid "This %1 references %2 other item in metadata"
-msgstr ""
+msgstr "Este %1 referencia %2 outro item nos metadados"
 
 #: helpers/displayHelpers.php:438
 msgid "This %1 references %2 other items in metadata"
-msgstr ""
+msgstr "Este %1 referencia %2 outros itens nos metadados"
 
 #: helpers/displayHelpers.php:450
 msgid "remove these references"
-msgstr ""
+msgstr "remova estas referências"
 
 #: helpers/displayHelpers.php:451
 msgid "transfer these references and accompanying metadata to"
-msgstr ""
+msgstr "transfere estas referências e os metadados anexos para"
 
 #: helpers/displayHelpers.php:479
 msgid "References by this %1"
-msgstr ""
+msgstr "Referências por este %1"
 
 #: helpers/displayHelpers.php:526 helpers/displayHelpers.php:2649
 #: lib/Attributes/Values/MediaAttributeValue.php:216
@@ -1003,7 +1020,7 @@ msgstr ""
 #: models/ca_representation_annotations.php:641 models/ca_set_items.php:385
 #: models/ca_user_representation_annotations.php:619
 msgid "page"
-msgstr ""
+msgstr "página"
 
 #: helpers/displayHelpers.php:526 helpers/displayHelpers.php:2649
 #: lib/Attributes/Values/MediaAttributeValue.php:216
@@ -1011,27 +1028,27 @@ msgstr ""
 #: models/ca_representation_annotations.php:641 models/ca_set_items.php:385
 #: models/ca_user_representation_annotations.php:619
 msgid "pages"
-msgstr ""
+msgstr "páginas"
 
 #: helpers/displayHelpers.php:570
 msgid "No embedded metadata was extracted from the media"
-msgstr ""
+msgstr "Nenhum metadado incorporado foi extraído da mídia"
 
 #: helpers/displayHelpers.php:631
 msgid "Results"
-msgstr ""
+msgstr "Resultados"
 
 #: helpers/displayHelpers.php:829
 msgid "Deleted %1"
-msgstr ""
+msgstr "Excluído %1"
 
 #: helpers/displayHelpers.php:835 helpers/displayHelpers.php:1875
 msgid "Editing %1"
-msgstr ""
+msgstr "Editando %1"
 
 #: helpers/displayHelpers.php:837 helpers/displayHelpers.php:1877
 msgid "Viewing %1"
-msgstr ""
+msgstr "Visualizando %1"
 
 #: helpers/displayHelpers.php:841 helpers/utilityHelpers.php:2612
 #: helpers/utilityHelpers.php:2633 lib/BaseEditorController.php:249
@@ -1045,23 +1062,23 @@ msgstr ""
 #: models/ca_objects_x_storage_locations.php:224
 #: models/ca_objects_x_storage_locations.php:234
 msgid "now"
-msgstr ""
+msgstr "agora"
 
 #: helpers/displayHelpers.php:843
 msgid "Deaccessioned %1"
-msgstr ""
+msgstr "Retirado %1 do inventário"
 
 #: helpers/displayHelpers.php:857
 msgid "Current"
-msgstr ""
+msgstr "Atual"
 
 #: helpers/displayHelpers.php:864
 msgid "Location: %1"
-msgstr ""
+msgstr "Localização: %1"
 
 #: helpers/displayHelpers.php:929
 msgid "new screen"
-msgstr ""
+msgstr "nova tela"
 
 #: helpers/displayHelpers.php:959 helpers/displayHelpers.php:1325
 #: helpers/displayHelpers.php:1328

@@ -114,7 +114,7 @@ if (!defined("__CA_QUEUE_ENABLED__")) {
 # The default value is US/English, which exists in most configurations.
 # 
 if (!defined("__CA_DEFAULT_LOCALE__")) {
-	define("__CA_DEFAULT_LOCALE__", "en_US");
+	define("__CA_DEFAULT_LOCALE__", "pt_BR");
 }
 
 

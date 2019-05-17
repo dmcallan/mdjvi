@@ -1,2 +1,0 @@
-Editado o app.conf na pasta pawtucket/themes/conf para possibilitar a visualização de todos os objetos sem ter que permitir o acesso individualmente
-Na pasta pawtucket/themes/default/views/Details foi editado o arquivo ca_objects_default_html.php com as informações a serem exibidas de cada objeto
