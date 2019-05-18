@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2\n"
 "POT-Creation-Date: 2019-05-16 11:14-0300\n"
-"PO-Revision-Date: 2019-05-16 23:24-0300\n"
+"PO-Revision-Date: 2019-05-18 19:55-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language: pt_BR\n"
@@ -1004,7 +1004,7 @@ msgstr "Este %1 referencia %2 outros itens nos metadados"
 
 #: helpers/displayHelpers.php:450
 msgid "remove these references"
-msgstr "remova estas referências"
+msgstr "remover estas referências"
 
 #: helpers/displayHelpers.php:451
 msgid "transfer these references and accompanying metadata to"
@@ -1083,288 +1083,288 @@ msgstr "nova tela"
 #: helpers/displayHelpers.php:959 helpers/displayHelpers.php:1325
 #: helpers/displayHelpers.php:1328
 msgid "Lot contains %1 object"
-msgstr ""
+msgstr "Lote contém %1 objeto"
 
 #: helpers/displayHelpers.php:959 helpers/displayHelpers.php:1325
 #: helpers/displayHelpers.php:1328
 msgid "Lot contains %1 objects"
-msgstr ""
+msgstr "Lote contém %1 objetos"
 
 #: helpers/displayHelpers.php:975
 msgid "Creating new %1"
-msgstr ""
+msgstr "Criando novo %1"
 
 #: helpers/displayHelpers.php:975
 msgid "%1 &gt; New %2"
-msgstr ""
+msgstr "%1 &gt; Novo %2"
 
 #: helpers/displayHelpers.php:1025
 msgid "Previous Image"
-msgstr ""
+msgstr "Imagem Anterior"
 
 #: helpers/displayHelpers.php:1026
 msgid "Next Image"
-msgstr ""
+msgstr "Próxima Imagem"
 
 #: helpers/displayHelpers.php:1071
 msgid "Add/remove item to/from watch list."
-msgstr ""
+msgstr "Adicionar/remover item da/para a lista de observação."
 
 #: helpers/displayHelpers.php:1089
 msgid "Watch/Unwatch this record"
-msgstr ""
+msgstr "Observar/Tirar da observação este registro"
 
 #: helpers/displayHelpers.php:1093 helpers/displayHelpers.php:1865
 msgid "Change type"
-msgstr ""
+msgstr "Alterar tipo"
 
 #: helpers/displayHelpers.php:1099 helpers/displayHelpers.php:1866
 #: helpers/displayHelpers.php:1924
 msgid "Change Record Type"
-msgstr ""
+msgstr "Alterar tipo de registro"
 
 #: helpers/displayHelpers.php:1120
 msgid "Create Child Record"
-msgstr ""
+msgstr "Criar registro filho"
 
 #: helpers/displayHelpers.php:1127
 msgid "Create a child record under this one"
-msgstr ""
+msgstr "Criar um registro filho abaixo deste"
 
 #: helpers/displayHelpers.php:1145
 msgid "Duplicate this %1"
-msgstr ""
+msgstr "Duplicar este %1"
 
 #: helpers/displayHelpers.php:1152
 msgid "Download all media associated with objects in this lot"
-msgstr ""
+msgstr "Baixar todas as mídia associadas a objetos neste lote"
 
 #: helpers/displayHelpers.php:1160
 msgid "Download all media associated with records in this set"
-msgstr ""
+msgstr "Baixar todas as mídia associadas a registros neste conjunto"
 
 #: helpers/displayHelpers.php:1172
 msgid "In set"
-msgstr ""
+msgstr "No conjunto"
 
 #: helpers/displayHelpers.php:1172
 msgid "In sets"
-msgstr ""
+msgstr "Nos conjuntos"
 
 #: helpers/displayHelpers.php:1195 helpers/displayHelpers.php:1206
 msgid "Just now"
-msgstr ""
+msgstr "Agora mesmo"
 
 #: helpers/displayHelpers.php:1195 helpers/displayHelpers.php:1206
 msgid "%1 ago"
-msgstr ""
+msgstr "%1 atrás"
 
 #: helpers/displayHelpers.php:1198
 msgid "<strong>Created</strong><br/>%1 by %2"
-msgstr ""
+msgstr "<strong>Criado</strong><br/>%1 por %2"
 
 #: helpers/displayHelpers.php:1198
 msgid "<strong>Created</strong><br/>%1"
-msgstr ""
+msgstr "<strong>Criado</strong><br/>%1"
 
 #: helpers/displayHelpers.php:1201
 #: models/ca_metadata_dictionary_rule_violations.php:75
 #: models/ca_object_checkouts.php:87 models/ca_task_queue.php:77
 msgid "Created on"
-msgstr ""
+msgstr "Criado em"
 
 #: helpers/displayHelpers.php:1201
 msgid "Created on %1"
-msgstr ""
+msgstr "Criado em %1"
 
 #: helpers/displayHelpers.php:1209
 msgid "<strong>Last changed</strong><br/>%1 by %2"
-msgstr ""
+msgstr "<strong>Última alteração</strong><br/>%1 por %2"
 
 #: helpers/displayHelpers.php:1209
 msgid "<strong>Last changed</strong><br/>%1"
-msgstr ""
+msgstr "<strong>Última alteração</strong><br/>%1"
 
 #: helpers/displayHelpers.php:1212
 msgid "Last changed on"
-msgstr ""
+msgstr "Última alteração em"
 
 #: helpers/displayHelpers.php:1212
 msgid "Last changed on %1"
-msgstr ""
+msgstr "Última alteração em %1"
 
 #: helpers/displayHelpers.php:1222
 msgid "%1 problems require attention"
-msgstr ""
+msgstr "%1 problemas exigem atenção"
 
 #: helpers/displayHelpers.php:1222
 msgid "%1 problem requires attention"
-msgstr ""
+msgstr "%1 problema exige atenção"
 
 #: helpers/displayHelpers.php:1237
 msgid "See more information about this record"
-msgstr ""
+msgstr "Veja mais informações sobre este registro"
 
 #: helpers/displayHelpers.php:1258
 msgid "Will be related to %1"
-msgstr ""
+msgstr "Será relacionado a %1"
 
 #: helpers/displayHelpers.php:1285
 msgid "Part of lot"
-msgstr ""
+msgstr "Parte do lote"
 
 #: helpers/displayHelpers.php:1288
 msgid "Will be part of lot"
-msgstr ""
+msgstr "Será parte do lote"
 
 #: helpers/displayHelpers.php:1302 helpers/displayHelpers.php:1304
 msgid "%1 component"
-msgstr ""
+msgstr "%1 componente"
 
 #: helpers/displayHelpers.php:1302 helpers/displayHelpers.php:1304
 msgid "%1 components"
-msgstr ""
+msgstr "%1 componentes"
 
 #: helpers/displayHelpers.php:1306
 msgid "Has"
-msgstr ""
+msgstr "Tem"
 
 #: helpers/displayHelpers.php:1326
 msgid "Lot contains %1 component"
-msgstr ""
+msgstr "Lote contém %1 componente"
 
 #: helpers/displayHelpers.php:1326
 msgid "Lot contains %1 components"
-msgstr ""
+msgstr "Lote contém %1 componentes"
 
 #: helpers/displayHelpers.php:1333
 msgid "There is %1 object with non-conforming numbering"
-msgstr ""
+msgstr "Há %1 objeto com numeração não conforme"
 
 #: helpers/displayHelpers.php:1333
 msgid "There are %1 objects with non-conforming numbering"
-msgstr ""
+msgstr "Há %1 objetos com numeração não conforme"
 
 #: helpers/displayHelpers.php:1342
 msgid "Re-number objects"
-msgstr ""
+msgstr "Renumerar objetos"
 
 #: helpers/displayHelpers.php:1353 helpers/displayHelpers.php:1356
 msgid "Add new %1 to lot"
-msgstr ""
+msgstr "Adicionar novo %1 ao lote"
 
 #: helpers/displayHelpers.php:1379
 msgid "%1 related %2"
-msgstr ""
+msgstr "%1 relacionado %2"
 
 #: helpers/displayHelpers.php:1390
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1949
 msgid "Related %1"
-msgstr ""
+msgstr "Relacionado %1"
 
 #: helpers/displayHelpers.php:1411
 msgid "Applied to representation"
-msgstr ""
+msgstr "Aplicado a representação"
 
 #: helpers/displayHelpers.php:1427
 msgid "Batch edit"
-msgstr ""
+msgstr "Edição em lote"
 
 #: helpers/displayHelpers.php:1429
 msgid "Batch Edit"
-msgstr ""
+msgstr "Edição em Lote"
 
 #: helpers/displayHelpers.php:1431 helpers/displayHelpers.php:1530
 msgid "Number of items"
-msgstr ""
+msgstr "Número de itens"
 
 #: helpers/displayHelpers.php:1437 helpers/displayHelpers.php:1456
 #: helpers/displayHelpers.php:1622 helpers/displayHelpers.php:1627
 #: helpers/displayHelpers.php:1683 helpers/displayHelpers.php:1695
 msgid "Type of content"
-msgstr ""
+msgstr "Tipo de conteúdo"
 
 #: helpers/displayHelpers.php:1444
 msgid "Duplicate items in this set and add to"
-msgstr ""
+msgstr "Duplicar itens neste conjunto e adicionar a"
 
 #: helpers/displayHelpers.php:1446
 msgid "current set"
-msgstr ""
+msgstr "conjunto atual"
 
 #: helpers/displayHelpers.php:1447
 msgid "new set"
-msgstr ""
+msgstr "novo conjunto"
 
 #: helpers/displayHelpers.php:1463 helpers/displayHelpers.php:1635
 #: helpers/displayHelpers.php:1658
 msgid "Owner"
-msgstr ""
+msgstr "Proprietário"
 
 #: helpers/displayHelpers.php:1469
 msgid "Export this set of records"
-msgstr ""
+msgstr "Exportar este conjunto de registros"
 
 #: helpers/displayHelpers.php:1476 helpers/displayHelpers.php:1732
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: helpers/displayHelpers.php:1497
 msgid "Part of set"
-msgstr ""
+msgstr "Parte do conjunto"
 
 #: helpers/displayHelpers.php:1505
 msgid "Is %1"
-msgstr ""
+msgstr "É %1"
 
 #: helpers/displayHelpers.php:1516 helpers/displayHelpers.php:1519
 msgid "Rule content type"
-msgstr ""
+msgstr "Tipo do conteúdo da regra"
 
 #: helpers/displayHelpers.php:1538
 msgid "Add a %1 to this list"
-msgstr ""
+msgstr "Adicione um %1 a esta lista"
 
 #: helpers/displayHelpers.php:1550 helpers/displayHelpers.php:1608
 #: helpers/displayHelpers.php:1674
 msgid "Part of"
-msgstr ""
+msgstr "Parte de"
 
 #: helpers/displayHelpers.php:1552
 msgid "Is default for list"
-msgstr ""
+msgstr "É o padrão da lista"
 
 #: helpers/displayHelpers.php:1569
 msgid "Is a"
-msgstr ""
+msgstr "É um"
 
 #: helpers/displayHelpers.php:1577 models/ca_metadata_elements.php:75
 msgid "Element code"
-msgstr ""
+msgstr "Código do elemento"
 
 #: helpers/displayHelpers.php:1580
 msgid "Referenced by user interfaces"
-msgstr ""
+msgstr "Referenciado por interfaces de usuários"
 
 #: helpers/displayHelpers.php:1593
 msgid "Number of screens"
-msgstr ""
+msgstr "Número de telas"
 
 #: helpers/displayHelpers.php:1596 helpers/displayHelpers.php:1598
 msgid "Edits"
-msgstr ""
+msgstr "Edições"
 
 #: helpers/displayHelpers.php:1617 helpers/displayHelpers.php:1643
 msgid "Number of placements"
-msgstr ""
+msgstr "Número de colocações"
 
 #: helpers/displayHelpers.php:1648 helpers/displayHelpers.php:1652
 msgid "Searches for"
-msgstr ""
+msgstr "Pesquisa por"
 
 #: helpers/displayHelpers.php:1666
 msgid "Number of stops"
-msgstr ""
+msgstr "Número de paradas"
 
 #: helpers/displayHelpers.php:1684 helpers/displayHelpers.php:1696
 #: lib/Utils/CLIUtils.php:2337 models/ca_collection_labels.php:73
@@ -1386,114 +1386,114 @@ msgstr ""
 #: models/ca_tours.php:67
 #: models/ca_user_representation_annotation_labels.php:73
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: helpers/displayHelpers.php:1685 helpers/displayHelpers.php:1697
 msgid "Target format"
-msgstr ""
+msgstr "Formato alvo"
 
 #: helpers/displayHelpers.php:1688 helpers/displayHelpers.php:1699
 msgid "Number of groups"
-msgstr ""
+msgstr "Número de grupos"
 
 #: helpers/displayHelpers.php:1689 helpers/displayHelpers.php:1700
 msgid "Number of rules"
-msgstr ""
+msgstr "Número de regras"
 
 #: helpers/displayHelpers.php:1725
 msgid "Export this %1"
-msgstr ""
+msgstr "Exportar este %1"
 
 #: helpers/displayHelpers.php:1883
 msgid "Batch editing %1 %2 in set"
-msgstr ""
+msgstr "Edição em lote %1 %2 no conjunto"
 
 #: helpers/displayHelpers.php:1902
 msgid "Set contains <em>%1</em>"
-msgstr ""
+msgstr "Conjunto contém <em>%1</em>"
 
 #: helpers/displayHelpers.php:1910 helpers/displayHelpers.php:1932
 msgid "More options"
-msgstr ""
+msgstr "Mais opções"
 
 #: helpers/displayHelpers.php:1913
 msgid "Delete <strong><em>all</em></strong> records in set"
-msgstr ""
+msgstr "Excluir <strong><em>todos</em></strong> os registros no conjunto"
 
 #: helpers/displayHelpers.php:1918
 msgid "Set type for records in set"
-msgstr ""
+msgstr "Definir tipos de registro no conjunto"
 
 #: helpers/displayHelpers.php:1932
 msgid "Close options"
-msgstr ""
+msgstr "Fechar opções"
 
 #: helpers/displayHelpers.php:1959
 msgid "Batch import media"
-msgstr ""
+msgstr "Importação de mídia em lote"
 
 #: helpers/displayHelpers.php:1962
 msgid "<strong>Server directory:</strong> %1"
-msgstr ""
+msgstr "<strong>Diretório do servidor:</strong> %1"
 
 #: helpers/displayHelpers.php:1985
 msgid "Batch export metadata"
-msgstr ""
+msgstr "Exportação de metadados em lote"
 
 #: helpers/displayHelpers.php:1988
 msgid "Selected exporter"
-msgstr ""
+msgstr "Exportador selecionado"
 
 #: helpers/displayHelpers.php:1991
 msgid "Back to record"
-msgstr ""
+msgstr "Voltar ao registro"
 
 #: helpers/displayHelpers.php:3206
 msgid "↑"
-msgstr ""
+msgstr "↑"
 
 #: helpers/displayHelpers.php:3206
 msgid "↓"
-msgstr ""
+msgstr "↓"
 
 #: helpers/displayHelpers.php:3206
 msgid "Sort by %1 %2"
-msgstr ""
+msgstr "Ordenar por %1 %2"
 
 #: helpers/displayHelpers.php:3592
 msgid "No media"
-msgstr ""
+msgstr "Sem mídia"
 
 #: helpers/displayHelpers.php:3677
 msgid "Add item to %1"
-msgstr ""
+msgstr "Adicionar item a %1"
 
 #: helpers/displayHelpers.php:3679
 msgid "Login to add item to %1"
-msgstr ""
+msgstr "Logar para adicionar item a %1"
 
 #: helpers/displayHelpers.php:3725
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: helpers/displayHelpers.php:3743
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #: helpers/displayHelpers.php:3817 helpers/displayHelpers.php:3954
 #: helpers/displayHelpers.php:4019 helpers/displayHelpers.php:4068
 #: lib/BaseEditorController.php:2000 lib/BaseEditorController.php:2073
 #: lib/BaseEditorController.php:2111 lib/Media/MediaViewers/Spin360.php:102
 msgid "Invalid identifier %1"
-msgstr ""
+msgstr "Identificador inválido %1"
 
 #: helpers/displayHelpers.php:3850
 msgid "Invalid viewer: %1/%2"
-msgstr ""
+msgstr "Visualizador inválido: %1/%2"
 
 #: helpers/displayHelpers.php:3878 lib/BatchProcessor.php:343
 msgid "Invalid subject"
-msgstr ""
+msgstr "Assunto inválido"
 
 #: helpers/displayHelpers.php:3918 helpers/displayHelpers.php:3964
 #: helpers/displayHelpers.php:3995 helpers/displayHelpers.php:4029
@@ -1504,1484 +1504,1499 @@ msgstr ""
 #: lib/BaseEditorController.php:2083 lib/BaseEditorController.php:2091
 #: lib/BaseEditorController.php:2121 lib/BaseEditorController.php:2129
 msgid "Invalid viewer"
-msgstr ""
+msgstr "Visualizador inválido"
 
 #: helpers/displayHelpers.php:3937 helpers/displayHelpers.php:4002
 #: helpers/displayHelpers.php:4051 helpers/displayHelpers.php:4100
 #: lib/Service/IIIFService.php:127 lib/Service/IIIFService.php:132
 #: lib/Service/IIIFService.php:150
 msgid "Invalid identifier"
-msgstr ""
+msgstr "Identificador inválido"
 
 #: helpers/displayHelpers.php:4130
 msgid "Invalid viewer %1/%2"
-msgstr ""
+msgstr "Visualizador inválido %1/%2"
 
 #: helpers/displayHelpers.php:4148 lib/BaseEditorController.php:1984
 #: lib/BaseModel.php:12449
 msgid "Invalid id"
-msgstr ""
+msgstr "Id inválido"
 
 #: helpers/exportHelpers.php:94 helpers/exportHelpers.php:98
 #: helpers/exportHelpers.php:168 helpers/exportHelpers.php:186
 msgid "Invalid format %1"
-msgstr ""
+msgstr "Formato inválido %1"
 
 #: helpers/exportHelpers.php:190
 msgid "Invalid export type"
-msgstr ""
+msgstr "Tipo de exportação inválido"
 
 #: helpers/exportHelpers.php:476 helpers/printHelpers.php:504
 #: lib/BaseEditorController.php:886 lib/BaseEditorController.php:977
 #: lib/BaseFindController.php:453 lib/BaseFindController.php:579
 msgid "Could not generate PDF"
-msgstr ""
+msgstr "Não foi possível gerar PDF"
 
 #: helpers/exportHelpers.php:516
 msgid "Could not generate PDF: "
-msgstr ""
+msgstr "Não foi possível gerar PDF: "
 
 #: helpers/gisHelpers.php:43
 msgid "United States"
-msgstr ""
+msgstr "Estados Unidos"
 
 #: helpers/gisHelpers.php:44
 msgid "Canada"
-msgstr ""
+msgstr "Canadá"
 
 #: helpers/gisHelpers.php:45
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afeganistão"
 
 #: helpers/gisHelpers.php:46
 msgid "Albania"
-msgstr ""
+msgstr "Albânia"
 
 #: helpers/gisHelpers.php:47
 msgid "Algeria"
-msgstr ""
+msgstr "Argélia"
 
 #: helpers/gisHelpers.php:48 helpers/gisHelpers.php:305
 msgid "American Samoa"
-msgstr ""
+msgstr "Samoa Americana"
 
 #: helpers/gisHelpers.php:49
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: helpers/gisHelpers.php:50
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: helpers/gisHelpers.php:51
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguilla"
 
 #: helpers/gisHelpers.php:52
 msgid "Antarctica"
-msgstr ""
+msgstr "Antárctica"
 
 #: helpers/gisHelpers.php:53
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antígua e Barbuda"
 
 #: helpers/gisHelpers.php:54
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: helpers/gisHelpers.php:55
 msgid "Armenia"
-msgstr ""
+msgstr "Arménia"
 
 #: helpers/gisHelpers.php:56
 msgid "Aruba"
-msgstr ""
+msgstr "Aruba"
 
 #: helpers/gisHelpers.php:57
 msgid "Australia"
-msgstr ""
+msgstr "Austrália"
 
 #: helpers/gisHelpers.php:58
 msgid "Austria"
-msgstr ""
+msgstr "Áustria"
 
 #: helpers/gisHelpers.php:59
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaijão"
 
 #: helpers/gisHelpers.php:60
 msgid "Azores"
-msgstr ""
+msgstr "Açores"
 
 #: helpers/gisHelpers.php:61
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: helpers/gisHelpers.php:62
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 #: helpers/gisHelpers.php:63
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: helpers/gisHelpers.php:64
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: helpers/gisHelpers.php:65
 msgid "Belarus"
-msgstr ""
+msgstr "Belarus"
 
 #: helpers/gisHelpers.php:66
 msgid "Belgium"
-msgstr ""
+msgstr "Bélgica"
 
 #: helpers/gisHelpers.php:67
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 #: helpers/gisHelpers.php:68
 msgid "Benin"
-msgstr ""
+msgstr "Benin"
 
 #: helpers/gisHelpers.php:69
 msgid "Bermuda"
-msgstr ""
+msgstr "Bermuda"
 
 #: helpers/gisHelpers.php:70
 msgid "Bhutan"
-msgstr ""
+msgstr "Butão"
 
 #: helpers/gisHelpers.php:71
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolívia"
 
 #: helpers/gisHelpers.php:72
 msgid "Bosnia And Herzegowina"
-msgstr ""
+msgstr "Bósnia e Herzegovina"
 
 #: helpers/gisHelpers.php:73
 msgid "Bosnia-Herzegovina"
-msgstr ""
+msgstr "Bósnia-Herzegovina"
 
 #: helpers/gisHelpers.php:74
 msgid "Botswana"
-msgstr ""
+msgstr "Botsuana"
 
 #: helpers/gisHelpers.php:75
 msgid "Bouvet Island"
-msgstr ""
+msgstr "Ilha Bouvet"
 
 #: helpers/gisHelpers.php:76
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: helpers/gisHelpers.php:77
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Território Britânico no Oceano Índico"
 
 #: helpers/gisHelpers.php:78
 msgid "British Virgin Islands"
-msgstr ""
+msgstr "Ilhas Virgens Britânicas"
 
 #: helpers/gisHelpers.php:79
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunei Darussalam"
 
 #: helpers/gisHelpers.php:80
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgária"
 
 #: helpers/gisHelpers.php:81
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burquina Faso"
 
 #: helpers/gisHelpers.php:82
 msgid "Burundi"
-msgstr ""
+msgstr "Burúndi"
 
 #: helpers/gisHelpers.php:83
 msgid "Cambodia"
-msgstr ""
+msgstr "Camboja"
 
 #: helpers/gisHelpers.php:84
 msgid "Cameroon"
-msgstr ""
+msgstr "Camarões"
 
 #: helpers/gisHelpers.php:85
 msgid "Cape Verde"
-msgstr ""
+msgstr "Cabo Verde"
 
 #: helpers/gisHelpers.php:86
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Ilhas Caimão"
 
 #: helpers/gisHelpers.php:87
 msgid "Central African Republic"
-msgstr ""
+msgstr "República Centro-Africana"
 
 #: helpers/gisHelpers.php:88
 msgid "Chad"
-msgstr ""
+msgstr "Chade"
 
 #: helpers/gisHelpers.php:89
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: helpers/gisHelpers.php:90
 msgid "China"
-msgstr ""
+msgstr "China"
 
 #: helpers/gisHelpers.php:91
 msgid "Christmas Island"
-msgstr ""
+msgstr "Ilha do Natal"
 
 #: helpers/gisHelpers.php:92
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Ilhas Cocos (Keeling)"
 
 #: helpers/gisHelpers.php:93
 msgid "Colombia"
-msgstr ""
+msgstr "Colômbia"
 
 #: helpers/gisHelpers.php:94
 msgid "Comoros"
-msgstr ""
+msgstr "Comoros"
 
 #: helpers/gisHelpers.php:95
 msgid "Congo"
-msgstr ""
+msgstr "Congo"
 
 #: helpers/gisHelpers.php:96
 msgid "Congo, The Democratic Republic O"
-msgstr ""
+msgstr "República Democrática do Congo"
 
 #: helpers/gisHelpers.php:97
 msgid "Cook Islands"
-msgstr ""
+msgstr "Ilhas Cook"
 
 #: helpers/gisHelpers.php:98
 msgid "Corsica"
-msgstr ""
+msgstr "Córsega"
 
 #: helpers/gisHelpers.php:99
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: helpers/gisHelpers.php:100
 msgid "Cote d` Ivoire (Ivory Coast)"
-msgstr ""
+msgstr "Costa do Marfim"
 
 #: helpers/gisHelpers.php:101
 msgid "Croatia"
-msgstr ""
+msgstr "Croácia"
 
 #: helpers/gisHelpers.php:102
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 #: helpers/gisHelpers.php:103
 msgid "Cyprus"
-msgstr ""
+msgstr "Chipre"
 
 #: helpers/gisHelpers.php:104
 msgid "Czech Republic"
-msgstr ""
+msgstr "República Checa"
 
 #: helpers/gisHelpers.php:105
 msgid "Denmark"
-msgstr ""
+msgstr "Dinamarca"
 
 #: helpers/gisHelpers.php:106
 msgid "Djibouti"
-msgstr ""
+msgstr "Djibouti"
 
 #: helpers/gisHelpers.php:107
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 #: helpers/gisHelpers.php:108
 msgid "Dominican Republic"
-msgstr ""
+msgstr "República Dominicana"
 
 #: helpers/gisHelpers.php:109
 msgid "East Timor"
-msgstr ""
+msgstr "Timor-Leste"
 
 #: helpers/gisHelpers.php:110
 msgid "Ecuador"
-msgstr ""
+msgstr "Equador"
 
 #: helpers/gisHelpers.php:111
 msgid "Egypt"
-msgstr ""
+msgstr "Egito"
 
 #: helpers/gisHelpers.php:112
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: helpers/gisHelpers.php:113
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guiné Equatorial"
 
 #: helpers/gisHelpers.php:114
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: helpers/gisHelpers.php:115
 msgid "Estonia"
-msgstr ""
+msgstr "Estónia"
 
 #: helpers/gisHelpers.php:116
 msgid "Ethiopia"
-msgstr ""
+msgstr "Etiópia"
 
 #: helpers/gisHelpers.php:117
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Ilhas Falkland (Malvinas)"
 
 #: helpers/gisHelpers.php:118
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Ilhas Féroe"
 
 #: helpers/gisHelpers.php:119
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 #: helpers/gisHelpers.php:120
 msgid "Finland"
-msgstr ""
+msgstr "Finlândia"
 
 #: helpers/gisHelpers.php:121
 msgid "France (Includes Monaco)"
-msgstr ""
+msgstr "França (inclui Mônaco)"
 
 #: helpers/gisHelpers.php:122
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "França, Metropolitana"
 
 #: helpers/gisHelpers.php:123
 msgid "French Guiana"
-msgstr ""
+msgstr "Guiana Francesa"
 
 #: helpers/gisHelpers.php:124
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polinésia Francesa"
 
 #: helpers/gisHelpers.php:125
 msgid "French Polynesia (Tahiti)"
-msgstr ""
+msgstr "Polinésia Francesa (Taiti)"
 
 #: helpers/gisHelpers.php:126
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Terras Austrais e Antárticas Francesas"
 
 #: helpers/gisHelpers.php:127
 msgid "Gabon"
-msgstr ""
+msgstr "Gabão"
 
 #: helpers/gisHelpers.php:128
 msgid "Gambia"
-msgstr ""
+msgstr "Gâmbia"
 
 #: helpers/gisHelpers.php:129 helpers/gisHelpers.php:314
 msgid "Georgia"
-msgstr ""
+msgstr "Geórgia"
 
 #: helpers/gisHelpers.php:130
 msgid "Germany"
-msgstr ""
+msgstr "Alemanha"
 
 #: helpers/gisHelpers.php:131
 msgid "Ghana"
-msgstr ""
+msgstr "Gana"
 
 #: helpers/gisHelpers.php:132
 msgid "Gibraltar"
-msgstr ""
+msgstr "Gibraltar"
 
 #: helpers/gisHelpers.php:133
 msgid "Greece"
-msgstr ""
+msgstr "Grécia"
 
 #: helpers/gisHelpers.php:134
 msgid "Greenland"
-msgstr ""
+msgstr "Groenlândia"
 
 #: helpers/gisHelpers.php:135
 msgid "Grenada"
-msgstr ""
+msgstr "Granada"
 
 #: helpers/gisHelpers.php:136
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadalupe"
 
 #: helpers/gisHelpers.php:137 helpers/gisHelpers.php:315
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #: helpers/gisHelpers.php:138
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: helpers/gisHelpers.php:139
 msgid "Guinea"
-msgstr ""
+msgstr "Guiné"
 
 #: helpers/gisHelpers.php:140
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Guiné-Bissau"
 
 #: helpers/gisHelpers.php:141
 msgid "Guyana"
-msgstr ""
+msgstr "Guiana"
 
 #: helpers/gisHelpers.php:142
 msgid "Haiti"
-msgstr ""
+msgstr "Haiti"
 
 #: helpers/gisHelpers.php:143
 msgid "Heard And Mc Donald Islands"
-msgstr ""
+msgstr "Ilha Heard e Ilhas McDonald"
 
 #: helpers/gisHelpers.php:144
 msgid "Holy See (Vatican City State)"
-msgstr ""
+msgstr "Vaticano (Estado da Cidade do Vaticano)"
 
 #: helpers/gisHelpers.php:145
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: helpers/gisHelpers.php:146
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 #: helpers/gisHelpers.php:147
 msgid "Hungary"
-msgstr ""
+msgstr "Húngria"
 
 #: helpers/gisHelpers.php:148
 msgid "Iceland"
-msgstr ""
+msgstr "Islândia"
 
 #: helpers/gisHelpers.php:149
 msgid "India"
-msgstr ""
+msgstr "Índia"
 
 #: helpers/gisHelpers.php:150
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonésia"
 
 #: helpers/gisHelpers.php:151
 msgid "Iran"
-msgstr ""
+msgstr "Irã"
 
 #: helpers/gisHelpers.php:152
 msgid "Iraq"
-msgstr ""
+msgstr "Iraque"
 
 #: helpers/gisHelpers.php:153
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 #: helpers/gisHelpers.php:154
 msgid "Ireland (Eire)"
-msgstr ""
+msgstr "Irlanda (Eire)"
 
 #: helpers/gisHelpers.php:155
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #: helpers/gisHelpers.php:156
 msgid "Italy"
-msgstr ""
+msgstr "Itália"
 
 #: helpers/gisHelpers.php:157
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #: helpers/gisHelpers.php:158
 msgid "Japan"
-msgstr ""
+msgstr "Japão"
 
 #: helpers/gisHelpers.php:159
 msgid "Jordan"
-msgstr ""
+msgstr "Jordânia"
 
 #: helpers/gisHelpers.php:160
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Cazaquistão"
 
 #: helpers/gisHelpers.php:161
 msgid "Kenya"
-msgstr ""
+msgstr "Quénia"
 
 #: helpers/gisHelpers.php:162
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: helpers/gisHelpers.php:163
 msgid "Korea, Democratic People's Republic"
-msgstr ""
+msgstr "Coreia, República Popular Democrática"
 
 #: helpers/gisHelpers.php:164
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #: helpers/gisHelpers.php:165
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Quirguistão"
 
 #: helpers/gisHelpers.php:166
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: helpers/gisHelpers.php:167
 msgid "Latvia"
-msgstr ""
+msgstr "Letónia"
 
 #: helpers/gisHelpers.php:168
 msgid "Lebanon"
-msgstr ""
+msgstr "Líbano"
 
 #: helpers/gisHelpers.php:169
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesoto"
 
 #: helpers/gisHelpers.php:170
 msgid "Liberia"
-msgstr ""
+msgstr "Libéria"
 
 #: helpers/gisHelpers.php:171
 msgid "Libya"
-msgstr ""
+msgstr "Líbia"
 
 #: helpers/gisHelpers.php:172
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 #: helpers/gisHelpers.php:173
 msgid "Lithuania"
-msgstr ""
+msgstr "Lituânia"
 
 #: helpers/gisHelpers.php:174
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxemburgo"
 
 #: helpers/gisHelpers.php:175
 msgid "Macao"
-msgstr ""
+msgstr "Macau"
 
 #: helpers/gisHelpers.php:176
 msgid "Macedonia"
-msgstr ""
+msgstr "República da Macedônia"
 
 #: helpers/gisHelpers.php:177
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagáscar"
 
 #: helpers/gisHelpers.php:178
 msgid "Madeira Islands"
-msgstr ""
+msgstr "Arquipélago da Madeira"
 
 #: helpers/gisHelpers.php:179
 msgid "Malawi"
-msgstr ""
+msgstr "Malauí"
 
 #: helpers/gisHelpers.php:180
 msgid "Malaysia"
-msgstr ""
+msgstr "Malásia"
 
 #: helpers/gisHelpers.php:181
 msgid "Maldives"
-msgstr ""
+msgstr "Maldivas"
 
 #: helpers/gisHelpers.php:182
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #: helpers/gisHelpers.php:183
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: helpers/gisHelpers.php:184 helpers/gisHelpers.php:327
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Ilhas Marshall"
 
 #: helpers/gisHelpers.php:185
 msgid "Martinique"
-msgstr ""
+msgstr "Martinica"
 
 #: helpers/gisHelpers.php:186
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritânia"
 
 #: helpers/gisHelpers.php:187
 msgid "Mauritius"
-msgstr ""
+msgstr "Maurícia"
 
 #: helpers/gisHelpers.php:188
 msgid "Mayotte"
-msgstr ""
+msgstr "Maiote"
 
 #: helpers/gisHelpers.php:189
 msgid "Mexico"
-msgstr ""
+msgstr "México"
 
 #: helpers/gisHelpers.php:190
 msgid "Micronesia, Federated States Of"
-msgstr ""
+msgstr "Estados Federados da Micronésia"
 
 #: helpers/gisHelpers.php:191
 msgid "Moldova, Republic Of"
-msgstr ""
+msgstr "Moldávia"
 
 #: helpers/gisHelpers.php:192
 msgid "Monaco"
-msgstr ""
+msgstr "Mônaco"
 
 #: helpers/gisHelpers.php:193
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongólia"
 
 #: helpers/gisHelpers.php:194
 msgid "Montserrat"
-msgstr ""
+msgstr "Montserrat"
 
 #: helpers/gisHelpers.php:195
 msgid "Morocco"
-msgstr ""
+msgstr "Marrocos"
 
 #: helpers/gisHelpers.php:196
 msgid "Mozambique"
-msgstr ""
+msgstr "Moçambique"
 
 #: helpers/gisHelpers.php:197
 msgid "Myanmar (Burma)"
-msgstr ""
+msgstr "Myanmar (Birmânia)"
 
 #: helpers/gisHelpers.php:198
 msgid "Namibia"
-msgstr ""
+msgstr "Namíbia"
 
 #: helpers/gisHelpers.php:199
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: helpers/gisHelpers.php:200
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: helpers/gisHelpers.php:201
 msgid "Netherlands"
-msgstr ""
+msgstr "Países Baixos"
 
 #: helpers/gisHelpers.php:202
 msgid "Netherlands Antilles"
-msgstr ""
+msgstr "Antilhas Neerlandesas"
 
 #: helpers/gisHelpers.php:203
 msgid "New Caledonia"
-msgstr ""
+msgstr "Nova Caledónia"
 
 #: helpers/gisHelpers.php:204
 msgid "New Zealand"
-msgstr ""
+msgstr "Nova Zelândia"
 
 #: helpers/gisHelpers.php:205
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicarágua"
 
 #: helpers/gisHelpers.php:206
 msgid "Niger"
-msgstr ""
+msgstr "Nigér"
 
 #: helpers/gisHelpers.php:207
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigéria"
 
 #: helpers/gisHelpers.php:208
 msgid "Niue"
-msgstr ""
+msgstr "Niuê"
 
 #: helpers/gisHelpers.php:209
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Ilha Norfolk"
 
 #: helpers/gisHelpers.php:210
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Ilhas Marianas do Norte"
 
 #: helpers/gisHelpers.php:211
 msgid "Norway"
-msgstr ""
+msgstr "Noruega"
 
 #: helpers/gisHelpers.php:212
 msgid "Oman"
-msgstr ""
+msgstr "Omã"
 
 #: helpers/gisHelpers.php:213
 msgid "Pakistan"
-msgstr ""
+msgstr "Paquistão"
 
 #: helpers/gisHelpers.php:214 helpers/gisHelpers.php:347
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: helpers/gisHelpers.php:215
 msgid "Palestinian Territory, Occupied"
-msgstr ""
+msgstr "Territórios palestinianos"
 
 #: helpers/gisHelpers.php:216
 msgid "Panama"
-msgstr ""
+msgstr "Panamá"
 
 #: helpers/gisHelpers.php:217
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papua-Nova Guiné"
 
 #: helpers/gisHelpers.php:218
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguai"
 
 #: helpers/gisHelpers.php:219
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: helpers/gisHelpers.php:220
 msgid "Philippines"
-msgstr ""
+msgstr "Filipinas"
 
 #: helpers/gisHelpers.php:221
 msgid "Pitcairn"
-msgstr ""
+msgstr "Ilhas Pitcairn"
 
 #: helpers/gisHelpers.php:222
 msgid "Poland"
-msgstr ""
+msgstr "Polônia"
 
 #: helpers/gisHelpers.php:223
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 #: helpers/gisHelpers.php:224 helpers/gisHelpers.php:346
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Porto Rico"
 
 #: helpers/gisHelpers.php:225
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: helpers/gisHelpers.php:226
 msgid "Reunion"
-msgstr ""
+msgstr "Reunião"
 
 #: helpers/gisHelpers.php:227
 msgid "Romania"
-msgstr ""
+msgstr "Romênia"
 
 #: helpers/gisHelpers.php:228
 msgid "Russian Federation"
-msgstr ""
+msgstr "Federação Russa"
 
 #: helpers/gisHelpers.php:229
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 #: helpers/gisHelpers.php:230
 msgid "Saint Kitts And Nevis"
-msgstr ""
+msgstr "São Cristóvão e Nevis"
 
 #: helpers/gisHelpers.php:231
 msgid "San Marino"
-msgstr ""
+msgstr "São Marinho"
 
 #: helpers/gisHelpers.php:232
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "São Tomé e Príncipe"
 
 #: helpers/gisHelpers.php:233
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Arábia Saudita"
 
 #: helpers/gisHelpers.php:234
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #: helpers/gisHelpers.php:235
 msgid "Serbia-Montenegro"
-msgstr ""
+msgstr "Sérvia e Montenegro"
 
 #: helpers/gisHelpers.php:236
 msgid "Seychelles"
-msgstr ""
+msgstr "Seicheles"
 
 #: helpers/gisHelpers.php:237
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Serra Leoa"
 
 #: helpers/gisHelpers.php:238
 msgid "Singapore"
-msgstr ""
+msgstr "Singapura"
 
 #: helpers/gisHelpers.php:239
 msgid "Slovak Republic"
-msgstr ""
+msgstr "Eslováquia"
 
 #: helpers/gisHelpers.php:240
 msgid "Slovenia"
-msgstr ""
+msgstr "Eslovênia"
 
 #: helpers/gisHelpers.php:241
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Ilhas Salomão"
 
 #: helpers/gisHelpers.php:242
 msgid "Somalia"
-msgstr ""
+msgstr "Somália"
 
 #: helpers/gisHelpers.php:243
 msgid "South Africa"
-msgstr ""
+msgstr "África do Sul"
 
 #: helpers/gisHelpers.php:244
 msgid "South Georgia And The South Sand"
-msgstr ""
+msgstr "Ilhas Geórgia do Sul e Sandwich do Sul"
 
 #: helpers/gisHelpers.php:245
 msgid "South Korea"
-msgstr ""
+msgstr "Coreia do Sul"
 
 #: helpers/gisHelpers.php:246
 msgid "Spain"
-msgstr ""
+msgstr "Espanha"
 
 #: helpers/gisHelpers.php:247
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: helpers/gisHelpers.php:248
 msgid "St. Christopher and Nevis"
-msgstr ""
+msgstr "São Cristóvão e Nevis"
 
 #: helpers/gisHelpers.php:249
 msgid "St. Helena"
-msgstr ""
+msgstr "Santa Helena"
 
 #: helpers/gisHelpers.php:250
 msgid "St. Lucia"
-msgstr ""
+msgstr "Santa Lúcia"
 
 #: helpers/gisHelpers.php:251
 msgid "St. Pierre and Miquelon"
-msgstr ""
+msgstr "São Pedro e Miquelon"
 
 #: helpers/gisHelpers.php:252
 msgid "St. Vincent and the Grenadines"
-msgstr ""
+msgstr "São Vicente e Granadinas"
 
 #: helpers/gisHelpers.php:253
 msgid "Sudan"
-msgstr ""
+msgstr "Sudão"
 
 #: helpers/gisHelpers.php:254
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 #: helpers/gisHelpers.php:255
 msgid "Svalbard And Jan Mayen Islands"
-msgstr ""
+msgstr "Svalbard e Jan Mayen"
 
 #: helpers/gisHelpers.php:256
 msgid "Swaziland"
-msgstr ""
+msgstr "Suazilândia"
 
 #: helpers/gisHelpers.php:257
 msgid "Sweden"
-msgstr ""
+msgstr "Suécia"
 
 #: helpers/gisHelpers.php:258
 msgid "Switzerland"
-msgstr ""
+msgstr "Suíça"
 
 #: helpers/gisHelpers.php:259
 msgid "Syrian Arab Republic"
-msgstr ""
+msgstr "Síria"
 
 #: helpers/gisHelpers.php:260
 msgid "Taiwan"
-msgstr ""
+msgstr "Taiwan"
 
 #: helpers/gisHelpers.php:261
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tajiquistão"
 
 #: helpers/gisHelpers.php:262
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzânia"
 
 #: helpers/gisHelpers.php:263
 msgid "Thailand"
-msgstr ""
+msgstr "Tailândia"
 
 #: helpers/gisHelpers.php:264
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #: helpers/gisHelpers.php:265
 msgid "Tokelau"
-msgstr ""
+msgstr "Toquelau"
 
 #: helpers/gisHelpers.php:266
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: helpers/gisHelpers.php:267
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trindade e Tobago"
 
 #: helpers/gisHelpers.php:268
 msgid "Tristan da Cunha"
-msgstr ""
+msgstr "Tristão da Cunha"
 
 #: helpers/gisHelpers.php:269
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunísia"
 
 #: helpers/gisHelpers.php:270
 msgid "Turkey"
-msgstr ""
+msgstr "Turquia"
 
 #: helpers/gisHelpers.php:271
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turquemenistão"
 
 #: helpers/gisHelpers.php:272
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Ilhas Turcas e Caicos"
 
 #: helpers/gisHelpers.php:273
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #: helpers/gisHelpers.php:274
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: helpers/gisHelpers.php:275
 msgid "Ukraine"
-msgstr ""
+msgstr "Ucrânia"
 
 #: helpers/gisHelpers.php:276
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Emirados Árabes Unidos"
 
 #: helpers/gisHelpers.php:277
 msgid "United Kingdom"
-msgstr ""
+msgstr "Reino Unido"
 
 #: helpers/gisHelpers.php:278
 msgid "Great Britain"
-msgstr ""
+msgstr "Grã-Bretanha"
 
 #: helpers/gisHelpers.php:279
 msgid "United States Minor Outlying Isl"
-msgstr ""
+msgstr "Ilhas Menores Distantes dos Estados Unidos"
 
 #: helpers/gisHelpers.php:280
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguai"
 
 #: helpers/gisHelpers.php:281
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbequistão"
 
 #: helpers/gisHelpers.php:282
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: helpers/gisHelpers.php:283
 msgid "Vatican City"
-msgstr ""
+msgstr "Cidade do Vaticano"
 
 #: helpers/gisHelpers.php:284
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: helpers/gisHelpers.php:285
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietname"
 
 #: helpers/gisHelpers.php:286
 msgid "Virgin Islands (U.S.)"
-msgstr ""
+msgstr "Ilhas Virgens (Americanas)"
 
 #: helpers/gisHelpers.php:287
 msgid "Wallis and Furuna Islands"
-msgstr ""
+msgstr "Ilhas Wallis e Futuna"
 
 #: helpers/gisHelpers.php:288
 msgid "Western Sahara"
-msgstr ""
+msgstr "Saara Ocidental"
 
 #: helpers/gisHelpers.php:289
 msgid "Western Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: helpers/gisHelpers.php:290
 msgid "Yemen"
-msgstr ""
+msgstr "Iêmen"
 
 #: helpers/gisHelpers.php:291
 msgid "Yugoslavia"
-msgstr ""
+msgstr "Iugoslávia"
 
 #: helpers/gisHelpers.php:292
 msgid "Zaire"
-msgstr ""
+msgstr "Zaire"
 
 #: helpers/gisHelpers.php:293
 msgid "Zambia"
-msgstr ""
+msgstr "Zâmbia"
 
 #: helpers/gisHelpers.php:294
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 #: helpers/gisHelpers.php:302
 msgid "Alaska"
-msgstr ""
+msgstr "Alasca"
 
 #: helpers/gisHelpers.php:303
 msgid "Alabama"
-msgstr ""
+msgstr "Alabama"
 
 #: helpers/gisHelpers.php:304
 msgid "Arkansas"
-msgstr ""
+msgstr "Arkansas"
 
 #: helpers/gisHelpers.php:306
 msgid "Arizona"
-msgstr ""
+msgstr "Arizona"
 
 #: helpers/gisHelpers.php:307
 msgid "California"
-msgstr ""
+msgstr "Califórnia"
 
 #: helpers/gisHelpers.php:308
 msgid "Colorado"
-msgstr ""
+msgstr "Colorado"
 
 #: helpers/gisHelpers.php:309
 msgid "Connecticut"
-msgstr ""
+msgstr "Connecticut"
 
 #: helpers/gisHelpers.php:310
 msgid "Washington, DC"
-msgstr ""
+msgstr "Washington, DC"
 
 #: helpers/gisHelpers.php:311
 msgid "Delaware"
-msgstr ""
+msgstr "Delaware"
 
 #: helpers/gisHelpers.php:312
 msgid "Florida"
-msgstr ""
+msgstr "Flórida"
 
 #: helpers/gisHelpers.php:313
 msgid "Micronesia"
-msgstr ""
+msgstr "Micronésia"
 
 #: helpers/gisHelpers.php:316
 msgid "Hawaii"
-msgstr ""
+msgstr "Havai"
 
 #: helpers/gisHelpers.php:317
 msgid "Iowa"
-msgstr ""
+msgstr "Iowa"
 
 #: helpers/gisHelpers.php:318
 msgid "Idaho"
-msgstr ""
+msgstr "Idaho"
 
 #: helpers/gisHelpers.php:319
 msgid "Illinois"
-msgstr ""
+msgstr "Illinois"
 
 #: helpers/gisHelpers.php:320
 msgid "Indiana"
-msgstr ""
+msgstr "Indiana"
 
 #: helpers/gisHelpers.php:321
 msgid "Kansas"
-msgstr ""
+msgstr "Kansas"
 
 #: helpers/gisHelpers.php:322
 msgid "Kentucky"
-msgstr ""
+msgstr "Kentucky"
 
 #: helpers/gisHelpers.php:323
 msgid "Louisiana"
-msgstr ""
+msgstr "Louisiana"
 
 #: helpers/gisHelpers.php:324
 msgid "Massachusetts"
-msgstr ""
+msgstr "Massachusetts"
 
 #: helpers/gisHelpers.php:325
 msgid "Maryland"
-msgstr ""
+msgstr "Maryland"
 
 #: helpers/gisHelpers.php:326
 msgid "Maine"
-msgstr ""
+msgstr "Maine"
 
 #: helpers/gisHelpers.php:328
 msgid "Michigan"
-msgstr ""
+msgstr "Michigan"
 
 #: helpers/gisHelpers.php:329
 msgid "Minnesota"
-msgstr ""
+msgstr "Minnesota"
 
 #: helpers/gisHelpers.php:330
 msgid "Missouri"
-msgstr ""
+msgstr "Missouri"
 
 #: helpers/gisHelpers.php:331
 msgid "Marianas"
-msgstr ""
+msgstr "Marianas"
 
 #: helpers/gisHelpers.php:332
 msgid "Mississippi"
-msgstr ""
+msgstr "Mississippi"
 
 #: helpers/gisHelpers.php:333
 msgid "Montana"
-msgstr ""
+msgstr "Montana"
 
 #: helpers/gisHelpers.php:334
 msgid "North Carolina"
-msgstr ""
+msgstr "Carolina do Norte"
 
 #: helpers/gisHelpers.php:335
 msgid "North Dakota"
-msgstr ""
+msgstr "Dakota do Norte"
 
 #: helpers/gisHelpers.php:336
 msgid "Nebraska"
-msgstr ""
+msgstr "Nebraska"
 
 #: helpers/gisHelpers.php:337
 msgid "New Hampshire"
-msgstr ""
+msgstr "Nova Hampshire"
 
 #: helpers/gisHelpers.php:338
 msgid "New Jersey"
-msgstr ""
+msgstr "Nova Jersey"
 
 #: helpers/gisHelpers.php:339
 msgid "New Mexico"
-msgstr ""
+msgstr "Novo México"
 
 #: helpers/gisHelpers.php:340
 msgid "Nevada"
-msgstr ""
+msgstr "Nevada"
 
 #: helpers/gisHelpers.php:341
 msgid "New York"
-msgstr ""
+msgstr "Nova Iorque"
 
 #: helpers/gisHelpers.php:342
 msgid "Ohio"
-msgstr ""
+msgstr "Ohio"
 
 #: helpers/gisHelpers.php:343
 msgid "Oklahoma"
-msgstr ""
+msgstr "Oklahoma"
 
 #: helpers/gisHelpers.php:344
 msgid "Oregon"
-msgstr ""
+msgstr "Oregon"
 
 #: helpers/gisHelpers.php:345
 msgid "Pennsylvania"
-msgstr ""
+msgstr "Pensilvânia"
 
 #: helpers/gisHelpers.php:348
 msgid "Rhode Island"
-msgstr ""
+msgstr "Rhode Island"
 
 #: helpers/gisHelpers.php:349
 msgid "South Carolina"
-msgstr ""
+msgstr "Carolina do Sul"
 
 #: helpers/gisHelpers.php:350
 msgid "South Dakota"
-msgstr ""
+msgstr "Dakota do Sul"
 
 #: helpers/gisHelpers.php:351
 msgid "Tennessee"
-msgstr ""
+msgstr "Tennessee"
 
 #: helpers/gisHelpers.php:352
 msgid "Texas"
-msgstr ""
+msgstr "Texas"
 
 #: helpers/gisHelpers.php:353
 msgid "Utah"
-msgstr ""
+msgstr "Utah"
 
 #: helpers/gisHelpers.php:354
 msgid "Vermont"
-msgstr ""
+msgstr "Vermont"
 
 #: helpers/gisHelpers.php:355
 msgid "Virginia"
-msgstr ""
+msgstr "Virgínia"
 
 #: helpers/gisHelpers.php:356
 msgid "Virgin Islands"
-msgstr ""
+msgstr "Ilhas Virgens"
 
 #: helpers/gisHelpers.php:357
 msgid "Washington"
-msgstr ""
+msgstr "Washington"
 
 #: helpers/gisHelpers.php:358
 msgid "Wisconsin"
-msgstr ""
+msgstr "Wisconsin"
 
 #: helpers/gisHelpers.php:359
 msgid "West Virginia"
-msgstr ""
+msgstr "Virgínia Ocidental"
 
 #: helpers/gisHelpers.php:360
 msgid "Wyoming"
-msgstr ""
+msgstr "Wyoming"
 
 #: helpers/gisHelpers.php:361
 msgid "Military Americas"
-msgstr ""
+msgstr "Base Militar nas Américas"
 
 #: helpers/gisHelpers.php:362
 msgid "Military Europe/ME/Canada"
-msgstr ""
+msgstr "Base Militar na Europa/ME/Canadá"
 
 #: helpers/gisHelpers.php:363
 msgid "Military Pacific"
-msgstr ""
+msgstr "Base Militar no Pacífico"
 
 #: helpers/gisHelpers.php:366
 msgid "Alberta"
-msgstr ""
+msgstr "Alberta"
 
 #: helpers/gisHelpers.php:367
 msgid "Manitoba"
-msgstr ""
+msgstr "Manitoba"
 
 #: helpers/gisHelpers.php:368
 msgid "British Columbia"
-msgstr ""
+msgstr "British Columbia"
 
 #: helpers/gisHelpers.php:369
 msgid "New Brunswick"
-msgstr ""
+msgstr "New Brunswick"
 
 #: helpers/gisHelpers.php:370
 msgid "Newfoundland and Labrador"
-msgstr ""
+msgstr "Newfoundland and Labrador"
 
 #: helpers/gisHelpers.php:371
 msgid "Nova Scotia"
-msgstr ""
+msgstr "Nova Scotia"
 
 #: helpers/gisHelpers.php:372
 msgid "Northwest Territories"
-msgstr ""
+msgstr "Territórios do Noroeste"
 
 #: helpers/gisHelpers.php:373
 msgid "Nunavut"
-msgstr ""
+msgstr "Nunavut"
 
 #: helpers/gisHelpers.php:374
 msgid "Ontario"
-msgstr ""
+msgstr "Ontário"
 
 #: helpers/gisHelpers.php:375
 msgid "Prince Edward Island"
-msgstr ""
+msgstr "Ilha do Príncipe Eduardo"
 
 #: helpers/gisHelpers.php:376
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #: helpers/gisHelpers.php:377
 msgid "Saskatchewan"
-msgstr ""
+msgstr "Saskatchewan"
 
 #: helpers/gisHelpers.php:378
 msgid "Yukon Territory"
-msgstr ""
+msgstr "Yukon"
 
 #: helpers/gisHelpers.php:381
 msgid "Australian Capital Territory"
-msgstr ""
+msgstr "Território da Capital Australiana"
 
 #: helpers/gisHelpers.php:382
 msgid "Jervis Bay Territory"
-msgstr ""
+msgstr "Território da Baía Jervis"
 
 #: helpers/gisHelpers.php:383
 msgid "New South Wales"
-msgstr ""
+msgstr "Nova Gales do Sul"
 
 #: helpers/gisHelpers.php:384
 msgid "Northern Territory"
-msgstr ""
+msgstr "Território do Norte"
 
 #: helpers/gisHelpers.php:385
 msgid "Queensland"
-msgstr ""
+msgstr "Queensland"
 
 #: helpers/gisHelpers.php:386
 msgid "South Australia"
-msgstr ""
+msgstr "Austrália Meridional"
 
 #: helpers/gisHelpers.php:387
 msgid "Tasmania"
-msgstr ""
+msgstr "Tasmânia"
 
 #: helpers/gisHelpers.php:388
 msgid "Victoria"
-msgstr ""
+msgstr "Vitória"
 
 #: helpers/gisHelpers.php:389
 msgid "Western Australia"
-msgstr ""
+msgstr "Austrália Ocidental"
 
 #: helpers/htmlFormHelpers.php:456
 msgid "More..."
-msgstr ""
+msgstr "Mais..."
 
 #: helpers/importHelpers.php:73
 msgid ""
 "[%2] Parents options invalid. Did you forget to pass a list? Parents list "
 "passed was: %1"
 msgstr ""
+"[%2] Opções de processo-pai inválidas. Esqueceu-se de adicionar lista? A "
+"lista de processo-pai adicionada foi: %1"
 
 #: helpers/importHelpers.php:141
 msgid ""
 "[%3] Parent was skipped using rule \"%1\" with default action because an "
 "invalid action (\"%2\") was specified"
 msgstr ""
+"[%3] Processo-pai ignorado com base na regra \"%1\" com a ação predefinida, "
+"porque uma ação inválida (\"%2\") foi especificada"
 
 #: helpers/importHelpers.php:143
 msgid "[%3] Parent was skipped using rule \"%1\" with action \"%2\""
-msgstr ""
+msgstr "[%3] Processo-pai foi ignorado usando a regra \"%1\" com a ação \"%2\""
 
 #: helpers/importHelpers.php:152
 msgid ""
 "[%3] Error processing rule \"%1\" as an error occurred. Error number was "
 "\"%2\""
 msgstr ""
+"[%3] Erro ao processar regra \"%1\" porque ocorreu um erro. Erro número "
+"\"%2\""
 
 #: helpers/importHelpers.php:207
 msgid "[importHelpers:caProcessRefineryParents] List was not specified"
-msgstr ""
+msgstr "[importHelpers:caProcessRefineryParents] Lista não selecionada"
 
 #: helpers/importHelpers.php:236
 msgid "[importHelpers:caProcessRefineryParents] Invalid table %1"
-msgstr ""
+msgstr "[importHelpers:caProcessRefineryParents] Tabela inválida %1"
 
 #: helpers/importHelpers.php:241
 msgid "[%6] Got parent %1 (%2) with id %3 and type %4 for %5"
-msgstr ""
+msgstr "[%6] Tem processo-pai %1 (%2) com id %3 e tipo %4 para %5"
 
 #: helpers/importHelpers.php:258
 msgid ""
 "[%6] Could not create relationship between parent %1 and %2 for ids %3 and "
 "%4 with type %5"
 msgstr ""
+"[%6] Não foi possível criar relação entre processo-pai %1 e %2 para ids %3 e "
+"%4 com tipo %5"
 
 #: helpers/importHelpers.php:524 helpers/importHelpers.php:530
 msgid "[importHelpers:caProcessRefineryRelated] No name specified for table %1"
 msgstr ""
+"[importHelpers:caProcessRefineryRelated] Sem nome selecionado para a tabela "
+"%1"
 
 #: helpers/importHelpers.php:608
 msgid "[importHelpers:caProcessRefineryRelated] List was not specified"
-msgstr ""
+msgstr "[importHelpers:caProcessRefineryRelated] Lista não foi selecionada"
 
 #: helpers/importHelpers.php:618
 msgid "[importHelpers:caProcessRefineryRelated] Invalid table %1"
-msgstr ""
+msgstr "[importHelpers:caProcessRefineryRelated] Tabela inválida %1"
 
 #: helpers/importHelpers.php:746
 msgid "[%1] Skipped %2 because it was in the skipIfValue list"
-msgstr ""
+msgstr "[%1] Ignorado %2 porque ele estava na lista skipIfValue"
 
 #: helpers/importHelpers.php:921
 msgid "[importHelpers:caGenericImportSplitter] List was not specified"
-msgstr ""
+msgstr "[importHelpers:caGenericImportSplitter] Lista não selecionada"
 
 #: helpers/importHelpers.php:937
 msgid ""
 "[importHelpers:caGenericImportSplitter] Only media paths can be mapped for "
 "object representations."
 msgstr ""
+"[importHelpers:caGenericImportSplitter] Apenas os caminhos das imagens podem "
+"ser mapeados para as representações de objetos."
 
 #: helpers/importHelpers.php:940 helpers/importHelpers.php:1046
 #: helpers/importHelpers.php:1080
 msgid "[importHelpers:caGenericImportSplitter] Invalid table %1"
-msgstr ""
+msgstr "[importHelpers:caGenericImportSplitter] Tabela inválida %1"
 
 #: helpers/importHelpers.php:1077
 msgid ""
 "[importHelpers:caGenericImportSplitter] Cannot map preferred labels to "
 "object representations. Only media paths can be mapped."
 msgstr ""
+"[importHelpers:caGenericImportSplitter] Não é possível mapear etiquetas "
+"predefinidas para representações de objetos. Apenas os caminhos de mídia "
+"podem ser mapeados."
 
 #: helpers/importHelpers.php:1188
 msgid "Errors"
-msgstr ""
+msgstr "Erros"
 
 #: helpers/importHelpers.php:1189
 msgid "Warnings"
-msgstr ""
+msgstr "Avisos"
 
 #: helpers/importHelpers.php:1190
 msgid "Alerts"
-msgstr ""
+msgstr "Alertas"
 
 #: helpers/importHelpers.php:1191
 msgid "Informational messages"
-msgstr ""
+msgstr "Mensagens informativas"
 
 #: helpers/importHelpers.php:1192
 msgid "Debugging messages"
-msgstr ""
+msgstr "Mensagens de depuração"
 
 #: helpers/printHelpers.php:541 helpers/printHelpers.php:590
 msgid "Export as"
-msgstr ""
+msgstr "Exportar como"
 
 #: helpers/printHelpers.php:638
 msgid "Display"
-msgstr ""
+msgstr "Exibir"
 
 #: helpers/searchHelpers.php:909
 msgid "%1 to %2"
-msgstr ""
+msgstr "%1 para %2"
 
 #: helpers/searchHelpers.php:1083 models/ca_search_forms.php:825
 #: models/ca_search_forms.php:1140
 msgid "Full text"
-msgstr ""
+msgstr "Texto integral"
 
 #: helpers/searchHelpers.php:1087 models/ca_search_forms.php:830
 msgid "Searches on all content that has been indexed"
-msgstr ""
+msgstr "Pesquisas no conteúdo que foi indexado"
 
 #: helpers/searchHelpers.php:1444 helpers/searchHelpers.php:1456
 #: helpers/searchHelpers.php:1464 helpers/searchHelpers.php:1472
@@ -2991,7 +3006,7 @@ msgstr ""
 #: helpers/searchHelpers.php:1530 helpers/searchHelpers.php:1538
 #: helpers/searchHelpers.php:1544
 msgid "relevance"
-msgstr ""
+msgstr "relevância"
 
 #: helpers/searchHelpers.php:1445 helpers/searchHelpers.php:1457
 #: helpers/searchHelpers.php:1491 helpers/searchHelpers.php:1499
@@ -3004,7 +3019,7 @@ msgstr ""
 #: lib/pawtucket/BaseDetailController.php:681
 #: lib/pawtucket/BaseDetailController.php:702
 msgid "name"
-msgstr ""
+msgstr "nome"
 
 #: helpers/searchHelpers.php:1446 helpers/searchHelpers.php:1459
 #: helpers/searchHelpers.php:1467 helpers/searchHelpers.php:1475
@@ -3020,11 +3035,11 @@ msgstr ""
 #: lib/pawtucket/BaseDetailController.php:697
 #: lib/pawtucket/BaseDetailController.php:712
 msgid "idno"
-msgstr ""
+msgstr "idno"
 
 #: helpers/searchHelpers.php:1451
 msgid "type name"
-msgstr ""
+msgstr "tipo de nome"
 
 #: helpers/searchHelpers.php:1458 helpers/searchHelpers.php:1466
 #: helpers/searchHelpers.php:1474 helpers/searchHelpers.php:1484
@@ -3041,51 +3056,51 @@ msgstr ""
 #: lib/pawtucket/BaseDetailController.php:703
 #: lib/pawtucket/BaseDetailController.php:711
 msgid "type"
-msgstr ""
+msgstr "categoria"
 
 #: helpers/searchHelpers.php:1465 helpers/searchHelpers.php:1473
 #: lib/pawtucket/BaseDetailController.php:688
 #: lib/pawtucket/BaseDetailController.php:695
 msgid "short description"
-msgstr ""
+msgstr "breve descrição"
 
 #: helpers/searchHelpers.php:1481
 msgid "display name"
-msgstr ""
+msgstr "nome de exibição"
 
 #: helpers/searchHelpers.php:1482
 msgid "surname, forename"
-msgstr ""
+msgstr "sobrenome, nome próprio"
 
 #: helpers/searchHelpers.php:1483
 msgid "forename"
-msgstr ""
+msgstr "nome próprio"
 
 #: helpers/searchHelpers.php:1507 lib/pawtucket/BaseDetailController.php:710
 msgid "title"
-msgstr ""
+msgstr "título"
 
 #: helpers/searchHelpers.php:1550 helpers/searchHelpers.php:1558
 #: lib/MetadataAlerts/TriggerTypes/Date.php:52
 msgid "date"
-msgstr ""
+msgstr "data"
 
 #: helpers/searchHelpers.php:1551 helpers/searchHelpers.php:1559
 #: models/ca_users.php:48
 msgid "user"
-msgstr ""
+msgstr "usuário"
 
 #: helpers/searchHelpers.php:1557 models/ca_item_tags.php:41
 msgid "tag"
-msgstr ""
+msgstr "etiqueta"
 
 #: helpers/searchHelpers.php:1589
 msgid "Interstitial"
-msgstr ""
+msgstr "Intersticial"
 
 #: helpers/searchHelpers.php:1670
 msgid "Relevance"
-msgstr ""
+msgstr "Relevância"
 
 #: helpers/themeHelpers.php:526 models/ca_collections.php:378
 #: models/ca_entities.php:364 models/ca_loans.php:348
@@ -3093,207 +3108,207 @@ msgstr ""
 #: models/ca_object_representations.php:398 models/ca_objects.php:555
 #: models/ca_occurrences.php:362 models/ca_places.php:374
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: helpers/themeHelpers.php:530
 msgid "Add your tags and comment"
-msgstr ""
+msgstr "Adicione suas etiquetas e comentário"
 
 #: helpers/themeHelpers.php:532
 msgid "Login/register to comment on this object"
-msgstr ""
+msgstr "Logar/registrar para comentar neste objeto"
 
 #: helpers/themeHelpers.php:595
 msgid "this %1 contains no items"
-msgstr ""
+msgstr "este %1 não contém itens"
 
 #: helpers/themeHelpers.php:605 helpers/themeHelpers.php:681
 msgid "Items: %1"
-msgstr ""
+msgstr "Itens: %1"
 
 #: helpers/themeHelpers.php:609
 msgid "Comments"
-msgstr ""
+msgstr "Comentários"
 
 #: helpers/themeHelpers.php:611 helpers/themeHelpers.php:677
 msgid "Edit Name/Description"
-msgstr ""
+msgstr "Editar Nome/Descrição"
 
 #: helpers/themeHelpers.php:634 helpers/themeHelpers.php:706
 msgid "View"
-msgstr ""
+msgstr "Visualização"
 
 #: helpers/themeHelpers.php:674
 msgid "Share %1"
-msgstr ""
+msgstr "Compartilhar %1"
 
 #: helpers/themeHelpers.php:675
 msgid "Manage %1 Access"
-msgstr ""
+msgstr "Gerenciar Acesso %1"
 
 #: helpers/themeHelpers.php:681
 msgid "Comments: %1"
-msgstr ""
+msgstr "Comentários: %1"
 
 #: helpers/themeHelpers.php:683
 msgid "Responses: %1"
-msgstr ""
+msgstr "Respostas: %1"
 
 #: helpers/themeHelpers.php:710
 msgid "Created by:"
-msgstr ""
+msgstr "Criado por:"
 
 #: helpers/themeHelpers.php:711
 msgid "Items:"
-msgstr ""
+msgstr "Itens:"
 
 #: helpers/themeHelpers.php:712
 msgid "Comments:"
-msgstr ""
+msgstr "Comentários:"
 
 #: helpers/themeHelpers.php:916
 msgid "lightbox"
-msgstr ""
+msgstr "lightbox"
 
 #: helpers/themeHelpers.php:920 helpers/themeHelpers.php:924
 msgid "lightboxes"
-msgstr ""
+msgstr "lightboxes"
 
 #: helpers/themeHelpers.php:936 helpers/themeHelpers.php:940
 msgid "assignment"
-msgstr ""
+msgstr "tarefa"
 
 #: helpers/themeHelpers.php:944
 msgid "classroom"
-msgstr ""
+msgstr "sala de aula"
 
 #: helpers/themeHelpers.php:984
 msgid "Login to add to %1"
-msgstr ""
+msgstr "Logar para adicionar a %1"
 
 #: helpers/themeHelpers.php:998 helpers/themeHelpers.php:1012
 msgid "Add to %1"
-msgstr ""
+msgstr "Adicionar a %1"
 
 #: helpers/themeHelpers.php:1082
 msgid "AND"
-msgstr ""
+msgstr "AND"
 
 #: helpers/themeHelpers.php:1082
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: helpers/themeHelpers.php:1112 lib/Parsers/MediaMetadata/XMPParser.php:148
 msgid "Keywords"
-msgstr ""
+msgstr "Palavras-chave"
 
 #: helpers/utilityHelpers.php:1069
 msgid "year"
-msgstr ""
+msgstr "ano"
 
 #: helpers/utilityHelpers.php:1069
 msgid "years"
-msgstr ""
+msgstr "anos"
 
 #: helpers/utilityHelpers.php:1070
 msgid "month"
-msgstr ""
+msgstr "mês"
 
 #: helpers/utilityHelpers.php:1070
 msgid "months"
-msgstr ""
+msgstr "meses"
 
 #: helpers/utilityHelpers.php:1071
 msgid "day"
-msgstr ""
+msgstr "dia"
 
 #: helpers/utilityHelpers.php:1071 lib/BaseSettings.php:636
 msgid "days"
-msgstr ""
+msgstr "dias"
 
 #: helpers/utilityHelpers.php:1072
 msgid "hour"
-msgstr ""
+msgstr "hora"
 
 #: helpers/utilityHelpers.php:1072 lib/BaseSettings.php:636
 msgid "hours"
-msgstr ""
+msgstr "horas"
 
 #: helpers/utilityHelpers.php:1073
 msgid "minute"
-msgstr ""
+msgstr "minuto"
 
 #: helpers/utilityHelpers.php:1073
 msgid "minutes"
-msgstr ""
+msgstr "minutos"
 
 #: helpers/utilityHelpers.php:1074
 msgid "second"
-msgstr ""
+msgstr "segundo"
 
 #: helpers/utilityHelpers.php:1074
 msgid "seconds"
-msgstr ""
+msgstr "segundos"
 
 #: helpers/utilityHelpers.php:2898
 #: lib/Plugins/InformationService/SparqlEndpoint.php:189
 msgid "An error occurred while querying an external webservice"
-msgstr ""
+msgstr "Um erro ocorreu ao consultar um serviço web externo"
 
 #: helpers/utilityHelpers.php:3053
 msgid "%1 is not a valid unit of length [%2]"
-msgstr ""
+msgstr "%1 não é uma unidade de comprimento válida [%2]"
 
 #: helpers/utilityHelpers.php:3059 helpers/utilityHelpers.php:3166
 msgid "Not a valid measurement"
-msgstr ""
+msgstr "Não é uma medida válida"
 
 #: helpers/utilityHelpers.php:3063 helpers/utilityHelpers.php:3170
 msgid "Must not be less than zero"
-msgstr ""
+msgstr "Não pode ser inferior a zero"
 
 #: helpers/utilityHelpers.php:3076 helpers/utilityHelpers.php:3182
 msgid "Not a valid measurement [%1]"
-msgstr ""
+msgstr "Não é uma medida válida [%1]"
 
 #: helpers/utilityHelpers.php:3159
 msgid "Not a valid unit of weight [%2]"
-msgstr ""
+msgstr "Não é uma unidade de peso válida [2%]"
 
 #: helpers/utilityHelpers.php:3385 helpers/utilityHelpers.php:3388
 msgid "CSRF token is not valid"
-msgstr ""
+msgstr "CSRF token não é válido"
 
 #: helpers/utilityHelpers.php:4074 lib/Utils/DataMigrationUtils.php:657
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: lib/AppNavigation.php:462 lib/AppNavigation.php:467
 #: lib/AppNavigation.php:493 lib/AppNavigation.php:513
 #: lib/Controller/RequestDispatcher.php:225
 msgid "Invalid controller path"
-msgstr ""
+msgstr "Caminho inválido"
 
 #: lib/AppNavigation.php:501 lib/AppNavigation.php:522
 msgid "Controller error: %1"
-msgstr ""
+msgstr "Erro de controlador: %1"
 
 #: lib/AppNavigation.php:711
 msgid "Disabled"
-msgstr ""
+msgstr "Desabilitado"
 
 #: lib/AppNavigation.php:719
 msgid "For type <em>%1</em>"
-msgstr ""
+msgstr "Para tipo <em>%1</em>"
 
 #: lib/AppNavigation.php:719
 msgid "For types <em>%1</em>"
-msgstr ""
+msgstr "Para tipos <em>%1</em>"
 
 #: lib/ApplicationChangeLog.php:142 lib/ApplicationChangeLog.php:212
 #: lib/MetadataAlerts/TriggerTypes/Base.php:225
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: lib/ApplicationChangeLog.php:145 lib/ApplicationChangeLog.php:215
 #: models/ca_change_log.php:61 models/ca_data_import_events.php:64
@@ -3305,52 +3320,53 @@ msgstr ""
 #: models/ca_user_representation_annotations.php:74 models/ca_user_sorts.php:80
 #: models/ca_watch_list.php:71
 msgid "User"
-msgstr ""
+msgstr "Usuário"
 
 #: lib/ApplicationChangeLog.php:148 lib/ApplicationChangeLog.php:221
 msgid "Changes"
-msgstr ""
+msgstr "Alterações"
 
 #: lib/ApplicationChangeLog.php:156 lib/ApplicationChangeLog.php:229
 msgid "No change log available"
-msgstr ""
+msgstr "Não existe listagem de alterações disponível"
 
 #: lib/ApplicationChangeLog.php:218
 msgid "Subject"
-msgstr ""
+msgstr "Assunto"
 
 #: lib/ApplicationChangeLog.php:288
 msgid "Added"
-msgstr ""
+msgstr "Adicionado"
 
 #: lib/ApplicationChangeLog.php:289
 msgid "Edited"
-msgstr ""
+msgstr "Editado"
 
 #: lib/ApplicationChangeLog.php:290
 msgid "Deleted"
-msgstr ""
+msgstr "Eliminado"
 
 #: lib/ApplicationChangeLog.php:430
 #: lib/Attributes/Values/ListAttributeValue.php:448
 msgid "Not set"
-msgstr ""
+msgstr "Não configurado"
 
 #: lib/ApplicationChangeLog.php:433
 msgid "Non-existent"
-msgstr ""
+msgstr "Inexistente"
 
 #: lib/Attributes/Values/AuthorityAttributeValue.php:185
 msgid "Value %1 was not set for %2 because it does not refer to an existing %3"
 msgstr ""
+"Valor %1 não foi definido para %1 porque não se refere a um %3 existente"
 
 #: lib/Attributes/Values/AuthorityAttributeValue.php:195
 msgid "%1 id %2 is not valid for element %3"
-msgstr ""
+msgstr "%1 id %2 não é válido para o elemento %3"
 
 #: lib/Attributes/Values/AuthorityAttributeValue.php:294
 msgid "Method %1 does not exist for %2 attributes"
-msgstr ""
+msgstr "Método %1 não existe para atributos %2"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:47
 #: lib/Attributes/Values/EntitiesAttributeValue.php:47
@@ -3368,11 +3384,11 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:97
 #: lib/Attributes/Values/WeightAttributeValue.php:74
 msgid "Require value"
-msgstr ""
+msgstr "Requer valor"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:48
 msgid "Check this option if you want to require that a collection be selected."
-msgstr ""
+msgstr "Marque esta opção se deseja pedir que uma coleção seja selecionada"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:55
 #: lib/Attributes/Values/EntitiesAttributeValue.php:55
@@ -3385,7 +3401,7 @@ msgstr ""
 #: lib/Attributes/Values/PlacesAttributeValue.php:55
 #: lib/Attributes/Values/StorageLocationsAttributeValue.php:55
 msgid "Width of field in user interface"
-msgstr ""
+msgstr "Largura de campo na interface do utilizador"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:56
 #: lib/Attributes/Values/ColorAttributeValue.php:50
@@ -3415,6 +3431,7 @@ msgstr ""
 #: lib/Attributes/Values/WeightAttributeValue.php:51
 msgid "Width, in characters, of the field when displayed in a user interface."
 msgstr ""
+"Largura, em caracteres, do campo quando exibido no interface de utilizador."
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:63
 #: lib/Attributes/Values/ContainerAttributeValue.php:50
@@ -3446,7 +3463,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:89
 #: lib/Attributes/Values/WeightAttributeValue.php:66
 msgid "Does not use locale setting"
-msgstr ""
+msgstr "Não utiliza configuração de localização"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:64
 #: lib/Attributes/Values/EntitiesAttributeValue.php:64
@@ -3463,6 +3480,8 @@ msgid ""
 "Check this option if you don't want your list values to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
+"Marque esta opção se deseja que a sua lista exija localização específica. (A "
+"predefinição é não exigir.)"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:71
 #: lib/Attributes/Values/ColorAttributeValue.php:65
@@ -3492,7 +3511,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:105
 #: lib/Attributes/Values/WeightAttributeValue.php:82
 msgid "Can be used for sorting"
-msgstr ""
+msgstr "Pode ser utilizado para ordenação"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:72
 #: lib/Attributes/Values/ColorAttributeValue.php:66
@@ -3519,6 +3538,8 @@ msgid ""
 "Check this option if this attribute value can be used for sorting of search "
 "results. (The default is to be.)"
 msgstr ""
+"Marque esta opção se este atributo puder ser utilizado na ordenação de "
+"resultados de pesquisas. (A predefinição é ser utilizado.)"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:79
 #: lib/Attributes/Values/ColorAttributeValue.php:81
@@ -3548,7 +3569,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:141
 #: lib/Attributes/Values/WeightAttributeValue.php:90
 msgid "Can be used in search form"
-msgstr ""
+msgstr "Pode ser utilizado em formulário de pesquisa"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:80
 #: lib/Attributes/Values/ColorAttributeValue.php:82
@@ -3581,6 +3602,8 @@ msgid ""
 "Check this option if this attribute value can be used in search forms. (The "
 "default is to be.)"
 msgstr ""
+"Marque esta opção se este atributo puder ser utilizado formulários de "
+"pesquisas. (A predefinição é ser utilizado.)"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:87
 #: lib/Attributes/Values/ColorAttributeValue.php:89
@@ -3613,7 +3636,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:149
 #: lib/Attributes/Values/WeightAttributeValue.php:98
 msgid "Can be used in display"
-msgstr ""
+msgstr "Pode ser utilizado na visualização"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:88
 #: lib/Attributes/Values/ColorAttributeValue.php:90
@@ -3649,6 +3672,8 @@ msgid ""
 "Check this option if this attribute value can be used for display in search "
 "results. (The default is to be.)"
 msgstr ""
+"Marque esta opção se este atributo puder ser utilizado na exibição de "
+"resultados de pesquisas. (A predefinição é ser utilizador.)"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:95
 #: lib/Attributes/Values/ColorAttributeValue.php:113
@@ -3682,7 +3707,7 @@ msgstr ""
 #: models/ca_data_exporter_items.php:266 models/ca_editor_ui_screens.php:523
 #: models/ca_editor_ui_screens.php:609 models/ca_editor_ui_screens.php:1855
 msgid "Display template"
-msgstr ""
+msgstr "Modelo de visualização"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:97
 #: lib/Attributes/Values/ColorAttributeValue.php:115
@@ -3718,6 +3743,10 @@ msgid ""
 "tags prefixed with the ^ character can be used to represent the value in the "
 "template. For example: <i>^my_element_code</i>."
 msgstr ""
+"Disposição para o valor quando utilizado numa exibição (pode incluir HTML) . "
+"Etiquetas com código de elemento prefixado com o caracter ^ podem ser "
+"utilizadas para representar o valor no modelo. Por exemplo: "
+"<i>^my_element_code</i>."
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:104
 #: lib/Attributes/Values/ContainerAttributeValue.php:82
@@ -3749,7 +3778,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:157
 #: lib/Attributes/Values/WeightAttributeValue.php:106
 msgid "Allow PDF output?"
-msgstr ""
+msgstr "Permitir exportar PDF?"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:105
 #: lib/Attributes/Values/ContainerAttributeValue.php:83
@@ -3783,6 +3812,8 @@ msgid ""
 "Check this option if this metadata element can be output as a printable PDF. "
 "(The default is not to be.)"
 msgstr ""
+"Marque esta opção se permitir que este elemento de metadados seja exportado "
+"em PDF para impressão. (A predefinição é não permitir.)."
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:112
 #: lib/Attributes/Values/ContainerAttributeValue.php:90
@@ -3812,7 +3843,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:165
 #: lib/Attributes/Values/WeightAttributeValue.php:114
 msgid "Allow PDF output for individual values?"
-msgstr ""
+msgstr "Permitir a exportação de PDF para valores individuais?"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:113
 #: lib/Attributes/Values/ContainerAttributeValue.php:91
@@ -3846,6 +3877,8 @@ msgid ""
 "Check this option if individual values for this metadata element can be "
 "output as a printable PDF. (The default is not to be.)"
 msgstr ""
+"Marque esta opção se permitir que valores individuais de metadados sejam "
+"exportados em PDF para impressão. (A predefinição é não permitir.)."
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:120
 #: lib/Attributes/Values/ContainerAttributeValue.php:107
@@ -3876,7 +3909,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:182
 #: lib/Attributes/Values/WeightAttributeValue.php:131
 msgid "Value delimiter"
-msgstr ""
+msgstr "Delimitador de valor"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:122
 #: lib/Attributes/Values/CurrencyAttributeValue.php:155
@@ -3907,6 +3940,7 @@ msgstr ""
 #: lib/Attributes/Values/WeightAttributeValue.php:133
 msgid "Delimiter to use between multiple values when used in a display."
 msgstr ""
+"Delimitador para usar entre vários valores, quando utilizado numa exibição."
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:132
 #: lib/Attributes/Values/EntitiesAttributeValue.php:132
@@ -3924,7 +3958,7 @@ msgstr ""
 #: models/ca_editor_ui_screens.php:734
 #: models/ca_metadata_dictionary_entries.php:85
 msgid "Restrict to types"
-msgstr ""
+msgstr "Restringir a tipos"
 
 #: lib/Attributes/Values/CollectionsAttributeValue.php:133
 #: lib/Attributes/Values/EntitiesAttributeValue.php:133
@@ -3942,6 +3976,8 @@ msgid ""
 "Restricts display to items of the specified type(s). Leave all unchecked for "
 "no restriction."
 msgstr ""
+"Restringe a exibição de itens ao tipo(s) especificado. Deixe tudo desmarcado "
+"para que não exista nenhuma restrição."
 
 #: lib/Attributes/Values/ColorAttributeValue.php:49
 #: lib/Attributes/Values/CurrencyAttributeValue.php:72
@@ -3960,7 +3996,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:73
 #: lib/Attributes/Values/WeightAttributeValue.php:50
 msgid "Width of data entry field in user interface"
-msgstr ""
+msgstr "Largura do campo de entrada de dados na interface de utilizador"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:57
 #: lib/Attributes/Values/CurrencyAttributeValue.php:80
@@ -3977,7 +4013,7 @@ msgstr ""
 #: lib/Attributes/Values/UrlAttributeValue.php:81
 #: lib/Attributes/Values/WeightAttributeValue.php:58
 msgid "Height of data entry field in user interface"
-msgstr ""
+msgstr "Altura do campo de entrada de dados na interface de utilizador"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:58
 #: lib/Attributes/Values/CurrencyAttributeValue.php:81
@@ -3995,46 +4031,53 @@ msgstr ""
 #: lib/Attributes/Values/WeightAttributeValue.php:59
 msgid "Height, in characters, of the field when displayed in a user interface."
 msgstr ""
+"Altura, em caracteres, do campo quando exibido na interface do utilizador."
 
 #: lib/Attributes/Values/ColorAttributeValue.php:73
 #: lib/BaseFindController.php:160 models/ca_bundle_displays.php:845
 #: models/ca_search_forms.php:657
 msgid "Default"
-msgstr ""
+msgstr "Padrão"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:74
 msgid "Default color"
-msgstr ""
+msgstr "Cor padrão"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:97
 msgid "Show hex color value below color chip?"
-msgstr ""
+msgstr "Exibir o valor hexadecimal da cor abaixo da paleta de cores?"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:98
 msgid ""
 "Check this option to display the hex value of the selected color below the "
 "color chip."
 msgstr ""
+"Marque esta opção para exibir o valor hexadecimal da cor selecionada abaixo "
+"da paleta de cores."
 
 #: lib/Attributes/Values/ColorAttributeValue.php:105
 msgid "Show RGB color value below color chip?"
-msgstr ""
+msgstr "Exibir o valor RGB da cor abaixo da paleta de cores?"
 
 #: lib/Attributes/Values/ColorAttributeValue.php:106
 msgid ""
 "Check this option to display the RGB value of the selected color below the "
 "color chip."
 msgstr ""
+"Marque esta opção para exibir o valor RGB da cor selecionada abaixo da "
+"paleta de cores."
 
 #: lib/Attributes/Values/ColorAttributeValue.php:148
 msgid "Color is invalid"
-msgstr ""
+msgstr "Cor é inválida"
 
 #: lib/Attributes/Values/ContainerAttributeValue.php:51
 msgid ""
 "Check this option if you don't want your compound attributes to be locale-"
 "specific. (The default is to be.)"
 msgstr ""
+"Marque esta opção se não deseja que os seus atributos compostos sejam de "
+"localização específica. (A predefinição é serem.)"
 
 #: lib/Attributes/Values/ContainerAttributeValue.php:58
 msgid "Line breaks"
@@ -4045,14 +4088,16 @@ msgid ""
 "Insert number of metadata elements after which a line break should be "
 "inserted here. (Default is 0 - i.e. no line breaks)"
 msgstr ""
+"Insira o número de metadados após deve ser feita uma quebra de página. (A "
+"predefinição é 0 - isto é sem quebras de página)"
 
 #: lib/Attributes/Values/ContainerAttributeValue.php:109
 msgid "Delimiter to use between multiple values."
-msgstr ""
+msgstr "Delimitador para utilizar entre valores múltiplos."
 
 #: lib/Attributes/Values/ContainerAttributeValue.php:116
 msgid "Display template for read-only mode"
-msgstr ""
+msgstr "Exibir o modelo para o modo somente leitura"
 
 #: lib/Attributes/Values/ContainerAttributeValue.php:118
 msgid ""
@@ -4060,36 +4105,44 @@ msgid ""
 "set, existing values are always displayed in read-only mode until you click "
 "to edit. This can be used to preserve screen space for large containers."
 msgstr ""
+"Layout usado quando um container está em modo somente leitura. Se esse "
+"modelo for definido, valores existentes sempre serão exibidos"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:56
 #: lib/Attributes/Values/IntegerAttributeValue.php:66
 #: lib/Attributes/Values/NumericAttributeValue.php:65
 msgid "Minimum value"
-msgstr ""
+msgstr "Valor mínimo"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:57
 msgid ""
 "The minimum value allowed. Input less than the required value will be "
 "rejected."
 msgstr ""
+"Valor mínimo permitido. Entrada de valores abaixo do requerido serão "
+"rejeitadas."
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:64
 #: lib/Attributes/Values/IntegerAttributeValue.php:74
 #: lib/Attributes/Values/NumericAttributeValue.php:73
 msgid "Maximum value"
-msgstr ""
+msgstr "Valor máximo"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:65
 msgid ""
 "The maximum value allowed. Input greater than the required value will be "
 "rejected."
 msgstr ""
+"Valor máximo permitido. Entrada de valores acima do requerido serão "
+"rejeitadas."
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:89
 msgid ""
 "Check this option if you don't want your currency values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
+"Marque esta opção se não deseja que os valores de moeda sejam de localização "
+"específica. (A predefinição é não serem.)"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:136
 #: lib/Attributes/Values/DateRangeAttributeValue.php:108
@@ -4097,7 +4150,7 @@ msgstr ""
 #: lib/Attributes/Values/IntegerAttributeValue.php:122
 #: lib/Attributes/Values/NumericAttributeValue.php:121
 msgid "Must not be blank"
-msgstr ""
+msgstr "Não pode ficar em branco"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:137
 #: lib/Attributes/Values/DateRangeAttributeValue.php:109
@@ -4108,10 +4161,12 @@ msgid ""
 "Check this option if this attribute value must be set to some value - it "
 "must not be blank in other words. (The default is not to be.)"
 msgstr ""
+"Marque esta opção se este atributo exigir algum valor em específico - ou "
+"seja, não pode ficar em branco. (A predefinição é não ficar em branco.)"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:208
 msgid "~%1"
-msgstr ""
+msgstr "~%1"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:222
 #: lib/Attributes/Values/DateRangeAttributeValue.php:329
@@ -4119,106 +4174,117 @@ msgstr ""
 #: lib/Attributes/Values/NumericAttributeValue.php:223
 #: lib/Attributes/Values/TimeCodeAttributeValue.php:198
 msgid "%1 must not be empty"
-msgstr ""
+msgstr "%1 não pode ficar em branco"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:235
 #: lib/Plugins/CurrencyConversion/EuroBank.php:76
 msgid "%1 is not a valid currency value; be sure to include a currency symbol"
 msgstr ""
+"%1 não é um valor de moeda correta; certifique-se que incluí um símbolo de "
+"moeda"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:255
 msgid "%1 does not use a valid decimal notation for your locale"
-msgstr ""
+msgstr "%1 não utiliza uma notação decimal válida para a sua localização"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:279
 msgid "Currency specified for %1 does not appear to be valid"
-msgstr ""
+msgstr "A moeda selecionada para %1 não parece ser válida"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:284
 msgid "%1 must not be negative"
-msgstr ""
+msgstr "%1 não pode ser negativo"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:289
 #: lib/Attributes/Values/IntegerAttributeValue.php:245
 #: lib/Attributes/Values/NumericAttributeValue.php:236
 msgid "%1 must be at least %2"
-msgstr ""
+msgstr "%1 tem de ser no mínimo %2"
 
 #: lib/Attributes/Values/CurrencyAttributeValue.php:294
 msgid "%1 must be less than %2"
-msgstr ""
+msgstr "%1 tem de ser menos do que %2"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:50
 msgid "Date range boundaries"
-msgstr ""
+msgstr "Limites do intervalo de datas"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:51
 msgid ""
 "The range of dates that are accepted. Input dates outside the range will be "
 "rejected. Leave blank if you do not require restrictions."
 msgstr ""
+"Intervalo de datas aceitas. Datas inseridas fora deste intervalo serão "
+"rejeitadas. Deixe em branco se não precisa de restrições."
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:67
 msgid ""
 "Check this option if you don't want your date ranges to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
+"Marque esta opção se não quer que o seu intervalo de datas seja de "
+"localização específica. (A predefinição é não ser.)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:82
 msgid "Include date picker"
-msgstr ""
+msgstr "Incluir selecionador de data"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:83
 msgid ""
 "Check this option if you want a calendar-based date picker to be available "
 "for date entry. (The default is to not include a picker.)"
 msgstr ""
+"Selecionar esta opção se quiser um selecionador de data baseado em "
+"calendário esteja disponível para entrada de data. (O padrão é não incluir "
+"um selecionador)."
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:90
 msgid "Date picker date format"
-msgstr ""
+msgstr "Formato de data do selecionador de data"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:92
 msgid "ISO-8601 (ex. 2012-07-03)"
-msgstr ""
+msgstr "ISO-8601 (ex. 2012-07-03)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:93
 msgid "US Delimited (ex. 07/03/2012)"
-msgstr ""
+msgstr "Formato do EUA (ex. 07/03/2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:94
 msgid "European Delimited (ex. 03/07/2012)"
-msgstr ""
+msgstr "Formato Europeu (ex. 03/07/2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:95
 msgid "Month Day, Year (ex. July 3, 2012)"
-msgstr ""
+msgstr "Mês Dia, Ano (ex. July 3, 2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:96
 msgid "Month Day Year (ex. July 3 2012)"
-msgstr ""
+msgstr "Mês Dia Ano (ex. July 3 2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:97
 msgid "Day Month Year (ex. 3 July 2012)"
-msgstr ""
+msgstr "Dia Mês Ano (ex. 3 July 2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:98
 msgid "Short month Day Year (ex. Jul 3 2012)"
-msgstr ""
+msgstr "Mês abreviado Dia Ano (ex. Jul 3 2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:99
 msgid "Day Short month Year (ex. 3 July 2012)"
-msgstr ""
+msgstr "Dia Mês abreviado Ano (ex. 3 Jul 2012)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:101
 msgid ""
 "Format to use for dates selected from the date picker. (The default is YY-MM-"
 "DD format.)"
 msgstr ""
+"Formato a ser utilizado para datas selecionadas no selecionador de data. (O "
+"padrão é o formato YY-MM-DD.)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:116
 msgid "Is a lifespan"
-msgstr ""
+msgstr "É um período de tempo"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:117
 msgid ""
@@ -4226,33 +4292,38 @@ msgid ""
 "Lifespans are displayed in a slightly different format in many languages "
 "than standard dates. (The default is not to be.)"
 msgstr ""
+"Marque esta opção se o valor deste atributo representa a duração de vida "
+"duma pessoa. Durações de vida são exibidas num formato ligeiramente "
+"diferente em muitos idiomas do que datas padrão. (O padrão não é ser.)"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:124
 #: models/ca_data_exporter_items.php:230 models/ca_data_importer_items.php:373
 msgid "Default value"
-msgstr ""
+msgstr "Valor padrão"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:125
 msgid "Value to pre-populate a newly created attribute with"
-msgstr ""
+msgstr "Valor de pré-preenchimento de um novo atributo com"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:132
 #: lib/Attributes/Values/TextAttributeValue.php:113
 #: lib/Attributes/Values/UrlAttributeValue.php:113
 msgid "Suggest existing values?"
-msgstr ""
+msgstr "Sugerir valores existentes?"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:133
 msgid ""
 "Check this option if you want this attribute to suggest previously saved "
 "values as text is entered."
 msgstr ""
+"Marque esta opção se deseja que este atributo sugira valores previamente "
+"guardados ao se digitar novo texto."
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:140
 #: lib/Attributes/Values/TextAttributeValue.php:121
 #: lib/Attributes/Values/UrlAttributeValue.php:121
 msgid "Sort suggested values by?"
-msgstr ""
+msgstr "Ordenar valores sugeridos por?"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:141
 #: lib/Attributes/Values/UrlAttributeValue.php:122
@@ -4262,32 +4333,36 @@ msgid ""
 "Choose <i>most recently added </i> to sort with most recently entered values "
 "first."
 msgstr ""
+"Se a sugestão de valores existentes está ativada esta opção determina como "
+"os valores devolvidos são ordenados. Escolha <i>valor</i> para ordenar "
+"alfabeticamente. Escolha <i> adicionado recentemente </i> para ordenar com "
+"os valores mais recentes em primeiro."
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:143
 #: lib/Attributes/Values/TextAttributeValue.php:124
 #: lib/Attributes/Values/UrlAttributeValue.php:124
 #: models/ca_bundle_displays.php:1908
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:144
 #: lib/Attributes/Values/TextAttributeValue.php:125
 #: lib/Attributes/Values/UrlAttributeValue.php:125
 msgid "Most recently added"
-msgstr ""
+msgstr "Adicionados recentemente"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:308
 #: lib/Attributes/Values/TimeCodeAttributeValue.php:191 lib/BaseModel.php:6008
 msgid "%1 is invalid"
-msgstr ""
+msgstr "%1 é inválido"
 
 #: lib/Attributes/Values/DateRangeAttributeValue.php:322
 msgid "%1 must be within %2"
-msgstr ""
+msgstr "%1 deve estar dentro de %2"
 
 #: lib/Attributes/Values/EntitiesAttributeValue.php:48
 msgid "Check this option if you want to require that an entity be selected."
-msgstr ""
+msgstr "Marque esta opção se deseja exigir que uma entidade seja selecionada."
 
 #: lib/Attributes/Values/FileAttributeValue.php:55
 #: lib/Attributes/Values/GeocodeAttributeValue.php:81
@@ -4296,21 +4371,25 @@ msgid ""
 "Check this option if you don't want your georeferences to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
+"Selecione esta opção se não desejar que as suas georeferências sejam de "
+"localização específica. (O padrão é não ser.)"
 
 #: lib/Attributes/Values/FileAttributeValue.php:154
 #: lib/Attributes/Values/MediaAttributeValue.php:188
 msgid "Uploaded file"
-msgstr ""
+msgstr "Arquivo carregado"
 
 #: lib/Attributes/Values/FileAttributeValue.php:252
 msgid "Set file"
-msgstr ""
+msgstr "Definir arquivo"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:71
 msgid ""
 "Check this option if you don't want your FloorPlan values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
+"Selecionar esta opção se você não quiser que seus valores de planta baixa "
+"sejam de localização específica. (O padrão é não ser.)"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:79
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:79
@@ -4322,11 +4401,13 @@ msgid ""
 "Check this option if this attribute value can be used for sorting of search "
 "results. (The default is not to be.)"
 msgstr ""
+"Selecionar esta opção se este valor do atributo puder ser utilizado para "
+"ordenar os resultados de pesquisa. (O padrão é não ser)."
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:86
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:94
 msgid "Can be empty"
-msgstr ""
+msgstr "Pode ficar vazio"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:87
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:95
@@ -4334,67 +4415,74 @@ msgid ""
 "Check this option if you want to allow empty attribute values. This - of "
 "course - only makes sense if you bundle several elements in a container."
 msgstr ""
+"Selecionar esta opção se quiser permitir a atribuição de valores vazios /"
+"zeros. Isto - é claro - só faz sentido se agrupar vários elementos num "
+"container."
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:149
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:233
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:289
 msgid "Entry was blank."
-msgstr ""
+msgstr "Entrada estava em branco"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:172
 msgid "Floor plan is not supported outside of a request context"
-msgstr ""
+msgstr "Planta baixa não é suportada fora de um contexto de solicitação"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:179
 #: lib/Attributes/Values/FloorplanAttributeValue.php:189
 msgid "Floor plan is not supported"
-msgstr ""
+msgstr "Planta baixa não é suportada"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:219
 msgid "Floor plan for <em>%1</em>"
-msgstr ""
+msgstr "Planta baixa para <em>%1</em>"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:222
 #: lib/Attributes/Values/FloorplanAttributeValue.php:234
 msgid "%1 annotation on this floor plan"
-msgstr ""
+msgstr "%1 anotação nesta planta baixa"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:222
 #: lib/Attributes/Values/FloorplanAttributeValue.php:235
 msgid "%1 annotations on this floor plan"
-msgstr ""
+msgstr "%1 anotações nesta planta baixa"
 
 #: lib/Attributes/Values/FloorplanAttributeValue.php:225
 msgid "Edit floor plan"
-msgstr ""
+msgstr "Editar planta baixa"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:71
 msgid ""
 "Check this option if you don't want your GeoNames values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
+"Selecione esta opção se não desejar que os seus valores GeoNames sejam de "
+"localização específica. (O padrão é não ser.)"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:86
 msgid "Disable map"
-msgstr ""
+msgstr "Desativar mapa"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:87
 msgid "Check this option if you want to disable location map display."
-msgstr ""
+msgstr "Marque esta opção se deseja desativar a exibição da localização."
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:152
 msgid "Maximum number of GeoNames results"
-msgstr ""
+msgstr "Número máximo de resultados do GeoNames"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:153
 msgid ""
 "Determines the maximum number of results returned by GeoNames. Tweak this "
 "number if you want to speed up lookups."
 msgstr ""
+"Determina o número máximo de resultados apresentados pelo GeoNames. Ajuste "
+"este número se quiser acelerar as pesquisas."
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:160
 msgid "GeoNames elements"
-msgstr ""
+msgstr "Elementos do GeoNames"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:161
 msgid ""
@@ -4404,14 +4492,22 @@ msgid ""
 "the available element names. Note that latitude and longitude are always "
 "added to the text value to enable map display."
 msgstr ""
+"Lista separada por vírgula dos atributos GeoNames a serem extraídos do "
+"serviço para criar a representação textual para a localização selecionada. "
+"Veja http://www.geonames.org/export/geonames-search.html para mais "
+"referências, incluindo os nomes de elementos disponíveis. Note que a "
+"latitude e a longitude são sempre adicionadas ao valor do texto para ativar "
+"a exibição do mapa."
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:168
 msgid "GeoNames element delimiter"
-msgstr ""
+msgstr "Delimitador de GeoNames"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:169
 msgid "Delimiter to use between multiple values pulled from GeoNames service."
 msgstr ""
+"Delimitador utilizado entre valores múltiplos obtidos através do serviço de "
+"GeoNames."
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:267
 msgid ""
@@ -4419,31 +4515,36 @@ msgid ""
 "\"%2\". Check your configuration and make sure your GeoNames.org account is "
 "enabled for web services."
 msgstr ""
+"A ligação ao GeoNames com o utilizador \"%1\" foi rejeitada com a mensagem "
+"\"%2\". Verifique a configuração e certifique-se de que a sua conta no "
+"GeoNames.org está habilitada para serviços web."
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:285
 msgid "Could not connect to GeoNames"
-msgstr ""
+msgstr "Não foi possível estabelecer a ligação a GeoNames"
 
 #: lib/Attributes/Values/GeoNamesAttributeValue.php:353
 #: lib/Attributes/Values/InformationServiceAttributeValue.php:337
 #: lib/Attributes/Values/InformationServiceAttributeValue.php:366
 #: lib/Attributes/Values/LCSHAttributeValue.php:406
 msgid "More &rsaquo;"
-msgstr ""
+msgstr "Mais &rsaquo;"
 
 #: lib/Attributes/Values/GeocodeAttributeValue.php:72
 msgid "Points are directional"
-msgstr ""
+msgstr "Pontos são direcionais"
 
 #: lib/Attributes/Values/GeocodeAttributeValue.php:73
 msgid ""
 "Check this option to enable setting of directions for point locations. (The "
 "default is not to be.)"
 msgstr ""
+"Marque esta opção para habilitar a configuração de direções para locais de "
+"pontos. (O padrão é não ser.)"
 
 #: lib/Attributes/Values/GeocodeAttributeValue.php:136
 msgid "Tile server URL"
-msgstr ""
+msgstr "Tile server URL"
 
 #: lib/Attributes/Values/GeocodeAttributeValue.php:138
 msgid ""
@@ -4509,14 +4610,14 @@ msgstr ""
 
 #: lib/Attributes/Values/InformationServiceAttributeValue.php:363
 msgid "Less &rsaquo;"
-msgstr ""
+msgstr "Menos &rsaquo;"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:50
 #: lib/Attributes/Values/NumericAttributeValue.php:49
 #: lib/Attributes/Values/TextAttributeValue.php:49
 #: lib/Attributes/Values/UrlAttributeValue.php:49
 msgid "Minimum number of characters"
-msgstr ""
+msgstr "Número mínimo de caracteres"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:51
 #: lib/Attributes/Values/NumericAttributeValue.php:50
@@ -4532,7 +4633,7 @@ msgstr ""
 #: lib/Attributes/Values/TextAttributeValue.php:57
 #: lib/Attributes/Values/UrlAttributeValue.php:57
 msgid "Maximum number of characters"
-msgstr ""
+msgstr "Número máximo de caracteres"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:59
 #: lib/Attributes/Values/NumericAttributeValue.php:58
@@ -4582,7 +4683,7 @@ msgstr ""
 #: lib/Attributes/Values/IntegerAttributeValue.php:130
 #: lib/Attributes/Values/TextAttributeValue.php:209
 msgid "Must be unique"
-msgstr ""
+msgstr "Tem de ser único"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:131
 #: lib/Attributes/Values/TextAttributeValue.php:210
@@ -4595,73 +4696,75 @@ msgstr ""
 #: lib/Attributes/Values/TextAttributeValue.php:259
 #: lib/Attributes/Values/UrlAttributeValue.php:243
 msgid "%1 must be at least 1 character long"
-msgstr ""
+msgstr "%1 deve ter no mínimo um caractere de extensão"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:212
 #: lib/Attributes/Values/NumericAttributeValue.php:203
 #: lib/Attributes/Values/TextAttributeValue.php:259
 #: lib/Attributes/Values/UrlAttributeValue.php:243
 msgid "%1 must be at least %2 characters long"
-msgstr ""
+msgstr "%1 deve ter no mínimo %2 caracteres de extensão"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:218
 #: lib/Attributes/Values/NumericAttributeValue.php:209
 #: lib/Attributes/Values/TextAttributeValue.php:265
 #: lib/Attributes/Values/UrlAttributeValue.php:249
 msgid "%1 must be no more than 1 character long"
-msgstr ""
+msgstr "%1 deve ter no máximo um caractere de extensão"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:218
 #: lib/Attributes/Values/NumericAttributeValue.php:209
 #: lib/Attributes/Values/TextAttributeValue.php:265
 msgid "%1 must be no more than %2 characters long"
-msgstr ""
+msgstr "%1 deve ter no máximo %2 caracteres de extensão"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:225
 #: lib/Attributes/Values/NumericAttributeValue.php:216
 #: lib/IDNumbering/MultipartIDNumber.php:488
 #: lib/IDNumbering/SMFMultipartIDNumber.php:289
 msgid "%1 must be a number"
-msgstr ""
+msgstr "%1 deve ser um número"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:251
 #: lib/Attributes/Values/NumericAttributeValue.php:242
 msgid "%1 must be no more than %2"
-msgstr ""
+msgstr "%1 não deve ser superior a %2"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:259
 #: lib/Attributes/Values/NumericAttributeValue.php:250
 #: lib/Attributes/Values/TextAttributeValue.php:272
 msgid "%1 does not conform to required format"
-msgstr ""
+msgstr "%1 não apresenta o formato exigido"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:265
 msgid "%1 is not an integer value"
-msgstr ""
+msgstr "%1 não é um valor inteiro"
 
 #: lib/Attributes/Values/IntegerAttributeValue.php:279
 #: lib/Attributes/Values/TextAttributeValue.php:279
 msgid ""
 "%1 must be unique across all values. The value you entered already exists."
-msgstr ""
+msgstr "%1 deve ser único entre todos os valores. O valor inserido já existe."
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:72
 msgid ""
 "Check this option if you don't want your LCSH values to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
+"Selecione esta opção se deseja que os seus valores LCSH sejam de localização "
+"específica. (O padrão é não ser.)"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:137
 msgid "Vocabulary"
-msgstr ""
+msgstr "Vocabulário"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:138
 msgid "Selects which vocabulary will be searched."
-msgstr ""
+msgstr "Selecione o vocabulário a pesquisar."
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:140
 msgid "All vocabularies"
-msgstr ""
+msgstr "Todos os vocabulários"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:141
 msgid "LC Subject Headings"
@@ -4685,11 +4788,11 @@ msgstr ""
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:146
 msgid "Preservation Events"
-msgstr ""
+msgstr "Eventos de Preservação"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:147
 msgid "Preservation Level Role"
-msgstr ""
+msgstr "Função do nível de preservação"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:148
 msgid "Cryptographic Hash Functions"
@@ -4697,35 +4800,35 @@ msgstr ""
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:149
 msgid "MARC Relators"
-msgstr ""
+msgstr "Relatores MARC"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:150
 msgid "MARC Countries"
-msgstr ""
+msgstr "Países MARC "
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:151
 msgid "MARC Geographic Areas"
-msgstr ""
+msgstr "Áreas geográficas MARC"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:152
 msgid "MARC Languages"
-msgstr ""
+msgstr "Línguas MARC"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:153
 msgid "ISO639-1 Languages"
-msgstr ""
+msgstr "Línguas ISO639-1"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:154
 msgid "ISO639-2 Languages"
-msgstr ""
+msgstr "Línguas ISO639-2"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:155
 msgid "ISO639-5 Languages"
-msgstr ""
+msgstr "Línguas ISO639-5"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:280
 msgid "Could not connect to LCSH service for %1: %2"
-msgstr ""
+msgstr "Não foi possível estabelecer ligação ao serviço LCSH para %1: %2"
 
 #: lib/Attributes/Values/LCSHAttributeValue.php:302
 #: lib/Attributes/Values/LCSHAttributeValue.php:306
@@ -4750,7 +4853,7 @@ msgstr ""
 #: lib/Attributes/Values/LengthAttributeValue.php:342
 #: lib/Attributes/Values/WeightAttributeValue.php:214
 msgid "%1 is not a valid measurement"
-msgstr ""
+msgstr "%1 não é uma medida válida"
 
 #: lib/Attributes/Values/ListAttributeValue.php:50
 msgid "Width of list in user interface"
