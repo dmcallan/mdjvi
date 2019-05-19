@@ -9,12 +9,12 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-8">
-			<h3>Contact The Archives</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec ligula erat. Pellentesque nibh leo, pharetra et posuere vel, accumsan vitae sapien. Phasellus a tortor id felis scelerisque blandit. Curabitur a tristique tortor. Morbi non tortor eget dui blandit laoreet. Quisque lacus quam, auctor sit amet volutpat dictum, scelerisque sit amet neque. Vivamus non massa finibus, ultrices nunc vel, scelerisque dui. Aliquam commodo, quam eget fringilla finibus, enim diam sodales ligula, sollicitudin faucibus ligula lorem vitae arcu. Sed efficitur nisi sit amet lobortis malesuada. Ut quis imperdiet elit. Mauris blandit suscipit leo, non tristique est ultrices eu.</p>
+			<h3>Museu D. João VI</h3>
+			<p>O Museu D. João VI da Escola de Belas Artes da UFRJ reúne em seu acervo obras de arte e documentos relativos à história do ensino da arte no Brasil. A origem de nosso acervo se dá com a criação da Academia Imperial das Belas Artes no Rio de Janeiro no século XIX, resultado da chamada Missão artística francesa que chegou ao Rio de Janeiro em 1816.</p>
 		</div>
 		<div class="col-sm-3 col-sm-offset-1">
-			<h6>&nbsp;</h6><address>Archives<br>			100 Second Avenue, 2nd floor<br>			New York, NY 10010</address>
+			<h6>&nbsp;</h6><address>ESCOLA DE BELAS ARTES<br>			Av.Pedro Calmon,  550 - 7º andar<br>			Cidade Universitária - Ilha do Fundão<br>			CEP 21941-590 – Rio de Janeiro, RJ</address>
 		
-			<address>Jennifer Smith, Archivist<br>			<span class="info">Phone</span> — 212 222.2222<br>			<span class="info">Fax</span> — 212 222.2223<br>			<span class="info">Email</span> — <a href="#">email@archive.edu</a></address>
+			<address><span class="info">Telefone</span> — (21) 3938-1997<br>				<span class="info">Email</span> — <a href="#">museu@eba.ufrj.br</a></address>
 		</div>
 	</div>

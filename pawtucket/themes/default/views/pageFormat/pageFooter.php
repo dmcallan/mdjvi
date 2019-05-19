@@ -31,14 +31,14 @@
 		<footer id="footer">
 			<ul class="list-inline pull-right social">
 				<li><i class="fa fa-twitter"></i></li>
-				<li><i class="fa fa-facebook-square"></i></li>
+				<li><a href="https://facebook.com/museudomjoaovi/"><i class="fa fa-facebook-square"></i></a></li>
 				<li><i class="fa fa-youtube-play"></i></li>
 			</ul>
 			<div>
-				Footer text here
+				Obrigado pela visita! Não esquesa de seguir nossa página no Facebook!
 			</div>
 			<ul class="list-inline">
-				<li><a href="#">Link 1</a></li>
+				<li><a href="http://www.eba.ufrj.br/">EBA - Escola de Belas Artes</a></li>
 				<li><a href="#">Link 2</a></li>
 				<li><a href="#">Link 3</a></li>
 			</ul>
