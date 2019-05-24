@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2\n"
 "POT-Creation-Date: 2019-05-16 11:14-0300\n"
-"PO-Revision-Date: 2019-05-21 12:57-0300\n"
+"PO-Revision-Date: 2019-05-24 00:07-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language: pt_BR\n"
@@ -1083,12 +1083,12 @@ msgstr "nova tela"
 #: helpers/displayHelpers.php:959 helpers/displayHelpers.php:1325
 #: helpers/displayHelpers.php:1328
 msgid "Lot contains %1 object"
-msgstr "Lote contém %1 objeto"
+msgstr "Conjunto contém %1 objeto"
 
 #: helpers/displayHelpers.php:959 helpers/displayHelpers.php:1325
 #: helpers/displayHelpers.php:1328
 msgid "Lot contains %1 objects"
-msgstr "Lote contém %1 objetos"
+msgstr "Conjunto contém %1 objetos"
 
 #: helpers/displayHelpers.php:975
 msgid "Creating new %1"
@@ -1137,7 +1137,7 @@ msgstr "Duplicar este %1"
 
 #: helpers/displayHelpers.php:1152
 msgid "Download all media associated with objects in this lot"
-msgstr "Baixar todas as mídia associadas a objetos neste lote"
+msgstr "Baixar todas as mídia associadas a objetos neste conjunto"
 
 #: helpers/displayHelpers.php:1160
 msgid "Download all media associated with records in this set"
@@ -1211,11 +1211,11 @@ msgstr "Será relacionado a %1"
 
 #: helpers/displayHelpers.php:1285
 msgid "Part of lot"
-msgstr "Parte do lote"
+msgstr "Parte do conjunto"
 
 #: helpers/displayHelpers.php:1288
 msgid "Will be part of lot"
-msgstr "Será parte do lote"
+msgstr "Será parte do conjunto"
 
 #: helpers/displayHelpers.php:1302 helpers/displayHelpers.php:1304
 msgid "%1 component"
@@ -1231,11 +1231,11 @@ msgstr "Tem"
 
 #: helpers/displayHelpers.php:1326
 msgid "Lot contains %1 component"
-msgstr "Lote contém %1 componente"
+msgstr "Conjunto contém %1 componente"
 
 #: helpers/displayHelpers.php:1326
 msgid "Lot contains %1 components"
-msgstr "Lote contém %1 componentes"
+msgstr "Conjunto contém %1 componentes"
 
 #: helpers/displayHelpers.php:1333
 msgid "There is %1 object with non-conforming numbering"
@@ -1251,7 +1251,7 @@ msgstr "Renumerar objetos"
 
 #: helpers/displayHelpers.php:1353 helpers/displayHelpers.php:1356
 msgid "Add new %1 to lot"
-msgstr "Adicionar novo %1 ao lote"
+msgstr "Adicionar novo %1 ao conjunto"
 
 #: helpers/displayHelpers.php:1379
 msgid "%1 related %2"
@@ -5132,7 +5132,8 @@ msgstr "%1 não é um valor numérico"
 
 #: lib/Attributes/Values/ObjectLotsAttributeValue.php:48
 msgid "Check this option if you want to require that a lot be selected."
-msgstr "Assinale esta opção se desejar exigir que um lote seja selecionado."
+msgstr ""
+"Assinale esta opção se desejar exigir que um conjunto seja selecionado."
 
 #: lib/Attributes/Values/ObjectRepresentationsAttributeValue.php:48
 msgid ""
@@ -6014,7 +6015,7 @@ msgstr "Mídia está sendo processada e estará disponível em breve."
 msgid ""
 "File could not be copied for %1; can't convert mimetype '%2' to extension"
 msgstr ""
-"Arquivo não pôde ser copiado para %1; não é possível converter o tipo MIME "
+"Arquivo não pôde ser copiado para %1; não é possível converter o formato "
 "'%2' para extensão"
 
 #: lib/BaseModel.php:4427 lib/BaseModel.php:4581 lib/BaseModel.php:5701
@@ -6038,8 +6039,8 @@ msgstr ""
 msgid ""
 "File could not be processed for %1; can't convert mimetype '%2' to extension"
 msgstr ""
-"Arquivo não pôde ser processado para %1; não é possível converter o tipo "
-"MIME '%2' para extensão"
+"Arquivo não pôde ser processado para %1; não é possível converter o formato "
+"'%2' para extensão"
 
 #: lib/BaseModel.php:4591
 msgid "Couldn't write file: %1"
@@ -6602,7 +6603,7 @@ msgstr ""
 
 #: lib/Browse/BrowseEngine.php:667
 msgid "%1 for %2"
-msgstr ""
+msgstr "%1 para %2"
 
 #: lib/Browse/BrowseEngine.php:738 lib/Browse/BrowseEngine.php:5064
 #: lib/Browse/BrowseEngine.php:5065 lib/Browse/BrowseEngine.php:5067
@@ -6612,15 +6613,15 @@ msgstr "Data desconhecida"
 
 #: lib/Browse/BrowseEngine.php:789 lib/Browse/BrowseEngine.php:5980
 msgid "%1 repeats"
-msgstr ""
+msgstr "%1 repetições"
 
 #: lib/Browse/BrowseEngine.php:2195
 msgid "Invalid search type"
-msgstr ""
+msgstr "Tipo de pesquisa inválido"
 
 #: lib/Browse/BrowseEngine.php:2240
 msgid "Invalid criteria type"
-msgstr ""
+msgstr "Tipo de critério inválido"
 
 #: lib/Browse/BrowseEngine.php:2639
 msgid "Type "
@@ -6632,57 +6633,59 @@ msgstr "Tipo deve ser especificado"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:174
 msgid "<em>%1</em> is invalid"
-msgstr ""
+msgstr "<em>%1</em> é inválido"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:176
 msgid "<em>%1</em> is not enabled"
-msgstr ""
+msgstr "<em>%1</em> não está ativo"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:195
 msgid "<em>%1</em> is not a valid type for a child record of type <em>%2</em>"
 msgstr ""
+"<em>%1</em> não é um tipo válido para um registro de nível inferior <em>%2</"
+"em>"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:200
 msgid "No parent was found when verifying type of new child"
-msgstr ""
+msgstr "Não foi encontrado nenhuma relação hierárquica"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:209
 msgid "<em>%1</em> is not a valid type for a top-level record"
-msgstr ""
+msgstr "<em>%1</em> não é um tipo válido para um registro raiz"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:291
 msgid "You do not have edit access for this item: %1/%2"
-msgstr ""
+msgstr "Não tem autorização para editar este item: %1/%2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:357
 msgid "You do not have delete access for this item"
-msgstr ""
+msgstr "Não tem autorização para apagar este item"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:429
 msgid "Cannot duplicate root of hierarchy"
-msgstr ""
+msgstr "Não é possível duplicar a raiz da hierarquia"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:497
 msgid "DUP"
-msgstr ""
+msgstr "DUP"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:521
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicar"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:625
 msgid "Type id cannot be set after insert"
-msgstr ""
+msgstr "O tipo de id não pode ser definido após inserção"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:912
 #: lib/MetadataAlerts/TriggerTypes/Modification.php:128
 msgid "Preferred labels"
-msgstr ""
+msgstr "Título"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:913
 #: lib/MetadataAlerts/TriggerTypes/Modification.php:129
 msgid "Non-preferred labels"
-msgstr ""
+msgstr "Título alternativo"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1331
 msgid "REQUIRED"
@@ -6690,73 +6693,73 @@ msgstr "OBRIGATÓRIO"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1354
 msgid "These problems require attention:"
-msgstr ""
+msgstr "Estes problemas exigem atenção:"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1408
 msgid "Not yet issued"
-msgstr ""
+msgstr "Ainda não foi emitido"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1504
 msgid "Restricted to types"
-msgstr ""
+msgstr "Restrito aos tipos"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1957
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2056
 msgid "from related %1"
-msgstr ""
+msgstr "de %1 relacionado"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1964
 #: models/ca_bundle_displays.php:1007
 msgid "Generic bundle"
-msgstr ""
+msgstr "Pacote genérico"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1989
 msgid "alternates from related %1"
-msgstr ""
+msgstr "altenativo do %1 relacionado"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1991
 msgid "alternates"
-msgstr ""
+msgstr "alternativo"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2004
 msgid "Object media representation (%1)"
-msgstr ""
+msgstr "Representação de mídia de objeto (%1)"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2006
 msgid "Object media representation (default)"
-msgstr ""
+msgstr "Representação de imagem (padrão)"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2046
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2062
 msgid "A list of related %1"
-msgstr ""
+msgstr "Uma lista de %1 relacionados"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2068
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2070
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2097
 msgid "A list of %1 %2"
-msgstr ""
+msgstr "Uma lista de %1 %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2078
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2080
 msgid "A list of alternate %1 %2"
-msgstr ""
+msgstr "Uma lista de alternativos %1 %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2088
 msgid "A list of related media representations using version \"%1\""
-msgstr ""
+msgstr "Lista de representações de mídias relacionadas usando a versão \"%1\""
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2090
 msgid "A list of related media representations using the default version"
-msgstr ""
+msgstr "Lista de representações de mídias relacionadas usando a versão padrão"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2425
 msgid "Access denied to UI %1"
-msgstr ""
+msgstr "Acesso negado à interface do usuário %1"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2437
 msgid "Access denied to screen %1"
-msgstr ""
+msgstr "Acesso negado à tela %1"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:2697
 msgid "New %1"
@@ -6767,50 +6770,54 @@ msgid ""
 "Cannot do dry run save when in transaction. Try again without setting a "
 "transaction."
 msgstr ""
+"Não é possível executar em teste quando em transação. Tente novamente sem "
+"definir uma transação."
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3566
 msgid "Could not move object under collection: %1"
-msgstr ""
+msgstr "Não foi possível mover o objeto na coleção: %1"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3683
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3777
 msgid "Value <em>%1</em> is already used and duplicates are not allowed"
-msgstr ""
+msgstr "Valor <em>%1</em> já em utilização e duplicados não são permitidos"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3688
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3783
 msgid "Value <em>%1</em> is not in <em>%2</em>"
-msgstr ""
+msgstr "Valor <em>%1</em> não está em <em>%2</em>"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:3769
 msgid ""
 "A preferred label for this locale already exists. Only one preferred label "
 "per locale is allowed."
 msgstr ""
+"Uma etiqueta de título para este local já existe. Somente uma etiqueta de "
+"título por local é permitida."
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:4540
 msgid "No relationship type configured"
-msgstr ""
+msgstr "Nenhum tipo de relacionamento configurado"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:5016
 msgid "There must be at least %1 relationship for %2"
-msgstr ""
+msgstr "Deve existir pelo menos %1 relação para %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:5016
 msgid "There must be at least %1 relationships for %2"
-msgstr ""
+msgstr "Deve existir pelo menos %1 relações para %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:5020
 msgid "There must be no more than %1 relationship for %2"
-msgstr ""
+msgstr "Não deve existir mais do que %1 relação para %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:5020
 msgid "There must be no more than %1 relationships for %2"
-msgstr ""
+msgstr "Não deve existir mais do que %1 relações para %2"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:6360
 msgid "Identifier %1 already exists and duplicates are not permitted"
-msgstr ""
+msgstr "Identificador %1 já existe e duplicados não são permitidos"
 
 #: lib/ConfigurationCheck.php:146
 msgid ""
@@ -6820,6 +6827,11 @@ msgid ""
 "prior to installation. You can reload the installer to verify that the "
 "changed permissions are correct."
 msgstr ""
+"O diretório do CollectiveAccess <i>app/tmp</i> NÃO tem permissão de escrita "
+"pelo instalador. Isto pode resultar em erros de instalação. É recomendável "
+"que altere as permissões neste diretório (<i>%1</i>) para permitir o acesso "
+"de escrita antes da instalação. Pode recarregar o instalador para verificar "
+"se as permissões alteradas estão corretas."
 
 #: lib/ConfigurationCheck.php:153
 msgid ""
@@ -6829,6 +6841,11 @@ msgid ""
 "prior to installation. You can reload the installer to verify that the "
 "changed permissions are correct."
 msgstr ""
+"O diretório do CollectiveAccess <i>app/log</i> NÃO tem permissão de escrita "
+"pelo instalador. Isto pode resultar em erros de instalação. É recomendável "
+"que altere as permissões neste diretório (<i>%1</i>) para permitir o acesso "
+"de escrita antes da instalação. Pode recarregar o instalador para verificar "
+"se as permissões alteradas estão corretas."
 
 #: lib/ConfigurationCheck.php:186
 msgid ""
@@ -6838,30 +6855,44 @@ msgid ""
 "directory (<i>%1</i>) to allow write access prior to installation. You can "
 "reload the installer to verify that the changed permissions are correct."
 msgstr ""
+"O diretório do CollectiveAccess de mídia NÃO tem permissão de escrita pelo "
+"instalador. Isto irá prevenir a criação apropriada da estrutura do diretório "
+"de mídia e resultar em erros de instalação. É recomendável que altere as "
+"permissões neste diretório (<i>%1</i>) para permitir o acesso de escrita "
+"antes da instalação. Pode recarregar o instalador para verificar se as "
+"permissões alteradas estão corretas."
 
 #: lib/ConfigurationCheck.php:208 lib/pawtucket/ConfigurationCheck.php:126
 msgid ""
 "Your MySQL installation doesn't support the InnoDB storage engine which is "
 "required by CollectiveAccess. For more information also see %1."
 msgstr ""
+"Sua instalação do MySQL não suporta o mecanismo de armazenamento InnoDB que "
+"é requerido pelo CollectiveAccess. Para mais informações, consulte também %1."
 
 #: lib/ConfigurationCheck.php:219 lib/pawtucket/ConfigurationCheck.php:137
 msgid ""
 "No database login information found. Have you specified it in your setup.php "
 "file?"
 msgstr ""
+"Não foi encontrada informação de login para a base de dados. Você "
+"especificou esta informação no seu arquivo setup.php?"
 
 #: lib/ConfigurationCheck.php:222 lib/pawtucket/ConfigurationCheck.php:140
 msgid ""
 "Could not connect to database. Did you enter your database login information "
 "into setup.php?"
 msgstr ""
+"Não foi possível conectar ao banco de dados. Você inseriu a informação de "
+"login ao seu banco de dados no setup.php?"
 
 #: lib/ConfigurationCheck.php:234
 msgid ""
 "It looks like you have not installed your database yet. Check your "
 "configuration or run the <a href=\"%1/install/\">installer</a>."
 msgstr ""
+"Parece que você ainda não instalou o seu banco de dados. Verifique sua "
+"configuração ou execute o <a href=\"%1/install/\">instalador</a>."
 
 #: lib/ConfigurationCheck.php:245 lib/pawtucket/ConfigurationCheck.php:163
 msgid ""
@@ -6871,6 +6902,12 @@ msgid ""
 "Applying_Database_Updates\">update HOW-TO</a> for instructions on applying "
 "database updates manually."
 msgstr ""
+"O seu banco de dados está extremamente desatualizado. Por favor, instale "
+"todas as migrações de banco de dados começando com a migração #1 ou contate "
+"support@collectiveaccess.org para assistência. Veja o <a href=\"http://docs."
+"collectiveaccess.org/wiki/Applying_Database_Updates\">GUIA de atualização</"
+"a> para instruções sobre como aplicar atualizações de banco de dados "
+"manualmente."
 
 #: lib/ConfigurationCheck.php:248
 msgid ""
@@ -6882,6 +6919,15 @@ msgid ""
 "><div align='center'><strong>NOTE: you should back-up your database before "
 "applying updates!</strong></div>"
 msgstr ""
+"Seu banco de dados está desatualizado. Por favor instale todas as migrações "
+"de esquema começando com a migração #1. <a href='index.php?"
+"updateSchema=1'><strong>Clique aqui</strong></a> para automaticamente "
+"aplicar as atualizações requeridas, ou veja o <a href=\"http://docs."
+"collectiveaccess.org/wiki/Applying_Database_Updates\">GUIA de atualização</"
+"a> para instruções sobre como aplicar atualizações de banco de dados "
+"manualmente.<br/><br/><div align='center'><strong>NOTA: você deveria sempre "
+"fazer um back-up do seu banco de dados antes de aplicar atualizações!</"
+"strong></div>"
 
 #: lib/ConfigurationCheck.php:250
 msgid ""
@@ -6891,23 +6937,34 @@ msgid ""
 "database updates manually.<br/><br/><div align='center'><strong>NOTE: you "
 "should back-up your database before applying updates!</strong></div>"
 msgstr ""
+"Seu banco de dados está desatualizado. Por favor instale todas as migrações "
+"de esquema começando com a migração #1. Veja o <a href=\"http://docs."
+"collectiveaccess.org/wiki/Applying_Database_Updates\">GUIA de atualização</"
+"a> para instruções sobre como aplicar atualizações de banco de dados "
+"manualmente.<br/><br/><div align='center'><strong>NOTA: você deveria sempre "
+"fazer um back-up do seu banco de dados antes de aplicar atualizações!</"
+"strong></div>"
 
 #: lib/ConfigurationCheck.php:255 lib/ConfigurationCheck.php:629
 #: lib/ConfigurationCheck.php:632
 msgid "For migration %1"
-msgstr ""
+msgstr "Para migração %1"
 
 #: lib/ConfigurationCheck.php:269
 msgid ""
 "CollectiveAccess requires PHP version 5.6 or higher to function properly. "
 "You're running %1. Please upgrade."
 msgstr ""
+"CollectiveAccess requer o PHP versão 5.6 ou superior para funcionar "
+"corretamente. Você está executando %1. Por favor atualize."
 
 #: lib/ConfigurationCheck.php:279
 msgid ""
 "Your setup.php file does not include a setting for __CA_SITE_PROTOCOL__. "
 "Please update it using the current setup.php-dist as a template."
 msgstr ""
+"Seu arquivo setup.php não inclui uma configuração para __CA_SITE_PROTOCOL__. "
+"Por favor atualize-o usando o setup.php-dist como modelo."
 
 #: lib/ConfigurationCheck.php:290
 msgid ""
@@ -6915,6 +6972,9 @@ msgid ""
 "webserver. Please change the permissions of %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"Parece que o diretório para arquivos temporários não tem permissão de "
+"escrita pelo servidor da web. Altere as permissões de %1 e permita o usuário "
+"que executa o servidor da web para escrever neste diretório."
 
 #: lib/ConfigurationCheck.php:307
 msgid ""
@@ -6922,6 +6982,9 @@ msgid ""
 "change the permissions of %1 and enable the user which runs the webserver to "
 "write to this directory."
 msgstr ""
+"Parece que o diretório de cache não tem permissão de escrita pelo servidor "
+"da web. Altere as permissões de %1 e permita o usuário que executa o "
+"servidor da web para escrever neste diretório."
 
 #: lib/ConfigurationCheck.php:317
 msgid ""
@@ -6929,6 +6992,10 @@ msgid ""
 "change the permissions of %1 (or create it if it doesn't exist already) and "
 "enable the user which runs the webserver to write to this directory."
 msgstr ""
+"Parece que o diretório de log não tem permissão de escrita pelo servidor da "
+"web. Altere as permissões de %1 (ou crie ele se o mesmo já não existir) e "
+"permita o usuário que executa o servidor da web para escrever neste "
+"diretório."
 
 #: lib/ConfigurationCheck.php:325
 msgid ""
@@ -6936,6 +7003,10 @@ msgid ""
 "change the permissions of %1 (or create it if it doesn't exist already) and "
 "enable the user which runs the webserver to write to this directory."
 msgstr ""
+"Parece que o diretório de mídia não tem permissão de escrita pelo servidor "
+"da web. Altere as permissões de %1 (ou crie ele se o mesmo já não existir) e "
+"permita o usuário que executa o servidor da web para escrever neste "
+"diretório."
 
 #: lib/ConfigurationCheck.php:337
 msgid ""
@@ -6943,6 +7014,9 @@ msgid ""
 "webserver. Please change the permissions of %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"Parece que o diretório de caches de filtragem HTML não tem permissão de "
+"escrita pelo servidor da web. Altere as permissões de %1 e permita o usuário "
+"que executa o servidor da web para escrever neste diretório."
 
 #: lib/ConfigurationCheck.php:348 lib/pawtucket/ConfigurationCheck.php:240
 msgid ""
@@ -6951,6 +7025,10 @@ msgid ""
 "suggestion because you accessed this script via &quot;&lt;your_hostname&gt;"
 "%2&quot;."
 msgstr ""
+"Parece que a variável __CA_URL_ROOT__ no seu setup.php não foi configurada "
+"corretamente. Por favor tente tente configurá-la para &quot;%1&quot;. Nós "
+"lhe demos esta sugestão pois você acessou este script por meio de &quot;&lt;"
+"your_hostname&gt;%2&quot;."
 
 #: lib/ConfigurationCheck.php:352 lib/pawtucket/ConfigurationCheck.php:244
 msgid ""
@@ -6959,6 +7037,11 @@ msgid ""
 "suggestion because you accessed this script via &quot;&lt;your_hostname&gt;"
 "%2&quot;. Note that paths are case sensitive."
 msgstr ""
+"Parece que a variável __CA_URL_ROOT__ no seu setup.php não foi configurada "
+"corretamente. Por favor tente tente configurá-la para &quot;%1&quot;. Nós "
+"lhe demos esta sugestão pois você acessou este script por meio de &quot;&lt;"
+"your_hostname&gt;%2&quot;. Note que os caminhos fazem distinções entre "
+"maiúsculas e minúsculas."
 
 #: lib/ConfigurationCheck.php:367 lib/pawtucket/ConfigurationCheck.php:261
 msgid ""
@@ -6966,6 +7049,9 @@ msgid ""
 "correctly. Please try to set it to &quot;%1&quot;. We came up with this "
 "suggestion because the location of this script is &quot;%2&quot;."
 msgstr ""
+"Parece que a variável __CA_BASE_DIR__ no seu setup.php não foi configurada "
+"corretamente. Por favor tente tente configurá-la para &quot;%1&quot;. Nós "
+"lhe demos esta sugestão pois a localização deste script é &quot;%2&quot;."
 
 #: lib/ConfigurationCheck.php:371 lib/pawtucket/ConfigurationCheck.php:265
 msgid ""
@@ -6974,86 +7060,118 @@ msgid ""
 "suggestion because the location of this script is &quot;%2&quot;. Note that "
 "paths are case sensitive."
 msgstr ""
+"Parece que a variável __CA_BASE_DIR__ no seu setup.php não foi configurada "
+"corretamente. Por favor tente tente configurá-la para &quot;%1&quot;. Nós "
+"lhe demos esta sugestão pois a localização deste script é &quot;%2&quot;. "
+"Note que os caminhos fazem distinções entre maiúsculas e minúsculas."
 
 #: lib/ConfigurationCheck.php:380 lib/pawtucket/ConfigurationCheck.php:274
 msgid ""
 "PHP JSON module is required for CollectiveAccess to run. Please install it."
 msgstr ""
+"Módulo PHP JSON é necessário para o CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:383 lib/pawtucket/ConfigurationCheck.php:277
 msgid ""
 "PHP mbstring module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
+"Módulo PHP mbstring é necessário para o CollectiveAccess executar. Por "
+"favor, instale-o."
 
 #: lib/ConfigurationCheck.php:386 lib/pawtucket/ConfigurationCheck.php:280
 msgid ""
 "PHP iconv module is required for CollectiveAccess to run. Please install it."
 msgstr ""
+"Módulo PHP iconv é necessário para o CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:389 lib/pawtucket/ConfigurationCheck.php:283
 msgid ""
 "PHP mysql or mysqli module is required for CollectiveAccess to run. Please "
 "install it."
 msgstr ""
+"Módulo PHP mysql ou mysqli é necessário para o CollectiveAccess executar. "
+"Por favor, instale-o."
 
 #: lib/ConfigurationCheck.php:392 lib/pawtucket/ConfigurationCheck.php:286
 msgid ""
 "PHP zlib module is required for CollectiveAccess to run. Please install it."
 msgstr ""
+"Módulo PHP zlib é necessário para o CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:395 lib/pawtucket/ConfigurationCheck.php:289
 msgid ""
 "PHP PCRE module is required for CollectiveAccess to run. Please install it."
 msgstr ""
+"Módulo PHP PCRE é necessário para o CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:398 lib/pawtucket/ConfigurationCheck.php:292
 msgid ""
 "PHP Document Object Model (DOM) module is required for CollectiveAccess to "
 "run. Please install it."
 msgstr ""
+"Módulo PHP Document Object Model (DOM) é necessário para CollectiveAccess "
+"executar. Por favor, instale-o."
 
 #: lib/ConfigurationCheck.php:401 lib/pawtucket/ConfigurationCheck.php:295
 msgid ""
 "Either the mcrypt or openssl module are required for CollectiveAccess to "
 "run. Please install one of them (or both)."
 msgstr ""
+"Módulo PHP mcrypt ou openssl são necessários para o para CollectiveAccess "
+"executar. Por favor, instale um deles (ou ambos)."
 
 #: lib/ConfigurationCheck.php:404 lib/pawtucket/ConfigurationCheck.php:298
 msgid ""
 "The PHP Message Digest (hash) engine is required for CollectiveAccess to "
 "run. Please install it."
 msgstr ""
+"O PHP Message Digest (hash) é necessário para CollectiveAccess executar. Por "
+"favor, instale-o."
 
 #: lib/ConfigurationCheck.php:407 lib/pawtucket/ConfigurationCheck.php:301
 msgid ""
 "Your PHP installation doesn't seem to have support for the sha256 hashing "
 "algorithm. Please install a newer version of either PHP or the hash module."
 msgstr ""
+"Sua instalação do PHP parece não ter suporte para o algoritmo de hashing "
+"sha256. Por favor instale uma versão mais recente do PHP ou do módulo hash."
 
 #: lib/ConfigurationCheck.php:410 lib/pawtucket/ConfigurationCheck.php:304
 msgid ""
 "The PHP phar module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
+"Módulo PHP phar é necessário para CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:413 lib/pawtucket/ConfigurationCheck.php:307
 msgid ""
 "The PHP cURL module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
+"Módulo PHP cURL é necessário para CollectiveAccess executar. Por favor, "
+"instale-o."
 
 #: lib/ConfigurationCheck.php:416
 msgid ""
 "The PHP ZipArchive module is required for CollectiveAccess to run. Please "
 "install it."
 msgstr ""
+"Módulo PHP ZipArchive é necessário para CollectiveAccess executar. Por "
+"favor, instale-o."
 
 #: lib/ConfigurationCheck.php:420 lib/pawtucket/ConfigurationCheck.php:311
 msgid ""
 "Your version of the PHP PCRE module lacks unicode features. Please install a "
 "module version with UTF-8 support."
 msgstr ""
+"A sua versão do módulo PHP PCRE não possui recursos unicode. Por favor, "
+"instale uma versão do módulo com suporte UTF-8."
 
 #: lib/ConfigurationCheck.php:430 lib/pawtucket/ConfigurationCheck.php:321
 msgid ""
@@ -7061,6 +7179,9 @@ msgid ""
 "may only consist of alphanumeric ASCII characters and underscores (&quot;"
 "_&quot;)"
 msgstr ""
+"Parece que a configuração __CA_APP_NAME__ na sua setup.php é inválida. Só "
+"pode consistir em carateres alfanuméricos ASCII e sublinhados (& quot; _ & "
+"quot;)"
 
 #: lib/ConfigurationCheck.php:447
 msgid ""
@@ -7068,6 +7189,9 @@ msgid ""
 "webserver. Please change the permissions for %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"Parece que um subdiretório no diretório de mídia não tem permissão de "
+"escrita pelo servidor web. Por favor altere as permissões para %1 e permita "
+"que o usuário que executa o webserver escreva neste diretório."
 
 #: lib/ConfigurationCheck.php:463 lib/pawtucket/ConfigurationCheck.php:354
 msgid ""
@@ -7079,6 +7203,13 @@ msgid ""
 "feature like /etc/hosts on UNIX-based operating systems) so you have to be "
 "very careful when editing this."
 msgstr ""
+"Parece que a configuração __CA_SITE_HOSTNAME__ na sua setup.php pode estar "
+"incorreta. Se tiver quaisquer problemas com a apresentação da imagem, tente "
+"definir esta opção para &quot;%1&quot;. Fazemos esta sugestão, porque este é "
+"o nome do host usado para acessar este script. Talvez seja válida apenas "
+"para você (e não para outros usuários do sistema) embora (por exemplo, se "
+"usar o 'localhost' ou um recurso como/etc/hosts em sistemas operacionais "
+"baseados em UNIX) então tem que ter muito cuidado ao editar este campo."
 
 #: lib/ConfigurationCheck.php:482 lib/pawtucket/ConfigurationCheck.php:373
 msgid ""
@@ -7090,6 +7221,13 @@ msgid ""
 "more details. The value in your config is &quot;%1&quot;, the recommended "
 "value is &quot;128M&quot; or higher."
 msgstr ""
+"O limite de memória para sua instalação de PHP pode não ser suficiente para "
+"executar o CollectiveAccess corretamente. Por favor, considere ajustar a "
+"variável \"memory_limit\" na sua configuração do PHP (geralmente um arquivo "
+"chamado) &quot;php.ini&quot;. Ver <a href=\"http://us.php.net/manual/en/ini."
+"core.php#ini.memory-limit\" target=\"_blank\">http://us.php.net/manual/en/"
+"ini.core.php</a> para obter mais detalhes. O valor na sua configuração é & "
+"quot;%1&quot ;, o valor recomendado é &quot;128M&quot; ou mais alto."
 
 #: lib/ConfigurationCheck.php:497 lib/pawtucket/ConfigurationCheck.php:388
 msgid ""
@@ -7098,6 +7236,11 @@ msgid ""
 "both values limits the size of the files you can upload to CollectiveAccess. "
 "Your values: upload_max_filesize=%1 and post_max_size=%2."
 msgstr ""
+"Parece que as variáveis de configuração do PHP \"post_max_size\" e "
+"\"upload_max_filesize\" estão configuradas para valores diferentes. Note que "
+"o menor dos dois valores limita o tamanho dos arquivos que você pode "
+"transferir para o CollectiveAccess. Os seus valores: upload_max_filesize=%1 "
+"e post_max_size=%2."
 
 #: lib/ConfigurationCheck.php:505 lib/pawtucket/ConfigurationCheck.php:396
 msgid ""
@@ -7108,6 +7251,13 @@ msgid ""
 "should set them to values greater than the largest file you will upload to "
 "CollectiveAccess. Your values: upload_max_filesize=%1 and post_max_size=%2."
 msgstr ""
+"Parece que pelo menos uma das variáveis de configuração do PHP "
+"\"post_max_size\" e \"upload_max_filesize\" está definida com um valor muito "
+"baixo. Note que o menor dos dois valores limita o tamanho dos arquivos que "
+"você pode fazer a transferência para o CollectiveAccess. Recomenda-se "
+"valores maiores que \"5M\", mas em geral você deve definir valores maiores "
+"que o maior arquivo em que você fará a transferência para o "
+"CollectiveAccess. Os seus valores: upload_max_filesize=%1 e post_max_size=%2."
 
 #: lib/ConfigurationCheck.php:519 lib/ConfigurationCheck.php:526
 #: lib/ConfigurationCheck.php:533 lib/ConfigurationCheck.php:540
@@ -7120,6 +7270,9 @@ msgid ""
 "some default constraints than can prevent CA from saving information entered "
 "into forms."
 msgstr ""
+"Parece que você tem a extensão PHP Suhoshin instalada, a qual introduz "
+"algumas restrições padrão que podem impedir o CA de gravar informações "
+"inseridas em formulários."
 
 #: lib/ConfigurationCheck.php:520 lib/pawtucket/ConfigurationCheck.php:411
 msgid ""
@@ -7127,6 +7280,9 @@ msgid ""
 "max_name_length\" to 256 or higher to ensure that CA works correctly. Your "
 "value is %1"
 msgstr ""
+"Em particular, você tem que definir a configuração do valor \"suhosin.post."
+"max_name_length\" para 256 ou superior para garantir que o CA funcione "
+"corretamente. O seu valor é %1"
 
 #: lib/ConfigurationCheck.php:527 lib/pawtucket/ConfigurationCheck.php:418
 msgid ""
@@ -7134,6 +7290,9 @@ msgid ""
 "max_varname_length\" to 256 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
+"Em particular, você tem que definir a configuração do valor \"suhosin."
+"request.max_varname_length\" para 256 ou superior para garantir que o CA "
+"funcione corretamente. O seu valor é %1"
 
 #: lib/ConfigurationCheck.php:534 lib/pawtucket/ConfigurationCheck.php:425
 msgid ""
@@ -7141,6 +7300,9 @@ msgid ""
 "max_totalname_length\" to 5012 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
+"Em particular, você tem que definir a configuração do valor \"suhosin.post."
+"max_totalname_length\" para 5012 ou superior para garantir que a CA funcione "
+"corretamente. O seu valor é %1"
 
 #: lib/ConfigurationCheck.php:541 lib/pawtucket/ConfigurationCheck.php:432
 msgid ""
@@ -7148,252 +7310,272 @@ msgid ""
 "max_totalname_length\" to 5012 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
+"Em particular, você tem que definir a configuração do valor \"suhosin."
+"request.max_totalname_length\" para 5012 ou superior para garantir que o CA "
+"funciona corretamente. O seu valor é %1"
 
 #: lib/ConfigurationCheck.php:618
 msgid "Could not apply database update for migration %1"
 msgstr ""
+"Não foi possível aplicar a atualização do banco de dados para a migração %1"
 
 #: lib/ConfigurationCheck.php:632
 msgid "The following tasks did not complete: %1"
-msgstr ""
+msgstr "As seguintes tarefas não foram concluídas: %1"
 
 #: lib/ConfigurationCheck.php:634
 msgid "Applied migration %1"
-msgstr ""
+msgstr "Migração %1 aplicada"
 
 #: lib/ConfigurationExporter.php:178
 msgid "Exporting changes for locale %1"
-msgstr ""
+msgstr "Exportando alterações para localização %1"
 
 #: lib/ConfigurationExporter.php:212
 msgid "Exporting deleted list %1"
-msgstr ""
+msgstr "Exportando lista excluída %1"
 
 #: lib/ConfigurationExporter.php:272
 msgid "Exporting changes for list %1"
-msgstr ""
+msgstr "Exportando alterações para lista %1"
 
 #: lib/ConfigurationExporter.php:400
 msgid "Exporting deleted metadata element %1"
-msgstr ""
+msgstr "Exportando elemento de metadados excluídos %1"
 
 #: lib/ConfigurationExporter.php:477 lib/ConfigurationExporter.php:596
 msgid "Exporting changes for element %1"
-msgstr ""
+msgstr "Exportando alterações para o elemento %1"
 
 #: lib/ConfigurationExporter.php:755
 msgid "Exporting deleted editor %1"
-msgstr ""
+msgstr "Exportando editor excluído %1"
 
 #: lib/ConfigurationExporter.php:1055
 msgid "Exporting changes for editor %1"
-msgstr ""
+msgstr "Exportando alterações para editor %1"
 
 #: lib/ConfigurationExporter.php:1112
 msgid "Exporting deleted relationship type %1"
-msgstr ""
+msgstr "Exportando tipo de relacionamento excluído %1"
 
 #: lib/ConfigurationExporter.php:1127
 msgid "Exporting changes for relationship type %1"
-msgstr ""
+msgstr "Exportando alterações para tipo de relacionamento %1"
 
 #: lib/ConfigurationExporter.php:1208
 msgid "Exporting deleted role %1"
-msgstr ""
+msgstr "Exportando função excluída %1"
 
 #: lib/ConfigurationExporter.php:1220
 msgid "Exporting changes for role %1"
-msgstr ""
+msgstr "Exportando alterações para função %1"
 
 #: lib/ConfigurationExporter.php:1336
 msgid "Exporting deleted group %1"
-msgstr ""
+msgstr "Exportando grupo excluído %1"
 
 #: lib/ConfigurationExporter.php:1348
 msgid "Exporting changes for group %1"
-msgstr ""
+msgstr "Exportando alterações para grupo %1"
 
 #: lib/ConfigurationExporter.php:1391
 msgid "Exporting deleted search form %1"
-msgstr ""
+msgstr "Exportando formulário de pesquisa excluído %1"
 
 #: lib/ConfigurationExporter.php:1404
 msgid "Exporting changes for search form %1"
-msgstr ""
+msgstr "Exportando alterações para formulário de pesquisa %1"
 
 #: lib/ConfigurationExporter.php:1551
 msgid "Exporting deleted display %1"
-msgstr ""
+msgstr "Exportando exibição excluída %1"
 
 #: lib/ConfigurationExporter.php:1566
 msgid "Exporting changes for display %1"
-msgstr ""
+msgstr "Exportando alterações para exibição %1"
 
 #: lib/Controller/ActionController.php:219
 msgid "Action '%1' in class '%2' is invalid"
-msgstr ""
+msgstr "Ação '%1' na classe '%2' é inválida"
 
 #: lib/Controller/RequestDispatcher.php:162
 #: lib/Controller/RequestDispatcher.php:270
 #: lib/Controller/RequestDispatcher.php:295
 msgid "Not dispatchable"
-msgstr ""
+msgstr "Não é despachável"
 
 #: lib/CurrentLocationCriterionTrait.php:124 models/ca_objects.php:799
 #: models/ca_objects.php:879 models/ca_objects.php:1469
 #: models/ca_storage_locations.php:528
 msgid "No template defined"
-msgstr ""
+msgstr "Nenhum modelo definido"
 
 #: lib/CurrentLocationCriterionTrait.php:623 models/ca_objects.php:1388
 msgid "deaccession"
-msgstr ""
+msgstr "retirado do inventário"
 
 #: lib/CurrentLocationCriterionTrait.php:624 models/ca_objects.php:1389
 msgid "deaccessions"
-msgstr ""
+msgstr "retirados do inventário"
 
 #: lib/Db.php:143
 msgid "Could not instantiate driver"
-msgstr ""
+msgstr "Não foi possível instanciar o driver"
 
 #: lib/Db.php:148
 msgid "Driver does not exist"
-msgstr ""
+msgstr "Driver inexistente"
 
 #: lib/Db.php:194
 msgid "Not connected to database"
-msgstr ""
+msgstr "Não conectado ao banco de dados"
 
 #: lib/Db.php:292
 msgid "Driver does not support affectedRows() call"
-msgstr ""
+msgstr "Driver não suporta a chamada affectedRows()"
 
 #: lib/Db.php:320 lib/Db.php:343 lib/Db.php:367
 msgid "Transactions are not supported"
-msgstr ""
+msgstr "Transações não são suportadas"
 
 #: lib/Db.php:324
 msgid "Transaction count cannot exceed maximum of %1"
-msgstr ""
+msgstr "Contagem de transações não pode exceder o máximo de %1"
 
 #: lib/Db.php:347 lib/Db.php:371
 msgid "Not currently in a transaction"
-msgstr ""
+msgstr "Não está atualmente em uma transação"
 
 #: lib/Db/DbStatement.php:177 lib/Db/DbStatement.php:198
 msgid "Driver does not support LIMIT"
-msgstr ""
+msgstr "Driver não suporta LIMIT"
 
 #: lib/Db/mysql.php:119 lib/Db/mysqli.php:132
 msgid "Your PHP installation lacks MySQL support. Please add it and retry..."
 msgstr ""
+"Sua instalação do PHP não possui suporte ao MySQL. Por favor, adicione-o e "
+"tente novamente..."
 
 #: lib/Db/mysql.php:264 lib/Db/mysql.php:265 lib/Db/mysqli.php:274
 #: lib/Db/mysqli.php:275 lib/Db/pdo_mysql.php:179 lib/Db/pdo_mysql.php:180
 msgid "Query is empty"
-msgstr ""
+msgstr "Consulta está vazia"
 
 #: lib/Db/mysql.php:274 lib/Db/mysql.php:275 lib/Db/mysqli.php:284
 #: lib/Db/mysqli.php:285
 msgid ""
 "Number of values passed (%1) does not equal number of values required (%2)"
 msgstr ""
+"Número de valores passados (%1) não iguala número de valores necessários (%2)"
 
 #: lib/Db/mysql.php:497 lib/Db/mysql.php:498 lib/Db/mysqli.php:480
 #: lib/Db/mysqli.php:481
 msgid "seek(%1) failed: result has %2 rows"
-msgstr ""
+msgstr "busca(%1) falhou: resultado tem %2 linhas"
 
 #: lib/Db/pdo_mysql.php:107
 msgid ""
 "Your PHP installation lacks PDO MySQL support. Please add it and retry..."
 msgstr ""
+"Sua instalação do PHP não possui suporte ao PDO MySQL. Por favor, adicione-o "
+"e tente novamente..."
 
 #: lib/Db/pdo_mysql.php:185 lib/Db/pdo_mysql.php:186
 msgid "Invalid prepared statement"
-msgstr ""
+msgstr "Declaração preparada inválida"
 
 #: lib/Db/pdo_mysql.php:191 lib/Db/pdo_mysql.php:192
 msgid "Query rewrite failed"
-msgstr ""
+msgstr "Query rewrite falhou"
 
 #: lib/Db/pdo_mysql.php:261 lib/Db/pdo_mysql.php:262
 msgid "Could not start transaction: %1"
-msgstr ""
+msgstr "Não foi possível iniciar transação: %1"
 
 #: lib/Db/pdo_mysql.php:278
 msgid "Could not commit transaction: %1"
-msgstr ""
+msgstr "Não foi possível confirmar a transação: %1"
 
 #: lib/Db/pdo_mysql.php:292
 msgid "Could not rollback transaction: %1"
-msgstr ""
+msgstr "Não foi possível reverter a transação: %1"
 
 #: lib/Export/ExportFormats/ExportCSV.php:41
 msgid "Values are column numbers (indexing starts at 1)."
-msgstr ""
+msgstr "Valores são números de colunas (indexação inicia em 1)."
 
 #: lib/Export/ExportFormats/ExportCSV.php:105
 msgid "CSV exports can't be hierarchical"
-msgstr ""
+msgstr "As exportações de CSV não podem ser hierárquicas"
 
 #: lib/Export/ExportFormats/ExportCSV.php:121
 #: models/ca_bundle_displays.php:1114 models/ca_bundle_displays.php:1243
 #: models/ca_bundle_displays.php:1494 models/ca_data_exporter_items.php:239
 #: models/ca_data_importer_items.php:382
 msgid "Delimiter"
-msgstr ""
+msgstr "Delimitador"
 
 #: lib/Export/ExportFormats/ExportCSV.php:122
 msgid ""
 "Character used to separate values. Typical values include commas, semicolons "
 "or tabs."
 msgstr ""
+"Caractere usado para separar valores. Os valores típicos incluem vírgulas, "
+"ponto e vírgula ou tabulações."
 
 #: lib/Export/ExportFormats/ExportCSV.php:130
 msgid "Enclosure"
-msgstr ""
+msgstr "Contido"
 
 #: lib/Export/ExportFormats/ExportCSV.php:131
 msgid ""
 "Character used to enclose the text content in the export. Typical values are "
 "single or double quotes."
 msgstr ""
+"Carater usado para incluir o conteúdo de texto na exportação. Os valores "
+"típicos são aspas simples ou duplas."
 
 #: lib/Export/ExportFormats/ExportCSV.php:139
 msgid "Print field names"
-msgstr ""
+msgstr "Imprimir nomes dos campos"
 
 #: lib/Export/ExportFormats/ExportCSV.php:140
 msgid "Print names of output fields in first row of output."
 msgstr ""
+"Imprimir os nomes dos campos exportados na primeira linha da exportação."
 
 #: lib/Export/ExportFormats/ExportExifTool.php:69
 msgid ""
 "Values are ExifTool XML element names. See http://www.sno.phy.queensu.ca/"
 "~phil/exiftool/metafiles.html#xml"
 msgstr ""
+"Valores são nomes de elemento ExifTool XML.Veja http://www.sno.phy.queensu."
+"ca/~phil/exiftool/metafiles.html#xml"
 
 #: lib/Export/ExportFormats/ExportExifTool.php:134
 msgid "ExifTool must be installed and available!"
-msgstr ""
+msgstr "ExifTool deve estar instalado e disponível!"
 
 #: lib/Export/ExportFormats/ExportExifTool.php:150
 msgid ""
 "%1 is not a valid element for ExifTool exports. It must be in of one of the "
 "ExifTool namespaces."
 msgstr ""
+"%1 não é um elemento válido para exportações ExifTool. Ele deve estar em um "
+"dos namespaces do ExifTool."
 
 #: lib/Export/ExportFormats/ExportExifTool.php:157
 msgid ""
 "ExifTool mappings can't be hierarchical. It looks like element %1 has "
 "children."
 msgstr ""
+"Os mapeamentos ExifTool não podem ser hierárquicos. Parece que o elemento %1 "
+"tem filhos."
 
 #: lib/Export/ExportFormats/ExportJSON.php:41
 msgid "Values are field names."
-msgstr ""
+msgstr "Valores são nomes de campos."
 
 #: lib/Export/ExportFormats/ExportMARC.php:41
 msgid ""
@@ -7402,44 +7584,50 @@ msgid ""
 "further information on how to create a MARC mapping, please refer to the "
 "CollectiveAccess online documentation."
 msgstr ""
+"Valores referenciam uma combinação de marcas de campo MARC 21 e indicadores "
+"associados, separados por uma barra (\"/\"), por exemplo, \"300/##\". Para "
+"mais informações sobre como criar um mapeamento MARC, por favor consulte a "
+"documentação on-line no CollectiveAccess."
 
 #: lib/Export/ExportFormats/ExportMARC.php:140
 msgid "Invalid MARC element definition %1"
-msgstr ""
+msgstr "Definição de elemento MARC inválida %1"
 
 #: lib/Export/ExportFormats/ExportMARC.php:149
 msgid "Invalid tag for MARC data field definition %1"
-msgstr ""
+msgstr "Etiqueta inválida para definição do campo de dados MARC %1"
 
 #: lib/Export/ExportFormats/ExportMARC.php:152
 msgid "Invalid indicator definition for MARC field %1"
-msgstr ""
+msgstr "Indicador inválido para a definição do campo MARC %1"
 
 #: lib/Export/ExportFormats/ExportMARC.php:161
 msgid "Invalid tag for MARC control field definition %1"
-msgstr ""
+msgstr "Etiqueta inválida para a definição do campo de controle MARC %1"
 
 #: lib/Export/ExportFormats/ExportMARC.php:166
 msgid "Invalid top-level MARC element definition %1"
-msgstr ""
+msgstr "Definição de elemento MARC de nível superior inválida %1"
 
 #: lib/Export/ExportFormats/ExportMARC.php:180
 msgid "Mapping element %1 can't have subfields"
-msgstr ""
+msgstr "O elemento de mapeamento %1 não pode ter subcampos"
 
 #: lib/Export/ExportFormats/ExportMARC.php:189
 msgid "Subfield definition %1 is invalid"
-msgstr ""
+msgstr "Definição de sub campo %1 é inválida"
 
 #: lib/Export/ExportFormats/ExportMARC.php:213
 msgid "MARC export output format"
-msgstr ""
+msgstr "Formato de saída de exportação MARC"
 
 #: lib/Export/ExportFormats/ExportMARC.php:214
 msgid ""
 "Set output format. Currently supported: human-readable MARC21, raw MARC for "
 "saving into MARC files and MARCXML."
 msgstr ""
+"Defina o formato de saída. Atualmente suportados: MARC21 legível para "
+"humanos, MARC não formatado para salvar em arquivos MARC e MARCXML."
 
 #: lib/Export/ExportFormats/ExportXML.php:43
 msgid ""
@@ -7447,36 +7635,43 @@ msgid ""
 "elements. The usual restrictions and naming conventions for XML elements and "
 "attributes apply."
 msgstr ""
+"Valores com o prefixo @ referenciam atributos XML. Todos os outros valores "
+"definem elementos XML. As restrições usuais e convenções de nomenclatura "
+"para elementos e atributos XML se aplicam."
 
 #: lib/Export/ExportFormats/ExportXML.php:74
 msgid "XML export formatter: Done processing export tree ..."
 msgstr ""
+"Formatador de exportação XML: Feito o processamento da árvore de "
+"exportação ..."
 
 #: lib/Export/ExportFormats/ExportXML.php:96
 msgid ""
 "XML export formatter: Processing element or attribute '%1' with text '%2' "
 "and parent element '%3' ..."
 msgstr ""
+"Formatador de exportação XML: Processando elemento ou atributo '%1' com "
+"texto '%2' e elemento pai '%3' ..."
 
 #: lib/Export/ExportFormats/ExportXML.php:139
 msgid "XML documents must have exactly one root element"
-msgstr ""
+msgstr "Documentos XML devem ter apenas um elemento de raiz"
 
 #: lib/Export/ExportFormats/ExportXML.php:160
 msgid "Invalid XML attribute name '%1'"
-msgstr ""
+msgstr "Nome inválido para atributo XML '%1'"
 
 #: lib/Export/ExportFormats/ExportXML.php:166
 msgid "XML attribute '%1' doesn't have a valid parent element"
-msgstr ""
+msgstr "Atributo XML '%1' não tem um elemento pai válido"
 
 #: lib/Export/ExportFormats/ExportXML.php:170
 msgid "Invalid XML element name '%1'"
-msgstr ""
+msgstr "Nome de elemento XML inválido '%1'"
 
 #: lib/Export/ExportFormats/ExportXML.php:189
 msgid "Strip CDATA"
-msgstr ""
+msgstr "Remover CDATA"
 
 #: lib/Export/ExportFormats/ExportXML.php:190
 msgid ""
@@ -7485,33 +7680,38 @@ msgid ""
 "content. If this option is set, the exporter explicitly strips the CDATA "
 "tags before returning the XML text. Use only if you know what you're doing!"
 msgstr ""
+"Por padrão o exportador envolve o conteúdo do campo que contém XML inválido "
+"nas seções CDATA para garantir que o XML seja válido independente do "
+"conteúdo do campo. Se essa opção for configurada, o exportador "
+"explicitamente irá remover as etiquetas CDATA antes de retornar o texto XML. "
+"Use somente se você sabe o que está fazendo!"
 
 #: lib/File.php:102 lib/Media.php:202 lib/Media.php:265
 msgid "File type is not supported"
-msgstr ""
+msgstr "Tipo de arquivo não é suportado"
 
 #: lib/HierarchicalReindexingProgress.php:79
 msgid "Rebuilding hierarchical index for %1"
-msgstr ""
+msgstr "Reconstruindo índice hierárquico para %1"
 
 #: lib/HierarchicalReindexingProgress.php:92 lib/Search/SearchIndexer.php:305
 #: lib/SortValueReloadingProgress.php:174
 msgid "Index rebuild complete!"
-msgstr ""
+msgstr "Reconstrução de índice completa!"
 
 #: lib/IDNumbering/MultipartIDNumber.php:455
 #: lib/IDNumbering/SMFMultipartIDNumber.php:252
 msgid "'%1' is not valid for %2"
-msgstr ""
+msgstr "'%1' não é válido para %2"
 
 #: lib/IDNumbering/MultipartIDNumber.php:461
 #: lib/IDNumbering/SMFMultipartIDNumber.php:258
 msgid "'%1' is not valid for %2; only letters and numbers are allowed"
-msgstr ""
+msgstr "'%1' não é válido para %2; são permitidos apenas letras e números"
 
 #: lib/IDNumbering/MultipartIDNumber.php:467
 msgid "%1 must be set to %2; was %3"
-msgstr ""
+msgstr "%1 deve ser definido como %2; estava %3"
 
 #: lib/IDNumbering/MultipartIDNumber.php:473
 #: lib/IDNumbering/MultipartIDNumber.php:498
@@ -7520,7 +7720,7 @@ msgstr ""
 #: lib/IDNumbering/SMFMultipartIDNumber.php:299
 #: lib/IDNumbering/SMFMultipartIDNumber.php:318
 msgid "%1 must not be shorter than %2 character"
-msgstr ""
+msgstr "%1 não deve ter menos que %2 caractere"
 
 #: lib/IDNumbering/MultipartIDNumber.php:475
 #: lib/IDNumbering/MultipartIDNumber.php:500
@@ -7529,7 +7729,7 @@ msgstr ""
 #: lib/IDNumbering/SMFMultipartIDNumber.php:301
 #: lib/IDNumbering/SMFMultipartIDNumber.php:320
 msgid "%1 must not be shorter than %2 characters"
-msgstr ""
+msgstr "%1 não deve ter menos que %2 caracteres"
 
 #: lib/IDNumbering/MultipartIDNumber.php:480
 #: lib/IDNumbering/MultipartIDNumber.php:505
@@ -7538,7 +7738,7 @@ msgstr ""
 #: lib/IDNumbering/SMFMultipartIDNumber.php:306
 #: lib/IDNumbering/SMFMultipartIDNumber.php:325
 msgid "%1 must not be longer than %2 character"
-msgstr ""
+msgstr "%1 não deve ter mais que %2 caractere"
 
 #: lib/IDNumbering/MultipartIDNumber.php:482
 #: lib/IDNumbering/MultipartIDNumber.php:507
@@ -7547,36 +7747,36 @@ msgstr ""
 #: lib/IDNumbering/SMFMultipartIDNumber.php:308
 #: lib/IDNumbering/SMFMultipartIDNumber.php:327
 msgid "%1 must not be longer than %2 characters"
-msgstr ""
+msgstr "%1 não deve ter mais que %2 caracteres"
 
 #: lib/IDNumbering/MultipartIDNumber.php:494
 #: lib/IDNumbering/SMFMultipartIDNumber.php:295
 msgid "%1 must not be more than %2"
-msgstr ""
+msgstr "%1 não deve ser mais do que %2"
 
 #: lib/IDNumbering/MultipartIDNumber.php:513
 #: lib/IDNumbering/SMFMultipartIDNumber.php:314
 msgid "%1 must consist only letters and numbers"
-msgstr ""
+msgstr "%1 deve conter apenas letras e números"
 
 #: lib/IDNumbering/MultipartIDNumber.php:535
 msgid "%1 must be a valid two-digit year"
-msgstr ""
+msgstr "%1 deve ser um ano válido com dois dígitos"
 
 #: lib/IDNumbering/MultipartIDNumber.php:538
 #: lib/IDNumbering/SMFMultipartIDNumber.php:335
 msgid "%1 must be a valid year"
-msgstr ""
+msgstr "%1 deve ser um ano válido"
 
 #: lib/IDNumbering/MultipartIDNumber.php:545
 #: lib/IDNumbering/SMFMultipartIDNumber.php:342
 msgid "%1 must be a valid numeric month (between 1 and 12)"
-msgstr ""
+msgstr "%1 deve ser um mês numérico válido (entre 1 e 12)"
 
 #: lib/IDNumbering/MultipartIDNumber.php:552
 #: lib/IDNumbering/SMFMultipartIDNumber.php:349
 msgid "%1 must be a valid numeric day (between 1 and 31)"
-msgstr ""
+msgstr "%1 deve ser um dia numérico válido (entre 1 e 31)"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1009
 #: lib/IDNumbering/MultipartIDNumber.php:1011
@@ -7587,411 +7787,412 @@ msgstr ""
 #: models/ca_data_importer_log_items.php:76
 #: models/ca_metadata_dictionary_rules.php:111
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1031
 msgid "Value cannot be edited because it is in use"
-msgstr ""
+msgstr "Valor não pode ser editado pois ele está em uso"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1033
 msgid "Changing this value may break parts of the system configuration"
-msgstr ""
+msgstr "Alterar este valor pode quebrar partes da configuração do sistema"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1059
 #: lib/IDNumbering/SMFMultipartIDNumber.php:772
 #: lib/IDNumbering/UUIDNumber.php:238
 msgid "Identifier is already in use"
-msgstr ""
+msgstr "Identificador já está em uso"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1060
 #: lib/IDNumbering/SMFMultipartIDNumber.php:773
 #: lib/IDNumbering/UUIDNumber.php:239
 msgid "Identifier is already in use %1 times"
-msgstr ""
+msgstr "Identificador já está em uso %1 vezes"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1369
 #: lib/IDNumbering/SMFMultipartIDNumber.php:972
 msgid "Will be assigned %1 when saved"
-msgstr ""
+msgstr "Será atribuído %1 quando salvo"
 
 #: lib/IDNumbering/MultipartIDNumber.php:1439 lib/Sync/Replicator.php:437
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: lib/IDNumbering/SMFMultipartIDNumber.php:264
 msgid "%1 must be set to %2"
-msgstr ""
+msgstr "%1 deve ser definido como %2"
 
 #: lib/IDNumbering/UUIDNumber.php:128
 msgid "A value is reuiqred for UUID Versions 3 & 5"
-msgstr ""
+msgstr "Um valor é requerido para UUID Versões 3 & 5"
 
 #: lib/IDNumbering/UUIDNumber.php:131
 msgid "A NamespaceID (root UUID) is required for UUID %1"
-msgstr ""
+msgstr "Um NamespaceID (raiz UUID) é necessário para UUID %1"
 
 #: lib/Import/BaseRefinery.php:90
 msgid "Relationships"
-msgstr ""
+msgstr "Relacionamentos"
 
 #: lib/Import/BaseRefinery.php:91
 msgid "A list (array) of relationships related to the %refinery."
-msgstr ""
+msgstr "Uma lista (array) de relacionamentos relacionados ao %refinery."
 
 #: lib/Import/DataReaders/BaseDelimitedDataReader.php:80
 msgid "Base Delimited data reader"
-msgstr ""
+msgstr "Base de Leitor de Dados Delimitado"
 
 #: lib/Import/DataReaders/BaseDelimitedDataReader.php:81
 msgid "Base delimited data reader"
-msgstr ""
+msgstr "Base dos leitores de dados delimitados"
 
 #: lib/Import/DataReaders/BaseDelimitedDataReader.php:82
 msgid "Provides basic functions for all delimited data readers"
-msgstr ""
+msgstr "Fornece funções básicas para todos os leitores de dados delimitados"
 
 #: lib/Import/DataReaders/BaseXMLDataReader.php:121
 #: lib/Import/DataReaders/BaseXMLDataReader.php:122
 msgid "Base XML data reader"
-msgstr ""
+msgstr "Base de leitor de dados XML"
 
 #: lib/Import/DataReaders/BaseXMLDataReader.php:123
 msgid "Provides basic XML functions for all XML-format data readers"
 msgstr ""
+"Fornece funções básicas de XML para todos os leitores de dados formato XML"
 
 #: lib/Import/DataReaders/CSVDelimitedDataReader.php:54
 msgid "Comma Delimited (CSV) Data Reader"
-msgstr ""
+msgstr "Leitor de Dados Delimitado por Vírgulas (CSV)"
 
 #: lib/Import/DataReaders/CSVDelimitedDataReader.php:55
 msgid "Comma Delimited (CSV)"
-msgstr ""
+msgstr "Delimitado por vírgula (CSV)"
 
 #: lib/Import/DataReaders/CSVDelimitedDataReader.php:56
 msgid "Reads comma delimited (CSV) text files"
-msgstr ""
+msgstr "Lê arquivos de texto delimitados por vírgula (CSV)"
 
 #: lib/Import/DataReaders/CollectiveAccessDataReader.php:64
 msgid "CollectiveAccess data reader"
-msgstr ""
+msgstr "Leitor de Dados do CollectiveAccess"
 
 #: lib/Import/DataReaders/CollectiveAccessDataReader.php:65
 msgid "CollectiveAccess database"
-msgstr ""
+msgstr "Banco de dados CollectiveAccess"
 
 #: lib/Import/DataReaders/CollectiveAccessDataReader.php:66
 msgid "Reads data from CollectiveAccess databases via web services"
-msgstr ""
+msgstr "Lê dados do banco de dados do CollectiveAccess através de serviços web"
 
 #: lib/Import/DataReaders/EADReader.php:94
 msgid "Encoded Archival Description Schema (EAD) XML Reader"
-msgstr ""
+msgstr "Leitor de Encoded Archival Description Schema (EAD) XML"
 
 #: lib/Import/DataReaders/EADReader.php:95
 msgid "Encoded Archival Description Schema (EAD) XML"
-msgstr ""
+msgstr "Encoded Archival Description Schema (EAD) XML"
 
 #: lib/Import/DataReaders/EADReader.php:96
 msgid "Reads Encoded Archival Description Schema (EAD) XML files"
-msgstr ""
+msgstr "Lê arquivos Encoded Archival Description Schema (EAD) XML"
 
 #: lib/Import/DataReaders/ExcelDataReader.php:53
 msgid "Excel XLSX data reader"
-msgstr ""
+msgstr "Leitor de dados Excel XLSX"
 
 #: lib/Import/DataReaders/ExcelDataReader.php:54
 msgid "Excel XLS/XLSX"
-msgstr ""
+msgstr "Excel XLS/XLSX"
 
 #: lib/Import/DataReaders/ExcelDataReader.php:55
 msgid "Reads Microsoft Excel XLSX files"
-msgstr ""
+msgstr "Lê arquivos Microsoft Excel XLSX"
 
 #: lib/Import/DataReaders/ExifDataReader.php:52
 msgid "EXIF data reader"
-msgstr ""
+msgstr "Leitor de dados EXIF"
 
 #: lib/Import/DataReaders/ExifDataReader.php:53
 msgid "Embedded EXIF media metadata"
-msgstr ""
+msgstr "Metadados de mídia EXIF incorporados"
 
 #: lib/Import/DataReaders/ExifDataReader.php:54
 msgid "Reads Embedded EXIF Media Metadata"
-msgstr ""
+msgstr "Lê Metadados de mídia EXIF incorporados"
 
 #: lib/Import/DataReaders/FMPDSOResultReader.php:89
 msgid "FMPro DSOResult XML Reader"
-msgstr ""
+msgstr "Leitor FMPro DSOResult XML"
 
 #: lib/Import/DataReaders/FMPDSOResultReader.php:90
 msgid "FMPro DSOResult"
-msgstr ""
+msgstr "FMPro DSOResult"
 
 #: lib/Import/DataReaders/FMPDSOResultReader.php:91
 msgid "Reads Filemaker Pro DSOResult-format XML files"
-msgstr ""
+msgstr "Lê arquivos Filemaker Pro DSOResult-format XML"
 
 #: lib/Import/DataReaders/FMPXMLResultReader.php:104
 msgid "FMPro XMLResult XML Reader"
-msgstr ""
+msgstr "Leitor FMPro XMLResult XML"
 
 #: lib/Import/DataReaders/FMPXMLResultReader.php:105
 msgid "FMPro XMLResult"
-msgstr ""
+msgstr "FMPro XMLResult"
 
 #: lib/Import/DataReaders/FMPXMLResultReader.php:106
 msgid "Reads Filemaker Pro XMLResult-format XML files"
-msgstr ""
+msgstr "Lê arquivos Filemaker Pro XMLResult-format XML"
 
 #: lib/Import/DataReaders/InmagicReader.php:95
 msgid "Inmagic XML Reader"
-msgstr ""
+msgstr "Leitor Inmagic XML"
 
 #: lib/Import/DataReaders/InmagicReader.php:96
 msgid "Inmagic XML"
-msgstr ""
+msgstr "Inmagic XML"
 
 #: lib/Import/DataReaders/InmagicReader.php:97
 msgid "Reads Inmagic XML files"
-msgstr ""
+msgstr "Lê arquivos Inmagic XML"
 
 #: lib/Import/DataReaders/MARCDataReader.php:52
 msgid "MARC data reader"
-msgstr ""
+msgstr "Leitor de dados MARC"
 
 #: lib/Import/DataReaders/MARCDataReader.php:53
 msgid "MARC"
-msgstr ""
+msgstr "MARC"
 
 #: lib/Import/DataReaders/MARCDataReader.php:54
 msgid "Reads MARC files"
-msgstr ""
+msgstr "Lê arquivos MARC"
 
 #: lib/Import/DataReaders/MARCXMLReader.php:94
 msgid "MARC XML Reader"
-msgstr ""
+msgstr "Leitor de MARC XML"
 
 #: lib/Import/DataReaders/MARCXMLReader.php:95
 msgid "MARC XML"
-msgstr ""
+msgstr "MARC XML"
 
 #: lib/Import/DataReaders/MARCXMLReader.php:96
 msgid "Reads MARC XML files"
-msgstr ""
+msgstr "Lê arquivos MARC XML"
 
 #: lib/Import/DataReaders/MODSReader.php:94
 msgid "Metadata Object Description Schema (MODS) XML Reader"
-msgstr ""
+msgstr "Leitor Metadata Object Description Schema (MODS) XML"
 
 #: lib/Import/DataReaders/MODSReader.php:95
 msgid "Metadata Object Description Schema (MODS) XML"
-msgstr ""
+msgstr "Metadata Object Description Schema (MODS) XML"
 
 #: lib/Import/DataReaders/MODSReader.php:96
 msgid "Reads Metadata Object Description Schema (MODS) XML files"
-msgstr ""
+msgstr "Lê arquivos Metadata Object Description Schema (MODS) XML"
 
 #: lib/Import/DataReaders/MediaBinReader.php:95
 msgid "MediaBin XML Reader"
-msgstr ""
+msgstr "Leitor MediaBin XML"
 
 #: lib/Import/DataReaders/MediaBinReader.php:96
 msgid "MediaBIN XML"
-msgstr ""
+msgstr "MediaBin XML"
 
 #: lib/Import/DataReaders/MediaBinReader.php:97
 msgid "Reads MediaBin XML export files"
-msgstr ""
+msgstr "Lê arquivos de exportação MediaBin XML"
 
 #: lib/Import/DataReaders/MySQLDataReader.php:55
 msgid "MySQL data reader"
-msgstr ""
+msgstr "Leitor de dados MySQL"
 
 #: lib/Import/DataReaders/MySQLDataReader.php:56
 msgid "MySQL database"
-msgstr ""
+msgstr "Banco de dados MySQL"
 
 #: lib/Import/DataReaders/MySQLDataReader.php:57
 msgid "Reads data from MySQL databases"
-msgstr ""
+msgstr "Lê dados do banco de dados MySQL"
 
 #: lib/Import/DataReaders/OmekaReader.php:94
 msgid "Omeka XML Reader"
-msgstr ""
+msgstr "Leitor Omeka XML"
 
 #: lib/Import/DataReaders/OmekaReader.php:95
 msgid "Omeka XML"
-msgstr ""
+msgstr "Omeka XML"
 
 #: lib/Import/DataReaders/OmekaReader.php:96
 msgid "Reads Omeka XML files"
-msgstr ""
+msgstr "Lê arquivos Omeka XML"
 
 #: lib/Import/DataReaders/PBCoreInstDataReader.php:94
 msgid "PBCore Instantiation Reader"
-msgstr ""
+msgstr "Leitor PBCore Instantiation"
 
 #: lib/Import/DataReaders/PBCoreInstDataReader.php:95
 msgid "PBCore Instantiation"
-msgstr ""
+msgstr "PBCore Instantiation"
 
 #: lib/Import/DataReaders/PBCoreInstDataReader.php:96
 msgid "Imports PBCore XML instantiations"
-msgstr ""
+msgstr "Importa instanciações XML do PBCore"
 
 #: lib/Import/DataReaders/PastPerfectXMLReader.php:90
 msgid "PastPerfect XML Reader"
-msgstr ""
+msgstr "Leitor PastPerfect XML"
 
 #: lib/Import/DataReaders/PastPerfectXMLReader.php:91
 msgid "PastPerfect XML"
-msgstr ""
+msgstr "PastPerfect XML"
 
 #: lib/Import/DataReaders/PastPerfectXMLReader.php:92
 msgid "Reads PastPerfect XML files"
-msgstr ""
+msgstr "Lê arquivos PastPerfect XML"
 
 #: lib/Import/DataReaders/RDFReader.php:94
 msgid "RDF (Resource Description Framework / DublinCore) XML Reader"
-msgstr ""
+msgstr "Leitor RDF (Resource Description Framework / DublinCore) XML"
 
 #: lib/Import/DataReaders/RDFReader.php:95
 msgid "RDF XML"
-msgstr ""
+msgstr "RDF XML"
 
 #: lib/Import/DataReaders/RDFReader.php:96
 msgid "Reads RDF XML files"
-msgstr ""
+msgstr "Lê arquivos RDF XML"
 
 #: lib/Import/DataReaders/ResourceSpaceDataReader.php:54
 msgid "ResourceSpace data reader"
-msgstr ""
+msgstr "Leitor de dados do ResourceSpace"
 
 #: lib/Import/DataReaders/ResourceSpaceDataReader.php:55
 msgid "ResourceSpace Media and Metadata"
-msgstr ""
+msgstr "Mídia e Metadados do ResourceSpace"
 
 #: lib/Import/DataReaders/ResourceSpaceDataReader.php:56
 msgid "Reads metadata and file paths from ResourceSpace"
-msgstr ""
+msgstr "Lê metadados e caminhos de arquivos do ResourceSpace"
 
 #: lib/Import/DataReaders/SimpleXMLReader.php:48
 msgid "Simple XML Reader"
-msgstr ""
+msgstr "Leitor Simple XML"
 
 #: lib/Import/DataReaders/SimpleXMLReader.php:49
 msgid "Simple XML"
-msgstr ""
+msgstr "Simple XML"
 
 #: lib/Import/DataReaders/SimpleXMLReader.php:50
 msgid "Reads Simple XML files"
-msgstr ""
+msgstr "Lê arquivos Simple XML"
 
 #: lib/Import/DataReaders/TEIReader.php:94
 msgid "Text Encoding Initiative (TEI) XML Reader"
-msgstr ""
+msgstr "Leitor de Text Encoding Initiative (TEI) XML"
 
 #: lib/Import/DataReaders/TEIReader.php:95
 msgid "Text Encoding Initiative (TEI) XML"
-msgstr ""
+msgstr "Text Encoding Initiative (TEI) XML"
 
 #: lib/Import/DataReaders/TEIReader.php:96
 msgid "Reads Text Encoding Initiative (TEI) XML files"
-msgstr ""
+msgstr "Lê arquivos Text Encoding Initiative (TEI) XML"
 
 #: lib/Import/DataReaders/TabDelimitedDataReader.php:54
 msgid "Tab delimited Data Reader"
-msgstr ""
+msgstr "Leitor de dados delimitados por tabulação"
 
 #: lib/Import/DataReaders/TabDelimitedDataReader.php:56
 msgid "Reads tab delimited text files"
-msgstr ""
+msgstr "Lê arquivos de texto delimitados por tabulação"
 
 #: lib/Import/DataReaders/ULANDataReader.php:103
 msgid "ULAN data reader"
-msgstr ""
+msgstr "Leitor de dados ULAN"
 
 #: lib/Import/DataReaders/ULANDataReader.php:104
 msgid "ULAN"
-msgstr ""
+msgstr "ULAN"
 
 #: lib/Import/DataReaders/ULANDataReader.php:105
 msgid "Reads data from ULAN via linked open data service"
-msgstr ""
+msgstr "Lê dados da ULAN via serviço de dados abertos vinculados"
 
 #: lib/Import/DataReaders/VernonDataReader.php:94
 msgid "Vernon XML Reader"
-msgstr ""
+msgstr "Leitor Vernon XML"
 
 #: lib/Import/DataReaders/VernonDataReader.php:95
 msgid "Vernon XML"
-msgstr ""
+msgstr "Vernon XML"
 
 #: lib/Import/DataReaders/VernonDataReader.php:96
 msgid "Reads Vernon XML files"
-msgstr ""
+msgstr "Lê arquivos XML Vernon"
 
 #: lib/Import/DataReaders/WordpressRSSReader.php:94
 msgid "Wordpress RSS Reader"
-msgstr ""
+msgstr "Leitor Wordpress RSS"
 
 #: lib/Import/DataReaders/WordpressRSSReader.php:95
 msgid "Wordpress RSS"
-msgstr ""
+msgstr "Wordpress RSS"
 
 #: lib/Import/DataReaders/WordpressRSSReader.php:96
 msgid "Reads Wordpress RSS (XML) files"
-msgstr ""
+msgstr "Lê arquivos Wordpress RSS (XML)"
 
 #: lib/Import/DataReaders/WorldCatDataReader.php:127
 msgid "WorldCat data reader"
-msgstr ""
+msgstr "Leitor de dados WorldCat"
 
 #: lib/Import/DataReaders/WorldCatDataReader.php:128
 msgid "WorldCat"
-msgstr ""
+msgstr "WorldCat"
 
 #: lib/Import/DataReaders/WorldCatDataReader.php:129
 msgid "Reads data from WorldCat via web services"
-msgstr ""
+msgstr "Lê dados do WorldCat através de serviços web"
 
 #: lib/LabelableBaseModelWithAttributes.php:1947
 msgid "Label must not be blank"
-msgstr ""
+msgstr "A etiqueta não pode ficar em branco"
 
 #: lib/Media.php:85
 msgid "Cannot open media plugin directory %1"
-msgstr ""
+msgstr "Não é possível abrir o diretório do plug-in de mídia %1"
 
 #: lib/Media.php:536
 msgid "No media available"
-msgstr ""
+msgstr "Nenhuma mídia disponível"
 
 #: lib/Media.php:546
 msgid "Could not find plug-in for mimetype %1"
-msgstr ""
+msgstr "Não foi possível encontrar o plug-in para o formato %1"
 
 #: lib/Media/BaseMediaViewer.php:100
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 de %2"
 
 #: lib/Media/BaseMediaViewer.php:118
 msgid "Download as %1"
-msgstr ""
+msgstr "Baixar como %1"
 
 #: lib/Media/BaseMediaViewer.php:128
 msgid "Download all"
-msgstr ""
+msgstr "Baixar tudo"
 
 #: lib/Media/BaseMediaViewer.php:145
 #: lib/Media/MediaViewers/UniversalViewer.php:181
 msgid "Media search is not available"
-msgstr ""
+msgstr "Pesquisa de mídia não está disponível"
 
 #: lib/Media/BaseMediaViewer.php:152
 #: lib/Media/MediaViewers/UniversalViewer.php:217
 msgid "Media search autocomplete is not available"
-msgstr ""
+msgstr "O preenchimento automático da pesquisa de mídia não está disponível"
 
 #: lib/Media/MediaViewers/MediaElement.php:107
 #: lib/Media/MediaViewers/QTVR.php:93 lib/Media/MediaViewers/Spin360.php:91
@@ -7999,103 +8200,107 @@ msgstr ""
 #: lib/Media/MediaViewers/TileViewer.php:129
 #: lib/Media/MediaViewers/VideoJS.php:112
 msgid "Could not load viewer"
-msgstr ""
+msgstr "Não foi possível carregar o visualizador"
 
 #: lib/Media/MediaViewers/MediaElement.php:114
 #: lib/Media/MediaViewers/QTVR.php:100 lib/Media/MediaViewers/ThreeJS.php:114
 #: lib/Media/MediaViewers/TileViewer.php:136
 #: lib/Media/MediaViewers/VideoJS.php:119
 msgid "No data"
-msgstr ""
+msgstr "Sem dados"
 
 #: lib/Media/MediaViewers/Mirador.php:94 lib/Media/MediaViewers/Mirador.php:124
 #: lib/Media/MediaViewers/UniversalViewer.php:85
 msgid "Could not derive media dimensions"
-msgstr ""
+msgstr "Não foi possível derivar dimensões de mídia"
 
 #: lib/Media/MediaViewers/Mirador.php:182
 #: lib/Media/MediaViewers/UniversalViewer.php:128
 msgid "Media manifest is not available"
-msgstr ""
+msgstr "O manifesto de mídia não está disponível"
 
 #: lib/Media/MediaViewers/Spin360.php:120
 msgid "Media is not available"
-msgstr ""
+msgstr "Mídia não está disponível"
 
 #: lib/Media/Remote/Base.php:108
 msgid "Cannot open remote URL [%1] to fetch media"
-msgstr ""
+msgstr "Não é possível abrir URL remoto [%1] para buscar mídia"
 
 #: lib/Media/Remote/Base.php:113
 msgid "Cannot open temporary file for media fetched from URL [%1]"
 msgstr ""
+"Não é possível abrir o arquivo temporário para mídia buscada do URL [%1]"
 
 #: lib/Media/Remote/Flickr.php:55
 msgid "Could not get image list for given Flickr ID %1"
 msgstr ""
+"Não foi possível obter a lista de imagens para o ID do Flickr fornecido %1"
 
 #: lib/Media/Remote/Flickr.php:61
 msgid "Could not get source image for Flickr ID %1"
-msgstr ""
+msgstr "Não foi possível obter a imagem de origem para o Flickr ID %1"
 
 #: lib/Media/Remote/Flickr.php:118
 msgid "Could not get image info for given Flickr ID %1"
-msgstr ""
+msgstr "Não foi possível obter a informação da imagem para o Flickr ID %1"
 
 #: lib/Media/Remote/Flickr.php:122
 msgid "Could not get title for given Flickr ID %1"
-msgstr ""
+msgstr "Não foi possível obter título para o Flickr ID %1"
 
 #: lib/MediaContentLocationIndexer.php:170
 msgid "Invalid row %2 for table %1"
-msgstr ""
+msgstr "Linha inválida %2 para a tabela %1"
 
 #: lib/MediaContentLocationIndexer.php:173
 msgid "Invalid field %2 for table %1"
-msgstr ""
+msgstr "Campo inválido %2 para a tabela %1"
 
 #: lib/MediaReplicator.php:61 lib/MediaReplicator.php:77
 #: lib/MediaReplicator.php:92 lib/MediaReplicator.php:106
 msgid "Replication plugin %1 does not exist"
-msgstr ""
+msgstr "O plugin de replicação %1 não existe"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:118
 msgid "Notification template"
-msgstr ""
+msgstr "Modelo de notificação"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:120
 msgid ""
 "Message for the alert notification sent to users. This is a display template "
 "with access to all metadata in the affected record."
 msgstr ""
+"Mensagem para a notificação de alerta enviada aos usuários. Este é um modelo "
+"de exibição com acesso a todos os metadados no registro afetado."
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:126
 msgid "by email"
-msgstr ""
+msgstr "por email"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:126
 msgid "to dashboard"
-msgstr ""
+msgstr "para o painel"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:128
 msgid "Deliver notifications"
-msgstr ""
+msgstr "Entregar notificações"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:129
 msgid "Choose methods to deliver notifications here."
-msgstr ""
+msgstr "Escolha os métodos para entregar notificações aqui."
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:179
 msgid "Metadata alert rule '%1' triggered for record %2"
-msgstr ""
+msgstr "Regra de alerta de metadados '%1' acionada para o registro %2"
 
 #: lib/MetadataAlerts/TriggerTypes/Base.php:224
 msgid "Modification"
-msgstr ""
+msgstr "Modificação"
 
 #: lib/MetadataAlerts/TriggerTypes/Date.php:51
 msgid "Notify user"
-msgstr ""
+msgstr "Notificar usuário"
 
 #: lib/MetadataAlerts/TriggerTypes/Date.php:53
 msgid ""
@@ -8103,142 +8308,145 @@ msgid ""
 "Note that if the event is a date range, the trigger will fire before the "
 "beginning of the range or after the end of the range."
 msgstr ""
+"Defina um intervalo antes ou depois de um evento para acionar uma "
+"notificação. Observe que, se o evento for um intervalo de datas, o acionador "
+"será disparado antes do início do intervalo ou após o término do intervalo."
 
 #: lib/MetadataAlerts/TriggerTypes/Modification.php:130
 msgid "Identifer (idno)"
-msgstr ""
+msgstr "Identificador (idno)"
 
 #: lib/ObjectRelationshipBaseModel.php:45
 msgid "Media representation chooser"
-msgstr ""
+msgstr "Seletor de representação de mídia"
 
 #: lib/Parsers/DisplayTemplateParser.php:1382
 msgid "Cannot be path between %1 and %2"
-msgstr ""
+msgstr "Não pode haver caminho entre %1 e %2"
 
 #: lib/Parsers/ExpressionParser/ExpressionVisitor.php:69
 msgid "Invalid number of arguments. Number of arguments passed: %1"
-msgstr ""
+msgstr "Número inválido de argumentos. Número de argumentos passados: %1"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:108
 msgid "Mimetype of file"
-msgstr ""
+msgstr "Tipo de arquivo"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:113
 msgid "Creation date"
-msgstr ""
+msgstr "Data de criação"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:118
 msgid "Copyright Information URL"
-msgstr ""
+msgstr "URL de informação de Direitos Autorais"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:123
 msgid "Document title"
-msgstr ""
+msgstr "Título do documento"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:128
 msgid "Document description"
-msgstr ""
+msgstr "Descrição do documento"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:133
 msgid "Copyright notice"
-msgstr ""
+msgstr "Aviso de Direitos Autorais"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:138
 msgid "Is under copyright?"
-msgstr ""
+msgstr "Está sob direitos autorais?"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:143
 msgid "Document creator"
-msgstr ""
+msgstr "Autor do documento"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:153
 msgid "Creator address"
-msgstr ""
+msgstr "Endereço do autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:158
 msgid "Creator city"
-msgstr ""
+msgstr "Cidade do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:163
 msgid "Creator state/region"
-msgstr ""
+msgstr "Região/Estado do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:168
 msgid "Creator postal code"
-msgstr ""
+msgstr "Código Postal do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:173
 msgid "Creator country"
-msgstr ""
+msgstr "País do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:178
 msgid "Creator phone"
-msgstr ""
+msgstr "Telefone do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:183
 msgid "Creator email"
-msgstr ""
+msgstr "Email do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:188
 msgid "Creator website"
-msgstr ""
+msgstr "Site do Autor"
 
 #: lib/Parsers/MediaMetadata/XMPParser.php:193
 msgid "Description writer"
-msgstr ""
+msgstr "Autor da descrição"
 
 #: lib/Parsers/TimeExpressionParser.php:189
 msgid "No error"
-msgstr ""
+msgstr "Sem erros"
 
 #: lib/Parsers/TimeExpressionParser.php:189
 msgid "Start must be before date in range"
-msgstr ""
+msgstr "O início deve ser antes da data no intervalo"
 
 #: lib/Parsers/TimeExpressionParser.php:189
 msgid "Invalid date"
-msgstr ""
+msgstr "Data inválida"
 
 #: lib/Parsers/TimeExpressionParser.php:189
 msgid "Invalid time"
-msgstr ""
+msgstr "Hora inválida"
 
 #: lib/Parsers/TimeExpressionParser.php:190
 msgid "Invalid uncertainty"
-msgstr ""
+msgstr "Incerteza inválida"
 
 #: lib/Parsers/TimeExpressionParser.php:190
 msgid "Uncertainty must not exceed 9 digits"
-msgstr ""
+msgstr "Incerteza não pode ultrapassar os 9 digitos"
 
 #: lib/Parsers/TimeExpressionParser.php:190
 msgid "Invalid expression"
-msgstr ""
+msgstr "Expressão inválida"
 
 #: lib/Parsers/TimeExpressionParser.php:191
 msgid "Trailing characters in otherwise valid expression"
-msgstr ""
+msgstr "Carateres à direita da expressão que estaria de outra forma válida"
 
 #: lib/Parsers/TimeExpressionParser.php:191
 msgid "Parser error"
-msgstr ""
+msgstr "Erro do analisador"
 
 #: lib/Plugins/CurrencyConversion/EuroBank.php:45
 msgid "Converts currency using European bank rates available at %1"
-msgstr ""
+msgstr "Converte moeda usando as taxas bancárias europeias disponíveis em %1"
 
 #: lib/Plugins/CurrencyConversion/EuroBank.php:88
 msgid "Cannot convert %1 to %2"
-msgstr ""
+msgstr "Não é possível converter %1 para %2"
 
 #: lib/Plugins/CurrencyConversion/EuroBank.php:159
 msgid "Cannot parse data from %1"
-msgstr ""
+msgstr "Não é possível analisar dados de %1"
 
 #: lib/Plugins/CurrencyConversion/EuroBank.php:174
 msgid "Cannot fetch data from %1"
-msgstr ""
+msgstr "Não é possível buscar dados de %1"
 
 #: lib/Plugins/GeographicMap/BaseGeographicMapPlugin.php:138
 #: lib/Plugins/InformationService/BaseInformationServicePlugin.php:132
@@ -8252,75 +8460,76 @@ msgstr ""
 #: lib/Plugins/PDFRenderer/BasePDFRendererPlugin.php:137
 #: lib/Plugins/Visualizer/BaseVisualizerPlugin.php:138
 msgid "Can't set property %1"
-msgstr ""
+msgstr "Não é possível definir a propriedade %1"
 
 #: lib/Plugins/GeographicMap/GoogleMaps.php:50
 msgid "Generates maps using the GoogleMaps API"
-msgstr ""
+msgstr "Gera mapas usando a API do GoogleMaps"
 
 #: lib/Plugins/GeographicMap/GoogleMaps.php:377
 #: lib/Plugins/GeographicMap/GoogleMaps.php:392
 msgid "Search for geographic location"
-msgstr ""
+msgstr "Pesquisa de localização geográfica"
 
 #: lib/Plugins/GeographicMap/GoogleMaps.php:379
 #: lib/Plugins/GeographicMap/OpenLayers.php:423
 msgid "Upload KML file"
-msgstr ""
+msgstr "Carregar arquivo KML"
 
 #: lib/Plugins/GeographicMap/GoogleMaps.php:383
 #: lib/Plugins/GeographicMap/OpenLayers.php:428
 msgid "Select KML or KMZ file"
-msgstr ""
+msgstr "Selecionar arquivo KML ou KMZ"
 
 #: lib/Plugins/GeographicMap/GoogleMaps.php:383
 #: lib/Plugins/GeographicMap/OpenLayers.php:428
 msgid "Use map"
-msgstr ""
+msgstr "Utilizar mapa"
 
 #: lib/Plugins/GeographicMap/Leaflet.php:50
 msgid "Generates maps using the Leaflet JS Library"
-msgstr ""
+msgstr "Gera mapas usando a biblioteca do Leaflet JS"
 
 #: lib/Plugins/GeographicMap/Leaflet.php:359
 msgid "Go"
-msgstr ""
+msgstr "Ir"
 
 #: lib/Plugins/GeographicMap/OpenLayers.php:50
 msgid "Generates maps using the OpenLayers API"
-msgstr ""
+msgstr "Gera mapas usando a API OpenLayers"
 
 #: lib/Plugins/GeographicMap/OpenLayers.php:296
 msgid "Loading..."
-msgstr ""
+msgstr "Carregando..."
 
 #: lib/Plugins/GeographicMap/OpenLayers.php:521
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: lib/Plugins/InformationService/AAT.php:53
 msgid "Provides access to Getty Linked Open Data AAT service"
-msgstr ""
+msgstr "Fornece acesso ao serviço do Getty Linked Open Data AAT"
 
 #: lib/Plugins/InformationService/ALANSL.php:54
 msgid "APC - Australian Plant Census"
-msgstr ""
+msgstr "APC - Australian Plant Census (Censo Australiano de Plantas)"
 
 #: lib/Plugins/InformationService/ALANSL.php:55
 msgid "APNI - Australian Plant Name Index"
 msgstr ""
+"APNI - Australian Plant Name Index (Índice de Nomes de Plantas Australiano"
 
 #: lib/Plugins/InformationService/ALANSL.php:59
 msgid "Extra Information Format"
-msgstr ""
+msgstr "Formato de informação extra"
 
 #: lib/Plugins/InformationService/ALANSL.php:60
 msgid "The format that the extra information displayed on the page comes in"
-msgstr ""
+msgstr "O formato que a informação extra exibida na página vêm"
 
 #: lib/Plugins/InformationService/ALANSL.php:66
 msgid "Index Fields"
-msgstr ""
+msgstr "Campos de Índice"
 
 #: lib/Plugins/InformationService/ALANSL.php:67
 msgid ""
@@ -8354,11 +8563,11 @@ msgstr ""
 #: models/ca_editor_uis.php:84 models/ca_metadata_type_restrictions.php:87
 #: models/ca_objects.php:52 models/ca_search_forms.php:94
 msgid "objects"
-msgstr ""
+msgstr "objetos"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:59
 msgid "lots"
-msgstr ""
+msgstr "conjuntos"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:60
 #: models/ca_bookmarks.php:67 models/ca_bundle_displays.php:88
@@ -8366,7 +8575,7 @@ msgstr ""
 #: models/ca_editor_uis.php:86 models/ca_entities.php:43
 #: models/ca_metadata_type_restrictions.php:89 models/ca_search_forms.php:96
 msgid "entities"
-msgstr ""
+msgstr "entidades"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:61
 #: models/ca_bookmarks.php:68 models/ca_bundle_displays.php:89
@@ -8374,7 +8583,7 @@ msgstr ""
 #: models/ca_editor_uis.php:87 models/ca_metadata_type_restrictions.php:90
 #: models/ca_places.php:45 models/ca_search_forms.php:97
 msgid "places"
-msgstr ""
+msgstr "locais"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:62
 #: models/ca_bookmarks.php:69 models/ca_bundle_displays.php:90
@@ -8383,7 +8592,7 @@ msgstr ""
 #: models/ca_objects.php:185 models/ca_occurrences.php:44
 #: models/ca_search_forms.php:98
 msgid "occurrences"
-msgstr ""
+msgstr "ocorrências"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:63
 #: models/ca_bookmarks.php:70 models/ca_bundle_displays.php:91
@@ -8391,7 +8600,7 @@ msgstr ""
 #: models/ca_data_importers.php:86 models/ca_editor_uis.php:89
 #: models/ca_metadata_type_restrictions.php:92 models/ca_search_forms.php:99
 msgid "collections"
-msgstr ""
+msgstr "coleções"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:64
 #: models/ca_bookmarks.php:71 models/ca_bundle_displays.php:92
@@ -8399,7 +8608,7 @@ msgstr ""
 #: models/ca_editor_uis.php:90 models/ca_objects.php:186
 #: models/ca_search_forms.php:100 models/ca_storage_locations.php:45
 msgid "storage locations"
-msgstr ""
+msgstr "locais de armazenamento"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:65
 #: models/ca_bookmarks.php:72 models/ca_bundle_displays.php:93
@@ -8408,7 +8617,7 @@ msgstr ""
 #: models/ca_metadata_type_restrictions.php:94 models/ca_objects.php:187
 #: models/ca_search_forms.php:101
 msgid "loans"
-msgstr ""
+msgstr "empréstimos"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:66
 #: models/ca_bookmarks.php:73 models/ca_bundle_displays.php:94
@@ -8419,7 +8628,7 @@ msgstr ""
 #: models/ca_movements.php:44 models/ca_objects.php:188
 #: models/ca_search_forms.php:102
 msgid "movements"
-msgstr ""
+msgstr "movimentações"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:67
 #: models/ca_bookmarks.php:78 models/ca_bundle_displays.php:100
@@ -8427,11 +8636,11 @@ msgstr ""
 #: models/ca_editor_uis.php:100 models/ca_list_items.php:46
 #: models/ca_metadata_type_restrictions.php:101
 msgid "list items"
-msgstr ""
+msgstr "lista de itens"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:70
 msgid "Item type"
-msgstr ""
+msgstr "Tipo de item"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:71
 msgid "Type of item to query for."
@@ -8440,7 +8649,7 @@ msgstr ""
 #: lib/Plugins/InformationService/CollectiveAccess.php:78
 #: models/ca_users.php:63
 msgid "User name"
-msgstr ""
+msgstr "Nome de usuário"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:79
 msgid "User name to authenticate with on remote system."
@@ -8449,7 +8658,7 @@ msgstr ""
 #: lib/Plugins/InformationService/CollectiveAccess.php:86
 #: models/ca_users.php:83
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:87
 msgid "Password to authenticate with on remote system."
@@ -8501,7 +8710,7 @@ msgstr ""
 #: lib/Plugins/InformationService/Pella.php:137
 #: lib/Plugins/InformationService/Seleucid.php:137
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: lib/Plugins/InformationService/EOL.php:146
 msgid "EOL Identifier"
@@ -9445,7 +9654,7 @@ msgstr ""
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:89
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:91
 msgid "Table %1 is invalid"
-msgstr ""
+msgstr "Tabela %1 não é válida"
 
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:99
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:101
@@ -9463,20 +9672,20 @@ msgstr ""
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:86
 msgid "Input format"
-msgstr ""
+msgstr "Formato de entrada"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:91
 msgid "Input file size"
-msgstr ""
+msgstr "Tamanho do arquivo de entrada"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:96
 #: models/ca_data_exporter_items.php:86 models/ca_data_importer_items.php:77
 msgid "Data source"
-msgstr ""
+msgstr "Fonte dos dados"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:100
 msgid "Temporary filename"
-msgstr ""
+msgstr "Nome de arquivo temporário"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:106
 msgid "Versions output"
@@ -9613,68 +9822,68 @@ msgstr ""
 
 #: lib/RepresentationAnnotationPropertyCoders/ImageRepresentationAnnotationCoder.php:124
 msgid "Invalid numeric value '%1' for %2"
-msgstr ""
+msgstr "Valor numérico inválido '%1' para %2"
 
 #: lib/RepresentationAnnotationPropertyCoders/TimeBasedRepresentationAnnotationCoder.php:99
 msgid "Invalid timecode '%1' for %2"
-msgstr ""
+msgstr "Timecode inválido '%1' para %2"
 
 #: lib/RepresentationAnnotationPropertyCoders/TimeBasedRepresentationAnnotationCoder.php:104
 msgid "Invalid property '%1'"
-msgstr ""
+msgstr "Propriedade inválida '%1'"
 
 #: lib/RepresentationAnnotationPropertyCoders/TimeBasedRepresentationAnnotationCoder.php:141
 msgid "Start must be less than end"
-msgstr ""
+msgstr "O início deve ser menor que o fim"
 
 #: lib/Search/QuickSearch.php:50 models/ca_metadata_alert_rules.php:76
 #: models/ca_set_items.php:65 models/ca_sets.php:91 models/ca_user_sorts.php:59
 msgid "Objects"
-msgstr ""
+msgstr "Objetos"
 
 #: lib/Search/QuickSearch.php:51 models/ca_metadata_alert_rules.php:77
 #: models/ca_set_items.php:66 models/ca_sets.php:92 models/ca_user_sorts.php:60
 msgid "Object lots"
-msgstr ""
+msgstr "Conjuntos de objetos"
 
 #: lib/Search/QuickSearch.php:54 models/ca_metadata_alert_rules.php:80
 #: models/ca_set_items.php:69 models/ca_sets.php:95 models/ca_user_sorts.php:63
 msgid "Occurrences"
-msgstr ""
+msgstr "Ocorrências"
 
 #: lib/Search/QuickSearch.php:55 models/ca_metadata_alert_rules.php:82
 #: models/ca_set_items.php:71 models/ca_sets.php:97
 #: models/ca_storage_locations.php:401 models/ca_storage_locations.php:413
 #: models/ca_user_sorts.php:65
 msgid "Storage locations"
-msgstr ""
+msgstr "Locais de armazenamento"
 
 #: lib/Search/QuickSearch.php:56 models/ca_metadata_alert_rules.php:84
 #: models/ca_set_items.php:73 models/ca_sets.php:99 models/ca_user_sorts.php:67
 msgid "Loans"
-msgstr ""
+msgstr "Empréstimos"
 
 #: lib/Search/QuickSearch.php:57 models/ca_metadata_alert_rules.php:85
 #: models/ca_set_items.php:74 models/ca_sets.php:100
 #: models/ca_user_sorts.php:68
 msgid "Movements"
-msgstr ""
+msgstr "Movimentações"
 
 #: lib/Search/QuickSearch.php:58 models/ca_metadata_alert_rules.php:87
 #: models/ca_set_items.php:76 models/ca_sets.php:102
 #: models/ca_user_sorts.php:70
 msgid "Tours"
-msgstr ""
+msgstr "Visitas guiadas"
 
 #: lib/Search/QuickSearch.php:59 models/ca_metadata_alert_rules.php:88
 #: models/ca_set_items.php:77 models/ca_sets.php:103 models/ca_tours.php:280
 #: models/ca_user_sorts.php:71
 msgid "Tour stops"
-msgstr ""
+msgstr "Paragens da visita guiada"
 
 #: lib/Search/SearchEngine.php:1195
 msgid "%1 [as %2]"
-msgstr ""
+msgstr "%1 [como %2]"
 
 #: lib/Search/SearchIndexer.php:179
 msgid ""
@@ -9798,15 +10007,15 @@ msgstr ""
 
 #: lib/Service/OAIPMHService.php:325
 msgid "Identifier is empty"
-msgstr ""
+msgstr "Identificador está vazio"
 
 #: lib/Service/OAIPMHService.php:337 lib/Service/OAIPMHService.php:347
 msgid "Identifier is invalid"
-msgstr ""
+msgstr "Identificador é inválido"
 
 #: lib/Service/OAIPMHService.php:354
 msgid "Identifier is deleted"
-msgstr ""
+msgstr "Identificador está excluído"
 
 #: lib/Service/OAIPMHService.php:409
 msgid "No sets are available"
@@ -9818,7 +10027,7 @@ msgstr ""
 
 #: lib/Service/OAIPMHService.php:517
 msgid "Query failed"
-msgstr ""
+msgstr "Consulta falhou"
 
 #: lib/Service/OAIPMHService.php:524
 msgid "No records match the given criteria"
@@ -9838,11 +10047,11 @@ msgstr ""
 
 #: lib/Service/OAIPMHService.php:748
 msgid "Unknown parameter %1"
-msgstr ""
+msgstr "Parâmetro desconhecido %1"
 
 #: lib/Service/OAIPMHService.php:758 lib/Service/OAIPMHService.php:761
 msgid "Invalid date/time parameter"
-msgstr ""
+msgstr "Parâmetro de data/hora inválido"
 
 #: lib/Service/OAIPMHService.php:764
 msgid "Date/time parameter of differing granularity"
@@ -9850,11 +10059,11 @@ msgstr ""
 
 #: lib/Service/OAIPMHService.php:767
 msgid "Invalid format configuration"
-msgstr ""
+msgstr "Formato de configuração inválido"
 
 #: lib/Service/OAIPMHService.php:772
 msgid "Unknown format %1"
-msgstr ""
+msgstr "Formato desconhecido %1"
 
 #: lib/Service/OAIPMHService.php:779
 msgid "Selected mapping %1 is invalid"
@@ -9894,11 +10103,11 @@ msgstr ""
 
 #: lib/Service/SearchJSONService.php:99
 msgid "Invalid table"
-msgstr ""
+msgstr "Tabela inválida"
 
 #: lib/SortValueReloadingProgress.php:156
 msgid "Representation"
-msgstr ""
+msgstr "Representação"
 
 #: lib/Sync/LogEntry/Attribute.php:54
 msgid "Could not find element with code '%1' on target system."
@@ -10307,55 +10516,55 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:102
 msgid "Processing locales"
-msgstr ""
+msgstr "Processando localizações"
 
 #: lib/Utils/CLIUtils.php:105
 msgid "Processing lists"
-msgstr ""
+msgstr "Processando listas"
 
 #: lib/Utils/CLIUtils.php:108
 msgid "Processing relationship types"
-msgstr ""
+msgstr "Processando tipos de relacionamento"
 
 #: lib/Utils/CLIUtils.php:111
 msgid "Processing metadata elements"
-msgstr ""
+msgstr "Processando elementos de metadados"
 
 #: lib/Utils/CLIUtils.php:114
 msgid "Processing metadata dictionary"
-msgstr ""
+msgstr "Processando dicionário de metadados"
 
 #: lib/Utils/CLIUtils.php:118
 msgid "Processing access roles"
-msgstr ""
+msgstr "Processando perfis de acesso"
 
 #: lib/Utils/CLIUtils.php:122
 msgid "Processing user groups"
-msgstr ""
+msgstr "Processando grupos de usuários"
 
 #: lib/Utils/CLIUtils.php:125
 msgid "Processing user logins"
-msgstr ""
+msgstr "Processando acessos de usuários"
 
 #: lib/Utils/CLIUtils.php:128
 msgid "Processing user interfaces"
-msgstr ""
+msgstr "Processando interfaces de usuário"
 
 #: lib/Utils/CLIUtils.php:131
 msgid "Processing displays"
-msgstr ""
+msgstr "Processando visualizações"
 
 #: lib/Utils/CLIUtils.php:134
 msgid "Processing search forms"
-msgstr ""
+msgstr "Processando formulários de pesquisa"
 
 #: lib/Utils/CLIUtils.php:137
 msgid "Setting up hierarchies"
-msgstr ""
+msgstr "Configurando hierarquias"
 
 #: lib/Utils/CLIUtils.php:140
 msgid "Processing metadata alerts"
-msgstr ""
+msgstr "Processando alertas de metadados"
 
 #: lib/Utils/CLIUtils.php:143
 msgid "Performing post install tasks"
@@ -10363,11 +10572,11 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:146
 msgid "Installation complete"
-msgstr ""
+msgstr "Instalação completa"
 
 #: lib/Utils/CLIUtils.php:148
 msgid "Installation took %1 seconds"
-msgstr ""
+msgstr "Instalação demorou %1 segundos"
 
 #: lib/Utils/CLIUtils.php:152
 msgid ""
@@ -10377,7 +10586,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:165
 msgid "username %1 and password %2"
-msgstr ""
+msgstr "nome de usuário %1 e senha %2"
 
 #: lib/Utils/CLIUtils.php:160
 msgid ""
@@ -10433,7 +10642,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:199 lib/Utils/CLIUtils.php:224
 #: lib/Utils/CLIUtils.php:701 lib/Utils/CLIUtils.php:4031
 msgid "Configuration"
-msgstr ""
+msgstr "Configuração"
 
 #: lib/Utils/CLIUtils.php:206
 msgid ""
@@ -10516,11 +10725,11 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:330 lib/Utils/CLIUtils.php:2755
 #: lib/Utils/CLIUtils.php:2876
 msgid "Processing %1"
-msgstr ""
+msgstr "Processando %1"
 
 #: lib/Utils/CLIUtils.php:343
 msgid "Processing %1 identifiers"
-msgstr ""
+msgstr "Processando %1 identificadores"
 
 #: lib/Utils/CLIUtils.php:369 lib/Utils/CLIUtils.php:469
 #: lib/Utils/CLIUtils.php:549 lib/Utils/CLIUtils.php:632
@@ -10536,7 +10745,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:4198 lib/Utils/CLIUtils.php:4670
 #: lib/Utils/CLIUtils.php:4788 lib/Utils/CLIUtils.php:4832
 msgid "Maintenance"
-msgstr ""
+msgstr "Manutenção"
 
 #: lib/Utils/CLIUtils.php:376
 msgid ""
@@ -10568,31 +10777,31 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:418
 msgid "Reading file list"
-msgstr ""
+msgstr "Lendo lista de arquivos"
 
 #: lib/Utils/CLIUtils.php:425
 msgid "Finding unused files"
-msgstr ""
+msgstr "Procurando arquivos não utilizados"
 
 #: lib/Utils/CLIUtils.php:440
 msgid "There are %1 files total"
-msgstr ""
+msgstr "Existem %1 arquivos no total"
 
 #: lib/Utils/CLIUtils.php:449
 msgid "%1 file (%2) was deleted"
-msgstr ""
+msgstr "%1 arquivo (%2) foi excluído"
 
 #: lib/Utils/CLIUtils.php:449
 msgid "%1 file (%2) is unused"
-msgstr ""
+msgstr "%1 arquivo (%2) não é utilizado"
 
 #: lib/Utils/CLIUtils.php:451
 msgid "%1 files (%2) were deleted"
-msgstr ""
+msgstr "%1 arquivos (%2) foram excluídos"
 
 #: lib/Utils/CLIUtils.php:451
 msgid "%1 files (%2) are unused"
-msgstr ""
+msgstr "%1arquivos (%2) não são utilizados"
 
 #: lib/Utils/CLIUtils.php:461
 msgid "Delete unused files. Default is false."
@@ -10606,7 +10815,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:483
 msgid "Help text to come"
-msgstr ""
+msgstr "Texto de ajuda a ser providenciado"
 
 #: lib/Utils/CLIUtils.php:503
 msgid "Removing deleted representations from database"
@@ -10618,7 +10827,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:527 lib/Utils/CLIUtils.php:613
 msgid "Done!"
-msgstr ""
+msgstr "Feito!"
 
 #: lib/Utils/CLIUtils.php:529
 msgid "There are no deleted representations to process!"
@@ -10670,11 +10879,11 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:605
 msgid "Removed %1 %2"
-msgstr ""
+msgstr "Removido %1 %2"
 
 #: lib/Utils/CLIUtils.php:615
 msgid "Nothing to delete!"
-msgstr ""
+msgstr "Nada para excluir!"
 
 #: lib/Utils/CLIUtils.php:624
 msgid ""
@@ -10701,7 +10910,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:664
 msgid "Cannot write profile to '%1'"
-msgstr ""
+msgstr "Não é possível gravar perfil para '% 1'"
 
 #: lib/Utils/CLIUtils.php:688
 msgid ""
@@ -10753,7 +10962,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:733
 msgid "Processing complete."
-msgstr ""
+msgstr "Processamento concluído."
 
 #: lib/Utils/CLIUtils.php:743 lib/Utils/CLIUtils.php:1880
 msgid "Run without outputting progress information."
@@ -10851,7 +11060,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:979 lib/Utils/CLIUtils.php:1171
 #: lib/Utils/CLIUtils.php:1668 models/ca_bundle_displays.php:1385
 msgid "Media"
-msgstr ""
+msgstr "Mídia"
 
 #: lib/Utils/CLIUtils.php:986
 msgid "Re-process existing media using current media processing configuration."
@@ -10945,7 +11154,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:1265
 msgid "Could not import '%1': %2"
-msgstr ""
+msgstr "Não foi possível importar '%1': %2"
 
 #: lib/Utils/CLIUtils.php:1269
 msgid "There were warnings when adding mapping from file '%1': %2"
@@ -10958,7 +11167,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:1282 lib/Utils/CLIUtils.php:1471
 #: lib/Utils/CLIUtils.php:2156
 msgid "Excel XLSX file to load."
-msgstr ""
+msgstr "Arquivo Excel XLSX para carregar."
 
 #: lib/Utils/CLIUtils.php:1283 lib/Utils/CLIUtils.php:1398
 #: lib/Utils/CLIUtils.php:3194 lib/Utils/CLIUtils.php:4020
@@ -10982,7 +11191,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:1797 lib/Utils/CLIUtils.php:3735
 #: lib/Utils/CLIUtils.php:4589 lib/Utils/CLIUtils.php:4708
 msgid "Import/Export"
-msgstr ""
+msgstr "Importar/Exportar"
 
 #: lib/Utils/CLIUtils.php:1299
 msgid "Load import mapping from Excel XLSX format file."
@@ -10998,12 +11207,12 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:1320
 msgid "You must specify a mapping"
-msgstr ""
+msgstr "Você deve especificar um mapeamento"
 
 #: lib/Utils/CLIUtils.php:1324 lib/Utils/CLIUtils.php:1551
 #: lib/Utils/CLIUtils.php:4463
 msgid "Mapping %1 does not exist"
-msgstr ""
+msgstr "Mapeamento %1 não existe"
 
 #: lib/Utils/CLIUtils.php:1329 lib/Utils/CLIUtils.php:4337
 msgid "Set %1 does not exist"
@@ -11092,13 +11301,13 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:1451
 msgid "Could not import '%1'"
-msgstr ""
+msgstr "Não foi possível importar '%1'"
 
 #: lib/Utils/CLIUtils.php:1458 models/ca_data_import_event_log.php:77
 #: models/ca_data_importer_log_items.php:77
 #: models/ca_metadata_dictionary_rules.php:112
 msgid "Warning"
-msgstr ""
+msgstr "Aviso"
 
 #: lib/Utils/CLIUtils.php:1486
 msgid "Load export mapping from Excel XLSX format file."
@@ -11136,7 +11345,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:1535 lib/Utils/CLIUtils.php:1565
 #: lib/Utils/CLIUtils.php:1570
 msgid "Exported data to %1"
-msgstr ""
+msgstr "Dados exportados para %1"
 
 #: lib/Utils/CLIUtils.php:1538
 msgid "Could not run RDF mode export"
@@ -11148,11 +11357,11 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:1556
 msgid "Mapping %1 has errors: %2"
-msgstr ""
+msgstr "Mapeamento %1 apresenta erros: %2"
 
 #: lib/Utils/CLIUtils.php:1562 lib/Utils/CLIUtils.php:1572
 msgid "Could not export mapping %1"
-msgstr ""
+msgstr "Não é possível exportar mapeamento %1"
 
 #: lib/Utils/CLIUtils.php:1580
 msgid "Search expression that selects records to export."
@@ -11203,7 +11412,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:1645
 msgid "Annotation %1"
-msgstr ""
+msgstr "Anotação %1"
 
 #: lib/Utils/CLIUtils.php:1659
 msgid "Annotation id to start reloading at"
@@ -20136,7 +20345,7 @@ msgstr ""
 
 #: models/ca_objects.php:81 models/ca_user_sort_items.php:54
 msgid "Lot"
-msgstr "Lote"
+msgstr "Conjunto"
 
 #: models/ca_objects.php:81
 msgid "Lot this object belongs to; is null if object is not part of a lot."
