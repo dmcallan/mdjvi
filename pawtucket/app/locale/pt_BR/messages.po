@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2\n"
 "POT-Creation-Date: 2019-05-16 11:14-0300\n"
-"PO-Revision-Date: 2019-05-24 00:07-0300\n"
+"PO-Revision-Date: 2019-05-25 00:38-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language: pt_BR\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: controllers/BrowseController.php:85
 msgid "Browse %1"
-msgstr "Procurar %1"
+msgstr "Navegar %1"
 
 #: controllers/BrowseController.php:253 controllers/ListingController.php:166
 #: controllers/SearchController.php:317
@@ -742,7 +742,7 @@ msgstr "A sugestão de valor não é suportada para este elemento de metadados"
 #: controllers/lookup/AttributeValueController.php:62
 #: controllers/lookup/AttributeValueController.php:111
 msgid "You do not have access to this bundle"
-msgstr "Você não tem acesso a este pacote"
+msgstr "Você não tem acesso a este conjunto"
 
 #: controllers/lookup/AttributeValueController.php:68
 msgid "Element code is not bound to the specified table"
@@ -1390,7 +1390,7 @@ msgstr "Tipo"
 
 #: helpers/displayHelpers.php:1685 helpers/displayHelpers.php:1697
 msgid "Target format"
-msgstr "Formato alvo"
+msgstr "Formato de destino"
 
 #: helpers/displayHelpers.php:1688 helpers/displayHelpers.php:1699
 msgid "Number of groups"
@@ -6711,7 +6711,7 @@ msgstr "de %1 relacionado"
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1964
 #: models/ca_bundle_displays.php:1007
 msgid "Generic bundle"
-msgstr "Pacote genérico"
+msgstr "Conjunto genérico"
 
 #: lib/BundlableLabelableBaseModelWithAttributes.php:1989
 msgid "alternates from related %1"
@@ -8539,23 +8539,32 @@ msgid ""
 "\t\t\tAvailable fields are at https://biodiversity.org.au/nsl/docs/main."
 "html#nslsimplename."
 msgstr ""
+"Especifique campos adicionais para incluir no índice de pesquisa.\n"
+"\t\t\tNomes de campos devem ser separados por um ou mais espaços ou novas "
+"linhas.\n"
+"\t\t\tQuaisquer valores que não correspondam aos campos disponíveis serão "
+"ignorados.\n"
+"\t\t\tOs campos disponíveis estão em https://biodiversity.org.au/nsl/docs/"
+"main.html#nslsimplename."
 
 #: lib/Plugins/InformationService/ALANSL.php:174
 msgid "Allowed values are: %1."
-msgstr ""
+msgstr "Os valores permitidos são: %1."
 
 #: lib/Plugins/InformationService/ALANSL.php:179
 msgid ""
 "Provides access to Atlas of Living Australia National Species List services"
 msgstr ""
+"Fornece acesso aos serviços do Atlas of Living Australia National Species "
+"List"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:50
 msgid "Lookup URL"
-msgstr ""
+msgstr "URL de pesquisa"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:51
 msgid "URL used to query the information service."
-msgstr ""
+msgstr "URL usada para consultar o serviço de informações."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:58
 #: models/ca_bookmarks.php:65 models/ca_bundle_displays.php:86
@@ -8644,7 +8653,7 @@ msgstr "Tipo de item"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:71
 msgid "Type of item to query for."
-msgstr ""
+msgstr "Tipo de item a ser consultado."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:78
 #: models/ca_users.php:63
@@ -8653,7 +8662,7 @@ msgstr "Nome de usuário"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:79
 msgid "User name to authenticate with on remote system."
-msgstr ""
+msgstr "Nome de usuário para autenticar no sistema remoto."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:86
 #: models/ca_users.php:83
@@ -8662,49 +8671,53 @@ msgstr "Senha"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:87
 msgid "Password to authenticate with on remote system."
-msgstr ""
+msgstr "Senha para autenticar no sistema remoto."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:94
 #: lib/Plugins/InformationService/WorldCat.php:75
 msgid "Query result label format"
-msgstr ""
+msgstr "Formato da etiqueta do resultado da consulta"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:95
 #: lib/Plugins/InformationService/WorldCat.php:76
 msgid "Display template to format query result labels with."
-msgstr ""
+msgstr "Exibir modelo para formatar rótulos de resultados de consulta com."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:102
 msgid "Detail format"
-msgstr ""
+msgstr "Formato de detalhe"
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:103
 msgid "Display template to format detailed information blocks with."
-msgstr ""
+msgstr "Exibir modelo para formatar blocos de informações detalhadas com."
 
 #: lib/Plugins/InformationService/CollectiveAccess.php:121
 msgid "Provides access to data services in remote CollectiveAccess databases"
 msgstr ""
+"Fornece acesso a serviços de dados em bancos de dados remotos do "
+"CollectiveAccess"
 
 #: lib/Plugins/InformationService/EOL.php:48
 #: lib/Plugins/InformationService/ResourceSpace.php:57
 #: lib/Plugins/InformationService/WorldCat.php:67
 msgid "API Key"
-msgstr ""
+msgstr "Chave API"
 
 #: lib/Plugins/InformationService/EOL.php:49
 msgid ""
 "EOLkey code. See http://www.ubio.org/index.php?pagename=xml_services for "
 "details. Default is the ubio_keycode setting in app.conf"
 msgstr ""
+"Código EOLkey. Veja http://www.ubio.org/index.php?pagename=xml_services para "
+"detalhes. O padrão é a configuração ubio_keycode no app.conf"
 
 #: lib/Plugins/InformationService/EOL.php:67
 msgid "Provides access to Encyclopedia of Life (EOL) service"
-msgstr ""
+msgstr "Fornece acesso ao serviço Encyclopedia of Life (EOL)"
 
 #: lib/Plugins/InformationService/EOL.php:134
 msgid "Invalid EOL URL"
-msgstr ""
+msgstr "URL EOL inválido"
 
 #: lib/Plugins/InformationService/EOL.php:144
 #: lib/Plugins/InformationService/Pella.php:137
@@ -8714,201 +8727,223 @@ msgstr "Link"
 
 #: lib/Plugins/InformationService/EOL.php:146
 msgid "EOL Identifier"
-msgstr ""
+msgstr "Identificador EOL"
 
 #: lib/Plugins/InformationService/EOL.php:151
 msgid "%1 [%3] (source: %2)"
-msgstr ""
+msgstr "%1 [%3] (fonte: %2)"
 
 #: lib/Plugins/InformationService/EOL.php:159
 msgid "Taxonomy"
-msgstr ""
+msgstr "Taxonomia"
 
 #: lib/Plugins/InformationService/Iconclass.php:60
 msgid "Provides access to Iconclass service"
-msgstr ""
+msgstr "Fornece acesso ao serviço Iconclass"
 
 #: lib/Plugins/InformationService/Nomisma.php:44
 msgid "Mints"
-msgstr ""
+msgstr "Mints"
 
 #: lib/Plugins/InformationService/Nomisma.php:45
 msgid "Regions"
-msgstr ""
+msgstr "Regiões"
 
 #: lib/Plugins/InformationService/Nomisma.php:46
 msgid "Materials"
-msgstr ""
+msgstr "Materiais"
 
 #: lib/Plugins/InformationService/Nomisma.php:47
 msgid "Demoninations"
-msgstr ""
+msgstr "Denominações"
 
 #: lib/Plugins/InformationService/Nomisma.php:48
 msgid "Hoards"
-msgstr ""
+msgstr "Hoards"
 
 #: lib/Plugins/InformationService/Nomisma.php:49
 msgid "Person"
-msgstr ""
+msgstr "Pessoa"
 
 #: lib/Plugins/InformationService/Nomisma.php:52
 msgid "Use ontologies"
-msgstr ""
+msgstr "Usar ontologias"
 
 #: lib/Plugins/InformationService/Nomisma.php:53
 msgid "Leave all unselected to use all available ontologies."
 msgstr ""
+"Deixe todos não selecionados para usar todas as ontologias disponíveis."
 
 #: lib/Plugins/InformationService/Nomisma.php:71
 msgid "Provides access to the Nomisma.org data service"
-msgstr ""
+msgstr "Fornece acesso ao serviço de dados Nomisma.org"
 
 #: lib/Plugins/InformationService/Pella.php:60
 msgid ""
 "Provides access to PELLA numismatic data service (http://numismatics.org/"
 "pella/)"
 msgstr ""
+"Fornece acesso ao serviço de dados numismáticos PELLA (http://numismatics."
+"org/pella/)"
 
 #: lib/Plugins/InformationService/ResourceSpace.php:49
 msgid "ResourceSpace user name"
-msgstr ""
+msgstr "Nome de usuário do ResourceSpace"
 
 #: lib/Plugins/InformationService/ResourceSpace.php:50
 msgid ""
 "ResourceSpace login user name used to connect to the CARE ResourceSpace "
 "instance"
 msgstr ""
+"Nome de usuário de login do ResourceSpace usado para conectar-se à instância "
+"CARE ResourceSpace"
 
 #: lib/Plugins/InformationService/ResourceSpace.php:58
 msgid ""
 "ResourceSpace API Key. Used to connect to ResourceSpace for all queries by "
 "this user."
 msgstr ""
+"Chave da API ResourceSpace. Usado para conectar-se ao ResourceSpace para "
+"todas as consultas deste usuário."
 
 #: lib/Plugins/InformationService/ResourceSpace.php:80
 msgid "Provides access to ResourceSpace data and media"
-msgstr ""
+msgstr "Fornece acesso a dados e mídia do ResourceSpace"
 
 #: lib/Plugins/InformationService/Seleucid.php:60
 msgid ""
 "Provides access to Seleucid Coins Online numismatic data service (http://"
 "numismatics.org/sco/)"
 msgstr ""
+"Fornece acesso ao serviço de dados numismáticos Seleucid Coins Online "
+"(http://numismatics.org/sco/)"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:58
 msgid "SPARQL query"
-msgstr ""
+msgstr "Consulta SPARQL"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:60
 msgid ""
 "Insert SPARQL query here. Replace the query argument with ***PLACEHOLDER*** "
 "text."
 msgstr ""
+"Insira a consulta SPARQL aqui. Substitua o argumento da consulta com texto "
+"*** PLACEHOLDER ***."
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:67
 msgid "SPARQL endpoint"
-msgstr ""
+msgstr "Ponto de extremidade SPARQL"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:69
 msgid "SPARQL endpoint, default Wikidata."
-msgstr ""
+msgstr "Ponto de extremidade SPARQL, padrão Wikidata."
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:76
 msgid "Result list keys"
-msgstr ""
+msgstr "Chaves da lista de resultados"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:78
 msgid "Where is the results list? Keys hierarchy, separated by >"
-msgstr ""
+msgstr "Onde está a lista de resultados? Hierarquia de chaves, separada por>"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:85
 msgid "Keys hierarchy to get element URL"
-msgstr ""
+msgstr "Hierarquia de chaves para obter o URL do elemento"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:87
 #: lib/Plugins/InformationService/SparqlEndpoint.php:96
 msgid "Keys hierarchy, separated by >"
-msgstr ""
+msgstr "Hierarquia de chaves, separada por>"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:94
 msgid ""
 "Keys hierarchy to get element Label, used for autocomplete search and "
 "dropdown label"
 msgstr ""
+"Hierarquia de chaves para obter o Rótulo do elemento, usado para pesquisa de "
+"preenchimento automático e rótulo suspenso"
 
 #: lib/Plugins/InformationService/SparqlEndpoint.php:209
 msgid "Provides access to Wikidata service and other SPARQL endpoints."
-msgstr ""
+msgstr "Fornece acesso ao serviço Wikidata e outros endpoints SPARQL."
 
 #: lib/Plugins/InformationService/TGN.php:53
 msgid "Provides access to Getty Linked Open Data TGN service"
-msgstr ""
+msgstr "Fornece acesso ao serviço Getty Linked Open Data TGN"
 
 #: lib/Plugins/InformationService/ULAN.php:53
 msgid "Provides access to Getty Linked Open Data ULAN service"
-msgstr ""
+msgstr "Fornece acesso ao serviço Getty Linked Open Data ULAN"
 
 #: lib/Plugins/InformationService/VIAF.php:68
 msgid "Provides access to VIAF service"
-msgstr ""
+msgstr "Fornece acesso ao serviço VIAF"
 
 #: lib/Plugins/InformationService/Wikipedia.php:48
 msgid "Wikipedia language"
-msgstr ""
+msgstr "Idioma da Wikipédia"
 
 #: lib/Plugins/InformationService/Wikipedia.php:49
 msgid ""
 "2- or 3-letter language code for Wikipedia to use. Defaults to \"en\". See "
 "http://meta.wikimedia.org/wiki/List_of_Wikipedias"
 msgstr ""
+"Código de idioma de 2 ou 3 letras para uso da Wikipedia. O padrão é \"en\". "
+"Veja http://meta.wikimedia.org/wiki/List_of_Wikipedias"
 
 #: lib/Plugins/InformationService/Wikipedia.php:67
 msgid "Provides access to Wikipedia service"
-msgstr ""
+msgstr "Fornece acesso ao serviço Wikipedia"
 
 #: lib/Plugins/InformationService/WorldCat.php:51
 msgid "WorldCat Z39.50 user name"
-msgstr ""
+msgstr "Nome de usuário do WorldCat Z39.50"
 
 #: lib/Plugins/InformationService/WorldCat.php:52
 msgid ""
 "WorldCat Z39.50 login user name. Used to connect to WorldCat if Z39.50 "
 "support is available on your server."
 msgstr ""
+"Nome de usuário de login do WorldCat Z39.50. Usado para conectar-se ao "
+"WorldCat se o suporte ao Z39.50 estiver disponível em seu servidor."
 
 #: lib/Plugins/InformationService/WorldCat.php:59
 msgid "WorldCat Z39.50 password"
-msgstr ""
+msgstr "Senha do WorldCat Z39.50"
 
 #: lib/Plugins/InformationService/WorldCat.php:60
 msgid ""
 "WorldCat Z39.50 login password. Used to connect to WorldCat if Z39.50 "
 "support is available on your server."
 msgstr ""
+"Senha de login do WorldCat Z39.50. Usado para conectar-se ao WorldCat se o "
+"suporte ao Z39.50 estiver disponível em seu servidor."
 
 #: lib/Plugins/InformationService/WorldCat.php:68
 msgid ""
 "WorldCat API Key. Used to connect to WorldCat if Z39.50 login is not "
 "specified or Z39.50 support is not available on your server."
 msgstr ""
+"Chave da API do WorldCat. Usado para conectar-se ao WorldCat se o login do "
+"Z39.50 não for especificado ou o suporte do Z39.50 não estiver disponível no "
+"seu servidor."
 
 #: lib/Plugins/InformationService/WorldCat.php:83
 msgid "Labeled MARC fields"
-msgstr ""
+msgstr "Campos MARC etiquetados"
 
 #: lib/Plugins/InformationService/WorldCat.php:84
 msgid "MARC codes"
-msgstr ""
+msgstr "Códigos MARC"
 
 #: lib/Plugins/InformationService/WorldCat.php:85
 #: models/ca_site_templates.php:80
 msgid "Template"
-msgstr ""
+msgstr "Modelo"
 
 #: lib/Plugins/InformationService/WorldCat.php:88
 msgid "Detail style"
-msgstr ""
+msgstr "Estilo de detalhe"
 
 #: lib/Plugins/InformationService/WorldCat.php:89
 msgid ""
@@ -8917,10 +8952,14 @@ msgid ""
 "numeric MARC codes, and <em>template</em> to use the XSL template specified "
 "below."
 msgstr ""
+"Define o estilo da vista de detalhe. Use <em>campos Labeled MARC</em> para "
+"exibir campos MARC com rótulos em inglês, <em>códigos MARC</em> para exibir "
+"com códigos MARC numéricos, e <em>modelo</em> para usar o modelo XSL "
+"especificado abaixo."
 
 #: lib/Plugins/InformationService/WorldCat.php:96
 msgid "Detail XSL template"
-msgstr ""
+msgstr "Modelo de detalhe XSL"
 
 #: lib/Plugins/InformationService/WorldCat.php:97
 msgid ""
@@ -8928,60 +8967,70 @@ msgid ""
 "for display. Only used when valid XSL and <em>Detail style</em> is set to "
 "<em>template</em>."
 msgstr ""
+"Um modelo XSL válido para transformar o MARCXML fornecido pelo WorldCat em "
+"HTML para exibição. Usado somente quando o XSL é válido e <em>Estilo de "
+"detalhe</em> estiver definido como <em>modelo</em>."
 
 #: lib/Plugins/InformationService/WorldCat.php:134
 msgid "Provides access to WorldCat data"
-msgstr ""
+msgstr "Fornece acesso a dados do WorldCat"
 
 #: lib/Plugins/InformationService/WorldCat.php:243
 #: lib/Plugins/InformationService/WorldCat.php:314
 msgid ""
 "CURL is required for WorldCat web API usage but not available on this server"
 msgstr ""
+"CURL é necessário para o uso da API da web do WorldCat, mas não está "
+"disponível neste servidor"
 
 #: lib/Plugins/InformationService/WorldCat.php:247
 #: lib/Plugins/InformationService/WorldCat.php:319
 msgid ""
 "Neither Z39.50 client is installed nor is WorldCat web API key configured"
 msgstr ""
+"O cliente Z39.50 não está instalado nem a chave API da web do WorldCat está "
+"configurada"
 
 #: lib/Plugins/InformationService/WorldCat.php:249
 #: lib/Plugins/InformationService/WorldCat.php:321
 msgid "WorldCat web API key is not configured"
-msgstr ""
+msgstr "A chave API da web do WorldCat não está configurada"
 
 #: lib/Plugins/InformationService/WorldCat.php:255
 msgid "Could not query WorldCat: %1"
-msgstr ""
+msgstr "Não foi possível consultar o WorldCat: %1"
 
 #: lib/Plugins/InformationService/WorldCat.php:330
 msgid "WorldCat data could not be loaded: %1"
-msgstr ""
+msgstr "Não foi possível carregar dados do WorldCat: %1"
 
 #: lib/Plugins/InformationService/WorldCat.php:341
 msgid "WorldCat data could not be parsed: %1"
-msgstr ""
+msgstr "Os dados do WorldCat não puderam ser analisados: %1"
 
 #: lib/Plugins/InformationService/WorldCat.php:361
 msgid "WorldCat detail display template could not be parsed: %1"
 msgstr ""
+"O modelo de exibição de detalhes do WorldCat não pôde ser analisado: %1"
 
 #: lib/Plugins/InformationService/WorldCat.php:372
 msgid "WorldCat detail display template could not be created: %1"
-msgstr ""
+msgstr "O modelo de exibição de detalhes do WorldCat não pôde ser criado: %1"
 
 #: lib/Plugins/Media/Audio.php:156
 msgid "Provides audio processing and conversion using ffmpeg"
-msgstr ""
+msgstr "Proporciona processamento e conversão de áudio usando ffmpeg"
 
 #: lib/Plugins/Media/Audio.php:181
 msgid ""
 "Incoming audio files will not be transcoded because ffmpeg is not installed."
 msgstr ""
+"Os arquivos de áudio recebidos não serão transcodificados porque o ffmpeg "
+"não está instalado."
 
 #: lib/Plugins/Media/Audio.php:185
 msgid "MediaInfo will be used to extract metadata from audio files."
-msgstr ""
+msgstr "MediaInfo será usado para extrair os metadados de arquivos de áudio."
 
 #: lib/Plugins/Media/Audio.php:275 lib/Plugins/Media/BinaryFile.php:141
 #: lib/Plugins/Media/Mesh.php:276 lib/Plugins/Media/Office.php:401
@@ -8989,7 +9038,7 @@ msgstr ""
 #: lib/Plugins/Media/Spin360.php:216 lib/Plugins/Media/Video.php:290
 #: lib/Plugins/Media/XMLDoc.php:224
 msgid "File %1 does not exist"
-msgstr ""
+msgstr "Arquivo %1 não existe"
 
 #: lib/Plugins/Media/Audio.php:440 lib/Plugins/Media/GD.php:499
 #: lib/Plugins/Media/Gmagick.php:505 lib/Plugins/Media/GraphicsMagick.php:469
@@ -8998,207 +9047,219 @@ msgstr ""
 #: lib/Plugins/Media/PDFWand.php:467 lib/Plugins/Media/QuicktimeVR.php:282
 #: lib/Plugins/Media/Video.php:505 lib/Plugins/Media/XMLDoc.php:291
 msgid "Invalid transformation %1"
-msgstr ""
+msgstr "Transformação inválida %1"
 
 #: lib/Plugins/Media/Audio.php:503 lib/Plugins/Media/QuicktimeVR.php:340
 #: lib/Plugins/Media/Video.php:563
 msgid "Width or height was zero"
-msgstr ""
+msgstr "Largura ou altura foi zero"
 
 #: lib/Plugins/Media/Audio.php:531
 msgid "Can't convert '%1' to '%2': unsupported format"
-msgstr ""
+msgstr "Não é possível converter '%1' para '%2': formato não suportado"
 
 #: lib/Plugins/Media/Audio.php:560 lib/Plugins/Media/Office.php:525
 #: lib/Plugins/Media/PDFWand.php:573 lib/Plugins/Media/QuicktimeVR.php:411
 #: lib/Plugins/Media/Video.php:824
 msgid "Couldn't write file to '%1'"
-msgstr ""
+msgstr "Não foi possível gravar o arquivo em '%1'"
 
 #: lib/Plugins/Media/Audio.php:576
 msgid "Error converting file to %1 [%2]: %3"
-msgstr ""
+msgstr "Erro ao converter arquivo para %1 [%2]: %3"
 
 #: lib/Plugins/Media/Audio.php:588
 msgid "Error converting intro to %1 [%2]: %3"
-msgstr ""
+msgstr "Erro ao converter intro para %1 [%2]: %3"
 
 #: lib/Plugins/Media/Audio.php:604
 msgid "Error converting outro to %1 [%2]: %3"
-msgstr ""
+msgstr "Erro ao converter outro para %1 [%2]: %3"
 
 #: lib/Plugins/Media/Audio.php:700 lib/Plugins/Media/Video.php:958
 msgid "Error extracting clip from %1 to %2: %3"
-msgstr ""
+msgstr "Erro ao extrair clip de %1 para %2: %3"
 
 #: lib/Plugins/Media/BinaryFile.php:103
 msgid ""
 "Accepts any file unrecognized by other media plugins and stores it as-is"
 msgstr ""
+"Aceita qualquer arquivo não reconhecido por outros plugins de mídia e os "
+"armazena como estão"
 
 #: lib/Plugins/Media/BinaryFile.php:127 lib/Plugins/Media/BinaryFile.php:148
 msgid "Binary file"
-msgstr ""
+msgstr "Arquivo binário"
 
 #: lib/Plugins/Media/GD.php:127
 msgid "Provides limited image processing and conversion services using libGD"
 msgstr ""
+"Fornece serviços limitados de processamento e conversão de imagens usando "
+"libGD"
 
 #: lib/Plugins/Media/GD.php:166
 msgid "Didn't load because Imagick/ImageMagick is available and preferred"
 msgstr ""
+"Não foi carregado porque Imagick/ImageMagick está disponível e predefinido"
 
 #: lib/Plugins/Media/GD.php:170
 msgid ""
 "Didn't load because ImageMagick (command-line) is available and preferred"
 msgstr ""
+"Não foi carregado porque ImageMagick (linha de comando) está disponível e "
+"predefinida"
 
 #: lib/Plugins/Media/GD.php:174 lib/Plugins/Media/GraphicsMagick.php:265
 #: lib/Plugins/Media/ImageMagick.php:274 lib/Plugins/Media/Imagick.php:263
 msgid "Didn't load because Gmagick is available and preferred"
-msgstr ""
+msgstr "Não foi carregado porque Gmagick está disponível e predefinido"
 
 #: lib/Plugins/Media/GD.php:178 lib/Plugins/Media/ImageMagick.php:266
 msgid "Didn't load because GraphicsMagick is available and preferred"
-msgstr ""
+msgstr "Não foi carregado porque GraphicsMagick está disponível e predefinido"
 
 #: lib/Plugins/Media/GD.php:181
 msgid "Didn't load because your PHP install lacks GD support"
-msgstr ""
+msgstr "Não foi carregado porque a instalação do PHP não oferece suporte a GD"
 
 #: lib/Plugins/Media/GD.php:232 lib/Plugins/Media/Gmagick.php:342
 #: lib/Plugins/Media/GraphicsMagick.php:312
 #: lib/Plugins/Media/ImageMagick.php:322 lib/Plugins/Media/Imagick.php:343
 msgid "Tile size property must be between 10 and 10000"
-msgstr ""
+msgstr "Propriedade tamanho do ladrilho (tile) de deve estar entre 10 e 10000"
 
 #: lib/Plugins/Media/GD.php:242 lib/Plugins/Media/Gmagick.php:352
 #: lib/Plugins/Media/GraphicsMagick.php:322
 #: lib/Plugins/Media/ImageMagick.php:332 lib/Plugins/Media/Imagick.php:353
 #: lib/Plugins/Media/PDFWand.php:263
 msgid "Quality property must be between 1 and 100"
-msgstr ""
+msgstr "Propriedade de qualidade deve estar entre 1 e 100"
 
 #: lib/Plugins/Media/GD.php:249 lib/Plugins/Media/Gmagick.php:359
 #: lib/Plugins/Media/GraphicsMagick.php:329
 #: lib/Plugins/Media/ImageMagick.php:339 lib/Plugins/Media/Imagick.php:360
 msgid "Tile width property must be between 10 and 10000"
-msgstr ""
+msgstr "Propriedade de largura do ladrilho (tile) deve estar entre 10 e 10000"
 
 #: lib/Plugins/Media/GD.php:256 lib/Plugins/Media/Gmagick.php:366
 #: lib/Plugins/Media/GraphicsMagick.php:336
 #: lib/Plugins/Media/ImageMagick.php:346 lib/Plugins/Media/Imagick.php:367
 msgid "Tile height property must be between 10 and 10000"
-msgstr ""
+msgstr "Propriedade de altura do ladrilho (tile) deve estar entre 10 e 10000"
 
 #: lib/Plugins/Media/GD.php:263 lib/Plugins/Media/Gmagick.php:373
 #: lib/Plugins/Media/GraphicsMagick.php:343
 #: lib/Plugins/Media/ImageMagick.php:353 lib/Plugins/Media/Imagick.php:374
 #: lib/Plugins/Media/PDFWand.php:270
 msgid "Antialiasing property must be between 0 and 100"
-msgstr ""
+msgstr "Propriedade de antialiasing deveestar entre 0 e 100"
 
 #: lib/Plugins/Media/GD.php:270 lib/Plugins/Media/Gmagick.php:380
 #: lib/Plugins/Media/GraphicsMagick.php:350
 #: lib/Plugins/Media/ImageMagick.php:360 lib/Plugins/Media/Imagick.php:381
 msgid "Layer ratio property must be between 0.1 and 10"
-msgstr ""
+msgstr "Propriedade de relação de camadas deve estar entre 0.1 e 10"
 
 #: lib/Plugins/Media/GD.php:277 lib/Plugins/Media/Gmagick.php:387
 #: lib/Plugins/Media/GraphicsMagick.php:357
 #: lib/Plugins/Media/ImageMagick.php:367 lib/Plugins/Media/Imagick.php:388
 msgid "Layer property must be between 1 and 25"
-msgstr ""
+msgstr "Propriedade de camada deve estar entre 1 e 25"
 
 #: lib/Plugins/Media/GD.php:284 lib/Plugins/Media/Gmagick.php:394
 #: lib/Plugins/Media/GraphicsMagick.php:364
 #: lib/Plugins/Media/ImageMagick.php:374 lib/Plugins/Media/Imagick.php:395
 msgid "Tile output type '%1' is invalid"
-msgstr ""
+msgstr "O tipo de saída do ladrilho (tile) '%1' é inválido"
 
 #: lib/Plugins/Media/GD.php:557
 msgid "Couldn't resize image"
-msgstr ""
+msgstr "Não foi possível redimensionar imagem"
 
 #: lib/Plugins/Media/GD.php:580
 msgid "Couldn't rotate image"
-msgstr ""
+msgstr "Não foi possível girar a imagem"
 
 #: lib/Plugins/Media/GD.php:607 lib/Plugins/Media/Gmagick.php:769
 #: lib/Plugins/Media/Imagick.php:866
 msgid "Error during image crop"
-msgstr ""
+msgstr "Erro durante o recorte de imagem"
 
 #: lib/Plugins/Media/GD.php:618
 msgid "Error during %1 image flip"
-msgstr ""
+msgstr "Erro durante a inversão da imagem %1"
 
 #: lib/Plugins/Media/GD.php:732
 msgid "Couldn't write image"
-msgstr ""
+msgstr "Não foi possível gravar imagem"
 
 #: lib/Plugins/Media/Gmagick.php:243
 msgid ""
 "Provides image processing and conversion services using ImageMagick via the "
 "PECL Gmagick PHP extension"
 msgstr ""
+"Fornece serviços de processamento e conversão de imagens usando ImageMagick "
+"através da extensão PECL Gmagick PHP"
 
 #: lib/Plugins/Media/Gmagick.php:271
 msgid "Didn't load because Gmagick is not available"
-msgstr ""
+msgstr "Não foi carregado porque Gmagick não está disponível"
 
 #: lib/Plugins/Media/Gmagick.php:276 lib/Plugins/Media/Imagick.php:271
 msgid "RAW image support is not enabled because DCRAW cannot be found"
 msgstr ""
+"Suporte de imagem RAW não está habilitado porque DCRAW não pode ser "
+"encontrado"
 
 #: lib/Plugins/Media/Gmagick.php:483 lib/Plugins/Media/Imagick.php:560
 msgid "Error during RGB colorspace transformation operation"
-msgstr ""
+msgstr "Erro durante a operação de transformação RGB colorspace"
 
 #: lib/Plugins/Media/Gmagick.php:533
 msgid "Couldn't set font to %1. Gmagick error message: %2"
 msgstr ""
+"Não foi possível definir a fonte para %1. Mensagem de erro do Gmagick: %2"
 
 #: lib/Plugins/Media/Gmagick.php:604 lib/Plugins/Media/Imagick.php:697
 msgid "Couldn't load watermark image at %1"
-msgstr ""
+msgstr "Não foi possível carregar a imagem da marca d'água em %1"
 
 #: lib/Plugins/Media/Gmagick.php:661 lib/Plugins/Media/Imagick.php:758
 msgid "Error during resize operation"
-msgstr ""
+msgstr "Erro durante a operação de redimensionamento"
 
 #: lib/Plugins/Media/Gmagick.php:707 lib/Plugins/Media/Gmagick.php:715
 #: lib/Plugins/Media/Imagick.php:803 lib/Plugins/Media/Imagick.php:811
 msgid "Error during crop operation"
-msgstr ""
+msgstr "Erro durante a operação de corte"
 
 #: lib/Plugins/Media/Gmagick.php:729 lib/Plugins/Media/Imagick.php:825
 msgid "Error during image rotate"
-msgstr ""
+msgstr "Erro durante a rotação da imagem"
 
 #: lib/Plugins/Media/Gmagick.php:737 lib/Plugins/Media/Imagick.php:834
 msgid "Error during image despeckle"
-msgstr ""
+msgstr "Erro durante a redução de ruído/manchas da imagem (despeckle)"
 
 #: lib/Plugins/Media/Gmagick.php:746 lib/Plugins/Media/Imagick.php:843
 msgid "Error during image median filter"
-msgstr ""
+msgstr "Erro durante o filtro redutor de ruído da imagem (image median filter)"
 
 #: lib/Plugins/Media/Gmagick.php:757 lib/Plugins/Media/Imagick.php:854
 msgid "Error during image sharpen"
-msgstr ""
+msgstr "Erro durante o aumento de nitidez da imagem"
 
 #: lib/Plugins/Media/Gmagick.php:779 lib/Plugins/Media/Imagick.php:876
 msgid "Error during vertical image flip"
-msgstr ""
+msgstr "Erro durante a inversão vertical da imagem"
 
 #: lib/Plugins/Media/Gmagick.php:784 lib/Plugins/Media/Imagick.php:881
 msgid "Error during horizontal image flip"
-msgstr ""
+msgstr "Erro durante a inversão horizontal da imagem"
 
 #: lib/Plugins/Media/Gmagick.php:804
 msgid "Gmagick exception"
-msgstr ""
+msgstr "Exceção do Gmagick"
 
 #: lib/Plugins/Media/Gmagick.php:812 lib/Plugins/Media/GraphicsMagick.php:281
 #: lib/Plugins/Media/GraphicsMagick.php:406
@@ -9206,109 +9267,122 @@ msgstr ""
 #: lib/Plugins/Media/ImageMagick.php:291 lib/Plugins/Media/ImageMagick.php:416
 #: lib/Plugins/Media/ImageMagick.php:818 lib/Plugins/Media/Imagick.php:920
 msgid "Filenames with colons (:) are not allowed"
-msgstr ""
+msgstr "Nomes de arquivos com dois pontos (:) não são permitidos"
 
 #: lib/Plugins/Media/Gmagick.php:893 lib/Plugins/Media/Gmagick.php:915
 #: lib/Plugins/Media/Imagick.php:1002
 msgid "Error writing file"
-msgstr ""
+msgstr "Erro ao gravar arquivo"
 
 #: lib/Plugins/Media/Gmagick.php:919 lib/Plugins/Media/Imagick.php:1006
 msgid "Error writing file: %1"
-msgstr ""
+msgstr "Erro ao gravar arquivo: %1"
 
 #: lib/Plugins/Media/Gmagick.php:1135 lib/Plugins/Media/Imagick.php:464
 msgid ""
 "Could not convert Camera RAW format file because conversion tool (dcraw) is "
 "not installed"
 msgstr ""
+"Não foi possível converter o arquivo de formato Camera RAW porque a "
+"ferramenta de conversão (dcraw) não está instalada"
 
 #: lib/Plugins/Media/Gmagick.php:1141 lib/Plugins/Media/Imagick.php:470
 msgid "Could not copy Camera RAW file to temporary directory"
 msgstr ""
+"Não foi possível copiar o arquivo Camera RAW para o diretório temporário"
 
 #: lib/Plugins/Media/Gmagick.php:1146 lib/Plugins/Media/Imagick.php:475
 msgid "Camera RAW file conversion failed: %1"
-msgstr ""
+msgstr "Falha na conversão do arquivo Camera RAW: %1"
 
 #: lib/Plugins/Media/Gmagick.php:1150 lib/Plugins/Media/Imagick.php:479
 msgid "Translation from Camera RAW to TIFF failed"
-msgstr ""
+msgstr "Conversão de Camera RAW para TIFF falhou"
 
 #: lib/Plugins/Media/Gmagick.php:1286 lib/Plugins/Media/Imagick.php:570
 msgid "Could not read image file"
-msgstr ""
+msgstr "Não foi possível ler arquivo de imagem"
 
 #: lib/Plugins/Media/GraphicsMagick.php:227
 msgid ""
 "Provides image processing and conversion services using GraphicsMagick via "
 "exec() calls"
 msgstr ""
+"Fornece serviços de processamento e conversão de imagens usando "
+"GraphicsMagick via chamadas exec()"
 
 #: lib/Plugins/Media/GraphicsMagick.php:261
 #: lib/Plugins/Media/ImageMagick.php:270
 msgid "Didn't load because Imagick is available and preferred"
-msgstr ""
+msgstr "Não foi carregado porque Imagick está disponível e predefinido"
 
 #: lib/Plugins/Media/GraphicsMagick.php:268
 msgid "Didn't load because GraphicsMagick executables cannot be found"
 msgstr ""
+"Não foi carregado porque os executáveis ​​GraphicsMagick não podem ser "
+"encontrados"
 
 #: lib/Plugins/Media/GraphicsMagick.php:852
 #: lib/Plugins/Media/ImageMagick.php:856
 msgid "Could not write file %1"
-msgstr ""
+msgstr "Não foi possível gravar o arquivo %1"
 
 #: lib/Plugins/Media/ImageMagick.php:227
 msgid ""
 "Provides image processing and conversion services using ImageMagick via "
 "exec() calls to ImageMagick binaries"
 msgstr ""
+"Fornece serviços de processamento e conversão de imagens usando o "
+"ImageMagick via chamadas exec() para binários do ImageMagick"
 
 #: lib/Plugins/Media/ImageMagick.php:277
 msgid "Didn't load because ImageMagick executables cannot be found"
 msgstr ""
+"Não foi carregado porque os executáveis ​​ImageMagick não podem ser encontrados"
 
 #: lib/Plugins/Media/Imagick.php:231
 msgid ""
 "Provides image processing and conversion services using ImageMagick via the "
 "PECL Imagick PHP extension"
 msgstr ""
+"Fornece serviços de processamento e conversão de imagens usando o "
+"ImageMagick através da extensão PECL Imagick PHP"
 
 #: lib/Plugins/Media/Imagick.php:266
 msgid "Didn't load because Imagick is not available"
-msgstr ""
+msgstr "Não foi carregado porque Imagick não está disponível"
 
 #: lib/Plugins/Media/Imagick.php:898
 msgid "Error during image unsharp mask"
-msgstr ""
+msgstr "Erro durante a máscara de aumento de nitidez da imagem"
 
 #: lib/Plugins/Media/Imagick.php:912
 msgid "Imagick exception"
-msgstr ""
+msgstr "Exceção do Imagick"
 
 #: lib/Plugins/Media/Mesh.php:123
 msgid "Accepts files describing 3D models"
-msgstr ""
+msgstr "Aceita arquivos descrevendo modelos 3D"
 
 #: lib/Plugins/Media/Mesh.php:281
 msgid "File %1 is not a 3D model"
-msgstr ""
+msgstr "Arquivo %1 não é um modelo 3D"
 
 #: lib/Plugins/Media/Mesh.php:328 lib/Plugins/Media/Office.php:518
 #: lib/Plugins/Media/PDFWand.php:564 lib/Plugins/Media/Spin360.php:270
 #: lib/Plugins/Media/XMLDoc.php:321
 msgid "Can't convert file to %1"
-msgstr ""
+msgstr "Não é possível converter arquivo para %1"
 
 #: lib/Plugins/Media/Mesh.php:356
 msgid "Couldn't convert ply model to stl"
-msgstr ""
+msgstr "Não foi possível converter o modelo ply para stl"
 
 #: lib/Plugins/Media/Office.php:160
 msgid ""
 "Accepts and processes Microsoft Word, Excel and PowerPoint format documents"
 msgstr ""
+"Aceita e processa documentos em formato Microsoft Word, Excel e PowerPoint"
 
 #: lib/Plugins/Media/Office.php:186
 msgid ""
@@ -9316,36 +9390,44 @@ msgid ""
 "previews will not be performed; you can obtain LibreOffice at http://www."
 "libreoffice.org/"
 msgstr ""
+"O LibreOffice não pode ser encontrado: a conversão para PDF e a geração de "
+"pré-visualizações de página não serão realizadas; você pode obter o "
+"LibreOffice em http://www.libreoffice.org/"
 
 #: lib/Plugins/Media/Office.php:246
 msgid "Unsupported mimetype %1"
-msgstr ""
+msgstr "Formato não suportado %1"
 
 #: lib/Plugins/Media/Office.php:407
 msgid "File %1 is not a Microsoft Word, Excel or PowerPoint document"
-msgstr ""
+msgstr "O arquivo %1 não é um documento de Microsoft Word, Excel ou PowerPoint"
 
 #: lib/Plugins/Media/Office.php:676
 msgid "Click to view Microsoft Word document"
-msgstr ""
+msgstr "Clicar para visualizar documento de Microsoft Word"
 
 #: lib/Plugins/Media/Office.php:680 lib/Plugins/Media/PDFWand.php:839
 msgid "Click to download document"
-msgstr ""
+msgstr "Clique para baixar o documento"
 
 #: lib/Plugins/Media/Office.php:682 lib/Plugins/Media/PDFWand.php:841
 msgid "View PDF document"
-msgstr ""
+msgstr "Ver documento PDF"
 
 #: lib/Plugins/Media/PDFWand.php:149
 msgid ""
 "Provides PDF conversion services using ImageMagick or the Zend_PDF library. "
 "Will use Ghostscript to generate image-previews of PDF files."
 msgstr ""
+"Fornece serviços de conversão de PDF usando o ImageMagick ou a biblioteca "
+"Zend_PDF. Usará o Ghostscript para gerar visualizações de imagem de arquivos "
+"PDF."
 
 #: lib/Plugins/Media/PDFWand.php:180
 msgid "Ghostscript cannot be found: image previews will not be created"
 msgstr ""
+"O Ghostscript não pode ser encontrado: visualizações de imagem não serão "
+"criadas"
 
 #: lib/Plugins/Media/PDFWand.php:183
 msgid ""
@@ -9353,6 +9435,9 @@ msgid ""
 "performed; you can obtain PDFToText at http://www.foolabs.com/xpdf/download."
 "html"
 msgstr ""
+"PDFToText não pode ser encontrado: a indexação de texto em arquivos PDF não "
+"será executada; você pode obter o PDFToText em http://www.foolabs.com/xpdf/"
+"download.html"
 
 #: lib/Plugins/Media/PDFWand.php:186
 msgid ""
@@ -9360,111 +9445,126 @@ msgid ""
 "be performed; you can obtain PDFMiner at http://www.unixuser.org/~euske/"
 "python/pdfminer/index.html"
 msgstr ""
+"O PDFMiner não pode ser encontrado: a indexação de locais de texto em "
+"arquivos PDF não será executada; você pode obter o PDFMiner em http://www."
+"unixuser.org/~euske/python/pdfminer/index.html"
 
 #: lib/Plugins/Media/PDFWand.php:333
 msgid "File %1 is not a PDF"
-msgstr ""
+msgstr "Arquivo %1 não é um PDF"
 
 #: lib/Plugins/Media/PDFWand.php:760
 msgid "Couldn't not write document preview frames to tmp directory (%1)"
 msgstr ""
+"Não foi possível escrever os quadros de visualização do documento no "
+"diretório tmp (%1)"
 
 #: lib/Plugins/Media/QuicktimeVR.php:116
 msgid "Provides services for processing of QuicktimeVR files"
-msgstr ""
+msgstr "Fornece serviços para processamento de arquivos QuicktimeVR"
 
 #: lib/Plugins/Media/QuicktimeVR.php:139
 msgid "Didn't load because ffmpeg is not installed"
-msgstr ""
+msgstr "Não foi carregado porque o ffmpeg não está instalado"
 
 #: lib/Plugins/Media/QuicktimeVR.php:406 lib/Plugins/Media/Video.php:819
 msgid "Can't convert '%1' to %2"
-msgstr ""
+msgstr "Não é possível converter '%1' para %2"
 
 #: lib/Plugins/Media/QuicktimeVR.php:508 lib/Plugins/Media/Video.php:933
 msgid "Couldn't not write video preview frames to tmp directory (%1)"
 msgstr ""
+"Não foi possível não gravar quadros de visualização de vídeo no diretório "
+"tmp (%1)"
 
 #: lib/Plugins/Media/Spin360.php:123
 msgid ""
 "Accepts ZIP archives containing 360 spinnable images in SpinCar format "
 "(http://SpinCar.com)"
 msgstr ""
+"Aceita arquivos ZIP contendo imagens com visualização 360 graus no formato "
+"SpinCar (http://SpinCar.com)"
 
 #: lib/Plugins/Media/Spin360.php:221
 msgid "File %1 is not a valid ZIP archive or does not contain valid images"
-msgstr ""
+msgstr "O arquivo %1 não é um arquivo ZIP válido ou não contém imagens válidas"
 
 #: lib/Plugins/Media/Video.php:168
 msgid "Provides ffmpeg-based video processing"
-msgstr ""
+msgstr "Fornece processamento de vídeo baseado em ffmpeg"
 
 #: lib/Plugins/Media/Video.php:189
 msgid ""
 "Incoming video files will not be transcoded because ffmpeg is not installed."
 msgstr ""
+"Os arquivos de vídeo recebidos não serão transcodificados porque o ffmpeg "
+"não está instalado."
 
 #: lib/Plugins/Media/Video.php:193
 msgid "MediaInfo will be used to extract metadata from video files."
-msgstr ""
+msgstr "O MediaInfo será usado para extrair metadados de arquivos de vídeo."
 
 #: lib/Plugins/Media/Video.php:659
 msgid "Couldn't convert file to FLV format"
-msgstr ""
+msgstr "Não foi possível converter o arquivo para o formato FLV"
 
 #: lib/Plugins/Media/Video.php:798
 msgid ""
 "Couldn't convert file to MPEG4 format [%1]; does the ffmpeg preset '%2' "
 "exist? (command was %3)"
 msgstr ""
+"Não foi possível converter o arquivo para o formato MPEG4 [%1]; existe a "
+"predefinição ffmpeg '%2'? (o comando foi %3)"
 
 #: lib/Plugins/Media/Video.php:800
 msgid "Couldn't convert file to MPEG4 format [%1] (command was %2)"
 msgstr ""
+"Não foi possível converter o arquivo para o formato MPEG4 [%1] (o comando "
+"foi %2)"
 
 #: lib/Plugins/Media/XMLDoc.php:112
 msgid "Accepts and processes XML-format documents"
-msgstr ""
+msgstr "Aceita e processa documentos em formato XML"
 
 #: lib/Plugins/Media/XMLDoc.php:229
 msgid "File %1 is not an XML document"
-msgstr ""
+msgstr "O arquivo %1 não é um documento XML"
 
 #: lib/Plugins/Media/XMLDoc.php:251
 msgid "No XML schema specified in XML file"
-msgstr ""
+msgstr "Nenhum esquema XML especificado no arquivo XML"
 
 #: lib/Plugins/Media/XMLDoc.php:257
 msgid "Specified XML schema is not installed"
-msgstr ""
+msgstr "Esquema XML especificado não está instalado"
 
 #: lib/Plugins/Media/XMLDoc.php:267
 msgid "At line %1"
-msgstr ""
+msgstr "Na linha %1"
 
 #: lib/Plugins/Media/XMLDoc.php:270
 msgid "Validation against XML schema failed with errors:<br/>"
-msgstr ""
+msgstr "A validação com o esquema XML falhou com erros: <br/>"
 
 #: lib/Plugins/Media/XMLDoc.php:278
 msgid "Could not open %1"
-msgstr ""
+msgstr "Não foi possível abrir %1"
 
 #: lib/Plugins/Media/XMLDoc.php:328
 msgid "Couldn't write file to %1"
-msgstr ""
+msgstr "Não foi possível gravar o arquivo em %1"
 
 #: lib/Plugins/Media/XMLDoc.php:432
 msgid "View XML file"
-msgstr ""
+msgstr "Visualizar arquivo XML"
 
 #: lib/Plugins/Media/XMLDoc.php:442 lib/Plugins/Media/XMLDoc.php:444
 msgid "View PDF file"
-msgstr ""
+msgstr "Visualizar arquivo PDF"
 
 #: lib/Plugins/MediaReplication/Vimeo.php:74
 msgid "Replicates media to Vimeo using the Advanced API"
-msgstr ""
+msgstr "Replica mídia para o Vimeo usando a API Avançada"
 
 #: lib/Plugins/MediaReplication/Vimeo.php:97
 msgid ""
@@ -9472,54 +9572,57 @@ msgid ""
 "use your Vimeo account? Enable the 'vimeo' application plugin and navigate "
 "to Manage > Vimeo integration to do so."
 msgstr ""
+"A conexão inicial com o Vimeo falhou. Você autorizou a CollectiveAccess a "
+"usar sua conta do Vimeo? Ative o plug-in do aplicativo 'vimeo' e navegue até "
+"Gerenciar> Integração do Vimeo para fazer isso."
 
 #: lib/Plugins/MediaReplication/Vimeo.php:134
 msgid "File for replication doesn't exist"
-msgstr ""
+msgstr "Arquivo para replicação não existe"
 
 #: lib/Plugins/MediaReplication/Vimeo.php:141
 msgid "Upload to Vimeo failed. Code: %1, Message: %2"
-msgstr ""
+msgstr "Upload para o Vimeo falhou. Código: %1, Mensagem: %2"
 
 #: lib/Plugins/MediaReplication/YouTube.php:79
 msgid "Replicates media to YouTube using the YouTube API"
-msgstr ""
+msgstr "Replica mídia para o YouTube usando a API do YouTube"
 
 #: lib/Plugins/MediaReplication/YouTube.php:111
 #: lib/Plugins/MediaReplication/YouTube.php:159
 #: lib/Plugins/MediaReplication/YouTube.php:214
 #: lib/Plugins/MediaReplication/YouTube.php:236
 msgid "Could not connect to YouTube"
-msgstr ""
+msgstr "Não foi possível conectar-se ao YouTube"
 
 #: lib/Plugins/MediaReplication/YouTube.php:184
 msgid "Unknown error"
-msgstr ""
+msgstr "Erro desconhecido"
 
 #: lib/Plugins/PDFRenderer/PhantomJS.php:86
 msgid "Renders HTML as PDF using PhantomJS"
-msgstr ""
+msgstr "Processa HTML como PDF usando o PhantomJS"
 
 #: lib/Plugins/PDFRenderer/PhantomJS.php:176
 #: lib/Plugins/PDFRenderer/domPDF.php:140
 msgid "Didn't load because wkhtmltopdf is available and preferred"
-msgstr ""
+msgstr "Não carregou porque o wkhtmltopdf está disponível e predefinido"
 
 #: lib/Plugins/PDFRenderer/domPDF.php:59
 msgid "Renders HTML as PDF using domPDF"
-msgstr ""
+msgstr "Processa HTML como PDF usando domPDF"
 
 #: lib/Plugins/PDFRenderer/domPDF.php:143
 msgid "Didn't load because PhantomJS is available and preferred"
-msgstr ""
+msgstr "Não foi carregado porque o PhantomJS está disponível e predefinido"
 
 #: lib/Plugins/PDFRenderer/wkhtmltopdf.php:86
 msgid "Renders HTML as PDF using wkhtmltopdf"
-msgstr ""
+msgstr "Processa HTML como PDF usando wkhtmltopdf"
 
 #: lib/Plugins/SMS/SendHub.php:51
 msgid "Sends SMS text messages using the SendHub API"
-msgstr ""
+msgstr "Envia mensagens de texto SMS usando a API SendHub"
 
 #: lib/Plugins/SearchEngine/ElasticSearch.php:135
 msgid ""
@@ -9527,34 +9630,42 @@ msgid ""
 "type conflict. Try recreating the entire search index. The original error "
 "was %1"
 msgstr ""
+"A atualização do mapeamento do ElasticSearch falhou. Isso é provavelmente "
+"devido a um conflito de tipos. Tente recriar todo o índice de pesquisa. O "
+"erro original foi %1"
 
 #: lib/Plugins/SearchEngine/ElasticSearch/Field.php:72
 msgid "Invalid table num %1"
-msgstr ""
+msgstr "Número de tabela inválido %1"
 
 #: lib/Plugins/SearchEngine/ElasticSearch/Field.php:78
 msgid ""
 "Could not disambiguate field type for content table name %1 indexing field "
 "name %2"
 msgstr ""
+"Não foi possível desambiguar o tipo de campo para o nome da tabela de "
+"conteúdo %1 indexando o nome do campo %2"
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:94
 msgid "ElasticSearch up and running"
-msgstr ""
+msgstr "ElasticSearch instalado e funcionando"
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:96
 msgid "ElasticSearch index exists"
-msgstr ""
+msgstr "O índice ElasticSearch existe"
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:99
 msgid "The ElasticSearch service must be running."
-msgstr ""
+msgstr "O serviço ElasticSearch deve estar em execução."
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:101
 msgid ""
 "CollectiveAccess uses only a single index in an ElasticSearch setup. The "
 "name of that index can be set in the CollectiveAccess configuration."
 msgstr ""
+"O CollectiveAccess usa apenas um único índice em uma configuração do "
+"ElasticSearch. O nome desse índice pode ser definido na configuração "
+"CollectiveAccess."
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:104
 msgid ""
@@ -9562,6 +9673,9 @@ msgid ""
 "your CollectiveAccess configuration (the ElasticSearch URL and index name in "
 "particular)."
 msgstr ""
+"Instale e inicie o serviço ElasticSearch. Se já estiver em execução, "
+"verifique sua configuração do CollectiveAccess (o URL do ElasticSearch e o "
+"nome do índice em particular)."
 
 #: lib/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:106
 msgid ""
@@ -9569,20 +9683,26 @@ msgid ""
 "index is missing, let CollectiveAccess generate a fresh index and create the "
 "related indexing mappings. There is a tool in support/utils."
 msgstr ""
+"Se o serviço estiver em execução e puder ser acessado pelo CollectiveAccess, "
+"mas o índice estiver ausente, permita que o CollectiveAccess gere um novo "
+"índice e crie os mapeamentos de indexação relacionados. Existe uma "
+"ferramenta no suporte/utils."
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:77
 msgid "MySQL is back-end database"
-msgstr ""
+msgstr "MySQL é banco de dados de back-end"
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:79
 msgid "SqlSearch database tables exist"
-msgstr ""
+msgstr "Tabelas de banco de dados SqlSearch existem"
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:88
 msgid ""
 "The SqlSearch search engine requires that MySQL be the back-end database for "
 "your CollectiveAccess installation."
 msgstr ""
+"O mecanismo de busca SqlSearch requer que o MySQL seja o banco de dados de "
+"back-end para sua instalação do CollectiveAccess."
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:90
 msgid ""
@@ -9590,66 +9710,75 @@ msgid ""
 "database. They are installed by default and should be present, but if they "
 "are not SqlSearch will not be able to operate."
 msgstr ""
+"O mecanismo de busca SqlSearch requer que certas tabelas estejam presentes "
+"em seu banco de dados. Eles são instalados por padrão e devem estar "
+"presentes, mas se não forem, o SqlSearch não poderá operar."
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:99
 msgid ""
 "Try reinstalling your system with MySQL as the back-end database or try a "
 "different search engine."
 msgstr ""
+"Tente reinstalar o sistema com o MySQL como o banco de dados de back-end ou "
+"tente um mecanismo de pesquisa diferente."
 
 #: lib/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:101
 msgid ""
 "Try reloading the definitions for these tables: ca_sql_search_words, "
 "ca_sql_search_word_index, ca_sql_search_ngrams"
 msgstr ""
+"Tente recarregar as definições dessas tabelas: ca_sql_search_words, "
+"ca_sql_search_word_index, ca_sql_search_ngrams"
 
 #: lib/Plugins/TaskQueueHandlers/batchEditor.php:62
 msgid "Batch editor background processor"
-msgstr ""
+msgstr "Processador em segundo plano do editor em lote"
 
 #: lib/Plugins/TaskQueueHandlers/batchEditor.php:72
 msgid "Applying batch edits to set"
-msgstr ""
+msgstr "Aplicando edições em lote ao conjunto"
 
 #: lib/Plugins/TaskQueueHandlers/batchEditor.php:76
 msgid "Records to edit"
-msgstr ""
+msgstr "Registros para editar"
 
 #: lib/Plugins/TaskQueueHandlers/batchEditor.php:85
 msgid "Using interface"
-msgstr ""
+msgstr "Usando a interface"
 
 #: lib/Plugins/TaskQueueHandlers/ftpmirror.php:64
 msgid "FTP mirroring handler"
-msgstr ""
+msgstr "Manipulador de espelhamento FTP"
 
 #: lib/Plugins/TaskQueueHandlers/ftpmirror.php:119
 msgid "Deleted %1 from remote server"
-msgstr ""
+msgstr "Excluído %1 do servidor remoto"
 
 #: lib/Plugins/TaskQueueHandlers/ftpmirror.php:150
 msgid "Sent %1 to remote server at %2"
-msgstr ""
+msgstr "Enviado %1 para servidor remoto em %2"
 
 #: lib/Plugins/TaskQueueHandlers/ftpmirror.php:191
 msgid "Could not update mirror status for mirror '%1' on '%2'; row_id=%3"
 msgstr ""
+"Não foi possível atualizar o status do espelhamento para o espelho '%1' em "
+"'%2'; row_id =%3"
 
 #: lib/Plugins/TaskQueueHandlers/mediaImport.php:64
 msgid "Media import background processor"
-msgstr ""
+msgstr "Processador em segundo plano de importação de mídia"
 
 #: lib/Plugins/TaskQueueHandlers/mediaImport.php:77
 msgid "Importing media from"
-msgstr ""
+msgstr "Importando mídia de"
 
 #: lib/Plugins/TaskQueueHandlers/mediaImport.php:84
 msgid "Files to import"
-msgstr ""
+msgstr "Arquivos para importar"
 
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:60
 msgid "Media Replication background processor"
-msgstr ""
+msgstr "Processador em segundo plano de replicação de mídia"
 
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:89
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:91
@@ -9659,16 +9788,16 @@ msgstr "Tabela %1 não é válida"
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:99
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:101
 msgid "Row_id %1 is invalid for table %2"
-msgstr ""
+msgstr "Row_id %1 é inválido para tabela %2"
 
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:141
 #: lib/Plugins/TaskQueueHandlers/mediaReplication.php:143
 msgid "Media replicated to %1 for processing"
-msgstr ""
+msgstr "Mídia replicada para %1 para processamento"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:70
 msgid "Background media file processor"
-msgstr ""
+msgstr "Processador em segundo plano de arquivos de mídia"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:86
 msgid "Input format"
@@ -9689,136 +9818,142 @@ msgstr "Nome de arquivo temporário"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:106
 msgid "Versions output"
-msgstr ""
+msgstr "Versões de saída"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:123
 msgid "Media processing rules"
-msgstr ""
+msgstr "Regras de processamento de mídia"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:177
 msgid "Record %1.field = file '%2' did not exist; queued file was discarded"
 msgstr ""
+"Registro %1.field = arquivo '%2' não existia; arquivo enfileirado foi "
+"descartado"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:196
 msgid "Record %1.field = %2 did not exist; queued file was discarded"
-msgstr ""
+msgstr "Registro %1.field = %2 não existia; arquivo enfileirado foi descartado"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:201
 msgid "Invalid media field '%1' in table '%2'"
-msgstr ""
+msgstr "Campo de mídia inválido '%1' na tabela '%2'"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:206
 msgid "Invalid media field table '%1'"
-msgstr ""
+msgstr "Tabela de campo de mídia inválida '%1'"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:212
 msgid "Input media file '%1' does not exist"
-msgstr ""
+msgstr "O arquivo de mídia de entrada '%1' não existe"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:217
 msgid "Denied permission to read input media file '%1'"
-msgstr ""
+msgstr "Negada permissão para ler o arquivo de mídia de entrada '%1'"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:222
 msgid "Could not process input media file '%1': %2"
-msgstr ""
+msgstr "Não foi possível processar o arquivo de mídia de entrada '%1': %2"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:242
 msgid "File could not be copied for %1; can't convert mimetype %2 to extension"
 msgstr ""
+"O arquivo não pôde ser copiado para %1; Não é possível converter o formato "
+"%2 para extensão"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:248
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:345
 msgid "Couldn't create subdirectory for file for %1"
-msgstr ""
+msgstr "Não foi possível criar o subdiretório para o arquivo %1"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:256
 msgid "File could not be copied for %1"
-msgstr ""
+msgstr "O arquivo não pôde ser copiado para %1"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:269
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:378
 msgid "Could not cancel pending tasks"
-msgstr ""
+msgstr "Não foi possível cancelar tarefas pendentes"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:339
 msgid ""
 "File could not be processed for %1; can't convert mimetype %2 to extension"
 msgstr ""
+"O arquivo não pôde ser processado para %1; Não é possível converter o "
+"formato %2 para extensão"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:466
 msgid "Could not update %1.%2: %3"
-msgstr ""
+msgstr "Não foi possível atualizar %1.%2: %3"
 
 #: lib/Plugins/TaskQueueHandlers/mediaproc.php:471
 msgid "Processed file %1"
-msgstr ""
+msgstr "Processado arquivo %1"
 
 #: lib/Plugins/Visualizer/Calendar.php:49
 msgid "Visualizes data as a calendar with FullCalendar"
-msgstr ""
+msgstr "Visualiza dados como um calendário com o FullCalendar"
 
 #: lib/Plugins/Visualizer/Calendar.php:87
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 #: lib/Plugins/Visualizer/Map.php:52
 msgid "Visualizes data as a map"
-msgstr ""
+msgstr "Visualiza dados como um mapa"
 
 #: lib/Plugins/Visualizer/StoryMapJS.php:49
 msgid "Visualizes data as a story map using StoryMapJS"
-msgstr ""
+msgstr "Visualiza dados como um mapa de história usando StoryMapJS"
 
 #: lib/Plugins/Visualizer/TimelineJS.php:49
 msgid "Visualizes data as a timeline using TimelineJS"
-msgstr ""
+msgstr "Visualiza dados como uma linha do tempo usando o TimelineJS"
 
 #: lib/ProgressBar.php:203 lib/ProgressBar.php:232 lib/ProgressBar.php:261
 #: lib/ProgressBar.php:284 lib/ProgressBar.php:323
 msgid "Invalid mode %1"
-msgstr ""
+msgstr "Modo inválido %1"
 
 #: lib/ProgressBar.php:400
 msgid "[ERROR] %1"
-msgstr ""
+msgstr "[ERRO] %1"
 
 #: lib/RepresentableBaseModel.php:701 lib/RepresentableBaseModel.php:859
 msgid "Representation id=%1 does not exist"
-msgstr ""
+msgstr "ID de representação =%1 não existe"
 
 #: lib/RepresentableBaseModel.php:789
 msgid "Representation id=%1 is not related to %3 id=%2"
-msgstr ""
+msgstr "ID de representação=%1 não está relacionado a %3 id=%2"
 
 #: lib/RepresentableBaseModel.php:1224
 msgid "Extracted metadata"
-msgstr ""
+msgstr "Metadados extraídos"
 
 #: lib/RepresentableBaseModel.php:1226
 msgid "MD5 signature"
-msgstr ""
+msgstr "Assinatura MD5"
 
 #: lib/RepresentableBaseModel.php:1243
 msgid "PRIMARY"
-msgstr ""
+msgstr "PRIMÁRIA"
 
 #: lib/RepresentableBaseModel.php:1250 lib/TaskQueue.php:91
 #: models/ca_site_pages.php:671
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: lib/RepresentableBaseModel.php:1251
 msgid "+ 1 additional preview"
-msgstr ""
+msgstr "+1 pré visualização adicional"
 
 #: lib/RepresentableBaseModel.php:1251
 msgid "+ %1 additional previews"
-msgstr ""
+msgstr "+ %1 pré-visualizações adicionais"
 
 #: lib/RepresentableBaseModel.php:1257 models/ca_site_pages.php:678
 msgid "<h3>Fetched from:</h3> URL %1 on %2"
-msgstr ""
+msgstr "<h3> Obtido de: </h3> URL %1 em %2"
 
 #: lib/RepresentationAnnotationPropertyCoders/ImageRepresentationAnnotationCoder.php:124
 msgid "Invalid numeric value '%1' for %2"
@@ -9891,6 +10026,9 @@ msgid ""
 "TRUNCATING %1\n"
 "\n"
 msgstr ""
+"\n"
+"TRUNCANDO %1\n"
+"\n"
 
 #: lib/Search/SearchIndexer.php:202
 msgid ""
@@ -9898,14 +10036,17 @@ msgid ""
 "WILL INDEX [%1]\n"
 "\n"
 msgstr ""
+"\n"
+"VAI INDEXAR [%1]\n"
+"\n"
 
 #: lib/Search/SearchIndexer.php:223
 msgid "Indexing %1"
-msgstr ""
+msgstr "Indexando %1"
 
 #: lib/Search/SearchIndexer.php:263
 msgid "Memory: %1"
-msgstr ""
+msgstr "Memória: %1"
 
 #: lib/Search/SearchIndexer.php:297
 msgid ""
@@ -9914,6 +10055,10 @@ msgid ""
 "\n"
 "Done! [Indexing for %1 took %2]\n"
 msgstr ""
+"\n"
+"\n"
+"\n"
+"Feito! [Indexação para %1 levou %2]\n"
 
 #: lib/Search/SearchIndexer.php:298
 msgid ""
@@ -9922,88 +10067,95 @@ msgid ""
 "until now. So you still might have to wait a while for the script to "
 "finish.\n"
 msgstr ""
+"Observe que se você estiver usando um serviço de pesquisa externo, como o "
+"ElasticSearch, os dados só poderão ser enviados agora para o serviço real "
+"porque ele estava em buffer até agora. Então você ainda pode ter que esperar "
+"um pouco para o script terminar.\n"
 
 #: lib/Search/SearchIndexer.php:304 lib/SortValueReloadingProgress.php:173
 msgid "Elapsed time: %1"
-msgstr ""
+msgstr "Tempo decorrido: %1"
 
 #: lib/Search/SearchIndexer.php:869 lib/Search/SearchIndexer.php:2702
 msgid ""
 "SQL error while getting content for index of related fields: %1; SQL was %2"
 msgstr ""
+"Erro de SQL ao obter conteúdo para o índice de campos relacionados: %1; SQL "
+"era %2"
 
 #: lib/Search/SearchIndexer.php:2293
 msgid "Invalid _getRelatedRows query: %1"
-msgstr ""
+msgstr "Consulta _getRelatedRows inválida: %1"
 
 #: lib/Service/BaseJSONService.php:83
 msgid "Data sent via POST doesn't seem to be in JSON format"
-msgstr ""
+msgstr "Dados enviados via POST parecem não estar no formato JSON"
 
 #: lib/Service/BaseJSONService.php:88
 msgid "Data sent via 'source' parameter doesn't seem to be in JSON format"
 msgstr ""
+"Dados enviados via parâmetro \"source\" não parecem estar no formato JSON"
 
 #: lib/Service/BaseJSONService.php:110
 msgid "Table does not exist"
-msgstr ""
+msgstr "Tabela não existe"
 
 #: lib/Service/BaseJSONService.php:152
 msgid "Accessing this table directly is not allowed"
-msgstr ""
+msgstr "Acessar esta tabela diretamente não é permitido"
 
 #: lib/Service/BaseJSONService.php:167 lib/Service/BaseJSONService.php:170
 msgid "idno does not exist"
-msgstr ""
+msgstr "idno não existe"
 
 #: lib/Service/BrowseService.php:70 lib/Service/BrowseService.php:119
 msgid "Getting results for browses without criteria is not supported"
-msgstr ""
+msgstr "Obter resultados para pesquisas sem critérios não é suportado"
 
 #: lib/Service/BrowseService.php:75 lib/Service/ItemService.php:95
 msgid "Invalid HTTP request method"
-msgstr ""
+msgstr "Método de pedido de HTTP inválido"
 
 #: lib/Service/IIIFService.php:276
 msgid "Unsupported format %1"
-msgstr ""
+msgstr "Formato não suportado %1"
 
 #: lib/Service/ItemService.php:77
 msgid "Missing request body for PUT"
-msgstr ""
+msgstr "Corpo da solicitação de PUT ausente"
 
 #: lib/Service/ItemService.php:90
 msgid "No identifier specified"
-msgstr ""
+msgstr "Nenhum identificador especificado"
 
 #: lib/Service/ItemService.php:740
 msgid "No intrinsic fields specified"
-msgstr ""
+msgstr "Nenhum campo intrínseco especificado"
 
 #: lib/Service/ModelService.php:54 lib/Service/ModelService.php:80
 #: lib/Service/SearchJSONService.php:77
 msgid "Invalid request body format"
-msgstr ""
+msgstr "Formato do corpo da solicitação inválido"
 
 #: lib/Service/ModelService.php:60 lib/Service/SearchJSONService.php:83
 msgid "Invalid HTTP request method for this service"
-msgstr ""
+msgstr "Método de solicitação HTTP inválido para este serviço"
 
 #: lib/Service/OAIPMHService.php:156
 msgid "Invalid provider '%1'."
-msgstr ""
+msgstr "Provedor inválido '%1'."
 
 #: lib/Service/OAIPMHService.php:178
 msgid "OAI provider is not enabled."
-msgstr ""
+msgstr "O provedor OAI não está habilitado."
 
 #: lib/Service/OAIPMHService.php:187
 msgid "No verb specified."
-msgstr ""
+msgstr "Nenhum verbo especificado."
 
 #: lib/Service/OAIPMHService.php:215
 msgid "Invalid verb specified."
-msgstr ""
+msgstr "O verbo especificado é inválido."
 
 #: lib/Service/OAIPMHService.php:325
 msgid "Identifier is empty"
@@ -10019,11 +10171,11 @@ msgstr "Identificador está excluído"
 
 #: lib/Service/OAIPMHService.php:409
 msgid "No sets are available"
-msgstr ""
+msgstr "Não existem conjuntos disponíveis"
 
 #: lib/Service/OAIPMHService.php:412
 msgid "Sets are not supported"
-msgstr ""
+msgstr "Conjuntos não são suportados"
 
 #: lib/Service/OAIPMHService.php:517
 msgid "Query failed"
@@ -10031,19 +10183,19 @@ msgstr "Consulta falhou"
 
 #: lib/Service/OAIPMHService.php:524
 msgid "No records match the given criteria"
-msgstr ""
+msgstr "Nenhum registro corresponde aos critérios dados"
 
 #: lib/Service/OAIPMHService.php:660
 msgid "CollectiveAccess OAI-PMH Service"
-msgstr ""
+msgstr "Serviço CollectiveAccess OAI-PMH"
 
 #: lib/Service/OAIPMHService.php:734
 msgid "Duplicate parameters in request"
-msgstr ""
+msgstr "Parâmetros duplicados na solicitação"
 
 #: lib/Service/OAIPMHService.php:745
 msgid "Missing required parameter %1"
-msgstr ""
+msgstr "Falta parâmetro obrigatório %1"
 
 #: lib/Service/OAIPMHService.php:748
 msgid "Unknown parameter %1"
@@ -10055,7 +10207,7 @@ msgstr "Parâmetro de data/hora inválido"
 
 #: lib/Service/OAIPMHService.php:764
 msgid "Date/time parameter of differing granularity"
-msgstr ""
+msgstr "Parâmetro de data /hora de granularidade diferente"
 
 #: lib/Service/OAIPMHService.php:767
 msgid "Invalid format configuration"
@@ -10067,39 +10219,43 @@ msgstr "Formato desconhecido %1"
 
 #: lib/Service/OAIPMHService.php:779
 msgid "Selected mapping %1 is invalid"
-msgstr ""
+msgstr "Mapeamento %1 selecionado é inválido"
 
 #: lib/Service/OAIPMHService.php:784
 msgid "Exporter with code %1 does not exist"
-msgstr ""
+msgstr "O exportador com o código %1 não existe"
 
 #: lib/Service/OAIPMHService.php:787
 msgid "metadataPrefix or default_format is invalid"
-msgstr ""
+msgstr "metadataPrefix ou default_format é inválido"
 
 #: lib/Service/ReplicationService.php:209
 msgid "Could not upload file [%1] to target [%2]. HTTP response code was %3."
 msgstr ""
+"Não foi possível fazer upload do arquivo [%1] para destino [%2]. O código de "
+"resposta HTTP foi %3."
 
 #: lib/Service/ReplicationService.php:211
 msgid ""
 "Could not upload file [%1] to target [%2]. HTTP response code was %3. "
 "Retrying (%4 remaining)"
 msgstr ""
+"Não foi possível fazer upload do arquivo [%1] para destino [%2]. O código de "
+"resposta HTTP foi %3. Tentando novamente (%4 restantes)"
 
 #: lib/Service/ReplicationService.php:298
 msgid "Skip log entry"
-msgstr ""
+msgstr "Ignorar entrada de log"
 
 #: lib/Service/ReplicationService.php:310
 #: lib/Service/ReplicationService.php:332
 msgid "Log entry was: %1"
-msgstr ""
+msgstr "Entrada de log foi: %1"
 
 #: lib/Service/ReplicationService.php:392
 msgid ""
 "It seems like there was an error while deduplicating records. Keys were: %1"
-msgstr ""
+msgstr "Parece que houve um erro ao desduplicar registros. As chaves foram: %1"
 
 #: lib/Service/SearchJSONService.php:99
 msgid "Invalid table"
@@ -10112,315 +10268,355 @@ msgstr "Representação"
 #: lib/Sync/LogEntry/Attribute.php:54
 msgid "Could not find element with code '%1' on target system."
 msgstr ""
+"Não foi possível encontrar o elemento com o código '%1' no sistema de "
+"destino."
 
 #: lib/Sync/LogEntry/Attribute.php:57
 msgid "We have an attribute log entry without element code."
-msgstr ""
+msgstr "Nós temos uma entrada de registro de atributo sem código de elemento."
 
 #: lib/Sync/LogEntry/Attribute.php:62
 msgid "Couldn't find row_guid for insert attribute log entry."
 msgstr ""
+"Não foi possível encontrar o row_guid para a entrada de registro do atributo "
+"insert."
 
 #: lib/Sync/LogEntry/Attribute.php:68
 msgid "Couldn't find attribute_guid for update attribute log entry."
 msgstr ""
+"Não foi possível encontrar o attribute_guid para a entrada de log do "
+"atributo de atualização."
 
 #: lib/Sync/LogEntry/Attribute.php:73
 msgid "Couldnt find ca_attributes record for guid %1."
-msgstr ""
+msgstr "Não foi possível encontrar o registro ca_attributes para o guid %1."
 
 #: lib/Sync/LogEntry/AttributeValue.php:57
 msgid "Could not find element with code %1"
-msgstr ""
+msgstr "Não foi possível encontrar o elemento com o código %1"
 
 #: lib/Sync/LogEntry/AttributeValue.php:60
 msgid "No element code found in attribute value log entry"
 msgstr ""
+"Nenhum código de elemento encontrado na entrada do log de valor do atributo"
 
 #: lib/Sync/LogEntry/AttributeValue.php:67
 msgid "Could not find attribute with guid %1"
-msgstr ""
+msgstr "Não foi possível encontrar o atributo com o guid %1"
 
 #: lib/Sync/LogEntry/AttributeValue.php:70
 msgid "No attribute_guid found for attribute value log entry"
 msgstr ""
+"Nenhum attribute_guid localizado para entrada de log de valor de atributo"
 
 #: lib/Sync/LogEntry/AttributeValue.php:90
 msgid "Could not find list item with guid %1"
-msgstr ""
+msgstr "Não foi possível encontrar o item da lista com o guid %1"
 
 #: lib/Sync/LogEntry/AttributeValue.php:94
 msgid "Invalid list item code %1 for attribute value log entry."
 msgstr ""
+"Código de item de lista inválido %1 para entrada de log de valor de atributo."
 
 #: lib/Sync/LogEntry/AttributeValue.php:98
 msgid "Invalid list item label %1 for attribute value log entry."
 msgstr ""
+"Rótulo de item de lista inválido %1 para entrada de log de valor de atributo."
 
 #: lib/Sync/LogEntry/AttributeValue.php:104
 msgid ""
 "Referenced element is not of type List, but item_id is set in the snapshot"
 msgstr ""
+"O elemento referenciado não é do tipo List, mas o item_id é definido no "
+"snapshot"
 
 #: lib/Sync/LogEntry/Base.php:367
 msgid "Could not load GUID %1 (referenced in HIERARCHY_PARENT_ID_FLD)"
 msgstr ""
+"Não foi possível carregar o GUID %1 (referenciado em HIERARCHY_PARENT_ID_FLD)"
 
 #: lib/Sync/LogEntry/Base.php:486
 msgid "%1 guid value '%2' is not defined on this system for %3: %4"
-msgstr ""
+msgstr "%1 o valor do guid '%2' não está definido neste sistema para %3: %4"
 
 #: lib/Sync/LogEntry/Base.php:523
 msgid "Log entry has already been applied"
-msgstr ""
+msgstr "Entrada de log já foi aplicada"
 
 #: lib/Sync/LogEntry/Base.php:527 lib/Sync/LogEntry/Representation.php:80
 msgid "There were errors processing record from log entry %1: %2"
-msgstr ""
+msgstr "Houve erros ao processar o registro da entrada de log %1: %2"
 
 #: lib/Sync/LogEntry/Label.php:90
 msgid "Could not load label subject record with GUID %1"
 msgstr ""
+"Não foi possível carregar o registro de assunto da etiqueta com o GUID %1"
 
 #: lib/Sync/LogEntry/Label.php:93
 msgid "No guid field for label subject reference found"
-msgstr ""
+msgstr "Nenhum campo guid para referência de assunto de rótulo encontrado"
 
 #: lib/Sync/LogEntry/Relationship.php:51
 msgid "Couldn't find relationship type with type code '%1'."
 msgstr ""
+"Não foi possível encontrar o tipo de relacionamento com o código de tipo "
+"'%1'."
 
 #: lib/Sync/LogEntry/Relationship.php:55
 msgid "No relationship type code found in relationship log entry."
 msgstr ""
+"Nenhum código de tipo de relacionamento encontrado na entrada do log de "
+"relacionamento."
 
 #: lib/Sync/LogEntry/Representation.php:71
 msgid "There were errors processing record from log entry on second try %1: %2"
 msgstr ""
+"Ocorreram erros ao processar o registro da entrada de log na segunda "
+"tentativa %1: %2"
 
 #: lib/Sync/LogEntry/Representation.php:93
 msgid ""
 "There were errors processing record from log entry while trying to set media "
 "center %1: %2"
 msgstr ""
+"Ocorreram erros ao processar o registro da entrada de log ao tentar "
+"configurar a central de mídia %1: %2"
 
 #: lib/Sync/LogEntry/Representation.php:112
 msgid "Could not find media reference for checksum"
 msgstr ""
+"Não foi possível encontrar a referência de mídia para a soma de verificação"
 
 #: lib/Sync/LogEntry/Representation.php:139
 msgid "Could not find media for checksum"
-msgstr ""
+msgstr "Não foi possível encontrar mídia para a soma de verificação"
 
 #: lib/Sync/Replicator.php:122
 msgid ""
 "There were errors getting last replicated log id for source %1 and target "
 "%2: %3"
 msgstr ""
+"Ocorreram erros ao obter o ID de log da última replicação para a origem %1 e "
+"destino %2: %3"
 
 #: lib/Sync/Replicator.php:132
 msgid ""
 "Couldn't get last replicated log id for source %1 and target %2. Starting at "
 "the beginning."
 msgstr ""
+"Não foi possível obter o último ID de log replicado para a origem %1 e "
+"destino %2. Começando do início."
 
 #: lib/Sync/Replicator.php:137
 msgid "Starting replication for source %1 and target %2, log id is %3."
 msgstr ""
+"Iniciando a replicação para a origem %1 e destino %2, o ID de log é %3."
 
 #: lib/Sync/Replicator.php:304
 msgid "Passing on "
-msgstr ""
+msgstr "Passando "
 
 #: lib/Sync/Replicator.php:328
 msgid "Skipped %1 because we've seen it already "
-msgstr ""
+msgstr "Saltou %1 porque já vimos isso "
 
 #: lib/Sync/Replicator.php:333
 msgid "Getting log for missing guid %1"
-msgstr ""
+msgstr "Obtendo log para o guid ausente %1"
 
 #: lib/Sync/Replicator.php:373
 msgid "SKIP %1 because we have no access: %2"
-msgstr ""
+msgstr "PULE %1 porque não temos acesso: %2"
 
 #: lib/Sync/Replicator.php:378
 msgid "SKIP %1 because it already exists on target"
-msgstr ""
+msgstr "PULE %1 porque ele já existe no destino"
 
 #: lib/Sync/Replicator.php:389
 msgid "SKIP dependent %1 because log entry matches guid: %3"
-msgstr ""
+msgstr "PULE dependente %1 porque a entrada de log corresponde ao guid: %3"
 
 #: lib/Sync/Replicator.php:436
 msgid "GOT %1 entries for %2"
-msgstr ""
+msgstr "OBTEVE %1 entradas para %2"
 
 #: lib/Sync/Replicator.php:441
 msgid "Immediately pushing %1 missing entries for %2"
-msgstr ""
+msgstr "Enviando imediatamente %1 entradas ausentes para %2"
 
 #: lib/Sync/Replicator.php:452 lib/Sync/Replicator.php:562
 msgid "Skipped entry because it lacks a log_id %1"
-msgstr ""
+msgstr "Entrada  porque falta um log_id %1"
 
 #: lib/Sync/Replicator.php:456 lib/Sync/Replicator.php:566
 msgid "Skipped %1 because it's in the future"
-msgstr ""
+msgstr "Saltou %1 porque ele está no futuro"
 
 #: lib/Sync/Replicator.php:490
 msgid ""
 "Adding %3 unpushed attribute log entries starting with %1 for %2 for "
 "immediate push."
 msgstr ""
+"Adicionando %3 entradas de log de atributo não processadas começando com %1 "
+"para %2 para envio imediato."
 
 #: lib/Sync/Replicator.php:506
 msgid "Immediately pushing missing log entries starting with %1 for %2. %3"
 msgstr ""
+"Enviando imediatamente entradas de log ausentes, iniciando com %1 para %2. %3"
 
 #: lib/Sync/Replicator.php:521
 msgid "No log for %1."
-msgstr ""
+msgstr "Nenhum log para %1."
 
 #: lib/Sync/Replicator.php:552
 msgid "Pushing %1 missing entries for %2"
-msgstr ""
+msgstr "Enviando %1 entradas ausentes para %2"
 
 #: lib/Sync/Replicator.php:577
 msgid "Skipped %1 because dependency %2 is not available"
-msgstr ""
+msgstr "Saltou %1 porque a dependência %2 não está disponível"
 
 #: lib/Sync/Replicator.php:586
 msgid "Skipped %1 because it still has dependencies: %2"
-msgstr ""
+msgstr "Saltou %1 porque ele ainda tem dependências: %2"
 
 #: lib/Sync/Replicator.php:592
 msgid "Skipped %1 because it has already been pushed"
-msgstr ""
+msgstr "Saltou %1 porque ele já foi enviado"
 
 #: lib/Sync/Replicator.php:656
 msgid "Adding %3 unpushed attribute log entries starting with %1 for %2 [%4]."
 msgstr ""
+"Adicionando %3 entradas de log de atributo não processadas, começando com %1 "
+"para %2 [%4]."
 
 #: lib/Sync/Replicator.php:666
 msgid "Pushing %3 missing log entries starting with %1 for %2. [%4]"
-msgstr ""
+msgstr "Enviando %3 entradas de log ausentes, começando com %1 para %2. [%4]"
 
 #: lib/Sync/Replicator.php:677
 msgid ""
 "No new log entries found for source %1 and target %2. Skipping this "
 "combination now."
 msgstr ""
+"Nenhuma entrada de log nova foi encontrada para a origem %1 e destino %2. "
+"Ignorando essa combinação agora."
 
 #: lib/Sync/Replicator.php:688
 msgid "Nothing to push. Incrementing log index to %1 (%2)"
-msgstr ""
+msgstr "Nada para enviar. Incrementando o índice de log para %1 (%2)"
 
 #: lib/Sync/Replicator.php:715
 msgid "Pushed %1 primary entries"
-msgstr ""
+msgstr "Enviadas %1 entradas primárias"
 
 #: lib/Sync/Replicator.php:719
 msgid "There were errors while processing sync for source %1 and target %2: %3"
 msgstr ""
+"Ocorreram erros ao processar a sincronização da origem %1 e destino %2: %3"
 
 #: lib/Sync/Replicator.php:731
 msgid "Chunk sync for source %1 and target %2 successful."
 msgstr ""
+"Sincronização de fragmentos para a origem %1 e destino %2 bem-sucedida."
 
 #: lib/Sync/Replicator.php:735
 msgid "Pushed %1 log entries. Incrementing log index to %2 (%3)"
 msgstr ""
+"Emviadas %1 entradas de log. Incrementando o índice de log para %2 (%3)"
 
 #: lib/Sync/Replicator.php:736
 msgid "Last replicated log ID is: %1 (%2)"
-msgstr ""
+msgstr "O último ID de log replicado é: %1 (%2)"
 
 #: lib/Sync/Replicator.php:748
 msgid "Sync for source %1 and target %2 successful"
-msgstr ""
+msgstr "Sincronização para a fonte %1 e destino %2 com sucesso"
 
 #: lib/Sync/Replicator.php:764
 msgid "There were errors while processing deduplication for at target %1: %2"
 msgstr ""
+"Ocorreram erros durante o processamento da deduplicação no destino %1: %2"
 
 #: lib/Sync/Replicator.php:766
 msgid "Dedup at target %1 successful."
-msgstr ""
+msgstr "Deduplicação no destino %1 bem-sucedida."
 
 #: lib/Sync/Replicator.php:769
 msgid "De-duped %1 records for %2."
-msgstr ""
+msgstr "Deduplicados %1 registros para %2."
 
 #: lib/Sync/Replicator.php:775
 msgid "Sync for source %1 and target %2 finished, but there were errors"
 msgstr ""
+"Sincronização para a origem %1 e destino %2 foi concluída, mas houve erros"
 
 #: lib/TaskQueue.php:186
 msgid "Could not create tmp directory for handler '%1'"
-msgstr ""
+msgstr "Não foi possível criar o diretório tmp para o manipulador '%1'"
 
 #: lib/TaskQueue.php:192
 msgid "Could not copy '%1'"
-msgstr ""
+msgstr "Não foi possível copiar '%1'"
 
 #: lib/TaskQueue.php:197
 msgid "No tmp directory configured!"
-msgstr ""
+msgstr "Nenhum diretório tmp configurado!"
 
 #: lib/TaskQueue.php:262 lib/TaskQueue.php:407 lib/TaskQueue.php:512
 msgid "No handler directories are configured!"
-msgstr ""
+msgstr "Nenhum diretório de manipulador está configurado!"
 
 #: lib/TaskQueue.php:310 lib/TaskQueue.php:425 lib/TaskQueue.php:529
 msgid "Invalid task queue handler '%1'"
-msgstr ""
+msgstr "Manipulador de fila de tarefas inválido '%1'"
 
 #: lib/TaskQueue.php:360
 msgid "Error while closing task record: %1"
-msgstr ""
+msgstr "Erro ao fechar o registro da tarefa: %1"
 
 #: lib/Utils/BaseApplicationTool.php:175
 msgid "Command %1 does not exist"
-msgstr ""
+msgstr "Comando %1 não existe"
 
 #: lib/Utils/BaseApplicationTool.php:330 lib/Utils/BaseApplicationTool.php:339
 msgid "No help available for %1"
-msgstr ""
+msgstr "Não há ajuda disponível para %1"
 
 #: lib/Utils/CLITools.php:50 lib/Utils/CLIUtils.php:1254
 #: lib/Utils/CLIUtils.php:1692 lib/Utils/CLIUtils.php:2031
 #: lib/Utils/CLIUtils.php:3514
 msgid "You must specify a file"
-msgstr ""
+msgstr "Você deve especificar um arquivo"
 
 #: lib/Utils/CLITools.php:54 lib/Utils/CLIUtils.php:1258
 msgid "File '%1' does not exist"
-msgstr ""
+msgstr "Arquivo '%1' não existe"
 
 #: lib/Utils/CLITools.php:60 lib/Utils/CLITools.php:209
 msgid "Cannot write to %1"
-msgstr ""
+msgstr "Não é possível escrever em %1"
 
 #: lib/Utils/CLITools.php:120
 msgid "Wrote output to %1"
-msgstr ""
+msgstr "Escreveu a saída para %1"
 
 #: lib/Utils/CLITools.php:156
 msgid "Excel file to convert to profile list."
-msgstr ""
+msgstr "Arquivo do Excel para converter em lista de perfis."
 
 #: lib/Utils/CLITools.php:157
 msgid "File to write output to."
-msgstr ""
+msgstr "Arquivo para gravar a saída."
 
 #: lib/Utils/CLITools.php:158
 msgid "Number of rows to skip before reading data."
-msgstr ""
+msgstr "Número de linhas para pular antes de ler os dados."
 
 #: lib/Utils/CLITools.php:166 lib/Utils/CLITools.php:267
 msgid "Profile development tools"
-msgstr ""
+msgstr "Ferramentas de desenvolvimento de perfil"
 
 #: lib/Utils/CLITools.php:173
 msgid ""
@@ -10440,79 +10636,102 @@ msgid ""
 "\tIf your Excel document has column headers you can skip them by specifying "
 "the number of rows to skip using the \"skip\" option."
 msgstr ""
+"Criar um elemento de perfil <list> a partir de uma planilha do Excel. Sua "
+"lista deve ter um item de lista por linha, com nível hierárquico indicado "
+"por recuo. Por exemplo, se você quiser ter uma lista com A, B, C, D, E e F, "
+"com os subitens B e C de A e F, um sub-item de E, o documento do Excel deve "
+"ficar assim:\n"
+"\n"
+"\n"
+"\tA\n"
+"\t\tB\n"
+"\t\tC\n"
+"\tD\n"
+"\tE\n"
+"\t\tF\n"
+"\n"
+"\tSe o documento do Excel tiver cabeçalhos de coluna, você poderá ignorá-los "
+"especificando o número de linhas a serem ignoradas usando a opção \"Ignorar"
+"\"."
 
 #: lib/Utils/CLITools.php:180
 msgid "Create a profile <list> element from an Excel spreadsheet. "
-msgstr ""
+msgstr "Criar um elemento de perfil <list> a partir de uma planilha do Excel. "
 
 #: lib/Utils/CLITools.php:193
 msgid "You must specify a directory"
-msgstr ""
+msgstr "Você deve especificar um diretório"
 
 #: lib/Utils/CLITools.php:197
 msgid "Directory '%1' does not exist"
-msgstr ""
+msgstr "O diretório '%1' não existe"
 
 #: lib/Utils/CLITools.php:201
 msgid "'%1' is not a directory"
-msgstr ""
+msgstr "'%1' não é um diretório"
 
 #: lib/Utils/CLITools.php:205
 msgid "You must specify an output file"
-msgstr ""
+msgstr "Você deve especificar um arquivo de saída"
 
 #: lib/Utils/CLITools.php:214
 msgid ""
 "ExifTool external application is required but not installed on this server."
 msgstr ""
+"O aplicativo externo ExifTool é necessário, mas não está instalado neste "
+"servidor."
 
 #: lib/Utils/CLITools.php:250
 msgid "Wrote output to '%1'"
-msgstr ""
+msgstr "Escreveu a saída para '%1'"
 
 #: lib/Utils/CLITools.php:258
 msgid "Directory containing images to examine."
-msgstr ""
+msgstr "Diretório contendo imagens para examinar."
 
 #: lib/Utils/CLITools.php:259
 msgid "File to write tab-delimited output to."
-msgstr ""
+msgstr "Arquivo para gravar a saída delimitada por tabulações em."
 
 #: lib/Utils/CLITools.php:274
 msgid ""
 "Analyzes a directory of images and returns a tab-delimited list of import-"
 "mapping compatible EXIF and IPTC tags containing data."
 msgstr ""
+"Analisa um diretório de imagens e retorna uma lista delimitada por tabulação "
+"de tags EXIF ​​e IPTC compatíveis com mapeamento de importação contendo dados."
 
 #: lib/Utils/CLITools.php:281
 msgid ""
 "Analyzes a directory of images and returns a tab-delimited  list of import-"
 "mapping compatible EXIF and IPTC tags containing data."
 msgstr ""
+"Analisa um diretório de imagens e retorna uma lista delimitada por tabulação "
+"de tags EXIF ​​e IPTC compatíveis com mapeamento de importação contendo dados."
 
 #: lib/Utils/CLIUtils.php:56
 msgid "Missing required parameter: profile-name"
-msgstr ""
+msgstr "Parâmetro obrigatório ausente: profile-name"
 
 #: lib/Utils/CLIUtils.php:61
 msgid "Missing required parameter: admin-email"
-msgstr ""
+msgstr "Parâmetro obrigatório ausente: admin-email"
 
 #: lib/Utils/CLIUtils.php:81
 msgid "There were errors parsing the profile(s): %1"
-msgstr ""
+msgstr "Houve erros ao analisar o(s) perfil(is): %1"
 
 #: lib/Utils/CLIUtils.php:87
 msgid "Performing preinstall tasks"
-msgstr ""
+msgstr "Executando tarefas de pré-instalação"
 
 #: lib/Utils/CLIUtils.php:90
 msgid "Loading schema"
-msgstr ""
+msgstr "Carregando esquema"
 
 #: lib/Utils/CLIUtils.php:95
 msgid "There were errors loading the database schema: %1"
-msgstr ""
+msgstr "Houve erros ao carregar o esquema do banco de dados: %1"
 
 #: lib/Utils/CLIUtils.php:102
 msgid "Processing locales"
@@ -10568,7 +10787,7 @@ msgstr "Processando alertas de metadados"
 
 #: lib/Utils/CLIUtils.php:143
 msgid "Performing post install tasks"
-msgstr ""
+msgstr "Executando tarefas pós-instalação"
 
 #: lib/Utils/CLIUtils.php:146
 msgid "Installation complete"
@@ -10583,6 +10802,8 @@ msgid ""
 "There were errors during installation: %1\n"
 "(%2)"
 msgstr ""
+"Ocorreram erros durante a instalação: %1\n"
+"(%2)"
 
 #: lib/Utils/CLIUtils.php:165
 msgid "username %1 and password %2"
@@ -10595,16 +10816,22 @@ msgid ""
 "You can now login with the following logins: %1\n"
 "Make a note of these passwords!"
 msgstr ""
+"Instalação foi bem sucedida!\n"
+"\n"
+"Agora você pode fazer o login com os seguintes logins: %1\n"
+"Anote essas senhas!"
 
 #: lib/Utils/CLIUtils.php:173
 msgid "Update of installation profile successful"
-msgstr ""
+msgstr "Atualização do perfil de instalação bem-sucedida"
 
 #: lib/Utils/CLIUtils.php:185
 msgid ""
 "Name of the profile to install (filename in profiles directory, minus the ."
 "xml extension)."
 msgstr ""
+"Nome do perfil a ser instalado (nome do arquivo no diretório profiles, menos "
+"a extensão .xml)."
 
 #: lib/Utils/CLIUtils.php:186
 msgid ""
@@ -10612,10 +10839,13 @@ msgid ""
 "the profile.xsd schema so that the installer can validate the installation "
 "profile."
 msgstr ""
+"Diretório para obter o perfil. O padrão é: \"%1\". Esse diretório deve "
+"conter o esquema profile.xsd para que o instalador possa validar o perfil de "
+"instalação."
 
 #: lib/Utils/CLIUtils.php:187
 msgid "Email address of the system administrator (user@domain.tld)."
-msgstr ""
+msgstr "Endereço de email do administrador do sistema (user@domain.tld)."
 
 #: lib/Utils/CLIUtils.php:188
 msgid ""
@@ -10623,21 +10853,26 @@ msgid ""
 "__CA_ALLOW_INSTALLER_TO_OVERWRITE_EXISTING_INSTALLS__ global must be set to "
 "a true value."
 msgstr ""
+"O sinalizador deve ser definido para sobrescrever uma instalação existente.  "
+"Além disso, o __CA_ALLOW_INSTALLER_TO_OVERWRITE_EXISTING_INSTALLS__ global "
+"deve ser definido como um valor verdadeiro."
 
 #: lib/Utils/CLIUtils.php:189
 msgid "Debug flag for installer."
-msgstr ""
+msgstr "Sinalizador de depuração para o instalador."
 
 #: lib/Utils/CLIUtils.php:190 lib/Utils/CLIUtils.php:965
 #: lib/Utils/CLIUtils.php:2684
 msgid "Suppress progress messages."
-msgstr ""
+msgstr "Suprimir mensagens de progresso."
 
 #: lib/Utils/CLIUtils.php:191
 msgid ""
 "Skip Roles. Default is false, but if you have many roles and access control "
 "enabled then install may take some time"
 msgstr ""
+"Ignorar funções. O padrão é falso, mas se você tiver muitas funções e "
+"controle de acesso ativado, a instalação poderá levar algum tempo"
 
 #: lib/Utils/CLIUtils.php:199 lib/Utils/CLIUtils.php:224
 #: lib/Utils/CLIUtils.php:701 lib/Utils/CLIUtils.php:4031
@@ -10656,22 +10891,36 @@ msgid ""
 "the --overwrite flag is set, in which case all existing data will be deleted "
 "(use with caution!)."
 msgstr ""
+"Executa uma nova instalação do CollectiveAccess usando os valores "
+"configurados em setup.php.\n"
+"\n"
+"\tO nome do perfil e o endereço de e-mail do administrador devem ser "
+"fornecidos de acordo com o instalador baseado na web.\n"
+"\n"
+"\tSe o esquema do banco de dados já existir, esta operação falhará, a menos "
+"que o sinalizador --overwrite esteja definido, caso em que todos os dados "
+"existentes serão excluídos (use com cuidado!)."
 
 #: lib/Utils/CLIUtils.php:217
 msgid ""
 "Performs a fresh installation of CollectiveAccess using the configured "
 "values in setup.php."
 msgstr ""
+"Executa uma nova instalação do CollectiveAccess usando os valores "
+"configurados em setup.php."
 
 #: lib/Utils/CLIUtils.php:243
 msgid "Updates the configuration to match a supplied profile name."
 msgstr ""
+"Atualiza a configuração para corresponder a um nome de perfil fornecido."
 
 #: lib/Utils/CLIUtils.php:244
 msgid ""
 "This function only creates new values and is useful if you want to append "
 "changes from one profile onto another."
 msgstr ""
+"Essa função cria apenas novos valores e é útil se você deseja acrescentar "
+"alterações de um perfil para outro."
 
 #: lib/Utils/CLIUtils.php:245
 msgid ""
@@ -10679,18 +10928,25 @@ msgid ""
 "schema and must validate against that schema in order for the update to "
 "apply successfully."
 msgstr ""
+"Seu novo perfil deve existir em um diretório que contenha o esquema profile."
+"xsd e deve ser validado em relação a esse esquema para que a atualização "
+"seja aplicada com êxito."
 
 #: lib/Utils/CLIUtils.php:252
 msgid ""
 "Updates the installation profile to match a supplied profile name. Backup "
 "your database before you use this!"
 msgstr ""
+"Atualiza o perfil de instalação para corresponder a um nome de perfil "
+"fornecido. Realize o backup de seu banco de dados antes de usar isso!"
 
 #: lib/Utils/CLIUtils.php:278
 msgid ""
 "Specific tables to reindex, separated by commas or semicolons. If omitted "
 "all tables will be reindexed."
 msgstr ""
+"Tabelas específicas para reindexar, separadas por vírgulas ou ponto e "
+"vírgula. Se omitido, todas as tabelas serão reindexadas."
 
 #: lib/Utils/CLIUtils.php:293
 msgid ""
@@ -10715,12 +10971,35 @@ msgid ""
 "results. Browse functions, which do not rely upon indices, will not be "
 "affected."
 msgstr ""
+"O CollectiveAccess depende de índices ao pesquisar seus dados. Índices são "
+"simplesmente resumos de seus dados criados para acelerar o processamento de "
+"consultas. A forma precisa e as características dos índices usados ​​variam de "
+"acordo com o tipo de mecanismo de pesquisa que você está usando. Eles podem "
+"ser armazenados em disco, em um banco de dados ou em outro servidor, mas sua "
+"finalidade é sempre a mesma: tornar as pesquisas mais rápidas.\n"
+"\n"
+"\tPara que os resultados da pesquisa sejam precisos, o banco de dados e os "
+"índices devem estar sincronizados. O CollectiveAccess atualiza "
+"simultaneamente o banco de dados e os índices à medida que você adiciona, "
+"edita e exclui dados, mantendo o banco de dados e os índices em "
+"concordância. Ocasionalmente, as coisas ficam fora de sincronia, no entanto. "
+"Se as pesquisas básica e avançada estiverem sempre retornando resultados "
+"inesperados, você poderá usar essa ferramenta para reconstruir os índices do "
+"banco de dados e alinhar as coisas.\n"
+"\n"
+"\tObserve que, dependendo do tamanho do banco de dados, a reconstrução pode "
+"levar de alguns minutos a várias horas. Durante o processo de reconstrução, "
+"o sistema permanecerá utilizável, mas as funções de pesquisa poderão "
+"retornar resultados incompletos. As funções de navegação, que não dependem "
+"de índices, não serão afetadas."
 
 #: lib/Utils/CLIUtils.php:304
 msgid ""
 "Rebuilds search indices. Use this if you suspect the indices are out of sync "
 "with the database."
 msgstr ""
+"Recria os índices de pesquisa. Use isso se você suspeitar que os índices "
+"estão fora de sincronia com o banco de dados."
 
 #: lib/Utils/CLIUtils.php:330 lib/Utils/CLIUtils.php:2755
 #: lib/Utils/CLIUtils.php:2876
@@ -10766,14 +11045,33 @@ msgid ""
 "the system will remain usable but search and browse functions may return "
 "incorrectly sorted results."
 msgstr ""
+"CollectiveAccess depende de valores de classificação ao ordenar valores que "
+"não devem ordenar alfabeticamente, como títulos com artigos (Ex. O Homem Que "
+"Caiu Na Terra deve classificar como Homem Que Caiu Na Terra, O) e "
+"identificadores alfanuméricos (Ex. 2011.001 e 2011.2 devem classificar ao "
+"lado do outro com zeros à esquerda no primeiro ignorado).\n"
+"\n"
+"\tOs valores de classificação são derivados dos valores correspondentes em "
+"seu banco de dados. O formato interno dos valores de classificação pode "
+"variar entre as versões do CollectiveAccess, causando um comportamento "
+"errôneo de classificação após uma atualização. Se você perceber que valores "
+"como títulos e identificadores estão sendo ordenados incorretamente, talvez "
+"seja necessário recarregar os valores de classificação de seus dados.\n"
+"\n"
+"\tObserve que, dependendo do tamanho do banco de dados, o recarregamento dos "
+"valores de classificação pode levar de alguns minutos a uma hora ou mais. "
+"Durante o processo de recarregamento, o sistema permanecerá utilizável, mas "
+"as funções de pesquisa e navegação poderão retornar resultados classificados "
+"incorretamente."
 
 #: lib/Utils/CLIUtils.php:387
 msgid "Rebuilds values use to sort by title, name and identifier."
 msgstr ""
+"Recria os valores usados ​​para classificar por título, nome e identificador."
 
 #: lib/Utils/CLIUtils.php:405
 msgid "Loading valid file paths from database"
-msgstr ""
+msgstr "Carregando caminhos de arquivos válidos do banco de dados"
 
 #: lib/Utils/CLIUtils.php:418
 msgid "Reading file list"
@@ -10805,13 +11103,15 @@ msgstr "%1arquivos (%2) não são utilizados"
 
 #: lib/Utils/CLIUtils.php:461
 msgid "Delete unused files. Default is false."
-msgstr ""
+msgstr "Excluir arquivos não utilizados. O padrão é falso."
 
 #: lib/Utils/CLIUtils.php:476
 msgid ""
 "Detects and, optionally, removes media present in the media directories but "
 "not referenced in the database."
 msgstr ""
+"Detecta e, opcionalmente, remove a mídia presente nos diretórios de mídia, "
+"mas não referenciadas no banco de dados."
 
 #: lib/Utils/CLIUtils.php:483
 msgid "Help text to come"
@@ -10819,11 +11119,11 @@ msgstr "Texto de ajuda a ser providenciado"
 
 #: lib/Utils/CLIUtils.php:503
 msgid "Removing deleted representations from database"
-msgstr ""
+msgstr "Removendo representações excluídas do banco de dados"
 
 #: lib/Utils/CLIUtils.php:505
 msgid "Loading deleted representations from database"
-msgstr ""
+msgstr "Carregando representações excluídas do banco de dados"
 
 #: lib/Utils/CLIUtils.php:527 lib/Utils/CLIUtils.php:613
 msgid "Done!"
@@ -10831,7 +11131,7 @@ msgstr "Feito!"
 
 #: lib/Utils/CLIUtils.php:529
 msgid "There are no deleted representations to process!"
-msgstr ""
+msgstr "Não há representações excluídas para processar!"
 
 #: lib/Utils/CLIUtils.php:531
 msgid ""
@@ -10839,10 +11139,13 @@ msgid ""
 "files will be deleted if you re-run the script with the -d (--delete) option "
 "and the correct permissions."
 msgstr ""
+"%1 arquivos são referenciados por %2 registros excluídos. Os registros e os "
+"arquivos serão excluídos se você executar novamente o script com a opção -d "
+"(--delete) e as permissões corretas."
 
 #: lib/Utils/CLIUtils.php:532
 msgid "It is highly recommended to create a full backup before you do this!"
-msgstr ""
+msgstr "É altamente recomendável criar um backup completo antes de fazer isso!"
 
 #: lib/Utils/CLIUtils.php:541
 msgid ""
@@ -10850,12 +11153,19 @@ msgid ""
 "system user that runs this script has to be able to write/delete the "
 "referenced media files if you want them to be removed."
 msgstr ""
+"Remove as representações marcadas como excluídas. O padrão é falso. Observe "
+"que o usuário do sistema que executar esse script deve ser capaz de gravar/"
+"excluir os arquivos de mídia referenciados, caso deseje que eles sejam "
+"removidos."
 
 #: lib/Utils/CLIUtils.php:556
 msgid ""
 "Detects and, optionally, completely removes object representations marked as "
 "deleted in the database. Files referenced by these records are also removed."
 msgstr ""
+"Detecta e, opcionalmente, remove completamente as representações de objetos "
+"marcadas como excluídas no banco de dados. Arquivos referenciados por esses "
+"registros também são removidos."
 
 #: lib/Utils/CLIUtils.php:563
 msgid ""
@@ -10864,6 +11174,10 @@ msgid ""
 "This can be useful if there has been a lot of fluctuation in your "
 "representation stock and you want to free up disk space."
 msgstr ""
+"Detecta e, opcionalmente, remove completamente as representações de objetos "
+"marcadas como excluídas no banco de dados. Arquivos referenciados por esses "
+"registros também são removidos. Isso pode ser útil se houver muita flutuação "
+"em seu estoque de representação e se você quiser liberar espaço em disco."
 
 #: lib/Utils/CLIUtils.php:570
 msgid ""
@@ -10872,10 +11186,15 @@ msgid ""
 "\n"
 "Type 'y' to proceed or 'N' to cancel, then hit return "
 msgstr ""
+"Tem certeza de que deseja remover PERMANENTEMENTE todos os registros "
+"excluídos? Isto não pode ser desfeito.\n"
+"\n"
+"Digite 'y' para continuar ou 'N' para cancelar e, em seguida, pressione "
+"Enter "
 
 #: lib/Utils/CLIUtils.php:593
 msgid "Removing deleted %1 from database"
-msgstr ""
+msgstr "Removendo %1 excluído do banco de dados"
 
 #: lib/Utils/CLIUtils.php:605
 msgid "Removed %1 %2"
@@ -10891,11 +11210,16 @@ msgid ""
 "names separated by commas. If no table list is provided all tables are "
 "purged."
 msgstr ""
+"Lista de tabelas para as quais limpar registros excluídos. Listar vários "
+"nomes de tabelas separados por vírgulas. Se nenhuma lista de tabelas for "
+"fornecida, todas as tabelas serão limpas."
 
 #: lib/Utils/CLIUtils.php:639
 msgid ""
 "Completely and permanently removes records marked as deleted in the database."
 msgstr ""
+"Completa e permanentemente remove registros marcados como excluídos no banco "
+"de dados."
 
 #: lib/Utils/CLIUtils.php:646
 msgid ""
@@ -10903,62 +11227,73 @@ msgid ""
 "database. Files referenced by these records are also removed. Note that this "
 "cannot be undone."
 msgstr ""
+"Completa e permanentemente remove registros marcados como excluídos no banco "
+"de dados. Arquivos referenciados por esses registros também são removidos. "
+"Note que isso não pode ser desfeito."
 
 #: lib/Utils/CLIUtils.php:656
 msgid "The PHP DOM extension is required to export profiles"
-msgstr ""
+msgstr "A extensão PHP DOM é necessária para exportar perfis"
 
 #: lib/Utils/CLIUtils.php:664
 msgid "Cannot write profile to '%1'"
-msgstr "Não é possível gravar perfil para '% 1'"
+msgstr "Não é possível gravar perfil para '%1'"
 
 #: lib/Utils/CLIUtils.php:688
 msgid ""
 "File name of profile to use as base profile. Omit if you do not want to use "
 "a base profile. (Optional)"
 msgstr ""
+"Nome do arquivo do perfil a ser usado como perfil base. Omita se você não "
+"quiser usar um perfil base. (Opcional)"
 
 #: lib/Utils/CLIUtils.php:689
 msgid "Name of the profile, used for \"profileName\" element."
-msgstr ""
+msgstr "Nome do perfil, usado para o elemento \"profileName\"."
 
 #: lib/Utils/CLIUtils.php:690
 msgid "URL pointing to more information about the profile. (Optional)"
-msgstr ""
+msgstr "URL apontando para mais informações sobre o perfil. (Opcional)"
 
 #: lib/Utils/CLIUtils.php:691
 msgid ""
 "Description of the profile, used for \"profileDescription\" element. "
 "(Optional)"
 msgstr ""
+"Descrição do perfil, usado para o elemento \"profileDescription\". (Opcional)"
 
 #: lib/Utils/CLIUtils.php:692
 msgid ""
 "File to output profile to. If omitted profile is printed to standard output. "
 "(Optional)"
 msgstr ""
+"Arquivo de saída para o perfil. Se omitido o perfil é publicado na saída "
+"padrão. (Opcional)"
 
 #: lib/Utils/CLIUtils.php:693
 msgid ""
 "Limit output to configuration changes made after this UNIX timestamp. "
 "(Optional)"
 msgstr ""
+"Limita a saída às alterações de configuração feitas após este UNIX "
+"timestamp. (Opcional)"
 
 #: lib/Utils/CLIUtils.php:708
 msgid "Export current system configuration as an XML installation profile."
 msgstr ""
+"Exportar a configuração atual do sistema como um perfil de instalação XML."
 
 #: lib/Utils/CLIUtils.php:715 lib/Utils/CLIUtils.php:766
 msgid "Help text to come."
-msgstr ""
+msgstr "Texto de ajuda a ser providenciado."
 
 #: lib/Utils/CLIUtils.php:728
 msgid "Processing queued tasks..."
-msgstr ""
+msgstr "Processando tarefas enfileiradas..."
 
 #: lib/Utils/CLIUtils.php:731
 msgid "Processing recurring tasks..."
-msgstr ""
+msgstr "Processando tarefas recorrentes..."
 
 #: lib/Utils/CLIUtils.php:733
 msgid "Processing complete."
@@ -10966,7 +11301,7 @@ msgstr "Processamento concluído."
 
 #: lib/Utils/CLIUtils.php:743 lib/Utils/CLIUtils.php:1880
 msgid "Run without outputting progress information."
-msgstr ""
+msgstr "Executar sem emitir informações de progresso."
 
 #: lib/Utils/CLIUtils.php:744
 msgid ""
@@ -10975,78 +11310,87 @@ msgid ""
 "have 'zombie' entries in your task queue. This option shouldn't interfere "
 "with any existing task queue processes that are actually running."
 msgstr ""
+"Reinicie/redefina tarefas inacabadas antes do processamento da fila. Essa "
+"opção pode ser útil quando o script da fila de tarefas (ou a máquina "
+"inteira) falhou e você tem entradas 'zumbis' na sua fila de tarefas. Essa "
+"opção não deve interferir em nenhum processo de fila de tarefas existente "
+"que esteja realmente em execução."
 
 #: lib/Utils/CLIUtils.php:752
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 #: lib/Utils/CLIUtils.php:759
 msgid "Process queued tasks."
-msgstr ""
+msgstr "Processar tarefas enfileiradas."
 
 #: lib/Utils/CLIUtils.php:846
 msgid "Re-processing representation media"
-msgstr ""
+msgstr "Reprocessando mídia de representação"
 
 #: lib/Utils/CLIUtils.php:851 lib/Utils/CLIUtils.php:908
 msgid "Re-processing %1"
-msgstr ""
+msgstr "Reprocessando %1"
 
 #: lib/Utils/CLIUtils.php:875
 msgid "Error processing representation media: %1"
-msgstr ""
+msgstr "Erro ao processar a mídia de representação: %1"
 
 #: lib/Utils/CLIUtils.php:895
 msgid "Re-processing attribute media"
-msgstr ""
+msgstr "Reprocessando mídia do atributo"
 
 #: lib/Utils/CLIUtils.php:915
 msgid "Error processing attribute media: %1"
-msgstr ""
+msgstr "Erro ao processar a mídia do atributo: %1"
 
 #: lib/Utils/CLIUtils.php:930
 msgid "Re-processing icons"
-msgstr ""
+msgstr "Reprocessando ícones"
 
 #: lib/Utils/CLIUtils.php:939
 msgid "Re-processing %1 from %2"
-msgstr ""
+msgstr "Reprocessando %1 de %2"
 
 #: lib/Utils/CLIUtils.php:946
 msgid "Error processing icon media: %1"
-msgstr ""
+msgstr "Erro ao processar a mídia do ícone: %1"
 
 #: lib/Utils/CLIUtils.php:963
 msgid ""
 "Limit re-processing to specified mimetype(s) or mimetype stubs. Separate "
 "multiple mimetypes with commas."
 msgstr ""
+"Limite o reprocessamento para o(s) tipo(s) de formato especificado(s). "
+"Separe vários formatos com vírgulas."
 
 #: lib/Utils/CLIUtils.php:964
 msgid ""
 "Limit re-processing to specified versions. Separate multiple versions with "
 "commas."
 msgstr ""
+"Limite o reprocessamento para versões especificadas. Separe várias versões "
+"com vírgulas."
 
 #: lib/Utils/CLIUtils.php:966
 msgid "Representation id to start reloading at"
-msgstr ""
+msgstr "ID de representação para começar a recarregar em"
 
 #: lib/Utils/CLIUtils.php:967
 msgid "Representation id to end reloading at"
-msgstr ""
+msgstr "ID de representação para terminar o recarregamento em"
 
 #: lib/Utils/CLIUtils.php:968
 msgid "Representation id to reload"
-msgstr ""
+msgstr "ID de representação para recarregar"
 
 #: lib/Utils/CLIUtils.php:969
 msgid "Comma separated list of representation ids to reload"
-msgstr ""
+msgstr "Lista separada por vírgulas de ids de representação para recarregar"
 
 #: lib/Utils/CLIUtils.php:970
 msgid "Comma separated list of object ids to reload"
-msgstr ""
+msgstr "Lista separada por vírgula de ids de objeto para recarregar"
 
 #: lib/Utils/CLIUtils.php:971
 msgid ""
@@ -11056,6 +11400,12 @@ msgid ""
 "editors, editor screens, tours and tour stops). You may also specify \"all\" "
 "to reprocess all kinds of media. Default is \"all\""
 msgstr ""
+"Lista separada por vírgulas do tipo de mídia para reprocessar. Os tipos "
+"válidos são ca_object_representations (representações de objetos), "
+"ca_attributes (elementos de metadados) e icons (gráficos de ícones em itens "
+"de lista, locais de armazenamento, editores, telas de editor, tours e "
+"paradas de tour). Você também pode especificar \"all\" para reprocessar "
+"todos os tipos de mídia. O padrão é \"all\""
 
 #: lib/Utils/CLIUtils.php:979 lib/Utils/CLIUtils.php:1171
 #: lib/Utils/CLIUtils.php:1668 models/ca_bundle_displays.php:1385
@@ -11065,46 +11415,48 @@ msgstr "Mídia"
 #: lib/Utils/CLIUtils.php:986
 msgid "Re-process existing media using current media processing configuration."
 msgstr ""
+"Reprocessar mídia existente usando a configuração atual de processamento de "
+"mídia."
 
 #: lib/Utils/CLIUtils.php:993
 msgid "CollectiveAccess generates derivatives for all uploaded media."
-msgstr ""
+msgstr "O CollectiveAccess gera derivativos para todas as mídias enviadas."
 
 #: lib/Utils/CLIUtils.php:1004
 msgid "Can't reindex PDFs: PDFMiner is not installed."
-msgstr ""
+msgstr "Não é possível reindexar PDFs: o PDFMiner não está instalado."
 
 #: lib/Utils/CLIUtils.php:1070
 msgid "Reindexing PDF representations"
-msgstr ""
+msgstr "Reindexando representações PDF"
 
 #: lib/Utils/CLIUtils.php:1077
 msgid "Reindexing PDF %1"
-msgstr ""
+msgstr "Reindexando PDF %1"
 
 #: lib/Utils/CLIUtils.php:1115
 msgid "Reindexing metadata attribute media"
-msgstr ""
+msgstr "Reindexando mídia de atributos de metadados"
 
 #: lib/Utils/CLIUtils.php:1130
 msgid "Reindexing %1"
-msgstr ""
+msgstr "Reindexando %1"
 
 #: lib/Utils/CLIUtils.php:1159
 msgid "Representation id to start reindexing at"
-msgstr ""
+msgstr "ID de representação para começar a reindexar em"
 
 #: lib/Utils/CLIUtils.php:1160
 msgid "Representation id to end reindexing at"
-msgstr ""
+msgstr "ID de representação para terminar com a reindexação em"
 
 #: lib/Utils/CLIUtils.php:1161
 msgid "Representation id to reindex"
-msgstr ""
+msgstr "ID de representação para reindexar"
 
 #: lib/Utils/CLIUtils.php:1162
 msgid "Comma separated list of representation ids to reindex"
-msgstr ""
+msgstr "Lista separada por vírgula de ids de representação para reindexar"
 
 #: lib/Utils/CLIUtils.php:1163
 msgid ""
@@ -11113,10 +11465,14 @@ msgid ""
 "(metadata elements). You may also specify \"all\" to reindex both kinds of "
 "media. Default is \"all\""
 msgstr ""
+"Lista separada por vírgulas do tipo de mídia para reindexar. Os tipos "
+"válidos são ca_object_representations (representações de objetos) e "
+"ca_attributes (elementos de metadados). Você também pode especificar \"all\" "
+"para reindexar os dois tipos de mídia. O padrão é \"all\""
 
 #: lib/Utils/CLIUtils.php:1178
 msgid "Reindex PDF media for in-viewer content search."
-msgstr ""
+msgstr "Reindexar mídia PDF para pesquisa de conteúdo no visualizador."
 
 #: lib/Utils/CLIUtils.php:1185
 msgid ""
@@ -11126,6 +11482,12 @@ msgid ""
 "in CollectiveAccess 1.4, or search is otherwise failing to work properly, "
 "you can use this command to analyze and index PDFs in the database."
 msgstr ""
+"O visualizador de documentos CollectiveAccess pode pesquisar texto em PDFs e "
+"destacar correspondências. Para ativar esse recurso, o conteúdo em PDF deve "
+"ser analisado e indexado. Se o seu banco de dados for anterior à introdução "
+"da pesquisa do PDF no visualizador no CollectiveAccess 1.4, ou se a pesquisa "
+"não estiver funcionando corretamente, você poderá usar esse comando para "
+"analisar e indexar PDFs no banco de dados."
 
 #: lib/Utils/CLIUtils.php:1196
 msgid ""
@@ -11135,22 +11497,29 @@ msgid ""
 "\n"
 "Type 'y' to proceed or 'N' to cancel, then hit return "
 msgstr ""
+"Tem certeza de que deseja atualizar seu banco de dados CollectiveAccess da "
+"revisão %1 para %2?\n"
+"NOTA: você deve fazer backup de seu banco de dados antes de aplicar as "
+"atualizações!\n"
+"\n"
+"Digite 'y' para continuar ou 'N' para cancelar e, em seguida, pressione "
+"Enter "
 
 #: lib/Utils/CLIUtils.php:1206
 msgid "Updating database"
-msgstr ""
+msgstr "Atualizando banco de dados"
 
 #: lib/Utils/CLIUtils.php:1213
 msgid "Database already at revision %1. No update is required."
-msgstr ""
+msgstr "Banco de dados já na revisão %1. Nenhuma atualização é necessária."
 
 #: lib/Utils/CLIUtils.php:1237
 msgid "Update database schema to the current version."
-msgstr ""
+msgstr "Atualizar o esquema do banco de dados para a versão atual."
 
 #: lib/Utils/CLIUtils.php:1244
 msgid "Updates database schema to current version."
-msgstr ""
+msgstr "Atualiza o esquema do banco de dados para a versão atual."
 
 #: lib/Utils/CLIUtils.php:1265
 msgid "Could not import '%1': %2"
@@ -11158,11 +11527,11 @@ msgstr "Não foi possível importar '%1': %2"
 
 #: lib/Utils/CLIUtils.php:1269
 msgid "There were warnings when adding mapping from file '%1': %2"
-msgstr ""
+msgstr "Houve avisos ao adicionar o mapeamento do arquivo '%1': %2"
 
 #: lib/Utils/CLIUtils.php:1272 lib/Utils/CLIUtils.php:1461
 msgid "Created mapping %1 from %2"
-msgstr ""
+msgstr "Mapeamento %1 criado de %2"
 
 #: lib/Utils/CLIUtils.php:1282 lib/Utils/CLIUtils.php:1471
 #: lib/Utils/CLIUtils.php:2156
@@ -11176,6 +11545,8 @@ msgid ""
 "Path to directory in which to log import details. If not set no logs will be "
 "recorded."
 msgstr ""
+"Caminho para o diretório no qual registrar detalhes de importação. Se não "
+"for definido, nenhum registro será gravado."
 
 #: lib/Utils/CLIUtils.php:1284 lib/Utils/CLIUtils.php:1399
 #: lib/Utils/CLIUtils.php:3195 lib/Utils/CLIUtils.php:4021
@@ -11184,6 +11555,8 @@ msgid ""
 "Logging threshold. Possible values are, in ascending order of important: "
 "DEBUG, INFO, NOTICE, WARN, ERR, CRIT, ALERT. Default is INFO."
 msgstr ""
+"Limite de registro. Os valores possíveis são, em ordem crescente de "
+"importância: DEBUG, INFO, NOTICE, WARN, ERR, CRIT, ALERT. O padrão é INFO."
 
 #: lib/Utils/CLIUtils.php:1292 lib/Utils/CLIUtils.php:1413
 #: lib/Utils/CLIUtils.php:1479 lib/Utils/CLIUtils.php:1595
@@ -11196,14 +11569,16 @@ msgstr "Importar/Exportar"
 #: lib/Utils/CLIUtils.php:1299
 msgid "Load import mapping from Excel XLSX format file."
 msgstr ""
+"Carregar o mapeamento de importação do arquivo de formato XLSX do Excel."
 
 #: lib/Utils/CLIUtils.php:1306
 msgid "Loads import mapping from Excel XLSX format file."
 msgstr ""
+"Carrega o mapeamento de importação do arquivo de formato XLSX do Excel."
 
 #: lib/Utils/CLIUtils.php:1316
 msgid "You must specify a data source for import"
-msgstr ""
+msgstr "Você deve especificar uma fonte de dados para importação"
 
 #: lib/Utils/CLIUtils.php:1320
 msgid "You must specify a mapping"
@@ -11216,25 +11591,27 @@ msgstr "Mapeamento %1 não existe"
 
 #: lib/Utils/CLIUtils.php:1329 lib/Utils/CLIUtils.php:4337
 msgid "Set %1 does not exist"
-msgstr ""
+msgstr "O conjunto %1 não existe"
 
 #: lib/Utils/CLIUtils.php:1333 lib/Utils/CLIUtils.php:4341
 msgid "Set %1 does take items imported by mapping"
-msgstr ""
+msgstr "O conjunto %1 recebe itens importados por mapeamento"
 
 #: lib/Utils/CLIUtils.php:1351
 msgid "Could not import source %1: %2"
-msgstr ""
+msgstr "Não foi possível importar a fonte %1: %2"
 
 #: lib/Utils/CLIUtils.php:1395 lib/Utils/CLIUtils.php:4558
 msgid ""
 "Data to import. For files provide the path; for database, OAI and other non-"
 "file sources provide a URL."
 msgstr ""
+"Dados para importar. Para arquivos forneça o caminho; para banco de dados, "
+"OAI e outras fontes que não são arquivos forneça uma URL."
 
 #: lib/Utils/CLIUtils.php:1396
 msgid "Mapping to import data with."
-msgstr ""
+msgstr "Mapeamento para importar dados com."
 
 #: lib/Utils/CLIUtils.php:1397
 msgid ""
@@ -11242,16 +11619,24 @@ msgid ""
 "XML, ExcelXML, MARC). If omitted an attempt will be made to automatically "
 "identify the data format."
 msgstr ""
+"O formato dos dados a serem importados. (Ex. XLSX, tab, CSV, mysql, OAI, "
+"Filemaker XML, ExcelXML, MARC). Se omitido, será feita uma tentativa de "
+"identificar automaticamente o formato dos dados."
 
 #: lib/Utils/CLIUtils.php:1400 lib/Utils/CLIUtils.php:4562
 msgid "Optional identifier of set to add all imported items to."
 msgstr ""
+"Identificador opcional do conjunto para adicionar todos os itens importados "
+"a."
 
 #: lib/Utils/CLIUtils.php:1401
 msgid ""
 "If set import is performed without data actually being saved to the "
 "database. This is useful for previewing an import for errors."
 msgstr ""
+"Se definido a importação será executada sem que os dados sejam realmente "
+"salvos no banco de dados. Isso é útil para pré-visualizar uma importação "
+"procurando erros."
 
 #: lib/Utils/CLIUtils.php:1402
 msgid ""
@@ -11260,12 +11645,19 @@ msgid ""
 "development. It may also lead to data corruption and should only be used for "
 "testing."
 msgstr ""
+"Se definido a importação será executada sem uma transação. Isso permite a "
+"visualização de dados importados durante a importação, o que pode ser útil "
+"durante a depuração/desenvolvimento. Isso também pode levar à corrupção de "
+"dados e deve ser usado apenas para testes."
 
 #: lib/Utils/CLIUtils.php:1403
 msgid ""
 "When importing an Excel .xslx file, if set import will be performed on all "
 "worksheets in the file. By default, only the first worksheet is imported."
 msgstr ""
+"Ao importar um arquivo .xslx do Excel, se definido a importação será "
+"executada em todas as planilhas no arquivo. Por padrão, somente a primeira "
+"planilha é importada."
 
 #: lib/Utils/CLIUtils.php:1404
 msgid ""
@@ -11273,6 +11665,9 @@ msgid ""
 "significantly reduce import time, but will neccessitate a reindex of the "
 "entire database after the import."
 msgstr ""
+"Se definido a indexação das alterações feitas durante a importação não será "
+"feita. Isso pode reduzir significativamente o tempo de importação, mas irá "
+"necessitar de uma reindexação de todo o banco de dados após a importação."
 
 #: lib/Utils/CLIUtils.php:1405 lib/Utils/CLIUtils.php:4563
 msgid ""
@@ -11280,24 +11675,30 @@ msgid ""
 "logging directory is not writable. Default report an error if the "
 "application log directory is not writeable."
 msgstr ""
+"Use o diretório temporário do sistema para o log de importação se o "
+"diretório de log do aplicativo não for gravável. O padrão é reportar um erro "
+"se o diretório de log do aplicativo não for gravável."
 
 #: lib/Utils/CLIUtils.php:1420
 msgid "Import data from many types of data sources."
-msgstr ""
+msgstr "Importar dados de vários tipos de fontes de dados."
 
 #: lib/Utils/CLIUtils.php:1427
 msgid ""
 "Import data from many types of data sources including other CollectiveAccess "
 "systems, MySQL databases and Excel, delimited text, XML and MARC files."
 msgstr ""
+"Importar dados de muitos tipos de fontes de dados, incluindo outros sistemas "
+"CollectiveAccess, bancos de dados MySQL e Excel, texto delimitado, arquivos "
+"XML e MARC."
 
 #: lib/Utils/CLIUtils.php:1437
 msgid "You must specify a file!"
-msgstr ""
+msgstr "Você deve especificar um arquivo!"
 
 #: lib/Utils/CLIUtils.php:1441
 msgid "File '%1' does not exist!"
-msgstr ""
+msgstr "Arquivo '%1' não existe!"
 
 #: lib/Utils/CLIUtils.php:1451
 msgid "Could not import '%1'"
@@ -11312,35 +11713,42 @@ msgstr "Aviso"
 #: lib/Utils/CLIUtils.php:1486
 msgid "Load export mapping from Excel XLSX format file."
 msgstr ""
+"Carregar o mapeamento de exportação do arquivo de formato XLSX do Excel."
 
 #: lib/Utils/CLIUtils.php:1493
 msgid "Loads export mapping from Excel XLSX format file."
 msgstr ""
+"Carrega o mapeamento de exportação do arquivo de formato XLSX do Excel."
 
 #: lib/Utils/CLIUtils.php:1504
 msgid ""
 "You must specify either an idno or a search expression to select a record or "
 "record set for export or activate RDF mode."
 msgstr ""
+"Você deve especificar um idno ou uma expressão de pesquisa para selecionar "
+"um registro ou conjunto de registros para exportação ou ativar o modo RDF."
 
 #: lib/Utils/CLIUtils.php:1508
 msgid "You must specify a file to write export output to."
 msgstr ""
+"Você deve especificar um arquivo para gravar a saída da exportação para."
 
 #: lib/Utils/CLIUtils.php:1514
 msgid "Can't write to file %1. Check the permissions."
-msgstr ""
+msgstr "Não é possível gravar no arquivo %1. Verifique as permissões."
 
 #: lib/Utils/CLIUtils.php:1524
 msgid ""
 "You must specify a configuration file that contains the export definition "
 "for the RDF mode."
 msgstr ""
+"Você deve especificar um arquivo de configuração que contenha a definição de "
+"exportação para o modo RDF."
 
 #: lib/Utils/CLIUtils.php:1530
 #, php-format
 msgid "Syntax error in configuration file %s."
-msgstr ""
+msgstr "Erro de sintaxe no arquivo de configuração %s."
 
 #: lib/Utils/CLIUtils.php:1535 lib/Utils/CLIUtils.php:1565
 #: lib/Utils/CLIUtils.php:1570
@@ -11349,11 +11757,11 @@ msgstr "Dados exportados para %1"
 
 #: lib/Utils/CLIUtils.php:1538
 msgid "Could not run RDF mode export"
-msgstr ""
+msgstr "Não foi possível executar a exportação do modo RDF"
 
 #: lib/Utils/CLIUtils.php:1546
 msgid "You must specify a mapping for export."
-msgstr ""
+msgstr "Você deve especificar um mapeamento para exportação."
 
 #: lib/Utils/CLIUtils.php:1556
 msgid "Mapping %1 has errors: %2"
@@ -11365,31 +11773,35 @@ msgstr "Não é possível exportar mapeamento %1"
 
 #: lib/Utils/CLIUtils.php:1580
 msgid "Search expression that selects records to export."
-msgstr ""
+msgstr "Expressão de pesquisa que seleciona registros para exportar."
 
 #: lib/Utils/CLIUtils.php:1581
 msgid "Primary key identifier of single item to export."
-msgstr ""
+msgstr "Identificador de chave primária de um único item para exportar."
 
 #: lib/Utils/CLIUtils.php:1582
 msgid "Required. File to save export to."
-msgstr ""
+msgstr "Requerido. Arquivo para salvar a exportação para."
 
 #: lib/Utils/CLIUtils.php:1583
 msgid "Mapping to export data with."
-msgstr ""
+msgstr "Mapeamento para exportar dados com."
 
 #: lib/Utils/CLIUtils.php:1584
 msgid ""
 "Path to directory in which to log export details. If not set no logs will be "
 "recorded."
 msgstr ""
+"Caminho para o diretório no qual registrar detalhes de exportação. Se não "
+"for definido, nenhum registro será gravado."
 
 #: lib/Utils/CLIUtils.php:1585
 msgid ""
 "Optional logging threshold. Possible values are, in ascending order of "
 "important: DEBUG, INFO, NOTICE, WARN, ERR, CRIT, ALERT. Default is INFO."
 msgstr ""
+"Limite de registro opcional. Os valores possíveis são, em ordem crescente de "
+"importância: DEBUG, INFO, NOTICE, WARN, ERR, CRIT, ALERT. O padrão é INFO."
 
 #: lib/Utils/CLIUtils.php:1586
 msgid ""
@@ -11397,18 +11809,22 @@ msgid ""
 "exports across authorities with multiple mappings in a single export "
 "(usually an RDF graph). -s, -i and -m are ignored and -c is required."
 msgstr ""
+"Alterna para o modo de exportação RDF. Você pode usar isso para montar "
+"exportações em nível de registro em autoridades com vários mapeamentos em "
+"uma única exportação (geralmente um gráfico RDF). -s, -i e -m são ignorados "
+"e -c é obrigatório."
 
 #: lib/Utils/CLIUtils.php:1587
 msgid "Configuration file for RDF export mode."
-msgstr ""
+msgstr "Arquivo de configuração para o modo de exportação RDF."
 
 #: lib/Utils/CLIUtils.php:1599 lib/Utils/CLIUtils.php:1603
 msgid "Export data to a CSV, MARC or XML file."
-msgstr ""
+msgstr "Exportar dados para um arquivo CSV, MARC ou XML."
 
 #: lib/Utils/CLIUtils.php:1641
 msgid "Finding annotations"
-msgstr ""
+msgstr "Procurando anotações"
 
 #: lib/Utils/CLIUtils.php:1645
 msgid "Annotation %1"
@@ -11416,86 +11832,101 @@ msgstr "Anotação %1"
 
 #: lib/Utils/CLIUtils.php:1659
 msgid "Annotation id to start reloading at"
-msgstr ""
+msgstr "ID de anotação para começar a recarregar em"
 
 #: lib/Utils/CLIUtils.php:1660
 msgid "Annotation id to end reloading at"
-msgstr ""
+msgstr "ID de anotação para terminar o recarregamento em"
 
 #: lib/Utils/CLIUtils.php:1675 lib/Utils/CLIUtils.php:1682
 msgid ""
 "Regenerates annotation preview media for some or all object representation "
 "annotations."
 msgstr ""
+"Regenera a mídia de pré-visualização de anotações para algumas ou todas as "
+"anotações de representação de objeto."
 
 #: lib/Utils/CLIUtils.php:1703
 msgid "Path to AAT XML file."
-msgstr ""
+msgstr "Caminho para o arquivo XML AAT."
 
 #: lib/Utils/CLIUtils.php:1718 lib/Utils/CLIUtils.php:1766
 msgid "Load Getty Art & Architecture Thesaurus (AAT) into CollectiveAccess."
 msgstr ""
+"Carrega o Getty Art & Architecture Thesaurus (AAT) no CollectiveAccess."
 
 #: lib/Utils/CLIUtils.php:1725 lib/Utils/CLIUtils.php:1773
 msgid "Loads the AAT from a Getty-provided XML file."
-msgstr ""
+msgstr "Carrega o AAT de um arquivo XML fornecido pelo Getty."
 
 #: lib/Utils/CLIUtils.php:1735
 msgid "You must specify a data directory"
-msgstr ""
+msgstr "Você deve especificar um diretório de dados"
 
 #: lib/Utils/CLIUtils.php:1739
 msgid "You must specify a ULAN import configuration file"
-msgstr ""
+msgstr "Você deve especificar um arquivo de configuração de importação ULAN"
 
 #: lib/Utils/CLIUtils.php:1750
 msgid "Path to directory containing ULAN XML files."
-msgstr ""
+msgstr "Caminho para o diretório contendo arquivos ULAN XML."
 
 #: lib/Utils/CLIUtils.php:1751
 msgid "Path to ULAN import configuration file."
-msgstr ""
+msgstr "Caminho para o arquivo de configuração de importação da ULAN."
 
 #: lib/Utils/CLIUtils.php:1804
 msgid "Replicate data from one CollectiveAccess system to another."
-msgstr ""
+msgstr "Replicar dados de um sistema CollectiveAccess para outro."
 
 #: lib/Utils/CLIUtils.php:1811
 msgid ""
 "Replicates data in one CollectiveAccess instance based upon data in another "
 "instance, subject to configuration in replication.conf."
 msgstr ""
+"Replica dados em uma instância CollectiveAccess com base em dados de outra "
+"instância, sujeitos a configuração no arquivo replication.conf."
 
 #: lib/Utils/CLIUtils.php:1821
 msgid "Determined web server user to be \"%1\""
-msgstr ""
+msgstr "Determinado usuário do servidor da web como \"%1\""
 
 #: lib/Utils/CLIUtils.php:1826
 msgid "Cannot determine web server user. Using %1 instead."
 msgstr ""
+"Não é possível determinar o usuário do servidor da web. Usando %1 em vez "
+"disso."
 
 #: lib/Utils/CLIUtils.php:1830
 msgid "Cannot determine the user. Please specify one with the --user option."
 msgstr ""
+"Não é possível determinar o usuário. Por favor, especifique um com a opção --"
+"user."
 
 #: lib/Utils/CLIUtils.php:1836
 msgid "Determined web server group to be \"%1\""
-msgstr ""
+msgstr "Determinado grupo de servidor da web como \"%1\""
 
 #: lib/Utils/CLIUtils.php:1840
 msgid "Cannot determine the group. Please specify one with the --group option."
 msgstr ""
+"Não é possível determinar o grupo. Por favor especifique um com a opção --"
+"group."
 
 #: lib/Utils/CLIUtils.php:1844
 msgid ""
 "Fixing permissions for the temporary directory (app/tmp) for ownership by "
 "\"%1\"..."
 msgstr ""
+"Corrigindo permissões para o diretório temporário (app/tmp) para "
+"proprietário por \"%1\" ..."
 
 #: lib/Utils/CLIUtils.php:1852
 msgid ""
 "Fixing permissions for the media directory (media) for ownership by \"%1\"..."
 msgstr ""
+"Corrigindo permissões para o diretório de mídia (media) para proprietário "
+"por \"%1\" ..."
 
 #: lib/Utils/CLIUtils.php:1861
 msgid ""
@@ -11503,6 +11934,9 @@ msgid ""
 "ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer) for "
 "ownership by \"%1\"..."
 msgstr ""
+"Corrigindo permissões para o diretório de cache de definição HTMLPurifier "
+"(vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer) "
+"para proprietário por \"%1\" ..."
 
 #: lib/Utils/CLIUtils.php:1878
 msgid ""
@@ -11510,18 +11944,26 @@ msgid ""
 "be made to determine the name of the web server user automatically. If the "
 "web server user cannot be determined the current user will be used."
 msgstr ""
+"Define a propriedade dos diretórios para o usuário especificado. Se não "
+"definido, uma tentativa será feita para determinar o nome do usuário do "
+"servidor da web automaticamente. Se o usuário do servidor da web não puder "
+"ser determinado, o usuário atual será usado."
 
 #: lib/Utils/CLIUtils.php:1879
 msgid ""
 "Set ownership of directories to specifed group. If not set, the current "
 "group will be used."
 msgstr ""
+"Define a propriedade de diretórios para o grupo especificado. Se não estiver "
+"definido, o grupo atual será usado."
 
 #: lib/Utils/CLIUtils.php:1895
 msgid ""
 "Fix folder permissions. MUST BE RUN WHILE LOGGED IN WITH ADMINSTRATIVE/ROOT "
 "PERMISSIONS. You are currently logged in as %1 (uid %2)"
 msgstr ""
+"Corrigir permissões de pasta. DEVE SER EXECUTADO ENQUANTO LOGADO COM "
+"PERMISSÕES ADMINISTRATIVAS/ROOT. Você está logado como %1 (uid %2)"
 
 #: lib/Utils/CLIUtils.php:1902
 msgid ""
@@ -11536,108 +11978,121 @@ msgid ""
 "using the --user option. If you do not specify a user, the web server user "
 "for your server will be automatically determined and used."
 msgstr ""
+"CollectiveAccess deve ter acesso de leitura e gravação ao diretório de "
+"armazenamento temporário (app/tmp), diretório de mídia (media) e cache de "
+"definição de HTMLPurifier (app/lib/Parsers/htmlpurifier/standalone/"
+"HTMLPurifier/DefinitionCache). Um erro em tempo de execução será exibido se "
+"algum desses locais não estiver acessível ao aplicativo. Para alterar essas "
+"permissões para permitir que o CollectiveAccess seja executado, execute este "
+"comando enquanto estiver logado com privilégios administrativos/root. Você "
+"está logado como %1 (uid %2). Você pode especificar qual usuário receberá a "
+"propriedade dos diretórios usando a opção --user. Se você não especificar um "
+"usuário, o usuário do servidor web do seu servidor será automaticamente "
+"determinado e usado."
 
 #: lib/Utils/CLIUtils.php:1913 lib/Utils/CLIUtils.php:1942
 msgid "You must specify a user"
-msgstr ""
+msgstr "Você deve especificar um usuário"
 
 #: lib/Utils/CLIUtils.php:1919
 msgid "User name %1 does not exist"
-msgstr ""
+msgstr "O nome de usuário %1 não existe"
 
 #: lib/Utils/CLIUtils.php:1924 lib/Utils/CLIUtils.php:3913
 msgid "Password: "
-msgstr ""
+msgstr "Senha: "
 
 #: lib/Utils/CLIUtils.php:1928
 msgid "You must specify a password"
-msgstr ""
+msgstr "Você deve especificar uma senha"
 
 #: lib/Utils/CLIUtils.php:1936
 msgid "Password change for user %1 failed: %2"
-msgstr ""
+msgstr "Alteração de senha do usuário %1 falhou: %2"
 
 #: lib/Utils/CLIUtils.php:1939
 msgid "Changed password for user %1"
-msgstr ""
+msgstr "Senha alterada para o usuário %1"
 
 #: lib/Utils/CLIUtils.php:1990 lib/Utils/CLIUtils.php:1991
 msgid "User name to reset password for."
-msgstr ""
+msgstr "Nome de usuário para redefinir a senha para."
 
 #: lib/Utils/CLIUtils.php:1992
 msgid "New password for user"
-msgstr ""
+msgstr "Nova senha para o usuário"
 
 #: lib/Utils/CLIUtils.php:2008
 msgid "Reset a user's password"
-msgstr ""
+msgstr "Redefinir a senha de um usuário"
 
 #: lib/Utils/CLIUtils.php:2015
 msgid "Reset a user's password."
-msgstr ""
+msgstr "Redefinir a senha de um usuário."
 
 #: lib/Utils/CLIUtils.php:2035 lib/Utils/CLIUtils.php:3518
 msgid "You must specify a valid file"
-msgstr ""
+msgstr "Você deve especificar um arquivo válido"
 
 #: lib/Utils/CLIUtils.php:2042 lib/Utils/CLIUtils.php:3533
 msgid "You must specify a valid Excel .xls or .xlsx file: %1"
-msgstr ""
+msgstr "Você deve especificar um arquivo do Excel .xls ou .xlsx válido: %1"
 
 #: lib/Utils/CLIUtils.php:2116
 msgid "Error while adding definition for %1: %2"
-msgstr ""
+msgstr "Erro ao adicionar definição para %1: %2"
 
 #: lib/Utils/CLIUtils.php:2122
 msgid "Could not decode rules for %1"
-msgstr ""
+msgstr "Não foi possível descodificar as regras para %1"
 
 #: lib/Utils/CLIUtils.php:2138
 msgid "Error while adding rule for %1: %2"
-msgstr ""
+msgstr "Erro ao adicionar regra para %1: %2"
 
 #: lib/Utils/CLIUtils.php:2147
 msgid "Added %1 entries and %2 rules"
-msgstr ""
+msgstr "Adicionadas %1 entradas e %2 regras"
 
 #: lib/Utils/CLIUtils.php:2172
 msgid "Load metadata dictionary entries from an Excel file"
-msgstr ""
+msgstr "Carregar entradas do dicionário de metadados de um arquivo do Excel"
 
 #: lib/Utils/CLIUtils.php:2179
 msgid ""
 "Load metadata dictionary entries from an Excel file using the format "
 "described at http://docs.collectiveaccess.org/metadata_dictionary"
 msgstr ""
+"Carregar entradas de dicionário de metadados de um arquivo do Excel usando o "
+"formato descrito em http://docs.collectiveaccess.org/metadata_dictionary"
 
 #: lib/Utils/CLIUtils.php:2193
 msgid "Evaluating"
-msgstr ""
+msgstr "Avaliando"
 
 #: lib/Utils/CLIUtils.php:2203
 msgid "Table for bundle %1 is not valid"
-msgstr ""
+msgstr "Tabela para o conjunto %1 não é válida"
 
 #: lib/Utils/CLIUtils.php:2223
 msgid "Rule %1 [%2/%3]: record %4"
-msgstr ""
+msgstr "Regra %1 [%2/%3]: registro %4"
 
 #: lib/Utils/CLIUtils.php:2285
 msgid "Validate all records against metadata dictionary"
-msgstr ""
+msgstr "Validar todos os registros em relação ao dicionário de metadados"
 
 #: lib/Utils/CLIUtils.php:2292
 msgid "Validate all records against rules in metadata dictionary."
-msgstr ""
+msgstr "Validar todos os registros contra regras no dicionário de metadados."
 
 #: lib/Utils/CLIUtils.php:2307
 msgid "Email address is invalid"
-msgstr ""
+msgstr "Endereço de email inválido"
 
 #: lib/Utils/CLIUtils.php:2311
 msgid "You must specify an output file or email address"
-msgstr ""
+msgstr "Você deve especificar um arquivo de saída ou endereço de e-mail"
 
 #: lib/Utils/CLIUtils.php:2337 models/ca_bundle_display_labels.php:63
 #: models/ca_collection_labels.php:80 models/ca_data_exporter_labels.php:63
@@ -11653,124 +12108,126 @@ msgstr ""
 #: models/ca_tour_stop_labels.php:70 models/ca_user_groups.php:64
 #: models/ca_user_roles.php:59 models/ca_user_sorts.php:87
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: lib/Utils/CLIUtils.php:2337 models/ca_data_exporter_items.php:559
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: lib/Utils/CLIUtils.php:2337
 msgid "Version"
-msgstr ""
+msgstr "Versão"
 
 #: lib/Utils/CLIUtils.php:2337
 msgid "File path"
-msgstr ""
+msgstr "Caminho do arquivo"
 
 #: lib/Utils/CLIUtils.php:2337
 msgid "Expected MD5"
-msgstr ""
+msgstr "MD5 esperado"
 
 #: lib/Utils/CLIUtils.php:2337
 msgid "Actual MD5"
-msgstr ""
+msgstr "MD5 atual"
 
 #: lib/Utils/CLIUtils.php:2403
 msgid "Checking object representations"
-msgstr ""
+msgstr "Verificando representações de objetos"
 
 #: lib/Utils/CLIUtils.php:2407
 msgid "%1 media representations"
-msgstr ""
+msgstr "%1 representações de mídia"
 
 #: lib/Utils/CLIUtils.php:2410
 msgid "Checking representation media %1"
-msgstr ""
+msgstr "Verificando mídia de representação %1"
 
 #: lib/Utils/CLIUtils.php:2421
 msgid "[Object representation][MD5 mismatch] %1; version %2 [%3]"
-msgstr ""
+msgstr "[Object representation][MD5 mismatch] %1; versão %2 [%3]"
 
 #: lib/Utils/CLIUtils.php:2429
 msgid "Object representation"
-msgstr ""
+msgstr "Representação do objeto"
 
 #: lib/Utils/CLIUtils.php:2444
 msgid "%1 error for %2 representations"
-msgstr ""
+msgstr "%1 erro para %2 representações"
 
 #: lib/Utils/CLIUtils.php:2446
 msgid "%1 errors for %2 representations"
-msgstr ""
+msgstr "%1 erros para %2 representações"
 
 #: lib/Utils/CLIUtils.php:2466
 msgid "Checking attribute media"
-msgstr ""
+msgstr "Verificando atributo de mídia"
 
 #: lib/Utils/CLIUtils.php:2481
 msgid "Checking attribute media %1"
-msgstr ""
+msgstr "Verificando atributo de mídia %1"
 
 #: lib/Utils/CLIUtils.php:2503
 msgid "[Media attribute][MD5 mismatch] %1; value_id=%2; version %3 [%4]"
-msgstr ""
+msgstr "[Media attribute][MD5 mismatch] %1; value_id=%2; versão %3 [%4]"
 
 #: lib/Utils/CLIUtils.php:2512
 msgid "Media attribute"
-msgstr ""
+msgstr "Atributo de mídia"
 
 #: lib/Utils/CLIUtils.php:2512 lib/Utils/CLIUtils.php:2598
 msgid "MD5 mismatch"
-msgstr ""
+msgstr "Incompatibilidade MD5"
 
 #: lib/Utils/CLIUtils.php:2527
 msgid "%1 media in %2 metadata elements"
-msgstr ""
+msgstr "%1 mídia em %2 elementos de metadados"
 
 #: lib/Utils/CLIUtils.php:2532 lib/Utils/CLIUtils.php:2617
 msgid "%1 error for %2 attributes"
-msgstr ""
+msgstr "%1 erro para %2 atributos"
 
 #: lib/Utils/CLIUtils.php:2534 lib/Utils/CLIUtils.php:2619
 msgid "%1 errors for %2 attributes"
-msgstr ""
+msgstr "%1 erros para %2 atributos"
 
 #: lib/Utils/CLIUtils.php:2553
 msgid "Checking attribute files"
-msgstr ""
+msgstr "Verificando atributos de arquivos"
 
 #: lib/Utils/CLIUtils.php:2569
 msgid "Checking attribute file %1"
-msgstr ""
+msgstr "Verificando atributos de arquivo %1"
 
 #: lib/Utils/CLIUtils.php:2589
 msgid "[File attribute][MD5 mismatch] %1; value_id=%2; version %3 [%4]"
-msgstr ""
+msgstr "[File attribute][MD5 mismatch] %1; value_id=%2; versão %3 [%4]"
 
 #: lib/Utils/CLIUtils.php:2598
 msgid "File attribute"
-msgstr ""
+msgstr "Atributo de arquivo"
 
 #: lib/Utils/CLIUtils.php:2612
 msgid "%1 files in %2 metadata elements"
-msgstr ""
+msgstr "%1 arquivos em %2 elementos de metadados"
 
 #: lib/Utils/CLIUtils.php:2650
 msgid "%1_fixity_report_%2.%3"
-msgstr ""
+msgstr "%1_fixity_report_%2.%3"
 
 #: lib/Utils/CLIUtils.php:2660
 msgid "[%1] Media fixity report for %2"
-msgstr ""
+msgstr "[%1] Relatório de firmeza de mídia para %2"
 
 #: lib/Utils/CLIUtils.php:2667
 msgid "Could not send email to %1: %2"
-msgstr ""
+msgstr "Não foi possível enviar email para %1: %2"
 
 #: lib/Utils/CLIUtils.php:2680
 msgid ""
 "Limit checking to specified versions. Separate multiple versions with commas."
 msgstr ""
+"Limita a verificação para versões especificadas. Separe várias versões com "
+"vírgulas."
 
 #: lib/Utils/CLIUtils.php:2681
 #, php-format
@@ -11778,34 +12235,36 @@ msgid ""
 "Location to write report to. The placeholder %date may be included to date/"
 "time stamp the report."
 msgstr ""
+"Local para gravar o relatório. O espaço reservado %date pode ser incluída "
+"para incluir o registro de data/horário no relatório."
 
 #: lib/Utils/CLIUtils.php:2682
 msgid "Output format. (text|tab|csv)"
-msgstr ""
+msgstr "Formato de saída. (text|tab|csv)"
 
 #: lib/Utils/CLIUtils.php:2683
 msgid "Email address to send report to."
-msgstr ""
+msgstr "Endereço de email para enviar o relatório para."
 
 #: lib/Utils/CLIUtils.php:2685
 msgid "Representation id to start checking at"
-msgstr ""
+msgstr "ID de representação para iniciar a verificação em"
 
 #: lib/Utils/CLIUtils.php:2686
 msgid "Representation id to end checking at"
-msgstr ""
+msgstr "ID de representação para terminar a verificação em"
 
 #: lib/Utils/CLIUtils.php:2687
 msgid "Representation id to check"
-msgstr ""
+msgstr "ID de representação para verificar"
 
 #: lib/Utils/CLIUtils.php:2688
 msgid "Comma separated list of representation ids to check"
-msgstr ""
+msgstr "Lista separada por vírgulas de IDs de representação para verificar"
 
 #: lib/Utils/CLIUtils.php:2689
 msgid "Comma separated list of object ids to check"
-msgstr ""
+msgstr "Lista separada por vírgula de ids de objeto para verificar"
 
 #: lib/Utils/CLIUtils.php:2690
 msgid ""
@@ -11814,54 +12273,64 @@ msgid ""
 "(metadata elements). You may also specify \"all\" to check both kinds of "
 "media. Default is \"all\""
 msgstr ""
+"Lista separada por vírgula do tipo de mídia para verificar. Os tipos válidos "
+"são ca_object_representations (representações de objetos) e ca_attributes "
+"(elementos de metadados). Você também pode especificar \"all\" para "
+"verificar os dois tipos de mídia. O padrão é \"all\""
 
 #: lib/Utils/CLIUtils.php:2706
 msgid "Verify media fixity using database file signatures"
 msgstr ""
+"Verificar a firmeza da mídia usando assinaturas de arquivos de banco de dados"
 
 #: lib/Utils/CLIUtils.php:2713
 msgid ""
 "Verifies that media files on disk are consistent with file signatures "
 "recorded in the database at time of upload."
 msgstr ""
+"Verifica se os arquivos de mídia no disco estão consistentes com as "
+"assinaturas de arquivos registradas no banco de dados no momento do upload."
 
 #: lib/Utils/CLIUtils.php:2747 lib/Utils/CLIUtils.php:2870
 msgid "Starting..."
-msgstr ""
+msgstr "Iniciando..."
 
 #: lib/Utils/CLIUtils.php:2782
 msgid "Processed %1 words and created %2 ngrams"
-msgstr ""
+msgstr "Processados %1 palavras e criados %2 n-gramas"
 
 #: lib/Utils/CLIUtils.php:2791
 msgid "Clear all existing ngrams. Default is false."
-msgstr ""
+msgstr "Limpar todos os n-gramas existentes. Padrão é falso."
 
 #: lib/Utils/CLIUtils.php:2792
 msgid "Comma-delimited list of ngram sizes to generate. Default is 4."
 msgstr ""
+"Lista delimitada por vírgulas de tamanhos n-grama para gerar. O padrão é 4."
 
 #: lib/Utils/CLIUtils.php:2808
 msgid ""
 "Create ngrams from search indices to support spell correction of search "
 "terms."
 msgstr ""
+"Crie n-gramas a partir de índices de pesquisa para suportar correção "
+"ortográfica de termos de pesquisa."
 
 #: lib/Utils/CLIUtils.php:2815
 msgid "Ngrams."
-msgstr ""
+msgstr "N-gramas"
 
 #: lib/Utils/CLIUtils.php:2848 lib/Utils/CLIUtils.php:2855
 msgid "Process search indexing queue."
-msgstr ""
+msgstr "Processa a fila de indexação da pesquisa."
 
 #: lib/Utils/CLIUtils.php:2879
 msgid "Cannot load object %1"
-msgstr ""
+msgstr "Não foi possível carregar objeto %1"
 
 #: lib/Utils/CLIUtils.php:2884
 msgid "Processed %1 objects"
-msgstr ""
+msgstr "Processados %1 objetos"
 
 #: lib/Utils/CLIUtils.php:2909
 msgid "Reloads current location values for all object records."
@@ -11927,7 +12396,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:3007 lib/Utils/CLIUtils.php:3018
 msgid "Found %1"
-msgstr ""
+msgstr "Encontrado %1"
 
 #: lib/Utils/CLIUtils.php:3013
 msgid "Checking application plugins..."
@@ -12075,7 +12544,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:3523
 msgid "You must specify a list"
-msgstr ""
+msgstr "Você deve especificar uma lista"
 
 #: lib/Utils/CLIUtils.php:3537
 msgid "Loading non-preferred terms"
@@ -12083,7 +12552,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:3570
 msgid "Creating list"
-msgstr ""
+msgstr "Criando lista"
 
 #: lib/Utils/CLIUtils.php:3582
 msgid "Could not create list %1: %2"
@@ -12307,7 +12776,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:4010
 msgid "All done"
-msgstr ""
+msgstr "Tudo feito"
 
 #: lib/Utils/CLIUtils.php:4011
 msgid "[push-config-changes] Finished ..."
@@ -12427,7 +12896,7 @@ msgstr ""
 #: lib/Utils/CLIUtils.php:4260 lib/Utils/CLIUtils.php:4265
 #: lib/Utils/CLIUtils.php:4275
 msgid "["
-msgstr ""
+msgstr "["
 
 #: lib/Utils/CLIUtils.php:4289
 msgid "Optional username to authenticate with."
@@ -12468,7 +12937,7 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:4350
 msgid "User name %1 is not valid"
-msgstr ""
+msgstr "Nome de usuário %1 não é válido"
 
 #: lib/Utils/CLIUtils.php:4354
 msgid "A user name to attribute the import to must be specified"
@@ -12536,11 +13005,11 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:4514
 msgid "Found %1 files in %2 directories"
-msgstr ""
+msgstr "Encontrou %1 arquivos em %2 diretórios"
 
 #: lib/Utils/CLIUtils.php:4516
 msgid "Found %1 files"
-msgstr ""
+msgstr "Encontrou %1 arquivos"
 
 #: lib/Utils/CLIUtils.php:4518
 msgid "Processing media"
@@ -12676,15 +13145,15 @@ msgstr ""
 
 #: lib/Utils/CLIUtils.php:4596
 msgid "Import media."
-msgstr ""
+msgstr "Importa mídia."
 
 #: lib/Utils/CLIUtils.php:4603
 msgid "Import media from a directory or directory tree."
-msgstr ""
+msgstr "Importa mídia de um diretório ou árvore de diretórios."
 
 #: lib/Utils/CLIUtils.php:4622
 msgid "Processing %1.%2"
-msgstr ""
+msgstr "Processando %1.%2"
 
 #: lib/Utils/CLIUtils.php:4638
 msgid "Processing row %1 for %2.%3"
@@ -12909,11 +13378,11 @@ msgstr ""
 
 #: lib/pawtucket/BaseDetailController.php:142
 msgid "This item is not viewable"
-msgstr ""
+msgstr "Este item não está visível"
 
 #: lib/pawtucket/BaseDetailController.php:534
 msgid "Export format cannot be used"
-msgstr ""
+msgstr "Formato de exportação não pode ser usado"
 
 #: lib/pawtucket/BaseLookupController.php:182
 msgid "No matches found"
@@ -13029,7 +13498,7 @@ msgstr ""
 #: models/ca_search_forms_x_users.php:70 models/ca_sets_x_user_groups.php:71
 #: models/ca_sets_x_users.php:70
 msgid "can read"
-msgstr ""
+msgstr "pode ler"
 
 #: models/ca_acl.php:92 models/ca_bundle_displays_x_user_groups.php:72
 #: models/ca_bundle_displays_x_users.php:71
@@ -13043,11 +13512,11 @@ msgstr ""
 #: models/ca_search_forms_x_users.php:71 models/ca_sets_x_user_groups.php:72
 #: models/ca_sets_x_users.php:71
 msgid "can edit"
-msgstr ""
+msgstr "pode editar"
 
 #: models/ca_acl.php:93
 msgid "can edit + delete"
-msgstr ""
+msgstr "pode editar + excluir"
 
 #: models/ca_acl.php:101 models/ca_bookmarks.php:101
 #: models/ca_data_importer_log.php:86 models/ca_data_importer_log_items.php:102
@@ -13308,7 +13777,7 @@ msgstr ""
 
 #: models/ca_bookmark_folders.php:55
 msgid "Folder name"
-msgstr ""
+msgstr "Nome da pasta"
 
 #: models/ca_bookmark_folders.php:55
 msgid "A name to display for the folder."
@@ -13334,7 +13803,7 @@ msgstr ""
 
 #: models/ca_bookmarks.php:56
 msgid "Folder"
-msgstr ""
+msgstr "Pasta"
 
 #: models/ca_bookmarks.php:56
 msgid "Indicates the folder to which the bookmark belongs."
@@ -13417,7 +13886,7 @@ msgstr ""
 #: models/ca_metadata_element_labels.php:79 models/ca_search_form_labels.php:86
 #: models/ca_user_groups.php:80 models/ca_user_roles.php:75
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: models/ca_bundle_display_labels.php:79
 #: models/ca_metadata_alert_rule_labels.php:86
@@ -13514,7 +13983,7 @@ msgstr ""
 #: models/ca_metadata_alert_rule_type_restrictions.php:61
 #: models/ca_search_form_type_restrictions.php:61
 msgid "Table"
-msgstr ""
+msgstr "Tabela"
 
 #: models/ca_bundle_display_type_restrictions.php:61
 #: models/ca_editor_ui_screen_type_restrictions.php:61
@@ -13541,7 +14010,7 @@ msgstr ""
 #: models/ca_metadata_type_restrictions.php:119
 #: models/ca_search_form_type_restrictions.php:83
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: models/ca_bundle_display_type_restrictions.php:90
 #: models/ca_editor_ui_screen_type_restrictions.php:90
@@ -13740,11 +14209,11 @@ msgstr ""
 
 #: models/ca_bundle_displays.php:1155
 msgid "Singular"
-msgstr ""
+msgstr "Singular"
 
 #: models/ca_bundle_displays.php:1156
 msgid "Plural"
-msgstr ""
+msgstr "Plural"
 
 #: models/ca_bundle_displays.php:1158
 msgid "Sense"
@@ -13783,15 +14252,15 @@ msgstr ""
 #: models/ca_bundle_displays.php:1353 models/ca_bundle_displays.php:1354
 #: models/ca_objects.php:205 models/ca_objects.php:561
 msgid "Current location"
-msgstr ""
+msgstr "Localização atual"
 
 #: models/ca_bundle_displays.php:1355
 msgid "Current location of object"
-msgstr ""
+msgstr "Localização atual do objeto"
 
 #: models/ca_bundle_displays.php:1386
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: models/ca_bundle_displays.php:1388
 msgid "Output mode"
@@ -14016,7 +14485,7 @@ msgstr ""
 #: models/ca_change_log.php:68 models/ca_replication_log.php:67
 #: models/ca_user_sorts.php:102
 msgid "Action"
-msgstr ""
+msgstr "Ação"
 
 #: models/ca_change_log.php:68
 msgid "Type of action performed by user"
@@ -14071,7 +14540,7 @@ msgstr ""
 
 #: models/ca_collections.php:43
 msgid "collection"
-msgstr ""
+msgstr "coleção"
 
 #: models/ca_collections.php:51
 msgid ""
@@ -14106,7 +14575,7 @@ msgstr ""
 #: models/ca_occurrences.php:100 models/ca_places.php:84
 #: models/ca_storage_locations.php:93 models/ca_tours.php:132
 msgid "Source"
-msgstr ""
+msgstr "Fonte"
 
 #: models/ca_collections.php:100
 msgid ""
@@ -14202,7 +14671,7 @@ msgstr ""
 #: models/ca_storage_locations.php:150 models/ca_tour_stops.php:170
 #: models/ca_user_sorts.php:117
 msgid "Is deleted?"
-msgstr ""
+msgstr "Está excluído?"
 
 #: models/ca_collections.php:164
 msgid "Indicates if the collection is deleted or not."
@@ -14243,7 +14712,7 @@ msgstr ""
 #: models/ca_storage_locations.php:345 models/ca_tour_stops.php:334
 #: models/ca_user_representation_annotations.php:295
 msgid "Related entities"
-msgstr ""
+msgstr "Entidades relacionadas"
 
 #: models/ca_collections.php:355 models/ca_entities.php:338
 #: models/ca_list_items.php:544 models/ca_loans.php:326
@@ -14254,7 +14723,7 @@ msgstr ""
 #: models/ca_storage_locations.php:331 models/ca_tour_stops.php:321
 #: models/ca_user_representation_annotations.php:282
 msgid "Related objects"
-msgstr ""
+msgstr "Objetos relacionados"
 
 #: models/ca_collections.php:356 models/ca_collections.php:357
 #: models/ca_entities.php:339 models/ca_entities.php:340
@@ -14272,7 +14741,7 @@ msgstr ""
 #: models/ca_user_representation_annotations.php:283
 #: models/ca_user_representation_annotations.php:284
 msgid "Related objects list"
-msgstr ""
+msgstr "Lista de objetos relacionados"
 
 #: models/ca_collections.php:358 models/ca_entities.php:341
 #: models/ca_list_items.php:547 models/ca_loans.php:329
@@ -14283,7 +14752,7 @@ msgstr ""
 #: models/ca_storage_locations.php:334 models/ca_tour_stops.php:324
 #: models/ca_user_representation_annotations.php:285
 msgid "Related object representations list"
-msgstr ""
+msgstr "Lista de representações de objetos relacionados"
 
 #: models/ca_collections.php:359 models/ca_entities.php:342
 #: models/ca_list_items.php:548 models/ca_loans.php:330
@@ -14294,7 +14763,7 @@ msgstr ""
 #: models/ca_storage_locations.php:335 models/ca_tour_stops.php:325
 #: models/ca_user_representation_annotations.php:286
 msgid "Related entities list"
-msgstr ""
+msgstr "Lista de entidades relacionadas"
 
 #: models/ca_collections.php:360 models/ca_entities.php:343
 #: models/ca_list_items.php:549 models/ca_loans.php:331
@@ -14305,7 +14774,7 @@ msgstr ""
 #: models/ca_storage_locations.php:336 models/ca_tour_stops.php:326
 #: models/ca_user_representation_annotations.php:287
 msgid "Related places list"
-msgstr ""
+msgstr "Lista de lugares relacionados"
 
 #: models/ca_collections.php:361 models/ca_entities.php:344
 #: models/ca_list_items.php:550 models/ca_loans.php:332
@@ -14316,7 +14785,7 @@ msgstr ""
 #: models/ca_storage_locations.php:337 models/ca_tour_stops.php:327
 #: models/ca_user_representation_annotations.php:288
 msgid "Related occurrences list"
-msgstr ""
+msgstr "Lista de ocorrências relacionadas"
 
 #: models/ca_collections.php:362 models/ca_entities.php:345
 #: models/ca_list_items.php:551 models/ca_loans.php:333
@@ -14327,7 +14796,7 @@ msgstr ""
 #: models/ca_storage_locations.php:338 models/ca_tour_stops.php:328
 #: models/ca_user_representation_annotations.php:289
 msgid "Related collections list"
-msgstr ""
+msgstr "Lista de coleções relacionadas"
 
 #: models/ca_collections.php:363 models/ca_entities.php:346
 #: models/ca_list_items.php:552 models/ca_loans.php:334
@@ -14338,7 +14807,7 @@ msgstr ""
 #: models/ca_storage_locations.php:339 models/ca_tour_stops.php:329
 #: models/ca_user_representation_annotations.php:290
 msgid "Related list items list"
-msgstr ""
+msgstr "Lista das listas de itens relacionadas"
 
 #: models/ca_collections.php:364 models/ca_entities.php:347
 #: models/ca_list_items.php:553 models/ca_loans.php:335
@@ -14349,7 +14818,7 @@ msgstr ""
 #: models/ca_storage_locations.php:340 models/ca_tour_stops.php:330
 #: models/ca_user_representation_annotations.php:291
 msgid "Related storage locations list"
-msgstr ""
+msgstr "Lista de locais de armazenamento relacionados"
 
 #: models/ca_collections.php:365 models/ca_entities.php:348
 #: models/ca_list_items.php:554 models/ca_loans.php:336
@@ -14360,7 +14829,7 @@ msgstr ""
 #: models/ca_storage_locations.php:341 models/ca_tour_stops.php:331
 #: models/ca_user_representation_annotations.php:292
 msgid "Related loans list"
-msgstr ""
+msgstr "Lista de empréstimos relacionados"
 
 #: models/ca_collections.php:366 models/ca_entities.php:349
 #: models/ca_list_items.php:555 models/ca_loans.php:337
@@ -14371,7 +14840,7 @@ msgstr ""
 #: models/ca_storage_locations.php:342 models/ca_tour_stops.php:332
 #: models/ca_user_representation_annotations.php:293
 msgid "Related movements list"
-msgstr ""
+msgstr "Lista de movimentações relacionadas"
 
 #: models/ca_collections.php:367 models/ca_entities.php:350
 #: models/ca_list_items.php:556 models/ca_loans.php:338
@@ -14810,7 +15279,7 @@ msgstr ""
 #: models/ca_data_exporter_items.php:248 models/ca_data_importer_items.php:419
 #: models/ca_entity_labels.php:122
 msgid "Prefix"
-msgstr ""
+msgstr "Prefixo"
 
 #: models/ca_data_exporter_items.php:249
 msgid "Text to prepend to value prior to export."
@@ -14819,7 +15288,7 @@ msgstr ""
 #: models/ca_data_exporter_items.php:257 models/ca_data_importer_items.php:428
 #: models/ca_entity_labels.php:130
 msgid "Suffix"
-msgstr ""
+msgstr "Sufixo"
 
 #: models/ca_data_exporter_items.php:258
 msgid "Text to append to value prior to export."
@@ -15447,17 +15916,17 @@ msgstr ""
 
 #: models/ca_data_import_event_log.php:53
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
 #: models/ca_data_import_event_log.php:60
 #: models/ca_data_importer_log_items.php:60
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: models/ca_data_import_event_log.php:67
 #: models/ca_data_importer_log_items.php:67
 msgid "Date/time"
-msgstr ""
+msgstr "Data/hora"
 
 #: models/ca_data_import_event_log.php:67
 #: models/ca_data_importer_log_items.php:67
@@ -15583,15 +16052,15 @@ msgstr ""
 
 #: models/ca_data_import_items.php:109
 msgid "Elapsed time"
-msgstr ""
+msgstr "Tempo decorrido"
 
 #: models/ca_data_import_items.php:109
 msgid "Time, in seconds, taken to import item"
-msgstr ""
+msgstr "Tempo, em segundos, levado para importação do item"
 
 #: models/ca_data_import_items.php:116
 msgid "Successfully imported?"
-msgstr ""
+msgstr "Importado com sucesso?"
 
 #: models/ca_data_import_items.php:116
 msgid "Indicates if the item was successfully imported or not."
@@ -15603,7 +16072,7 @@ msgstr "Falhou"
 
 #: models/ca_data_import_items.php:119
 msgid "Partial success"
-msgstr ""
+msgstr "Sucesso parcial"
 
 #: models/ca_data_import_items.php:120
 msgid "Success"
