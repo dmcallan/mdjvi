@@ -166,7 +166,7 @@ if (!defined("__CA_GOOGLE_MAPS_KEY__")) {
 #		
 #
 $_CA_THEMES_BY_DEVICE = [
-	'_default_' 	=> 'default'		// use the 'default' theme for everything else
+	'_default_' 	=> 'mdjvi'		// use the 'default' theme for everything else
 ];
 
 
