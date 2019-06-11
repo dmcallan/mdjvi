@@ -87,17 +87,20 @@
 				{{{<ifdef code="ca_objects.idno"><H6><b>Identificador:</b></H6>^ca_objects.idno<br/></ifdef>}}}
 				{{{<ifdef code="ca_objects.objectProductionDate"><H6><b>Ano de criação:</b></H6>^ca_objects.objectProductionDate<br/></ifdef>}}}
 				{{{<ifdef code="ca_objects.materiaux_tech_c.materiaux"><H6><b>Técnica / Material utilizado:</b></H6>^ca_objects.materiaux_tech_c.materiaux<br/></ifdef>}}}		
-				{{{<ifdef code="ca_objects.date_ref_acteAcquisition.date_acteAquisition_c.date_acteAcquisition"><H6>Data de Aquisição:</H6>^ca_objects.date_ref_acteAcquisition.date_acteAquisition_c.date_acteAcquisition<br/></ifdef>}}}
-				{{{<ifdef code="ca_objects.date_ref_acteAcquisition.ref_acteAcquisition_c.ref_acteAcquisition"><H6>Modo de Aquisição:</H6>^ca_objects.date_ref_acteAcquisition.ref_acteAcquisition_c.ref_acteAcquisition<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.date_ref_acteAcquisition.date_acteAcquisition"><H6><b>Data de Aquisição:</b></H6>^ca_objects.date_ref_acteAcquisition.date_acteAcquisition<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.date_ref_acteAcquisition.ref_acteAcquisition"><H6><b>Modo de Aquisição:</b></H6>^ca_objects.date_ref_acteAcquisition.ref_acteAcquisition<br/></ifdef>}}}
 				{{{<ifdef code="ca_objects.constatEtat.etat_global"><H6><b>Estado de Conservação:</b></H6>^ca_objects.constatEtat.etat_global<br/></ifdef>}}}			
-				{{{<ifdef code="ca_objects.marquage_existant"><H6><b>Local da Assinatura:</b></H6>^ca_objects.marquage_existant<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.inscription_c.inscription_emplacement_c"><H6><b>Local da Assinatura:</b></H6>^ca_objects.inscription_c.inscription_emplacement_c<br/></ifdef>}}}
 				
 				{{{<unit relativeTo="ca_objects.dimensions">
-					<ifdef code="ca_objects.dimensions.dimensions_length"><H6><b>Comprimento:</b></H6>^ca_objects.dimensions.dimensions_length<br/></ifdef>
-					<ifdef code="ca_objects.dimensions.dimensions_height"><H6><b>Altura:</b></H6>^ca_objects.dimensions.dimensions_height<br/></ifdef>
-					<ifdef code="ca_objects.dimensions.dimensions_depth"><H6><b>Profundidade:</b></H6>^ca_objects.dimensions.dimensions_depth<br/>
-					<ifdef code="ca_objects.dimensions.Circumference"><H6><b>Circunferência:</b></H6>^ca_objects.dimensions.Circumference<br/></ifdef>
-					<ifdef code="ca_objects.dimensions.dimensions_type.type_dimensions"><H6><b>Tipo de Suporte:</b></H6>^ca_objects.dimensions.dimensions_type.type_dimensions<br/>
+					<H6><b>Dimensões:</b></H6>
+					<ifdef code="ca_objects.dimensions.dimensions_length"><b>Comprimento:</b>^ca_objects.dimensions.dimensions_length</ifdef>
+					<ifdef code="ca_objects.dimensions.dimensions_height"><b>Altura:</b>^ca_objects.dimensions.dimensions_height</ifdef>
+					<ifdef code="ca_objects.dimensions.dimensions_depth"><b>Profundidade:</b>^ca_objects.dimensions.dimensions_depth<br/></ifdef>
+					<ifdef code="ca_objects.dimensions.Circumference"><b>Circunferência:</b>^ca_objects.dimensions.Circumference<br/></ifdef>
+					<br/>
+					<ifdef code="ca_objects.dimensions.dimensions_type"><b>Tipo de Suporte:</b>^ca_objects.dimensions.dimensions_type<br/></ifdef>
+					<br/>
 					</unit>}}}
 				
 				
