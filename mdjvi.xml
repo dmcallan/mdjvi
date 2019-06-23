@@ -36,7 +36,7 @@
        </item>
      </items>
    </list>
-  <list code="object_types" hierarchical="0" system="0" vocabulary="1">
+  <list code="object_types" hierarchical="1" system="0" vocabulary="1">
      <labels>
        <label locale="pt_BR">
          <name>Tipos de objetos</name>
@@ -2879,50 +2879,40 @@
      <item idno="lexinsc_3" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>escala
-            </name_singular>
-            <name_plural>escalas
-            </name_plural>
+            <name_singular>escala</name_singular>
+            <name_plural>escalas</name_plural>
           </label>
         </labels>
       </item>
      <item idno="lexinsc_4" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>escrito
-            </name_singular>
-            <name_plural>escritos
-            </name_plural>
+            <name_singular>escrito</name_singular>
+            <name_plural>escritos</name_plural>
           </label>
         </labels>
       </item>
      <item idno="lexinsc_5" enabled="1" default="0">
        <labels>
          <label locale="pt_BR" preferred="1">
-           <name_singular>emblema
-            </name_singular>
-           <name_plural>emblemas
-            </name_plural>
+           <name_singular>emblema</name_singular>
+           <name_plural>emblemas</name_plural>
          </label>
         </labels>
         <items>
           <item idno="lexinsc_6" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>brasão
-                </name_singular>
-                <name_plural>brasões
-                </name_plural>
+                <name_singular>brasão</name_singular>
+                <name_plural>brasões</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_7" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>número emblemático
-                    </name_singular>
-                    <name_plural>números emblemáticos
-                    </name_plural>
+                    <name_singular>número emblemático</name_singular>
+                    <name_plural>números emblemáticos</name_plural>
                   </label>
                 </labels>
               </item>
@@ -2931,20 +2921,16 @@
           <item idno="lexinsc_8" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>moeda
-                </name_singular>
-                <name_plural>moeda
-                </name_plural>
+                <name_singular>moeda</name_singular>
+                <name_plural>moeda</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_9" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>escudo
-                    </name_singular>
-                    <name_plural>escudo
-                    </name_plural>
+                    <name_singular>escudo</name_singular>
+                    <name_plural>escudo</name_plural>
                   </label>
                 </labels>
               </item>
@@ -2953,10 +2939,8 @@
           <item idno="lexinsc_10" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>emblema
-                </name_singular>
-                <name_plural>emblema
-                </name_plural>
+                <name_singular>emblema</name_singular>
+                <name_plural>emblema</name_plural>
               </label>
             </labels>
           </item>
@@ -2965,60 +2949,48 @@
       <item idno="lexinsc_11" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>grafite
-            </name_singular>
-            <name_plural>grafite
-            </name_plural>
+            <name_singular>grafite</name_singular>
+            <name_plural>grafite</name_plural>
           </label>
         </labels>
       </item>
       <item idno="lexinsc_12" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>inscrição
-            </name_singular>
-            <name_plural>inscrição
-            </name_plural>
+            <name_singular>inscrição</name_singular>
+            <name_plural>inscrição</name_plural>
           </label>
         </labels>
         <items>
           <item idno="lexinsc_13" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>aclamação
-                </name_singular>
-                <name_plural>aclamação
-                </name_plural>
+                <name_singular>aclamação</name_singular>
+                <name_plural>aclamação</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_14" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>endereço
-                </name_singular>
-                <name_plural>endereço
-                </name_plural>
+                <name_singular>endereço</name_singular>
+                <name_plural>endereço</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_15" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>anotação
-                </name_singular>
-                <name_plural>anotação
-                </name_plural>
+                <name_singular>anotação</name_singular>
+                <name_plural>anotação</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_16" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>anotação relativa à representação
-                    </name_singular>
-                    <name_plural>anotação relativa à representação
-                    </name_plural>
+                    <name_singular>anotação relativa à representação</name_singular>
+                    <name_plural>anotação relativa à representação</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3027,120 +2999,96 @@
           <item idno="lexinsc_17" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>artigo
-                </name_singular>
-                <name_plural>artigo
-                </name_plural>
+                <name_singular>artigo</name_singular>
+                <name_plural>artigo</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_18" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>autógrafo
-                </name_singular>
-                <name_plural>autógrafo
-                </name_plural>
+                <name_singular>autógrafo</name_singular>
+                <name_plural>autógrafo</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_19" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>balão
-                </name_singular>
-                <name_plural>balão
-                </name_plural>
+                <name_singular>balão</name_singular>
+                <name_plural>balão</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_20" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>caligrafia
-                </name_singular>
-                <name_plural>caligrafia
-                </name_plural>
+                <name_singular>caligrafia</name_singular>
+                <name_plural>caligrafia</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_21" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>citação
-                </name_singular>
-                <name_plural>citação
-                </name_plural>
+                <name_singular>citação</name_singular>
+                <name_plural>citação</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_22" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>data apócrifa
-                </name_singular>
-                <name_plural>data apócrifa
-                </name_plural>
+                <name_singular>data apócrifa</name_singular>
+                <name_plural>data apócrifa</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_23" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>decreto
-                </name_singular>
-                <name_plural>decreto
-                </name_plural>
+                <name_singular>decreto</name_singular>
+                <name_plural>decreto</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_24" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>dedicatória
-                </name_singular>
-                <name_plural>dedicatória
-                </name_plural>
+                <name_singular>dedicatória</name_singular>
+                <name_plural>dedicatória</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_25" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>epitáfio
-                </name_singular>
-                <name_plural>epitáfio
-                </name_plural>
+                <name_singular>epitáfio</name_singular>
+                <name_plural>epitáfio</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_26" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>ex-libris
-                </name_singular>
-                <name_plural>ex-libris
-                </name_plural>
+                <name_singular>ex-libris</name_singular>
+                <name_plural>ex-libris</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_27" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>cabeçalho
-                </name_singular>
-                <name_plural>cabeçalho
-                </name_plural>
+                <name_singular>cabeçalho</name_singular>
+                <name_plural>cabeçalho</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_28" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cabeçalho impresso
-                    </name_singular>
-                    <name_plural>cabeçalho impresso
-                    </name_plural>
+                    <name_singular>cabeçalho impresso</name_singular>
+                    <name_plural>cabeçalho impresso</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3149,50 +3097,40 @@
           <item idno="lexinsc_30" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>ideograma
-                </name_singular>
-                <name_plural>ideograma
-                </name_plural>
+                <name_singular>ideograma</name_singular>
+                <name_plural>ideograma</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_31" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>matrícula
-                </name_singular>
-                <name_plural>matrícula
-                </name_plural>
+                <name_singular>matrícula</name_singular>
+                <name_plural>matrícula</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_32" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>iniciais
-                </name_singular>
-                <name_plural>iniciais
-                </name_plural>
+                <name_singular>iniciais</name_singular>
+                <name_plural>iniciais</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_33" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa à representação
-                </name_singular>
-                <name_plural>inscrição relativa à representação
-                </name_plural>
+                <name_singular>inscrição relativa à representação</name_singular>
+                <name_plural>inscrição relativa à representação</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_34" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>inscrição fornecendo a identidade do modelo
-                    </name_singular>
-                    <name_plural>inscrição fornecendo a identidade do modelo
-                    </name_plural>
+                    <name_singular>inscrição fornecendo a identidade do modelo</name_singular>
+                    <name_plural>inscrição fornecendo a identidade do modelo</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3201,20 +3139,16 @@
           <item idno="lexinsc_35" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa à venda
-                </name_singular>
-                <name_plural>inscrição relativa à venda
-                </name_plural>
+                <name_singular>inscrição relativa à venda</name_singular>
+                <name_plural>inscrição relativa à venda</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_36" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>local de venda por escrito
-                    </name_singular>
-                    <name_plural>local de venda por escrito
-                    </name_plural>
+                    <name_singular>local de venda por escrito</name_singular>
+                    <name_plural>local de venda por escrito</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3223,20 +3157,16 @@
           <item idno="lexinsc_37" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao patrocinador
-                </name_singular>
-                <name_plural>inscrição relativa ao patrocinador
-                </name_plural>
+                <name_singular>inscrição relativa ao patrocinador</name_singular>
+                <name_plural>inscrição relativa ao patrocinador</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_38" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>monograma do patrocinador
-                    </name_singular>
-                    <name_plural>monograma do patrocinador
-                    </name_plural>
+                    <name_singular>monograma do patrocinador</name_singular>
+                    <name_plural>monograma do patrocinador</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3245,30 +3175,24 @@
           <item idno="lexinsc_39" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa à dedicatória
-                </name_singular>
-                <name_plural>inscrição relativa à dedicatória
-                </name_plural>
+                <name_singular>inscrição relativa à dedicatória</name_singular>
+                <name_plural>inscrição relativa à dedicatória</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_40" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao destinatário
-                </name_singular>
-                <name_plural>inscrição relativa ao destinatário
-                </name_plural>
+                <name_singular>inscrição relativa ao destinatário</name_singular>
+                <name_plural>inscrição relativa ao destinatário</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_41" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>nome do destinatário
-                    </name_singular>
-                    <name_plural>nome do destinatário
-                    </name_plural>
+                    <name_singular>nome do destinatário</name_singular>
+                    <name_plural>nome do destinatário</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3277,50 +3201,40 @@
           <item idno="lexinsc_42" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao presenteado
-                </name_singular>
-                <name_plural>inscrição relativa ao presenteado
-                </name_plural>
+                <name_singular>inscrição relativa ao presenteado</name_singular>
+                <name_plural>inscrição relativa ao presenteado</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_43" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao doador
-                </name_singular>
-                <name_plural>inscrição relativa ao doador
-                </name_plural>
+                <name_singular>inscrição relativa ao doador</name_singular>
+                <name_plural>inscrição relativa ao doador</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_44" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao executante
-                </name_singular>
-                <name_plural>inscrição relativa ao executante
-                </name_plural>
+                <name_singular>inscrição relativa ao executante</name_singular>
+                <name_plural>inscrição relativa ao executante</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_45" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>nome do editor
-                    </name_singular>
-                    <name_plural>nome do editor
-                    </name_plural>
+                    <name_singular>nome do editor</name_singular>
+                    <name_plural>nome do editor</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_46" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>nome da editora
-                    </name_singular>
-                    <name_plural>nome da editora
-                    </name_plural>
+                    <name_singular>nome da editora</name_singular>
+                    <name_plural>nome da editora</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3329,70 +3243,56 @@
           <item idno="lexinsc_47" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao local de conservação
-                </name_singular>
-                <name_plural>inscrição relativa ao local de conservação
-                </name_plural>
+                <name_singular>inscrição relativa ao local de conservação</name_singular>
+                <name_plural>inscrição relativa ao local de conservação</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_48" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao local de destino
-                </name_singular>
-                <name_plural>inscrição relativa ao local de destino
-                </name_plural>
+                <name_singular>inscrição relativa ao local de destino</name_singular>
+                <name_plural>inscrição relativa ao local de destino</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_49" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao local de emissão
-                </name_singular>
-                <name_plural>inscrição relativa ao local de emissão
-                </name_plural>
+                <name_singular>inscrição relativa ao local de emissão</name_singular>
+                <name_plural>inscrição relativa ao local de emissão</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_50" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao local de execução
-                </name_singular>
-                <name_plural>inscrição relativa ao local de execução
-                </name_plural>
+                <name_singular>inscrição relativa ao local de execução</name_singular>
+                <name_plural>inscrição relativa ao local de execução</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_51" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>local da edição
-                    </name_singular>
-                    <name_plural>ocal da edição
-                    </name_plural>
+                    <name_singular>local da edição</name_singular>
+                    <name_plural>ocal da edição</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_52" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>local de execução
-                    </name_singular>
-                    <name_plural>local de execução
-                    </name_plural>
+                    <name_singular>local de execução</name_singular>
+                    <name_plural>local de execução</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_53" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>local de impressão
-                    </name_singular>
-                    <name_plural>local de impressão
-                    </name_plural>
+                    <name_singular>local de impressão</name_singular>
+                    <name_plural>local de impressão</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3401,140 +3301,112 @@
           <item idno="lexinsc_54" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa ao local de origem
-                </name_singular>
-                <name_plural>inscrição relativa ao local de origem
-                </name_plural>
+                <name_singular>inscrição relativa ao local de origem</name_singular>
+                <name_plural>inscrição relativa ao local de origem</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_55" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa à técnica
-                </name_singular>
-                <name_plural>inscrição relativa à técnica
-                </name_plural>
+                <name_singular>inscrição relativa à técnica</name_singular>
+                <name_plural>inscrição relativa à técnica</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_60" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa às coleções
-                </name_singular>
-                <name_plural>inscrição relativa às coleções
-                </name_plural>
+                <name_singular>inscrição relativa às coleções</name_singular>
+                <name_plural>inscrição relativa às coleções</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_61" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição relativa à prova
-                </name_singular>
-                <name_plural>inscription concernant l'épreuve
-                </name_plural>
+                <name_singular>inscrição relativa à prova</name_singular>
+                <name_plural>inscrição relativa à prova</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_62" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição definindo o tema
-                </name_singular>
-                <name_plural>inscrição definindo o tema
-                </name_plural>
+                <name_singular>inscrição definindo o tema</name_singular>
+                <name_plural>inscrição definindo o tema</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_63" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>inscrição patronímica
-                </name_singular>
-                <name_plural>inscrição patronímica
-                </name_plural>
+                <name_singular>inscrição patronímica</name_singular>
+                <name_plural>inscrição patronímica</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_66" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>legenda
-                </name_singular>
-                <name_plural>legenda
-                </name_plural>
+                <name_singular>legenda</name_singular>
+                <name_plural>legenda</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_67" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>carta
-                </name_singular>
-                <name_plural>carta
-                </name_plural>
+                <name_singular>carta</name_singular>
+                <name_plural>carta</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_68" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>lista
-                </name_singular>
-                <name_plural>lista
-                </name_plural>
+                <name_singular>lista</name_singular>
+                <name_plural>lista</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_69" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>medida
-                </name_singular>
-                <name_plural>medida
-                </name_plural>
+                <name_singular>medida</name_singular>
+                <name_plural>medida</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_70" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>modo de uso
-                </name_singular>
-                <name_plural>modo de uso
-                </name_plural>
+                <name_singular>modo de uso</name_singular>
+                <name_plural>modo de uso</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_71" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>rubrica
-                </name_singular>
-                <name_plural>rubrica
-                </name_plural>
+                <name_singular>rubrica</name_singular>
+                <name_plural>rubrica</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_72" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>rubrica de um colecionador
-                    </name_singular>
-                    <name_plural>rubrica de um colecionador
-                    </name_plural>
+                    <name_singular>rubrica de um colecionador</name_singular>
+                    <name_plural>rubrica de um colecionador</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_73" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>rubrica de um conservador
-                    </name_singular>
-                    <name_plural>rubrica de um conservador
-                    </name_plural>
+                    <name_singular>rubrica de um conservador</name_singular>
+                    <name_plural>rubrica de um conservador</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3543,70 +3415,56 @@
           <item idno="lexinsc_74" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>phylactère
-                </name_singular>
-                <name_plural>phylactère
-                </name_plural>
+                <name_singular>talismã</name_singular>
+                <name_plural>talismã</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_75" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>poème
-                </name_singular>
-                <name_plural>poème
-                </name_plural>
+                <name_singular>poema</name_singular>
+                <name_plural>poema</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_76" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>prière
-                </name_singular>
-                <name_plural>prière
-                </name_plural>
+                <name_singular>oração</name_singular>
+                <name_plural>oração</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_77" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>rébus
-                </name_singular>
-                <name_plural>rébus
-                </name_plural>
+                <name_singular>rébus</name_singular>
+                <name_plural>rébus</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_78" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>règle du jeu
-                </name_singular>
-                <name_plural>règle du jeu
-                </name_plural>
+                <name_singular>regra do jogo</name_singular>
+                <name_plural>regra do jogo</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_79" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signature apocryphe
-                </name_singular>
-                <name_plural>signature apocryphe
-                </name_plural>
+                <name_singular>assinatura apócrifa</name_singular>
+                <name_plural>assinatura apócrifa</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_80" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>monogramme apocryphe
-                    </name_singular>
-                    <name_plural>monogramme apocryphe
-                    </name_plural>
+                    <name_singular>monograma apócrifo</name_singular>
+                    <name_plural>monograma apócrifo</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3615,100 +3473,80 @@
           <item idno="lexinsc_81" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signe
-                </name_singular>
-                <name_plural>signe
-                </name_plural>
+                <name_singular>sinal</name_singular>
+                <name_plural>sinal</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_82" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>texte
-                </name_singular>
-                <name_plural>texte
-                </name_plural>
+                <name_singular>texto</name_singular>
+                <name_plural>texto</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_83" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cantique
-                    </name_singular>
-                    <name_plural>cantique
-                    </name_plural>
+                    <name_singular>cântico</name_singular>
+                    <name_plural>cântico</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_84" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>chanson
-                    </name_singular>
-                    <name_plural>chanson
-                    </name_plural>
+                    <name_singular>canção</name_singular>
+                    <name_plural>canção</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_85" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>chant
-                    </name_singular>
-                    <name_plural>chant
-                    </name_plural>
+                    <name_singular>canto</name_singular>
+                    <name_plural>canto</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_86" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>complainte
-                    </name_singular>
-                    <name_plural>complainte
-                    </name_plural>
+                    <name_singular>lamento</name_singular>
+                    <name_plural>lamento</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_87" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>oraison
-                    </name_singular>
-                    <name_plural>oraison
-                    </name_plural>
+                    <name_singular>oração</name_singular>
+                    <name_plural>oração</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_88" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>texte historique
-                    </name_singular>
-                    <name_plural>texte historique
-                    </name_plural>
+                    <name_singular>texto histórico</name_singular>
+                    <name_plural>texto histórico</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_89" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>texte manuscrit
-                    </name_singular>
-                    <name_plural>texte manuscrit
-                    </name_plural>
+                    <name_singular>texto manuscrito</name_singular>
+                    <name_plural>texto manuscrito</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_90" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>texte religieux
-                    </name_singular>
-                    <name_plural>texte religieux
-                    </name_plural>
+                    <name_singular>texto religioso</name_singular>
+                    <name_plural>texto religioso</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3717,20 +3555,16 @@
           <item idno="lexinsc_91" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>titre
-                </name_singular>
-                <name_plural>titre
-                </name_plural>
+                <name_singular>título</name_singular>
+                <name_plural>título</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_92" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sous-titre
-                    </name_singular>
-                    <name_plural>sous-titre
-                    </name_plural>
+                    <name_singular>subtítulo</name_singular>
+                    <name_plural>subtítulo</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3741,100 +3575,80 @@
       <item idno="lexinsc_93" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>marque
-            </name_singular>
-            <name_plural>marque
-            </name_plural>
+            <name_singular>marca</name_singular>
+            <name_plural>marca</name_plural>
           </label>
         </labels>
         <items>
           <item idno="lexinsc_94" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>cachet
-                </name_singular>
-                <name_plural>cachet
-                </name_plural>
+                <name_singular>selo</name_singular>
+                <name_plural>selo</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_95" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de collectionneur
-                    </name_singular>
-                    <name_plural>cachet de collectionneur
-                    </name_plural>
+                    <name_singular>selo de colecionador</name_singular>
+                    <name_plural>selo de colecionador</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_96" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de douane
-                    </name_singular>
-                    <name_plural>cachet de douane
-                    </name_plural>
+                    <name_singular>carimbo aduaneiro</name_singular>
+                    <name_plural>carimbo aduaneiro</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_97" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de fondeur
-                    </name_singular>
-                    <name_plural>cachet de fondeur
-                    </name_plural>
+                    <name_singular>selo de ferro fundido</name_singular>
+                    <name_plural>selo de ferro fundido</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_98" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de marchand de couleurs
-                    </name_singular>
-                    <name_plural>cachet de marchand de couleurs
-                    </name_plural>
+                    <name_singular>carimbo de negociante de cor</name_singular>
+                    <name_plural>carimbo de negociante de cor</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_99" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de manufacture
-                    </name_singular>
-                    <name_plural>cachet de manufacture
-                    </name_plural>
+                    <name_singular>selo de fabricação</name_singular>
+                    <name_plural>selo de fabricação</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_100" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de vente
-                    </name_singular>
-                    <name_plural>cachet de vente
-                    </name_plural>
+                    <name_singular>selo de vendas</name_singular>
+                    <name_plural>selo de vendas</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_101" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet d'atelier
-                    </name_singular>
-                    <name_plural>cachet d'atelier
-                    </name_plural>
+                    <name_singular>selo de oficina</name_singular>
+                    <name_plural>selo de oficina</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_102" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>cachet d'atelier usurpé
-                        </name_singular>
-                        <name_plural>cachet d'atelier usurpé
-                        </name_plural>
+                        <name_singular>selo da oficina usurpada</name_singular>
+                        <name_plural>selo da oficina usurpada</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -3845,20 +3659,16 @@
           <item idno="lexinsc_103" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>estampille
-                </name_singular>
-                <name_plural>estampille
-                </name_plural>
+                <name_singular>carimbado</name_singular>
+                <name_plural>carimbado</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_104" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>griffe
-                    </name_singular>
-                    <name_plural>griffe
-                    </name_plural>
+                    <name_singular>garra</name_singular>
+                    <name_plural>garra</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3867,64 +3677,52 @@
           <item idno="lexinsc_105" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>logo
-                </name_singular>
-                <name_plural>logo
-                </name_plural>
+                <name_singular>logotipo</name_singular>
+                <name_plural>logotipo</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_106" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque concernant le support
-                </name_singular>
-                <name_plural>marque concernant le support
-                </name_plural>
+                <name_singular>marca sobre o apoio</name_singular>
+                <name_plural>marca sobre o apoio</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_107" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque concernant les collections</name_singular>
-                <name_plural>marque concernant les collections</name_plural>
+                <name_singular>marca sobre as coleções</name_singular>
+                <name_plural>marca sobre as coleções</name_plural>
               </label>
               <label locale="pt_BR" preferred="0">
-                <name_singular>marque de collection
-                </name_singular>
-                <name_plural>marque de collection
-                </name_plural>
+                <name_singular>marca de coleção</name_singular>
+                <name_plural>marca de coleção</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_108" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque concernant les collections publiques
-                </name_singular>
-                <name_plural>marque concernant les collections publiques
-                </name_plural>
+                <name_singular>marca sobre as coleções públicas</name_singular>
+                <name_plural>marca sobre as coleções públicas</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_109" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de musée
-                    </name_singular>
-                    <name_plural>marque de musée
-                    </name_plural>
+                    <name_singular>marca do museu</name_singular>
+                    <name_plural>marca do museu</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_110" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de bibliothèque
-                    </name_singular>
-                    <name_plural>marque de bibliothèque
-                    </name_plural>
+                    <name_singular>marca de biblioteca</name_singular>
+                    <name_plural>marca de biblioteca</name_plural>
                   </label>
                 </labels>
               </item>
@@ -3933,194 +3731,156 @@
           <item idno="lexinsc_111" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque d'atelier
-                </name_singular>
-                <name_plural>marque d'atelier
-                </name_plural>
+                <name_singular>marca da oficina</name_singular>
+                <name_plural>marca da oficina</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_112" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de décorateur
-                </name_singular>
-                <name_plural>marque de décorateur
-                </name_plural>
+                <name_singular>marca do decorador</name_singular>
+                <name_plural>marca do decorador</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_113" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de décoration
-                </name_singular>
-                <name_plural>marque de décoration
-                </name_plural>
+                <name_singular>marca de decoração</name_singular>
+                <name_plural>marca de decoração</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_114" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de doreur
-                </name_singular>
-                <name_plural>marque de doreur
-                </name_plural>
+                <name_singular>marca do dourador</name_singular>
+                <name_plural>marca do dourador</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_115" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de fabricant
-                </name_singular>
-                <name_plural>marque de fabricant
-                </name_plural>
+                <name_singular>marca do fabricante</name_singular>
+                <name_plural>marca do fabricante</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_116" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="0">
-                <name_singular>marque de fabrication
-                </name_singular>
-                <name_plural>marque de fabrication
-                </name_plural>
+                <name_singular>marca de fabricação</name_singular>
+                <name_plural>marca de fabricação</name_plural>
               </label>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de fabrique</name_singular>
-                <name_plural>marque de fabrique</name_plural>
+                <name_singular>marca registrada</name_singular>
+                <name_plural>marca registrada</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_117" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de façonnage
-                </name_singular>
-                <name_plural>marque de façonnage
-                </name_plural>
+                <name_singular>marca de moldagem</name_singular>
+                <name_plural>marca de moldagem</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_118" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de fondeur
-                </name_singular>
-                <name_plural>marque de fondeur
-                </name_plural>
+                <name_singular>marca de fundição</name_singular>
+                <name_plural>marca de fundição</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_119" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque d'orfèvre
-                </name_singular>
-                <name_plural>marque d'orfèvre
-                </name_plural>
+                <name_singular>marca de ourives</name_singular>
+                <name_plural>marca de ourives</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_120" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de manufacture
-                </name_singular>
-                <name_plural>marque de manufacture
-                </name_plural>
+                <name_singular>marca da oficina</name_singular>
+                <name_plural>marca da oficina</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_121" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de monteur
-                </name_singular>
-                <name_plural>marque de monteur
-                </name_plural>
+                <name_singular>marca do ajustador</name_singular>
+                <name_plural>marca do ajustador</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_122" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de potier
-                </name_singular>
-                <name_plural>marque de potier
-                </name_plural>
+                <name_singular>marca de oleiro</name_singular>
+                <name_plural>marca de oleiro</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_123" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de résidence
-                </name_singular>
-                <name_plural>marque de résidence
-                </name_plural>
+                <name_singular>marca de residência</name_singular>
+                <name_plural>marca de residência</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_124" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de série
-                </name_singular>
-                <name_plural>marque de série
-                </name_plural>
+                <name_singular>marca serial</name_singular>
+                <name_plural>marca serial</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_125" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque de tailleur
-                </name_singular>
-                <name_plural>marque de tailleur
-                </name_plural>
+                <name_singular>marca de alfaiate</name_singular>
+                <name_plural>marca de alfaiate</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_126" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque du propriétaire
-                </name_singular>
-                <name_plural>marque du propriétaire
-                </name_plural>
+                <name_singular>marca do proprietário</name_singular>
+                <name_plural>marca do proprietário</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_127" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque postale
-                </name_singular>
-                <name_plural>marque postale
-                </name_plural>
+                <name_singular>carimbo postal</name_singular>
+                <name_plural>carimbo postal</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_128" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet à date
-                    </name_singular>
-                    <name_plural>cachet à date
-                    </name_plural>
+                    <name_singular>carimbo de data</name_singular>
+                    <name_plural>carimbo de data</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_129" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>oblitération Prermier Jour
-                        </name_singular>
-                        <name_plural>oblitération Prermier Jour
-                        </name_plural>
+                        <name_singular>Cancelamento do primeiro dia</name_singular>
+                        <name_plural>Cancelamento do primeiro dia</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -4129,60 +3889,48 @@
               <item idno="lexinsc_130" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet d'ambulant
-                    </name_singular>
-                    <name_plural>cachet d'ambulant
-                    </name_plural>
+                    <name_singular>carimbo de viagem</name_singular>
+                    <name_plural>carimbo de viagem</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_131" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet d'entrée
-                    </name_singular>
-                    <name_plural>cachet d'entrée
-                    </name_plural>
+                    <name_singular>carimbo de entrada</name_singular>
+                    <name_plural>carimbo de entrada</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_132" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de départ
-                    </name_singular>
-                    <name_plural>cachet de départ
-                    </name_plural>
+                    <name_singular>selo de partida</name_singular>
+                    <name_plural>selo de partida</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_133" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de port
-                    </name_singular>
-                    <name_plural>cachet de port
-                    </name_plural>
+                    <name_singular>selo de porta</name_singular>
+                    <name_plural>selo de porta</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_134" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>port dû
-                        </name_singular>
-                        <name_plural>port dû
-                        </name_plural>
+                        <name_singular>devido</name_singular>
+                        <name_plural>devido</name_plural>
                       </label>
                     </labels>
                   </item>
                   <item idno="lexinsc_135" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>port payé
-                        </name_singular>
-                        <name_plural>port payé
-                        </name_plural>
+                        <name_singular>porte pago</name_singular>
+                        <name_plural>porte pago</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -4191,80 +3939,64 @@
               <item idno="lexinsc_136" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet de recette
-                    </name_singular>
-                    <name_plural>cachet de recette
-                    </name_plural>
+                    <name_singular>carimbo de receita</name_singular>
+                    <name_plural>carimbo de receita</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_137" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet d'entrée
-                    </name_singular>
-                    <name_plural>cachet d'entrée
-                    </name_plural>
+                    <name_singular>carimbo de entrada</name_singular>
+                    <name_plural>carimbo de entrada</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_138" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet d'oblitération
-                    </name_singular>
-                    <name_plural>cachet d'oblitération
-                    </name_plural>
+                    <name_singular>carimbo de cancelamento</name_singular>
+                    <name_plural>carimbo de cancelamento</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_139" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>grille sans fin
-                        </name_singular>
-                        <name_plural>grille sans fin
-                        </name_plural>
+                        <name_singular>grade sem fim</name_singular>
+                        <name_plural>grade sem fim</name_plural>
                       </label>
                     </labels>
                   </item>
                   <item idno="lexinsc_140" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>losange oblitérant
-                        </name_singular>
-                        <name_plural>losange oblitérant
-                        </name_plural>
+                        <name_singular>obliteração de diamantes</name_singular>
+                        <name_plural>obliteração de diamantes</name_plural>
                       </label>
                     </labels>
                     <items>
                       <item idno="lexinsc_141" enabled="1" default="0">
                         <labels>
                           <label locale="pt_BR" preferred="1">
-                            <name_singular>losange grille
-                            </name_singular>
-                            <name_plural>losange grille
-                            </name_plural>
+                            <name_singular>grade de diamante</name_singular>
+                            <name_plural>grade de diamante</name_plural>
                           </label>
                         </labels>
                       </item>
                       <item idno="lexinsc_142" enabled="1" default="0">
                         <labels>
                           <label locale="pt_BR" preferred="1">
-                            <name_singular>losange gros chiffres
-                            </name_singular>
-                            <name_plural>losange gros chiffres
-                            </name_plural>
+                            <name_singular>losango de grandes figuras</name_singular>
+                            <name_plural>losango de grandes figuras</name_plural>
                           </label>
                         </labels>
                       </item>
                       <item idno="lexinsc_143" enabled="1" default="0">
                         <labels>
                           <label locale="pt_BR" preferred="1">
-                            <name_singular>losange petits chiffres
-                            </name_singular>
-                            <name_plural>losange petits chiffres
-                            </name_plural>
+                            <name_singular>pequenos números de losango</name_singular>
+                            <name_plural>pequenos números de losango</name_plural>
                           </label>
                         </labels>
                       </item>
@@ -4275,60 +4007,48 @@
               <item idno="lexinsc_144" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet octogonal
-                    </name_singular>
-                    <name_plural>cachet octogonal
-                    </name_plural>
+                    <name_singular>selo octogonal</name_singular>
+                    <name_plural>selo octogonal</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_145" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cachet paquebot
-                    </name_singular>
-                    <name_plural>cachet paquebot
-                    </name_plural>
+                    <name_singular>forro de vedação</name_singular>
+                    <name_plural>forro de vedação</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_146" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>étoile à numéro
-                    </name_singular>
-                    <name_plural>étoile à numéro
-                    </name_plural>
+                    <name_singular>estrela numerada</name_singular>
+                    <name_plural>estrela numerada</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_147" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>étoile muette
-                    </name_singular>
-                    <name_plural>étoile muette
-                    </name_plural>
+                    <name_singular>estrela muda</name_singular>
+                    <name_plural>estrela muda</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_148" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque d'armée
-                    </name_singular>
-                    <name_plural>marque d'armée
-                    </name_plural>
+                    <name_singular>marca do exército</name_singular>
+                    <name_plural>marca do exército</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_149" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>marque d'armée en déboursé
-                        </name_singular>
-                        <name_plural>marque d'armée en déboursé
-                        </name_plural>
+                        <name_singular>marca do exército desembolsada</name_singular>
+                        <name_plural>marca do exército desembolsada</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -4337,54 +4057,44 @@
               <item idno="lexinsc_150" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de déboursé
-                    </name_singular>
-                    <name_plural>marque de déboursé
-                    </name_plural>
+                    <name_singular>marca desembolsada</name_singular>
+                    <name_plural>marca desembolsada</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_151" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de purification
-                    </name_singular>
-                    <name_plural>marque de purification
-                    </name_plural>
+                    <name_singular>marca de purificação</name_singular>
+                    <name_plural>marca de purificação</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_152" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>chiffre-taxe
-                    </name_singular>
-                    <name_plural>chiffre-taxe
-                    </name_plural>
+                    <name_singular>vendas de impostos</name_singular>
+                    <name_plural>vendas de impostos</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de taxation</name_singular>
-                    <name_plural>marque de taxation</name_plural>
+                    <name_singular>marca de imposto</name_singular>
+                    <name_plural>marca de imposto</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_153" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque de transit
-                    </name_singular>
-                    <name_plural>marque de transit
-                    </name_plural>
+                    <name_singular>marca de trânsito</name_singular>
+                    <name_plural>marca de trânsito</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_154" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>marque linéaire
-                    </name_singular>
-                    <name_plural>marque linéaire
-                    </name_plural>
+                    <name_singular>marca linear</name_singular>
+                    <name_plural>marca linear</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4393,54 +4103,44 @@
           <item idno="lexinsc_155" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>marque publicitaire
-                </name_singular>
-                <name_plural>marque publicitaire
-                </name_plural>
+                <name_singular>marca de publicidade</name_singular>
+                <name_plural>marca de publicidade</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_156" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>poinçon
-                </name_singular>
-                <name_plural>poinçon
-                </name_plural>
+                <name_singular>Hallmark</name_singular>
+                <name_plural>Hallmark</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_157" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de charge
-                    </name_singular>
-                    <name_plural>poinçon de charge
-                    </name_plural>
+                    <name_singular>marca de carga</name_singular>
+                    <name_plural>marca de carga</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_158" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de communauté</name_singular>
-                    <name_plural>poinçon de communauté</name_plural>
+                    <name_singular>marca da comunidade</name_singular>
+                    <name_plural>marca da comunidade</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>poinçon de jurande
-                    </name_singular>
-                    <name_plural>poinçon de jurande
-                    </name_plural>
+                    <name_singular>marca do grêmio</name_singular>
+                    <name_plural>marca do grêmio</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_159" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>lettre-date
-                        </name_singular>
-                        <name_plural>lettre-date
-                        </name_plural>
+                        <name_singular>marca datada</name_singular>
+                        <name_plural>marca datada</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -4449,100 +4149,80 @@
               <item idno="lexinsc_160" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de décharge
-                    </name_singular>
-                    <name_plural>poinçon de décharge
-                    </name_plural>
+                    <name_singular>marca de descarga</name_singular>
+                    <name_plural>marca de descarga</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_161" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de fabricant
-                    </name_singular>
-                    <name_plural>poinçon de fabricant
-                    </name_plural>
+                    <name_singular>marca do fabricante</name_singular>
+                    <name_plural>marca do fabricante</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_162" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de garantie
-                    </name_singular>
-                    <name_plural>poinçon de garantie
-                    </name_plural>
+                    <name_singular>marca de garantia</name_singular>
+                    <name_plural>marca de garantia</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_163" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de maître
-                    </name_singular>
-                    <name_plural>poinçon de maître
-                    </name_plural>
+                    <name_singular>marca de mestre</name_singular>
+                    <name_plural>marca de mestre</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_164" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de recense
-                    </name_singular>
-                    <name_plural>poinçon de recense
-                    </name_plural>
+                    <name_singular>marca do censo</name_singular>
+                    <name_plural>marca do censo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_165" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de titre
-                    </name_singular>
-                    <name_plural>poinçon de titre
-                    </name_plural>
+                    <name_singular>marca de título</name_singular>
+                    <name_plural>marca de título</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_166" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon de ville
-                    </name_singular>
-                    <name_plural>poinçon de ville
-                    </name_plural>
+                    <name_singular>marca da cidade</name_singular>
+                    <name_plural>marca da cidade</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_167" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon d'importation
-                    </name_singular>
-                    <name_plural>poinçon d'importation
-                    </name_plural>
+                    <name_singular>marca de importação</name_singular>
+                    <name_plural>marca de importação</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_168" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>poinçon d'orfèvre
-                    </name_singular>
-                    <name_plural>poinçon d'orfèvre
-                    </name_plural>
+                    <name_singular>marca do ourives</name_singular>
+                    <name_plural>marca do ourives</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_169" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sceau
-                    </name_singular>
-                    <name_plural>sceau
-                    </name_plural>
+                    <name_singular>selo</name_singular>
+                    <name_plural>selo</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4551,30 +4231,24 @@
           <item idno="lexinsc_170" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>sigle
-                </name_singular>
-                <name_plural>sigle
-                </name_plural>
+                <name_singular>iniciais</name_singular>
+                <name_plural>iniciais</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_171" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>tampon
-                </name_singular>
-                <name_plural>tampon
-                </name_plural>
+                <name_singular>amortecedor</name_singular>
+                <name_plural>amortecedor</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_172" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>tampon sec
-                    </name_singular>
-                    <name_plural>tampon sec
-                    </name_plural>
+                    <name_singular>tampão seco</name_singular>
+                    <name_plural>tampão seco</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4583,40 +4257,32 @@
           <item idno="lexinsc_173" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>timbre
-                </name_singular>
-                <name_plural>timbre
-                </name_plural>
+                <name_singular>selo</name_singular>
+                <name_plural>selo</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_174" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>timbre de colportage
-                    </name_singular>
-                    <name_plural>timbre de colportage
-                    </name_plural>
+                    <name_singular>carimbo de revenda</name_singular>
+                    <name_plural>carimbo de revenda</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_175" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>timbre humide
-                    </name_singular>
-                    <name_plural>timbre humide
-                    </name_plural>
+                    <name_singular>carimbo molhado</name_singular>
+                    <name_plural>carimbo molhado</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_176" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>timbre sec
-                    </name_singular>
-                    <name_plural>timbre sec
-                    </name_plural>
+                    <name_singular>carimbo seco</name_singular>
+                    <name_plural>carimbo seco</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4627,70 +4293,56 @@
       <item idno="lexinsc_177" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>numéro
-            </name_singular>
-            <name_plural>numéro
-            </name_plural>
+            <name_singular>número</name_singular>
+            <name_plural>número</name_plural>
           </label>
         </labels>
         <items>
           <item idno="lexinsc_178" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>número de registro
-                </name_singular>
-                <name_plural>número de registro
-                </name_plural>
+                <name_singular>número de registro</name_singular>
+                <name_plural>número de registro</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_179" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>numéro de décor
-                </name_singular>
-                <name_plural>numéro de décor
-                </name_plural>
+                <name_singular>número de decoração</name_singular>
+                <name_plural>número de decoração</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_180" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>numéro de modèle
-                </name_singular>
-                <name_plural>numéro de modèle
-                </name_plural>
+                <name_singular>número do modelo</name_singular>
+                <name_plural>número do modelo</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_181" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>numéro peint
-                </name_singular>
-                <name_plural>numéro peint
-                </name_plural>
+                <name_singular>número pintado</name_singular>
+                <name_plural>número pintado</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_182" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>numéro d'ordre
-                </name_singular>
-                <name_plural>numéro d'ordre
-                </name_plural>
+                <name_singular>número da ordem</name_singular>
+                <name_plural>número da ordem</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_183" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>numéro de série
-                </name_singular>
-                <name_plural>numéro de série
-                </name_plural>
+                <name_singular>numéro de série</name_singular>
+                <name_plural>numéro de série</name_plural>
               </label>
             </labels>
           </item>
@@ -4699,38 +4351,32 @@
       <item idno="lexinsc_184" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>signature</name_singular>
+            <name_singular>assinatura</name_singular>
             <name_plural>signature</name_plural>
           </label>
           <label locale="pt_BR" preferred="0">
-            <name_singular>signé (520)
-            </name_singular>
-            <name_plural>signé (520)
-            </name_plural>
+            <name_singular>assinado (520)</name_singular>
+            <name_plural>assinado (520)</name_plural>
           </label>
         </labels>
         <items>
           <item idno="lexinsc_185" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="0">
-                <name_singular>monogrammé
-                </name_singular>
-                <name_plural>monogrammé
-                </name_plural>
+                <name_singular>monograma</name_singular>
+                <name_plural>monograma</name_plural>
               </label>
               <label locale="pt_BR" preferred="1">
-                <name_singular>monogramme</name_singular>
-                <name_plural>monogramme</name_plural>
+                <name_singular>monograma</name_singular>
+                <name_plural>monograma</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_186" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>monogramme en caractères typographiques
-                    </name_singular>
-                    <name_plural>monogramme en caractères typographiques
-                    </name_plural>
+                    <name_singular>monograma em caracteres tipográficos</name_singular>
+                    <name_plural>monograma em caracteres tipográficos</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4739,40 +4385,32 @@
           <item idno="lexinsc_187" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signature de l'exécutant
-                </name_singular>
-                <name_plural>signature de l'exécutant
-                </name_plural>
+                <name_singular>assinatura do executante</name_singular>
+                <name_plural>assinatura do executante</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_188" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signature emblématique
-                </name_singular>
-                <name_plural>signature emblématique
-                </name_plural>
+                <name_singular>assinatura icônica</name_singular>
+                <name_plural>assinatura icônica</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_189" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signature en caractères typographiques
-                </name_singular>
-                <name_plural>signature en caractères typographiques
-                </name_plural>
+                <name_singular>assinatura em caracteres tipográficos</name_singular>
+                <name_plural>assinatura em caracteres tipográficos</name_plural>
               </label>
             </labels>
           </item>
           <item idno="lexinsc_190" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>signature échoppée
-                </name_singular>
-                <name_plural>signature échoppée
-                </name_plural>
+                <name_singular>assinatura assinada</name_singular>
+                <name_plural>assinatura assinada</name_plural>
               </label>
             </labels>
           </item>
@@ -4781,40 +4419,32 @@
       <item idno="lexinsc_191" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>visa de censure
-            </name_singular>
-            <name_plural>visa de censure
-            </name_plural>
+            <name_singular>visto de censura</name_singular>
+            <name_plural>visto de censura</name_plural>
           </label>
         </labels>
       </item>
       <item idno="lexinsc_192" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>affixe
-            </name_singular>
-            <name_plural>affixe
-            </name_plural>
+            <name_singular>afixar</name_singular>
+            <name_plural>afixar</name_plural>
           </label>
         </labels>
         <items>
           <item idno="lexinsc_193" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>alphabet
-                </name_singular>
-                <name_plural>alphabet
-                </name_plural>
+                <name_singular>alfabeto</name_singular>
+                <name_plural>alfabeto</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_194" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cunéiforme
-                    </name_singular>
-                    <name_plural>cunéiforme
-                    </name_plural>
+                    <name_singular>cuneiforme</name_singular>
+                    <name_plural>cuneiforme</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4823,62 +4453,40 @@
           <item idno="lexinsc_195" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>justification
-                </name_singular>
-                <name_plural>justification
-                </name_plural>
+                <name_singular>justificação</name_singular>
+                <name_plural>justificação</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_196" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>ancien</name_singular>
-                    <name_plural>ancien</name_plural>
-                  </label>
-                  <label locale="pt_BR" preferred="0">
-                    <name_singular>ancienne
-                    </name_singular>
-                    <name_plural>ancienne
-                    </name_plural>
+                    <name_singular>antigo</name_singular>
+                    <name_plural>antigo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_197" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>d'origine
-                    </name_singular>
-                    <name_plural>d'origine
-                    </name_plural>
+                    <name_singular>original</name_singular>
+                    <name_plural>original</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_198" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>fausse
-                    </name_singular>
-                    <name_plural>fausse
-                    </name_plural>
-                  </label>
-                  <label locale="pt_BR" preferred="1">
-                    <name_singular>faux</name_singular>
-                    <name_plural>faux</name_plural>
+                    <name_singular>falso</name_singular>
+                    <name_plural>falso</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_199" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>récent</name_singular>
-                    <name_plural>récent</name_plural>
-                  </label>
-                  <label locale="pt_BR" preferred="0">
-                    <name_singular>récente
-                    </name_singular>
-                    <name_plural>récente
-                    </name_plural>
+                    <name_singular>recente</name_singular>
+                    <name_plural>recente</name_plural>
                   </label>
                 </labels>
               </item>
@@ -4887,130 +4495,104 @@
           <item idno="lexinsc_200" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>langue
-                </name_singular>
-                <name_plural>langue
-                </name_plural>
+                <name_singular>idioma</name_singular>
+                <name_plural>idioma</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_201" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>allemand
-                    </name_singular>
-                    <name_plural>allemand
-                    </name_plural>
+                    <name_singular>alemão</name_singular>
+                    <name_plural>alemão</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_202" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>anglais
-                    </name_singular>
-                    <name_plural>anglais
-                    </name_plural>
+                    <name_singular>inglês</name_singular>
+                    <name_plural>inglês</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_203" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>arabe
-                    </name_singular>
-                    <name_plural>arabe
-                    </name_plural>
+                    <name_singular>árabe</name_singular>
+                    <name_plural>árabe</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_204" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>basque
-                    </name_singular>
-                    <name_plural>basque
-                    </name_plural>
+                    <name_singular>basco</name_singular>
+                    <name_plural>basco</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_205" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>catalan
-                    </name_singular>
-                    <name_plural>catalan
-                    </name_plural>
+                    <name_singular>catalão</name_singular>
+                    <name_plural>catalão</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_206" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>celtique
-                    </name_singular>
-                    <name_plural>celtique
-                    </name_plural>
+                    <name_singular>celta</name_singular>
+                    <name_plural>celta</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_207" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>chinois
-                    </name_singular>
-                    <name_plural>chinois
-                    </name_plural>
+                    <name_singular>chinês</name_singular>
+                    <name_plural>chinês</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_208" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>cyrillique
-                    </name_singular>
-                    <name_plural>cyrillique
-                    </name_plural>
+                    <name_singular>cirílico</name_singular>
+                    <name_plural>cirílico</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_209" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>danois
-                    </name_singular>
-                    <name_plural>danois
-                    </name_plural>
+                    <name_singular>dinamarquês</name_singular>
+                    <name_plural>dinamarquês</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_210" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>égyptien
-                    </name_singular>
-                    <name_plural>égyptien
-                    </name_plural>
+                    <name_singular>egípcio</name_singular>
+                    <name_plural>egípcio</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_211" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>égyptien ancien
-                        </name_singular>
-                        <name_plural>égyptien ancien
-                        </name_plural>
+                        <name_singular>egípcio antigo</name_singular>
+                        <name_plural>egípcio antigo</name_plural>
                       </label>
                     </labels>
                     <items>
                       <item idno="lexinsc_212" enabled="1" default="0">
                         <labels>
                           <label locale="pt_BR" preferred="1">
-                            <name_singular>hiéroglyphique
-                            </name_singular>
-                            <name_plural>hiéroglyphique
-                            </name_plural>
+                            <name_singular>hieroglífico</name_singular>
+                            <name_plural>hieroglífico</name_plural>
                           </label>
                         </labels>
                       </item>
@@ -5021,30 +4603,24 @@
               <item idno="lexinsc_213" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>espagnol
-                    </name_singular>
-                    <name_plural>espagnol
-                    </name_plural>
+                    <name_singular>espanhol</name_singular>
+                    <name_plural>espanhol</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_214" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>français
-                    </name_singular>
-                    <name_plural>français
-                    </name_plural>
+                    <name_singular>francês</name_singular>
+                    <name_plural>francês</name_plural>
                   </label>
                 </labels>
                 <items>
                   <item idno="lexinsc_215" enabled="1" default="0">
                     <labels>
                       <label locale="pt_BR" preferred="1">
-                        <name_singular>vieux français
-                        </name_singular>
-                        <name_plural>vieux français
-                        </name_plural>
+                        <name_singular>francês antigo</name_singular>
+                        <name_plural>francês antigo</name_plural>
                       </label>
                     </labels>
                   </item>
@@ -5053,170 +4629,136 @@
               <item idno="lexinsc_216" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>gothique
-                    </name_singular>
-                    <name_plural>gothique
-                    </name_plural>
+                    <name_singular>gótico</name_singular>
+                    <name_plural>gótico</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_217" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>grec
-                    </name_singular>
-                    <name_plural>grec
-                    </name_plural>
+                    <name_singular>grego</name_singular>
+                    <name_plural>grego</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_218" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>hébraïque
-                    </name_singular>
-                    <name_plural>hébraïque
-                    </name_plural>
+                    <name_singular>hebraico</name_singular>
+                    <name_plural>hebraico</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_219" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>hébreu
-                    </name_singular>
-                    <name_plural>hébreu
-                    </name_plural>
+                    <name_singular>hebreu</name_singular>
+                    <name_plural>hebreu</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_220" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>hollandais
-                    </name_singular>
-                    <name_plural>hollandais
-                    </name_plural>
+                    <name_singular>holandês</name_singular>
+                    <name_plural>holandês</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_221" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>hongrois
-                    </name_singular>
-                    <name_plural>hongrois
-                    </name_plural>
+                    <name_singular>húngaro</name_singular>
+                    <name_plural>húngaro</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_222" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>italien
-                    </name_singular>
-                    <name_plural>italien
-                    </name_plural>
+                    <name_singular>italiano</name_singular>
+                    <name_plural>italiano</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_223" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>japonais
-                    </name_singular>
-                    <name_plural>japonais
-                    </name_plural>
+                    <name_singular>japonês</name_singular>
+                    <name_plural>japonês</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_224" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>latin
-                    </name_singular>
-                    <name_plural>latin
-                    </name_plural>
+                    <name_singular>latin</name_singular>
+                    <name_plural>latin</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_225" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>ottoman
-                    </name_singular>
-                    <name_plural>ottoman
-                    </name_plural>
+                    <name_singular>otomano</name_singular>
+                    <name_plural>otomano</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_226" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>portugais
-                    </name_singular>
-                    <name_plural>portugais
-                    </name_plural>
+                    <name_singular>português</name_singular>
+                    <name_plural>português</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_227" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>provençal
-                    </name_singular>
-                    <name_plural>provençal
-                    </name_plural>
+                    <name_singular>provençal</name_singular>
+                    <name_plural>provençal</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_228" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>roumain
-                    </name_singular>
-                    <name_plural>roumain
-                    </name_plural>
+                    <name_singular>romeno</name_singular>
+                    <name_plural>romeno</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_229" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>russe
-                    </name_singular>
-                    <name_plural>russe
-                    </name_plural>
+                    <name_singular>russo</name_singular>
+                    <name_plural>russo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_230" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>slavon
-                    </name_singular>
-                    <name_plural>slavon
-                    </name_plural>
+                    <name_singular>eslavo</name_singular>
+                    <name_plural>eslavo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_231" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sumérien
-                    </name_singular>
-                    <name_plural>sumérien
-                    </name_plural>
+                    <name_singular>suméria</name_singular>
+                    <name_plural>suméria</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_232" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>turc
-                    </name_singular>
-                    <name_plural>turc
-                    </name_plural>
+                    <name_singular>turco</name_singular>
+                    <name_plural>turco</name_plural>
                   </label>
                 </labels>
               </item>
@@ -5225,96 +4767,80 @@
           <item idno="lexinsc_233" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>emplacement
-                </name_singular>
-                <name_plural>emplacement
-                </name_plural>
+                <name_singular>localização</name_singular>
+                <name_plural>localização</name_plural>
               </label>
             </labels>
             <items>
               <item idno="lexinsc_234" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>côté
-                    </name_singular>
-                    <name_plural>côté
-                    </name_plural>
+                    <name_singular>lado</name_singular>
+                    <name_plural>lado</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_235" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>côté droit
-                    </name_singular>
-                    <name_plural>côté droit
-                    </name_plural>
+                    <name_singular>lado direito</name_singular>
+                    <name_plural>lado direito</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_236" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>côté gauche
-                    </name_singular>
-                    <name_plural>côté gauche
-                    </name_plural>
+                    <name_singular>lado esquerdo</name_singular>
+                    <name_plural>lado esquerdo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_237" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>avers
-                    </name_singular>
-                    <name_plural>avers
-                    </name_plural>
+                    <name_singular>anverso</name_singular>
+                    <name_plural>anverso</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>face</name_singular>
-                    <name_plural>face</name_plural>
+                    <name_singular>frente</name_singular>
+                    <name_plural>frente</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>recto</name_singular>
-                    <name_plural>recto</name_plural>
+                    <name_singular>reto</name_singular>
+                    <name_plural>reto</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_238" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>face du montage</name_singular>
-                    <name_plural>face du montage</name_plural>
+                    <name_singular>face da montagem</name_singular>
+                    <name_plural>face da montagem</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>face montage
-                    </name_singular>
-                    <name_plural>face montage
-                    </name_plural>
+                    <name_singular>montagem de face</name_singular>
+                    <name_plural>montagem de face</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_239" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>face reliure
-                    </name_singular>
-                    <name_plural>face reliure
-                    </name_plural>
+                    <name_singular>encadernação</name_singular>
+                    <name_plural>encadernação</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_240" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>dos</name_singular>
-                    <name_plural>dos</name_plural>
+                    <name_singular>de volta</name_singular>
+                    <name_plural>de volta</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="0">
-                    <name_singular>revers
-                    </name_singular>
-                    <name_plural>revers
-                    </name_plural>
+                    <name_singular>contratempo</name_singular>
+                    <name_plural>contratempo</name_plural>
                   </label>
                   <label locale="pt_BR" preferred="0">
                     <name_singular>verso</name_singular>
@@ -5325,44 +4851,32 @@
               <item idno="lexinsc_241" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>revers du montage</name_singular>
-                    <name_plural>revers du montage</name_plural>
-                  </label>
-                  <label locale="pt_BR" preferred="0">
-                    <name_singular>revers montage
-                    </name_singular>
-                    <name_plural>revers montage
-                    </name_plural>
-                  </label>
+                    <name_singular>reverso da montagem</name_singular>
+                    <name_plural>reverso da montagem</name_plural>
+                  </label>                      
                 </labels>
               </item>
               <item idno="lexinsc_242" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sur cadre
-                    </name_singular>
-                    <name_plural>sur cadre
-                    </name_plural>
+                    <name_singular>no quadro</name_singular>
+                    <name_plural>no quadro</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_243" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sur fond
-                    </name_singular>
-                    <name_plural>sur fond
-                    </name_plural>
+                    <name_singular>no fundo</name_singular>
+                    <name_plural>no fundo</name_plural>
                   </label>
                 </labels>
               </item>
               <item idno="lexinsc_244" enabled="1" default="0">
                 <labels>
                   <label locale="pt_BR" preferred="1">
-                    <name_singular>sur l'objet
-                    </name_singular>
-                    <name_plural>sur l'objet
-                    </name_plural>
+                    <name_singular>no objeto</name_singular>
+                    <name_plural>no objeto</name_plural>
                   </label>
                 </labels>
               </item>
@@ -5371,24 +4885,12 @@
           <item idno="lexinsc_245" enabled="1" default="0">
             <labels>
               <label locale="pt_BR" preferred="1">
-                <name_singular>?
-                </name_singular>
-                <name_plural>?
-                </name_plural>
+                <name_singular>?</name_singular>
+                <name_plural>?</name_plural>
               </label>
             </labels>
           </item>
         </items>
-      </item>
-      <item idno="lexinsc_246" enabled="1" default="0">
-        <labels>
-          <label locale="pt_BR" preferred="1">
-            <name_singular>
-            </name_singular>
-            <name_plural>
-            </name_plural>
-          </label>
-        </labels>
       </item>
       <item idno="signature" enabled="1" default="0">
         <labels>
@@ -5401,72 +4903,72 @@
       <item idno="inscription" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>inscription</name_singular>
-            <name_plural>inscription</name_plural>
+            <name_singular>inscrição</name_singular>
+            <name_plural>inscrição</name_plural>
           </label>
         </labels>
       </item>
       <item idno="numero" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>numéro</name_singular>
-            <name_plural>numéro</name_plural>
+            <name_singular>número</name_singular>
+            <name_plural>número</name_plural>
           </label>
         </labels>
       </item>
       <item idno="signe" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>signé</name_singular>
-            <name_plural>signé</name_plural>
+            <name_singular>assinado</name_singular>
+            <name_plural>assinado</name_plural>
           </label>
         </labels>
       </item>
       <item idno="lettre" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>lettre</name_singular>
-            <name_plural>lettre</name_plural>
+            <name_singular>carta</name_singular>
+            <name_plural>carta</name_plural>
           </label>
         </labels>
       </item>
       <item idno="titre" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>titre</name_singular>
-            <name_plural>titre</name_plural>
+            <name_singular>título</name_singular>
+            <name_plural>título</name_plural>
           </label>
         </labels>
       </item>
       <item idno="cachet" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>cachet</name_singular>
-            <name_plural>cachet</name_plural>
+            <name_singular>selo</name_singular>
+            <name_plural>selo</name_plural>
           </label>
         </labels>
       </item>
       <item idno="marqueinscription" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>marque, inscription</name_singular>
-            <name_plural>marque, inscription</name_plural>
+            <name_singular>marca, inscrição</name_singular>
+            <name_plural>marca, inscrição</name_plural>
           </label>
         </labels>
       </item>
       <item idno="marque" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>marque</name_singular>
-            <name_plural>marque</name_plural>
+            <name_singular>marca</name_singular>
+            <name_plural>marca</name_plural>
           </label>
         </labels>
       </item>
       <item idno="annotation" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>annotation</name_singular>
-            <name_plural>annotation</name_plural>
+            <name_singular>anotação</name_singular>
+            <name_plural>anotação</name_plural>
           </label>
         </labels>
       </item>
@@ -5481,40 +4983,40 @@
       <item idno="inscriptionconcernantlareprese" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>inscription concernant la représentation</name_singular>
-            <name_plural>inscription concernant la représentation</name_plural>
+            <name_singular>registro relativo à representação</name_singular>
+            <name_plural>registro relativo à representação</name_plural>
           </label>
         </labels>
       </item>
       <item idno="date" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>daté</name_singular>
-            <name_plural>daté</name_plural>
+            <name_singular>datado</name_singular>
+            <name_plural>datado</name_plural>
           </label>
         </labels>
       </item>
       <item idno="annotationespagnol" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>annotation (espagnol)</name_singular>
-            <name_plural>annotation (espagnol)</name_plural>
+            <name_singular>anotação (espanhol)</name_singular>
+            <name_plural>anotação (espanhol)</name_plural>
           </label>
         </labels>
       </item>
       <item idno="signedate" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>signé, daté</name_singular>
-            <name_plural>signé, daté</name_plural>
+            <name_singular>assinado, datado</name_singular>
+            <name_plural>assinado, datado</name_plural>
           </label>
         </labels>
       </item>
       <item idno="datemonogramme" enabled="1" default="0">
         <labels>
           <label locale="pt_BR" preferred="1">
-            <name_singular>daté, monogrammé</name_singular>
-            <name_plural>daté, monogrammé</name_plural>
+            <name_singular>datado, monograma</name_singular>
+            <name_plural>datado, monograma</name_plural>
           </label>
         </labels>
       </item>
@@ -16038,12 +15540,11 @@
    <settings>
     <setting name="canBeUsedInSearchForm">0</setting>
     <setting name="lineBreakAfterNumberOfElements">1</setting>
-    <setting name="displayTemplate">&lt;ifdef code="ca_objects.inscription_c.inscription_type"&gt;type
-     d'inscriptions ou de marque : &lt;span class="valeur_registre"&gt;^ca_objects.inscription_c.inscription_type&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
-     code="inscription_txt"&gt;transcription de l'inscription : &lt;span class="valeur_registre"&gt;^inscription_txt&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
-     code="inscription_langue"&gt;langue : &lt;span class="valeur_registre"&gt;^inscription_langue&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
-     code="inscription_alphabet"&gt;alphabet : &lt;span class="valeur_registre"&gt;^inscription_alphabet&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
-     code="inscription_emplacement"&gt;emplacement de l'inscription : &lt;span class="valeur_registre"&gt;^inscription_emplacement&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;
+    <setting name="displayTemplate">&lt;ifdef code="ca_objects.inscription_c.inscription_type"&gt;tipo de inscrições ou marca : &lt;span class="valeur_registre"&gt;^ca_objects.inscription_c.inscription_type&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
+     code="inscription_txt"&gt;transcrição do registro : &lt;span class="valeur_registre"&gt;^inscription_txt&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
+     code="inscription_langue"&gt;idioma : &lt;span class="valeur_registre"&gt;^inscription_langue&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
+     code="inscription_alphabet"&gt;alfabeto : &lt;span class="valeur_registre"&gt;^inscription_alphabet&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;&lt;ifdef
+     code="inscription_emplacement"&gt;localização da inscrição : &lt;span class="valeur_registre"&gt;^inscription_emplacement&lt;/span&gt;&lt;br/&gt;&lt;/ifdef&gt;
     </setting>
     <setting name="displayDelimiter">;</setting>
     <setting name="doesNotTakeLocale">1</setting>
@@ -25639,10 +25140,7 @@
       <placement code="preferred_labels4">
         <bundle>preferred_labels</bundle>
         <settings>
-          <setting name="label" locale="pt_BR">Títulos &lt;span class='formLabelDocumentationLink'&gt;&lt;a
-            href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#TITR
-            target='_blank'&gt;?&lt;/a&gt;
-          </setting>
+          <setting name="label" locale="pt_BR">Títulos</setting>
           <setting name="add_label" locale="pt_BR">Tradução do título principal</setting>
           <setting name="readonly"/>
           <setting name="expand_collapse_value">dont_force</setting>
@@ -25707,11 +25205,7 @@
       <placement code="ca_attribute_inscription_c4">
        <bundle>ca_attribute_inscription_c</bundle>
        <settings>
-        <setting name="label" locale="pt_BR">Inscrições&lt;/span&gt;&lt;span
-         class='formLabelDocumentationLink'&gt;&lt;a
-         href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#INSC
-         target='_blank'&gt;?&lt;/a&gt;
-        </setting>
+        <setting name="label" locale="pt_BR">Inscrições</setting>
         <setting name="readonly"/>
         <setting name="expand_collapse_value">dont_force</setting>
         <setting name="expand_collapse_no_value">dont_force</setting>
@@ -25721,11 +25215,7 @@
       <placement code="ca_attribute_dimensions11">
        <bundle>ca_attribute_dimensions</bundle>
        <settings>
-        <setting name="label" locale="pt_BR">Medidas&lt;/span&gt;&lt;span
-         class='formLabelDocumentationLink'&gt;&lt;a
-         href=http://www.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#DIMS
-         target='_blank'&gt;?&lt;/a&gt;
-        </setting>
+        <setting name="label" locale="pt_BR">Medidas</setting>
         <setting name="readonly"/>
         <setting name="expand_collapse_value">dont_force</setting>
         <setting name="expand_collapse_no_value">dont_force</setting>
@@ -41352,90 +40842,6 @@
   </group>
  </groups>
  <displays>
-  <display code="arquivo_display" type="ca_objects" system="1">
-   <labels>
-    <label locale="pt_BR">
-     <name>Mostruário Arquivo</name>
-    </label>
-   </labels>
-   <settings>
-    <setting name="show_empty_values"><![CDATA[1]]></setting>
-   </settings>
-   <bundlePlacements>
-    <placement code="ca_object_representations_media_icon">
-     <bundle>ca_object_representations.media.icon</bundle>
-    </placement>
-    <placement code="ca_objects_idno">
-     <bundle>ca_objects.idno</bundle>
-    </placement>
-    <placement code="ca_objects_preferred_labels">
-     <bundle>ca_objects.preferred_labels</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR"/>
-      <setting name="format"><![CDATA[]]></setting>
-      <setting name="delimiter"><![CDATA[]]></setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_entities">
-     <bundle>ca_entities</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Artista</setting>
-      <setting name="format"><![CDATA[]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_createur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_fabricant]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_auteur]]></setting>
-      <setting name="delimiter"><![CDATA[<br/>]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_description">
-     <bundle>ca_objects.description</bundle>
-    </placement>
-    <placement code="ca_objects_technique">
-     <bundle>ca_objects.technique</bundle>
-    </placement>
-    <placement code="ca_objects_categorie">
-     <bundle>ca_objects.categorie</bundle>
-    </placement>
-    <placement code="ca_objects_prix">
-     <bundle>ca_objects.prix</bundle>
-    </placement>
-    <placement code="ca_objects_work_dimensions">
-     <bundle>ca_objects.work_dimensions</bundle>
-    </placement>
-    <placement code="ca_objects_date_ref_acteAcquisition">
-     <bundle>ca_objects.date_ref_acteAcquisition</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Referência de pedido</setting>
-      <setting name="format"><![CDATA[]]></setting>
-      <setting name="delimiter"><![CDATA[]]></setting>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="filter"><![CDATA[]]></setting>
-      <setting name="bottom_line"><![CDATA[]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_fournisseur_arquivo">
-     <bundle>ca_objects.fournisseur_arquivo</bundle>
-    </placement>
-    <placement code="ca_objects_oeuvre_etat">
-     <bundle>ca_objects.oeuvre_etat</bundle>
-    </placement>
-    <placement code="ca_objects_date_dispo_arquivo">
-     <bundle>ca_objects.date_dispo_arquivo</bundle>
-    </placement>
-    <placement code="ca_objects_date_retour_arquivo">
-     <bundle>ca_objects.date_retour_arquivo</bundle>
-    </placement>
-    <placement code="ca_objects_disponible_arquivo">
-     <bundle>ca_objects.disponible_arquivo</bundle>
-    </placement>
-   </bundlePlacements>
-  </display>
   <display code="stmaur_base_musee" type="ca_objects" system="1">
    <labels>
     <label locale="pt_BR">
@@ -42010,293 +41416,6 @@
      <bundle>ca_occurrences.preferred_labels</bundle>
      <settings>
       <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-   </bundlePlacements>
-  </display>
-  <display code="inventaire" type="ca_objects" system="1">
-   <labels>
-    <label locale="pt_BR">
-     <name>Registro de inventário</name>
-    </label>
-   </labels>
-   <bundlePlacements>
-    <placement code="ca_objects_idno">
-     <bundle>ca_objects.idno</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">N° de Inventário</setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_AcquisitionMode">
-     <bundle>ca_objects.AcquisitionMode</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="sense"><![CDATA[singular]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_entities">
-     <bundle>ca_entities</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Doador, vendedor</setting>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-      <setting name="format"><![CDATA[]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[origine_donateur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[origine_testateur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[origine_vendeur]]></setting>
-      <setting name="delimiter"><![CDATA[]]></setting>
-      <setting name="sort"><![CDATA[]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_date_ref_acteAcquisition">
-     <bundle>ca_objects.date_ref_acteAcquisition</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_date_affectation">
-     <bundle>ca_objects.date_affectation</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_avisScientifiques">
-     <bundle>ca_objects.avisScientifiques</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_prix">
-     <bundle>ca_objects.prix</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="display_currency_conversion"><![CDATA[0]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_mentionConcours">
-     <bundle>ca_objects.mentionConcours</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="sense"><![CDATA[singular]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_domaine">
-     <bundle>ca_objects.domaine</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="sense"><![CDATA[singular]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_preferred_labels">
-     <bundle>ca_objects.preferred_labels</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Designação do item</setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_nonpreferred_labels">
-     <bundle>ca_objects.nonpreferred_labels</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Denominação, nome</setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_object_representations_media_icon">
-     <bundle>ca_object_representations.media.icon</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Imagem</setting>
-      <setting name="display_mode"><![CDATA[media]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_dimensions">
-     <bundle>ca_objects.dimensions</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_inscription_c">
-     <bundle>ca_objects.inscription_c</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_materiaux_tech_c">
-     <bundle>ca_objects.materiaux_tech_c</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_constatEtat">
-     <bundle>ca_objects.constatEtat</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Estado no momento da aquisição</setting>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_entities">
-     <bundle>ca_entities</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Autor</setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_createur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_auteur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[notice_redacteur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[decouvreur]]></setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[executant]]></setting>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_useDate">
-     <bundle>ca_objects.useDate</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Período</setting>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_dateMillesime">
-     <bundle>ca_objects.dateMillesime</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_epoque">
-     <bundle>ca_objects.epoque</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="sense"><![CDATA[singular]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_fonctions">
-     <bundle>ca_objects.fonctions</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="sense"><![CDATA[singular]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_element_decoratif">
-     <bundle>ca_objects.element_decoratif</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-      <setting name="label" locale="pt_BR"/>
-      <setting name="format"><![CDATA[^element_decor]]></setting>
-      <setting name="delimiter"><![CDATA[]]></setting>
-      <setting name="filter"><![CDATA[]]></setting>
-      <setting name="bottom_line"><![CDATA[]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_places">
-     <bundle>ca_places</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Lugar de criação / execução</setting>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_places">
-     <bundle>ca_places</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Lugar de utilização / destinação</setting>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_date_presence">
-     <bundle>ca_objects.date_presence</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_anciennes_appartenances">
-     <bundle>ca_objects.anciennes_appartenances</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_mention_radiation">
-     <bundle>ca_objects.mention_radiation</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_date_vol">
-     <bundle>ca_objects.date_vol</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_date_bien_retrouve">
-     <bundle>ca_objects.date_bien_retrouve</bundle>
-     <settings>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
-     </settings>
-    </placement>
-   </bundlePlacements>
-  </display>
-  <display code="revue" type="ca_objects" system="1">
-   <labels>
-    <label locale="pt_BR">
-     <name>Revista</name>
-    </label>
-   </labels>
-   <settings>
-    <setting name="show_empty_values"><![CDATA[1]]></setting>
-   </settings>
-   <bundlePlacements>
-    <placement code="ca_objects_preferred_labels">
-     <bundle>ca_objects.preferred_labels</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Título</setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_nonpreferred_labels">
-     <bundle>ca_objects.nonpreferred_labels</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Outro título</setting>
-      <setting name="maximum_length"><![CDATA[100]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_entities">
-     <bundle>ca_entities</bundle>
-     <settings>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="label" locale="pt_BR">Editor</setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_entities">
-     <bundle>ca_entities</bundle>
-     <settings>
-      <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
-      <setting name="label" locale="pt_BR">Autor</setting>
-      <setting name="restrict_to_relationship_types"><![CDATA[creation_auteur]]></setting>
-      <setting name="show_hierarchy"><![CDATA[0]]></setting>
-      <setting name="remove_first_items"><![CDATA[0]]></setting>
-      <setting name="hierarchy_limit"><![CDATA[0]]></setting>
-      <setting name="hierarchical_delimiter"><![CDATA[ ➔ ]]></setting>
-     </settings>
-    </placement>
-    <placement code="ca_objects_objectProductionDate">
-     <bundle>ca_objects.objectProductionDate</bundle>
-     <settings>
-      <setting name="label" locale="pt_BR">Data de publicação</setting>
-      <setting name="maximum_length"><![CDATA[2048]]></setting>
      </settings>
     </placement>
    </bundlePlacements>

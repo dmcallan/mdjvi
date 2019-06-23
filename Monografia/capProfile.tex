@@ -33,7 +33,7 @@ CollectiveAccess define 14 tipos de registros no seu modelo de dados:
 	\item[Ocorrência (ca\_occurrences)] O registro ``Ocorrência'' é usado para designar os eventos (exposições, ...), procedimentos (restauração, conservação, campanha de conferência, ...) relacionados a várias outras entradas no banco de dados. Cada ocorrência é descrita por elementos de entrada e será vinculada a um ou mais objetos e outros registros (entidades, lugares ...). Uma ocorrência é um termo dado a elementos contextuais que requerem entrada complexa, não incorporada em objetos, entidades, locais, coleções ou locais.	Em geral, as ocorrências são usadas para capturar eventos históricos, exposições e bibliografias e servem como um pivô para a gravação de registros de revisão e para todos os procedimentos internos de uma instituição: restauração, procedimento de retenção, organização de roteamento, etc.
 	\item[Coleção (ca\_collections)] As coleções representam coleções físicas ou simbólicas e objetos de grupo. Você pode associar um objeto a várias coleções simultaneamente.
 	\item[Lote (ca\_object\_lots)] Um lote de objetos torna possível coletar informações sobre a admissão de objetos registrados (doador, data de recebimento, etc.) para uma doação ou aquisição de vários objetos.	Um objeto só pode fazer parte de um único lote.
-	\item[Conjunto c(a\_sets)] Um conjunto de objetos é um agrupamento ordenado de objetos definidos pelos usuários para um propósito específico.	Ao contrário de ``coleções'', os conjuntos são grupos adequados para uma única coleção de registros, sejam eles específicos de um dos usuários do CollectiveAccess ou compartilhados com outros.	Assim, um conjunto será criado para preparar uma exibição ou para executar o processamento em lote de um conjunto de objetos.
+	\item[Conjunto (ca\_sets)] Um conjunto de objetos é um agrupamento ordenado de objetos definidos pelos usuários para um propósito específico.	Ao contrário de ``coleções'', os conjuntos são grupos adequados para uma única coleção de registros, sejam eles específicos de um dos usuários do CollectiveAccess ou compartilhados com outros.	Assim, um conjunto será criado para preparar uma exibição ou para executar o processamento em lote de um conjunto de objetos.
 	\item[Elemento de um conjunto (ca\_set\_items)] Um registro atribuído a um conjunto. Os registros em um conjunto podem ter catalogação adicional, permitindo que um para contextualizar e anotar registros dentro de um conjunto atribuído. Isso permite a construção de conjuntos em que cada registro contém legendas e links específicos do conjunto. Isto faz dos Sets e Set Items uma ótima ferramenta para construir slideshows e tours baseados nos seus registros de coleção.
 	\item[Representações (ca\_object\_representations)] As representações permitem detalhar e adicionar uma entrada descritiva à mídia vinculada a um objeto: legendas, termos de acesso, direitos de reprodução e quaisquer restrições e todas as informações necessárias. Esse metadado descritivo enriquece a mídia associada a objetos (ou outros registros).	No entanto, em muitos quadros de uso, optamos por simplificar a interface Providence, e só completamos o campo ``Representação de mídia'' do objeto.
 	\item[Locais de armazenamento (ca\_storage\_locations)] Locais físicos onde os objetos são armazenados. Como os lugares, os locais de armazenamento são hierárquicos - você pode aninhar locais para permitir a notação em qualquer nível de especificidade (construção, sala, gabinete, gaveta). Cada Local de Armazenamento pode ter catalogações arbitrariamente complexas, incluindo restrições de acesso, coordenadas de mapas e outras informações. Os locais de armazenamento podem ser vinculados a objetos e lotes, diretamente ou por meio de eventos de objeto ou de lote.
@@ -381,3 +381,59 @@ As maneiras como um objeto pode ser representado no inventário.
 	\item verso
 \end{enumerate}
 
+\subsection{Listas de Controle (do Usuário)}
+
+As listas de controle permitem criar um campo com opções restritas em um registro de catalogação. As listas podem ser renderizadas como menus suspensos, botão de opções, listas de verificação ou listas de pesquisa. As listas hierárquicas podem ser renderizadas de forma vertical ou horizontal.
+
+Também podem ser criados termos de vocabulário, usados em pesquisas específicas, que podem ser usados para relacionar itens criando uma catalogação descritiva.
+
+\section{Conjuntos de Elementos de Metadados}
+
+As definições do conjunto de elementos de metadados são modelos para as várias unidades de entrada de dados na interface de catalogação. Conjuntos de elementos podem definir algo tão simples quanto um campo de texto ou tão complicado quanto um formulário de múltiplas linhas repetidas com campos de texto, campos de data, medidas, listas suspensas e muito mais. Portanto uma única unidade de entrada de dados pode ser composta de qualquer número de tipos de atributos básicos conforme lista a seguir.
+
+\begin{description}
+	\item [Container] Ao contrário de todos os outros tipos de atributos, os contêineres não representam valores de dados. Em vez disso, sua única função é organizar os atributos em grupos para exibição. Em um conjunto de valores de vários atributos (por exemplo, um endereço com atributos separados para número de rua, cidade, estado, país e código postal), haverá pelo menos um contêiner servindo como "raiz" (ou superior) da hierarquia de atributos. Outros contêineres podem servir para agrupar mais itens no conjunto de vários atributos em subgrupos exibidos em linhas separadas de um formulário.
+	\item [Text] Representa um valor de texto livre.
+	\item [DateRange] Aceita expressões de intervalo de data/hora nos formatos aceitos pelo módulo TimeExpressionParser do CollectiveAccess.
+	\item [List] Representa um valor escolhido em uma lista suspensa preenchida com valores de uma lista especificada, conforme definido na seção B.2 deste apêndice.
+	\item [Geocode] Representa uma ou mais coordenadas de latitude/longitude.
+	\item [Url] Aceita um valor de URL formatado corretamente.
+	\item [Currency] Aceita um valor de moeda composto por um especificador de moeda e um número decimal. O especificador de moeda deve ser o código padrão de três letras da mesma.
+	\item [Length] Aceita medições de comprimento em unidades métricas, inglesas e de pontos (pontos tipográficos). Entradas são simplesmente um valor numérico e um especificador de unidade.
+	\item [Weight] Aceita medições de peso em unidades métricas ou inglesas. Entradas são simplesmente um valor numérico e um especificador de unidade.
+	\item [TimeCode] Aceita valores de tempo em vários formatos de código de tempo. Os valores de código de tempo são normalmente usados para expressar uma duração ou posição temporal (por exemplo, um ponto em um vídeo ou áudio). Formatos suportados incluem: hh:mm:ss (ex. 2:10:52 = 2 horas, 10 minutos, 52 segundos), XXh XXm XXs (ex. 2h 10m 52s), ou XXs (ex. 7852s = 7852 segundos).
+	\item [Integer] Aceita valores inteiros, mas não do tipo float. Na verdade, tudo o que contém apenas os dígitos 0-9 é aceito.
+	\item [Numeric] Aceita valores numéricos. As cadeias numéricas consistem em um sinal opcional, qualquer número de dígitos, parte decimal opcional e parte exponencial opcional. Portanto, +0123.45e6 é um valor numérico válido. A notação hexadecimal (0xFF) é permitida também, mas somente sem sinal, decimal e parte exponencial.
+	\item [LCSH] Valor Library of Congress Subject Heading. Leva o cabeçalho do LCSH ou a primeira parte do cabeçalho (o serviço de pesquisa LCSH suporta apenas pesquisas de truncamento), pesquisa e retorna uma lista de possíveis correspondências. O cabeçalho LCSH selecionado é armazenado tanto como texto quanto como identificador de URL de serviço.
+	\item [GeoNames] Valor GeoNames. Obtém o texto da pesquisa, passa para o serviço de pesquisa GeoNames e fornece um menu suspenso com resultados de pesquisa (ordenados por pontuação). O nome geográfico selecionado é armazenado como texto (nome, país, continente e ID) e o identificador do URL de serviço.
+	\item [File] Arquivo armazenado. O CA tentará identificar o arquivo e extrair metadados limitados, mas mesmo que não consiga identificar o arquivo, ele será aceito e armazenado.
+	\item [Media] Mídia carregada (imagem, vídeo ou som). O CA tentará identificar o arquivo, extrair metadados e criar derivativos conforme configurado em media\_processing.conf. Se o CA não puder identificar e analisar o arquivo, ele será rejeitado.
+	\item [Taxonomy] Nome taxonômico conforme retornado de um serviço de nome taxonômico. Atualmente, aceita pesquisas em serviços ITIS e uBio.
+	\item [InformationService] Pesquisa remota de serviço web. A pesquisa avalia os serviços da web, incluindo o Getty TGN, ULAN e AAT, outra instância do CollectiveAccess, Wikipedia, WorldCat e uBio.
+	\item [ObjectRepresentations] Referencia representações de objetos em sua instância do CollectiveAccess.
+	\item [Entities] Valor de entidade. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com a entidade selecionada.
+	\item [Places] Valor de lugar. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com o lugar selecionado. Pode ser restringido a um único tipo de lugar.
+	\item [Ocurrences] Valor de ocorrência. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com a ocorrência selecionada. Pode (e deve) ser restringido a um único tipo de ocorrência.
+	\item [Collections] Valor de coleção. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com a coleção selecionada. Pode ser restringido a um único tipo de coleção.
+	\item [StorageLocations] Valor de local de armazenamento. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com o local de armazenamento. Pode ser restringido a um único tipo.
+	\item [Loans] Valor de empréstimo. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com o empréstimo selecionado. Pode ser restringido a um único tipo.
+	\item [Movements] Valor de movimentação. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com a movimentação selecionada. Pode ser restringido a um único tipo.
+	\item [Objects] Valor de objeto. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com o objeto selecionado. Pode ser restringido a um único tipo.
+	\item [ObjectLots] Valor de seleção de objetos. Pesquisa o CollectiveAccess por determinado texto e cria um pseudo relacionamento sem tipo com a seleção de objetos selecionada. Pode ser restringido a um único tipo.	
+\end{description}
+
+Utilizando o \textit{settings} são definidas as configurações de como um dado é exibido (altura e largura do campo )e suas especificações como por exemplo se ele é obrigatório, quantas vezes este campo pode ser criado/repetido e a quantidade mínima ou máxima de caracteres.
+
+Também podem ser criadas restrições por tipo, que restringem os conjuntos de elementos de acordo com os tipos. Mais precisamente, eles restringem conjuntos de elementos a tipos de itens específicos (objetos, entidades, lugares, ocorrências, etc.) e definem como os atributos podem ser criados e exibidos. É possível segmentar uma restrição para um tipo de item em geral ou para um valor de tipo específico para um item. Por exemplo, se você definiu um tipo de objeto (na lista de sistemas object\_types) de “periódico”, pode restringir um conjunto de elementos a ser válido apenas para objetos que são periódicos. As restrições de tipo podem ser atribuídas a quantos tipos de itens forem necessários para esse conjunto de elementos específico.
+
+\section{Definições de Interfaces de Usuários}
+
+As definições da interface do usuário configuram o layout dos conjuntos de elementos no sistema de catalogação. Aqui você pode reunir todos os conjuntos de elementos e organizá-los em uma interface de catalogação gerenciável através da designação de \textit{Screens} e \textit{Bundles}.
+
+As \textit{screens}, ou telas, são usadas para agrupar atributos de metadados e criar o fluxo de trabalho de catalogação desejado. \textit{Bundles}, ou pacotes, são os elementos da interface do usuário que podem ser colocados em cada tela. Eles podem ser atributos editáveis de um conjunto de elementos específico, campos de banco de dados editáveis intrínsecos a um tipo de item específico, ou podem ser interfaces de usuário que permitem aos catalogadores estabelecer relacionamentos com outros itens, adicionar e remover itens de conjuntos e gerenciar o local de um item em uma hierarquia maior. Os pacotes são assim chamados porque são essencialmente caixas-pretas que encapsulam várias funcionalidades.
+
+\section{Tipos de Relacionamento}
+
+O CollectiveAccess cria relacionamentos entre registros qualificados por tipos descritivos. Esses tipos de Relacionamentos criam o idioma necessário para descrever os relacionamentos entre itens na interface de catalogação, do ponto de vista de qualquer um dos itens. Por exemplo, uma entidade pode ser um “criador” de um objeto e um objeto pode ser “criado” por uma entidade. Cada relacionamento possível no CollectiveAccess tem sua própria lista de tipos de relacionamento, logo relacionamentos sem tipos definidos não serão utilizáveis.
+
+\section{Displays}

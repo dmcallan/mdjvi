@@ -482,7 +482,17 @@ Os dois principais componentes do Collective Access são o Providence, que geren
 
 \section{Configuração do perfil de Instalação}
 
-A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas.
+A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil, que pode ser criado em um idioma ou mais, contém as seguintes informações divididas por seções: 
+
+\begin{itemize}
+	\item lists - Organiza todas as listas que serão utilizadas no Providence, definindo seu código, nome de exibição e itens da lista.
+	\item elementSets - Cria os elementos que serão utilizados nas fichas dos objetos, entidades entre outros. Já define que tipo de dado ou conjunto de dados é esperado (texto, lista, data, arquivo), como o campo será configurado e apresentado, o texto explicativo e qualquer outra informação necessária.
+	\item userInterfaces - Configura as interfaces de usuário para cada seção do Providence, objetos, entidades, ocorrências, listas, etc. É possível configurar campos ou interfaces específicas por tipo, modo de exibição dos campos e classificação da ordem dos mesmos quando um mesmo tipo de informação é adicionado duas ou mais vezes. 
+	\item relationshipTypes - Estabelece as relações entre tabelas do banco de dados que irão compor as informações do Museu, criando  os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si.
+	\item roles - Cria os perfis de acesso que serão utilizados no Museu, estabelecendo as ações que o perfil poderá executar e quais campos de cada item poderão ser visualizados e/ou editados pelo usuário. Com isso é possível criar perfis específicos que terão o acesso controlado, como por exemplo um perfil para atualizar a localização dos objetos, sem ter acesso para nenhum outro campo.
+	\item Objetos X Termos de vocabulário	
+\end{itemize}
+contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas.
 
 Além disso é neste perfil onde são criadas todas as relações entre as tabelas do banco de dados que irão compor as informações dos objetos do Museu. Com isso já são estabelecidos os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si. Como exemplo a lista a seguir traz todas as possíveis relações entre um objeto e outras tabelas:
 
@@ -535,11 +545,15 @@ Para a importação do Acervo Museológico a tabela Acervo foi selecionada e rev
 
 \section{Importação dos dados}
 
-Para realizar a importação dos dados para o Providence é necessário primeiro criar uma planilha de mapeamento, que irá conter as regras e definições como o tipo de informação que será transferida. Deverá ser criada uma planilha para cada categoria da informação que se deseja importar, como por exemplo uma para as Pinturas, outra para as Gravuras, até abranger todas as categorias e objetos do Acervo.
+Para realizar a importação dos dados para o Providence é necessário primeiro criar uma planilha de mapeamento, que irá conter as regras e definições como o tipo de informação que será transferida. Deverá ser criada uma planilha para cada categoria da informação que se deseja importar, como por exemplo uma para as Pinturas, outra para as Gravuras, até abranger todas os objetos do Acervo, sendo possível também realizar importações de mídias, pessoas, instituições e qualquer outra informação relevante.
 
 O programa aceita vários formatos diferentes de arquivo contendo os dados, desde planilhas de Excel com formato .xls ou .xlsx, tabelas de banco de dados do MYSQL, arquivos .csv e até mesmos alguns tipos de .xml exportados de outros programas de gerenciamento já mencionados na Introdução como o Omeka, o Past Perfect, entre outros.
 
-O Acervo Museológico foi separado em 34 arquivos diferentes, um para cada tipo de Classe/Subclasse existente, logo também foi necessário criar uma planilha de mapeamento para cada um desses arquivos.
+O Acervo Museológico foi separado em 34 arquivos diferentes, um para cada tipo de Classe/Subclasse existente, logo também foi necessário criar uma planilha de mapeamento para cada um desses arquivos. Para importar corretamente os dados com as medidas dos objetos do acervo, esta coluna foi separada em duas ou mais, dependendo da quantidade de medidas a serem adicionadas. Também foi criada uma coluna para se informar o motivo quando se tem mais de um grupo de medidas de um objeto, com ou sem suporte por exemplo.
+
+Cada arquivo de mapeando deve informar para cada coluna de dados da origem o local de destino no banco de dados do Collective Access, conforme estabelecido na configuração do perfil de instalação. Também é possível criar algumas regras de importação como por exemplo adicionar a unidade de medida após o valor lido, dividir uma informação em dois ou mais campos e estabelecer que tipo de entidade ou local você está carregando, como o autor da peça e a cidade que ela foi criada.
+
+Após a criação de todos os arquivos de mapeamento
 
 
 
