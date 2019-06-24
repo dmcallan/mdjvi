@@ -40989,10 +40989,10 @@
      <bundle>ca_objects.inscription_c</bundle>
      <settings>
       <setting name="label" locale="pt_BR"/>
-      <setting name="format"><![CDATA[<ifdef code="ca_objects.inscription_c.inscription_type">Type d'inscription : ^ca_objects.inscription_c.inscription_type<br/></ifdef>
-<ifdef code="ca_objects.inscription_c.inscription_emplacement">Emplacement : ^ca_objects.inscription_c.inscription_emplacement<br/></ifdef>
-<ifdef code="ca_objects.inscription_c.inscription_alphabet">Alphabet : ^ca_objects.inscription_c.inscription_alphabet<br/></ifdef>
-<ifdef code="ca_objects.inscription_c.inscription_txt">Texte de l'inscription : ^ca_objects.inscription_c.inscription_txt<br/></ifdef>
+      <setting name="format"><![CDATA[<ifdef code="ca_objects.inscription_c.inscription_type">Tipo de inscrição : ^ca_objects.inscription_c.inscription_type<br/></ifdef>
+<ifdef code="ca_objects.inscription_c.inscription_emplacement">Localização : ^ca_objects.inscription_c.inscription_emplacement<br/></ifdef>
+<ifdef code="ca_objects.inscription_c.inscription_alphabet">Alfabeto : ^ca_objects.inscription_c.inscription_alphabet<br/></ifdef>
+<ifdef code="ca_objects.inscription_c.inscription_txt">Texto da inscrição : ^ca_objects.inscription_c.inscription_txt<br/></ifdef>
 ]]></setting>
       <setting name="delimiter"><![CDATA[<hr/>]]></setting>
       <setting name="maximum_length"><![CDATA[2048]]></setting>
