@@ -33024,8 +33024,8 @@
     <type code="utilisation" default="0">
      <labels>
       <label locale="pt_BR">
-       <typename>LOcal de utilização / destinação</typename>
-       <typename_reverse>Lieu d'utilisation / destination</typename_reverse>
+       <typename>Local de utilização / destinação</typename>
+       <typename_reverse>Local de utilização / destinação</typename_reverse>
       </label>
      </labels>
     </type>

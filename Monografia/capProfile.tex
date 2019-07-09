@@ -432,8 +432,240 @@ As definições da interface do usuário configuram o layout dos conjuntos de el
 
 As \textit{screens}, ou telas, são usadas para agrupar atributos de metadados e criar o fluxo de trabalho de catalogação desejado. \textit{Bundles}, ou pacotes, são os elementos da interface do usuário que podem ser colocados em cada tela. Eles podem ser atributos editáveis de um conjunto de elementos específico, campos de banco de dados editáveis intrínsecos a um tipo de item específico, ou podem ser interfaces de usuário que permitem aos catalogadores estabelecer relacionamentos com outros itens, adicionar e remover itens de conjuntos e gerenciar o local de um item em uma hierarquia maior. Os pacotes são assim chamados porque são essencialmente caixas-pretas que encapsulam várias funcionalidades.
 
+Para organizar campos de dados em cada tela, primeiro se deve declarar a interface utilizando um código único e o tipo de tabela que será usado, após isto basta declarar os pacotes que serão utilizados.
+
+\begin{lstlisting}
+<userInterface code="mdjvi_inventario2" type="ca_objects">
+   <labels>
+	   <label locale="pt_BR">
+		   <name>Registro de bens</name>
+	   </label>
+   </labels>
+   <screens>
+      <screen idno="inv_identification" default="1">
+	      <labels>
+    		   <label locale="pt_BR">
+				   <name>REGISTRO VISUAL</name>
+			   </label>
+		   </labels>
+		   <bundlePlacements>
+			   <placement code="idno1">
+	    		  <bundle>idno</bundle>
+		          <settings>
+				    <setting name="label" locale="pt_BR">N de registro</setting>
+				 	<setting name="add_label" locale="pt_BR">N de registro</setting>
+					<setting name="readonly"/>
+					<setting name="expand_collapse_value">dont_force</setting>
+					<setting name="expand_collapse_no_value">dont_force</setting>
+				  </settings>
+				</placement>
+			</bundlePlacements>
+		</screen>
+	</screens>
+</userInterface>
+\end{lstlisting}
+
+Note que as telas e os pacotes podem ser configurados para cada idioma usado, além de outras configurações como adicionar um texto descritivo, configurar o campo como somente leitura, controlar o comportamento de expandir e colapsar quando houver ou não alguma informação adicionada, entre outros. Também é possível estabelecer restrições de tipo (o campo só aparecerá para determinados tipos) e de relacionamento (por exemplo, dentre os tipos de relacionamento possíveis entre um objeto e uma entidade, restringir a "autor").
+
 \section{Tipos de Relacionamento}
 
-O CollectiveAccess cria relacionamentos entre registros qualificados por tipos descritivos. Esses tipos de Relacionamentos criam o idioma necessário para descrever os relacionamentos entre itens na interface de catalogação, do ponto de vista de qualquer um dos itens. Por exemplo, uma entidade pode ser um “criador” de um objeto e um objeto pode ser “criado” por uma entidade. Cada relacionamento possível no CollectiveAccess tem sua própria lista de tipos de relacionamento, logo relacionamentos sem tipos definidos não serão utilizáveis.
+O CollectiveAccess cria relacionamentos entre registros que são qualificados por tipos descritivos. Esses tipos de Relacionamentos criam o idioma necessário para descrever os relacionamentos entre itens na interface de catalogação, do ponto de vista de qualquer um dos itens. Por exemplo, uma entidade pode ser um “criador” de um objeto e um objeto pode ser “criado” por uma entidade. Cada relacionamento possível no CollectiveAccess tem sua própria lista de tipos de relacionamento, logo relacionamentos sem tipos definidos não serão utilizáveis.
 
-\section{Displays}
+Segue abaixo os tipos de relacionamento que podem existir entre um objeto e um lugar.
+
+\begin{lstlisting}
+<relationshipTable name="ca_objects_x_places">
+   <types>
+      <type code="created" default="0">
+         <labels>
+            <label locale="pt_BR">
+               <typename>Foi criado em</typename>
+               <typename_reverse>Foi lugar de criação de</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+      <type code="exit_destination" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Destino de saída</typename>
+			   <typename_reverse>é o destino de saída de</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="field_collection" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Era objeto da coleção</typename>
+			   <typename_reverse>Tinha como objeto de coleção</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="located" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>era localizado em</typename>
+			   <typename_reverse>foi localização de</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="depicts" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Representa</typename>
+			   <typename_reverse>Representado por</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="describes" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Descreve</typename>
+			   <typename_reverse>Descrito por</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="ownership_place" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>tem como propriedade</typename>
+			   <typename_reverse>foi propriedade de</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="production_place" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>tem como lugar de produção</typename>
+			   <typename_reverse>foi lugar de produção de</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="conservation_place" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Local de conservação</typename>
+			   <typename_reverse>Lugar de conservação</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="decouverte" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Local de descoberta</typename>
+			   <typename_reverse>Local de descoberta</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="utilisation" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Local de utilização / destinação</typename>
+			   <typename_reverse>Local de utilização / destinação</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="collecte" default="0">
+		 <labels>
+		    <label locale="pt_BR">
+			   <typename>Local de coleta</typename>
+			   <typename_reverse>Local de coleta</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="recolte" default="1">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Local de verificação</typename>
+			   <typename_reverse>Local de verificação</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+	  <type code="publication" default="0">
+		 <labels>
+			<label locale="pt_BR">
+			   <typename>Local de publicação</typename>
+			   <typename_reverse>Local de publicação</typename_reverse>
+			</label>
+		 </labels>
+	  </type>
+   </types>
+</relationshipTable>
+\end{lstlisting}
+
+Uma tabela dessa deve ser criada relacionando cada categoria do banco de dados e descrevendo os múltiplos relacionamentos existentes.
+
+\section{Exibições}
+
+Item opcional no perfil de instalação, define as informações exibidas no Resumo e no resultado das pesquisas. É possível configurar mais de uma tela de exibição a qual poderá ser selecionada pelo usuário para exibir informações diferentes.
+
+Para as ocorrências de exposição a seguinte tela a seguir foi criada.
+
+\begin{lstlisting}
+<display code="expo" type="ca_occurrences" system="1">
+   <labels>
+	  <label locale="pt_BR">
+		 <name>Exposição</name>
+	  </label>
+   </labels>
+   <bundlePlacements>
+   <placement code="ca_occurrences_projet_expo">
+      <bundle>ca_occurrences.projet_expo</bundle>
+	  <settings>
+		 <setting name="maximum_length"><![CDATA[2048]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_occurrences_expo_description">
+	  <bundle>ca_occurrences.expo_description</bundle>
+	  <settings>
+		 <setting name="maximum_length"><![CDATA[2048]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_occurrences_exhibitionBeginDate">
+	  <bundle>ca_occurrences.exhibitionBeginDate</bundle>
+	  <settings>
+		 <setting name="maximum_length"><![CDATA[2048]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_occurrences_exhibitionEndDate">
+	  <bundle>ca_occurrences.exhibitionEndDate</bundle>
+	  <settings>
+	     <setting name="maximum_length"><![CDATA[2048]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_objects">
+	  <bundle>ca_objects</bundle>
+	  <settings>
+		 <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_entities">
+	  <bundle>ca_entities</bundle>
+	  <settings>
+		 <setting name="hierarchy_order"><![CDATA[ASC]]></setting>
+	  </settings>
+   </placement>
+   <placement code="ca_occurrences_idno">
+	  <bundle>ca_occurrences.idno</bundle>
+   </placement>
+   <placement code="ca_occurrences_preferred_labels">
+	  <bundle>ca_occurrences.preferred_labels</bundle>
+	  <settings>
+		 <setting name="label" locale="pt_BR">Nome da exposição</setting>
+		 <setting name="maximum_length"><![CDATA[100]]></setting>
+	  </settings>
+   </placement>
+   </bundlePlacements>
+</display>
+\end{lstlisting}
+
+\section{Formulários de Pesquisa}
+
+Item opcional no perfil de instalação que define os formulários de pesquisa avançada que serão exibidos e utilizados no Providence. Com ele é possível definir quais campos estarão disponíveis para serem utilizados na pesquisa e como a mesma será exibida. É possível definir um formulário para cada tabela do banco de dados que será pesquisada, como objetos, entidades, coleções e locais de armazenamento.
+
+\section{Funções}
+
+Item opcional que cria e define as funções dos usuários que irão utilizar o Providence. É possível definir as ações que este usuário poderá executar como importar dados, duplicar objetos e qualquer outra possibilidade. Também é possível restringir os campos das tabelas, impossibilitando que o usuário veja o conteúdo, tenha acesso somente de leitura ou que ela possa editar as informações deste campo.
+
+\section{Logins}
+
+Apesar de não ter sido utilizado no perfil de instalação feito para este projeto, nesta seção é possível já criar logins com suas respectivas funções e senhas, evitando a necessidade dessa configuração após a instalação.
