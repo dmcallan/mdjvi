@@ -89,6 +89,9 @@
 \usepackage[maxfloats=25]{morefloats}
 \usepackage{array}
 \usepackage{multirow}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage[export]{adjustbox}
 \setlength\extrarowheight{2pt}
 
 % ***************************************************************
@@ -316,7 +319,7 @@ Texto do resumo em inglês.
 %
 \pretextualchapter{Lista de abreviaturas e siglas}
     \abreviatura{EBA/UFRJ}{Escola de Belas Artes da Universidade Federal do Rio de Janeiro}
-    \abreviatura{sigla 2}{por extenso}
+    \abreviatura{SGC}{Sistema de Gerenciamento de Conteúdo}
     \abreviatura{sigla 3}{por extenso}
 %
 % ----------------------------------------------------------
@@ -344,10 +347,10 @@ Texto do resumo em inglês.
 \chapter*{Introdução}
 %================================================================
 
-\begin{epigrafeonline}
-\hfill Texto da epígrafe \textit{in locu}.\\
-\hspace*{\fill}\textit{Autor}\\
-\end{epigrafeonline}
+%\begin{epigrafeonline}
+%\hfill Texto da epígrafe \textit{in locu}.\\
+%\hspace*{\fill}\textit{Autor}\\
+%\end{epigrafeonline}
 
 $\!$\\
 \textbf{Apresentação}
@@ -358,7 +361,9 @@ O Museu Dom João VI da EBA/UFRJ foi criado em 1979 com a finalidade de se prese
 
 Com a finalidade de auxiliar a atividade de pesquisa e desenvolvimento do Museu, em 1999 foi desenvolvido o projeto que realizou um novo inventário dos dois acervos presentes nele, um de obras de artes, o Acervo Museológico, e o outro de documentos, o Acervo Arquivístico. Todas as peças sem registro contidas no Museu foram catalogadas, mantendo o padrão do Livro de Tombo original, criando um sistema informatizado usando o Microsoft Access onde se poderia atualizar informações sobre o acervo, adicionar ou remover novas peças e realizar consultas através de um site.
 
-O projeto original previa que toda edição no acervo deveria ser realizada utilizando um único computador ``Mãe'' e o arquivo do banco de dados atualizado transferido para o diretório no servidor de forma manual através de um CD. Além dessa forma de manutenção de dados não ser prática, após alguns anos ocorreu um problema no computador ``Mãe'' impossibilitando qualquer forma da equipe responsável fazer qualquer alteração necessária. Ainda mais recentemente, devido a falta de suporte da equipe de informática da faculdade e fragilidades existentes em utilizar um sistema obsoleto, o site com a pesquisa do acervo teve que ser removido.
+O projeto original previa que toda edição no acervo deveria ser realizada utilizando um único computador ``Mãe'' e o arquivo do banco de dados atualizado transferido para o diretório no servidor de forma manual através de um CD. Além dessa forma de manutenção de dados não ser prática, após alguns anos ocorreu um problema no computador ``Mãe'' impossibilitando qualquer forma da equipe responsável fazer qualquer alteração necessária. 
+
+Ainda mais recentemente, devido a falta de suporte da equipe de informática da faculdade e fragilidades existentes em utilizar um sistema obsoleto, o site com a pesquisa do acervo museológico teve que ser removido.
 
 O apêndice A contém o arquivo com a descrição do projeto original.
 
@@ -369,7 +374,9 @@ $\!$\\
 
 Este projeto tem por objetivo possibilitar que a equipe do Museu Dom João VI tenha uma forma prática de adicionar, remover e atualizar qualquer peça do acervo, sem as limitações anteriores da transferência manual do arquivo que só poderia ser editado em um único computador.
 
-Esse banco de dados deverá ser exibido em um novo site, contendo um sistema de pesquisa de fácil utilização no qual por meio de um ou mais parâmetros definidos pelo usuário ele possa obter uma resposta rápida sobre as peças desejadas.
+Também sera possível gerenciar as tarefas do Museu, como restaurações, auditorias, exposições e qualquer ação envolvendo a coleção registrada no banco de dados utilizando o mesmo ambiente virtual, as entidades que são pessoas ou empresas relacionadas com o Museu, e os locais de produção e armazenamento das peças, entre outros.
+
+Esse banco de dados deverá ser exibido em um novo site, contendo um sistema de pesquisa de fácil utilização no qual por meio de um ou mais parâmetros definidos pelo usuário ele possa obter uma resposta rápida sobre as peças desejadas. Este site também deverá exibir algumas informações sobre o Museu e seu acervo, além da localização, formas de contato e horário de funcionamento.
 
 \vspace{10pt}
 $\!$\\
@@ -389,21 +396,21 @@ No segundo...
 
 Neste capítulo será apresentado o conceito do programa utilizado para gerenciar acervos e coleções, sejam elas de museus ou não. Também será apontado um histórico mais detalhado do banco de dados contendo o acervo do Museu que foi utilizado para o desenvolvimento do projeto.
 
-
-
-
 \section{Sistema de Gerenciamento de Conteúdo}
 
 Para facilitar o desenvolvimento e futura manutenção do acervo do site foi decidido utilizar um sistema de gerenciamento de conteúdo. Este sistema é um software construído para acompanhar cada parte do conteúdo em um website, sem requerer um conhecimento técnico ou de gerenciamento de dados prévio~\cite{CMS}.
 
+Uma das grandes vantagens, da utilização de um SGC é a possibilidade de que qualquer colaborador de uma organização, detentor de informação, pode produzir conteúdo no website da organização. Eles também ajudam a reduzir os erros de publicação e facilitam o processo de validação dos dados. É importante destacar porém que o sucesso na gestão do conteúdo não está relacionado com a tecnologia ou programa adotado, mas sim com as pessoas e o processo utilizado~\cite{chagas2018estudo}.
+
 %A maior desvantagem no uso dessa tecnologia é a necessidade de treinamento por parte da equipe que irá gerenciar o conteúdo na utilização do programa.
 
-Neste projeto, devido as várias opções disponíveis no mercado, optou-se pelo uso de um software de gerenciamento de conteúdo especializado em museus. Também foi dada a preferência por programas de utilização gratuita e que sejam compatíveis com o sistema operacional LINUX para evitar qualquer custo para o Museu Dom João VI.
+Neste projeto, devido as várias opções disponíveis no mercado, optou-se pelo uso de um software de gerenciamento de conteúdo especializado em museus, pois o mesmo já seria preparado e configurado para o tipo de acervo específico, além de poder contar com funcionalidades necessárias para o gerenciamento e controle do acervo. 
+
+Também foi dada a preferência por programas de utilização gratuita e que sejam compatíveis com o sistema operacional LINUX para evitar qualquer custo e facilitar a implementação para o Museu Dom João VI. Também foi avaliado a possibilidade de configuração e adaptação para o Acervo, suas fichas já existentes e o suporte oferecido pela empresa desenvolvedora.
 
 \section{Gerenciamento e Publicação de Coleções e Acervos}
 
-
-Para definir o software a ser utilizado no projeto, várias alternativas foram avaliadas e testadas. Um resumo de cada uma delas e os motivos que levaram a sua escolha ou não será apresentado a seguir.
+Para definir o software a ser utilizado no projeto, os SGC com foco no gerenciamento de coleções e acervos foram estudados, avaliados e testados. Um resumo de cada uma deles e os motivos que levaram a sua escolha ou não será apresentado a seguir.
 
 \subsection{Museum Archive Software Project}
 
@@ -419,11 +426,11 @@ Software para controle do acervo de museus, possui versões para Windows e Linux
 
 \subsection{eHive}
 
-Solução online onde ao invés de oferecer um programa para utilização, todo os dados ficam no servidor própio deles. Com utilização gratuita até o limite de 50Mb ou 5000 objetos, após atingir esse limite seria necessário contratar o serviço deles pagando uma anuidade. Oferece somente opções de publicação da coleção, não tendo meios para gerenciar e controlar o acervo.~\citetext{eHive}
+Solução online onde ao invés de oferecer um programa para instalação e utilização em um servidor próprio, todo os dados ficam no servidor da empresa. Com utilização gratuita até o limite de 50Mb ou 5000 objetos, após atingir esse limite seria necessário contratar a empresa através do pagamento uma anuidade. Oferece somente opções de publicação da coleção/acervo, não tendo meios para gerenciar e controlar o acervo.~\citetext{eHive}
 
 \subsection{ResourceMate}
 
-Programa com foco em bibliotecas e museus, funciona em Windows e possui versão de demonstração gratuita. Para contar com suporte e a instalação completa é necessário comprar o produto e renovar a licença de suporte anualmente. Com um maior foco em livros, possui pesquisa e registro baseado em ISBN, sistema internacional de identificação de livros.~\citetext{ResourceMate}
+Programa com foco em bibliotecas e museus, funciona em Windows e possui versão de demonstração gratuita. Para contar com suporte e a instalação completa é necessário comprar o produto e renovar a licença de suporte anualmente. Com um maior foco em livros, possui pesquisa e registro baseado em ISBN - \textit{International Standard Book Number}, sistema internacional de identificação de livros.~\citetext{ResourceMate}
 
 \subsection{PastPerfect Museum Software}
 
@@ -443,7 +450,7 @@ Programa com muitas opções de personalização e recursos como importação/ex
 
 Apesar do início do desenvolvimento do programa em 2007, o número de instituições pesquisadas que usam o programa é escasso comparado com outras soluções como Omeka e Collective Access.
 
-O programa não funciona nos browsers Internet Explorer 9/10 e não oferece suporte em caso de erros para o Microsoft Edge, o que talvez pudesse causar alguma limitação de uso no futuro.~\citetext{CSpace2} 
+O programa não funciona nos browsers Internet Explorer 9/10 e não oferece suporte em caso de erros para o Microsoft Edge, o que talvez pudesse causar alguma limitação de uso pelos visitantes do Museu.~\citetext{CSpace2} 
 
 
 \subsection{Omeka}
@@ -476,48 +483,23 @@ Podem-se utilizar perfis de instalações do projeto para que os mesmos sejam ad
 
 A configuração, instalação e uso serão descritos nos próximos capítulos. ~\citetext{CA}
 
-%================================================================
-\chapter{Providence}
-%================================================================
+\section{Histórico do Banco de Dados do Museu D. João VI}
 
-Os dois principais componentes do Collective Access são o Providence, que gerencia os dados e catálogo dos objetos, e o Pawtucket, a ferramenta de \textit{front-end} opcional que publica e apresenta os objetos e coleções do Museu. Este capítulo demonstrará a configuração, instalação e exemplo de uso do Providence, conforme o mesmo foi utilizado no projeto do \textbf{Museu D. João VI}.
-
-\section{Configuração do perfil de Instalação}
-
-A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil, que pode ser criado em um idioma ou mais, contém as seguintes informações divididas por seções: 
+O acervo Museu D. João VI foi dividido nas seguintes bases de dados: 
 
 \begin{itemize}
-	\item lists - Organiza todas as listas que serão utilizadas no Providence, definindo seu código, nome de exibição e itens da lista.
-	\item elementSets - Cria os elementos que serão utilizados nas fichas dos objetos, entidades entre outros. Já define que tipo de dado ou conjunto de dados é esperado (texto, lista, data, arquivo), como o campo será configurado e apresentado, o texto explicativo e qualquer outra informação necessária.
-	\item userInterfaces - Configura as interfaces de usuário para cada seção do Providence, objetos, entidades, ocorrências, listas, etc. É possível configurar campos ou interfaces específicas por tipo, modo de exibição dos campos e classificação da ordem dos mesmos quando um mesmo tipo de informação é adicionado duas ou mais vezes. 
-	\item relationshipTypes - Estabelece as relações entre tabelas do banco de dados que irão compor as informações do Museu, criando  os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si.
-	\item roles - Cria os perfis de acesso que serão utilizados no Museu, estabelecendo as ações que o perfil poderá executar e quais campos de cada item poderão ser visualizados e/ou editados pelo usuário. Com isso é possível criar perfis específicos que terão o acesso controlado, como por exemplo um perfil para atualizar a localização dos objetos, sem ter acesso para nenhum outro campo.
-	\item Objetos X Termos de vocabulário	
-\end{itemize}
-contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas.
-
-Além disso é neste perfil onde são criadas todas as relações entre as tabelas do banco de dados que irão compor as informações dos objetos do Museu. Com isso já são estabelecidos os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si. Como exemplo a lista a seguir traz todas as possíveis relações entre um objeto e outras tabelas:
-
-\begin{itemize}
-	\item Objetos X Coleções
-	\item Objetos X Entidades
-	\item Objetos X Objetos
-	\item Objetos X Ocorrências
-	\item Objetos X Locais
-	\item Objetos X Termos de vocabulário	
+	\item Acervo Museológico
+	\item Acervo Arquivológico
+	\item Livros e Catálogos
+	\item Periódicos
+	\item Legislação
+	\item Disciplinas e Professores
+	\item Alunos Premiados
 \end{itemize}
 
-Cada uma dessas relações estabelece uma ou mais formas em que elas podem se comunicar, uma entidade pode ser a pessoa que criou, é proprietário, emprestou ou até mesmo o autor da conservação de uma obra, entre outros.
+O foco deste projeto é o gerenciamento e exposição do Acervo Museológico, devido a recente retirada do ar do site que fazia a exibição do mesmo, para isto foi recebido o arquivo do banco de dados Acervo\_be.mdb.
 
-Todas essas configurações podem ser editadas posteriormente utilizando a interface gráfica do Providence, sem necessidade de se conhecer ou utilizar qualquer linguagem de programação. Porém é recomendável que o perfil utilizado tenha todas as informações necessárias e que serão utilizadas para facilitar e acelerar a instalação e configuração do programa.
-
-O Collective Access oferece alguns perfis pré-configurados para teste e instalação, contendo diferentes padrões de metadados para uso. Além disso é possível criar um perfil novo ou editar um existente que mais se aproxime do uso desejado.
-
-Para este projeto foi utilizado o perfil validado pelo Ministério da Cultura da França para os \textit{Musées de France}, o "joconde". O mesmo foi traduzido para o português e editado para que ele pudesse ser utilizado com o catálogo do \textbf{Museu D. João VI}, suas classes e subclasses. Esta configuração já é preparada para administração da coleção com funções para realização de auditorias, registro do estado dos objetos, criação de ações para conservação ou restauração e até mesmo controlar os empréstimos de peças e lotes.
-
-\section{Tratamento do banco de dados do Museu}
-
-Após a preparação do perfil e instalação do mesmo no Providence, a próxima etapa é a importação dos dados para o Collective Access, porém antes disso foi necessário tratar o banco de dados existente feito pelo projeto anterior conforme visto no Apêndice A. Este banco de dados foi criado utilizando a ferramenta do Microsoft Access 97 e desde então, devido a falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
+Este banco de dados foi criado utilizando a ferramenta do Microsoft Access 97 e desde então, devido a falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
 
 Com as atualizações do programa Microsoft Access, a última versão não conseguia abrir o arquivo existente. Para se poder utilizar o mesmo foi necessário a instalação de uma versão intermediária, neste caso foi utilizado o Access 2003. Com isto o arquivo pode ser salvo em um formato mais recente que pode ser aberto e tratado utilizando as ferramentas mais atuais.
 
@@ -525,7 +507,7 @@ Dentro do banco de dados foram encontradas as seguintes tabelas:
 
 \begin{itemize}
 	\item \textbf{Acervo -} A tabela principal com todos os dados do Acervo Museológico: número de registro, classe, localização, entre outros.
-	\item \textbf{Arquivo - Ordenação de Relatórios -} - Contém informações sobre os relatórios que podem ser extraídos do Acervo Arquivístico.
+	\item \textbf{Arquivo - Ordenação de Relatórios -} Contém informações sobre os relatórios que podem ser extraídos do Acervo Arquivístico.
 	\item \textbf{Arquivo -} A tabela principal do Acervo Arquivístico com o registro, conservação, resumo do conteúdo, entre outros.
 	\item \textbf{Arquivologia - Tabela de Relatórios -} Contém os possíveis relatórios que podem ser feitos no Acervo Arquivístico e a informação extraída neles.
 	\item \textbf{Autores -} Lista dos autores dos objetos do Acervo Museológico e o código de identificação dos mesmos. Apesar de conter um campo para data de nascimento e falecimento, quando esta informação era conhecida, as mesmas foram adicionadas junto com o nome do autor.
@@ -543,20 +525,167 @@ Dentro do banco de dados foram encontradas as seguintes tabelas:
 	\item \textbf{Tema -} Relaciona os objetos com a classe Artes Visuais com o seu respectivo tema.
 \end{itemize}
 
-Para a importação do Acervo Museológico a tabela Acervo foi selecionada e revisada, removendo registros duplicados e corrigindo o número de registro de alguns objetos.
+O tratamento e importação dos dados para o Collective Access será visto em detalhes no capítulo a seguir.
 
-\section{Importação dos dados}
+%================================================================
+\chapter{Providence}
+%================================================================
+
+Os dois principais componentes do Collective Access são o Providence, que gerencia os dados e catálogo dos objetos, e o Pawtucket, a ferramenta de \textit{front-end} opcional que publica e apresenta os objetos e coleções do Museu. Este capítulo demonstrará a configuração, instalação e exemplo de uso do Providence, conforme o mesmo foi utilizado no projeto do \textbf{Museu D. João VI}.
+
+\section{Configuração do perfil de Instalação}
+
+A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas. O perfil criado para este projeto contém as seguintes informações divididas por seções: 
+
+\begin{itemize}
+	\item \textbf{lists} - Organiza todas as listas que serão utilizadas no Providence, definindo seu código, nome de exibição e itens da lista. As listas são divididas em duas categorias diferentes: as listas do sistema, que definem elementos específicos da interface do catálogo, e as listas de controle, que são as criadas pelo usuário, tanto para controlar o conteúdo inserido quanto para termos de vocabulário, usadas em pesquisas específicas ou para uma catalogação descritiva.
+	\item \textbf{elementSets} - Cria os conjuntos de elementos que serão utilizados nas fichas dos objetos, entidades entre outros. Já define que tipo de dado ou conjunto de dados é esperado (texto, lista, data, arquivo, etc.), como o campo será configurado e apresentado, o texto explicativo e qualquer outra informação necessária. É possível restringir os conjuntos para serem utilizados somente para um determinado tipo de itens específicos, personalizando as informações conforme necessário.
+	\item \textbf{userInterfaces} - Configura as interfaces de usuário para cada seção do Providence, objetos, entidades, ocorrências, listas, etc. Nele é possível reunir os conjuntos de elementos criados anteriormente, configurar campos ou interfaces específicas por tipo, modo de exibição dos campos e classificação da ordem dos mesmos quando um mesmo tipo de informação é adicionado duas ou mais vezes. 
+	\item \textbf{relationshipTypes} - Estabelece as relações entre tabelas do banco de dados que irão compor as informações do Museu, criando  os possíveis relacionamentos entre os objetos, locais, entidades, empréstimos, movimentações e como eles interagem entre si, do ponto de vista de qualquer um dos itens. Uma entidade pode ser "criador" de um objeto e o objeto pode ser "criado" por uma entidade.
+	\item \textbf{roles} - Cria os perfis de acesso que serão utilizados no Museu, estabelecendo as ações que o perfil poderá executar e quais campos de cada item poderão ser visualizados e/ou editados pelo usuário. Com isso é possível criar perfis específicos que terão o acesso controlado, como por exemplo um perfil para atualizar a localização dos objetos, sem ter acesso para nenhum outro campo.
+	\item \textbf{displays} - Configura as informações que serão exibidas na tela de resumo dos itens e nos resultados da pesquisa dentro do providence. É possível cadastrar uma ou mais telas de exibição para cada tipo de item e alternar entre elas rapidamente durante a visualização através de um botão no programa.
+	\item \textbf{searchForms} - Define o formato e quais campos serão utilizados na pesquisa avançada do Providence, sendo possível configurar um formulário diferente para cada tipo de item do banco de dados.
+\end{itemize}
+
+
+Todas essas configurações podem ser editadas posteriormente utilizando a interface gráfica do Providence, sem necessidade de se conhecer ou utilizar qualquer linguagem de programação. Porém é recomendável que o perfil utilizado tenha todas as informações necessárias e que serão utilizadas para facilitar e acelerar a instalação e configuração do programa.
+
+O Collective Access oferece alguns perfis pré-configurados para teste e instalação, contendo diferentes padrões de metadados para uso. Além disso é possível criar um perfil novo ou editar um existente que mais se aproxime do uso desejado.
+
+Para este projeto foi utilizado o perfil validado pelo Ministério da Cultura da França para os \textit{Musées de France}, o "joconde". O mesmo foi traduzido para o português e editado para que ele pudesse ser utilizado com o catálogo do \textbf{Museu D. João VI}, suas classes e subclasses. Esta configuração já é preparada para administração da coleção com funções para realização de auditorias, registro do estado dos objetos, criação de ações para conservação ou restauração e até mesmo controlar os empréstimos de peças e lotes.
+
+As configurações do servidor em que o perfil será instalado dependem muito do tamanho da coleção e necessidade de uso, mas os softwares essenciais que devem ser instalados nesse servidor são um servidor web com suporte a PHP, um banco de dados MYSQL com suporte a tabelas InnoDB e o próprio PHP com versão 5.5 ou superior. Também é necessário garantir que a instalação PHP tenha as seguintes extensões: ZIP, cURL, libXM, mbstring, iconv, EXIF, JSON, MySQL, posix e OpenSSL ou mcrypt.
+
+Após a instalação do Collective Access neste servidor utilizando o perfil configurado, o Providence estará pronto para uso utilizando o login de administrador fornecido no final da instalação. A próxima etapa é cadastrar os itens do Museu ou importar os dados de outra fonte conforme a necessidade de uso.
+
+Mais detalhes e informações sobre o perfil de instalação podem ser encontrados no apêndice B deste projeto.
+
+\section{Tratamento do banco de dados do Museu}
+
+Após a preparação do perfil e instalação do mesmo no Providence, a próxima etapa é a importação dos dados para o Collective Access, porém antes disso foi necessário tratar o banco de dados existente feito pelo projeto anterior.
+
+Para a importação do Acervo Museológico a tabela Acervo do banco de dados original do Museu foi selecionada e revisada, removendo registros duplicados, apagando linhas em branco e analisando os dados encontrados em busca de inconsistências e erros. Também foi necessário realizar modificações nos seguintes tipos de dados para que o Providence pudesse entender e importar os dados corretamente:
+
+\begin{itemize}
+	\item Na coluna Datação a incerteza do ano foi trocada de "\_" por "-".
+	Ex.: 193\_ por 193-
+	\item Na coluna Datação a separação entre dois anos foi trocada de "/" por "-". 
+	Ex.: 1927/28 por 1927-28
+	\item Na coluna Datação, quando as datas eram desconhecidas, foi removido o "?" deixando o campo em branco.
+	\item Na coluna conservação, quando não havia informação, foi inserido "?".
+\end{itemize}
+
+Além disso as dimensões das peças do acervo, que inicialmente se encontravam em um único campo, foram separadas em campos separados de altura, largura, profundidade e diâmetro, quando cabível. Em alguns casos, como por exemplo as pinturas, foi necessário criar dois campos de cada dimensão para registrar as medidas com e sem a moldura, sendo a informação do motivo da necessidade desta segunda anotação registrada em um campo específico junto com as dimensões.
+
+Após isso foi necessário separar a tabela em 34 planilhas de excel separadas, uma para cada classe e subclasse registrada no acervo do Museu, para que as informações pudessem ser importadas para cada uma delas corretamente.
+
+\section{Mapeamento dos dados a serem importados}
 
 Para realizar a importação dos dados para o Providence é necessário primeiro criar uma planilha de mapeamento, que irá conter as regras e definições como o tipo de informação que será transferida. Deverá ser criada uma planilha para cada categoria da informação que se deseja importar, como por exemplo uma para as Pinturas, outra para as Gravuras, até abranger todas os objetos do Acervo, sendo possível também realizar importações de mídias, pessoas, instituições e qualquer outra informação relevante.
 
-O programa aceita vários formatos diferentes de arquivo contendo os dados, desde planilhas de Excel com formato .xls ou .xlsx, tabelas de banco de dados do MYSQL, arquivos .csv e até mesmos alguns tipos de .xml exportados de outros programas de gerenciamento já mencionados na Introdução como o Omeka, o Past Perfect, entre outros.
+O Acervo Museológico foi separado em 34 arquivos diferentes, um para cada tipo de classe/subclasse existente, logo também foi necessário criar um arquivo de mapeamento para cada um desses arquivos. Neste projeto, devido a facilidade de criação e uso, foi decidido utilizar o formato do Excel ".xlsx" para a elaboração desses mapeamentos.
 
-O Acervo Museológico foi separado em 34 arquivos diferentes, um para cada tipo de Classe/Subclasse existente, logo também foi necessário criar uma planilha de mapeamento para cada um desses arquivos. Para importar corretamente os dados com as medidas dos objetos do acervo, esta coluna foi separada em duas ou mais, dependendo da quantidade de medidas a serem adicionadas. Também foi criada uma coluna para se informar o motivo quando se tem mais de um grupo de medidas de um objeto, com ou sem suporte por exemplo.
+Cada arquivo de mapeando deve informar para cada coluna de dados da origem o local de destino no banco de dados do Collective Access, conforme estabelecido na configuração do perfil de instalação. Também é possível criar algumas regras de importação como por exemplo adicionar um prefixo ou sufixo ao dado (como a unidade de medida utilizada), dividir uma informação em dois ou mais campos, agrupar dados em um único conjunto (caso o agrupamento não seja utilizado, as dimensões altura e largura seriam importadas em conjuntos diferentes, cada um com uma dimensão, ao invés de um único com todas as dimensões do objeto) e estabelecer que tipo de entidade ou local você está carregando, como o autor da peça e a cidade que ela foi criada. Além disso existe a possibilidade de se substituir o valor importado por outro, sendo útil para ao se importar um dado que irá para uma lista, substituir o valor carregado pelo código referente a ele na lista de destino, ou até mesmo trocar um código ou sigla do banco de dados original pela descrição completa do dado.
 
-Cada arquivo de mapeando deve informar para cada coluna de dados da origem o local de destino no banco de dados do Collective Access, conforme estabelecido na configuração do perfil de instalação. Também é possível criar algumas regras de importação como por exemplo adicionar a unidade de medida após o valor lido, dividir uma informação em dois ou mais campos e estabelecer que tipo de entidade ou local você está carregando, como o autor da peça e a cidade que ela foi criada.
+Algumas configurações também são necessárias para que a importação seja realizada corretamente: 
 
-Após a criação de todos os arquivos de mapeamento
+\begin{itemize}
+	\item \textbf{name} - Determina o nome de exibição do mapeamento.
+	\item \textbf{code} - Código alfanumérico do mapeamento.
+	\item \textbf{inputFormats} - Configura os tipos de entrada de dados que serão aceitos por este mapeamento. É possível especificar múltiplos formatos separando eles com ponto e vírgula.
+	\item \textbf{table} - Informa a tabela para qual os dados serão importados. Ex.: ca\_objects para objetos.
+	\item \textbf{existingRecordPolicy} - Determina como registros já existentes são verificados e tratados pelo mapeamento.
+	\item \textbf{errorPolicy} - Determina o que acontece caso ocorra algum erro durante a importação, podendo parar a mesma ou ignorar o erro.
+	\item \textbf{type} - Informa o tipo de registro que está sendo importado. No caso da importação dos objetos do Museu são as Classes/Subclasses.
+	\item \textbf{numInitialRowsToSkip} - Quantas linhas no início dos dados deverão ser ignoradas. É utilizado para pular o cabeçalho dos dados quando o mesmo existir, ou alguma configuração especial da planilha importada.
+\end{itemize}
 
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/ex_map.jpg}
+	\caption{Exemplo de arquivo de mapeamento} \label{fig:map}
+\end{figure}
+
+Na figura \ref{fig:map} podemos ver um exemplo de um arquivo de mapeamento. Nas linhas 1 a 9 foram definidos os campos que serão importados e seus respectivos destinos nos campos dos objetos configurados no perfil de instalação. É possível perceber o uso de algumas configurações como o agrupamento das dimensões em um único conjunto, o refinamento da importação de lugar, informando que o dado importado é uma cidade e é o local de criação do objeto, e a substituição dos dados de estado de conservação do objeto pelos seus respectivos códigos na lista criada com este objetivo.
+
+Já nas linhas 16 a 24 são definidas as configurações do mapeamento conforme já explicado anteriormente.
+
+\section{Importação dos dados}
+
+\FloatBarrier
+Antes de se importar os dados, assim como qualquer modificação grande em banco de dados, é importante criar uma cópia de segurança dos arquivos para evitar perdas e problemas nos objetos importados, principalmente se for a primeira vez que um mapeamento é utilizado.
+
+O Collective Access aceita vários tipos de formato de dados para importação, desde arquivos de Excel em .xls ou .xlsx, provenientes de bancos de dados MYSQL, vários formatos de XML diferentes oriundos de outros SGC como PastPerfect XML e Omeka, de um outro sistema Collective Access, para migrações de um sistema para outro, e até de sistemas web como ULAN e Worldcat. Este projeto utilizou somente os dados já existentes do Museu D. João VI que foi dividido em planilhas de Excel por classe.
+
+Após o tratamento do acervo e a criação de todos os arquivos de mapeamento, a próxima etapa é realizar a importação dos dados. O Providence conta com uma interface fácil e intuitiva, onde primeiro o arquivo de mapeamento é carregado para o site e posteriormente se seleciona o arquivo com os dados a serem importados com o mapeamento selecionado.
+
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/tela_map.jpg}
+	\caption{Tela de Importação - Mapeamento} \label{fig:mapeamento}
+\end{figure}
+
+
+Na figura \ref{fig:mapeamento} podemos ver a tela onde se carrega o importador com o mapeamento. Pode-se verificar de forma fácil quais mapeamentos já foram enviados para o site e selecionar qual será usado para realizar a importação. Caso se envie uma planilha com um código de mapeamento já utilizado, o site irá substituir a versão antiga pela enviada.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/tela_imp.jpg}
+	\caption{Tela de Importação - Configurações} \label{fig:import}
+\end{figure}
+
+Já na figura \ref{fig:import} vemos as definições necessárias antes de se realizar a importação. É necessário informar qual o formato do arquivo que será importado, carregar o mesmo para o site ou, caso ele esteja no diretório de importação, selecionar esta opção. Também é possível escolher o nível de registro que será gravado durante a importação, o que é útil em testes de mapeamento, ou até mesmo realizar uma importação "a seco", que é uma importação de teste onde os dados não são gravados no banco de dados.
+
+Após a importação dos dados, o site irá informar quantos registros foram importados e se ocorreu algum erro. É possível verificar no log da importação, um arquivo gerado automaticamente pelo site, as mensagens de alertas e erros conforme configurado no menu "Nível de Registro" na figura \ref{fig:import}.
+
+\section{Tradução do Providence}
+
+Os arquivos do Collective Access utilizam, por padrão, a língua inglesa. Apesar de se poder trocar o idioma antes ou após a instalação para português brasileiro, a tradução não está completa e, em muitos casos, está errada ou em português de Portugal.
+
+Apesar dos objetos, listas e interfaces já terem sido traduzidos no perfil de instalação, a maior parte do gerenciamento do site e acervo, configuração e importação utiliza dados e informações provenientes de arquivos que o perfil não afeta.
+
+O Collective Access utiliza o sistema \textit{GNU GetText} para gerenciar as traduções dos textos da interface do usuário, armazenando ambas a versão original em inglês e a tradução em um arquivo editável messages.po. Cada tradução é armazenada em uma pasta no diretório app/locale, utilizando o código do idioma traduzido como nome da pasta.
+
+Para um melhor uso dos usuários do site, que podem não ter fluência em inglês, foi utilizado o programa \textit{Poedit} para edição do arquivo com a tradução em português brasileiro. Todas as traduções já existentes foram verificadas e revisadas, e os textos que não continham tradução foram traduzidos. No total foram traduzidos 6444 textos, que podem ser desde uma palavra até parágrafos inteiros.
+
+\section{Painel Inicial do Providence}
+
+Com os dados importados é possível utilizar o Providence para gerenciar todas as funções do Museu. Na tela inicial existe um painel onde é possível adicionar \textit{widgets}, que são pequenas aplicações com diferentes funcionalidades para criar uma interface de sistema de monitoração e gerenciamento personalizado conforme a necessidade do Museu.
+
+Os seguintes \textit{Widgets} já estão disponíveis na instalação do Collective Access:
+
+\begin{itemize}
+	\item \textbf{Formulário de pesquisa avançada} - Adiciona um formulário de pesquisa avançada para utilização no painel do site;
+	\item \textbf{Relógio} - Adiciona um relógio com o horário atual;
+	\item \textbf{Contadores} - Mostra a quantidade total de todos os itens do Collective Access;
+	\item \textbf{Acessos recentes} - Exibe os acessos recentes de usuários ao sistema;
+	\item \textbf{Links} - Exibe os links do projeto Collective Access.
+	\item \textbf{lol Katz} - Mostra uma imagem aleatória de humor;
+	\item \textbf{Mensagem do dia} - Exibe a mensagem do dia, que pode ser editada pelo usuário;
+	\item \textbf{Caixa de notificação} - Mostra as notificações;
+	\item \textbf{Objeto Aleatório} - Exibe um objeto aleatório da coleção;
+	\item \textbf{Alterações recentes} - Lista as alterações recentes feitas em objetos ou outros itens;
+	\item \textbf{Comentários} - Lista os comentários recentes realizados nos objetos;
+	\item \textbf{Registrações} - Lista os últimos cadastros de usuários feitos pelo público;
+	\item \textbf{Etiquetas} - Lista as etiquetas criadas recentemente;
+	\item \textbf{Criados recentemente} - Exibe os objetos e outros itens criados recentemente;
+	\item \textbf{Registros por estado} - Exibe os objetos ou outros itens por estado de catalogação;
+	\item \textbf{Gravar pesquisas} - Mostra as pesquisas salvas do painel;
+	\item \textbf{Pesquisa por seleção} - Busca por itens nas seleções do usuário;
+	\item \textbf{Estado de processamento} - Visualiza o estado atual das tarefas de processamento programadas;
+	\item \textbf{Objetos em observação} - Lista os objetos em observação pelo usuário.
+\end{itemize}
+
+Além desses \textit{widgets}, é possível criar, configurar e instalar novos conforme a necessidade, bastando colocar os arquivos desenvolvidos no diretório app/widgets do Collective Access, mas para este projeto não houve essa necessidade.
+
+\section{Menu CRIAR}
+
+O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a criação de um novo item ou ação relativa ao banco de dados. As seguintes opções aparecem ao se posicionar o mouse sobre este botão:
+
+\begin{itemize}
+	\item \textbf{Objeto} - Utilizado para se criar um novo objeto. Deve-se selecionar a categoria entre Acervo Arquivológico e Acervo Museológico, sendo este segundo dividido nas classes e subclasses já citadas;
+	\item \textbf{Entidade} - Cria uma entidade, que pode ser uma Família, Organização ou Pessoa Física;
+	\item \textbf{Lugar} - Cria um novo lugar, onde posteriormente será selecionado o tipo, como País, Estado ou Cidade. Locais de armazenamento não devem ser criados neste menu;
+	\item \textbf{Coleção} - 
+\end{itemize}
 
 
 %================================================================

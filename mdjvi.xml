@@ -32172,7 +32172,7 @@
     <type code="describes" default="1">
      <labels>
       <label locale="pt_BR">
-       <typename>eé descrito por</typename>
+       <typename>é descrito por</typename>
        <typename_reverse>descreve</typename_reverse>
       </label>
      </labels>

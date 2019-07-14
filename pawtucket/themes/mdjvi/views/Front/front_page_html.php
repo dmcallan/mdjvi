@@ -84,7 +84,7 @@
 		<div class="col-sm-1"><?php print caNavLink($this->request, caGetThemeGraphic($this->request, 'objculto.jpg')."<p>Objetos de culto</p>", '', 'Browse/objects', 'facet', 'type_facet/id/36/view/list'); ?></div>
 		<div class="col-sm-1"><?php print caNavLink($this->request, caGetThemeGraphic($this->request, 'objdevpessoal.jpg')."<p>Objetos de devoção pessoal</p>", '', 'Browse/objects', 'facet', 'type_facet/id/44/view/list'); ?></div>
 		<div class="col-sm-1"><?php print caNavLink($this->request, caGetThemeGraphic($this->request, 'objiluminacao.jpg')."<p>Objetos de iluminação</p>", '', 'Browse/objects', 'facet', 'type_facet/id/27/view/list'); ?></div>
-		<div class="col-sm-1"><?php print caNavLink($this->request, caGetThemeGraphic($this->request, 'artdark.png')."<p>Panegírico</p>", '', 'Browse/objects', 'facet', 'type_facet/id/37/view/list'); ?></div>	
+		<div class="col-sm-1"><?php print caNavLink($this->request, caGetThemeGraphic($this->request, 'panegirico.jpg')."<p>Panegírico</p>", '', 'Browse/objects', 'facet', 'type_facet/id/37/view/list'); ?></div>	
 		<div class="col-sm-1"></div>
 	</div>	<!-- end row cats -->
 	<div class="row cats" style="margin-bottom:40px;">
