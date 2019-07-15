@@ -560,7 +560,124 @@ Após a instalação do Collective Access neste servidor utilizando o perfil con
 
 Mais detalhes e informações sobre o perfil de instalação podem ser encontrados no apêndice B deste projeto.
 
+\section{Tradução do Providence}
+
+Os arquivos do Collective Access utilizam, por padrão, a língua inglesa. Apesar de se poder trocar o idioma antes ou após a instalação para português brasileiro, a tradução não está completa e, em muitos casos, está errada ou em português de Portugal.
+
+Apesar dos objetos, listas e interfaces já terem sido traduzidos no perfil de instalação, a maior parte do gerenciamento do site e acervo, configuração e importação utiliza dados e informações provenientes de arquivos que o perfil não afeta.
+
+O Collective Access utiliza o sistema \textit{GNU GetText} para gerenciar as traduções dos textos da interface do usuário, armazenando ambas a versão original em inglês e a tradução em um arquivo editável messages.po. Cada tradução é armazenada em uma pasta no diretório app/locale, utilizando o código do idioma traduzido como nome da pasta.
+
+Para um melhor uso dos usuários do site, que podem não ter fluência em inglês, foi utilizado o programa \textit{Poedit} para edição do arquivo com a tradução em português brasileiro. Todas as traduções já existentes foram verificadas e revisadas, e os textos que não continham tradução foram traduzidos. No total foram traduzidos 6444 textos, que podem ser desde uma palavra até parágrafos inteiros.
+
+\section{Painel Inicial do Providence}
+
+Com os dados importados é possível utilizar o Providence para gerenciar todas as funções do Museu. Na tela inicial existe um painel onde é possível adicionar \textit{widgets}, que são pequenas aplicações com diferentes funcionalidades para criar uma interface de sistema de monitoração e gerenciamento personalizado conforme a necessidade do Museu.
+
+Os seguintes \textit{Widgets} já estão disponíveis na instalação do Collective Access:
+
+\begin{itemize}
+	\item \textbf{Formulário de pesquisa avançada} - Adiciona um formulário de pesquisa avançada para utilização no painel do site;
+	\item \textbf{Relógio} - Adiciona um relógio com o horário atual;
+	\item \textbf{Contadores} - Mostra a quantidade total de todos os itens do Collective Access;
+	\item \textbf{Acessos recentes} - Exibe os acessos recentes de usuários ao sistema;
+	\item \textbf{Links} - Exibe os links do projeto Collective Access.
+	\item \textbf{lol Katz} - Mostra uma imagem aleatória de humor;
+	\item \textbf{Mensagem do dia} - Exibe a mensagem do dia, que pode ser editada pelo usuário;
+	\item \textbf{Caixa de notificação} - Mostra as notificações;
+	\item \textbf{Objeto Aleatório} - Exibe um objeto aleatório da coleção;
+	\item \textbf{Alterações recentes} - Lista as alterações recentes feitas em objetos ou outros itens;
+	\item \textbf{Comentários} - Lista os comentários recentes realizados nos objetos;
+	\item \textbf{Registrações} - Lista os últimos cadastros de usuários feitos pelo público;
+	\item \textbf{Etiquetas} - Lista as etiquetas criadas recentemente;
+	\item \textbf{Criados recentemente} - Exibe os objetos e outros itens criados recentemente;
+	\item \textbf{Registros por estado} - Exibe os objetos ou outros itens por estado de catalogação;
+	\item \textbf{Gravar pesquisas} - Mostra as pesquisas salvas do painel;
+	\item \textbf{Pesquisa por seleção} - Busca por itens nas seleções do usuário;
+	\item \textbf{Estado de processamento} - Visualiza o estado atual das tarefas de processamento programadas;
+	\item \textbf{Objetos em observação} - Lista os objetos que o usuário definiu como em observação.
+\end{itemize}
+
+Além desses \textit{widgets}, é possível criar, configurar e instalar novos conforme a necessidade, bastando colocar os arquivos desenvolvidos no diretório app/widgets do Collective Access, mas para este projeto não houve essa necessidade.
+
+Na parte superior do site se encontra os menus com as opções para tratamento dos dados e uma barra de pesquisa rápida onde pode-se buscar qualquer tipo de item no banco de dados.
+
+\section{Menu CRIAR}
+\FloatBarrier
+O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a criação de um novo item ou ação relativa ao banco de dados. As seguintes opções aparecem ao se posicionar o mouse sobre este botão, conforme pode-se ver na figura \ref{fig:menu_criar}:
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=8cm, left]{figuras/menu_criar.jpg}
+	\caption{Menu do Providence - CRIAR} \label{fig:menu_criar}
+\end{figure}
+
+
+\begin{itemize}
+	\item \textbf{Objeto} - Utilizado para se criar um novo objeto. Deve-se selecionar a categoria entre Acervo Arquivológico e Acervo Museológico, sendo este segundo dividido nas classes e subclasses configuradas no perfil de instalação;
+	\item \textbf{Entidade} - Cria uma entidade, que pode ser uma Família, Organização ou Pessoa Física;
+	\item \textbf{Lugar} - Cria um novo lugar, onde posteriormente será selecionado o tipo, como País, Estado ou Cidade. Locais de armazenamento não devem ser criados neste menu;
+	\item \textbf{Coleção} - Permite criar coleções do Museu;
+	\item \textbf{Campanha de conferência de inventário} - Cria uma ação de conferência de inventário onde pode-se listar o que será conferido, quais objetos ou entidades, eventos, locais e coleções relacionados;
+	\item \textbf{Campanha de conferência de inventário, Evento, Exposição, Procedimento, Referência bibliográfica, Verificação de objeto no inventário} - Cria uma ocorrência relativa ao banco de dados, organizada em diferentes tipos para facilitar a busca e padronização. Pode-se listar os objetos, entidades, eventos, locais e coleções relacionados a ocorrência criada, além de outras informações que forem necessárias;
+	\item \textbf{Localização} - Permite criar locais de armazenamento dos objetos, sendo possível organizá-los em diferentes tipos como uma sala, andar, prédio, caixa, entre outros;
+	\item \textbf{Empréstimo} - Cria entradas e saídas de objetos por empréstimo, organizando todas as informações relevantes como mídias, datas, condições e pessoas ou instituições envolvidas.
+\end{itemize}
+
+\section{Menu ENCONTRAR}
+\FloatBarrier
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=8cm, left]{figuras/menu_encontrar.jpg}
+	\caption{Menu do Providence - ENCONTRAR} \label{fig:menu_encontrar}
+\end{figure}
+
+Já no menu ENCONTRAR, conforme visto na figura \ref{fig:menu_encontrar}, as opções são as mesmas do CRIAR. Ao colocar o cursor do \textit{mouse} em algum dos itens três opções irão aparecer: 
+
+\begin{itemize}
+	\item \textbf{Pesquisa básica} - Onde pode-se buscar por uma ou mais palavras e o site irá retornar os resultados encontrados da opção escolhida;
+	\item \textbf{Pesquisa avançada} - Pode-se estabelecer alguns critérios para a pesquisa, como buscar somente no título, identificador ou tipo do item;
+	\item \textbf{Navegar} - Como a figura \ref{fig:navegar_obj} mostra, é possível escolher diferentes filtros, combinando mais de um quando necessário, para se encontrar o item desejado.
+\end{itemize}
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/navegar_obj.jpg}
+	\caption{Busca no modo Navegar de um objeto} \label{fig:navegar_obj}
+\end{figure}
+
+No menu também irá aparecer a opção "Última pesquisa rápida", onde conforme o nome já diz, pode-se usar quando se deseja visualizar novamente a última pesquisa rápida, que é a executada na barra de pesquisa no canto superior direito.
+
+\section{Menu GERIR}
+\FloatBarrier
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=8cm, left]{figuras/menu_gerir.jpg}
+	\caption{Menu do Providence - GERIR} \label{fig:menu_gerir}
+\end{figure}
+
+\section{Menu IMPORTAR}
+\FloatBarrier
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=8cm, left]{figuras/menu_importar.jpg}
+	\caption{Menu do Providence - IMPORTAR} \label{fig:menu_importar}
+\end{figure}
+
+No menu IMPORTAR, figura \ref{fig:menu_importar}, aparecem as opções Mídia, Dados, ULAN e WorldCat. As duas primeiras são utilizadas para importar dados de arquivos fornecidos pelo usuário, sejam eles fotos ou dados em planilhas. A importação dos dados do \textbf{Museu D. João VI} será explicada em uma seção posterior. 
+
+Já as duas últimas se conectam a serviços web externos para pesquisar e importar os resultados, porém não foram utilizadas neste projeto.
+
+\section{Menu HISTÓRICO}
+\FloatBarrier
+
+O menu histórico simplesmente apresenta os últimos itens visitados pelo usuário, separando os mesmos por tipo. Na figura \ref{fig:menu_hist} o usuário havia visitado alguns objetos e entidades, porém o menu também pode apresentar todos os tipos presentes no banco de dados, como lugares, locais de armazenamento, coleções e ocorrências.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=10cm, left]{figuras/menu_hist.jpg}
+	\caption{Menu do Providence - HISTÓRICO} \label{fig:menu_hist}
+\end{figure}
+
 \section{Tratamento do banco de dados do Museu}
+\FloatBarrier
 
 Após a preparação do perfil e instalação do mesmo no Providence, a próxima etapa é a importação dos dados para o Collective Access, porém antes disso foi necessário tratar o banco de dados existente feito pelo projeto anterior.
 
@@ -636,56 +753,6 @@ Já na figura \ref{fig:import} vemos as definições necessárias antes de se re
 
 Após a importação dos dados, o site irá informar quantos registros foram importados e se ocorreu algum erro. É possível verificar no log da importação, um arquivo gerado automaticamente pelo site, as mensagens de alertas e erros conforme configurado no menu "Nível de Registro" na figura \ref{fig:import}.
 
-\section{Tradução do Providence}
-
-Os arquivos do Collective Access utilizam, por padrão, a língua inglesa. Apesar de se poder trocar o idioma antes ou após a instalação para português brasileiro, a tradução não está completa e, em muitos casos, está errada ou em português de Portugal.
-
-Apesar dos objetos, listas e interfaces já terem sido traduzidos no perfil de instalação, a maior parte do gerenciamento do site e acervo, configuração e importação utiliza dados e informações provenientes de arquivos que o perfil não afeta.
-
-O Collective Access utiliza o sistema \textit{GNU GetText} para gerenciar as traduções dos textos da interface do usuário, armazenando ambas a versão original em inglês e a tradução em um arquivo editável messages.po. Cada tradução é armazenada em uma pasta no diretório app/locale, utilizando o código do idioma traduzido como nome da pasta.
-
-Para um melhor uso dos usuários do site, que podem não ter fluência em inglês, foi utilizado o programa \textit{Poedit} para edição do arquivo com a tradução em português brasileiro. Todas as traduções já existentes foram verificadas e revisadas, e os textos que não continham tradução foram traduzidos. No total foram traduzidos 6444 textos, que podem ser desde uma palavra até parágrafos inteiros.
-
-\section{Painel Inicial do Providence}
-
-Com os dados importados é possível utilizar o Providence para gerenciar todas as funções do Museu. Na tela inicial existe um painel onde é possível adicionar \textit{widgets}, que são pequenas aplicações com diferentes funcionalidades para criar uma interface de sistema de monitoração e gerenciamento personalizado conforme a necessidade do Museu.
-
-Os seguintes \textit{Widgets} já estão disponíveis na instalação do Collective Access:
-
-\begin{itemize}
-	\item \textbf{Formulário de pesquisa avançada} - Adiciona um formulário de pesquisa avançada para utilização no painel do site;
-	\item \textbf{Relógio} - Adiciona um relógio com o horário atual;
-	\item \textbf{Contadores} - Mostra a quantidade total de todos os itens do Collective Access;
-	\item \textbf{Acessos recentes} - Exibe os acessos recentes de usuários ao sistema;
-	\item \textbf{Links} - Exibe os links do projeto Collective Access.
-	\item \textbf{lol Katz} - Mostra uma imagem aleatória de humor;
-	\item \textbf{Mensagem do dia} - Exibe a mensagem do dia, que pode ser editada pelo usuário;
-	\item \textbf{Caixa de notificação} - Mostra as notificações;
-	\item \textbf{Objeto Aleatório} - Exibe um objeto aleatório da coleção;
-	\item \textbf{Alterações recentes} - Lista as alterações recentes feitas em objetos ou outros itens;
-	\item \textbf{Comentários} - Lista os comentários recentes realizados nos objetos;
-	\item \textbf{Registrações} - Lista os últimos cadastros de usuários feitos pelo público;
-	\item \textbf{Etiquetas} - Lista as etiquetas criadas recentemente;
-	\item \textbf{Criados recentemente} - Exibe os objetos e outros itens criados recentemente;
-	\item \textbf{Registros por estado} - Exibe os objetos ou outros itens por estado de catalogação;
-	\item \textbf{Gravar pesquisas} - Mostra as pesquisas salvas do painel;
-	\item \textbf{Pesquisa por seleção} - Busca por itens nas seleções do usuário;
-	\item \textbf{Estado de processamento} - Visualiza o estado atual das tarefas de processamento programadas;
-	\item \textbf{Objetos em observação} - Lista os objetos em observação pelo usuário.
-\end{itemize}
-
-Além desses \textit{widgets}, é possível criar, configurar e instalar novos conforme a necessidade, bastando colocar os arquivos desenvolvidos no diretório app/widgets do Collective Access, mas para este projeto não houve essa necessidade.
-
-\section{Menu CRIAR}
-
-O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a criação de um novo item ou ação relativa ao banco de dados. As seguintes opções aparecem ao se posicionar o mouse sobre este botão:
-
-\begin{itemize}
-	\item \textbf{Objeto} - Utilizado para se criar um novo objeto. Deve-se selecionar a categoria entre Acervo Arquivológico e Acervo Museológico, sendo este segundo dividido nas classes e subclasses já citadas;
-	\item \textbf{Entidade} - Cria uma entidade, que pode ser uma Família, Organização ou Pessoa Física;
-	\item \textbf{Lugar} - Cria um novo lugar, onde posteriormente será selecionado o tipo, como País, Estado ou Cidade. Locais de armazenamento não devem ser criados neste menu;
-	\item \textbf{Coleção} - 
-\end{itemize}
 
 
 %================================================================
