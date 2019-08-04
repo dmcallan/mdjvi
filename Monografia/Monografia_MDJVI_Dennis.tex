@@ -649,7 +649,7 @@ Além desses \textit{widgets}, é possível criar, configurar e instalar novos c
 Na parte superior do site se encontra os menus com as opções para tratamento dos dados e uma barra de pesquisa rápida onde pode-se buscar qualquer tipo de item no banco de dados.
 
 \subsection{Menu CRIAR}
-\FloatBarrier
+
 O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a criação de um novo item ou ação relativa ao banco de dados. As seguintes opções aparecem ao se posicionar o mouse sobre este botão, conforme pode-se ver na figura \ref{fig:menu_criar}:
 
 \begin{figure}[!ht]{17cm}
@@ -671,7 +671,6 @@ O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a 
 Ao se clicar em qualquer uma das opções irá se abrir uma nova tela onde se irá preencher os dados básicos do tipo de item escolhido. Após salvar as informações, criando o item no banco de dados, os outros campos serão habilitados para edição, permitindo a inserção de todos os dados relativos ao mesmo.
 
 \subsection{Menu ENCONTRAR}
-\FloatBarrier
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=8cm, center]{figuras/menu_encontrar.jpg}
@@ -694,7 +693,6 @@ Já no menu ENCONTRAR, conforme visto na figura \ref{fig:menu_encontrar}, as op�
 No menu também irá aparecer a opção "Última pesquisa rápida", onde conforme o nome já diz, pode-se usar quando se deseja visualizar novamente a última pesquisa rápida, que é a executada na barra de pesquisa no canto superior direito.
 
 \subsection{Menu GERIR}
-\FloatBarrier
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=8cm, center]{figuras/menu_gerir.jpg}
@@ -722,7 +720,6 @@ Este menu controla todas as definições e configurações do Providence, tanto 
 \end{itemize}
 
 \subsection{Menu IMPORTAR}
-\FloatBarrier
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=8cm, center]{figuras/menu_importar.jpg}
@@ -734,7 +731,6 @@ No menu IMPORTAR, figura \ref{fig:menu_importar}, aparecem as opções Mídia, D
 A utilização da ferramenta de importação e os detalhes de como os dados do acervo original do \textbf{Museu D. João VI} foram preparados e transferidos serão explicados em uma seção posterior.
 
 \subsection{Menu HISTÓRICO}
-\FloatBarrier
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=10cm, center]{figuras/menu_hist.jpg}
@@ -746,7 +742,6 @@ O menu histórico simplesmente apresenta os últimos itens visitados pelo usuár
 Ele facilita que o usuário encontre um item visitado recentemente ou até mesmo que ele possa verificar quais itens já foram visitados quando estiver realizando uma verificação do banco de dados, sem a necessidade de se abrir o registro novamente.
 
 \section{Tratamento do banco de dados do Museu}
-\FloatBarrier
 
 Após a preparação do perfil e instalação do mesmo no Providence, a próxima etapa é a importação dos dados para o Collective Access, porém antes disso foi necessário tratar o banco de dados existente feito pelo projeto anterior.
 
@@ -799,7 +794,6 @@ Já nas linhas 16 a 24 são definidas as configurações do mapeamento conforme 
 
 \section{Importação dos dados}
 
-\FloatBarrier
 Antes de se importar os dados, assim como qualquer modificação grande em banco de dados, é importante criar uma cópia de segurança dos arquivos para evitar perdas e problemas nos objetos importados, principalmente se for a primeira vez que um mapeamento é utilizado.
 
 O Collective Access aceita vários tipos de formato de dados para importação, desde arquivos de Excel em .xls ou .xlsx, provenientes de bancos de dados MYSQL, vários formatos de XML diferentes oriundos de outros SGC como PastPerfect XML e Omeka, de um outro sistema Collective Access, para migrações de um sistema para outro, e até de sistemas web como ULAN e Worldcat. Este projeto utilizou somente os dados já existentes do Museu D. João VI que foi dividido em planilhas de Excel por classe.
@@ -874,6 +868,110 @@ Com esta forma de trabalho, caso ocorra alguma atualização do tema \textit{def
 Na página do Github do projeto Collective Access, na seção do Pawtucket2 da derivação \textit{develop}, podem ser encontrados diversos temas criados para serem utilizados por instituições que utilizam este programa. Os mesmos foram verificados e estudados quanto as possíveis formas de se criar e exibir páginas, além das configurações possíveis. ~\citetext{CAGIT}
 
 Neste projeto foi utilizado como inspiração de modelo de site, mas alterado para o desenho e necessidades do Museu D. João VI, o tema denominado newvamuse do NovaMuse, um site que controla e exibe as coleções de mais de 50 museus da região de Nova Scotia no Canadá. ~\citetext{Novamuse}
+
+Nos arquivos de configuração, localizados no diretório \textit{themes/mdjvi/conf}, foram realizadas algumas alterações de acordo com as necessidades do site. A opção "dont enforce access settings" foi configurada como 1 permitindo assim que o site exibisse todos os objetos cadastrados no Providence, ignorando a opção cadastrada no registro do objeto. Caso essa opção não seja selecionada somente os objetos com o estado de acessível ao público são exibidos.
+
+Neste mesmo arquivo também foi adicionado o pt\_BR como idioma padrão de abertura do site e  foi desabilitada a opção de se registrar e entrar no site, removendo também dessa forma a possibilidade de se comentar, curtir e criar etiquetas para itens do acervo.
+
+Alguns outros arquivos de configuração como, collections.conf, contact.conf, detail.conf e gallery.conf tiveram seus conteúdos revisados e traduzidos para ficarem adequados ao site. Essas traduções tiveram que ser executadas direto no arquivo pois os mesmos não foram criados de forma a permitir múltiplos idiomas com o sistema \textit{GNU GetText} conforme explicado no capítulo anterior.
+
+Outra tradução que foi realizada se encontra no diretório \textit{app/lib/Parsers/TimeExpressionParser} foi a do arquivo que controla como o Pawtucket enxerga as datas, horários, estações do ano e qualquer forma de registro de data. Desta forma agora o site pode entender e registrar corretamente pesquisas em um determinado século, mesmo que esta seja realizada em português.
+
+\section{Criação das páginas de exibição}
+
+Todo o conteúdo exibido ao se abrir a página do link criado para o pawtucket é descrito por arquivos feitos na linguagem PHP que ficam no diretório \textit{themes/mdjvi/views}. Nesta pasta foram configuradas todas as informações referentes ao museu e a exibição das mesmas para os usuários.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/pawtucket_telainicial.jpg}
+	\caption{Tela inicial do Pawtucket} \label{fig:tela_inic}
+\end{figure}
+
+Ao se abrir o site, como mostra a figura \ref{fig:tela_inic}, o usuário irá visualizar na parte superior o menu para navegação entre as páginas disponíveis e uma barra de pesquisa múltipla, que irá buscar o conteúdo inserido em todos os campos dos itens disponíveis no Pawtucket, sejam eles objetos, locais, pessoas ou outros.
+
+A figura exibida atrás desta pesquisa são de peças do acervo do Museu D. João VI. As imagens destas peças são exibidas em destaque para familiarizar o visitante do site com o conteúdo disponível para pesquisa e visita.
+
+Logo abaixo desta imagem se encontra a possibilidade de se navegar por cada categoria disponível no site, conforme mostra a figura \ref{fig:tela_navcat}. Desta forma o usuário já pode verificar todas as opções disponíveis e ir na opção desejada, sem a necessidade de se realizar qualquer pesquisa.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/pawtucket_navegacaocategoria.jpg}
+	\caption{Navegação por categoria} \label{fig:tela_navcat}
+\end{figure}
+
+No menu superior as seguintes opções estarão disponíveis:
+
+\begin{itemize}
+	\item \textbf{MUSEU} - Irá redirecionar para a página com informações sobre o Museu, um breve histórico, o endereço, telefone e email de contato;
+	\item \textbf{EXPLORE} - Abre duas opções, NAVEGAR e PESQUISA AVANÇADA;
+
+	\begin{itemize}
+		\item NAVEGAR - Irá exibir todos os objetos do acervo, permitindo a opção de se ordenar por título ou identificador, exportar resultados, filtrar e realizar pesquisas nos resultados exibidos;
+		\item PESQUISA AVANÇADA - Exibe os campos que podem ser utilizados na pesquisa avançada. Também tem uma uma coluna com dicas de como realizar uma pesquisa;
+	\end{itemize} 
+	
+	\item \textbf{PARA PROFESSORES} - Contém informações úteis para os professores e pesquisadores interessados em realizar uma pesquisa ou saber mais sobre o acervo.
+	\item \textbf{AJUDA} - Abre as opções ACERVO e PLANEJE SUA VISITA:
+	
+	\begin{itemize}
+	\item ACERVO - Possui informações sobre o número de objetos do acervo, como ele foi formado, sua utilização e importância para a faculdade e o ensino;
+	\item PLANEJE SUA VISITA - Irá exibir os horários de visita e as informações necessárias para se realizar a mesma. No momento exibe a informação do fechamento temporário do Museu devido às obras de recuperação do prédio em que ele se encontra.
+	
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/pawtucket_navegarobjetos.jpg}
+	\caption{Navegação do Acervo} \label{fig:tela_navobj}
+\end{figure}
+
+A pesquisa avançada permite uma pesquisa específica dentro do acervo. Todos os campos preenchidos na pesquisa devem ser correspondidos simultaneamente pelo objeto para que o mesmo seja exibido nos resultados. Todas as opções de filtros da pesquisa avançada possuem uma dica que será exibida quando se passar o cursor do mouse por cima do texto.
+
+Nesta pesquisa qualquer campo do objeto ou conteúdo do Providence pode ser pesquisado, sendo que conforme a figura \ref{fig:tela_pesqav} mostra foram configurados escolhidos as seguintes opções:
+
+\begin{itemize}
+	\item \textbf{Palavra-Chave} - A palavra ou texto inserido aqui será pesquisada em todo o acervo, similar a pesquisa múltipla ou pesquisa rápida da tela inicial. Pode ser inserido qualquer conteúdo do acervo independente de onde se encontre (título, localização, criador, etc.);
+	\item \textbf{Título} - Limita a pesquisa do texto inserido à somente o título do objeto;
+	\item \textbf{Número de Inventário} - Irá realizar a pesquisa no número do inventário dos objetos do acervo;
+	\item \textbf{Tipo} - Permite que a pesquisa seja realizada pela classe/subclasse desejada;
+	\item \textbf{Intervalo de Datas} - Permite a pesquisa por objetos criados em um ano específico, um intervalo de datas ou até mesmo uma década ou século especificado;
+	\item \textbf{Coleção} - Pesquisa objetos pertencentes a coleção especificada.
+\end{itemize}
+
+Na tela de pesquisa avançada também se encontra um botão de RESETAR para apagar todos os dados digitados nos campos da pesquisa, facilitando ao usuário realizar uma pesquisa diferente sem ter que apagar um campo de cada vez.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/pawtucket_buscaavancada.jpg}
+	\caption{Navegação do Acervo} \label{fig:tela_pesqav}
+\end{figure}
+
+Uma das páginas mais importantes criadas no Pawtucket é a que exibirá as informações dos itens do acervo. A figura \ref{fig:tela_obj} mostra um exemplo das informações que são exibidas ao se abrir um objeto. Além dos dados do mesmo também existem dois botões do lado esquerdo, o "COMPARTILHAR" e o "BAIXAR COMO PDF", com as opções de se compartilhar o objeto por email e fazer o download da ficha do mesmo em PDF.
+
+Os dados escolhidos para serem exibidos são:
+
+\begin{itemize}
+	\item Título
+	\item Classe ou Subclasse
+	\item Número de identificação
+	\item Ano de criação
+	\item Técnica/Material
+	\item Data de aquisição
+	\item Modo de aquisição
+	\item Estado de conservação
+	\item Local da assinatura
+	\item Dimensões (Comprimento, Altura, Profundidade, Circunferência)
+	\item Tipo de suporte
+	\item Pessoas relacionadas
+	\item Locais relacionados
+	\item Termos de vocabulário relacionados
+\end{itemize}
+
+Apesar de qualquer campo do objeto preenchido no Providence poder ser exibido, esses foram escolhidos por fornecerem um panorama geral do item. Qualquer outra informação desejada, como a localização do item no Museu que foi omitida por motivo de segurança, deverá ser solicitada a equipe responsável pelo acervo que poderá realizar a pesquisa e fornecer os dados. Nenhuma informação dos campos de análise histórica e estilística foi inclusa pois como foram criados durante o projeto nenhum objeto possuía qualquer dado preenchido.
+
+Também é importante notar que quando um objeto não possui um dos dados esta informação é omitida da exibição, evitando campos em branco e deixando a visualização mais limpa para o usuário.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/pawtucket_objeto.jpg}
+	\caption{Navegação do Acervo} \label{fig:tela_obj}
+\end{figure}
 
 %================================================================
 \chapter*{Conclusão}

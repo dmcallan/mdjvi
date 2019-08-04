@@ -444,7 +444,7 @@
  			//
  			$this->view->setVar('shareEnabled', (bool)$va_options['enableShare']);
  			
-			$va_options['shareLabel'] ? $ps_label = $va_options['shareLabel'] : $ps_label = 'Share';
+			$va_options['shareLabel'] ? $ps_label = $va_options['shareLabel'] : $ps_label = 'Compartilhar';
 	
  			$this->view->setVar("shareLink", "<a href='#' onclick='caMediaPanel.showPanel(\"".caNavUrl($this->request, '', 'Detail', 'ShareForm', array("tablename" => $t_subject->tableName(), "item_id" => $t_subject->getPrimaryKey()))."\"); return false;'>".$ps_label."</a>");
 

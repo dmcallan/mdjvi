@@ -44,7 +44,7 @@
 ?>
 		<div class="bSearchWithin"><form role="search" action="<?php print caNavUrl($this->request, '*', 'Search', '*'); ?>" >
 			<div class="form-group">
-				<button type="submit" class="pull-right btn-default"><span class="glyphicon glyphicon-search"></span></button><input type="text" class="form-control" placeholder="Search within" name="search_refine">
+				<button type="submit" class="pull-right btn-default"><span class="glyphicon glyphicon-search"></span></button><input type="text" class="form-control" placeholder="Pesquisar nos resultados" name="search_refine">
 				<input type="hidden" name="key" value="<?php print $vs_key; ?>">
 			</div>
 		</form></div>

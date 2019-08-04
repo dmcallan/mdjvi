@@ -25425,6 +25425,36 @@
       </placement>
      </bundlePlacements>
     </screen>
+    <screen idno="screen_13_7" default="0">
+          <labels>
+            <label locale="fr_FR">
+              <name>Droits d'accès</name>
+            </label>
+            <label locale="pt_BR">
+              <name>Direito de acesso</name>
+            </label>
+          </labels>
+          <bundlePlacements>
+            <placement code="access1">
+              <bundle>access</bundle>
+              <settings>
+                <setting name="readonly"/>
+                <setting name="expand_collapse_value">bubbles</setting>
+                <setting name="expand_collapse_no_value">bubbles</setting>
+              </settings>
+            </placement>
+            <placement code="ca_attribute_accessrestrict2">
+              <bundle>ca_attribute_accessrestrict</bundle>
+              <settings>
+                <setting name="readonly"/>
+                <setting name="expand_collapse_value">bubbles</setting>
+                <setting name="expand_collapse_no_value">bubbles</setting>
+                <setting name="sort">1</setting>
+                <setting name="sortDirection">ASC</setting>
+              </settings>
+            </placement>
+          </bundlePlacements>
+        </screen>
    </screens>
   </userInterface>
   <userInterface code="loan_cataloguers_ui" type="ca_loans">

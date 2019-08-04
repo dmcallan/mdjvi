@@ -46,8 +46,8 @@ print "<p>Digite seus termos de pesquisa nos campos abaixo.</p>";
 	</div>
 	<br style="clear: both;"/>
 	<div class='advancedFormSubmit'>
-		<span class='btn btn-default'>{{{reset%label=Reset}}}</span>
-		<span class='btn btn-default' style="margin-left: 20px;">{{{submit%label=Search}}}</span>
+		<span class='btn btn-default'>{{{reset%label=Resetar}}}</span>
+		<span class='btn btn-default' style="margin-left: 20px;">{{{submit%label=Procurar}}}</span>
 	</div>
 </div>	
 
@@ -56,7 +56,7 @@ print "<p>Digite seus termos de pesquisa nos campos abaixo.</p>";
 	</div>
 	<div class="col-sm-4" >
 		<h1>Dicas</h1>
-		<p>Na pesquisa por Intervalo de Datas você utilizar os seguintes formatos:</p>
+		<p>Na pesquisa por Intervalo de Datas você pode utilizar os seguintes formatos:</p>
 		<br>
 		<p>1920s - Pesquisa por objetos criados na década especificada.</p>
 		<p>19th - Pesquisa por objetos criados no século específicado.</p>
