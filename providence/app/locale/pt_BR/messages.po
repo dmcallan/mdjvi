@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: CollectiveAccess Providence\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-27 14:05-0400\n"
-"PO-Revision-Date: 2019-08-04 23:00-0300\n"
+"PO-Revision-Date: 2019-08-05 23:17-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/collectiveaccess/collectiveaccess-"
 "providence/language/pt/)\n"
@@ -24544,6 +24544,8 @@ msgid ""
 "Accepts a constant list item idno from the list object_lot_types or a reference to "
 "the location in the data source where the type can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista object_lot_types ou uma referência ao "
+"local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:135
 msgid "Lot status"
@@ -24554,12 +24556,17 @@ msgid ""
 "Accepts a constant list item idno from the list object_lot_statuses or a reference to "
 "the location in the data source where the status can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista object_lot_statuses ou uma referência "
+"ao local na origem de dados onde o status pode ser encontrado."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:145
 msgid ""
 "Sets or maps metadata for the lot record by referencing the metadataElement code and "
 "the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de lote referenciando o código "
+"metadataElement e o local na origem de dados onde os valores de dados podem ser "
+"encontrados."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:162
 msgid "Lot type default"
@@ -24570,6 +24577,9 @@ msgid ""
 "Sets the default lot type that will be used if none are defined or if the data source "
 "values do not match any values in the CollectiveAccess list object_lot_types."
 msgstr ""
+"Define o tipo de lote padrão que será usado se nenhum estiver definido ou se os "
+"valores da fonte de dados não corresponderem a nenhum valor na lista CollectiveAccess "
+"object_lot_types."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:171
 msgid "Lot status default"
@@ -24581,6 +24591,9 @@ msgid ""
 "source values do not match any values in the CollectiveAccess list "
 "object_lot_statuses."
 msgstr ""
+"Define o status do lote padrão que será usado se nenhum estiver definido ou se os "
+"valores da fonte de dados não corresponderem a nenhum valor na lista CollectiveAccess "
+"object_lot_statuses."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:181
 msgid ""
@@ -24588,18 +24601,21 @@ msgid ""
 "referencing the metadataElement code and the location in the data source where the "
 "data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro <em>relacionamento</em> do lote "
+"intersticial, referenciando o código metadataElement e o local na origem de dados em "
+"que os valores de dados podem ser encontrados."
 
 #: app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:190
 msgid "List of non-preferred labels to apply to lots."
-msgstr ""
+msgstr "Lista de marcadores não preferenciais para aplicar a lotes."
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:35
 msgid "Object representation splitter"
-msgstr ""
+msgstr "Divisor de representação de objeto"
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:36
 msgid "Splits object representations"
-msgstr ""
+msgstr "Divide as representações de objetos"
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:99
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:126
@@ -24611,6 +24627,8 @@ msgid ""
 "Accepts a constant list item idno from the list object_representation_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
+"Aceita um idno de item de lista constante da lista object_representation_types ou uma "
+"referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:109
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:136
@@ -24618,6 +24636,9 @@ msgid ""
 "Sets or maps metadata for the object record by referencing the metadataElement code "
 "and the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de objeto referenciando o código "
+"metadataElement e o local na fonte de dados onde os valores de dados podem ser "
+"encontrados."
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:117
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:162
@@ -24640,10 +24661,13 @@ msgid ""
 "em> record by referencing the metadataElement code and the location in the data "
 "source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de <em>relacionamento</em> de "
+"representação do objeto intersticial referenciando o código metadataElement e o local "
+"na origem de dados onde os valores de dados podem ser encontrados."
 
 #: app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:135
 msgid "Media prefix"
-msgstr ""
+msgstr "Prefixo de mídia"
 
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:35
 msgid "Object splitter"
@@ -24660,22 +24684,31 @@ msgid ""
 "relationship type matches that set as the hierarchy control, the object will be "
 "pulled in as a \"child\" element in the object hierarchy."
 msgstr ""
+"Aceita um código de tipo constante para o tipo de relacionamento ou uma referência "
+"para o local na fonte de dados onde o tipo pode ser encontrado. Nota para dados de "
+"objeto: se o tipo de relacionamento corresponder ao definido como o controle de "
+"hierarquia, o objeto será puxado como um elemento \"filho\" na hierarquia de objetos."
 
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:127
 msgid ""
 "Accepts a constant list item idno from the list object_types or a reference to the "
 "location in the data source where the type can be found."
 msgstr ""
+"Aceita um idno de item de lista constante da lista object_types ou uma referência ao "
+"local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:145
 msgid "Object parents to create, if required"
-msgstr ""
+msgstr "Pais objeto para criar, se necessário"
 
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:163
 msgid ""
 "Sets the default object type that will be used if none are defined or if the data "
 "source values do not match any values in the CollectiveAccess list object_types."
 msgstr ""
+"Define o tipo de objeto padrão que será usado se nenhum for definido ou se os valores "
+"da fonte de dados não corresponderem a nenhum valor na object_types da lista "
+"CollectiveAccess."
 
 #: app/refineries/objectSplitter/objectSplitterRefinery.php:172
 msgid ""
@@ -24683,6 +24716,9 @@ msgid ""
 "referencing the metadataElement code and the location in the data source where the "
 "data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro <em> relacionamento</em> do objeto "
+"intersticial, referenciando o código metadataElement e o local na origem de dados em "
+"que os valores de dados podem ser encontrados."
 
 #: app/refineries/occurrenceHierarchyBuilder/occurrenceHierarchyBuilderRefinery.php:37
 msgid "Occurrence hierarchy builder"
@@ -24696,6 +24732,8 @@ msgstr "Cria uma hierarquia de ocorrências."
 msgid ""
 "occurrenceHierarchyBuilder refinery may only be used in imports to ca_occurrences"
 msgstr ""
+"A refinaria occurrenceHierarchyBuilder só pode ser usada nas importações para "
+"ca_occurrences"
 
 #: app/refineries/occurrenceHierarchyBuilder/occurrenceHierarchyBuilderRefinery.php:119
 msgid "Occurrence parents to create"
@@ -24712,6 +24750,10 @@ msgid ""
 "for related occurrences, building occurrence hierarchies and merging occurrence data "
 "with names."
 msgstr ""
+"Fornece várias funções de importação relacionadas à ocorrência: divisão de várias "
+"ocorrências em uma cadeia em valores individuais, mapeamento de tipo e tipo de "
+"relacionamento para ocorrências relacionadas, criação de hierarquias de ocorrência e "
+"mesclagem de dados de ocorrência com nomes."
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:117
 msgid ""
@@ -24720,6 +24762,11 @@ msgid ""
 "relationship type matches that set as the hierarchy control, the object will be "
 "pulled in as a \"child\" element in the occurrence hierarchy."
 msgstr ""
+"Aceita um código de tipo constante para o tipo de relacionamento ou uma referência "
+"para o local na fonte de dados onde o tipo pode ser encontrado. Nota para dados de "
+"objeto: se o tipo de relacionamento corresponder ao definido como o controle de "
+"hierarquia, o objeto será puxado como um elemento \"filho\" na hierarquia de "
+"ocorrências."
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:125
 msgid "Occurrence type"
@@ -24730,16 +24777,21 @@ msgid ""
 "Accepts a constant list item idno from the list occurrence_types or a reference to "
 "the location in the data source where the type can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista occurrence_types ou uma referência ao "
+"local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:135
 msgid ""
 "Sets or maps metadata for the occurrence record by referencing the metadataElement "
 "code and the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de ocorrência referenciando o código "
+"metadataElement e o local na origem de dados onde os valores de dados podem ser "
+"encontrados."
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:144
 msgid "Occurrence parents to create, if required"
-msgstr ""
+msgstr "Pais da ocorrência a criar, se necessário"
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:161
 msgid "Occurrence type default"
@@ -24760,38 +24812,41 @@ msgid ""
 "referencing the metadataElement code and the location in the data source where the "
 "data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro <em>relacionamento</em> de ocorrência "
+"intersticial, referenciando o código metadataElement e o local na origem de dados em "
+"que os valores de dados podem ser encontrados."
 
 #: app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:180
 msgid "List of non-preferred labels to apply to occurrences."
-msgstr ""
+msgstr "Lista de marcadores não preferenciais para aplicar a ocorrências."
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:37
 msgid "Place hierarchy builder"
-msgstr ""
+msgstr "Construtor de hierarquia de lugar"
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:38
 msgid "Builds a place hierarchy."
-msgstr ""
+msgstr "Cria uma hierarquia de lugar."
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:69
 msgid "placeHierarchyBuilder refinery may only be used in imports to ca_places"
-msgstr ""
+msgstr "refinaria placeHierarchyBuilder só pode ser usada em importações para ca_places"
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:93
 msgid "[placeHierarchyBuilderRefinery] No place hierarchies are defined"
-msgstr ""
+msgstr "[placeHierarchyBuilderRefinery] Nenhuma hierarquia de locais está definida"
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:138
 msgid "Identifies the hierarchy (list_item id or idno) to add items to."
-msgstr ""
+msgstr "Identifica a hierarquia (list_item id ou idno) para adicionar itens a."
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:147
 msgid "Deprecated synonym for placeHierarchy setting."
-msgstr ""
+msgstr "Sinônimo obsoleto para configuração de placeHierarchy."
 
 #: app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:156
 msgid "Place parents to create"
-msgstr ""
+msgstr "Pais de lugar para criar"
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:35
 msgid "Place splitter"
@@ -24803,10 +24858,14 @@ msgid ""
 "string into individual values, mapping of type and relationship type for related "
 "places, building place hierarchies and merging place data with names."
 msgstr ""
+"Fornece várias funções de importação relacionadas ao local: divisão de vários locais "
+"em uma cadeia em valores individuais, mapeamento de tipo e tipo de relacionamento "
+"para locais relacionados, hierarquias de locais de construção e mesclagem de dados de "
+"locais com nomes."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:72
 msgid "[placeSplitterRefinery] No place hierarchies are defined"
-msgstr ""
+msgstr "[placeSplitterRefinery] Nenhuma hierarquia de lugares é definida"
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:148
 msgid "Place type"
@@ -24817,24 +24876,29 @@ msgid ""
 "Accepts a constant list item idno from the list place_types or a reference to the "
 "location in the data source where the type can be found."
 msgstr ""
+"Aceita um idno de item de lista constante da lista place_types ou uma referência ao "
+"local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:158
 msgid ""
 "Sets or maps metadata for the place record by referencing the metadataElement code "
 "and the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de local referenciando o código "
+"metadataElement e o local na origem de dados onde os valores de dados podem ser "
+"encontrados."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:167
 msgid "Place parents to create, if required"
-msgstr ""
+msgstr "Pais do lugar para criar, se requerido"
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:176
 msgid "Place hierarchy to create, if required."
-msgstr ""
+msgstr "Hierarquia de lugar para criar, se necessário."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:185
 msgid "Identifier of the place hierarchy to add places under."
-msgstr ""
+msgstr "Identificador da hierarquia de locais para adicionar lugares abaixo."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:202
 msgid "Place type default"
@@ -24845,6 +24909,9 @@ msgid ""
 "Sets the default place type that will be used if none are defined or if the data "
 "source values do not match any values in the CollectiveAccess list place_types"
 msgstr ""
+"Define o tipo de local padrão que será usado se nenhum estiver definido ou se os "
+"valores da fonte de dados não corresponderem a nenhum valor na lista CollectiveAccess "
+"list_types"
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:221
 msgid ""
@@ -24852,32 +24919,37 @@ msgid ""
 "referencing the metadataElement code and the location in the data source where the "
 "data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro <em>relacionamento</em> do espaço "
+"intersticial, referenciando o código metadataElement e o local na origem de dados em "
+"que os valores de dados podem ser encontrados."
 
 #: app/refineries/placeSplitter/placeSplitterRefinery.php:230
 msgid "List of non-preferred labels to apply to places."
-msgstr ""
+msgstr "Lista de marcadores não preferenciais para aplicar a lugares."
 
 #: app/refineries/storageLocationHierarchyBuilder/storageLocationHierarchyBuilderRefinery.php:37
 msgid "Storage location hierarchy builder"
-msgstr ""
+msgstr "Construtor de hierarquia de local de armazenamento"
 
 #: app/refineries/storageLocationHierarchyBuilder/storageLocationHierarchyBuilderRefinery.php:38
 msgid "Builds a storage location hierarchy."
-msgstr ""
+msgstr "Cria uma hierarquia de local de armazenamento."
 
 #: app/refineries/storageLocationHierarchyBuilder/storageLocationHierarchyBuilderRefinery.php:69
 msgid ""
 "storageLocationHierarchyBuilder refinery may only be used in imports to "
 "ca_storage_locations"
 msgstr ""
+"A refinaria storageLocationHierarchyBuilder só pode ser usada em importações para "
+"ca_storage_locations"
 
 #: app/refineries/storageLocationHierarchyBuilder/storageLocationHierarchyBuilderRefinery.php:119
 msgid "Storage location parents to create"
-msgstr ""
+msgstr "Pais de local de armazenamento para criar"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:36
 msgid "Storage location splitter"
-msgstr ""
+msgstr "Divisor de localização de armazenamento"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:37
 msgid ""
@@ -24886,20 +24958,27 @@ msgid ""
 "for related locations, building location hierarchies and merging location data with "
 "names."
 msgstr ""
+"Fornece várias funções de importação relacionadas ao local de armazenamento: divisão "
+"de vários locais em uma cadeia em valores individuais, mapeamento de tipo e tipo de "
+"relacionamento para locais relacionados, hierarquias de local de construção e "
+"mesclagem de dados de local com nomes."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:121
 msgid "Sets the value of the delimiter to break hierarchical values on."
-msgstr ""
+msgstr "Define o valor do delimitador para quebrar os valores hierárquicos."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:129
 msgid "Hierarchical storage location types"
-msgstr ""
+msgstr "Tipos de localização de armazenamento hierárquicos"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:130
 msgid ""
 "A semicolon-delimited list of storage location types to apply to hierarchical storage "
 "locations extracted using the hierarchical delimiter."
 msgstr ""
+"Uma lista delimitada por ponto-e-vírgula de tipos de locais de armazenamento a serem "
+"aplicados a locais de armazenamento hierárquicos extraídos usando o delimitador "
+"hierárquico."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:147
 msgid "Storage location type"
@@ -24910,6 +24989,8 @@ msgid ""
 "Accepts a constant list item idno from the list storage_location_types or a reference "
 "to the location in the data source where the type can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista storage_location_types ou uma "
+"referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:157
 msgid ""
@@ -24917,14 +24998,17 @@ msgid ""
 "metadataElement code and the location in the data source where the data values can be "
 "found."
 msgstr ""
+"Define ou mapeia metadados para o registro do local de armazenamento referenciando o "
+"código metadataElement e o local na origem de dados onde os valores de dados podem "
+"ser encontrados."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:166
 msgid "Storage location parents to create, if required"
-msgstr ""
+msgstr "Pais de locais de armazenamento para criar, se necessário"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:183
 msgid "Storage location type default"
-msgstr ""
+msgstr "Padrão de tipo de local de armazenamento"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:184
 msgid ""
@@ -24932,6 +25016,9 @@ msgid ""
 "the data source values do not match any values in the CollectiveAccess list "
 "storage_location_types"
 msgstr ""
+"Define o tipo de local de armazenamento padrão que será usado se nenhum estiver "
+"definido ou se os valores da fonte de dados não corresponderem a nenhum valor na "
+"lista CollectiveAccess storage_location_types"
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:193
 msgid ""
@@ -24939,10 +25026,13 @@ msgid ""
 "record by referencing the metadataElement code and the location in the data source "
 "where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro <em>relacionamento</em> do local de "
+"armazenamento intersticial, fazendo referência ao código metadataElement e ao local "
+"na origem de dados em que os valores de dados podem ser encontrados."
 
 #: app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:202
 msgid "List of non-preferred labels to apply to storage locations."
-msgstr ""
+msgstr "Lista de marcadores não preferenciais para aplicar a locais de armazenamento."
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:39
 msgid "Tour maker"
@@ -24950,69 +25040,86 @@ msgstr "Criador de visita guiada"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:40
 msgid "Creates tour records as required during import."
-msgstr ""
+msgstr "Cria registros de visita guiada conforme necessário durante a importação."
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:77
 msgid "[tourMakerRefinery] No value set for tour"
-msgstr ""
+msgstr "[tourMakerRefinery] Nenhum valor definido para a visita guiada"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:96
 msgid "[tourMakerRefinery] No tour type is set for tour %1"
 msgstr ""
+"[tourMakerRefinery] Nenhum tipo de visita guiada está definida para a visita guiada %1"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:115
 msgid "[tourMakerRefinery] Could not create tour %1: %2"
-msgstr ""
+msgstr "[tourMakerRefinery] Não foi possível criar a visita guiada %1: %2"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:123
 msgid "[tourMakerRefinery] Could not add label for tour %1: %2"
 msgstr ""
+"[tourMakerRefinery] Não foi possível adicionar marcador para a visita guiada %1: %2"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:142
 msgid "[tourMakerRefinery] Could not save data for tour %1: %2"
-msgstr ""
+msgstr "[tourMakerRefinery] Não foi possível salvar os dados da visita guiada %1: %2"
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:170
 msgid ""
 "Accepts a constant list item idno from the list tour_types or a reference to the "
 "location in the data source where the type can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista tour_types ou uma referência ao local "
+"na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:179
 msgid ""
 "Sets or maps metadata for the tour record by referencing the metadataElement code or "
 "the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro da visita guiada, referenciando o código "
+"metadataElement ou o local na fonte de dados onde os valores de dados podem ser "
+"encontrados."
 
 #: app/refineries/tourMaker/tourMakerRefinery.php:188
 msgid ""
 "Sets the default tour type that will be used if none are defined or if the data "
 "source values do not match any values in the CollectiveAccess list tour_types."
 msgstr ""
+"Define o tipo de visita guiada padrão que será usado se nenhum estiver definido ou se "
+"os valores da fonte de dados não corresponderem a nenhum valor na lista Tour_types de "
+"CollectiveAccess."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:35
 msgid "Tour stop splitter"
-msgstr ""
+msgstr "Divisor de parada de visita guiada"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:36
 msgid "Provides several tourstop location-related import functions."
 msgstr ""
+"Fornece várias funções de importação relacionadas ao local da parada de visita guiada."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:108
 msgid "[tourStopSplitterRefinery] No relationship type is set for tour stop %1"
 msgstr ""
+"[tourStopSplitterRefinery] Nenhum tipo de relacionamento está definido para a parada "
+"da visita guiada %1"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:123
 msgid "[tourStopSplitterRefinery] No collection type is set for tour stop %1"
 msgstr ""
+"[tourStopSplitterRefinery] Nenhum tipo de coleção está definido para a parada da "
+"visita guiada %1"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:133
 msgid "[tourStopSplitterRefinery] Could not find tour %1 to relate stop stops to."
 msgstr ""
+"[tourStopSplitterRefinery] Não foi possível encontrar a visita guiada %1 para "
+"relacionar as paradas de parada em."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:150
 msgid "[tourStopSplitterRefinery] No parent found for %1"
-msgstr ""
+msgstr "[tourStopSplitterRefinery] Nenhum pai encontrado para %1"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:224
 msgid "Tour stop type"
@@ -25023,26 +25130,34 @@ msgid ""
 "Accepts a constant list item idno from the list tour_stop_types or a reference to the "
 "location in the data source where the type can be found."
 msgstr ""
+"Aceita um item de lista constante idno da lista tour_stop_types ou uma referência ao "
+"local na fonte de dados onde o tipo pode ser encontrado."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:234
 msgid ""
 "Sets or maps metadata for the tour stop record by referencing the metadataElement "
 "code and the location in the data source where the data values can be found."
 msgstr ""
+"Define ou mapeia os metadados para o registro de parada da visita guiada "
+"referenciando o código metadataElement e o local na fonte de dados onde os valores de "
+"dados podem ser encontrados."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:243
 msgid "Identifies the tour to add the stop to."
-msgstr ""
+msgstr "Identifica a visita guiada para adicionar a parada."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:260
 msgid "Tour stop type default"
-msgstr ""
+msgstr "Tipo padrão da parada de visita guiada"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:261
 msgid ""
 "Sets the default tour stop type that will be used if none are defined or if the data "
 "source values do not match any values in the CollectiveAccess list tour_stop_types"
 msgstr ""
+"Define o tipo padrão de parada da visita guiada que será usado se nenhum estiver "
+"definido ou se os valores da fonte de dados não corresponderem a nenhum valor na "
+"lista CollectiveAccess tour_stop_types"
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:270
 msgid ""
@@ -25050,18 +25165,21 @@ msgid ""
 "referencing the metadataElement code and the location in the data source where the "
 "data values can be found."
 msgstr ""
+"Define ou mapeia metadados para o registro de <em>relacionamento</em> da visita "
+"guiada intersticial, referenciando o código metadataElement e o local na origem de "
+"dados onde os valores de dados podem ser encontrados."
 
 #: app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:279
 msgid "List of non-preferred labels to apply to tour stops."
-msgstr ""
+msgstr "Lista de marcadores não preferenciais para aplicar a paradas de visita guiada."
 
 #: app/service/controllers/ModelController.php:81
 msgid "Got incoming updateConfig request from %1"
-msgstr ""
+msgstr "Recebida a solicitação de entrada updateConfig de %1"
 
 #: app/service/controllers/ModelController.php:82
 msgid "Raw payload is %1"
-msgstr ""
+msgstr "Carga bruta é %1"
 
 #: app/service/controllers/ModelController.php:83
 msgid "Running installer now ..."
@@ -25334,7 +25452,7 @@ msgstr "Mostrar logins ocorrendo a menos de ^ELEMENT horas atrás"
 
 #: app/widgets/lastLogins/lastLoginsWidget.php:161
 msgid "Threshold (in hours) to display logins"
-msgstr ""
+msgstr "Limite (em horas) para exibir logins"
 
 #: app/widgets/lastLogins/views/main_html.php:40
 msgid "IP address"
@@ -25346,7 +25464,7 @@ msgstr "Links"
 
 #: app/widgets/links/linksWidget.php:39
 msgid "Displays CollectiveAccess project links"
-msgstr ""
+msgstr "Exibe os links do projeto CollectiveAccess"
 
 #: app/widgets/links/views/main_html.php:34
 msgid "Project website"
@@ -25430,7 +25548,7 @@ msgstr "Você não tem novas notificações"
 
 #: app/widgets/notifications/views/main_html.php:50
 msgid "Read"
-msgstr ""
+msgstr "Ler"
 
 #: app/widgets/randomObject/randomObjectWidget.php:39
 msgid "Random Object"
@@ -25446,39 +25564,40 @@ msgstr "Alterações recentes"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:44
 msgid "Lists recent changes to objects or authority items"
-msgstr ""
+msgstr "Lista alterações recentes em objetos ou itens de autoridade"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:93
 msgid "Recent changes widget"
-msgstr ""
+msgstr "Widget de mudanças recentes"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:94
 msgid "Actions for recent changes widget"
-msgstr ""
+msgstr "Ações para widget de mudanças recentes"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:107
 msgid "Can use recent changes widget"
-msgstr ""
+msgstr "Pode usar o widget de mudanças recentes"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:108
 msgid "User can use dashboard widget that lists recent changes in the database."
 msgstr ""
+"O usuário pode usar o widget do painel que lista mudanças recentes no banco de dados."
 
 #: app/widgets/recentChanges/recentChangesWidget.php:132
 msgid "Type of changes to display"
-msgstr ""
+msgstr "Tipo de alterações a serem exibidas"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:140
 msgid "Show changes made less than ^ELEMENT hours ago"
-msgstr ""
+msgstr "Mostrar alterações feitas a menos de ^ELEMENT horas atrás"
 
 #: app/widgets/recentChanges/recentChangesWidget.php:141
 msgid "Threshold (in hours) to display change log entries for"
-msgstr ""
+msgstr "Limite (em horas) para exibir entradas do log de alterações para"
 
 #: app/widgets/recentChanges/views/main_html.php:50
 msgid "Changes to <strong>%1</strong> from %2"
-msgstr ""
+msgstr "Muda para <strong>%1</strong> de %2"
 
 #: app/widgets/recentChanges/views/main_html.php:58
 msgid "edited"
@@ -25500,11 +25619,11 @@ msgstr "Atualizado %1 para '%2'"
 #: themes/default/views/logs/global_change_log_html.php:108
 #: themes/default/views/logs/my_change_log_html.php:108
 msgid "Unknown change type '%1'"
-msgstr ""
+msgstr "Tipo de alteração desconhecido '%1'"
 
 #: app/widgets/recentChanges/views/main_html.php:92
 msgid "There have been no changes to <strong>%1</strong> from %2."
-msgstr ""
+msgstr "Não houve alterações em <strong>%1</strong> de %2."
 
 #: app/widgets/recentComments/recentCommentsWidget.php:42
 msgid "Lists recently created comments"
@@ -25523,19 +25642,20 @@ msgstr "por moderar"
 
 #: app/widgets/recentComments/recentCommentsWidget.php:114
 msgid "Recent comments widget"
-msgstr ""
+msgstr "Widget de comentários recentes"
 
 #: app/widgets/recentComments/recentCommentsWidget.php:115
 msgid "Actions for recent comments widget"
-msgstr ""
+msgstr "Ações para o widget de comentários recentes"
 
 #: app/widgets/recentComments/recentCommentsWidget.php:128
 msgid "Can use recent comment widget"
-msgstr ""
+msgstr "Pode usar o widget de comentários recentes"
 
 #: app/widgets/recentComments/recentCommentsWidget.php:129
 msgid "User can use dashboard widget that lists recently created comments."
 msgstr ""
+"O usuário pode usar o widget do painel que lista os comentários criados recentemente."
 
 #: app/widgets/recentComments/recentCommentsWidget.php:144
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:172
@@ -25569,7 +25689,7 @@ msgstr "Limite de exibição"
 
 #: app/widgets/recentComments/recentCommentsWidget.php:158
 msgid "Limits the number of comments to be listed in the widget."
-msgstr ""
+msgstr "Limita o número de comentários a serem listados no widget."
 
 #: app/widgets/recentComments/views/main_html.php:38
 msgid "Displaying the last %1 %2 comments"
@@ -25609,35 +25729,36 @@ msgstr "Inscrições"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:44
 msgid "Lists recent public user registrations"
-msgstr ""
+msgstr "Lista cadastros recentes de usuários públicos"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:142
 msgid "Recent registrations widget"
-msgstr ""
+msgstr "Widget de cadastros recentes"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:143
 msgid "Actions for recent registrations widget"
-msgstr ""
+msgstr "Ações para o widget de cadastros recentes"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:155
 msgid "Can use recent registrations widget"
-msgstr ""
+msgstr "Pode usar o widget de cadastros recentes"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:156
 msgid "User can use dashboard widget that lists recently created registrations."
 msgstr ""
+"O usuário pode usar o widget de painel que lista os cadastros criados recentemente."
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:176
 msgid "Type of registrations to display"
-msgstr ""
+msgstr "Tipo de cadastros para exibir"
 
 #: app/widgets/recentRegistrations/recentRegistrationsWidget.php:185
 msgid "Limits the number of registrations to be listed in the widget."
-msgstr ""
+msgstr "Limita o número de cadastros a serem listados no widget."
 
 #: app/widgets/recentRegistrations/views/main_html.php:39
 msgid "Displaying the last %1 %2 public registrations"
-msgstr ""
+msgstr "Exibindo os últimos %1 %2 cadastros públicos"
 
 #: app/widgets/recentRegistrations/views/main_html.php:51
 #: themes/default/views/manage/Results/ca_item_comments_list_html.php:128
@@ -25824,139 +25945,159 @@ msgstr "Visualizar identificador"
 
 #: app/widgets/recentlyCreated/recentlyCreatedWidget.php:288
 msgid "Display label and identifier"
-msgstr ""
+msgstr "Exibir rótulo e identificador"
 
 #: app/widgets/recentlyCreated/views/main_html.php:39
 msgid ""
 "Showing the last %1 <span style='font-weight:bold; text-transform:lowercase;'>%2</"
 "span> created"
 msgstr ""
+"Mostrando o último %1 <span style='font-weight:bold; text-transform:lowercase;'>%2</"
+"span> criado"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:46
 msgid "Records by status"
-msgstr ""
+msgstr "Registros por estado"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:47
 msgid "Displays objects or authority items by cataloguing status"
-msgstr ""
+msgstr "Exibe objetos ou itens de autoridade por estado de catalogação"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:171
 msgid "Records by status widget"
-msgstr ""
+msgstr "Widget de registros por estado"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:172
 msgid "Actions for records by status widget"
-msgstr ""
+msgstr "Ações para o widget de registros por estado"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:185
 msgid "Workflow status: objects"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: objetos"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:186
 msgid ""
 "User can use widget that shows records by workflow status to list new objects in the "
 "dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novos objetos no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:189
 msgid "Workflow status: entities"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: entidades"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:190
 msgid ""
 "User can use widget that shows records by workflow status to list new entities in the "
 "dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novas entidades no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:193
 msgid "Workflow status: places"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: lugares"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:194
 msgid ""
 "User can use widget that shows records by workflow status to list new places in the "
 "dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novos locais no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:197
 msgid "Workflow status: occurrences"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: ocorrências"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:198
 msgid ""
 "User can use widget that shows records by workflow status to list new occurrences in "
 "the dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por status do fluxo de trabalho "
+"para listar novas ocorrências no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:201
 msgid "Workflow status: sets"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: seleções"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:202
 msgid ""
 "User can use widget that shows records by workflow status to list new sets in the "
 "dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novas seleções no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:205
 msgid "Workflow status: collections"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: coleções"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:206
 msgid ""
 "User can use widget that shows records by workflow status to list new collections in "
 "the dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novas coleções no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:209
 msgid "Workflow status: object representations"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: representações de objetos"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:210
 msgid ""
 "User can use widget that shows records by workflow status to list new object "
 "representations in the dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por estado do fluxo de trabalho "
+"para listar novas representações de objetos no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:213
 msgid "Workflow status: object lots"
-msgstr ""
+msgstr "Estado do fluxo de trabalho: lotes de objetos"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:214
 msgid ""
 "User can use widget that shows records by workflow status to list new object lots in "
 "the dashboard."
 msgstr ""
+"O usuário pode usar o widget que mostra registros por status do fluxo de trabalho "
+"para listar novos lotes de objetos no painel."
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:256
 msgid "Display status"
-msgstr ""
+msgstr "Exibir estado"
 
 #: app/widgets/recordsByStatus/recordsByStatusWidget.php:257
 msgid "Status to display"
-msgstr ""
+msgstr "Estado para exibir"
 
 #: app/widgets/recordsByStatus/views/main_html.php:39
 msgid ""
 "Showing %1 <span style='font-weight:bold; text-transform:lowercase;'>%2</span> with "
 "status <span style='font-weight:bold; text-transform:lowercase;'>\"%3\"</span>"
 msgstr ""
+"Mostrando %1 <span style='font-weight:bold; text-transform:lowercase;'>%2</span> com "
+"estado <span style='font-weight:bold; text-transform:lowercase;'> \"%3\"</span>"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:42
 msgid "RSS Viewer"
-msgstr ""
+msgstr "Visualizador de RSS"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:43
 msgid "Display the content of an RSS feed"
-msgstr ""
+msgstr "Exibir o conteúdo de um feed RSS"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:162
 msgid "Feed URL"
-msgstr ""
+msgstr "URL do feed"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:163
 msgid "Feed URL to display in the widget."
-msgstr ""
+msgstr "URL do feed para exibir no widget."
 
 #: app/widgets/rssViewer/rssViewerWidget.php:172
 msgid "3"
@@ -25972,7 +26113,7 @@ msgstr "10"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:176
 msgid "Number of feed items to display"
-msgstr ""
+msgstr "Número de itens do feed a serem exibidos"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:177
 msgid "Limits the number of the feed items displayed at one time."
@@ -25988,11 +26129,11 @@ msgstr "Remover imagens"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:187
 msgid "Remove HTML"
-msgstr ""
+msgstr "Remover HTML"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:189
 msgid "Filter to remove images or HTML?"
-msgstr ""
+msgstr "Filtrar para remover imagens ou HTML?"
 
 #: app/widgets/rssViewer/rssViewerWidget.php:190
 msgid ""
@@ -26000,6 +26141,9 @@ msgid ""
 "for ads and big images feeds.<br/>When remove HTML is chosen, all of the feed will be "
 "cleaned of any HTML tags, leaving text only."
 msgstr ""
+"Quando remover imagens é escolhido, as imagens (IMG) serão removidas do visor. Útil "
+"para anúncios e feeds de imagens grandes. <br/> Quando remover HTML é escolhido, todo "
+"o feed será limpo de qualquer tag HTML, deixando apenas o texto."
 
 #: app/widgets/savedSearches/savedSearchesWidget.php:37
 #: themes/default/views/administrate/setup/Search/widget_ca_list_items_search_tools.php:64
@@ -26022,7 +26166,7 @@ msgstr "Gravar pesquisas"
 
 #: app/widgets/savedSearches/savedSearchesWidget.php:38
 msgid "Performed saved search queries from your dashboard"
-msgstr ""
+msgstr "Realiza consultas de pesquisa salvas no seu painel"
 
 #: app/widgets/savedSearches/views/main_html.php:43
 msgid "Object Searches"
@@ -26038,11 +26182,11 @@ msgstr "Pesquisas de localizações"
 
 #: app/widgets/savedSearches/views/main_html.php:58
 msgid "Object Lot Searches"
-msgstr ""
+msgstr "Pesquisas de lotes de objetos"
 
 #: app/widgets/savedSearches/views/main_html.php:63
 msgid "Storage Location Searches"
-msgstr ""
+msgstr "Pesquisas de Localização de Armazenamento"
 
 #: app/widgets/savedSearches/views/main_html.php:68
 msgid "Collection Searches"
@@ -26102,31 +26246,31 @@ msgstr "Estado de processamento"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:41
 msgid "View the current status of queued processing tasks"
-msgstr ""
+msgstr "Visualizar o status atual das tarefas de processamento enfileiradas"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:147
 msgid "Track processing widget"
-msgstr ""
+msgstr "Widget de rastrear processamento"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:148
 msgid "Actions for track processing widget"
-msgstr ""
+msgstr "Ações para o widget de rastrear processamento"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:161
 msgid "Can use track processing widget"
-msgstr ""
+msgstr "Pode usar widget de rastrear processamento"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:162
 msgid "User can use dashboard widget that lists processing jobs."
-msgstr ""
+msgstr "O usuário pode usar o widget do painel que lista tarefas de processamento."
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:176
 msgid "Show jobs completed less than ^ELEMENT hours ago"
-msgstr ""
+msgstr "Mostrar tarefas concluídas menos de ^ELEMENT horas atrás"
 
 #: app/widgets/trackProcessing/trackProcessingWidget.php:177
 msgid "Threshold (in hours) to display completed jobs"
-msgstr ""
+msgstr "Limite (em horas) para exibir trabalhos concluídos"
 
 #: app/widgets/trackProcessing/views/main_html.php:40
 msgid "Updated at %1"
@@ -26146,7 +26290,7 @@ msgstr "%1 completo"
 
 #: app/widgets/trackProcessing/views/main_html.php:71
 msgid "Jobs currently being processed"
-msgstr ""
+msgstr "Trabalhos atualmente em processamento"
 
 #: app/widgets/trackProcessing/views/main_html.php:78
 #: app/widgets/trackProcessing/views/main_html.php:136
@@ -26161,19 +26305,19 @@ msgstr "Criado por"
 
 #: app/widgets/trackProcessing/views/main_html.php:101
 msgid "Jobs queued for later processing"
-msgstr ""
+msgstr "Trabalhos enfileirados para processamento posterior"
 
 #: app/widgets/trackProcessing/views/main_html.php:108
 msgid "For <em>%1</em>"
-msgstr ""
+msgstr "Para <em>%1</em>"
 
 #: app/widgets/trackProcessing/views/main_html.php:129
 msgid "Jobs completed in the last %1 hours"
-msgstr ""
+msgstr "Trabalhos concluídos nas últimas %1 horas"
 
 #: app/widgets/trackProcessing/views/main_html.php:145
 msgid "TASK DID NOT COMPLETE"
-msgstr ""
+msgstr "TAREFA NÃO COMPLETOU"
 
 #: app/widgets/trackProcessing/views/main_html.php:156
 msgid "DELETED"
@@ -26186,6 +26330,8 @@ msgstr "Tempo total de processamento"
 #: app/widgets/trackProcessing/views/main_html.php:179
 msgid "There are no running jobs, queued jobs or jobs completed in the last %1 hours."
 msgstr ""
+"Não há trabalhos em execução, trabalhos em fila ou trabalhos concluídos nas últimas "
+"%1 horas."
 
 #: app/widgets/watchedItems/views/main_html.php:48
 #: themes/default/views/manage/watched_items_list_html.php:72
@@ -26194,11 +26340,11 @@ msgstr "Alterações recentes"
 
 #: app/widgets/watchedItems/views/main_html.php:54
 msgid "Item was deleted - row_id: %1; table number: %2"
-msgstr ""
+msgstr "Item foi excluído - row_id: %1; número da tabela: %2"
 
 #: app/widgets/watchedItems/views/main_html.php:61
 msgid "Remove from watch list"
-msgstr ""
+msgstr "Remover da lista de observação"
 
 #: app/widgets/watchedItems/views/main_html.php:66
 msgid "You have no items on your watch list."
@@ -26214,292 +26360,327 @@ msgstr "Listar os objetos em observação."
 
 #: install/inc/Installer.php:178
 msgid "Successfully validated profile %1"
-msgstr ""
+msgstr "Perfil %1 validado com sucesso"
 
 #: install/inc/Installer.php:180
 msgid "Validation failed for profile %1"
-msgstr ""
+msgstr "A validação falhou para o perfil %1"
 
 #: install/inc/Installer.php:210
 msgid "Successfully loaded profile from string"
-msgstr ""
+msgstr "Perfil carregado com sucesso da string"
 
 #: install/inc/Installer.php:219
 msgid "Successfully loaded base profile %1"
-msgstr ""
+msgstr "Carregou o perfil base %1 com sucesso"
 
 #: install/inc/Installer.php:549
 msgid "Processing list with code %1"
-msgstr ""
+msgstr "Processando lista com o código %1"
 
 #: install/inc/Installer.php:556
 msgid "List %1 already exists"
-msgstr ""
+msgstr "A lista %1 já existe"
 
 #: install/inc/Installer.php:558
 msgid "%1 is a new list"
-msgstr ""
+msgstr "%1 é uma nova lista"
 
 #: install/inc/Installer.php:564
 msgid "Deleting list %1"
-msgstr ""
+msgstr "Excluindo lista %1"
 
 #: install/inc/Installer.php:594
 msgid "Successfully inserted or updated list %1"
-msgstr ""
+msgstr "Lista %1 inserida ou atualizada com êxito"
 
 #: install/inc/Installer.php:642
 msgid "Processing list item with idno %1"
-msgstr ""
+msgstr "Processando o item da lista com idno %1"
 
 #: install/inc/Installer.php:645
 msgid "List item with idno %1 already exists"
-msgstr ""
+msgstr "O item de lista com idno %1 já existe"
 
 #: install/inc/Installer.php:647
 msgid "Deleting list item with idno %1"
-msgstr ""
+msgstr "Excluindo o item da lista com idno %1"
 
 #: install/inc/Installer.php:655
 msgid "List item with idno %1 is a new item"
-msgstr ""
+msgstr "Item de lista com idno %1 é um novo item"
 
 #: install/inc/Installer.php:663
 msgid "Successfully updated/inserted list item with idno %1"
-msgstr ""
+msgstr "Item de lista com idno %1 atualizado / inserido com sucesso"
 
 #: install/inc/Installer.php:719
 msgid "Successfully nuked all type restrictions for element %1"
-msgstr ""
+msgstr "Removeu com sucesso todas as restrições de tipo para o elemento %1"
 
 #: install/inc/Installer.php:759
 msgid "Successfully added type restriction %1 for element %2"
-msgstr ""
+msgstr "Restrição de tipo %1 adicionada com sucesso para o elemento %2"
 
 #: install/inc/Installer.php:772
 msgid "Processing metadata element with code %1"
-msgstr ""
+msgstr "Processando o elemento de metadados com o código %1"
 
 #: install/inc/Installer.php:780
 msgid "Metadata element with code %1 already exists"
-msgstr ""
+msgstr "O elemento de metadados com o código %1 já existe"
 
 #: install/inc/Installer.php:782
 msgid "Metadata element with code %1 is new"
-msgstr ""
+msgstr "O elemento de metadados com o código %1 é novo"
 
 #: install/inc/Installer.php:788
 msgid "Deleting metadata element with code %1"
-msgstr ""
+msgstr "Excluindo o elemento de metadados com o código %1"
 
 #: install/inc/Installer.php:825
 msgid "Successfully inserted/updated metadata element with code %1"
-msgstr ""
+msgstr "Elemento de metadados com o código %1 inserido / atualizado com sucesso"
 
 #: install/inc/Installer.php:931
 msgid "Processing user interface with code %1"
-msgstr ""
+msgstr "Processando interface do usuário com o código %1"
 
 #: install/inc/Installer.php:939
 msgid "User interface with code %1 is new"
-msgstr ""
+msgstr "A interface do usuário com o código %1 é nova"
 
 #: install/inc/Installer.php:941
 msgid "User interface with code %1 already exists"
-msgstr ""
+msgstr "A interface do usuário com o código %1 já existe"
 
 #: install/inc/Installer.php:947
 msgid "Deleting user interface with code %1"
-msgstr ""
+msgstr "Excluindo a interface do usuário com o código %1"
 
 #: install/inc/Installer.php:968
 msgid "Successfully inserted/updated user interface with code %1"
-msgstr ""
+msgstr "Interface de usuário com o código %1 inserida / atualizada com sucesso"
 
 #: install/inc/Installer.php:984
 msgid "Successfully nuked all type restrictions for user interface with code %1"
 msgstr ""
+"Removeu com sucesso todas as restrições de tipo para a interface do usuário com o "
+"código %1"
 
 #: install/inc/Installer.php:1003 install/inc/Installer.php:1027
 msgid "Successfully added type restriction %1 for user interface with code %2"
 msgstr ""
+"Restrição de tipo %1 adicionada com sucesso para a interface do usuário com o código "
+"%2"
 
 #: install/inc/Installer.php:1036
 msgid "Processing screen with code %1 for user interface with code %2"
-msgstr ""
+msgstr "Processando a tela com o código %1 para a interface do usuário com o código %2"
 
 #: install/inc/Installer.php:1047
 msgid "Screen with code %1 for user interface with code %2 already exists"
-msgstr ""
+msgstr "A tela com o código %1 para a interface do usuário com o código %2 já existe"
 
 #: install/inc/Installer.php:1049
 msgid "Screen with code %1 for user interface with code %2 is new"
-msgstr ""
+msgstr "A tela com o código %1 para a interface do usuário com o código %2 é nova"
 
 #: install/inc/Installer.php:1053
 msgid "Deleting screen with code %1 for user interface with code %2"
-msgstr ""
+msgstr "Excluindo a tela com o código %1 da interface do usuário com o código %2"
 
 #: install/inc/Installer.php:1074
 msgid ""
 "Successfully updated/inserted screen with code %1 for user interface with code %2"
 msgstr ""
+"Tela com o código %1 atualizada / inserida com sucesso para interface do usuário com "
+"o código %2"
 
 #: install/inc/Installer.php:1086
 msgid ""
 "Successfully nuked all bundle placements for screen with code %1 for user interface "
 "with code %2"
 msgstr ""
+"Excluído com sucesso todos os posicionamentos de pacotes para tela com o código %1 "
+"para a interface do usuário com o código %2"
 
 #: install/inc/Installer.php:1124
 msgid ""
 "Adding bundle %1 with code %2 for screen with code %3 and user interface with code %4"
 msgstr ""
+"Adicionando o pacote %1 com o código %2 para a tela com o código %3 e a interface do "
+"usuário com o código %4"
 
 #: install/inc/Installer.php:1137
 msgid ""
 "Successfully nuked all type restrictions for screen with code %1 for user interface "
 "with code %2"
 msgstr ""
+"Excluído com sucesso todas as restrições de tipo para a tela com o código %1 para a "
+"interface do usuário com o código %2"
 
 #: install/inc/Installer.php:1158 install/inc/Installer.php:1180
 msgid ""
 "Successfully added type restriction %1 for screen with code %2 for user interface "
 "with code %3"
 msgstr ""
+"Restrição de tipo %1 adicionada com sucesso para a tela com o código %2 para a "
+"interface do usuário com o código %3"
 
 #: install/inc/Installer.php:1263
 msgid "Processing relationship types for table %1"
-msgstr ""
+msgstr "Processando Tipos de Relacionamento para a Tabela %1"
 
 #: install/inc/Installer.php:1325
 msgid "Processing relationship type with code %1"
-msgstr ""
+msgstr "Processando o tipo de relacionamento com o código %1"
 
 #: install/inc/Installer.php:1336
 msgid "Relationship type with code %1 already exists"
-msgstr ""
+msgstr "O tipo de relacionamento com o código %1 já existe"
 
 #: install/inc/Installer.php:1338
 msgid "Relationship type with code %1 is new"
-msgstr ""
+msgstr "O tipo de relacionamento com o código %1 é novo"
 
 #: install/inc/Installer.php:1342
 msgid "Deleting relationship type with code %1"
-msgstr ""
+msgstr "Excluindo o tipo de relacionamento com o código %1"
 
 #: install/inc/Installer.php:1375
 msgid "Adding left type restriction %1 for relationship type with code %2"
 msgstr ""
+"Adicionando a restrição de tipo à esquerda %1 para o tipo de relacionamento com o "
+"código %2"
 
 #: install/inc/Installer.php:1405
 msgid "Adding right type restriction %1 for relationship type with code %2"
 msgstr ""
+"Adicionando a restrição de tipo direita %1 para o tipo de relacionamento com o código "
+"%2"
 
 #: install/inc/Installer.php:1426
 msgid "Successfully updated/inserted relationship type with code %1"
-msgstr ""
+msgstr "Tipo de relacionamento com o código %1 atualizado / inserido com sucesso"
 
 #: install/inc/Installer.php:1460
 msgid "Processing user role with code %1"
-msgstr ""
+msgstr "Processando a função do usuário com o código %1"
 
 #: install/inc/Installer.php:1463
 msgid "User role with code %1 is new"
-msgstr ""
+msgstr "O papel do usuário com o código %1 é novo"
 
 #: install/inc/Installer.php:1466
 msgid "User role with code %1 already exists"
-msgstr ""
+msgstr "A função do usuário com o código %1 já existe"
 
 #: install/inc/Installer.php:1472
 msgid "Deleting user role with code %1"
-msgstr ""
+msgstr "Excluindo o papel do usuário com o código %1"
 
 #: install/inc/Installer.php:1487
 msgid "Role actions for user role with code %1 are: %2"
-msgstr ""
+msgstr "As ações de função para a função de usuário com o código %1 são: %2"
 
 #: install/inc/Installer.php:1501
 msgid "Successfully updated/inserted user role with code %1"
-msgstr ""
+msgstr "Função de usuário com o código %1 atualizada / inserida com sucesso"
 
 #: install/inc/Installer.php:1508
 msgid ""
 "Successfully nuked all bundle level access control items for user role with code %1"
 msgstr ""
+"Excluído com sucesso todos os itens de controle de acesso de nível do pacote para "
+"função de usuário com o código %1"
 
 #: install/inc/Installer.php:1521
 msgid ""
 "Added bundle level access control item for user role with code %1: table %2, bundle "
 "%3, access %4"
 msgstr ""
+"Adicionado item de controle de acesso de nível de pacote para função de usuário com o "
+"código %1: tabela %2, pacote %3, acesso %4"
 
 #: install/inc/Installer.php:1530
 msgid ""
 "Successfully nuked all type level access control items for user role with code %1"
 msgstr ""
+"Excluído com sucesso todos os itens de controle de acesso de nível de tipo para "
+"função de usuário com o código %1"
 
 #: install/inc/Installer.php:1543
 msgid ""
 "Added type level access control item for user role with code %1: table %2, type %3, "
 "access %4"
 msgstr ""
+"Adicionado item de controle de acesso de nível de tipo para função de usuário com "
+"código %1: tabela %2, tipo %3, acesso %4"
 
 #: install/inc/Installer.php:1552
 msgid ""
 "Successfully nuked all source level access control items for user role with code %1"
 msgstr ""
+"Excluído com sucesso todos os itens de controle de acesso no nível de origem para a "
+"função de usuário com o código %1"
 
 #: install/inc/Installer.php:1566
 msgid ""
 "Added source level access control item for user role with code %1: table %2, source "
 "%3, access %4"
 msgstr ""
+"Item de controle de acesso de nível de origem adicionado para função de usuário com "
+"código %1: tabela %2, origem %3, acesso %4"
 
 #: install/inc/Installer.php:1611
 msgid "Processing display with code %1"
-msgstr ""
+msgstr "Processando a visualização com o código %1"
 
 #: install/inc/Installer.php:1616
 msgid "Display with code %1 is new"
-msgstr ""
+msgstr "Visualização com código %1 é nova"
 
 #: install/inc/Installer.php:1619
 msgid "Display with code %1 already exists"
-msgstr ""
+msgstr "Visualização com código %1 já existe"
 
 #: install/inc/Installer.php:1626
 msgid "Deleting display with code %1"
-msgstr ""
+msgstr "Excluindo visualização com código %1"
 
 #: install/inc/Installer.php:1646
 msgid "Successfully updated/inserted display with code %1"
-msgstr ""
+msgstr "Visualização %1atualizada / inserida com sucesso com o código"
 
 #: install/inc/Installer.php:1662
 msgid "Successfully nuked all type restrictions for display with code %1"
 msgstr ""
+"Excluído com sucesso todas as restrições de tipo para visualização com o código %1"
 
 #: install/inc/Installer.php:1675
 msgid "Added type restriction with code %1 and type %2 for display with code %3"
 msgstr ""
+"Adicionada restrição de tipo com o código %1 e tipo% 2 para visualização com o código "
+"%3"
 
 #: install/inc/Installer.php:1684
 msgid "Added type restriction with type %1 for display with code %2"
-msgstr ""
+msgstr "Adicionada restrição de tipo com o tipo %1 para visualização com o código %2"
 
 #: install/inc/Installer.php:1737
 msgid "Successfully nuked all placements for display with code %1"
-msgstr ""
+msgstr "Excluído com sucesso todos os posicionamentos para visualização com o código %1"
 
 #: install/inc/Installer.php:1753
 msgid "Added bundle placement %1 with code %2 for display with code %3"
 msgstr ""
+"Adicionado o posicionamento do pacote %1 com o código %2 para visualização com o "
+"código %3"
 
 #: install/inc/Installer.php:1799
 msgid "Processing search form with code %1"
-msgstr ""
+msgstr "Processando o formulário de pesquisa com o código %1"
 
 #: install/inc/Installer.php:1803
 msgid "Search form with code %1 is new"
@@ -26520,26 +26701,30 @@ msgstr "Formulário atualizado/inserido com sucesso com o código %1"
 #: install/inc/Installer.php:1847
 msgid "Successfully nuked all type restrictions for form with code %1"
 msgstr ""
+"Excluído com sucesso todas as restrições de tipo para formulário com o código %1"
 
 #: install/inc/Installer.php:1860
 msgid "Added type restriction with code %1 and type %2 for form with code %3"
 msgstr ""
+"Adicionada restrição de tipo com código %1 e tipo %2 para formulário com o código %3"
 
 #: install/inc/Installer.php:1869
 msgid "Added type restriction with type %1 for form with code %2"
-msgstr ""
+msgstr "Adicionada restrição de tipo com tipo %1 para formulário com o código %2"
 
 #: install/inc/Installer.php:1922
 msgid "Successfully nuked all placements for form with code %1"
-msgstr ""
+msgstr "Excluído com sucesso todos os posicionamentos de formulário com o código %1"
 
 #: install/inc/Installer.php:1939
 msgid "Added bundle placement %1 with code %2 for form with code %3"
 msgstr ""
+"Adicionado o posicionamento do pacote %1 com o código %2 para o formulário com o "
+"código %3"
 
 #: install/inc/page1.php:40
 msgid "Version %1 installer (XML)"
-msgstr ""
+msgstr "Instalador da versão %1 (XML)"
 
 #: install/inc/page1.php:52
 msgid ""
@@ -26552,6 +26737,14 @@ msgid ""
 "\t\tIt will also establish an administrator's login for you to use to access your new "
 "system."
 msgstr ""
+"Este instalador terá sua instalação do CollectiveAccess pronta para uso em apenas "
+"alguns minutos.\n"
+"\t\tAntes de executar o instalador, verifique se as configurações no arquivo <i>setup."
+"php</i> estão corretas.\n"
+"\t\tO instalador testará sua conexão com o banco de dados, instalará o esquema do "
+"banco de dados e carregará os valores padrão no banco de dados recém-estabelecido.\n"
+"\t\tEle também estabelecerá um login de administrador para você usar para acessar seu "
+"novo sistema."
 
 #: install/inc/page1.php:62
 msgid "Please enter a valid email address"
@@ -26563,11 +26756,11 @@ msgstr "Endereço de email do Administrador"
 
 #: install/inc/page1.php:68
 msgid "Installation profile"
-msgstr ""
+msgstr "Perfil de instalação"
 
 #: install/inc/page1.php:80
 msgid "Drag profiles here to add or update"
-msgstr ""
+msgstr "Arraste perfis aqui para adicionar ou atualizar"
 
 #: install/inc/page1.php:87
 msgid ""
@@ -26575,6 +26768,9 @@ msgid ""
 "CollectiveAccess <a href=\"http://docs.collectiveaccess.org/wiki/Installation_profile"
 "\" target=\"_blank\">project wiki</a>."
 msgstr ""
+"Mais informações sobre perfis de instalação padrão estão disponíveis no <a href="
+"\"http://docs.collectiveaccess.org/wiki/Installation_profile\" target=\"_blank\">wiki "
+"do projeto</a> CollectiveAccess."
 
 #: install/inc/page1.php:91
 msgid ""
@@ -26584,10 +26780,15 @@ msgid ""
 "profile simply copy the file into the <i>install/profiles/xml</i> directory on your "
 "server and reload the installer in your web browser."
 msgstr ""
+"Não vê um perfil adequado? Navegue em nossa <a href=\"http://www.CollectiveAccess.org/"
+"configuration\" target=\"_blank\">biblioteca de perfis de instalação</a> para obter "
+"configurações adicionais desenvolvidas pela comunidade de usuários CollectiveAccess. "
+"Para instalar um novo perfil, basta copiar o arquivo no diretório <i>install/profiles/"
+"xml</i> do seu servidor e recarregar o instalador no seu navegador."
 
 #: install/inc/page1.php:101
 msgid "Overwrite existing installation?"
-msgstr ""
+msgstr "Sobrescrever a instalação existente?"
 
 #: install/inc/page1.php:108
 msgid "Begin installation"
@@ -26621,6 +26822,12 @@ msgid ""
 "Please take a close look at the new stock file and change your local configuration "
 "accordingly."
 msgstr ""
+"O back-end de autenticação CollectiveAccess teve uma grande reformulação nesta "
+"atualização. Se você usou anteriormente a configuração de autenticação padrão, não há "
+"mais ações necessárias. No entanto, se você fez alterações em seu arquivo de "
+"configuração authentication.conf, é provável que não seja possível efetuar login no "
+"sistema. Por favor, dê uma olhada no novo arquivo padrão e altere sua configuração "
+"local de acordo."
 
 #: support/sql/migrations/VersionUpdate48.php:53
 #: support/sql/migrations/VersionUpdate83.php:53
@@ -26631,18 +26838,22 @@ msgid ""
 "<em>Administrate</em> in the <em>Manage</em> menu.<br/><div style='text-align: "
 "center; margin: 10px;'>%1</div>"
 msgstr ""
+"Agora você deve reconstruir os índices de pesquisa <strong>e</strong> classificar os "
+"valores usando as opções de manutenção administrativa mostradas abaixo. Essas opções "
+"estão disponíveis em <em>Administrar</em> no menu <em>Gerenciar</em>. <br/><div "
+"style='text-align: center; margin: 10px;'>%1</div>"
 
 #: support/sql/migrations/VersionUpdate49.php:91
 msgid "Errors occurred while applying migration 49: %1"
-msgstr ""
+msgstr "Ocorreram erros durante a aplicação da migração 49: %1"
 
 #: support/sql/migrations/VersionUpdate49.php:130
 msgid "Could not create root for relationship %1: %2"
-msgstr ""
+msgstr "Não foi possível criar raiz para o relacionamento %1: %2"
 
 #: support/sql/migrations/VersionUpdate49.php:140
 msgid "Could not add label to root for relationship %1: %2"
-msgstr ""
+msgstr "Não foi possível adicionar rótulo à raiz para o relacionamento %1: %2"
 
 #: support/sql/migrations/VersionUpdate58.php:53
 msgid ""
@@ -26650,14 +26861,18 @@ msgid ""
 "These options are available under <em>Administrate</em> in the <em>Manage</em> menu."
 "<br/><div style='text-align: center; margin: 10px;'>%1</div>"
 msgstr ""
+"Agora você deve classificar os valores usando as opções de manutenção administrativa "
+"mostradas abaixo. Essas opções estão disponíveis em <em>Administrar</em> no menu "
+"<em>Gerenciar</em>. <br/><div style='text-align: center; margin: 10px;'>%1</div>"
 
 #: support/sql/migrations/VersionUpdate77.php:97
 msgid "Could not add missing \"deleted\" field to table ca_list_items"
 msgstr ""
+"Não foi possível adicionar o campo \"eliminado\" em falta à tabela ca_list_items"
 
 #: support/sql/migrations/VersionUpdate77.php:100
 msgid "Added missing \"deleted\" field to table ca_list_items"
-msgstr ""
+msgstr "Foi adicionado o campo \"eliminado\" em falta à tabela ca_list_items"
 
 #: themes/default/views/administrate/access/group_edit_html.php:35
 #: themes/default/views/administrate/access/role_edit_html.php:42
@@ -26869,6 +27084,11 @@ msgid ""
 "Pawtucket access policy for an access value set the level to \"Use Pawtucket default."
 "\""
 msgstr ""
+"Os valores de acesso são usados ​​para controlar se e para quem um registro deve ser "
+"exibido em uma interface baseada em Pawtucket voltada para o público. Os usuários "
+"logados na interface do Pawtucket receberão os níveis de acesso especificados aqui. "
+"Se você deseja usar a política de acesso Pawtucket padrão para um valor de acesso, "
+"defina o nível como \"Usar padrão Pawtucket\"."
 
 #: themes/default/views/administrate/access/role_edit_html.php:234
 msgid "Access status"
@@ -26931,7 +27151,7 @@ msgstr "Descarregar relatório de usuário como"
 #: themes/default/views/administrate/maintenance/acl_reindex_landing_html.php:38
 #: themes/default/views/administrate/maintenance/acl_reindex_status_html.php:30
 msgid "Rebuild ACL index"
-msgstr ""
+msgstr "Reconstruir o índice ACL"
 
 #: themes/default/views/administrate/maintenance/acl_reindex_landing_html.php:32
 #: themes/default/views/administrate/maintenance/search_reindex_landing_html.php:32
@@ -26953,11 +27173,30 @@ msgid ""
 "rely upon indices, will not be affected.</p>\n"
 "\t"
 msgstr ""
+"<p>O CollectiveAccess depende de <em>índices</em> ao pesquisar seus dados. Índices "
+"são simplesmente resumos de seus dados criados para acelerar o processamento de "
+"consultas. A forma precisa e as características dos índices usados ​​variam de acordo "
+"com o tipo de mecanismo de pesquisa que você está usando. Eles podem ser armazenados "
+"em disco, em um banco de dados ou em outro servidor, mas sua finalidade é sempre a "
+"mesma: tornar as pesquisas mais rápidas.</p>\n"
+"<p>Para que os resultados da pesquisa sejam precisos, o banco de dados e os índices "
+"devem estar sincronizados. O CollectiveAccess atualiza simultaneamente o banco de "
+"dados e os índices à medida que você adiciona, edita e exclui dados, mantendo o banco "
+"de dados e os índices em concordância. Ocasionalmente, as coisas ficam fora de "
+"sincronia, no entanto. Se as pesquisas básica e avançada estiverem sempre retornando "
+"resultados inesperados, você poderá usar essa ferramenta para reconstruir os índices "
+"do banco de dados e alinhar as coisas.</p>\n"
+"<p>Observe que, dependendo do tamanho do banco de dados, a reconstrução pode levar de "
+"alguns minutos a várias horas. Durante o processo de reconstrução, o sistema "
+"permanecerá utilizável, mas as funções de pesquisa poderão retornar resultados "
+"incompletos. As funções de navegação, que não dependem de índices, não serão "
+"afetadas. </p>\n"
+"\t"
 
 #: themes/default/views/administrate/maintenance/acl_reindex_status_html.php:58
 #: themes/default/views/administrate/maintenance/search_reindex_status_html.php:58
 msgid "Indexed %1/%2"
-msgstr ""
+msgstr "Indexado %1/%2"
 
 #: themes/default/views/administrate/maintenance/acl_reindex_status_html.php:62
 #: themes/default/views/administrate/maintenance/hierarchical_reindex_status_html.php:49
@@ -26967,7 +27206,7 @@ msgstr "A indexar %1 (%2/%3)"
 
 #: themes/default/views/administrate/maintenance/export_configuration_landing_html.php:29
 msgid "Export system configuration as installation profile"
-msgstr ""
+msgstr "Exportar configuração do sistema como perfil de instalação"
 
 #: themes/default/views/administrate/maintenance/export_configuration_landing_html.php:32
 msgid ""
@@ -26983,10 +27222,21 @@ msgid ""
 "take up to two minutes.</p>\n"
 "\t"
 msgstr ""
+"<p>Você pode exportar a configuração atual deste sistema como um <em>perfil de "
+"instalação</em>. Um perfil é um documento XML descrevendo totalmente todos os "
+"elementos de metadados, listas, interfaces de usuário, locais, formulários de "
+"pesquisa e visualizações presentes em seu sistema. O instalador <em>CollectiveAccess</"
+"em> pode usar perfis de instalação para criar novas instâncias vazias com "
+"configurações específicas para uso em novos projetos.</p>\n"
+"\t<p>Clique no botão \"Exportar\" abaixo para exportar e baixar a configuração atual "
+"do sistema como um perfil de instalação.</p>\n"
+"\t<p>Observe que, para sistemas com configurações complexas, a geração do perfil pode "
+"levar até dois minutos.</p>\n"
+"\t"
 
 #: themes/default/views/administrate/maintenance/export_configuration_landing_html.php:38
 msgid "Export and download system configuration"
-msgstr ""
+msgstr "Exportar e baixar a configuração do sistema"
 
 #: themes/default/views/administrate/maintenance/hierarchical_reindex_landing_html.php:29
 #: themes/default/views/administrate/maintenance/hierarchical_reindex_landing_html.php:37
@@ -27008,6 +27258,18 @@ msgid ""
 "usable but hierarchical functions may return inconsistent results.</p>\n"
 "\t"
 msgstr ""
+"<p>O CollectiveAccess depende de <em>índices</em> especiais para acelerar a "
+"recuperação de dados hierárquicos, como listas de vários níveis e locais de "
+"armazenamento. Ocasionalmente, esses índices podem ficar fora de sincronia com a "
+"estrutura hierárquica real de seus dados. Quando isso ocorre, você pode experimentar "
+"um comportamento estranho ao adicionar, mover ou excluir itens em uma hierarquia. Se "
+"você está tendo problemas com hierarquias, pode reconstruir os índices usando esta "
+"ferramenta.</p> \n"
+"<p>Observe que, dependendo do tamanho do banco de dados, a reconstrução pode levar de "
+"alguns segundos a vários minutos. Durante o processo de reconstrução, o sistema "
+"permanecerá utilizável, mas as funções hierárquicas poderão retornar resultados "
+"inconsistentes.</p> \n"
+"\t"
 
 #: themes/default/views/administrate/maintenance/search_reindex_landing_html.php:29
 #: themes/default/views/administrate/maintenance/search_reindex_landing_html.php:38
@@ -27041,14 +27303,31 @@ msgid ""
 "</p>\n"
 "\t"
 msgstr ""
+"<p>CollectiveAccess depende de <em>valores de classificação</em> ao classificar "
+"valores que não devem ordenar alfabeticamente, como títulos com artigos (por exemplo, "
+"<em>O homem que caiu na Terra</em> deve classificar como <em>Homem que Caiu na Terra, "
+"O </em>) e identificadores alfanuméricos (por exemplo, <em>2011.001</em> e <em>2011.2 "
+"</em> devem ordenar um ao lado do outro com zeros à esquerda no primeiro ignorado) .</"
+"p>\n"
+"<p> Os valores de classificação são derivados dos valores correspondentes em seu "
+"banco de dados. O formato interno dos valores de classificação pode variar entre as "
+"versões do CollectiveAccess, causando um comportamento errôneo de classificação após "
+"uma atualização. Se você perceber que valores como títulos e identificadores estão "
+"sendo ordenados incorretamente, talvez seja necessário recarregar os valores de "
+"classificação dos seus dados.</p> \n"
+"<p> Observe que, dependendo do tamanho do banco de dados, o recarregamento dos "
+"valores de classificação pode levar de alguns minutos a uma hora ou mais. Durante o "
+"processo de recarregamento, o sistema permanecerá utilizável, mas as funções de "
+"pesquisa e navegação poderão retornar resultados classificados incorretamente.</p>\n"
+"\t"
 
 #: themes/default/views/administrate/maintenance/sort_values_reload_status_html.php:58
 msgid "Reloading %1/%2"
-msgstr ""
+msgstr "Recarregando %1/%2"
 
 #: themes/default/views/administrate/maintenance/sort_values_reload_status_html.php:62
 msgid "Reloading sort values for %1 (%2/%3)"
-msgstr ""
+msgstr "Recarregando valores de classificação para %1 (%2/%3)"
 
 #: themes/default/views/administrate/setup/Browse/ajax_browse_facet_html.php:49
 #: themes/default/views/administrate/setup/Search/ajax_refine_facet_html.php:51
@@ -27062,6 +27341,8 @@ msgid ""
 "Click on a %1 to see more specific %2 within that %3, or use the search field. Click "
 "on the arrow next to a %4 to find %5 related to it."
 msgstr ""
+"Clique em um %1 para ver %2 mais específico dentro desse %3, ou use o campo de "
+"pesquisa. Clique na seta ao lado de %4 para encontrar %5 relacionado a ele."
 
 #: themes/default/views/administrate/setup/Browse/ajax_browse_facet_html.php:191
 #: themes/default/views/administrate/setup/Search/ajax_refine_facet_html.php:66
@@ -27069,7 +27350,7 @@ msgstr ""
 #: themes/default/views/find/Search/ajax_refine_facet_html.php:52
 #: themes/default/views/logs/download_html.php:47
 msgid "Group by"
-msgstr ""
+msgstr "Agrupar por"
 
 #: themes/default/views/administrate/setup/Browse/browse_controls_html.php:65
 #: themes/default/views/find/Browse/browse_controls_html.php:65
@@ -27084,7 +27365,7 @@ msgstr "Navegou por: "
 #: themes/default/views/administrate/setup/Browse/browse_controls_html.php:102
 #: themes/default/views/find/Browse/browse_controls_html.php:102
 msgid "start over"
-msgstr ""
+msgstr "recomeçar"
 
 #: themes/default/views/administrate/setup/Browse/browse_controls_html.php:110
 #: themes/default/views/find/Browse/browse_controls_html.php:110
@@ -27094,7 +27375,7 @@ msgstr "Navegue por"
 #: themes/default/views/administrate/setup/Browse/browse_start_html.php:31
 #: themes/default/views/find/Browse/browse_start_html.php:31
 msgid "Choose a selection above to begin browsing"
-msgstr ""
+msgstr "Escolha uma seleção acima para começar a navegar"
 
 #: themes/default/views/administrate/setup/Browse/browse_start_html.php:31
 #: themes/default/views/find/Browse/browse_start_html.php:31
@@ -27121,7 +27402,7 @@ msgstr "Navegar %1"
 #: themes/default/views/administrate/setup/Results/ca_relationship_types_list_html.php:107
 #: themes/default/views/administrate/setup/Results/ca_relationship_types_list_html.php:121
 msgid "View in hierarchy"
-msgstr ""
+msgstr "Visualizar na hierarquia"
 
 #: themes/default/views/administrate/setup/Results/ca_list_items_results_list_html.php:102
 #: themes/default/views/find/Results/ca_collections_results_list_html.php:123
@@ -27138,24 +27419,24 @@ msgstr ""
 #: themes/default/views/find/Results/ca_tours_results_list_html.php:115
 #: themes/default/views/find/Results/related_list_results_list_html.php:150
 msgid "Totals"
-msgstr ""
+msgstr "Totais"
 
 #: themes/default/views/administrate/setup/Results/ca_list_items_results_list_html.php:117
 msgid "View in Hierarchy"
-msgstr ""
+msgstr "Visualizar na hierarquia"
 
 #: themes/default/views/administrate/setup/Results/ca_relationship_types_list_html.php:55
 msgid "Type name (forward sense)"
-msgstr ""
+msgstr "Digite o nome (sentido direto)"
 
 #: themes/default/views/administrate/setup/Results/ca_relationship_types_list_html.php:61
 msgid "Type name (reverse sense)"
-msgstr ""
+msgstr "Digite o nome (sentido reverso)"
 
 #: themes/default/views/administrate/setup/Results/current_sort_html.php:37
 #: themes/default/views/find/Results/current_sort_html.php:37
 msgid "Current sort"
-msgstr ""
+msgstr "Classificação atual"
 
 #: themes/default/views/administrate/setup/Results/no_results_html.php:33
 #: themes/default/views/find/Results/no_results_html.php:35
@@ -27197,19 +27478,19 @@ msgstr "Pular para página"
 #: themes/default/views/manage/Results/ca_item_comments_paging_controls_html.php:56
 #: themes/default/views/manage/Results/ca_item_tags_paging_controls_html.php:56
 msgid "Your %1 found"
-msgstr ""
+msgstr "Seu %1 encontrou"
 
 #: themes/default/views/administrate/setup/Results/search_options_html.php:89
 #: themes/default/views/find/Results/search_options_html.php:94
 #: themes/default/views/find/Results/search_options_related_list_html.php:89
 msgid "#/page"
-msgstr ""
+msgstr "#/página"
 
 #: themes/default/views/administrate/setup/Results/search_options_html.php:101
 #: themes/default/views/find/Results/search_options_html.php:106
 #: themes/default/views/find/Results/search_options_related_list_html.php:101
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: themes/default/views/administrate/setup/Results/search_options_html.php:113
 #: themes/default/views/administrate/setup/interface_editor/summary_html.php:49
@@ -27266,7 +27547,7 @@ msgstr "Adicionar nova lista"
 #: themes/default/views/find/Search/ca_places_search_controls_html.php:53
 #: themes/default/views/find/Search/search_controls_html.php:75
 msgid "Add under %2 new %1"
-msgstr ""
+msgstr "Adicionar abaixo de %2 novo %1"
 
 #: themes/default/views/administrate/setup/Search/search_controls_html.php:99
 msgid "item"
@@ -27314,7 +27595,7 @@ msgstr "A filtrar resultados por"
 #: themes/default/views/administrate/setup/Search/search_refine_html.php:49
 #: themes/default/views/find/Search/search_refine_html.php:49
 msgid "clear all"
-msgstr ""
+msgstr "limpar tudo"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:33
 #: themes/default/views/find/Search/search_sets_html.php:39
@@ -27336,7 +27617,7 @@ msgstr "Adicionar"
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:55
 #: themes/default/views/find/Search/search_sets_html.php:61
 msgid "Toggle checked"
-msgstr ""
+msgstr "Alternar marcado"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:64
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:197
@@ -27351,12 +27632,12 @@ msgstr "Criar seleção"
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:72
 #: themes/default/views/find/Search/search_sets_html.php:80
 msgid "from results"
-msgstr ""
+msgstr "dos resultados"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:73
 #: themes/default/views/find/Search/search_sets_html.php:81
 msgid "from checked"
-msgstr ""
+msgstr "dos selecionados"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:80
 #: themes/default/views/find/Search/search_sets_html.php:96
@@ -27374,13 +27655,13 @@ msgstr "Abrir conjunto para edição em série"
 #: themes/default/views/administrate/setup/Search/search_tools_html.php:142
 #: themes/default/views/find/Search/search_sets_html.php:171
 msgid "Added ^num_items ^item_type_name to <i>^set_name</i>"
-msgstr ""
+msgstr "Adicionado ^num_items ^item_type_name para <i>^set_name</i>"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:156
 #: themes/default/views/administrate/setup/Search/search_tools_html.php:148
 #: themes/default/views/find/Search/search_sets_html.php:177
 msgid "<br/>(^num_dupes were already in the set.)"
-msgstr ""
+msgstr "<br/>(^num_dupes já estavam na seleção.)"
 
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:160
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:163
@@ -27394,19 +27675,19 @@ msgstr "Adicionar a seleção"
 #: themes/default/views/administrate/setup/Search/search_sets_html.php:189
 #: themes/default/views/find/Search/search_sets_html.php:211
 msgid "Created set <i>^set_name</i> with ^num_items ^item_type_name"
-msgstr ""
+msgstr "Criada seleção <i>^set_name</i> com ^num_items ^item_type_name"
 
 #: themes/default/views/administrate/setup/Search/search_tools_html.php:38
 #: themes/default/views/find/Search/search_tools_html.php:38
 #: themes/default/views/find/Search/search_tools_related_list_html.php:40
 msgid "Export results with mapping"
-msgstr ""
+msgstr "Exportar resultados com mapeamento"
 
 #: themes/default/views/administrate/setup/Search/search_tools_html.php:53
 #: themes/default/views/find/Search/search_tools_html.php:53
 #: themes/default/views/find/Search/search_tools_related_list_html.php:55
 msgid "Print results as labels"
-msgstr ""
+msgstr "Imprimir resultados como marcadores"
 
 #: themes/default/views/administrate/setup/Search/search_tools_html.php:73
 #: themes/default/views/find/Search/search_tools_html.php:73
@@ -27467,36 +27748,36 @@ msgstr "Visualizar"
 #: themes/default/views/administrate/setup/ajax_elements_settings_form_html.php:34
 #: themes/default/views/administrate/setup/elements_edit_html.php:98
 msgid "Datatype-specific options"
-msgstr ""
+msgstr "Opções específicas do tipo de dados"
 
 #: themes/default/views/administrate/setup/config_check_html.php:41
 msgid "Version information"
-msgstr ""
+msgstr "Informação da versão"
 
 #: themes/default/views/administrate/setup/config_check_html.php:47
 #: themes/default/views/administrate/setup/config_check_html.php:277
 msgid "Component"
-msgstr ""
+msgstr "Componente"
 
 #: themes/default/views/administrate/setup/config_check_html.php:56
 msgid "Application version"
-msgstr ""
+msgstr "Versão do aplicativo"
 
 #: themes/default/views/administrate/setup/config_check_html.php:60
 msgid "Schema revision"
-msgstr ""
+msgstr "Revisão do esquema"
 
 #: themes/default/views/administrate/setup/config_check_html.php:64
 msgid "Release type"
-msgstr ""
+msgstr "Tipo de lançamento"
 
 #: themes/default/views/administrate/setup/config_check_html.php:68
 msgid "System GUID"
-msgstr ""
+msgstr "GUID do sistema"
 
 #: themes/default/views/administrate/setup/config_check_html.php:72
 msgid "Last change log ID"
-msgstr ""
+msgstr "ID do último log de alteração"
 
 #: themes/default/views/administrate/setup/config_check_html.php:79
 msgid "Search Engine"
@@ -27512,19 +27793,19 @@ msgstr "ok"
 
 #: themes/default/views/administrate/setup/config_check_html.php:114
 msgid "NOT OK!"
-msgstr "NÃO ESTÁ OK"
+msgstr "NÃO ESTÁ OK!"
 
 #: themes/default/views/administrate/setup/config_check_html.php:129
 msgid "General configuration issues"
-msgstr ""
+msgstr "Problemas gerais de configuração"
 
 #: themes/default/views/administrate/setup/config_check_html.php:137
 msgid "Issue"
-msgstr ""
+msgstr "Problema"
 
 #: themes/default/views/administrate/setup/config_check_html.php:160
 msgid "Media Processing Plugins"
-msgstr ""
+msgstr "Plugins de Processamento de Mídia"
 
 #: themes/default/views/administrate/setup/config_check_html.php:167
 #: themes/default/views/administrate/setup/config_check_html.php:222
@@ -27571,11 +27852,11 @@ msgstr "Legendas"
 
 #: themes/default/views/administrate/setup/elements_edit_html.php:82
 msgid "Element type cannot be changed because element is in use"
-msgstr ""
+msgstr "O tipo de elemento não pode ser alterado porque o elemento está em uso"
 
 #: themes/default/views/administrate/setup/elements_edit_html.php:84
 msgid "Changing this value may delete existing data in this element"
-msgstr ""
+msgstr "A alteração deste valor pode excluir dados existentes neste elemento"
 
 #: themes/default/views/administrate/setup/elements_edit_html.php:146
 msgid "Add type restriction"
@@ -27597,11 +27878,11 @@ msgstr "Criar"
 
 #: themes/default/views/administrate/setup/elements_list_html.php:61
 msgid "Applies to"
-msgstr ""
+msgstr "Aplica-se a"
 
 #: themes/default/views/administrate/setup/elements_list_html.php:64
 msgid "Usage in UI"
-msgstr ""
+msgstr "Uso na interface do usuário"
 
 #: themes/default/views/administrate/setup/interface_editor/summary_html.php:80
 #: themes/default/views/administrate/setup/interface_screen_editor/summary_html.php:80
@@ -27684,7 +27965,7 @@ msgstr "Nova interface para "
 
 #: themes/default/views/administrate/setup/ui_list_html.php:68
 msgid "System?"
-msgstr ""
+msgstr "Sistema?"
 
 #: themes/default/views/administrate/setup/widget_element_info_html.php:34
 #: app/conf/navigation.conf:4020
@@ -27701,7 +27982,7 @@ msgstr "%1 elementos são definidos"
 
 #: themes/default/views/administrate/setup/widget_mapping_info_html.php:34
 msgid "Editing import/export mappings"
-msgstr ""
+msgstr "Editando mapeamentos de importação / exportação"
 
 #: themes/default/views/administrate/setup/widget_mapping_info_html.php:37
 msgid "1 mapping is defined"
@@ -27725,18 +28006,22 @@ msgstr "%1 interfaces de usuário estão definidas"
 
 #: themes/default/views/batch/editor/batch_queued_html.php:30
 msgid "Batch queued for background processing"
-msgstr ""
+msgstr "Lote em fila para processamento em segundo plano"
 
 #: themes/default/views/batch/editor/batch_queued_html.php:34
 msgid ""
 "Your batch edit has been queued and will be run shortly. You may continue to work "
 "while the batch is processed."
 msgstr ""
+"Sua edição em lote foi enfileirada e será executada em breve. Você pode continuar "
+"trabalhando enquanto o lote é processado."
 
 #: themes/default/views/batch/editor/batch_queued_html.php:36
 #: themes/default/views/batch/mediaimport/batch_queued_html.php:37
 msgid "You will receive email and SMS text messages when processing is complete."
 msgstr ""
+"Você receberá mensagens de texto por e-mail e SMS quando o processamento estiver "
+"concluído."
 
 #: themes/default/views/batch/editor/batch_queued_html.php:39
 #: themes/default/views/batch/mediaimport/batch_queued_html.php:40
@@ -27747,11 +28032,12 @@ msgstr "Você receberá um email quando o processamento estiver concluído."
 #: themes/default/views/batch/mediaimport/batch_queued_html.php:43
 msgid "You will receive an SMS text message when processing is complete."
 msgstr ""
+"Você receberá uma mensagem de texto SMS quando o processamento estiver concluído."
 
 #: themes/default/views/batch/editor/batch_results_html.php:30
 #: themes/default/views/batch/editor/delete_html.php:50
 msgid "Batch processing status"
-msgstr ""
+msgstr "Estado de processamento em lote"
 
 #: themes/default/views/batch/editor/batch_results_html.php:47
 msgid "Perform another batch edit"
@@ -27780,15 +28066,15 @@ msgstr "Erros ocorreram"
 
 #: themes/default/views/batch/editor/batch_results_html.php:85
 msgid "Note: <strong>NO</strong> batch changes were saved due to the error."
-msgstr ""
+msgstr "Nota: <strong>NENHUMA</strong> alteração em lote foi salva devido ao erro."
 
 #: themes/default/views/batch/editor/batch_results_html.php:85
 msgid "Note: <strong>NO</strong> batch changes were saved due to %1 errors."
-msgstr ""
+msgstr "Nota: <strong>NENHUMA</strong> alteração em lote foi salva devido a %1 erros."
 
 #: themes/default/views/batch/editor/batch_results_html.php:88
 msgid "Processed successfully"
-msgstr ""
+msgstr "Processado com sucesso"
 
 #: themes/default/views/batch/editor/confirm_html.php:66
 msgid "Batch edit (%1 %2)"
@@ -27797,13 +28083,15 @@ msgstr "Editar em série (%1 %2)"
 #: themes/default/views/batch/editor/confirm_html.php:71
 msgid "You are about to apply changes to %1 %2. These changes cannot be undone."
 msgstr ""
+"Você está prestes a aplicar as alterações em %1 %2. Essas mudanças não podem ser "
+"desfeitas."
 
 #: themes/default/views/batch/editor/confirm_html.php:91
 #: themes/default/views/batch/mediaimport/confirm_html.php:87
 #: themes/default/views/bundles/batch_change_type_html.php:77
 #: themes/default/views/manage/tools/confirm_html.php:90
 msgid "Process in background"
-msgstr ""
+msgstr "Processar em segundo plano"
 
 #: themes/default/views/batch/editor/confirm_html.php:110
 #: themes/default/views/batch/mediaimport/confirm_html.php:106
@@ -27811,7 +28099,7 @@ msgstr ""
 #: themes/default/views/bundles/batch_change_type_html.php:96
 #: themes/default/views/manage/tools/confirm_html.php:109
 msgid "Send email to <strong>%1</strong> when done"
-msgstr ""
+msgstr "Enviar email para <strong>%1</strong> quando terminar"
 
 #: themes/default/views/batch/editor/confirm_html.php:129
 #: themes/default/views/batch/mediaimport/confirm_html.php:125
@@ -27819,7 +28107,7 @@ msgstr ""
 #: themes/default/views/bundles/batch_change_type_html.php:115
 #: themes/default/views/manage/tools/confirm_html.php:128
 msgid "Send SMS to <strong>%1</strong> when done"
-msgstr ""
+msgstr "Enviar SMS para <strong>%1</strong> quando terminar"
 
 #: themes/default/views/batch/editor/confirm_html.php:142
 #: themes/default/views/batch/editor/screen_html.php:34
@@ -27828,15 +28116,15 @@ msgstr "Executar edição em lote"
 
 #: themes/default/views/batch/editor/delete_html.php:36
 msgid "Really delete ALL records in \"%1\"?"
-msgstr ""
+msgstr "Realmente excluir todos os registros em \"%1\"?"
 
 #: themes/default/views/batch/editor/delete_html.php:67
 msgid "Leave batch editor and delete this set"
-msgstr ""
+msgstr "Deixar o editor em lote e excluir esta seleção"
 
 #: themes/default/views/batch/editor/delete_html.php:105
 msgid "Note: The above record(s) were not deleted due to the errors."
-msgstr ""
+msgstr "Nota: O(s) registro(s) acima não foram excluídos devido a erros."
 
 #: themes/default/views/batch/editor/delete_html.php:108
 msgid "Deleted successfully"
@@ -27844,21 +28132,23 @@ msgstr "Eliminado com sucesso"
 
 #: themes/default/views/batch/mediaimport/batch_queued_html.php:30
 msgid "Media import queued for background processing"
-msgstr ""
+msgstr "Importação de mídia na fila para processamento em segundo plano"
 
 #: themes/default/views/batch/mediaimport/batch_queued_html.php:34
 msgid ""
 "Your media import has been queued and will be run shortly. You may continue to work "
 "while the import is processed."
 msgstr ""
+"Sua importação de mídia foi enfileirada e será executada em breve. Você pode "
+"continuar trabalhando enquanto a importação é processada."
 
 #: themes/default/views/batch/mediaimport/batch_results_html.php:30
 msgid "Media import processing status"
-msgstr ""
+msgstr "Estado de processamento de importação de mídia"
 
 #: themes/default/views/batch/mediaimport/batch_results_html.php:47
 msgid "Perform another media import"
-msgstr ""
+msgstr "Executar outra importação de mídia"
 
 #: themes/default/views/batch/mediaimport/batch_results_html.php:88
 #: themes/default/views/batch/metadataimport/batch_results_html.php:104
@@ -27867,7 +28157,7 @@ msgstr "Processado"
 
 #: themes/default/views/batch/mediaimport/batch_results_html.php:110
 msgid "Batch edit set <em>%1</em> containing imported media"
-msgstr ""
+msgstr "Editar seleção <em>% 1</em> em lote contendo mídia importada"
 
 #: themes/default/views/batch/mediaimport/confirm_html.php:62
 msgid "Import media"
@@ -27875,7 +28165,7 @@ msgstr "Carregar imagem"
 
 #: themes/default/views/batch/mediaimport/confirm_html.php:67
 msgid "You are about to import media from a directory."
-msgstr ""
+msgstr "Você está prestes a importar mídia de um diretório."
 
 #: themes/default/views/batch/mediaimport/confirm_html.php:138
 #: themes/default/views/batch/mediaimport/import_options_html.php:38
@@ -27884,11 +28174,11 @@ msgstr "Reproduzir imagem após importação"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:68
 msgid "Directory to import"
-msgstr ""
+msgstr "Diretório para importar"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:91
 msgid "Upload progress: %1"
-msgstr ""
+msgstr "Progresso do upload: %1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:121
 msgid "Include all sub-directories"
@@ -27904,15 +28194,15 @@ msgstr "Modo de importação"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:150
 msgid "Type used for newly created %1"
-msgstr ""
+msgstr "Tipo usado para o recém criado %1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:155
 msgid "Type used for newly created object representations"
-msgstr ""
+msgstr "Tipo usado para representações de objetos recém-criadas"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:161
 msgid "Type used for relationship"
-msgstr ""
+msgstr "Tipo usado para relacionamento"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:186
 msgid "Add imported media to set %1"
@@ -27944,44 +28234,44 @@ msgstr "Definir %1 identificador para nome de ficheiro"
 #: themes/default/views/batch/mediaimport/import_options_html.php:259
 #: themes/default/views/batch/mediaimport/import_options_html.php:406
 msgid "Set %1 identifier to file name without extension"
-msgstr ""
+msgstr "Definir o identificador %1 para o nome do arquivo sem extensão"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:267
 #: themes/default/views/batch/mediaimport/import_options_html.php:414
 msgid "Set %1 identifier to directory and file name"
-msgstr ""
+msgstr "Definir o identificador %1 para o diretório e o nome do arquivo"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:295
 msgid "Status, access &amp; metadata extraction"
-msgstr ""
+msgstr "Estado, acesso e extração de metadados"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:295
 msgid "Status &amp; access"
-msgstr ""
+msgstr "Estado e acesso"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:303
 msgid "Set %1 status to<br/>%2"
-msgstr ""
+msgstr "Definir estado %1 para<br/>%2"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:305
 msgid "Set %1 access to<br/>%2"
-msgstr ""
+msgstr "Definir acesso %1 para<br/>%2"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:309
 msgid "Extract embedded metadata into %1 using mapping<br/>%2"
-msgstr ""
+msgstr "Extrair metadados incorporados em %1 usando o mapeamento<br/>%2"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:315
 msgid "Set representation status to<br/>%1"
-msgstr ""
+msgstr "Definir o status de representação como<br/>%1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:317
 msgid "Set representation access to<br/>%1"
-msgstr ""
+msgstr "Definir o acesso de representação para<br/>%1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:321
 msgid "Extract embedded metadata into representation using mapping<br/>%1"
-msgstr ""
+msgstr "Extrair metadados incorporados em representação usando o mapeamento<br/>%1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:333
 #: themes/default/views/batch/mediaimport/import_options_html.php:342
@@ -27994,25 +28284,27 @@ msgstr "Ocultar opções avançadas"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:355
 msgid "Matching"
-msgstr ""
+msgstr "Correspondendo"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:364
 msgid "where identifier %1 value"
-msgstr ""
+msgstr "onde valor do identificador %1"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:369
 msgid "Limit to types"
-msgstr ""
+msgstr "Limitar para tipos"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:447
 msgid ""
 "Relationships will be created by matching the identifier extracted from the media "
 "file name with identifiers in related records."
 msgstr ""
+"Os relacionamentos serão criados pela correspondência do identificador extraído do "
+"nome do arquivo de mídia com identificadores nos registros relacionados."
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:463
 msgid "to %1 with relationship type"
-msgstr ""
+msgstr "para %1 com tipo de relacionamento"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:481
 msgid "Skip files"
@@ -28025,10 +28317,14 @@ msgid ""
 "characters will be treated as <a href=\"http://www.pcre.org/pcre.txt\" target=\"_new"
 "\">Perl-compatible regular expressions</a>."
 msgstr ""
+"Liste os nomes dos arquivos que você deseja pular durante a importação abaixo, um por "
+"linha. Você pode usar asteriscos (\"*\") como curingas para fazer correspondências "
+"parciais. Os valores entre caracteres \"/\" serão tratados como <a href=\"http://www."
+"pcre.org/pcre.txt\" target=\"_new\">expressões regulares compatíveis com Perl</a>."
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:498
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diversos"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:504
 msgid "Allow duplicate media?"
@@ -28036,41 +28332,41 @@ msgstr "Deseja permitir a duplicação de imagens?"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:530
 msgid "You are about to import files from <em>%1</em>"
-msgstr ""
+msgstr "Você está prestes a importar arquivos de <em>%1</em>"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:33
 msgid "Metadata import processing status"
-msgstr ""
+msgstr "Estado de processamento de importação de metadados"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:34
 msgid "Importing <em>%1</em> using <em>%2</em>"
-msgstr ""
+msgstr "Importando <em>%1</em> usando <em>%2</em>"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:58
 msgid "Perform another metadata import"
-msgstr ""
+msgstr "Executar outra importação de metadados"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:80
 msgid "File %1/%2 [%3]"
-msgstr ""
+msgstr "Arquivo %1/%2 [%3]"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:97
 msgid "Errors during import"
-msgstr ""
+msgstr "Erros durante a importação"
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:61
 #: themes/default/views/batch/metadataimport/importer_list_html.php:112
 msgid "Import data"
-msgstr ""
+msgstr "Importar dados"
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:66
 msgid "You are about to import data."
-msgstr ""
+msgstr "Você está prestes a importar dados."
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:118
 #: themes/default/views/batch/metadataimport/importer_run_html.php:33
 msgid "Execute data import"
-msgstr ""
+msgstr "Executar importação de dados"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:43
 msgid "Add importers"
@@ -28078,68 +28374,68 @@ msgstr "Adicionar importadores"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:44
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:55
 msgid "Drag importer worksheets here to add or update"
-msgstr ""
+msgstr "Arraste as planilhas do importador para adicionar ou atualizar"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:74
 msgid "Mapping"
-msgstr ""
+msgstr "Mapeamento"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:77
 #: themes/default/views/manage/export/exporter_list_html.php:77
 msgid "Last modified"
-msgstr ""
+msgstr "Última modificação"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:88
 msgid "No importers defined"
-msgstr ""
+msgstr "Nenhum importador definido"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:44
 msgid "Importer"
-msgstr ""
+msgstr "Importador"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:56
 msgid "Data format"
-msgstr ""
+msgstr "Formato de dados"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:63
 msgid "Import all data sets"
-msgstr ""
+msgstr "Importar todos os conjuntos de dados"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:80
 msgid "From a file"
-msgstr ""
+msgstr "De um arquivo"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:90
 msgid "From the import directory"
-msgstr ""
+msgstr "A partir do diretório de importação"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:100
 msgid "Data URL"
-msgstr ""
+msgstr "URL dos dados"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:112
 msgid "Data as text"
-msgstr ""
+msgstr "Dados como texto"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:136
 msgid "Testing options"
-msgstr ""
+msgstr "Opções de teste"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:143
 msgid "Dry run"
-msgstr ""
+msgstr "Dry run"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:162
 msgid "You are about to import data using the <em>%1</em> importer"
-msgstr ""
+msgstr "Você está prestes a importar dados usando o importador <em>%1</em>"
 
 #: themes/default/views/batch/metadataimport/widget_importer_info_html.php:34
 msgid "Importers"
-msgstr ""
+msgstr "Importadores"
 
 #: themes/default/views/batch/metadataimport/widget_importer_info_html.php:37
 msgid "1 importer is defined"
@@ -28164,7 +28460,7 @@ msgstr "%1 importadores estão definidos"
 #: themes/default/views/bundles/ca_tour_stops.php:156
 #: themes/default/views/bundles/related_list.php:189
 msgid "Quick Add"
-msgstr ""
+msgstr "Adicionar rápido"
 
 #: themes/default/views/bundles/authority_references_list.php:62
 msgid "%1 (%2)"
@@ -28189,11 +28485,14 @@ msgid ""
 "<strong>Warning:</strong> changing the %1 type will cause information in all fields "
 "not applicable to the new type to be discarded. This action cannot be undone."
 msgstr ""
+"<strong>Aviso:</strong> a alteração do tipo %1 fará com que as informações em todos "
+"os campos não aplicáveis ​​ao novo tipo sejam descartadas. Essa ação não pode ser "
+"desfeita."
 
 #: themes/default/views/bundles/batch_change_type_html.php:61
 #: themes/default/views/bundles/change_type_html.php:61
 msgid "Change type from <em>%1</em> to %2"
-msgstr ""
+msgstr "Alterar o tipo de <em>%1</em> para %2"
 
 #: themes/default/views/bundles/ca_acl_access.php:48
 msgid "Global access"
@@ -28201,15 +28500,15 @@ msgstr "Acesso global"
 
 #: themes/default/views/bundles/ca_acl_access.php:52
 msgid "All groups and users "
-msgstr ""
+msgstr "Todos os grupos e usuários"
 
 #: themes/default/views/bundles/ca_acl_access.php:54
 msgid "this record, unless you create an exception"
-msgstr ""
+msgstr "este registro, a menos que você crie uma exceção"
 
 #: themes/default/views/bundles/ca_acl_access.php:62
 msgid "Edit Global Access"
-msgstr ""
+msgstr "Editar acesso global"
 
 #: themes/default/views/bundles/ca_acl_access.php:66
 msgid "Exceptions"
@@ -28219,18 +28518,19 @@ msgstr "Exceções"
 msgid ""
 "The following groups and users have special access or restrictions for this record"
 msgstr ""
+"Os seguintes grupos e usuários têm acesso especial ou restrições para esse registro"
 
 #: themes/default/views/bundles/ca_acl_access.php:71
 msgid "No access exceptions exist for this record"
-msgstr ""
+msgstr "Nenhuma exceção de acesso existe para este registro"
 
 #: themes/default/views/bundles/ca_acl_access.php:98
 msgid "Edit Exceptions"
-msgstr ""
+msgstr "Editar exceções"
 
 #: themes/default/views/bundles/ca_acl_access.php:102
 msgid "Create an Exception"
-msgstr ""
+msgstr "Criar uma exceção"
 
 #: themes/default/views/bundles/ca_acl_user_groups.php:56
 #: themes/default/views/bundles/ca_user_groups.php:57
@@ -28245,11 +28545,11 @@ msgstr "Adicionar acesso de grupo"
 #: themes/default/views/bundles/ca_acl_users.php:81
 #: themes/default/views/bundles/ca_users.php:83
 msgid "Add user access"
-msgstr ""
+msgstr "Adicionar acesso do usuário"
 
 #: themes/default/views/bundles/ca_acl_world.php:48
 msgid "Everyone"
-msgstr ""
+msgstr "Todos"
 
 #: themes/default/views/bundles/ca_attributes.php:153
 #: themes/default/views/bundles/ca_set_items.php:70
@@ -28313,15 +28613,15 @@ msgstr "Adicionar etiqueta"
 
 #: themes/default/views/bundles/ca_bundle_display_placements.php:45
 msgid "Drag your selection from column to column to edit the contents of the display."
-msgstr ""
+msgstr "Arraste sua seleção de coluna para coluna para editar o conteúdo da exibição."
 
 #: themes/default/views/bundles/ca_bundle_display_placements.php:49
 msgid "Available information"
-msgstr ""
+msgstr "Informação disponível"
 
 #: themes/default/views/bundles/ca_bundle_display_placements.php:54
 msgid "Information to display"
-msgstr ""
+msgstr "Informação para exibir"
 
 #: themes/default/views/bundles/ca_collections.php:178
 #: themes/default/views/bundles/ca_entities.php:183
@@ -28351,7 +28651,7 @@ msgstr "Adicionar relação"
 #: themes/default/views/bundles/ca_tour_stops.php:162
 #: themes/default/views/bundles/related_list.php:195
 msgid "Relation editor"
-msgstr ""
+msgstr "Editor de relações"
 
 #: themes/default/views/bundles/ca_editor_ui_bundle_placements.php:45
 msgid "Drag your selection from column to column to edit the contents of the screen."
@@ -28359,7 +28659,7 @@ msgstr "Arraste a sua seleção de coluna para coluna para editar o conteúdo do
 
 #: themes/default/views/bundles/ca_editor_ui_bundle_placements.php:49
 msgid "Available editor elements"
-msgstr ""
+msgstr "Elementos do editor disponíveis"
 
 #: themes/default/views/bundles/ca_editor_ui_bundle_placements.php:54
 msgid "Elements to display on this screen"
@@ -28372,15 +28672,15 @@ msgstr "Adicionar ecrã"
 #: themes/default/views/bundles/ca_entity_labels_nonpreferred.php:82
 #: themes/default/views/bundles/ca_entity_labels_preferred.php:81
 msgid "The full name of the organization, excluding for suffixes."
-msgstr ""
+msgstr "O nome completo da organização, excluindo para sufixos."
 
 #: themes/default/views/bundles/ca_entity_labels_preferred.php:204
 msgid "Label is already in use"
-msgstr ""
+msgstr "O rótulo já está em uso"
 
 #: themes/default/views/bundles/ca_list_items.php:129
 msgid "No collection terms selected"
-msgstr ""
+msgstr "Nenhum termo de coleção selecionado"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:41
 #: themes/default/views/bundles/ca_objects_deaccession.php:37
@@ -28389,7 +28689,7 @@ msgstr ""
 #: themes/default/views/bundles/ca_objects_history.php:120
 #: themes/default/views/bundles/ca_objects_location.php:37
 msgid "Update location"
-msgstr ""
+msgstr "Atualizar localização"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:52
 msgid "Current status"
@@ -28398,32 +28698,32 @@ msgstr "Estado atual"
 #: themes/default/views/bundles/ca_object_checkouts.php:59
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:56
 msgid "<strong>Status:</strong> %1"
-msgstr ""
+msgstr "<strong>Estado:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:68
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:58
 msgid "<strong>Borrowed by:</strong> %1 on %2"
-msgstr ""
+msgstr "<strong>Emprestado por: </strong> %1 em %2"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:70
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:60
 msgid "<strong>Due on:</strong> %1"
-msgstr ""
+msgstr "<strong>Vence em:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:73
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:63
 msgid "<strong>Notes:</strong> %1"
-msgstr ""
+msgstr "<strong>Notas:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:78
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:68
 msgid "<strong>Reservations:</strong> %1"
-msgstr ""
+msgstr "<strong>Reservas:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:84
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:74
 msgid "<strong>Reserved for:</strong> %1"
-msgstr ""
+msgstr "<strong>Reservado para:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:91
 msgid "Cannot be checked out"
