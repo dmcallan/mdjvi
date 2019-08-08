@@ -34,7 +34,7 @@
 				<li><a href="mailto:museu@eba.ufrj.br" ><i class="fa fa-envelope"></i></a></li>
 			</ul>
 			<div>
-				Obrigado pela visita! Não esquesa de seguir nossa página no Facebook!
+				Obrigado pela visita! Não esqueça de seguir nossa página no Facebook!
 			</div>
 			<ul class="list-inline">
 				<li><a href="http://www.eba.ufrj.br/">EBA - Escola de Belas Artes</a></li>

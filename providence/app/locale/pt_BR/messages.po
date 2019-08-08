@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: CollectiveAccess Providence\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-27 14:05-0400\n"
-"PO-Revision-Date: 2019-08-05 23:17-0300\n"
+"PO-Revision-Date: 2019-08-07 19:51-0300\n"
 "Last-Translator: Dennis McAllan <dennis.mcallan@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/collectiveaccess/collectiveaccess-"
 "providence/language/pt/)\n"
@@ -916,7 +916,7 @@ msgstr "Adicionada seleção '%1' com %2 itens"
 
 #: app/controllers/manage/bundle_displays/BundleDisplayEditorController.php:60
 msgid "You cannot edit that display"
-msgstr "Você não pode editar esta exibição"
+msgstr "Você não pode editar esta visualização"
 
 #: app/controllers/manage/search_forms/SearchFormEditorController.php:60
 msgid "You cannot edit that form"
@@ -3351,7 +3351,7 @@ msgstr "breve descrição"
 
 #: app/helpers/searchHelpers.php:1416
 msgid "display name"
-msgstr "nome de exibição"
+msgstr "nome da visualização"
 
 #: app/helpers/searchHelpers.php:1417
 msgid "surname, forename"
@@ -3986,9 +3986,9 @@ msgid ""
 "prefixed with the ^ character can be used to represent the value in the template. For "
 "example: <i>^my_element_code</i>."
 msgstr ""
-"Layout para valor quando usado em uma exibição (pode incluir HTML). Tags de código de "
-"elemento prefixadas com o caractere ^ podem ser usadas para representar o valor no "
-"modelo. Por exemplo: <i>^my_element_code</i>."
+"Layout para valor quando usado em uma visualização (pode incluir HTML). Tags de "
+"código de elemento prefixadas com o caractere ^ podem ser usadas para representar o "
+"valor no modelo. Por exemplo: <i>^my_element_code</i>."
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:106
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:82
@@ -4181,7 +4181,7 @@ msgstr "Delimitador de valor"
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:176
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:133
 msgid "Delimiter to use between multiple values when used in a display."
-msgstr "Delimitador para usar entre vários valores, quando utilizado numa exibição."
+msgstr "Delimitador para usar entre vários valores, quando utilizado numa visualização."
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:51
 msgid ""
@@ -4209,7 +4209,7 @@ msgstr "Delimitador para utilizar entre valores múltiplos."
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:116
 msgid "Display template for read-only mode"
-msgstr "Modelo de exibição para o modo somente leitura"
+msgstr "Modelo de visualização para o modo somente leitura"
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:118
 msgid ""
@@ -6861,11 +6861,11 @@ msgstr "Exportando alterações para formulário de pesquisa %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1471
 msgid "Exporting deleted display %1"
-msgstr "Exportando exibição excluída %1"
+msgstr "Exportando visualização excluída %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1486
 msgid "Exporting changes for display %1"
-msgstr "Exportando alterações para exibição %1"
+msgstr "Exportando alterações para visualização %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:41
 msgid "Values are column numbers (indexing starts at 1)."
@@ -11496,7 +11496,7 @@ msgstr "coleções"
 #: app/models/ca_search_forms.php:99 app/models/ca_storage_locations.php:45
 #: app/conf/browse.conf:192 app/conf/browse.conf:395
 msgid "storage locations"
-msgstr "localizações"
+msgstr "locais de armazenamento"
 
 #: app/lib/core/Plugins/InformationService/CollectiveAccess.php:65
 #: app/models/ca_bookmarks.php:72 app/models/ca_bundle_displays.php:92
@@ -13154,7 +13154,7 @@ msgstr "nomes de exibição do conjunto"
 
 #: app/models/ca_bundle_display_labels.php:63
 msgid "Name of display"
-msgstr "Nome de exibição"
+msgstr "Nome da visualização"
 
 #: app/models/ca_bundle_display_labels.php:79 app/models/ca_data_exporter_labels.php:79
 #: app/models/ca_data_import_events.php:86 app/models/ca_data_importer_labels.php:79
@@ -13176,11 +13176,11 @@ msgstr "Descrição"
 
 #: app/models/ca_bundle_display_labels.php:79 app/models/ca_search_form_labels.php:86
 msgid "Description of display"
-msgstr "Descrição de exibição"
+msgstr "Descrição da visualização"
 
 #: app/models/ca_bundle_display_labels.php:88
 msgid "Locale of display name"
-msgstr "Local do nome de exibição"
+msgstr "Local do nome de visualização"
 
 #: app/models/ca_bundle_display_labels.php:102 app/models/ca_collection_labels.php:103
 #: app/models/ca_data_exporter_labels.php:102 app/models/ca_data_importer_labels.php:102
@@ -13316,30 +13316,30 @@ msgstr ""
 
 #: app/models/ca_bundle_displays.php:51
 msgid "display list"
-msgstr "lista de exibição"
+msgstr "lista de visualização"
 
 #: app/models/ca_bundle_displays.php:52
 msgid "display lists"
-msgstr "listas de exibição"
+msgstr "listas de visualização"
 
 #: app/models/ca_bundle_displays.php:59
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this display"
 msgstr ""
 "Identificador numérico exclusivo usado pelo CollectiveAccess internamente para "
-"identificar essa exibição"
+"identificar essa visualização"
 
 #: app/models/ca_bundle_displays.php:74
 msgid "Is system display?"
-msgstr "É exibição do sistema?"
+msgstr "É visualização do sistema?"
 
 #: app/models/ca_bundle_displays.php:74
 msgid ""
 "If set, display will be available to all users as part of the system-wide display "
 "list."
 msgstr ""
-"Se definido, a exibição estará disponível para todos os usuários como parte da lista "
-"de exibição do sistema."
+"Se definido, a visualização estará disponível para todos os usuários como parte da "
+"lista de visualização do sistema."
 
 #: app/models/ca_bundle_displays.php:83
 msgid "Display type"
@@ -13347,7 +13347,7 @@ msgstr "Tipo de visualização"
 
 #: app/models/ca_bundle_displays.php:83
 msgid "Indicates type of item display is used for."
-msgstr "Indica a utilização do item apresentado."
+msgstr "Indica o tipo de item que a visualização é usada para."
 
 #: app/models/ca_bundle_displays.php:107
 msgid "Display code"
@@ -13355,7 +13355,7 @@ msgstr "Código da visualização"
 
 #: app/models/ca_bundle_displays.php:107
 msgid "Unique alphanumeric identifier for this display."
-msgstr "Identificador alfanumérico exclusivo para esta exibição."
+msgstr "Identificador alfanumérico exclusivo para esta visualização."
 
 #: app/models/ca_bundle_displays.php:116 app/models/ca_bundle_displays.php:396
 msgid "Display settings"
@@ -13391,7 +13391,7 @@ msgstr "Acessível ao público"
 
 #: app/models/ca_bundle_displays.php:129
 msgid "Indicates if display is accessible to the public or not."
-msgstr "Indica se a exibição está acessível ao público ou não."
+msgstr "Indica se a visualização está acessível ao público ou não."
 
 #: app/models/ca_bundle_displays.php:142
 msgid "Display empty values?"
@@ -13425,7 +13425,7 @@ msgstr "Acesso do grupo"
 
 #: app/models/ca_bundle_displays.php:395
 msgid "Display list contents"
-msgstr "Exibir o conteúdo da lista"
+msgstr "Conteúdos da lista de visualização"
 
 #: app/models/ca_bundle_displays.php:397 app/models/ca_data_exporters.php:299
 #: app/models/ca_editor_ui_screens.php:232 app/models/ca_editor_uis.php:257
@@ -13552,7 +13552,7 @@ msgid ""
 "Restricts display to items related using the specified relationship type(s). Leave "
 "all unchecked for no restriction."
 msgstr ""
-"Restringe a exibição a itens relacionados usando o(s) tipo(s) de relacionamento "
+"Restringe a visualização a itens relacionados usando o(s) tipo(s) de relacionamento "
 "especificado(s). Deixe tudo desmarcado para nenhuma restrição."
 
 #: app/models/ca_bundle_displays.php:1436 app/models/ca_data_exporter_items.php:433
@@ -13567,8 +13567,8 @@ msgid ""
 "Restricts display to items of the specified type(s). Leave all unchecked for no "
 "restriction."
 msgstr ""
-"Restringe a exibição de itens ao tipo(s) especificado. Deixe tudo desmarcado para que "
-"não exista nenhuma restrição."
+"Restringe a visualização de itens ao tipo(s) especificado. Deixe tudo desmarcado para "
+"que não exista nenhuma restrição."
 
 #: app/models/ca_bundle_displays.php:1454 app/models/ca_editor_ui_screens.php:532
 #: app/models/ca_editor_ui_screens.php:735
@@ -13732,11 +13732,11 @@ msgstr "Source ID inválido"
 
 #: app/models/ca_bundle_displays_x_user_groups.php:40
 msgid "bundle displays ⇔ group association"
-msgstr "associação exibições de conjuntos ⇔ grupo"
+msgstr "associação visualizações de conjuntos ⇔ grupo"
 
 #: app/models/ca_bundle_displays_x_user_groups.php:41
 msgid "bundle displays ⇔ group associations"
-msgstr "associações exibições de conjuntos ⇔ grupo"
+msgstr "associações visualizações de conjuntos ⇔ grupo"
 
 #: app/models/ca_bundle_displays_x_user_groups.php:70
 #: app/models/ca_search_forms_x_user_groups.php:70
@@ -13746,22 +13746,22 @@ msgstr "não tem acesso"
 
 #: app/models/ca_bundle_displays_x_user_groups.php:74
 msgid "Indicates group&apos;s level of access to the display. "
-msgstr "Indica o nível de acesso dos grupos à exibição. "
+msgstr "Indica o nível de acesso dos grupos à visualização. "
 
 #: app/models/ca_bundle_displays_x_users.php:40
 msgid "bundle displays ⇔ user association"
-msgstr "associação exibições de conjuntos ⇔ usuário"
+msgstr "associação visualizações de conjuntos ⇔ usuário"
 
 #: app/models/ca_bundle_displays_x_users.php:41
 msgid "bundle displays ⇔ user associations"
-msgstr "associações exibições de conjuntos ⇔ usuário"
+msgstr "associações visualização de conjuntos ⇔ usuário"
 
 #: app/models/ca_bundle_displays_x_users.php:73
 #: app/models/ca_editor_ui_screens_x_user_groups.php:73
 #: app/models/ca_editor_ui_screens_x_users.php:73
 #: app/models/ca_editor_uis_x_user_groups.php:73 app/models/ca_editor_uis_x_users.php:73
 msgid "Indicates user&apos;s level of access to the display. "
-msgstr "Indica o nível de acesso dos usuários à exibição. "
+msgstr "Indica o nível de acesso dos usuários à visualização. "
 
 #: app/models/ca_change_log.php:39
 msgid "change log entry"
@@ -15927,7 +15927,7 @@ msgstr ""
 #: app/models/ca_data_importer_items.php:536
 #: app/refineries/entitySplitter/entitySplitterRefinery.php:110
 msgid "Display name format"
-msgstr "Formato de nome de exibição"
+msgstr "Formato de nome de visualização"
 
 #: app/models/ca_data_importer_items.php:537
 msgid ""
@@ -17171,7 +17171,7 @@ msgid ""
 "Restricts display to items related using the specified relationship type(s). Leave "
 "all unselected for no restriction."
 msgstr ""
-"Restringe exibição para itens relacionados usando o tipo de relacionamento "
+"Restringe visualização para itens relacionados usando o tipo de relacionamento "
 "especificado(s). Deixar todos desmarcados para que não exista nenhuma restrição."
 
 #: app/models/ca_editor_ui_screens.php:628 app/models/ca_editor_ui_screens.php:698
@@ -17179,8 +17179,8 @@ msgid ""
 "Restricts display to items of the specified type(s). Leave all unselected for no "
 "restriction."
 msgstr ""
-"Restringe a exibição para itens do tipo(s) especificado. Deixe tudo desmarcado para "
-"que não exista nenhuma restrição."
+"Restringe a visualização para itens do tipo(s) especificado. Deixe tudo desmarcado "
+"para que não exista nenhuma restrição."
 
 #: app/models/ca_editor_ui_screens.php:635 app/models/ca_editor_ui_screens.php:705
 msgid "Restrict to search expression"
@@ -17191,8 +17191,8 @@ msgid ""
 "Restricts display to items matching the given search expression. Leave empty for no "
 "restriction."
 msgstr ""
-"Restringe a exibição aos itens que correspondem à expressão de pesquisa especificada. "
-"Deixe em branco para sem restrições."
+"Restringe a visualização aos itens que correspondem à expressão de pesquisa "
+"especificada. Deixe em branco para sem restrições."
 
 #: app/models/ca_editor_ui_screens.php:644 app/models/ca_editor_ui_screens.php:785
 msgid "Do not show delete button"
@@ -17205,7 +17205,7 @@ msgstr "Se marcado, o controle de exclusão de relacionamento não será forneci
 #: app/models/ca_editor_ui_screens.php:652 app/models/ca_editor_ui_screens.php:793
 #: app/models/ca_editor_ui_screens.php:899
 msgid "Relationship display template"
-msgstr "Modelo de exibição de relacionamento"
+msgstr "Modelo de visualização de relacionamento"
 
 #: app/models/ca_editor_ui_screens.php:653 app/models/ca_editor_ui_screens.php:794
 #: app/models/ca_editor_ui_screens.php:900
@@ -17365,8 +17365,8 @@ msgid ""
 "Restricts display to items from the specified list(s). Leave all unselected for no "
 "restriction."
 msgstr ""
-"Restringe exibição para itens da lista(s) especificada. Deixar todos desmarcados para "
-"que não exista nenhuma restrição."
+"Restringe visualização para itens da lista(s) especificada. Deixar todos desmarcados "
+"para que não exista nenhuma restrição."
 
 #: app/models/ca_editor_ui_screens.php:911
 msgid "Use hierarchy browser?"
@@ -28500,7 +28500,7 @@ msgstr "Acesso global"
 
 #: themes/default/views/bundles/ca_acl_access.php:52
 msgid "All groups and users "
-msgstr "Todos os grupos e usuários"
+msgstr "Todos os grupos e usuários "
 
 #: themes/default/views/bundles/ca_acl_access.php:54
 msgid "this record, unless you create an exception"
@@ -28727,7 +28727,7 @@ msgstr "<strong>Reservado para:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:91
 msgid "Cannot be checked out"
-msgstr ""
+msgstr "Não pode ser retirado para empréstimo"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:101
 msgid "Checked out %1 times"
@@ -28739,32 +28739,32 @@ msgstr "Tempo de saída %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:102
 msgid "by %1 clients"
-msgstr ""
+msgstr "por %1 clientes"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:102
 msgid "by %1 client"
-msgstr ""
+msgstr "por %1 cliente"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:107
 #: app/conf/navigation.conf:4224
 msgid "Check out"
-msgstr ""
+msgstr "Retirar para empréstimo"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:108
 msgid "Check out notes"
-msgstr ""
+msgstr "Notas da retirada por empréstimo"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:109
 msgid "Due"
-msgstr ""
+msgstr "Atrasado"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:110
 msgid "Returned"
-msgstr ""
+msgstr "Retornado"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:111
 msgid "Return notes"
-msgstr ""
+msgstr "Notas do retorno"
 
 #: themes/default/views/bundles/ca_object_lots.php:269
 msgid "Add lot"
@@ -28772,44 +28772,44 @@ msgstr "Adicionar lote"
 
 #: themes/default/views/bundles/ca_object_representation_captions.php:61
 msgid "VTT or SRT format caption file"
-msgstr ""
+msgstr "Arquivo de legenda no formato VTT ou SRT"
 
 #: themes/default/views/bundles/ca_object_representation_captions.php:106
 msgid "Add caption file"
-msgstr ""
+msgstr "Adicionar arquivo de legenda"
 
 #: themes/default/views/bundles/ca_object_representation_chooser_html.php:60
 msgid "No metadata element is configured"
-msgstr ""
+msgstr "Nenhum elemento de metadados está configurado"
 
 #: themes/default/views/bundles/ca_object_representations.php:90
 msgid "Number of representations: %1"
-msgstr ""
+msgstr "Número de representações: %1"
 
 #: themes/default/views/bundles/ca_object_representations.php:135
 #: themes/default/views/manage/export/export_destination_html.php:36
 msgid "File name"
-msgstr ""
+msgstr "Nome do arquivo"
 
 #: themes/default/views/bundles/ca_object_representations.php:137
 msgid "File name: %1"
-msgstr ""
+msgstr "Nome do arquivo: %1"
 
 #: themes/default/views/bundles/ca_object_representations.php:141
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: themes/default/views/bundles/ca_object_representations.php:142
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensões"
 
 #: themes/default/views/bundles/ca_object_representations.php:151
 msgid "Will be primary after save"
-msgstr ""
+msgstr "Será o principal depois de salvar"
 
 #: themes/default/views/bundles/ca_object_representations.php:152
 msgid "Changes will be applied when you save"
-msgstr ""
+msgstr "As alterações serão aplicadas quando você salvar"
 
 #: themes/default/views/bundles/ca_object_representations.php:167
 msgid "Update media"
@@ -28818,7 +28818,7 @@ msgstr "Atualizar imagens"
 #: themes/default/views/bundles/ca_object_representations.php:170
 #: themes/default/views/bundles/ca_object_representations.php:312
 msgid "using upload"
-msgstr ""
+msgstr "usando upload"
 
 #: themes/default/views/bundles/ca_object_representations.php:177
 #: themes/default/views/bundles/ca_object_representations.php:319
@@ -28828,11 +28828,11 @@ msgstr "do URL"
 #: themes/default/views/bundles/ca_object_representations.php:187
 #: themes/default/views/dashboard/dashboard_html.php:74
 msgid "Done"
-msgstr "Feito"
+msgstr "Concluído"
 
 #: themes/default/views/bundles/ca_object_representations.php:216
 msgid "Make primary"
-msgstr ""
+msgstr "Tornar primário"
 
 #: themes/default/views/bundles/ca_object_representations.php:219
 msgid "Edit full record"
@@ -28840,11 +28840,11 @@ msgstr "Editar registro completo"
 
 #: themes/default/views/bundles/ca_object_representations.php:231
 msgid "Annotations"
-msgstr ""
+msgstr "Anotações"
 
 #: themes/default/views/bundles/ca_object_representations.php:234
 msgid "Set center"
-msgstr ""
+msgstr "Definir centro"
 
 #: themes/default/views/bundles/ca_object_representations.php:244
 msgid "Replication"
@@ -28856,7 +28856,7 @@ msgstr "Carregando"
 
 #: themes/default/views/bundles/ca_object_representations.php:293
 msgid "Add representation with relationship type %1"
-msgstr ""
+msgstr "Adicionar representação com tipo de relacionamento %1"
 
 #: themes/default/views/bundles/ca_object_representations.php:293
 #: themes/default/views/bundles/ca_object_representations.php:394
@@ -28880,6 +28880,8 @@ msgid ""
 "Sets access and status values for <strong>all</strong> representations related to %1 "
 "in this batch."
 msgstr ""
+"Define valores de acesso e status para <strong>todas</strong> representações "
+"relacionadas a %1 neste lote."
 
 #: themes/default/views/bundles/ca_object_representations_media_display.php:51
 msgid "or fetch from a URL"
@@ -28911,11 +28913,11 @@ msgstr "Atualizar utilizando frame do timecode"
 
 #: themes/default/views/bundles/ca_object_representations_media_display.php:129
 msgid "Update using page #"
-msgstr ""
+msgstr "Atualizar usando página #"
 
 #: themes/default/views/bundles/ca_object_representations_media_display.php:142
 msgid "Update preview versions"
-msgstr ""
+msgstr "Atualizar versões de pré-visualização"
 
 #: themes/default/views/bundles/ca_object_representations_media_display.php:170
 msgid ""
@@ -28931,6 +28933,18 @@ msgid ""
 "completely replace <strong>all</strong> media and previews associated with this "
 "representation."
 msgstr ""
+"Use os controles acima para substituir as imagens existentes anteriores para essa "
+"representação. Se a opção <em>Atualizar com mídia carregada</em> estiver marcada, a "
+"mídia selecionada para upload será usada para gerar as visualizações de substituição. "
+"Para representações de PDF e vídeo, você pode alternativamente optar por gerar novas "
+"visualizações de uma página ou quadro específico usando as opções <em>Atualizar "
+"usando página</em> e <em>Atualizar usando o quadro no timecode</em>. Você pode "
+"controlar quais versões de visualização são geradas, marcando ou desmarcando as "
+"opções na seção <em>Atualizar versões de pré-visualização</em>. Observe que a "
+"substituição de imagens de visualização só será executada se a caixa de seleção "
+"mestre <em>Modificar imagens de pré-visualização</em> estiver marcada. Se desmarcada, "
+"a mídia carregada substituirá completamente <strong>all</strong> as mídias e "
+"visualizações associadas a essa representação."
 
 #: themes/default/views/bundles/ca_objects_components_list.php:37
 #: themes/default/views/bundles/create_component_html.php:31
@@ -28943,11 +28957,11 @@ msgstr "Não estão definidos componentes"
 
 #: themes/default/views/bundles/ca_objects_deaccession.php:50
 msgid "Deaccessioned: %1"
-msgstr ""
+msgstr "Retirado do inventário: %1"
 
 #: themes/default/views/bundles/ca_objects_deaccession.php:53
 msgid "Deaccessioned?"
-msgstr ""
+msgstr "Retirado do inventário?"
 
 #: themes/default/views/bundles/ca_objects_history.php:63
 #: themes/default/views/bundles/ca_objects_history.php:249
@@ -28969,7 +28983,7 @@ msgstr "Alterar localização"
 #: themes/default/views/bundles/ca_representation_annotations.php:41
 #: themes/default/views/bundles/ca_representation_annotations.php:98
 msgid "Annotations are not supported for this type of media"
-msgstr ""
+msgstr "As anotações não são suportadas para este tipo de mídia"
 
 #: themes/default/views/bundles/ca_representation_annotations.php:134
 msgid "Play Clip"
@@ -28981,12 +28995,14 @@ msgstr "Adicionar anotação"
 
 #: themes/default/views/bundles/ca_search_form_attributes.php:52
 msgid "Locale "
-msgstr ""
+msgstr "Localidade "
 
 #: themes/default/views/bundles/ca_search_form_placements.php:46
 msgid ""
 "Drag your selection from column to column to edit the contents of the search form."
 msgstr ""
+"Arraste sua seleção de coluna para coluna para editar o conteúdo do formulário de "
+"pesquisa."
 
 #: themes/default/views/bundles/ca_search_form_placements.php:50
 msgid "Available search items"
@@ -28998,7 +29014,7 @@ msgstr "Itens a pesquisar"
 
 #: themes/default/views/bundles/ca_set_items.php:51
 msgid "You must save this set before you can add items to it."
-msgstr ""
+msgstr "Você deve salvar esta seleção antes de adicionar itens a ela."
 
 #: themes/default/views/bundles/ca_set_items.php:64
 msgid "Sort by"
@@ -29010,11 +29026,11 @@ msgstr "identificador"
 
 #: themes/default/views/bundles/ca_set_items.php:99
 msgid "Edit set item metadata"
-msgstr ""
+msgstr "Editar metadados do item da seleção"
 
 #: themes/default/views/bundles/ca_storage_locations_contents.php:90
 msgid "Location is empty"
-msgstr ""
+msgstr "Localização está vazia"
 
 #: themes/default/views/bundles/ca_tour_stops_list.php:83
 msgid "Add stop"
@@ -29023,11 +29039,11 @@ msgstr "Adicionar paragem"
 #: themes/default/views/bundles/ca_user_groups.php:60
 #: themes/default/views/bundles/ca_users.php:59
 msgid " for period "
-msgstr ""
+msgstr " para período "
 
 #: themes/default/views/bundles/ca_user_roles.php:76
 msgid "No roles are available"
-msgstr ""
+msgstr "Nenhuma função está disponível"
 
 #: themes/default/views/bundles/change_type_html.php:63
 msgid "Set type to %1"
@@ -29035,11 +29051,11 @@ msgstr "Definir tipo para %1"
 
 #: themes/default/views/bundles/create_child_html.php:57
 msgid "Create child record under this %1"
-msgstr ""
+msgstr "Crie um registro filho sob este %1"
 
 #: themes/default/views/bundles/create_child_html.php:63
 msgid "Select a record type to add a child record under this one"
-msgstr ""
+msgstr "Selecione um tipo de registro para adicionar um registro filho sob este"
 
 #: themes/default/views/bundles/create_child_html.php:65
 #: themes/default/views/bundles/create_child_html.php:92
@@ -29048,29 +29064,29 @@ msgstr "Adicionar a %1 abaixo disto"
 
 #: themes/default/views/bundles/download_file_binary.php:50
 msgid "File for download does not exist"
-msgstr ""
+msgstr "O arquivo para download não existe"
 
 #: themes/default/views/bundles/floorplan_viewer.php:37
 msgid "Editing floor plan for <em>%1</em>"
-msgstr ""
+msgstr "Editando planta baixa para <em>%1</em>"
 
 #: themes/default/views/bundles/hierarchy_location.php:182
 #: themes/default/views/bundles/hierarchy_navigation.php:68
 msgid "Number of %1 in hierarchy: %2"
-msgstr ""
+msgstr "Número de %1 na hierarquia: %2"
 
 #: themes/default/views/bundles/hierarchy_location.php:184
 #: themes/default/views/bundles/hierarchy_location.php:408
 msgid "Show Hierarchy"
-msgstr ""
+msgstr "Mostrar hierarquia"
 
 #: themes/default/views/bundles/hierarchy_location.php:229
 msgid "Explore"
-msgstr ""
+msgstr "Explorar"
 
 #: themes/default/views/bundles/hierarchy_location.php:233
 msgid "Move"
-msgstr ""
+msgstr "Mover"
 
 #: themes/default/views/bundles/hierarchy_location.php:238
 msgid "Add level"
@@ -29089,31 +29105,34 @@ msgstr "Encontrar"
 #: themes/default/views/bundles/hierarchy_location.php:254
 msgid "Click %1 names to explore. Click on an arrow icon to open a %1 for editing."
 msgstr ""
+"Clique nos nomes do %1 para explorar. Clique em um ícone de seta para abrir um %1 "
+"para edição."
 
 #: themes/default/views/bundles/hierarchy_location.php:269
 msgid "Click on an arrow to choose the location to move this record under."
-msgstr ""
+msgstr "Clique na seta para escolher o local para mover esse registro."
 
 #: themes/default/views/bundles/hierarchy_location.php:284
 msgid "Movement details"
-msgstr ""
+msgstr "Detalhes do movimento"
 
 #: themes/default/views/bundles/hierarchy_location.php:318
 msgid ""
 "Use the controls below to create new %1 relative to this record in the hierarchy."
 msgstr ""
+"Use os controles abaixo para criar novo %1 relativo a esse registro na hierarquia."
 
 #: themes/default/views/bundles/hierarchy_location.php:324
 msgid "under (child)"
-msgstr ""
+msgstr "abaixo (filho)"
 
 #: themes/default/views/bundles/hierarchy_location.php:326
 msgid "above (parent)"
-msgstr ""
+msgstr "acima (pai)"
 
 #: themes/default/views/bundles/hierarchy_location.php:327
 msgid "next to (sibling)"
-msgstr ""
+msgstr "ao lado (irmão)"
 
 #: themes/default/views/bundles/hierarchy_location.php:331
 #: themes/default/views/bundles/hierarchy_location.php:337
@@ -29122,11 +29141,11 @@ msgstr "Adicionar um novo %1 %2 <em>%3</em>"
 
 #: themes/default/views/bundles/hierarchy_location.php:354
 msgid "Use the controls below to create new %1 relative to this %2 in the hierarchy."
-msgstr ""
+msgstr "Use os controles abaixo para criar um novo %1 relativo a esse %2 na hierarquia."
 
 #: themes/default/views/bundles/hierarchy_location.php:362
 msgid "Add a new %1 under <em>%2</em>"
-msgstr ""
+msgstr "Adicione um novo %1 em <em>%2</em>"
 
 #: themes/default/views/bundles/hierarchy_location.php:408
 #: themes/default/views/bundles/hierarchy_navigation.php:153
@@ -29135,15 +29154,15 @@ msgstr "Fechar navegador"
 
 #: themes/default/views/bundles/hierarchy_location.php:517
 msgid "Will be moved under <em>%1</em> after next save."
-msgstr ""
+msgstr "Será movido sob <em>%1</em> após o próximo salvamento."
 
 #: themes/default/views/bundles/hierarchy_location.php:521
 msgid "Will be placed at the top of its own hierarchy after next save."
-msgstr ""
+msgstr "Será colocado no topo de sua própria hierarquia após o próximo salvamento."
 
 #: themes/default/views/bundles/hierarchy_location.php:529
 msgid "Cannot move collection under object"
-msgstr ""
+msgstr "Não é possível mover a coleção sob o objeto"
 
 #: themes/default/views/bundles/hierarchy_navigation.php:69
 #: themes/default/views/bundles/hierarchy_navigation.php:153
@@ -29155,10 +29174,12 @@ msgid ""
 "Use the browser to explore the hierarchy. You may edit other hierarchy items by "
 "clicking on the arrows."
 msgstr ""
+"Use o navegador para explorar a hierarquia. Você pode editar outros itens da "
+"hierarquia clicando nas setas."
 
 #: themes/default/views/bundles/intrinsic.php:94
 msgid "Inherit from parent?"
-msgstr ""
+msgstr "Herdar do pai?"
 
 #: themes/default/views/bundles/settings.php:45
 msgid "No settings"
@@ -29174,11 +29195,11 @@ msgstr "Adicionar um Widget"
 
 #: themes/default/views/dashboard/dashboard_html.php:69
 msgid "Clear dashboard"
-msgstr ""
+msgstr "Limpar painel"
 
 #: themes/default/views/dashboard/dashboard_html.php:72
 msgid "Edit dashboard"
-msgstr ""
+msgstr "Editar painel"
 
 #: themes/default/views/dashboard/dashboard_html.php:73
 msgid "Add widget"
@@ -29191,6 +29212,9 @@ msgid ""
 "You'll see your dashboard whenever you login or  click the CollectiveAccess logo "
 "above."
 msgstr ""
+"Este é o seu painel do CollectiveAccess. Clique no botão \"Editar painel\" acima para "
+"adicionar widgets ao seu painel que permitirá monitorar a atividade do sistema. Você "
+"verá seu painel sempre que fizer login ou clicar no logotipo CollectiveAccess acima."
 
 #: themes/default/views/dashboard/dashboard_html.php:78
 msgid ""
@@ -29202,11 +29226,18 @@ msgid ""
 "above to remove all widgets from your dashboard.  When you are finished editing your "
 "dashboard, click the \"Done\" button above."
 msgstr ""
+"Use o botão acima para adicionar um widget ao seu painel. Você pode arrastar e soltar "
+"os widgets nas colunas esquerda ou direita na ordem em que deseja que eles apareçam. "
+"Para personalizar as informações em cada widget, clique no botão <i>\"i\"</i> no "
+"canto superior direito do widget. Para remover o widget do seu painel, clique no "
+"botão \"X\" no canto superior direito do widget. Clique no botão \"Limpar painel\" "
+"acima para remover todos os widgets do seu painel. Quando terminar de editar seu "
+"painel, clique no botão \"Concluído\" acima."
 
 #: themes/default/views/dashboard/dashboard_html.php:83
 #: themes/default/views/dashboard/dashboard_html.php:92
 msgid "To place a dashboard widget in this column drag it here"
-msgstr ""
+msgstr "Para colocar um widget de painel nessa coluna, arraste-o aqui"
 
 #: themes/default/views/editor/collections/quickadd_html.php:54
 #: themes/default/views/editor/entities/quickadd_html.php:54
@@ -29219,7 +29250,7 @@ msgstr ""
 #: themes/default/views/editor/storage_locations/quickadd_html.php:53
 #: themes/default/views/manage/sets/quickadd_html.php:54
 msgid "Quick add %1"
-msgstr ""
+msgstr "Adicionar rápido %1"
 
 #: themes/default/views/editor/collections/quickadd_html.php:55
 #: themes/default/views/editor/entities/quickadd_html.php:55
@@ -29246,7 +29277,7 @@ msgstr "Criado %1 "
 #: themes/default/views/editor/storage_locations/quickadd_html.php:60
 #: themes/default/views/manage/sets/quickadd_html.php:61
 msgid "Quick Add %1"
-msgstr ""
+msgstr "Adicionar Rápido %1"
 
 #: themes/default/views/editor/collections/screen_html.php:44
 #: themes/default/views/editor/entities/screen_html.php:44
@@ -29286,12 +29317,16 @@ msgid ""
 "There is 1 object linked to this lot. If you continue this object will no longer be "
 "associated with a lot."
 msgstr ""
+"Existe 1 objeto ligado a este lote. Se você continuar, este objeto não estará mais "
+"associado a um lote."
 
 #: themes/default/views/editor/object_lots/delete_html.php:41
 msgid ""
 "There are %1 objects linked to this lot. If you continue these objects will no longer "
 "be associated with a lot."
 msgstr ""
+"Existem %1 objetos ligados a este lote. Se você continuar, esses objetos não serão "
+"mais associados a um lote."
 
 #: themes/default/views/editor/object_representations/ajax_representation_annotation_editor_html.php:53
 #: themes/default/views/editor/object_representations/ajax_representation_annotation_editor_html.php:234
@@ -29308,7 +29343,7 @@ msgstr "fim"
 
 #: themes/default/views/editor/object_representations/ajax_representation_annotation_editor_html.php:88
 msgid "Set end &amp; Save"
-msgstr ""
+msgstr "Definir final &amp; Salvar"
 
 #: themes/default/views/editor/object_representations/ajax_representation_annotation_editor_html.php:234
 msgid "%1 clip"
@@ -29320,7 +29355,7 @@ msgstr "Adicionar componente %1"
 
 #: themes/default/views/editor/objects/component_html.php:102
 msgid "Component add %1"
-msgstr ""
+msgstr "Componente adicionar %1"
 
 #: themes/default/views/editor/objects/object_representation_media_replication_controls_html.php:43
 msgid "Replicate media to %1"
@@ -29332,7 +29367,7 @@ msgstr "Começar &rsaquo;"
 
 #: themes/default/views/editor/objects/object_representation_media_replication_controls_html.php:51
 msgid "Replication target"
-msgstr ""
+msgstr "Destino de replicação"
 
 #: themes/default/views/editor/objects/object_representation_media_replication_controls_html.php:60
 msgid "Delete &rsaquo;"
@@ -29351,6 +29386,14 @@ msgid ""
 "\tdetail as you zoom. The more you zoom the more detail will be visible.\n"
 "\t"
 msgstr ""
+"Clique e arraste com o mouse para deslocar a imagem. Você pode usar a roda do mouse "
+"ou o trackpad para ampliar ou reduzir a imagem.\n"
+"\tOs botões <code>+</code> e <code>-</code> e a barra deslizante de zoom na parte "
+"superior do visualizador também podem ser usados. O visualizador exibe a imagem em "
+"resolução total, carregando\n"
+"\tdetalhes enquanto você aproxima. Quanto mais você ampliar, mais detalhes serão "
+"visíveis.\n"
+"\t"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:12
 msgid ""
@@ -29359,6 +29402,10 @@ msgid ""
 "\tselect the point (line icon), rectangle or polygon tool from the tool bar, then "
 "click on the location you wish to annotate. "
 msgstr ""
+"Você pode adicionar anotações de texto à imagem. Cada anotação está associada a uma "
+"área de ponto, retangular ou poligonal na imagem. Para criar uma anotação\n"
+"\tselecione a ferramenta de ponto (ícone de linha), retângulo ou polígono na barra de "
+"ferramentas e clique no local que deseja anotar. "
 
 #: themes/default/views/editor/objects/viewer_help_html.php:16
 msgid ""
@@ -29366,6 +29413,9 @@ msgid ""
 "location will also be highlighted with a red translucent circle. You may drag both "
 "the point of the line and the text box to adjust position."
 msgstr ""
+"Para anotações de ponto uma linha irá aparecer conectando o local com a caixa de "
+"texto. A localização também será destacada com um círculo vermelho translúcido. Você "
+"pode arrastar ambas a ponta da linha e a caixa de texto para ajustar a posição."
 
 #: themes/default/views/editor/objects/viewer_help_html.php:19
 msgid ""
@@ -29373,6 +29423,9 @@ msgid ""
 "adjacent. Drag on the edges at the highlighted locations to resize the rectangle. "
 "Drag the rectangle on its interior to reposition it."
 msgstr ""
+"Para anotações retangulares, um retângulo irá aparecer com uma caixa de texto abaixo "
+"e adjacente. Arraste as bordas nos locais realçados para redimensionar o retângulo. "
+"Arraste o retângulo em seu interior para reposicioná-lo."
 
 #: themes/default/views/editor/objects/viewer_help_html.php:22
 msgid ""
@@ -29388,12 +29441,25 @@ msgid ""
 "option key.\n"
 "\t"
 msgstr ""
+"Para anotações poligonais clique \n"
+"\trepetidamente na imagem para estabelecer segmentos de linha em vários locais "
+"formando o polígono. A forma pode ter qualquer número de pontos, e consequentemente, "
+"lados. Para completar a forma dê um clique duplo\n"
+"\tao colocar o ponto final ou clique nas ferramentas de retângulo ou ponto. Você pode "
+"ajustar a forma clicando e arrastando em qualquer ponto. Para mover a forma, clique e "
+"arraste no contorno,\n"
+"\tlonge de qualquer ponto. Para remover um ponto, clique nele enquanto mantém "
+"pressionada a tecla de opção.\n"
+"\t"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:29
 msgid ""
 "You may also drag the text box into position. Click on the text box to add text. All "
 "changes to annotations are saved automatically as you work."
 msgstr ""
+"Você também pode arrastar a caixa de texto para a posição. Clique na caixa de texto "
+"para adicionar texto. Todas as alterações nas anotações são salvas automaticamente "
+"enquanto você trabalha."
 
 #: themes/default/views/editor/objects/viewer_help_html.php:32
 msgid "Keyboard shortcuts"
@@ -29404,54 +29470,56 @@ msgid ""
 "Single-key shortcuts are available for common actions. Pressing the key is equivalent "
 "to the corresponding mouse action."
 msgstr ""
+"Atalhos de teclado estão disponíveis para ações comuns. Pressionar a tecla é "
+"equivalente à ação do mouse correspondente."
 
 #: themes/default/views/editor/objects/viewer_help_html.php:38
 msgid "%1 to activate image panning"
-msgstr ""
+msgstr "%1 para ativar deslocamento da imagem"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:39
 msgid "%1 to select the rectangle annotation tool"
-msgstr ""
+msgstr "%1 para selecionar a ferramenta de anotação retangular"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:40
 msgid "%1 to select the point annotation tool"
-msgstr ""
+msgstr "%1 para selecionar a ferramente de anotação de ponto"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:41
 msgid "%1 to select the polygon annotation tool"
-msgstr ""
+msgstr "%1 para selecionar a ferramente de anotação poligonal"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:42
 msgid "%1 to delete the selected annotation"
-msgstr ""
+msgstr "%1 para apagar a anotação selecionada"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:43
 msgid "%1 to toggle visibility of the image overview"
-msgstr ""
+msgstr "%1 para alterar a visibilidade da visão geral da imagem"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:44
 msgid "%1 to return the image to the centered, zoomed out \"home\" position"
-msgstr ""
+msgstr "%1 para retornar a imagem para posição \"inicial\", centralizada e sem zoom"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:45
 msgid "%1 to toggle visibility of viewer controls"
-msgstr ""
+msgstr "%1 para alternar a visibilidade dos controles de visualização"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:46
 msgid "%1 to hide controls and labels"
-msgstr ""
+msgstr "%1 para ocultar controles e rótulos"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:47
 msgid "%1 or %2 to zoom in in small increments"
-msgstr ""
+msgstr "%1 ou %2 para ampliar em pequenos incrementos"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:48
 msgid "%1 or %2 to zoom out in small increments"
-msgstr ""
+msgstr "%1 ou %2 para reduzir em pequenos incrementos"
 
 #: themes/default/views/editor/objects/viewer_help_html.php:49
 msgid "%1, %2, %3 or %4 to pan the image in small increments"
-msgstr ""
+msgstr "%1, %2, %3 ou %4 para deslocar a imagem em pequenos incrementos"
 
 #: themes/default/views/editor/representation_annotations/quickadd_html.php:48
 msgid "Delete annotation"
@@ -29463,25 +29531,27 @@ msgstr "Salvar anotação"
 
 #: themes/default/views/editor/representation_annotations/quickadd_html.php:142
 msgid "Really delete annotation? %1 %2"
-msgstr ""
+msgstr "Realmente excluir anotação? %1 %2"
 
 #: themes/default/views/editor/template_test_html.php:34
 msgid "Test display templates below"
-msgstr ""
+msgstr "Teste os modelos de visualização abaixo"
 
 #: themes/default/views/editor/template_test_html.php:38
 msgid "Enter display template here ..."
-msgstr ""
+msgstr "Digite o modelo de visualização aqui ..."
 
 #: themes/default/views/editor/template_test_html.php:41
 msgid "Result will go here ..."
-msgstr ""
+msgstr "Resultado irá para aqui ..."
 
 #: themes/default/views/find/Browse/ajax_browse_facet_html.php:91
 msgid ""
 "Click on a %1 to find %2 related to it. Click on the arrow next to a %3 to see more "
 "specific %4 within that %5, or use the search field."
 msgstr ""
+"Clique em %1 para encontrar %2 relacionado a ele. Clique na seta ao lado de %3 para "
+"ver %4 mais específico dentro desse %5, ou use o campo de pesquisa."
 
 #: themes/default/views/find/Results/ajax_results_editable_complex_data_form_html.php:88
 msgid "Updated %1 "
@@ -29522,12 +29592,14 @@ msgstr "Clique para ordenar por "
 #: themes/default/views/find/Results/ca_objects_results_full_html.php:57
 #: themes/default/views/find/Results/ca_objects_results_thumbnail_html.php:78
 msgid "Quick Look"
-msgstr ""
+msgstr "Visualização rápida"
 
 #: themes/default/views/find/Results/ca_objects_results_map_html.php:45
 msgid ""
 "%1 of %2 results have been mapped.  To see all results chose a different display."
 msgstr ""
+"%1 de %2 resultados foram mapeados. Para ver todos os resultados, escolha uma "
+"visualização diferente."
 
 #: themes/default/views/find/Results/ca_objects_results_map_html.php:51
 msgid "Found %1 results."
@@ -29538,6 +29610,8 @@ msgid ""
 "It is not possible to show a map of the results because none of the items found have "
 "map coordinates."
 msgstr ""
+"Não é possível mostrar um mapa dos resultados porque nenhum dos itens encontrados tem "
+"coordenadas do mapa."
 
 #: themes/default/views/find/Results/quick_search_results_html.php:36
 msgid "Sort by "
@@ -29545,7 +29619,7 @@ msgstr "Ordenar por "
 
 #: themes/default/views/find/Results/quick_search_results_html.php:40
 msgid "Top %1 results for <em>%2</em>"
-msgstr ""
+msgstr "Top %1 resultados para <em>%2</em>"
 
 #: themes/default/views/find/Results/quick_search_results_html.php:64
 msgid "Full Results"
@@ -29568,6 +29642,8 @@ msgid ""
 "Click on a %1 to see more specific %2 within that %3. Click on the arrow next to a %4 "
 "to find %5 related to it."
 msgstr ""
+"Clique em %1 para ver %2 mais específico dentro desse %3. Clique na seta ao lado de "
+"%4 para encontrar %5 relacionado a ele."
 
 #: themes/default/views/find/Search/ajax_refine_facets_html.php:45
 msgid "No applicable filters"
@@ -29575,7 +29651,7 @@ msgstr "Nenhum filtro aplicável"
 
 #: themes/default/views/find/Search/ca_places_search_controls_html.php:44
 msgid "Place hierarchy"
-msgstr ""
+msgstr "Hierarquia de lugar"
 
 #: themes/default/views/find/Search/search_advanced_controls_html.php:41
 #: themes/default/views/find/Search/search_advanced_controls_html.php:73
@@ -29621,7 +29697,7 @@ msgstr "Entrada"
 
 #: themes/default/views/library/checkin/items_html.php:9
 msgid "Item name or number being returned"
-msgstr ""
+msgstr "Nome ou número do item que está sendo retornado"
 
 #: themes/default/views/library/checkin/items_html.php:16
 msgid "Items to check in"
@@ -29629,27 +29705,27 @@ msgstr "Itens para rececionar"
 
 #: themes/default/views/library/checkin/widget_checkin_html.php:29
 msgid "Library check in"
-msgstr ""
+msgstr "Check-in da biblioteca"
 
 #: themes/default/views/library/checkin/widget_checkin_html.php:31
 msgid "Outstanding items: %1"
-msgstr ""
+msgstr "Itens pendentes: %1"
 
 #: themes/default/views/library/checkout/find_user_html.php:4
 msgid "Check out: choose user"
-msgstr ""
+msgstr "Retirada de item: escolha usuário"
 
 #: themes/default/views/library/checkout/find_user_html.php:9
 msgid "Name of user checking out item"
-msgstr ""
+msgstr "Nome do usuário retirando item"
 
 #: themes/default/views/library/checkout/items_html.php:5
 msgid "Check out: add items"
-msgstr ""
+msgstr "Retirada de item: adicionar itens"
 
 #: themes/default/views/library/checkout/items_html.php:10
 msgid "Item name or number to check out"
-msgstr ""
+msgstr "Nome ou número do item para retirar"
 
 #: themes/default/views/library/checkout/items_html.php:17
 msgid "Items to check out"
@@ -29662,11 +29738,11 @@ msgstr "Dar saída dos itens"
 #: themes/default/views/library/checkout/widget_checkout_html.php:33
 #: app/conf/user_actions.conf:86
 msgid "Library check out"
-msgstr ""
+msgstr "Retirada de item da biblioteca"
 
 #: themes/default/views/library/checkout/widget_checkout_html.php:37
 msgid "Checkout for %1 (%2)"
-msgstr ""
+msgstr "Retirada de item para %1 (%2)"
 
 #: themes/default/views/library/checkout/widget_checkout_html.php:45
 msgid "User holds:"
@@ -29674,11 +29750,11 @@ msgstr "Usuário detém:"
 
 #: themes/default/views/library/checkout/widget_checkout_html.php:55
 msgid "Items out (all users): %1"
-msgstr ""
+msgstr "Itens fora (todos os usuários): %1"
 
 #: themes/default/views/library/dashboard/index_html.php:36
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "Painel de estatísticas"
 
 #: themes/default/views/library/dashboard/index_html.php:40
 msgid "Dates"
@@ -29686,7 +29762,7 @@ msgstr "Datas"
 
 #: themes/default/views/library/dashboard/index_html.php:49
 msgid "Items out: %1"
-msgstr ""
+msgstr "Itens fora: %1"
 
 #: themes/default/views/library/dashboard/index_html.php:65
 msgid "Items returned: %1"
@@ -29698,7 +29774,7 @@ msgstr "Reservas: %1"
 
 #: themes/default/views/library/dashboard/index_html.php:95
 msgid "Overdue items: %1"
-msgstr ""
+msgstr "Itens vencidos: %1"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:35
 msgid "User activity for %1"
@@ -29706,15 +29782,15 @@ msgstr "Atividade do usuário para %1"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:39
 msgid "Checkouts (%1)"
-msgstr ""
+msgstr "Itens retirados (%1)"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:40
 msgid "Overdue (%1)"
-msgstr ""
+msgstr "Atrasado (%1)"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:41
 msgid "Check ins (%1)"
-msgstr ""
+msgstr "Entradas de itens (%1)"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:42
 msgid "Reservations (%1)"
@@ -29726,11 +29802,11 @@ msgstr "criado %1"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:57
 msgid "checked out %1"
-msgstr ""
+msgstr "%1 item retirado"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:60
 msgid "due %1"
-msgstr ""
+msgstr "vencido %1"
 
 #: themes/default/views/library/dashboard/user_detail_html.php:63
 msgid "returned %1"
@@ -29779,7 +29855,7 @@ msgstr "Digite uma data para exibir as pesquisas acima"
 
 #: themes/default/views/logs/download_html.php:128
 msgid "Userclass"
-msgstr ""
+msgstr "Userclass"
 
 #: themes/default/views/logs/download_html.php:131
 #: themes/default/views/logs/search_html.php:66
@@ -29792,41 +29868,41 @@ msgstr "Não foram encontrados eventos"
 
 #: themes/default/views/logs/events_html.php:90
 msgid "Enter a date to display events from above"
-msgstr ""
+msgstr "Digite uma data para exibir os eventos acima"
 
 #: themes/default/views/logs/global_change_log_html.php:45
 #: themes/default/views/logs/global_change_log_html.php:46
 #: themes/default/views/logs/my_change_log_html.php:45
 #: themes/default/views/logs/my_change_log_html.php:46
 msgid "--Any--"
-msgstr ""
+msgstr "--Qualquer--"
 
 #: themes/default/views/logs/global_change_log_html.php:65
 #: themes/default/views/logs/my_change_log_html.php:65
 msgid "Changed item"
-msgstr ""
+msgstr "Item alterado"
 
 #: themes/default/views/logs/global_change_log_html.php:125
 #: themes/default/views/logs/my_change_log_html.php:125
 msgid "No log entries found"
-msgstr ""
+msgstr "Nenhuma entrada de log encontrada"
 
 #: themes/default/views/logs/global_change_log_html.php:125
 #: themes/default/views/logs/my_change_log_html.php:125
 msgid "Enter a date to display change log from above"
-msgstr ""
+msgstr "Digite uma data para exibir o log de alterações acima"
 
 #: themes/default/views/logs/search_html.php:60
 msgid "Num hits"
-msgstr ""
+msgstr "Número de resultados"
 
 #: themes/default/views/logs/search_html.php:72
 msgid "Exec time (sec.)"
-msgstr ""
+msgstr "Tempo de execução (s)"
 
 #: themes/default/views/manage/Pawtucket/edit_global_values_html.php:36
 msgid "Global value editor"
-msgstr ""
+msgstr "Editor de valor global"
 
 #: themes/default/views/manage/Pawtucket/edit_global_values_html.php:39
 msgid ""
@@ -29836,18 +29912,24 @@ msgid ""
 "may edit globals using the form below. Configure additional global values by adding "
 "them to your theme app.conf configuration file."
 msgstr ""
+"Valores globais são valores de texto editáveis ​​que podem ser exibidos em qualquer "
+"modelo de visualização no seu tema Pawtucket. Eles são especialmente úteis para o "
+"gerenciamento de texto semi-estático incorporado em um site, como as próximas horas "
+"de trabalho nos feriados ou a manutenção planejada. Você pode editar estes valores "
+"usando o formulário abaixo. Configure valores globais adicionais, adicionando-os ao "
+"seu arquivo de configuração theme.conf do tema."
 
 #: themes/default/views/manage/Pawtucket/edit_global_values_html.php:44
 msgid "No global values for Pawtucket are configured"
-msgstr ""
+msgstr "Nenhum valor global para Pawtucket está configurado"
 
 #: themes/default/views/manage/Pawtucket/page_list_html.php:36
 msgid "New %1 page"
-msgstr ""
+msgstr "Nova página %1"
 
 #: themes/default/views/manage/Pawtucket/page_list_html.php:64
 msgid "URL path"
-msgstr ""
+msgstr "Caminho do URL"
 
 #: themes/default/views/manage/Pawtucket/page_list_html.php:76
 msgid "Views"
@@ -29855,34 +29937,34 @@ msgstr "Visualizações"
 
 #: themes/default/views/manage/Pawtucket/page_list_html.php:117
 msgid "No pages have been created"
-msgstr ""
+msgstr "Nenhuma página foi criada"
 
 #: themes/default/views/manage/Pawtucket/widget_pawtucket_info_html.php:37
 msgid "Site content"
-msgstr ""
+msgstr "Conteúdo do site"
 
 #: themes/default/views/manage/Pawtucket/widget_pawtucket_info_html.php:39
 msgid "%1 page"
-msgstr ""
+msgstr "página %1"
 
 #: themes/default/views/manage/Pawtucket/widget_pawtucket_info_html.php:39
 msgid "%1 pages"
-msgstr ""
+msgstr "páginas %1"
 
 #: themes/default/views/manage/Pawtucket/widget_pawtucket_info_html.php:40
 msgid "%1 public page"
-msgstr ""
+msgstr "página pública %1"
 
 #: themes/default/views/manage/Pawtucket/widget_pawtucket_info_html.php:40
 msgid "%1 public pages"
-msgstr ""
+msgstr "páginas públicas %1"
 
 #: themes/default/views/manage/Results/ca_item_comments_list_html.php:42
 #: themes/default/views/manage/Results/ca_item_tags_list_html.php:36
 #: themes/default/views/manage/comment_list_html.php:50
 #: themes/default/views/manage/tag_list_html.php:50
 msgid "Batch actions"
-msgstr ""
+msgstr "Ações em lote"
 
 #: themes/default/views/manage/Results/ca_item_comments_list_html.php:49
 #: themes/default/views/manage/comment_list_html.php:57
@@ -29909,7 +29991,7 @@ msgstr "Necessita de moderação"
 #: themes/default/views/manage/Results/ca_item_comments_paging_controls_html.php:54
 #: themes/default/views/manage/Results/ca_item_tags_paging_controls_html.php:54
 msgid "GO"
-msgstr ""
+msgstr "IR"
 
 #: themes/default/views/manage/Results/ca_item_tags_list_html.php:46
 msgid "Number of tagged items"
@@ -29931,7 +30013,7 @@ msgstr "Tipo de conteúdo"
 
 #: themes/default/views/manage/bundle_display_list_html.php:112
 msgid "No displays lists have been configured"
-msgstr ""
+msgstr "Nenhuma lista de visualização foi configurada"
 
 #: themes/default/views/manage/bundle_displays/save_placement_settings_json.php:29
 #: themes/default/views/manage/search_forms/save_element_settings_json.php:29
@@ -29944,17 +30026,19 @@ msgstr "Parâmetros inválidos"
 
 #: themes/default/views/manage/export/download_feedback_html.php:33
 msgid "Upload to <i>%1</i> successful"
-msgstr ""
+msgstr "Upload para <i>%1</i> feito com sucesso"
 
 #: themes/default/views/manage/export/download_feedback_html.php:35
 msgid ""
 "There was an error while uploading to <i>%1</i>. Check the events log for more "
 "information."
 msgstr ""
+"Ocorreu um erro ao fazer o upload para <i>%1</i>. Verifique o log de eventos para "
+"mais informações."
 
 #: themes/default/views/manage/export/export_destination_html.php:32
 msgid "The export has been processed. Configure your download below."
-msgstr ""
+msgstr "A exportação foi processada. Configure o seu download abaixo."
 
 #: themes/default/views/manage/export/export_destination_html.php:40
 msgid "Destination(s)"
@@ -29974,7 +30058,7 @@ msgstr "%1 processado"
 
 #: themes/default/views/manage/export/export_results_html.php:68
 msgid "Set up export download"
-msgstr ""
+msgstr "Configurar o download de exportação"
 
 #: themes/default/views/manage/export/exporter_list_html.php:47
 msgid "Add exporters"
@@ -29982,7 +30066,7 @@ msgstr "Adicionar exportadores"
 
 #: themes/default/views/manage/export/exporter_list_html.php:58
 msgid "Drag exporter worksheets here to add or update"
-msgstr ""
+msgstr "Arraste as planilhas do exportador aqui para adicionar ou atualizar"
 
 #: themes/default/views/manage/export/widget_exporter_list_html.php:31
 msgid "Your data exporters"
@@ -30097,11 +30181,11 @@ msgstr "Item etiquetado"
 #: themes/default/views/manage/tools/confirm_html.php:64
 #: themes/default/views/manage/tools/confirm_html.php:141
 msgid "Run tool"
-msgstr ""
+msgstr "Executar ferramenta"
 
 #: themes/default/views/manage/tools/confirm_html.php:69
 msgid "You are about to run <em>%1</em> in <em>%2</em>."
-msgstr ""
+msgstr "Você está prestes a executar <em>%1</em> em <em>%2</em>."
 
 #: themes/default/views/manage/tools/tool_run_html.php:40
 msgid "Running %1: %2"
@@ -30122,7 +30206,7 @@ msgstr "Comando"
 
 #: themes/default/views/manage/tools/tool_settings_html.php:109
 msgid "You are about to run <em>%2</em> in <em>%1</em>"
-msgstr ""
+msgstr "Você está prestes a executar <em>%2</em> em <em>%1</em>"
 
 #: themes/default/views/manage/tools/tools_list_html.php:58
 msgid "Tool"
@@ -30148,11 +30232,11 @@ msgstr "Indisponível"
 #: themes/default/views/manage/user_sort_edit_html.php:70
 #: themes/default/views/manage/user_sort_edit_html.php:74
 msgid "Sort field %1"
-msgstr ""
+msgstr "Campo de classificação %1"
 
 #: themes/default/views/manage/user_sort_list_html.php:32
 msgid "Create New Sort"
-msgstr ""
+msgstr "Criar Nova Classificação"
 
 #: themes/default/views/manage/user_sort_list_html.php:35
 msgid "Delete Selected"
@@ -30244,15 +30328,15 @@ msgstr "%1 Estatísticas"
 
 #: themes/default/views/manage/widget_set_info_html.php:38
 msgid "%1 available to you"
-msgstr ""
+msgstr "%1 disponível para você"
 
 #: themes/default/views/manage/widget_set_info_html.php:40
 msgid "%1 created by users"
-msgstr ""
+msgstr "%1 criado por usuários"
 
 #: themes/default/views/manage/widget_set_info_html.php:42
 msgid "%1 created by the public"
-msgstr ""
+msgstr "%1 criado pelo público"
 
 #: themes/default/views/manage/widget_set_info_html.php:44
 msgid "Show %1"
@@ -30276,7 +30360,7 @@ msgstr "Mostrar"
 
 #: themes/default/views/manage/widget_set_info_html.php:64
 msgid "Your %1"
-msgstr ""
+msgstr "Seu %1"
 
 #: themes/default/views/manage/widget_set_info_html.php:67
 msgid "1 %1 is available"
@@ -30345,7 +30429,7 @@ msgstr "é uma marca comercial da"
 
 #: themes/default/views/pageFormat/pageFooter.php:80
 msgid "Form table of contents"
-msgstr ""
+msgstr "Tabela de conteúdo"
 
 #: themes/default/views/pageFormat/pageFooter.php:86
 msgid "Browse hierarchy"
@@ -30356,6 +30440,8 @@ msgid ""
 "You have made changes in this form that you have not yet saved. If you navigate away "
 "from this form you will lose your unsaved changes."
 msgstr ""
+"Você fez alterações neste formulário que ainda não foram salvas. Se você sair desse "
+"formulário, perderá as alterações não salvas."
 
 #: themes/default/views/pageFormat/sideBar.php:55
 msgid "Expand all metadata elements"
@@ -30374,6 +30460,12 @@ msgid ""
 "\t    For more specific hints on the existing issues please have a look at the "
 "messages below."
 msgstr ""
+"<div class='error'>Um erro na configuração do seu sistema foi detectado</div>\n"
+"\t    Instruções gerais de instalação podem ser encontradas\n"
+"\t    <a href='http://wiki.collectiveaccess.org/index.php?"
+"title=Installation_(Providence)' target='_blank'>aqui</a>.\n"
+"\t    Para dicas mais específicas sobre os problemas existentes, veja as mensagens "
+"abaixo."
 
 #: themes/default/views/system/configuration_error_schema_update_html.php:47
 msgid "Updating your database..."
@@ -30384,30 +30476,37 @@ msgid ""
 "Errors occurred while performing the update. <a href='%1/index.php'>Return to the "
 "login screen</a>."
 msgstr ""
+"Erros ocorridos durante a execução da atualização. <a href='%1/index.php'>Volte para "
+"a tela de login</a>."
 
 #: themes/default/views/system/configuration_error_schema_update_html.php:83
 msgid "Update complete. You can now <a href='%1/index.php'>log into your system</a>"
 msgstr ""
+"Atualização completa. Agora você pode <a href='%1/index.php'>entrar no seu sistema</a>"
 
 #: themes/default/views/system/error_html.php:2
 msgid "Errors occurred when trying to access"
-msgstr ""
+msgstr "Erros ocorridos ao tentar acessar"
 
 #: themes/default/views/system/fatal_error_html.php:42
 msgid "Something went wrong"
-msgstr ""
+msgstr "Algo deu errado"
 
 #: themes/default/views/system/fatal_error_html.php:80
 msgid ""
 "There was an uncaught fatal error. Please contact your system administrator and check "
 "the CollectiveAccess log files."
 msgstr ""
+"Houve um erro fatal não detectado. Entre em contato com o administrador do sistema e "
+"verifique os arquivos de log do CollectiveAccess."
 
 #: themes/default/views/system/forgot_password_html.php:57
 msgid ""
 "Enter your CollectiveAccess user name below to request a new password. We will send "
 "you an email with further instructions."
 msgstr ""
+"Digite seu nome de usuário CollectiveAccess abaixo para solicitar uma nova senha. Nós "
+"lhe enviaremos um email com mais instruções."
 
 #: themes/default/views/system/forgot_password_html.php:62
 #: themes/default/views/system/login_html.php:66
@@ -30428,11 +30527,11 @@ msgstr "Gestão de conta pessoal"
 
 #: themes/default/views/system/monitor_html.php:45
 msgid "Logged %1 queries"
-msgstr ""
+msgstr "%1 consultas registradas"
 
 #: themes/default/views/system/monitor_html.php:47
 msgid "Query"
-msgstr ""
+msgstr "Consulta"
 
 #: themes/default/views/system/monitor_html.php:47
 msgid "Execution time"
@@ -30440,11 +30539,11 @@ msgstr "Tempo de execução"
 
 #: themes/default/views/system/monitor_html.php:47
 msgid "Hits"
-msgstr ""
+msgstr "Correspondências"
 
 #: themes/default/views/system/monitor_html.php:74
 msgid "No queries met logging requirements"
-msgstr ""
+msgstr "Nenhuma consulta atendeu aos requisitos de registro"
 
 #: themes/default/views/system/password_reset_form_html.php:59
 msgid "Please enter a new password"
@@ -30452,7 +30551,7 @@ msgstr "Por favor insira uma nova palavra-passe"
 
 #: themes/default/views/system/password_reset_form_html.php:61
 msgid "Invalid user or token"
-msgstr ""
+msgstr "Usuário ou token inválido"
 
 #: themes/default/views/system/password_reset_form_html.php:81
 msgid "Re-type password"
@@ -30472,10 +30571,16 @@ msgid ""
 "user name. Either resubmit the previous form or contact your CollectiveAccess "
 "administrator."
 msgstr ""
+"Obrigado pelo seu pedido. Nós lhe enviaremos um email com mais instruções. Se você "
+"não receber a mensagem depois de enviar o formulário, aguarde alguns minutos e "
+"verifique também as pastas de spam e de lixo eletrônico. Se você não receber um e-"
+"mail dentro de 15 minutos após enviar o formulário, talvez tenha digitado errado o "
+"seu nome de usuário. Envie novamente o formulário anterior ou entre em contato com o "
+"administrador do CollectiveAccess."
 
 #: themes/default/views/system/preferences_batch_html.php:59
 msgid "Batch user interface for %1"
-msgstr ""
+msgstr "Interface de usuário em lote para %1"
 
 #: themes/default/views/system/preferences_cataloguing_html.php:63
 #: themes/default/views/system/preferences_quickadd_html.php:58
@@ -30499,6 +30604,8 @@ msgid ""
 "Drag your selection from column to column to edit the content and order of results in "
 "the quick search interface."
 msgstr ""
+"Arraste sua seleção de coluna para coluna para editar o conteúdo e a ordem dos "
+"resultados na interface de pesquisa rápida."
 
 #: themes/default/views/system/preferences_quicksearch_html.php:58
 msgid "Available searches"
@@ -30506,7 +30613,7 @@ msgstr "Pesquisas disponíveis"
 
 #: themes/default/views/system/preferences_quicksearch_html.php:63
 msgid "Searches to display"
-msgstr ""
+msgstr "Pesquisas para exibir"
 
 #: app/conf/annotation_types.conf:12 app/conf/annotation_types.conf:37
 msgid "Start"
@@ -30609,6 +30716,8 @@ msgstr "Texto Y"
 #: app/conf/annotation_types.conf:148
 msgid "Y coordinate (as percentage of image height) of upper left corner of text box"
 msgstr ""
+"Coordenada Y (como porcentagem da altura da imagem) do canto superior esquerdo da "
+"caixa de texto"
 
 #: app/conf/annotation_types.conf:155
 msgid "Text width"
@@ -30724,7 +30833,7 @@ msgstr "saídas"
 
 #: app/conf/browse.conf:66 app/conf/browse.conf:67
 msgid "deaccessioned"
-msgstr ""
+msgstr "retirado do inventário"
 
 #: app/conf/browse.conf:80
 msgid "Has media"
@@ -30903,7 +31012,7 @@ msgstr "Processando audio"
 
 #: app/conf/media_processing.conf:1160
 msgid "360 Image is being processed"
-msgstr ""
+msgstr "Imagem 360 está sendo processada"
 
 #: app/conf/navigation.conf:37
 msgid "Batch Editor"
@@ -31382,41 +31491,49 @@ msgstr "Permitir que o usuário exporte a configuração do sistema"
 
 #: app/conf/user_actions.conf:75
 msgid "Manage user sorts"
-msgstr ""
+msgstr "Gerenciar classificações do usuário"
 
 #: app/conf/user_actions.conf:76
 msgid "Allow user to manage user defined sort field combinations"
 msgstr ""
+"Permitir que o usuário gerencie combinações de campo de classificação definidas pelo "
+"usuário"
 
 #: app/conf/user_actions.conf:79
 msgid "Can use plugin tools"
-msgstr ""
+msgstr "Pode usar ferramentas de plugin"
 
 #: app/conf/user_actions.conf:80
 msgid "Allow user to use tool plugins"
-msgstr ""
+msgstr "Permitir que o usuário use plugins de ferramentas"
 
 #: app/conf/user_actions.conf:87
 msgid ""
 "Actions required for check out of library items. Only users to handle library-style "
 "check in/out should have access to these actions."
 msgstr ""
+"Ações necessárias para check-out de itens da biblioteca. Somente usuários que "
+"manipulam check-in / out no estilo de biblioteca devem ter acesso a essas ações."
 
 #: app/conf/user_actions.conf:90
 msgid "Can do library check in"
-msgstr ""
+msgstr "Pode fazer check-in da biblioteca"
 
 #: app/conf/user_actions.conf:91
 msgid "Indicates user is allowed to check in library items for other users."
 msgstr ""
+"Indica que o usuário tem permissão para fazer check-in de itens da biblioteca para "
+"outros usuários."
 
 #: app/conf/user_actions.conf:94
 msgid "Can do library check out"
-msgstr ""
+msgstr "Pode fazer check-out da biblioteca"
 
 #: app/conf/user_actions.conf:95
 msgid "Indicates user is allowed to check out library items for other users."
 msgstr ""
+"Indica que o usuário tem permissão para fazer check-out de itens da biblioteca para "
+"outros usuários."
 
 #: app/conf/user_actions.conf:101
 msgid "Searching and browsing"
@@ -31453,7 +31570,7 @@ msgstr "Importar dados em série"
 
 #: app/conf/user_actions.conf:121
 msgid "Allow user to data in various formats"
-msgstr ""
+msgstr "Permitir ao usuário dados em vários formatos"
 
 #: app/conf/user_actions.conf:126
 msgid "Batch export"
@@ -31559,15 +31676,17 @@ msgstr "Permitir ao usuário utilizar a duplicação de formatos de visualizaç�
 
 #: app/conf/user_actions.conf:181
 msgid "Use user sorts"
-msgstr ""
+msgstr "Usar classificações do usuário"
 
 #: app/conf/user_actions.conf:182
 msgid "Allow user to use user defined sort field combinations"
 msgstr ""
+"Permitir que o usuário use combinações de campo de classificação definidas pelo "
+"usuário"
 
 #: app/conf/user_actions.conf:188
 msgid "set management"
-msgstr ""
+msgstr "gerenciamento de seleção"
 
 #: app/conf/user_actions.conf:189
 msgid "Actions allowing management of catalogued content for personal use."
@@ -31638,23 +31757,25 @@ msgstr "Permitir ao usuário duplicar grupos"
 
 #: app/conf/user_actions.conf:220
 msgid "Duplicate items in set"
-msgstr ""
+msgstr "Duplicar itens na seleção"
 
 #: app/conf/user_actions.conf:221
 msgid "Allow user to duplicate items in a set"
-msgstr ""
+msgstr "Permitir que o usuário duplique itens em uma seleção"
 
 #: app/conf/user_actions.conf:225
 msgid "Quick add sets"
-msgstr ""
+msgstr "Adição rápida de seleções"
 
 #: app/conf/user_actions.conf:226
 msgid "Allow user to add sets not already present while creating relationships"
 msgstr ""
+"Permitir ao usuário que adicione seleções que ainda não estão presentes durante a "
+"criação de relacionamentos"
 
 #: app/conf/user_actions.conf:230
 msgid "Allow user to change types of existing sets"
-msgstr ""
+msgstr "Permitir que o usuário altere os tipos de seleções existentes"
 
 #: app/conf/user_actions.conf:237
 msgid "Actions allowing moderation of user generated content."
@@ -31674,7 +31795,7 @@ msgstr "Gestão de etiquetas"
 
 #: app/conf/user_actions.conf:245
 msgid "Allow user to moderate user-provided tags"
-msgstr ""
+msgstr "Permitir ao usuário moderar tags fornecidas pelo usuário"
 
 #: app/conf/user_actions.conf:251
 msgid "Object editing"
@@ -31747,6 +31868,8 @@ msgstr "Adicionar rapidamente objetos"
 #: app/conf/user_actions.conf:284
 msgid "Allow user to add objects not already present while creating relationships"
 msgstr ""
+"Permitir que o usuário adicione objetos que ainda não estão presentes durante a "
+"criação de relacionamentos"
 
 #: app/conf/user_actions.conf:287
 msgid "Export objects"
@@ -31787,15 +31910,17 @@ msgstr "Eliminar objetos em série"
 
 #: app/conf/user_actions.conf:304
 msgid "Allow user to delete batches of objects"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de objetos"
 
 #: app/conf/user_actions.conf:307
 msgid "Can see current location of object in inspector"
-msgstr ""
+msgstr "Pode ver a localização atual do objeto no inspetor"
 
 #: app/conf/user_actions.conf:308
 msgid "Allow user to see current location of object in object editor inspector panel"
 msgstr ""
+"Permitir que o usuário veja a localização atual do objeto no painel de inspeção do "
+"editor de objetos"
 
 #: app/conf/user_actions.conf:311 app/conf/user_actions.conf:366
 #: app/conf/user_actions.conf:405 app/conf/user_actions.conf:464
@@ -31809,7 +31934,7 @@ msgstr "Ver registro de alterações"
 
 #: app/conf/user_actions.conf:312
 msgid "Allow user to view object change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os logs de alterações do objeto"
 
 #: app/conf/user_actions.conf:318
 msgid "Object representation editing"
@@ -31895,15 +32020,15 @@ msgstr "Permitir ao usuário editar lotes derepresentações dos objetos"
 
 #: app/conf/user_actions.conf:362
 msgid "Batch delete object representations"
-msgstr ""
+msgstr "Apagar em lote representações de objetos"
 
 #: app/conf/user_actions.conf:363
 msgid "Allow user to delete batches of object representations"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de representações de objetos"
 
 #: app/conf/user_actions.conf:367
 msgid "Allow user to view object representation change logs"
-msgstr ""
+msgstr "Permitir que o usuário exiba logs de alterações de representação de objetos"
 
 #: app/conf/user_actions.conf:373
 msgid "Representation annotation editing"
@@ -31971,7 +32096,7 @@ msgstr ""
 
 #: app/conf/user_actions.conf:406
 msgid "Allow user to view annotation change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alterações de anotações"
 
 #: app/conf/user_actions.conf:412
 msgid "Object lot editing"
@@ -32066,19 +32191,19 @@ msgstr "Permitir ao usuário editar lotes de lotes de objetos"
 
 #: app/conf/user_actions.conf:460
 msgid "Batch delete object lots"
-msgstr ""
+msgstr "Apagar em lote lotes de objetos"
 
 #: app/conf/user_actions.conf:461
 msgid "Allow user to delete batches of object lots"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de lotes de objetos"
 
 #: app/conf/user_actions.conf:465
 msgid "Allow user to view lot change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os logs de alterações de lote"
 
 #: app/conf/user_actions.conf:471
 msgid "Entity authority editing"
-msgstr ""
+msgstr "Edição de autorização de entidade"
 
 #: app/conf/user_actions.conf:472
 msgid "Actions allowing creation, editing and deletion of entities."
@@ -32167,19 +32292,19 @@ msgstr "Permitir ao usuário editar lotes de entidades"
 
 #: app/conf/user_actions.conf:519
 msgid "Batch delete entities"
-msgstr ""
+msgstr "Excluir entidades em lote"
 
 #: app/conf/user_actions.conf:520
 msgid "Allow user to delete batches of entities"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de entidades"
 
 #: app/conf/user_actions.conf:524
 msgid "Allow user to view entity change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os logs de alterações de entidade"
 
 #: app/conf/user_actions.conf:530
 msgid "Place authority editing"
-msgstr ""
+msgstr "Edição de autorização de lugar"
 
 #: app/conf/user_actions.conf:531
 msgid "Actions allowing creation, editing and deletion of places."
@@ -32268,25 +32393,27 @@ msgstr "Permitir ao usuário editar lotes de locais"
 
 #: app/conf/user_actions.conf:578
 msgid "Batch delete places"
-msgstr ""
+msgstr "Excluir lugares em lote"
 
 #: app/conf/user_actions.conf:579
 msgid "Allow user to delete batches of places"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de lugares"
 
 #: app/conf/user_actions.conf:583
 msgid "Allow user to view place change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alteração de local"
 
 #: app/conf/user_actions.conf:589
 msgid "Occurrence-based authority editing"
-msgstr ""
+msgstr "Edição de autorização baseada em ocorrência"
 
 #: app/conf/user_actions.conf:590
 msgid ""
 "Actions allowing creation, editing and deletion of occurrence (user-defined) based "
 "authorities."
 msgstr ""
+"Ações que permitem a criação, edição e exclusão de autoridades com base na ocorrência "
+"(definida pelo usuário)."
 
 #: app/conf/user_actions.conf:593
 msgid "Create occurrence"
@@ -32372,19 +32499,19 @@ msgstr "Permitir ao usuário editar lotes de ocorrências"
 
 #: app/conf/user_actions.conf:637
 msgid "Batch delete occurrences"
-msgstr ""
+msgstr "Eliminar ocorrências em lote"
 
 #: app/conf/user_actions.conf:638
 msgid "Allow user to delete batches of occurrences"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de ocorrências"
 
 #: app/conf/user_actions.conf:642
 msgid "Allow user to view occurrence change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os logs de alteração de ocorrência"
 
 #: app/conf/user_actions.conf:648
 msgid "Collection authority editing"
-msgstr ""
+msgstr "Edição de autorização de coleção"
 
 #: app/conf/user_actions.conf:649
 msgid "Actions allowing creation, editing and deletion of collections."
@@ -32481,11 +32608,11 @@ msgstr "Permitir ao utilizar eliminar coleções em lote"
 
 #: app/conf/user_actions.conf:701
 msgid "Allow user to view collection change logs"
-msgstr ""
+msgstr "Permitir que o usuário exiba logs de alterações de coleta"
 
 #: app/conf/user_actions.conf:707
 msgid "Storage location authority editing"
-msgstr ""
+msgstr "Edição de autorização de local de armazenamento"
 
 #: app/conf/user_actions.conf:708
 msgid "Actions allowing creation, editing and deletion of storage locations."
@@ -32555,34 +32682,39 @@ msgstr "Adicionar rapidamente locais de armazenamento"
 msgid ""
 "Allow user to add storage locations not already present while creating relationships"
 msgstr ""
+"Permitir que o usuário adicione locais de armazenamento que ainda não estão presentes "
+"durante a criação de relacionamentos"
 
 #: app/conf/user_actions.conf:744
 msgid "Allow user to change types of existing storage locations"
-msgstr ""
+msgstr "Permitir que o usuário altere os tipos de locais de armazenamento existentes"
 
 #: app/conf/user_actions.conf:748
 msgid "Allow user to manage access control lists for storage locations"
 msgstr ""
+"Permitir que o usuário gerencie listas de controle de acesso para locais de "
+"armazenamento"
 
 #: app/conf/user_actions.conf:751
 msgid "Batch edit storage locations"
-msgstr ""
+msgstr "Editar em lote locais de armazenamento"
 
 #: app/conf/user_actions.conf:752
 msgid "Allow user to edit batches of storage locations"
-msgstr ""
+msgstr "Permitir que o usuário edite lotes de locais de armazenamento"
 
 #: app/conf/user_actions.conf:755
 msgid "Batch delete storage locations"
-msgstr ""
+msgstr "Excluir em lote locais de armazenamento"
 
 #: app/conf/user_actions.conf:756
 msgid "Allow user to delete batches of storage locations"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de locais de armazenamento"
 
 #: app/conf/user_actions.conf:760
 msgid "Allow user to view storage location change logs"
 msgstr ""
+"Permitir que o usuário visualize os registros de alteração do local de armazenamento"
 
 #: app/conf/user_actions.conf:766
 msgid "Loans editing"
@@ -32590,7 +32722,7 @@ msgstr "Editar empréstimos"
 
 #: app/conf/user_actions.conf:767
 msgid "Actions allowing creation, editing and deletion of loans."
-msgstr ""
+msgstr "Ações permitindo a criação, edição e eliminação de empréstimos."
 
 #: app/conf/user_actions.conf:770
 msgid "Create loans"
@@ -32655,6 +32787,8 @@ msgstr "Adicionar rapidamente empréstimos"
 #: app/conf/user_actions.conf:799
 msgid "Allow user to add loans not already present while creating relationships"
 msgstr ""
+"Permitir que o usuário adicione empréstimos que ainda não estão presentes durante a "
+"criação de relacionamentos"
 
 #: app/conf/user_actions.conf:803
 msgid "Allow user to change types of existing loans"
@@ -32674,15 +32808,15 @@ msgstr "Permitir que o usuário edite empréstimos em conjunto"
 
 #: app/conf/user_actions.conf:814
 msgid "Batch delete loans"
-msgstr ""
+msgstr "Apagar empréstimos em lote"
 
 #: app/conf/user_actions.conf:815
 msgid "Allow user to delete batches of loans"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de empréstimos"
 
 #: app/conf/user_actions.conf:819
 msgid "Allow user to view loan change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alterações de empréstimo"
 
 #: app/conf/user_actions.conf:825
 msgid "Movements editing"
@@ -32755,6 +32889,8 @@ msgstr "Adicionar rapidamente deslocações"
 #: app/conf/user_actions.conf:858
 msgid "Allow user to add movements not already present while creating relationships"
 msgstr ""
+"Permitir que o usuário adicione movimentos que ainda não estão presentes durante a "
+"criação de relacionamentos"
 
 #: app/conf/user_actions.conf:862
 msgid "Allow user to change types of existing movements"
@@ -32778,11 +32914,11 @@ msgstr "Apagar em lote as deslocações"
 
 #: app/conf/user_actions.conf:874
 msgid "Allow user to delete batches of movements"
-msgstr ""
+msgstr "Permitir que o usuário exclua lotes de movimentos"
 
 #: app/conf/user_actions.conf:878
 msgid "Allow user to view movements change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alterações de movimentos"
 
 #: app/conf/user_actions.conf:884
 msgid "Tours editing"
@@ -32906,7 +33042,7 @@ msgstr "Permitir ao usuário eliminar paragens das visitas guiadas em lote"
 
 #: app/conf/user_actions.conf:945
 msgid "Allow user to view tour change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alterações de visita guiada"
 
 #: app/conf/user_actions.conf:951
 msgid "List &amp; vocabulary editing"
@@ -32941,6 +33077,8 @@ msgid ""
 "Allow user to edit system lists. For this to have any effect the user also needs the "
 "rights to edit standard lists and list items."
 msgstr ""
+"Permitir que o usuário edite listas do sistema. Para que isso tenha algum efeito, o "
+"usuário também precisa dos direitos para editar listas padrão e itens de lista."
 
 #: app/conf/user_actions.conf:967
 msgid "Delete lists and list items"
@@ -32959,6 +33097,8 @@ msgid ""
 "Allow user to delete system lists. For this to have any effect the user also needs "
 "the rights to delete standard lists and list items."
 msgstr ""
+"Permitir que o usuário exclua listas do sistema. Para que isso tenha algum efeito, o "
+"usuário também precisa dos direitos para excluir listas padrão e itens de lista."
 
 #: app/conf/user_actions.conf:975
 msgid "Duplicate lists"
@@ -33085,28 +33225,30 @@ msgstr "Permitir ao usuário usar o serviço de navegação JSON."
 
 #: app/conf/user_actions.conf:1037
 msgid "Can use config updater service"
-msgstr ""
+msgstr "Pode usar o serviço de atualização de configuração"
 
 #: app/conf/user_actions.conf:1038
 msgid ""
 "Note that users with this permission can potentially destroy data in your system!"
 msgstr ""
+"Observe que os usuários com essa permissão podem potencialmente destruir dados no seu "
+"sistema!"
 
 #: app/conf/user_actions.conf:1041
 msgid "Use JSON simple service"
-msgstr ""
+msgstr "Use o serviço simples JSON"
 
 #: app/conf/user_actions.conf:1042
 msgid "Allow user to use JSON simple service."
-msgstr ""
+msgstr "Permitir que o usuário use o serviço simples JSON."
 
 #: app/conf/user_actions.conf:1045
 msgid "Use JSON replication service"
-msgstr ""
+msgstr "Use o serviço de replicação JSON"
 
 #: app/conf/user_actions.conf:1046
 msgid "Allow user to use JSON replication service."
-msgstr ""
+msgstr "Permitir que o usuário use o serviço de replicação JSON."
 
 #: app/conf/user_actions.conf:1052
 msgid "Use cataloguing service"
@@ -33148,6 +33290,8 @@ msgstr "Permite ao usuário utilizar o serviço de conteúdo"
 msgid ""
 "Allow user to use usercontent web service (used for creation of sets, tags, comments)."
 msgstr ""
+"Permitir que o usuário use o serviço da web usercontent (usado para criação de "
+"conjuntos, tags, comentários)."
 
 #: app/conf/user_actions.conf:1068
 msgid "Use access control service"
@@ -33158,6 +33302,8 @@ msgid ""
 "Allow user to use access control web service. Note that this allows said user to "
 "create, edit and delete user accounts."
 msgstr ""
+"Permitir que o usuário use o serviço da web de controle de acesso. Observe que isso "
+"permite que o usuário crie, edite e exclua contas de usuário."
 
 #: app/conf/user_actions.conf:1075
 msgid "Pawtucket Actions"
@@ -33168,6 +33314,8 @@ msgid ""
 "Actions allowing access, sharing and modification of content on the front-end "
 "interface."
 msgstr ""
+"Ações que permitem acesso, compartilhamento e modificação de conteúdo na interface "
+"front-end."
 
 #: app/conf/user_actions.conf:1079
 msgid "Can Download Media"
@@ -33195,13 +33343,15 @@ msgstr "Permitir ao usuário partilhar objetos com outros através de email no F
 
 #: app/conf/user_actions.conf:1091
 msgid "Can Inititate Replication of Object Media to External Repositories"
-msgstr ""
+msgstr "Pode iniciar a replicação de mídia de objeto para repositórios externos"
 
 #: app/conf/user_actions.conf:1092
 msgid ""
 "Allow user to initiate replication of object media to external repositories such as "
 "YouTube."
 msgstr ""
+"Permitir que o usuário inicie a replicação de mídia de objeto em repositórios "
+"externos, como o YouTube."
 
 #: app/conf/user_actions.conf:1095
 msgid "Can do library self-check in"
@@ -33210,74 +33360,82 @@ msgstr "É possível fazer a auto-verificação da biblioteca em"
 #: app/conf/user_actions.conf:1096
 msgid "Indicates user is allowed to check in library items for themselves."
 msgstr ""
+"Indica que o usuário tem permissão para fazer check-in de itens da biblioteca para si "
+"próprio."
 
 #: app/conf/user_actions.conf:1099
 msgid "Can do library self-check out"
-msgstr ""
+msgstr "Pode fazer o check-out da biblioteca para si"
 
 #: app/conf/user_actions.conf:1100
 msgid "Indicates user is allowed to check out library items for themselves."
 msgstr ""
+"Indica que o usuário tem permissão para fazer o check-out dos itens da biblioteca "
+"para si próprio."
 
 #: app/conf/user_actions.conf:1103
 msgid "Can edit site pages for theme"
-msgstr ""
+msgstr "Pode editar as páginas do site para o tema"
 
 #: app/conf/user_actions.conf:1104
 msgid "Indicates user is allowed to edit site pages displayed in the current theme."
 msgstr ""
+"Indica que o usuário tem permissão para editar as páginas do site exibidas no tema "
+"atual."
 
 #: app/conf/user_actions.conf:1107
 msgid "Can edit global values for theme"
-msgstr ""
+msgstr "Pode editar valores globais para o tema"
 
 #: app/conf/user_actions.conf:1108
 msgid "Indicates user is allowed to edit global values displayed in the current theme."
 msgstr ""
+"Indica que o usuário tem permissão para editar os valores globais exibidos no tema "
+"atual."
 
 #: app/conf/user_actions.conf:1114
 msgid "Pawtucket Content Management Actions"
-msgstr ""
+msgstr "Ações de gerenciamento de conteúdo do Pawtucket"
 
 #: app/conf/user_actions.conf:1115
 msgid "Actions allowing modification of static content on the front-end interface."
-msgstr ""
+msgstr "Ações que permitem a modificação de conteúdo estático na interface front-end."
 
 #: app/conf/user_actions.conf:1118
 msgid "Create site page"
-msgstr ""
+msgstr "Criar página do site"
 
 #: app/conf/user_actions.conf:1119
 msgid "Allow user to create new site pages"
-msgstr ""
+msgstr "Permitir que o usuário crie novas páginas do site"
 
 #: app/conf/user_actions.conf:1122
 msgid "Edit site page"
-msgstr ""
+msgstr "Editar página do site"
 
 #: app/conf/user_actions.conf:1123
 msgid "Allow user to edit existing site pages"
-msgstr ""
+msgstr "Permitir que o usuário edite páginas do site existentes"
 
 #: app/conf/user_actions.conf:1126
 msgid "Delete site page"
-msgstr ""
+msgstr "Excluir página do site"
 
 #: app/conf/user_actions.conf:1127
 msgid "Allow user to delete site pages"
-msgstr ""
+msgstr "Permitir que o usuário exclua páginas do site"
 
 #: app/conf/user_actions.conf:1130
 msgid "Duplicate site page"
-msgstr ""
+msgstr "Duplicar página do site"
 
 #: app/conf/user_actions.conf:1131
 msgid "Allow user to use duplicate site pages"
-msgstr ""
+msgstr "Permitir que o usuário use páginas do site duplicadas"
 
 #: app/conf/user_actions.conf:1135
 msgid "Allow user to view site page change logs"
-msgstr ""
+msgstr "Permitir que o usuário visualize os registros de alterações da página do site"
 
 #: app/conf/user_pref_defs.conf:89
 msgid "Duplication tools"
@@ -33285,13 +33443,15 @@ msgstr "Ferramentas de duplicação"
 
 #: app/conf/user_pref_defs.conf:135
 msgid "User interface locale"
-msgstr ""
+msgstr "Localidade da interface do usuário"
 
 #: app/conf/user_pref_defs.conf:136
 msgid ""
 "Locale in which to render the user interface; also controls localization of dates, "
 "numbers, etc."
 msgstr ""
+"Localidade para renderizar a interface do usuário; também controla a localização de "
+"datas, números, etc."
 
 #: app/conf/user_pref_defs.conf:142
 msgid "User interface theme"
@@ -33300,6 +33460,7 @@ msgstr "Tema de interface do usuário"
 #: app/conf/user_pref_defs.conf:143
 msgid "Theme set (views, CSS, graphics) to display UI in"
 msgstr ""
+"Conjunto de temas (visualizações, CSS, gráficos) para exibir a interface do usuário"
 
 #: app/conf/user_pref_defs.conf:149
 msgid "Show current location as 'breadcrumb' trail"
@@ -33310,16 +33471,21 @@ msgid ""
 "If set to 'yes' the path of menu options taken to reach the current screen will be "
 "displayed at the top of every screen"
 msgstr ""
+"Se definido como 'sim', o caminho das opções de menu usadas para acessar a tela atual "
+"será exibido na parte superior de todas as telas"
 
 #: app/conf/user_pref_defs.conf:160
 msgid "Autoclear Previous Quicksearch"
-msgstr ""
+msgstr "Auto limpar a Pesquisa Rápida Anterior"
 
 #: app/conf/user_pref_defs.conf:161
 msgid ""
 "Determines if the previous Quicksearch terms clear automatically when a new search is "
 "performed, or if the search terms remain editable for the next search."
 msgstr ""
+"Determina se os termos anteriores da Pesquisa Rápida são apagados automaticamente "
+"quando uma nova pesquisa é executada ou se os termos de pesquisa permanecem editáveis ​​"
+"para a próxima pesquisa."
 
 #: app/conf/user_pref_defs.conf:166
 msgid "Clear search terms for a new search"
@@ -33338,10 +33504,12 @@ msgid ""
 "Determines if the last performed search, basic or advanced, or browse is retained "
 "after navigation away from results display"
 msgstr ""
+"Determina se a última pesquisa executada, básica ou avançada, ou navegação é mantida "
+"após a navegação longe da exibição de resultados"
 
 #: app/conf/user_pref_defs.conf:177
 msgid "Clear previous search terms when performing a new search or browse"
-msgstr ""
+msgstr "Limpar termos de pesquisa anteriores ao realizar uma nova pesquisa ou navegar"
 
 #: app/conf/user_pref_defs.conf:178
 msgid "Retain previous search terms and results when performing a search or browse"
@@ -33351,11 +33519,12 @@ msgstr ""
 
 #: app/conf/user_pref_defs.conf:182
 msgid "Map base layer"
-msgstr ""
+msgstr "Camada base do mapa"
 
 #: app/conf/user_pref_defs.conf:183
 msgid "Sets base layer to use when searching, viewing or editing using maps."
 msgstr ""
+"Define a camada base a ser usada ao pesquisar, visualizar ou editar usando mapas."
 
 #: app/conf/user_pref_defs.conf:188
 msgid "OpenStreetMap"
@@ -33371,13 +33540,15 @@ msgstr "Aguarela"
 
 #: app/conf/user_pref_defs.conf:197
 msgid "Naming policy for downloaded media"
-msgstr ""
+msgstr "Política de nomenclatura para mídia baixada"
 
 #: app/conf/user_pref_defs.conf:198
 msgid ""
 "Determines how downloaded media files will be named on <strong>your</strong> computer "
 "when downloaded."
 msgstr ""
+"Determina como os arquivos de mídia baixados serão nomeados no <strong>seu</strong> "
+"computador quando baixados."
 
 #: app/conf/user_pref_defs.conf:203
 msgid "Use original name file had when uploaded to the system + file extension"
@@ -33411,22 +33582,23 @@ msgstr "Use o sistema predefinido"
 #: app/conf/user_pref_defs.conf:218
 msgid "Use document viewer interface [JPEG page previews]"
 msgstr ""
+"Use a interface do visualizador de documentos [pré-visualizações de página JPEG]"
 
 #: app/conf/user_pref_defs.conf:219
 msgid "Use browser PDF plugin with fallback to document viewer"
-msgstr ""
+msgstr "Use o plugin do navegador PDF com fallback para o visualizador de documentos"
 
 #: app/conf/user_pref_defs.conf:227
 msgid "Default cataloguing locale"
-msgstr ""
+msgstr "Localidade de catalogação padrão"
 
 #: app/conf/user_pref_defs.conf:228
 msgid "Locale to default record and attribute locale setting to"
-msgstr ""
+msgstr "Localidade para registro padrão e configuração de localidade de atributo para"
 
 #: app/conf/user_pref_defs.conf:234
 msgid "Default action for handling references for an item to be deleted"
-msgstr ""
+msgstr "Ação padrão para manipular referências para um item a ser excluído"
 
 #: app/conf/user_pref_defs.conf:235
 msgid ""
@@ -33434,62 +33606,65 @@ msgid ""
 "another. Alternatively references can be deleted with the item. The default behavior "
 "may be set here."
 msgstr ""
+"Ao excluir um item, é possível mover qualquer referência para ou desse item para "
+"outro. Como alternativa, as referências podem ser excluídas com o item. O "
+"comportamento padrão pode ser definido aqui."
 
 #: app/conf/user_pref_defs.conf:241
 msgid "Remove references"
-msgstr ""
+msgstr "Remover referências"
 
 #: app/conf/user_pref_defs.conf:242
 msgid "Transfer references to another item"
-msgstr ""
+msgstr "Transferir referências para outro item"
 
 #: app/conf/user_pref_defs.conf:246 app/conf/user_pref_defs.conf:419
 msgid "Object editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de objetos"
 
 #: app/conf/user_pref_defs.conf:247 app/conf/user_pref_defs.conf:420
 msgid "Selects which user interface to use when editing objects."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar objetos."
 
 #: app/conf/user_pref_defs.conf:253 app/conf/user_pref_defs.conf:426
 msgid "Object lot editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de lote de objetos"
 
 #: app/conf/user_pref_defs.conf:254 app/conf/user_pref_defs.conf:427
 msgid "Selects which user interface to use when editing object lots."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar lotes de objetos."
 
 #: app/conf/user_pref_defs.conf:260 app/conf/user_pref_defs.conf:433
 #: app/conf/user_pref_defs.conf:507
 msgid "Entity editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de entidades"
 
 #: app/conf/user_pref_defs.conf:261 app/conf/user_pref_defs.conf:434
 msgid "Selects which user interface to use when editing entities."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar entidades."
 
 #: app/conf/user_pref_defs.conf:267 app/conf/user_pref_defs.conf:440
 #: app/conf/user_pref_defs.conf:514
 msgid "Place editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de lugar"
 
 #: app/conf/user_pref_defs.conf:268 app/conf/user_pref_defs.conf:441
 msgid "Selects which user interface to use when editing places."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar lugares."
 
 #: app/conf/user_pref_defs.conf:274 app/conf/user_pref_defs.conf:447
 #: app/conf/user_pref_defs.conf:521
 msgid "Occurrence editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de ocorrências"
 
 #: app/conf/user_pref_defs.conf:275 app/conf/user_pref_defs.conf:448
 msgid "Selects which user interface to use when editing occurrences."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar ocorrências."
 
 #: app/conf/user_pref_defs.conf:281 app/conf/user_pref_defs.conf:454
 #: app/conf/user_pref_defs.conf:528
 msgid "Collection editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de coleção"
 
 #: app/conf/user_pref_defs.conf:282 app/conf/user_pref_defs.conf:455
 msgid "Selects which user interface to use when editing collections."
@@ -33498,19 +33673,19 @@ msgstr "Seleciona que interface de usuário usar ao editar as coleções."
 #: app/conf/user_pref_defs.conf:288 app/conf/user_pref_defs.conf:461
 #: app/conf/user_pref_defs.conf:535
 msgid "Storage location editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de localização de armazenamento"
 
 #: app/conf/user_pref_defs.conf:289 app/conf/user_pref_defs.conf:462
 msgid "Selects which user interface to use when editing storage locations."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar locais de armazenamento."
 
 #: app/conf/user_pref_defs.conf:295 app/conf/user_pref_defs.conf:468
 msgid "Object representation editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de representação de objetos"
 
 #: app/conf/user_pref_defs.conf:296 app/conf/user_pref_defs.conf:469
 msgid "Selects which user interface to use when editing object representations."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar representações de objetos."
 
 #: app/conf/user_pref_defs.conf:302
 msgid "Representation annotation editor user interface"
@@ -33524,108 +33699,114 @@ msgstr ""
 
 #: app/conf/user_pref_defs.conf:309
 msgid "Sets editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de seleções"
 
 #: app/conf/user_pref_defs.conf:310
 msgid "Selects which user interface to use when editing sets."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar seleções."
 
 #: app/conf/user_pref_defs.conf:316
 msgid "Set item editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de item de seleção"
 
 #: app/conf/user_pref_defs.conf:317
 msgid "Selects which user interface to use when editing set items."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar itens da seleção."
 
 #: app/conf/user_pref_defs.conf:323
 msgid "List editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de listas"
 
 #: app/conf/user_pref_defs.conf:324
 msgid "Selects which user interface to use when editing list information."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao editar as informações da lista."
 
 #: app/conf/user_pref_defs.conf:330
 msgid "List item editor user interface"
-msgstr ""
+msgstr "Interface de usuário do editor de itens de lista"
 
 #: app/conf/user_pref_defs.conf:331
 msgid "Selects which user interface to use when editing list items."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar itens da lista."
 
 #: app/conf/user_pref_defs.conf:337 app/conf/user_pref_defs.conf:351
 #: app/conf/user_pref_defs.conf:358 app/conf/user_pref_defs.conf:475
 msgid "Loan editor user interface"
-msgstr ""
+msgstr "Interface de usuário do editor de empréstimo"
 
 #: app/conf/user_pref_defs.conf:338 app/conf/user_pref_defs.conf:476
 msgid "Selects which user interface to use when editing loans."
-msgstr ""
+msgstr "Seleciona qual interface do usuário deve ser usada ao editar empréstimos."
 
 #: app/conf/user_pref_defs.conf:344 app/conf/user_pref_defs.conf:482
 msgid "Movement editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de movimento"
 
 #: app/conf/user_pref_defs.conf:345 app/conf/user_pref_defs.conf:483
 msgid "Selects which user interface to use when editing movements."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar movimentos."
 
 #: app/conf/user_pref_defs.conf:352 app/conf/user_pref_defs.conf:490
 msgid "Selects which user interface to use when editing tours."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar visitas guiadas."
 
 #: app/conf/user_pref_defs.conf:359 app/conf/user_pref_defs.conf:497
 msgid "Selects which user interface to use when editing tour stops."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao editar as paradas da visita "
+"guiada."
 
 #: app/conf/user_pref_defs.conf:365
 msgid "Search form editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de formulários de pesquisa"
 
 #: app/conf/user_pref_defs.conf:366
 msgid "Selects which user interface to use when editing search forms."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar formulários de pesquisa."
 
 #: app/conf/user_pref_defs.conf:372
 msgid "Display editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de visualização"
 
 #: app/conf/user_pref_defs.conf:373
 msgid "Selects which user interface to use when editing displays."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar visualizações."
 
 #: app/conf/user_pref_defs.conf:379
 msgid "Relationship type editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de tipo de relacionamento"
 
 #: app/conf/user_pref_defs.conf:380
 msgid "Selects which user interface to use when editing relationship types."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar tipos de relacionamento."
 
 #: app/conf/user_pref_defs.conf:386
 msgid "User interface editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de interface do usuário"
 
 #: app/conf/user_pref_defs.conf:387
 msgid "Selects which user interface to use when editing user interfaces."
-msgstr ""
+msgstr "Seleciona qual interface do usuário usar ao editar interfaces do usuário."
 
 #: app/conf/user_pref_defs.conf:393
 msgid "User interface screen editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor da tela da interface com o usuário"
 
 #: app/conf/user_pref_defs.conf:394
 msgid "Selects which user interface to use when editing user interface screens."
 msgstr ""
+"Seleciona qual interface do usuário usar ao editar telas da interface do usuário."
 
 #: app/conf/user_pref_defs.conf:400
 msgid "Import/export mapping editor user interface"
-msgstr ""
+msgstr "Interface do usuário do editor de mapeamento de importação/exportação"
 
 #: app/conf/user_pref_defs.conf:401
 msgid "Selects which user interface to use when editing import/export mappings."
 msgstr ""
+"Seleciona qual interface do usuário usar ao editar mapeamentos de importação / "
+"exportação."
 
 #: app/conf/user_pref_defs.conf:407
 msgid "Import/export mapping group editor user interface"
@@ -33648,14 +33829,20 @@ msgstr "Interface de usuário do editor de paragens das visitas guiadas"
 #: app/conf/user_pref_defs.conf:508
 msgid "Selects which user interface to use when quick-adding entities."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao realizar adição rápida de "
+"entidades."
 
 #: app/conf/user_pref_defs.conf:515
 msgid "Selects which user interface to use when quick-adding places."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao realizar adição rápida de "
+"lugares."
 
 #: app/conf/user_pref_defs.conf:522
 msgid "Selects which user interface to use when editquick-addinging occurrences."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao realizar adição rápida de "
+"ocorrências."
 
 #: app/conf/user_pref_defs.conf:529
 msgid "Selects which user interface to use when quick-adding collections."
@@ -33664,6 +33851,8 @@ msgstr "Seleciona que interface de usuário usar adicionar coleções."
 #: app/conf/user_pref_defs.conf:536
 msgid "Selects which user interface to use when quick-adding storage locations."
 msgstr ""
+"Seleciona qual interface do usuário deve ser usada ao realizar adição rápida de "
+"locais de armazenamento."
 
 #: app/conf/user_pref_defs.conf:546
 msgid "Display measurements in"
@@ -33687,11 +33876,11 @@ msgstr "unidades métricas"
 
 #: app/conf/user_pref_defs.conf:554
 msgid "imperial units"
-msgstr ""
+msgstr "unidades imperiais"
 
 #: app/conf/user_pref_defs.conf:555
 msgid "imperial fractions"
-msgstr ""
+msgstr "frações imperiais"
 
 #: app/conf/user_pref_defs.conf:559
 msgid "Preferred display currency"
@@ -33713,15 +33902,15 @@ msgstr "Duplicar as etiquetas não preferenciais?"
 
 #: app/conf/user_pref_defs.conf:570
 msgid "If set alternate names for the object will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o objeto serão duplicados."
 
 #: app/conf/user_pref_defs.conf:580
 msgid "Duplicate object metadata?"
-msgstr ""
+msgstr "Duplicar metadados do objeto?"
 
 #: app/conf/user_pref_defs.conf:581
 msgid "If set all selected fields in the object will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no objeto serão duplicados."
 
 #: app/conf/user_pref_defs.conf:591 app/conf/user_pref_defs.conf:661
 #: app/conf/user_pref_defs.conf:718 app/conf/user_pref_defs.conf:778
@@ -33731,7 +33920,7 @@ msgstr ""
 #: app/conf/user_pref_defs.conf:1158 app/conf/user_pref_defs.conf:1214
 #: app/conf/user_pref_defs.conf:1254 app/conf/user_pref_defs.conf:1310
 msgid "Duplicate relationship interstitial metadata?"
-msgstr ""
+msgstr "Duplicar metadados de relacionamento intersticial?"
 
 #: app/conf/user_pref_defs.conf:592 app/conf/user_pref_defs.conf:662
 #: app/conf/user_pref_defs.conf:719 app/conf/user_pref_defs.conf:779
@@ -33743,6 +33932,8 @@ msgstr ""
 msgid ""
 "If set all interstitial fields for all selected relationships will be duplicated."
 msgstr ""
+"Se definido, todos os campos intersticiais para todos os relacionamentos selecionados "
+"serão duplicados."
 
 #: app/conf/user_pref_defs.conf:602 app/conf/user_pref_defs.conf:672
 #: app/conf/user_pref_defs.conf:729 app/conf/user_pref_defs.conf:789
@@ -33780,7 +33971,7 @@ msgstr ""
 #: app/conf/user_pref_defs.conf:1281 app/conf/user_pref_defs.conf:1332
 #: app/conf/user_pref_defs.conf:1350
 msgid "Duplicate element settings"
-msgstr ""
+msgstr "Duplicar configurações do elemento"
 
 #: app/conf/user_pref_defs.conf:633 app/conf/user_pref_defs.conf:690
 #: app/conf/user_pref_defs.conf:750 app/conf/user_pref_defs.conf:806
@@ -33791,115 +33982,116 @@ msgstr ""
 #: app/conf/user_pref_defs.conf:1282 app/conf/user_pref_defs.conf:1333
 #: app/conf/user_pref_defs.conf:1351
 msgid "Metadata elements to be duplicated."
-msgstr ""
+msgstr "Elementos de metadados a serem duplicados."
 
 #: app/conf/user_pref_defs.conf:640
 msgid "If set alternate names for the lot will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o lote serão duplicados."
 
 #: app/conf/user_pref_defs.conf:650
 msgid "Duplicate lot metadata?"
-msgstr ""
+msgstr "Duplicar metadados do lote?"
 
 #: app/conf/user_pref_defs.conf:651
 msgid "If set all selected fields in the lot will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no lote serão duplicados."
 
 #: app/conf/user_pref_defs.conf:697
 msgid "If set alternate names for the entity will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a entidade serão duplicados."
 
 #: app/conf/user_pref_defs.conf:707
 msgid "Duplicate entity metadata?"
-msgstr ""
+msgstr "Duplicar metadados da entidade?"
 
 #: app/conf/user_pref_defs.conf:708
 msgid "If set all selected fields in the entity will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na entidade serão duplicados."
 
 #: app/conf/user_pref_defs.conf:757
 msgid "If set alternate names for the place will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o lugar serão duplicados."
 
 #: app/conf/user_pref_defs.conf:767
 msgid "Duplicate place metadata?"
-msgstr ""
+msgstr "Duplicar metadados do lugar?"
 
 #: app/conf/user_pref_defs.conf:768
 msgid "If set all selected fields in the place will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no lugar serão duplicados."
 
 #: app/conf/user_pref_defs.conf:813
 msgid "If set alternate names for the collection will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a coleção serão duplicados."
 
 #: app/conf/user_pref_defs.conf:823
 msgid "Duplicate collection metadata?"
-msgstr ""
+msgstr "Duplicar metadados da coleção?"
 
 #: app/conf/user_pref_defs.conf:824
 msgid "If set all selected fields in the collection will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na coleção serão duplicados."
 
 #: app/conf/user_pref_defs.conf:871
 msgid "If set alternate names for the occurrence will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a ocorrência serão duplicados."
 
 #: app/conf/user_pref_defs.conf:881
 msgid "Duplicate occurrence metadata?"
-msgstr ""
+msgstr "Duplicar metadados da ocorrência?"
 
 #: app/conf/user_pref_defs.conf:882
 msgid "If set all selected fields in the occurrence will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na ocorrência serão duplicados."
 
 #: app/conf/user_pref_defs.conf:928
 msgid "If set alternate names for the storage location will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a local de armazenamento serão duplicados."
 
 #: app/conf/user_pref_defs.conf:938
 msgid "Duplicate storage location metadata?"
-msgstr ""
+msgstr "Duplicar metadados do local de armazenamento?"
 
 #: app/conf/user_pref_defs.conf:939
 msgid "If set all selected fields in the storage location will be duplicated."
 msgstr ""
+"Se definido, todos os campos selecionados no local de armazenamento serão duplicados."
 
 #: app/conf/user_pref_defs.conf:981
 msgid "If set alternate names for the loan will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o empréstimo serão duplicados."
 
 #: app/conf/user_pref_defs.conf:991
 msgid "Duplicate loan metadata?"
-msgstr ""
+msgstr "Duplicar metadados do empréstimo?"
 
 #: app/conf/user_pref_defs.conf:992
 msgid "If set all selected fields in the loan will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no empréstimo serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1033
 msgid "If set alternate names for the movement will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o movimento serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1043
 msgid "Duplicate movement metadata?"
-msgstr ""
+msgstr "Duplicar metadados do movimento?"
 
 #: app/conf/user_pref_defs.conf:1044
 msgid "If set all selected fields in the movement will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no movimento serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1086
 msgid "If set alternate names for the tour will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a visita guiada serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1096
 msgid "Duplicate tour metadata?"
-msgstr ""
+msgstr "Duplicar metadados da visita guiada?"
 
 #: app/conf/user_pref_defs.conf:1097
 msgid "If set all selected fields in the tour will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na visita guiada serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1118
 msgid "Duplicate tour stops?"
@@ -33911,51 +34103,52 @@ msgstr "Se selecionado todas as paragens na visita guiada serão incluídas."
 
 #: app/conf/user_pref_defs.conf:1137
 msgid "If set alternate names for the tour stop will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a parada de visita guiada serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1147
 msgid "Duplicate tour stop metadata?"
-msgstr ""
+msgstr "Duplicar metadados da parada de visita guiada?"
 
 #: app/conf/user_pref_defs.conf:1148
 msgid "If set all selected fields in the tour stop will be duplicated."
 msgstr ""
+"Se definido, todos os campos selecionados na parada de visita guiada serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1193
 msgid "If set alternate names for the list will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a lista serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1203
 msgid "Duplicate list metadata?"
-msgstr ""
+msgstr "Duplicar metadados da lista?"
 
 #: app/conf/user_pref_defs.conf:1204
 msgid "If set all selected fields in the list will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na lista serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1233
 msgid "If set alternate names for the list item will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para o item de lista serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1243
 msgid "Duplicate list item metadata?"
-msgstr ""
+msgstr "Duplicar metadados do item de lista?"
 
 #: app/conf/user_pref_defs.conf:1244
 msgid "If set all selected fields in the list item will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados no item da lista serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1289
 msgid "If set alternate names for the set will be duplicated."
-msgstr ""
+msgstr "Se definido nomes alternativos para a seleção serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1299
 msgid "Duplicate set metadata?"
-msgstr ""
+msgstr "Duplicar metadados da seleção?"
 
 #: app/conf/user_pref_defs.conf:1300
 msgid "If set all selected fields in the set will be duplicated."
-msgstr ""
+msgstr "Se definido, todos os campos selecionados na seleção serão duplicados."
 
 #: app/conf/user_pref_defs.conf:1321
 msgid "Duplicate items?"
@@ -33978,43 +34171,43 @@ msgstr ""
 
 #: app/conf/user_pref_defs.conf:1361
 msgid "Quick search settings"
-msgstr ""
+msgstr "Configurações de pesquisa rápida"
 
 #: app/conf/user_pref_defs.conf:1362
 msgid "Customizes the scope and order of quick search results"
-msgstr ""
+msgstr "Personaliza o escopo e a ordem dos resultados da pesquisa rápida"
 
 #: app/conf/user_pref_defs.conf:1378
 msgid "Are you over 18 years of age?"
-msgstr ""
+msgstr "Você tem mais de 18 anos de idade?"
 
 #: app/conf/user_pref_defs.conf:1379
 msgid "If checked user has verified they are over 18 years of age."
-msgstr ""
+msgstr "Se marcado, o usuário afirmou que tem mais de 18 anos de idade."
 
 #: app/conf/user_pref_defs.conf:1389
 msgid "Field of research"
-msgstr ""
+msgstr "Campo de pesquisa"
 
 #: app/conf/user_pref_defs.conf:1390
 msgid "The field of research the user is engaged in."
-msgstr ""
+msgstr "O campo de pesquisa em que o usuário está envolvido."
 
 #: app/conf/user_pref_defs.conf:1395
 msgid "Art history"
-msgstr ""
+msgstr "História da arte"
 
 #: app/conf/user_pref_defs.conf:1396
 msgid "Photography"
-msgstr ""
+msgstr "Fotografia"
 
 #: app/conf/user_pref_defs.conf:1397
 msgid "Art gallery/dealer"
-msgstr ""
+msgstr "Galeria de arte / revendedor"
 
 #: app/conf/user_pref_defs.conf:1398
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticação"
 
 #: app/conf/user_pref_defs.conf:1403
 msgid "Your organization."
@@ -34095,7 +34288,7 @@ msgstr "Cronograma"
 
 #: app/conf/visualization.conf:46
 msgid "StoryMap"
-msgstr ""
+msgstr "StoryMap"
 
 #: app/conf/visualization.conf:118
 msgid "Calendar"
