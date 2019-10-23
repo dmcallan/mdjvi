@@ -8480,8 +8480,8 @@
       <item idno="modeacq29" enabled="1" default="0">
        <labels>
         <label locale="pt_BR" preferred="1">
-         <name_singular>= transferência de propriedade</name_singular>
-         <name_plural>= transferência de propriedade</name_plural>
+         <name_singular>transferência de propriedade</name_singular>
+         <name_plural>transferência de propriedade</name_plural>
         </label>
        </labels>
       </item>
@@ -9004,6 +9004,14 @@
       <label locale="pt_BR" preferred="1">
        <name_singular>Antigo número do inventário</name_singular>
        <name_plural>Antigos números do inventário</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="num_ufrj" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Número no Registro da UFRJ</name_singular>
+       <name_plural>Número no Registro da UFRJ</name_plural>
       </label>
      </labels>
     </item>
@@ -25048,6 +25056,52 @@
     </restriction>
    </typeRestrictions>
   </metadataElement>
+  <metadataElement code="descri_fis" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Descrição Física</name>
+     <description>Descrição Física do Objeto.
+     </description>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">110</setting>
+    <setting name="fieldHeight">4</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">255</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="rel_obj_descri" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Descrição do Relacionamento</name>
+     <description>Descrição do Relacionamento entre os Objetos.
+     </description>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">110</setting>
+    <setting name="fieldHeight">4</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">255</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
  </elementSets>
  <userInterfaces>
   <userInterface code="mdjvi_inventario2" type="ca_objects">
@@ -25080,6 +25134,15 @@
       </placement>
       <placement code="ca_attribute_otherNumber2">
         <bundle>ca_attribute_otherNumber</bundle>
+        <settings>
+          <setting name="readonly"/>
+          <setting name="expand_collapse_value">dont_force</setting>
+          <setting name="expand_collapse_no_value">dont_force</setting>
+          <setting name="sortDirection">ASC</setting>
+        </settings>
+      </placement>
+      <placement code="ca_attribute_descri_fis1">
+        <bundle>ca_attribute_descri_fis</bundle>
         <settings>
           <setting name="readonly"/>
           <setting name="expand_collapse_value">dont_force</setting>
@@ -25421,6 +25484,111 @@
         <setting name="expand_collapse_value">dont_force</setting>
         <setting name="expand_collapse_no_value">dont_force</setting>
         <setting name="sortDirection">ASC</setting>
+       </settings>
+      </placement>
+     </bundlePlacements>
+    </screen>
+    <screen idno="inv_relations" default="0">
+     <labels>
+      <label locale="pt_BR">
+       <name>Relacionamentos</name>
+      </label>
+     </labels>
+     <bundlePlacements>
+	  <placement code="ca_objects1">
+       <bundle>ca_objects</bundle>
+       <settings>
+        <setting name="readonly"/>
+        <setting name="expand_collapse_value">bubbles</setting>
+        <setting name="expand_collapse_no_value">bubbles</setting>
+        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
+        <setting name="list_format">bubbles</setting>
+        <setting name="sort">1</setting>
+        <setting name="sortDirection">ASC</setting>
+        <setting name="dontShowDeleteButton">0</setting>
+        <setting name="display_template">^ca_objects.preferred_labels</setting>
+        <setting name="minRelationshipsPerRow"/>
+        <setting name="maxRelationshipsPerRow"/>
+       </settings>
+      </placement>	 
+      <placement code="ca_attibute_objects1">
+       <bundle>ca_attribute_rel_obj_descri</bundle>
+        <settings>
+          <setting name="readonly"/>
+          <setting name="expand_collapse_value">dont_force</setting>
+          <setting name="expand_collapse_no_value">dont_force</setting>
+          <setting name="sortDirection">ASC</setting>
+         </settings>
+      </placement>
+      <placement code="ca_places3">
+       <bundle>ca_places</bundle>
+       <settings>
+        <setting name="readonly"/>
+        <setting name="expand_collapse_value">dont_force</setting>
+        <setting name="expand_collapse_no_value">dont_force</setting>
+        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
+        <setting name="list_format">bubbles</setting>
+        <setting name="sortDirection">ASC</setting>
+        <setting name="dontShowDeleteButton">0</setting>
+        <setting name="display_template">
+         ^ca_places.hierarchy.preferred_labels.name%delimiter=_➔_
+        </setting>
+        <setting name="minRelationshipsPerRow"/>
+        <setting name="maxRelationshipsPerRow"/>
+        <setting name="useHierarchicalBrowser">1</setting>
+        <setting name="hierarchicalBrowserHeight">200px</setting>
+       </settings>
+      </placement>
+      <placement code="ca_occurrences4">
+       <bundle>ca_occurrences</bundle>
+       <settings>
+        <setting name="readonly"/>
+        <setting name="expand_collapse_value">bubbles</setting>
+        <setting name="expand_collapse_no_value">bubbles</setting>
+        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
+        <setting name="list_format">bubbles</setting>
+        <setting name="sort">1</setting>
+        <setting name="sortDirection">ASC</setting>
+        <setting name="dontShowDeleteButton">0</setting>
+        <setting name="display_template">^ca_occurrences.preferred_labels</setting>
+        <setting name="minRelationshipsPerRow"/>
+        <setting name="maxRelationshipsPerRow"/>
+       </settings>
+      </placement>
+      <placement code="ca_collections5">
+       <bundle>ca_collections</bundle>
+       <settings>
+        <setting name="readonly"/>
+        <setting name="expand_collapse_value">bubbles</setting>
+        <setting name="expand_collapse_no_value">bubbles</setting>
+        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
+        <setting name="list_format">bubbles</setting>
+        <setting name="sort">1</setting>
+        <setting name="sortDirection">ASC</setting>
+        <setting name="dontShowDeleteButton">0</setting>
+        <setting name="display_template">^ca_collections.preferred_labels</setting>
+        <setting name="minRelationshipsPerRow"/>
+        <setting name="maxRelationshipsPerRow"/>
+       </settings>
+      </placement>
+      <placement code="ca_storage_locations6">
+       <bundle>ca_storage_locations</bundle>
+       <settings>
+        <setting name="readonly"/>
+        <setting name="expand_collapse_value">dont_force</setting>
+        <setting name="expand_collapse_no_value">dont_force</setting>
+        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
+        <setting name="list_format">bubbles</setting>
+        <setting name="sortDirection">ASC</setting>
+        <setting name="dontShowDeleteButton">0</setting>
+        <setting name="display_template">^ca_storage_locations.preferred_labels</setting>
+        <setting name="minRelationshipsPerRow"/>
+        <setting name="maxRelationshipsPerRow"/>
+        <setting name="useHierarchicalBrowser">1</setting>
+        <setting name="hierarchicalBrowserHeight">200px</setting>
+        <setting name="showCurrentOnly">0</setting>
+        <setting name="label" locale="pt_BR">Localização atual</setting>
+        <setting name="add_label" locale="pt_BR">Localização atual</setting>
        </settings>
       </placement>
      </bundlePlacements>
