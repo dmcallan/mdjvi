@@ -374,7 +374,7 @@ $\!$\\
 
 Este projeto tem por objetivo possibilitar que a equipe do Museu Dom João VI tenha uma forma prática de adicionar, remover e atualizar qualquer peça do acervo, sem as limitações anteriores da transferência manual do arquivo que só poderia ser editado em um único computador.
 
-Também sera possível gerenciar as tarefas do Museu, como restaurações, auditorias, exposições e qualquer ação envolvendo a coleção registrada no banco de dados utilizando o mesmo ambiente virtual, as entidades que são pessoas ou empresas relacionadas com o Museu, e os locais de produção e armazenamento das peças, entre outros.
+Também será possível gerenciar as tarefas do Museu, como restaurações, auditorias, exposições e qualquer ação envolvendo a coleção registrada no banco de dados utilizando o mesmo ambiente virtual, as entidades que são pessoas ou empresas relacionadas com o Museu, e os locais de produção e armazenamento das peças, entre outros.
 
 Esse banco de dados deverá ser exibido em um novo site, contendo um sistema de pesquisa de fácil utilização no qual por meio de um ou mais parâmetros definidos pelo usuário ele possa obter uma resposta rápida sobre as peças desejadas. Este site também deverá exibir algumas informações sobre o Museu e seu acervo, além da localização, formas de contato e horário de funcionamento.
 
@@ -412,9 +412,9 @@ O projeto original de informatização do acervo do \textbf{Museu D. João VI} v
 
 Cada um destes banco de dados possuía dois arquivos diferentes, um com as tabelas com os dados propriamente ditos, e outro com os formulários para entrada e alteração de dados, relatórios e sistema de pesquisa. Esse segundo arquivo ficava no computador ``Mãe'', onde todas as alterações nos dados do acervo era realizada.
 
-O foco deste projeto é o gerenciamento e exposição do Acervo Museológico, devido a recente retirada do ar do site que fazia a exibição do mesmo, para isto foi recebido o arquivo do banco de dados Acervo\_be.mdb.
+O foco deste projeto é o gerenciamento e exposição do Acervo Museológico, devido a recente retirada do ar do site que fazia a exibição do mesmo, e para isto foi recebido o arquivo do banco de dados Acervo\_be.mdb.
 
-Este banco de dados foi criado utilizando a ferramenta do Microsoft Access 97 e desde então, devido a falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
+Este banco de dados foi criado utilizando o programa Microsoft Access 97 e desde então, devido a falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
 
 Com as atualizações do programa Microsoft Access, a última versão não conseguia abrir o arquivo existente. Para se poder utilizar o mesmo foi necessário a instalação de uma versão intermediária, neste caso foi utilizado o Access 2003. Com isto o arquivo pode ser salvo em um formato mais recente que pode ser aberto e tratado utilizando as ferramentas mais atuais.
 
@@ -446,11 +446,11 @@ O tratamento e importação dos dados para o Collective Access será visto em de
 
 Para facilitar o desenvolvimento e futura manutenção do acervo do site foi decidido utilizar um sistema de gerenciamento de conteúdo. Este sistema é um software construído para acompanhar cada parte do conteúdo em um website, sem requerer um conhecimento técnico ou de gerenciamento de dados prévio~\cite{CMS}.
 
-Uma das grandes vantagens, da utilização de um SGC é a possibilidade de que qualquer colaborador de uma organização, detentor de informação, pode produzir conteúdo no website da organização. Eles também ajudam a reduzir os erros de publicação e facilitam o processo de validação dos dados. É importante destacar porém que o sucesso na gestão do conteúdo não está relacionado com a tecnologia ou programa adotado, mas sim com as pessoas e o processo utilizado~\cite{chagas2018estudo}.
+Uma das grandes vantagens da utilização de um SGC é a possibilidade de que qualquer colaborador de uma organização, detentor de informação, pode produzir conteúdo no website da organização. Eles também ajudam a reduzir os erros de publicação e facilitam o processo de validação dos dados. É importante destacar porém que o sucesso na gestão do conteúdo não está relacionado com a tecnologia ou programa adotado, mas sim com as pessoas e o processo utilizado~\cite{chagas2018estudo}.
 
 %A maior desvantagem no uso dessa tecnologia é a necessidade de treinamento por parte da equipe que irá gerenciar o conteúdo na utilização do programa.
 
-Neste projeto, devido as várias opções disponíveis no mercado, optou-se pelo uso de um software de gerenciamento de conteúdo especializado em museus, pois o mesmo já seria preparado e configurado para o tipo de acervo específico, além de poder contar com funcionalidades necessárias para o gerenciamento e controle do acervo. 
+Neste projeto, devido as várias opções disponíveis no mercado, optou-se pelo uso de um software de gerenciamento de conteúdo especializado em museus, pois o mesmo já seria preparado e configurado para o tipo de dado específico, além de poder contar com funcionalidades necessárias para o gerenciamento e controle do acervo.
 
 Também foi dada a preferência por programas de utilização gratuita e que sejam compatíveis com o sistema operacional LINUX para evitar qualquer custo e facilitar a implementação para o Museu Dom João VI. Também foi avaliado a possibilidade de configuração e adaptação para o Acervo, suas fichas já existentes e o suporte oferecido pela empresa desenvolvedora.
 
@@ -537,7 +537,7 @@ Os dois principais componentes do Collective Access são o Providence, que geren
 
 \section{O que é o Providence}
 
-O Providence é a parte principal do projeto que controlará o acesso para edição do banco de dados para gerenciamento dos itens. Com ele é possível manipular os itens e suas respectivas informações e mídias, pesquisar dados e gerenciar coleções e o funcionamento básico de um museu.
+O Providence é a parte principal do projeto que controlará o acesso para edição do banco de dados para gerenciamento do acervo. Com ele é possível manipular os itens e suas respectivas informações e mídias, pesquisar dados, gerenciar coleções e as ocorrências necessárias para o funcionamento básico de um museu.
 
 Sendo uma aplicação baseada em web onde os usuários irão acessar o servidor utilizando um login e uma senha, não haverá mais a preocupação de se perder o acesso ao sistema caso ocorra problema em um computador, bastando se ter uma cópia de segurança dos dados do servidor. 
 
@@ -545,7 +545,7 @@ Para se acessar o programa basta abrir o endereço do servidor em um navegador d
 
 \section{Configuração do perfil de Instalação}
 
-A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações que irão gerar e controlar o vocabulário, em um ou mais idiomas, criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas. O perfil criado para este projeto contém as seguintes informações divididas por seções: 
+A instalação do Providence é baseada em um perfil, baseado na sintaxe XML, onde é descrito toda a estrutura do gerenciamento de banco de dados do catálogo a ser importado e a administração do museu sobre o mesmo. Este perfil contém as informações, em um ou mais idiomas, que irão gerar e controlar o vocabulário,  criar padrões para os objetos e dados a serem inseridos, descrever os tipos de usuários e seus acessos, configurar a disposição dos resultados de pesquisa e exportação de dados, entre outras coisas. O perfil criado para este projeto contém as seguintes informações divididas por seções: 
 
 \begin{itemize}
 	\item \textbf{lists} - Organiza todas as listas que serão utilizadas no Providence, definindo seu código, nome de exibição e itens da lista. As listas são divididas em duas categorias diferentes: as listas do sistema, que definem elementos específicos da interface do catálogo, e as listas de controle, que são as criadas pelo usuário, tanto para controlar o conteúdo inserido quanto para termos de vocabulário, usadas em pesquisas específicas ou para uma catalogação descritiva.
