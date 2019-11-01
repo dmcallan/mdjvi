@@ -539,7 +539,7 @@ Os dois principais componentes do Collective Access são o Providence, que geren
 
 O Providence é a parte principal do projeto que controlará o acesso para edição do banco de dados para gerenciamento do acervo. Com ele é possível manipular os itens e suas respectivas informações e mídias, pesquisar dados, gerenciar coleções e as ocorrências necessárias para o funcionamento básico de um museu.
 
-Sendo uma aplicação baseada em web onde os usuários irão acessar o servidor utilizando um login e uma senha, não haverá mais a preocupação de se perder o acesso ao sistema caso ocorra problema em um computador, bastando se ter uma cópia de segurança dos dados do servidor. 
+Sendo uma aplicação baseada em web onde os usuários irão acessar o servidor utilizando um login e uma senha, não haverá mais a preocupação de se perder o acesso ao sistema caso ocorra problema em um computador, bastando se ter uma cópia de segurança dos dados do servidor.
 
 Para se acessar o programa basta abrir o endereço do servidor em um navegador de internet. O controle e gerenciamento de acesso fica sob responsabilidade do administrador de rede do servidor em que o Providence for instalado, podendo ser disponibilizado o acesso online ou somente para uma rede local de computadores.
 
@@ -569,8 +569,10 @@ Para atender melhor a necessidade do Museu a interface de usuário dos objetos f
 
 \begin{itemize}
 	\item \textbf{Identificação Física} - Como o próprio nome já diz e pode-se verificar na figura \ref{fig:tela_id_fis},  ficam as informações referentes a análise física do item. Todos os campos do banco de dados anterior do Museu ficaram nesta seção, além de alguns novos que foram criados para auxiliar o gerenciamento do inventário.
-	\item \textbf{Análise Histórica e Estilística} - Foram criados novos campos para se cadastrar a análise feita do objeto, conforme definido pela equipe do Museu D. João VI. Um exemplo da tela com este seção pode ser vista na figura \ref{fig:Tela_hist} 
-	\item \textbf{Mídia} - Local em que ficam as mídias carregadas do objetos.
+	\item \textbf{Análise Histórica e Estilística} - Foram criados novos campos para se cadastrar a análise feita do objeto, conforme definido pela equipe do Museu D. João VI. Um exemplo da tela com este seção pode ser vista na figura \ref{fig:Tela_hist}. 
+	\item \textbf{Mídia} - Local em que ficam as mídias do objetos. Podem ser carregadas múltiplas imagens e arquivos, como um documento em PDF com as informações do mesmo.
+	\item \textbf{Relacionamentos} - Página para controle dos relacionamentos do objeto. Pode-se criar ligações com qualquer dado do Providence, como outro objeto, locais, ocorrências e coleções. Ao se criar uma relação será criado um link em ambas as páginas dos dados da relação, facilitando a navegação entre eles, conforme pode ser visto na figura \ref{fig:Tela_rel}. Caso se deseje fazer uma referência à um objeto de fora do banco de dados, foi adicionado um campo de texto livre "Descrição do Relacionamento", onde a informação pode ser inserida.
+	\item \textbf{Direito de Acesso} - Este página contém a opção que controla o acesso do público ao objeto. Esta opção também pode ser utilizada, caso desejado, para controlar quais objetos são exibidos no site do museu. Neste caso somente os objetos marcados como "acessível ao público" aparecem no Pawtucket.
 	\item \textbf{Resumo} - Exibe um resumo dos campos do objeto, sem permitir a edição dos mesmos, conforme configurado na seção \textit{Displays} do perfil de instalação.
 \end{itemize}
 
@@ -582,6 +584,11 @@ Para atender melhor a necessidade do Museu a interface de usuário dos objetos f
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=15cm, center]{figuras/Tela_hist.jpg}
 	\caption{Interface de Edição de Objeto - Análise Histórica e Estilística} \label{fig:Tela_hist}
+\end{figure}
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, center]{figuras/Tela_Relac.jpg}
+	\caption{Interface de Edição de Objeto - Relacionamentos} \label{fig:Tela_rel}
 \end{figure}
 
 Além destas seções cada item também conta com seção "Registro" onde ficam cadastrados a data, horário, o usuário responsável e quais dados foram inseridos ou editados.
@@ -824,7 +831,7 @@ Para se verificar a importação dos objetos, além do registro dos eventos que 
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=15cm, left]{figuras/tela_reg.jpg}
-	\caption{Tela de Importação - Configurações} \label{fig:tela_reg}
+	\caption{Tela do Objeto - Registro} \label{fig:tela_reg}
 \end{figure}
 
 Conforme já foi dito na seção da Configuração do perfil de instalação, cada item possui uma seção Registro onde ficam armazenadas as informações referentes aos campos que foram inseridos ou editados. A figura \ref{fig:tela_reg} mostra esta seção e como ela armazena os dados que foram gerados durante a importação e os que foram editados posteriormente.
