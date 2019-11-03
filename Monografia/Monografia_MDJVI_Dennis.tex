@@ -565,7 +565,9 @@ O Collective Access oferece alguns perfis pré-configurados para teste e instala
 
 Para este projeto foi utilizado o perfil validado pelo Ministério da Cultura da França para os \textit{Musées de France}, o "joconde". O mesmo foi traduzido para o português e editado para que ele pudesse ser utilizado com o catálogo do \textbf{Museu D. João VI}, suas classes e subclasses. Esta configuração já é preparada para administração da coleção com funções para realização de auditorias, registro do estado dos objetos, criação de ações para conservação ou restauração e até mesmo controlar os empréstimos de peças e lotes.
 
-Para atender melhor a necessidade do Museu a interface de usuário dos objetos foi revisada para as informações dos objetos ficasse dividida nas seguintes seções: 
+Além disso também foi realizada uma reunião com a equipe responsável pelo Museu D. João VI, onde o projeto foi apresentado, exibindo as telas e as interfaces de usuário contendo os campos que poderão ser preenchidos. As sugestões e solicitações de revisão foram anotadas e implementadas, além de ter sido fornecido o acesso a um servidor com a instalação do Providence para que os mesmos pudessem testar e, caso necessário, informar quais outras alterações são necessárias para o uso do projeto pelo Museu.
+
+Para atender as solicitações da equipe do MDJVI a interface de usuário dos objetos foi revisada para que as informações ficassem divididas nas seguintes seções: 
 
 \begin{itemize}
 	\item \textbf{Identificação Física} - Como o próprio nome já diz e pode-se verificar na figura \ref{fig:tela_id_fis},  ficam as informações referentes a análise física do item. Todos os campos do banco de dados anterior do Museu ficaram nesta seção, além de alguns novos que foram criados para auxiliar o gerenciamento do inventário.
@@ -611,7 +613,7 @@ Mais detalhes e informações sobre o perfil de instalação podem ser encontrad
 
 Os arquivos do Collective Access utilizam, por padrão, a língua inglesa. Apesar de se poder trocar o idioma antes ou após a instalação para português brasileiro, a tradução não está completa e, em muitos casos, está errada ou em português de Portugal.
 
-Apesar dos objetos, listas e interfaces já terem sido traduzidos no perfil de instalação, a maior parte do gerenciamento do site e acervo, configuração e importação utiliza dados e informações provenientes de arquivos que o perfil não afeta.
+Apesar dos objetos, listas e interfaces já terem sido traduzidos no perfil de instalação, a maior parte do gerenciamento do site e acervo, configuração e importação utiliza dados e informações provenientes de arquivos de configuração do Providence.
 
 O Collective Access utiliza o sistema \textit{GNU GetText} para gerenciar as traduções dos textos da interface do usuário, armazenando ambas a versão original em inglês e a tradução em um arquivo editável messages.po. Cada tradução é armazenada em uma pasta no diretório app/locale, utilizando o código do idioma traduzido como nome da pasta.
 
@@ -669,7 +671,6 @@ O primeiro menu do site do Providence é o CRIAR, que deve ser utilizado para a 
 	\item \textbf{Entidade} - Cria uma entidade, que pode ser uma Família, Organização ou Pessoa Física;
 	\item \textbf{Lugar} - Cria um novo lugar, onde posteriormente será selecionado o tipo, como País, Estado ou Cidade. Locais de armazenamento não devem ser criados neste menu;
 	\item \textbf{Coleção} - Permite criar coleções do Museu;
-	\item \textbf{Campanha de conferência de inventário} - Cria uma ação de conferência de inventário onde pode-se listar o que será conferido, quais objetos ou entidades, eventos, locais e coleções relacionados;
 	\item \textbf{Campanha de conferência de inventário, Evento, Exposição, Procedimento, Referência bibliográfica, Verificação de objeto no inventário} - Cria uma ocorrência relativa ao banco de dados, organizada em diferentes tipos para facilitar a busca e padronização. Pode-se listar os objetos, entidades, eventos, locais e coleções relacionados a ocorrência criada, além de outras informações que forem necessárias;
 	\item \textbf{Localização} - Permite criar locais de armazenamento dos objetos, sendo possível organizá-los em diferentes tipos como uma sala, andar, prédio, caixa, entre outros;
 	\item \textbf{Empréstimo} - Cria entradas e saídas de objetos por empréstimo, organizando todas as informações relevantes como mídias, datas, condições e pessoas ou instituições envolvidas.
@@ -688,7 +689,7 @@ Já no menu ENCONTRAR, conforme visto na figura \ref{fig:menu_encontrar}, as op�
 
 \begin{itemize}
 	\item \textbf{Pesquisa básica} - Onde pode-se buscar por uma ou mais palavras e o site irá retornar os resultados encontrados da opção escolhida. Também é possível pesquisar em uma seleção de itens criada anteriormente, criar ou editar uma seleção de itens baseado nos resultados obtidos, gravar uma pesquisa para ser realizada novamente mais tarde e verificar um histórico das últimas pesquisas realizadas;
-	\item \textbf{Pesquisa avançada} - Pode-se estabelecer alguns critérios para a pesquisa, como buscar somente no título, identificador ou tipo do item. Podem ser criadas pesquisas específicas, como por data de produção ou técnica e material, que podem ser acessadas através de um formulário no canto superior direito da tela de pesquisa avançada. Similar a Pesquisa básica também é possível pesquisar em uma seleção, gravar pesquisas e visualizar o histórico das mesmas;
+	\item \textbf{Pesquisa avançada} - Pode-se estabelecer alguns critérios para a pesquisa, como buscar somente no título, identificador ou tipo do item. Podem ser criadas pesquisas específicas, como por data de produção ou técnica e material, que podem ser acessadas através de um formulário no canto superior direito da tela de pesquisa avançada. Similar a "Pesquisa básica" também é possível pesquisar em uma seleção, gravar pesquisas e visualizar o histórico das mesmas;
 	\item \textbf{Navegar} - Como a figura \ref{fig:navegar_obj} mostra, é possível escolher diferentes filtros, combinando mais de um quando necessário, para se encontrar os itens desejados.
 \end{itemize}
 
@@ -819,7 +820,7 @@ Na figura \ref{fig:mapeamento} podemos ver a tela onde se carrega o importador c
 	\caption{Tela de Importação - Configurações} \label{fig:import}
 \end{figure}
 
-Já na figura \ref{fig:import} vemos as definições necessárias antes de se realizar a importação. É necessário informar qual o formato do arquivo que será importado, carregar o mesmo para o site ou, caso ele esteja no diretório de importação, selecionar esta opção. Também é possível escolher o nível de registro que será gravado durante a importação, o que é útil em testes de mapeamento, ou até mesmo realizar uma importação "a seco", que é uma importação de teste onde os dados não são gravados no banco de dados.
+Já na figura \ref{fig:import} vemos as definições necessárias antes de se realizar a importação. É necessário informar qual o formato do arquivo que será importado, carregar o mesmo para o site ou, caso ele esteja no diretório de importação, selecionar esta opção. Também é possível escolher o nível de registro que será gravado durante a importação, o que é útil em testes de mapeamento, além de se poder realizar uma importação "a seco", que é um teste de importação onde os dados não são gravados no banco de dados, sendo utilizado para verificação de erros.
 
 Após a importação dos dados, o site irá informar quantos registros foram importados e se ocorreu algum erro. É possível verificar no log da importação, um arquivo gerado automaticamente pelo site, as mensagens de alertas e erros conforme configurado no menu "Nível de Registro" na figura \ref{fig:import}. 
 
@@ -852,15 +853,15 @@ O Pawtucket foi desenhado para acessar o banco de dados do Providence, extrair a
 
 \section{Instalação do Pawtucket}
 
-O Pawtucket foi criado para funcionar em conjunto com o Providence, logo caso este não tenha sido instalado ainda, não será possível realizar a instalação.
+O Pawtucket foi criado para funcionar em conjunto com o Providence, logo caso este não tenha sido instalado ainda, não será possível utilizar o mesmo.
 
 As configurações do servidor em que o Pawtucket será instalado são parecidas com as vistas na instalação do Providence, sendo necessário uma quantidade ainda menor de memória pois esta parte do programa não irá processar nenhuma mídia. Se for permitido acesso aos arquivos de mídia do Providence, também não será necessário uma quantidade grande de espaço em disco.
 
-Neste projeto o mesmo servidor foi utilizado para ambas as partes do Collective Access, então os arquivos do Pawtucket foram copiados para um sub-diretório do Providence.
+Neste projeto o mesmo servidor foi utilizado para ambas as partes do Collective Access, onde os arquivos do Providence foram copiados para um sub-diretório do Pawtucket, permitindo assim que a primeira página vista ao se abrir o link seja a que o usuário final tem acesso. Por exemplo, considerando que os arquivos estejam no endereço "http://localhost/", este link irá abrir o Pawtucket, e o "http://localhost/admin" irá abrir o Providence.
 
-Também similar a instalação do Providence, é necessário editar o arquivo "setup.php" com as informações de acesso ao banco de dados e informações do servidor, além do nome do tema que será utilizado pelo Pawtucket. O login de acesso ao banco de dados não precisa ser o mesmo do Providence, mas ele necessita de acesso total igual ao anterior.
+Também similar a instalação do Providence, é necessário editar o arquivo "setup.php" com as informações de acesso ao banco de dados e do servidor, além do nome do tema que será utilizado pelo Pawtucket. O login de acesso ao banco de dados não precisa ser o mesmo do Providence, mas ele necessita das mesmas permissões de acesso.
 
-Para que o Pawtucket consiga enxergar e acessar corretamente os arquivos de mídia do Providence, foi criado um link simbólico para o diretório onde os arquivos ficam contidos na raiz da instalação realizada.
+Para que o Pawtucket consiga enxergar e acessar corretamente os arquivos de mídia do Providence, evitando a necessidade de se manter uma segunda cópia dos mesmos, foi criado um link simbólico para o diretório onde os arquivos ficam contidos na instalação do Providence.
 
 Após a configuração correta dos arquivos basta acessar o endereço do servidor no qual foi feita a instalação e o site estará pronto para uso, não sendo necessário nenhuma etapa adicional.
 
@@ -868,7 +869,7 @@ Após a configuração correta dos arquivos basta acessar o endereço do servido
 
 As configurações e páginas do Pawtucket são recebidas do diretório de temas que foi selecionado no arquivo "setup.php". O tema \textit{default} contém todos os arquivos necessários para as páginas exibidas e o estilo das mesmas. Um diretório \textit{mdjvi} foi criado para controlar as alterações feitas para o projeto.
 
-Este novo diretório precisa conter somente os arquivos que forem novos ou algum existente que foi alterado. Todos os arquivos que forem necessários e não estiverem presentes no tema que estiver sendo utilizado serão carregados do diretório \textit{default}, facilitando assim o controle, revisão e atualização do tema.
+Este novo diretório precisa conter somente os arquivos novos ou algum existente que foi alterado. Todos os arquivos que forem necessários e não estiverem presentes no tema que estiver sendo utilizado serão carregados do diretório \textit{default}, facilitando assim o controle, revisão e atualização do tema.
 
 Com esta forma de trabalho, caso ocorra alguma atualização do tema \textit{default} pela equipe do Collective Access, os arquivos do mesmo podem ser substituídos pela nova versão sem prejudicar o site exibido, já que os arquivos do projeto estarão em um diretório separado.
 
@@ -878,7 +879,7 @@ Neste projeto foi utilizado como inspiração de modelo de site, mas alterado pa
 
 Nos arquivos de configuração, localizados no diretório \textit{themes/mdjvi/conf}, foram realizadas algumas alterações de acordo com as necessidades do site. A opção "dont enforce access settings" foi configurada como 1 permitindo assim que o site exibisse todos os objetos cadastrados no Providence, ignorando a opção cadastrada no registro do objeto. Caso essa opção não seja selecionada somente os objetos com o estado de acessível ao público são exibidos.
 
-Neste mesmo arquivo também foi adicionado o pt\_BR como idioma padrão de abertura do site e  foi desabilitada a opção de se registrar e entrar no site, removendo também dessa forma a possibilidade de se comentar, curtir e criar etiquetas para itens do acervo.
+Neste mesmo arquivo também foi adicionado o pt\_BR como idioma padrão de abertura do site e foi desabilitada a opção de se registrar e entrar no site, removendo também dessa forma a possibilidade de se comentar, curtir e criar etiquetas para itens do acervo.
 
 Alguns outros arquivos de configuração como, collections.conf, contact.conf, detail.conf e gallery.conf tiveram seus conteúdos revisados e traduzidos para ficarem adequados ao site. Essas traduções tiveram que ser executadas direto no arquivo pois os mesmos não foram criados de forma a permitir múltiplos idiomas com o sistema \textit{GNU GetText} conforme explicado no capítulo anterior.
 
@@ -930,7 +931,7 @@ No menu superior as seguintes opções estarão disponíveis:
 	\caption{Navegação do Acervo} \label{fig:tela_navobj}
 \end{figure}
 
-A pesquisa avançada permite uma pesquisa específica dentro do acervo. Todos os campos preenchidos na pesquisa devem ser correspondidos simultaneamente pelo objeto para que o mesmo seja exibido nos resultados. Todas as opções de filtros da pesquisa avançada possuem uma dica que será exibida quando se passar o cursor do mouse por cima do texto.
+A Pesquisa Avançada permite uma pesquisa específica dentro do acervo. Todos os campos preenchidos na pesquisa devem ser correspondidos simultaneamente pelo objeto para que o mesmo seja exibido nos resultados. Todas as opções de filtros da pesquisa avançada possuem uma dica que será exibida quando se passar o cursor do mouse por cima do texto.
 
 Nesta pesquisa qualquer campo do objeto ou conteúdo do Providence pode ser pesquisado, sendo que conforme a figura \ref{fig:tela_pesqav} mostra foram configurados escolhidos as seguintes opções:
 
