@@ -32100,7 +32100,7 @@
     <screen idno="screen_39_0" default="1" typeRestrictions="arquivo" includeSubtypes="0">
      <labels>
       <label locale="pt_BR">
-       <name>Entrada acervo arquivológico</name>
+       <name>Acervo arquivológico</name>
       </label>
      </labels>
      <bundlePlacements>
