@@ -10726,6 +10726,171 @@
     </item>
    </items>
   </list>
+  <list code="arq_aspecto_documento" hierarchical="0" system="0" vocabulary="0">
+   <labels>
+    <label locale="pt_BR">
+     <name>Aspecto do Documento</name>
+    </label>
+   </labels>
+   <items>
+    <item idno="avulso" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Avulso</name_singular>
+       <name_plural>Avulso</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="encadernado" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Encadernado</name_singular>
+       <name_plural>Encadernado</name_plural>
+      </label>
+     </labels>
+    </item>
+   </items>
+  </list>
+  <list code="arq_datas" hierarchical="0" system="0" vocabulary="1">
+   <labels>
+    <label locale="pt_BR">
+     <name>Datas Limites</name>
+    </label>
+   </labels>
+   <items>
+    <item idno="inicial" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Data Inicial</name_singular>
+       <name_plural>Data Inicial</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="final" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Data Final</name_singular>
+       <name_plural>Data Final</name_plural>
+      </label>
+     </labels>
+    </item>
+   </items>
+  </list>
+  <list code="arq_apresent" hierarchical="0" system="0" vocabulary="1">
+   <labels>
+    <label locale="pt_BR">
+     <name>Forma gráfica do documento</name>
+    </label>
+   </labels>
+   <items>
+    <item idno="manuscrito" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Manuscrito</name_singular>
+       <name_plural>Manuscrito</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="impresso" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Impresso</name_singular>
+       <name_plural>Impresso</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="datilografado" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Datilografado</name_singular>
+       <name_plural>Datilografado</name_plural>
+      </label>
+     </labels>
+    </item>
+   </items>
+  </list>
+  <list code="arq_doc_especiais" hierarchical="0" system="0" vocabulary="1">
+   <labels>
+    <label locale="pt_BR">
+     <name>Documentos Especiais</name>
+    </label>
+   </labels>
+   <items>
+    <item idno="foto" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Foto</name_singular>
+       <name_plural>Fotos</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="diploma" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Diploma</name_singular>
+       <name_plural>Diplomas</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="recorte" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Recorte de Jornal</name_singular>
+       <name_plural>Recortes de  Jornais</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="negativo" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Negativo</name_singular>
+       <name_plural>Negativos</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="desenho" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Desenho</name_singular>
+       <name_plural>Desenhos</name_plural>
+      </label>
+     </labels>
+    </item>
+   </items>
+  </list>
+  <list code="arq_conservacao" hierarchical="0" system="0" vocabulary="1">
+   <labels>
+    <label locale="pt_BR">
+     <name>Estado de Conservação</name>
+    </label>
+   </labels>
+   <items>
+    <item idno="bom" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Bom</name_singular>
+       <name_plural>Bom</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="regular" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Regular</name_singular>
+       <name_plural>Regular</name_plural>
+      </label>
+     </labels>
+    </item>
+    <item idno="precario" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Precário</name_singular>
+       <name_plural>Precário</name_plural>
+      </label>
+     </labels>
+    </item>
+   </items>
+  </list>
  </lists>
  <elementSets>
   <metadataElement code="set_description" datatype="Text">
@@ -23560,7 +23725,7 @@
    </labels>
    <settings>
     <setting name="listWidth">90</setting>
-    <setting name="nullOptionText">Non défini</setting>
+    <setting name="nullOptionText">Não definido</setting>
     <setting name="render">radio_buttons</setting>
    </settings>
    <typeRestrictions>
@@ -25098,6 +25263,602 @@
       <setting name="minAttributesPerRow">0</setting>
       <setting name="maxAttributesPerRow">255</setting>
       <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_fundo" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Fundo</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">1</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">99</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_serie" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Série</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">1</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">99</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_subserie" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Subsérie</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">1</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">99</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_conteudo" datatype="Container">
+   <labels>
+    <label locale="pt_BR">
+     <name>Conteúdo</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="displayDelimiter">,</setting>
+   </settings>
+   <elements>
+    <metadataElement code="conteudo_especie_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Espécie / Tipo de Documento</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">1</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+      <setting name="canMakePDF">1</setting>
+      <setting name="canMakePDFForValue">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="conteudo_especie" datatype="Text">
+       <labels>
+        <label locale="pt_BR">
+         <name>Espécie / Tipo de Documento</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="fieldHeight">4</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="minChars">0</setting>
+        <setting name="maxChars">65535</setting>
+        <setting name="fieldHeight">1</setting>
+        <setting name="usewysiwygeditor">0</setting>
+        <setting name="canMakePDF">1</setting>
+        <setting name="canMakePDFForValue">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+    <metadataElement code="conteudo_emissor_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Emissor / Remetente</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">0</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="conteudo_emissor" datatype="Text">
+       <labels>
+        <label locale="pt_BR">
+         <name>Emissor / Remetente</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="fieldHeight">4</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="minChars">0</setting>
+        <setting name="maxChars">65535</setting>
+        <setting name="fieldHeight">1</setting>
+        <setting name="usewysiwygeditor">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+    <metadataElement code="conteudo_assunto_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Assunto</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">0</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="conteudo_assunto" datatype="Text">
+       <labels>
+        <label locale="pt_BR">
+         <name>Assunto</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="fieldHeight">4</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="minChars">0</setting>
+        <setting name="maxChars">65535</setting>
+        <setting name="fieldHeight">1</setting>
+        <setting name="usewysiwygeditor">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+   </elements>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+    <restriction>
+     <table>ca_occurrences</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_aspecto_doc" datatype="List" list="arq_aspecto_documento">
+   <labels>
+    <label locale="pt_BR">
+     <name>Aspecto do Documento</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="listWidth">90</setting>
+    <setting name="nullOptionText">Não definido</setting>
+    <setting name="render">radio_buttons</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">1</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_num_doc" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Número de Documentos</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">0</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">1</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_data_limite" datatype="Container">
+   <labels>
+    <label locale="pt_BR">
+     <name>Datas limites</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="displayDelimiter">,</setting>
+   </settings>
+   <elements>
+    <metadataElement code="data_limite_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Datas limites</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">1</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+      <setting name="canMakePDF">1</setting>
+      <setting name="canMakePDFForValue">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="data_limite" datatype="DateRange">
+       <labels>
+        <label locale="pt_BR">
+         <name>Data</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="useDatePicker">0</setting>
+        <setting name="mustNotBeBlank">0</setting>
+        <setting name="isLifespan">0</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="dateRangeBoundaries"/>
+        <setting name="fieldWidth"/>
+        <setting name="default_text"/>
+        <setting name="canMakePDF">1</setting>
+        <setting name="canMakePDFForValue">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+    <metadataElement code="data_info_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Datas Inicial / Final</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">1</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+      <setting name="canMakePDF">1</setting>
+      <setting name="canMakePDFForValue">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="data_info" datatype="List" list="arq_datas">
+       <labels>
+        <label locale="pt_BR">
+         <name>Data Inicial / Final</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="listWidth">70</setting>
+		<setting name="render">select</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="canMakePDF">1</setting>
+        <setting name="canMakePDFForValue">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+   </elements>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+    <restriction>
+     <table>ca_occurrences</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_num_orig" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Numeração Original</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">0</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">10</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_apresentacao" datatype="List" list="arq_apresent">
+   <labels>
+    <label locale="pt_BR">
+     <name>Forma gráfica do documento</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="listWidth">110</setting>
+    <setting name="render">checklist</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">1</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_doc_especiais" datatype="Container">
+   <labels>
+    <label locale="pt_BR">
+     <name>Documentos especiais</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="displayDelimiter">,</setting>
+   </settings>
+   <elements>
+    <metadataElement code="doc_especial_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Documentos especiais</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">1</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+      <setting name="canMakePDF">1</setting>
+      <setting name="canMakePDFForValue">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="doc_especial" datatype="List" list="arq_doc_especiais">
+       <labels>
+        <label locale="pt_BR">
+         <name>Espécie / Tipo de Documento</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="render">checklist</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="canMakePDF">1</setting>
+        <setting name="canMakePDFForValue">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>
+    <metadataElement code="doc_especial_out_c" datatype="Container">
+     <labels>
+      <label locale="pt_BR">
+       <name>Outros</name>
+      </label>
+     </labels>
+     <settings>
+      <setting name="doesNotTakeLocale">0</setting>
+      <setting name="canBeUsedInSearchForm">1</setting>
+      <setting name="canBeUsedInDisplay">1</setting>
+      <setting name="lineBreakAfterNumberOfElements">0</setting>
+     </settings>
+     <elements>
+      <metadataElement code="doc_especial_out_" datatype="Text">
+       <labels>
+        <label locale="pt_BR">
+         <name>Outros</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">70</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="suggestExistingValueSort">value</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="minChars">0</setting>
+        <setting name="maxChars">65535</setting>
+        <setting name="fieldHeight">1</setting>
+        <setting name="usewysiwygeditor">0</setting>
+       </settings>
+      </metadataElement>
+     </elements>
+    </metadataElement>  
+   </elements>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+    <restriction>
+     <table>ca_occurrences</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_ind_ono" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Índice Onomástico</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">110</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">0</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">20</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_ind_tem" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Índice Temático</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">110</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">0</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">20</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_obs" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Observação</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">110</setting>
+    <setting name="fieldHeight">4</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">255</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_est_conservacao" datatype="List" list="arq_conservacao">
+   <labels>
+    <label locale="pt_BR">
+     <name>Estado de Conservação</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="listWidth">70</setting>
+    <setting name="render">select</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">1</setting>
+      <setting name="maxAttributesPerRow">1</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
      </settings>
     </restriction>
    </typeRestrictions>
@@ -32097,7 +32858,7 @@
     </label>
    </labels>
    <screens>
-    <screen idno="screen_39_0" default="1" typeRestrictions="arquivo" includeSubtypes="0">
+    <screen idno="registro_arq" default="1" typeRestrictions="arquivo" includeSubtypes="0">
      <labels>
       <label locale="pt_BR">
        <name>Acervo arquivológico</name>
@@ -32116,9 +32877,6 @@
       <placement code="idno1">
        <bundle>idno</bundle>
       </placement>
-      <placement code="ca_attribute_type_arquivo2">
-       <bundle>ca_attribute_type_arquivo</bundle>
-      </placement>
       <placement code="preferred_labels2">
        <bundle>preferred_labels</bundle>
        <settings>
@@ -32129,78 +32887,49 @@
         <setting name="expand_collapse_no_value">dont_force</setting>
         <setting name="usewysiwygeditor"/>
        </settings>
+      </placement>  
+      <placement code="arq_fundo1">
+       <bundle>ca_attribute_arq_fundo</bundle>
       </placement>
-      <placement code="ca_entities3">
-       <bundle>ca_entities</bundle>
-       <settings>
-        <setting name="label" locale="pt_BR">Artista</setting>
-        <setting name="add_label" locale="pt_BR">Artista</setting>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">dont_force</setting>
-        <setting name="expand_collapse_no_value">dont_force</setting>
-        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
-        <setting name="list_format">list</setting>
-        <setting name="sortDirection">ASC</setting>
-        <setting name="dontShowDeleteButton">0</setting>
-        <setting name="display_template">&lt;l&gt;^ca_entities.preferred_labels&lt;/l&gt;
-        </setting>
-        <setting name="minRelationshipsPerRow"/>
-        <setting name="maxRelationshipsPerRow"/>
-       </settings>
+      <placement code="arq_serie1">
+       <bundle>ca_attribute_arq_serie</bundle>
+      </placement>  
+      <placement code="arq_subserie1">
+       <bundle>ca_attribute_arq_subserie</bundle>
       </placement>
-      <placement code="ca_attribute_description6">
-       <bundle>ca_attribute_description</bundle>
+      <placement code="arq_conteudo1">
+       <bundle>ca_attribute_arq_conteudo</bundle>
+      </placement> 
+      <placement code="arq_aspecto_doc1">
+       <bundle>ca_attribute_arq_aspecto_doc</bundle>
       </placement>
-      <placement code="ca_attribute_technique5">
-       <bundle>ca_attribute_technique</bundle>
+      <placement code="arq_num_doc1">
+       <bundle>ca_attribute_arq_num_doc</bundle>
+      </placement> 
+      <placement code="arq_data_limite1">
+       <bundle>ca_attribute_arq_data_limite</bundle>
       </placement>
-      <placement code="ca_attribute_categorie5">
-       <bundle>ca_attribute_categorie</bundle>
+      <placement code="arq_num_orig1">
+       <bundle>ca_attribute_arq_num_orig</bundle>
+      </placement> 
+      <placement code="arq_apresentacao1">
+       <bundle>ca_attribute_arq_apresentacao</bundle>
       </placement>
-      <placement code="ca_attribute_prix7">
-       <bundle>ca_attribute_prix</bundle>
+      <placement code="arq_doc_especiais1">
+       <bundle>ca_attribute_arq_doc_especiais</bundle>
       </placement>
-      <placement code="ca_attribute_work_dimensions8">
-       <bundle>ca_attribute_work_dimensions</bundle>
-      </placement>
-      <placement code="ca_attribute_dimensions9">
-       <bundle>ca_attribute_dimensions</bundle>
-       <settings>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">dont_force</setting>
-        <setting name="expand_collapse_no_value">collapse</setting>
-        <setting name="sortDirection">ASC</setting>
-       </settings>
-      </placement>
-      <placement code="ca_attribute_date_ref_acteAcqu">
-       <bundle>ca_attribute_date_ref_acteAcquisition</bundle>
-       <settings>
-        <setting name="label" locale="pt_BR">Referência de pedido</setting>
-        <setting name="add_label" locale="pt_BR">Referência de pedido</setting>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">dont_force</setting>
-        <setting name="expand_collapse_no_value">dont_force</setting>
-        <setting name="sortDirection">ASC</setting>
-       </settings>
-      </placement>
-      <placement code="ca_attribute_fournisseur_artot">
-       <bundle>ca_attribute_fournisseur_arquivo</bundle>
-       <settings>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">expand</setting>
-        <setting name="expand_collapse_no_value">collapse</setting>
-        <setting name="sortDirection">ASC</setting>
-       </settings>
-      </placement>
-      <placement code="ca_attribute_oeuvre_etat11">
-       <bundle>ca_attribute_oeuvre_etat</bundle>
-       <settings>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">dont_force</setting>
-        <setting name="expand_collapse_no_value">collapse</setting>
-        <setting name="sortDirection">ASC</setting>
-       </settings>
-      </placement>
+      <placement code="arq_est_conservacao1">
+       <bundle>ca_attribute_arq_est_conservacao1</bundle>
+      </placement>  
+      <placement code="arq_ind_ono1">
+       <bundle>ca_attribute_arq_ind_ono</bundle>
+      </placement>  
+      <placement code="arq_ind_tem1">
+       <bundle>ca_attribute_arq_ind_tem</bundle>
+      </placement>  
+      <placement code="arq_obs1">
+       <bundle>ca_attribute_arq_obs</bundle>
+      </placement>           
      </bundlePlacements>
     </screen>
     <screen idno="screen_39_2" default="0" typeRestrictions="arquivo" includeSubtypes="0">
@@ -32217,70 +32946,7 @@
        <bundle>ca_attribute_credits_photo</bundle>
       </placement>
      </bundlePlacements>
-    </screen>
-    <screen idno="screen_39_3" default="0" typeRestrictions="arquivo" includeSubtypes="0">
-     <labels>
-      <label locale="pt_BR">
-       <name>Histórico de empréstimos</name>
-      </label>
-     </labels>
-     <bundlePlacements>
-      <placement code="ca_attribute_adherent_artotheq">
-       <bundle>ca_attribute_adherent_arquivo</bundle>
-      </placement>
-      <placement code="ca_attribute_date_retour_artot">
-       <bundle>ca_attribute_date_retour_arquivo</bundle>
-      </placement>
-      <placement code="ca_attribute_date_dispo_artoth">
-       <bundle>ca_attribute_date_dispo_arquivo</bundle>
-      </placement>
-      <placement code="ca_attribute_disponible_artoth">
-       <bundle>ca_attribute_disponible_arquivo</bundle>
-      </placement>
-     </bundlePlacements>
-    </screen>
-    <screen idno="screen_39_1" default="0" typeRestrictions="arquivo" includeSubtypes="0">
-     <labels>
-      <label locale="pt_BR">
-       <name>Relações</name>
-      </label>
-     </labels>
-     <bundlePlacements>
-      <placement code="ca_objects7">
-       <bundle>ca_objects</bundle>
-       <settings>
-        <setting name="readonly"/>
-        <setting name="expand_collapse_value">dont_force</setting>
-        <setting name="expand_collapse_no_value">dont_force</setting>
-        <setting name="dont_include_subtypes_in_type_restriction">0</setting>
-        <setting name="list_format">bubbles</setting>
-        <setting name="sortDirection">ASC</setting>
-        <setting name="dontShowDeleteButton">0</setting>
-        <setting name="display_template">^ca_objects.idno ^ca_objects.preferred_labels</setting>
-        <setting name="minRelationshipsPerRow"/>
-        <setting name="maxRelationshipsPerRow"/>
-       </settings>
-      </placement>
-      <placement code="ca_collections1">
-       <bundle>ca_collections</bundle>
-      </placement>
-      <placement code="ca_entities2">
-       <bundle>ca_entities</bundle>
-      </placement>
-      <placement code="ca_list_items3">
-       <bundle>ca_list_items</bundle>
-      </placement>
-      <placement code="ca_loans4">
-       <bundle>ca_loans</bundle>
-      </placement>
-      <placement code="ca_movements5">
-       <bundle>ca_movements</bundle>
-      </placement>
-      <placement code="ca_object_lots6">
-       <bundle>ca_object_lots</bundle>
-      </placement>
-     </bundlePlacements>
-    </screen>
+    </screen>    
    </screens>
   </userInterface>
  </userInterfaces>
