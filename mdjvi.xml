@@ -10856,6 +10856,14 @@
       </label>
      </labels>
     </item>
+    <item idno="outro" enabled="1" default="0">
+     <labels>
+      <label locale="pt_BR" preferred="1">
+       <name_singular>Outro</name_singular>
+       <name_plural>Outros</name_plural>
+      </label>
+     </labels>
+    </item>
    </items>
   </list>
   <list code="arq_conservacao" hierarchical="0" system="0" vocabulary="1">
@@ -25452,7 +25460,6 @@
         <setting name="canBeUsedInDisplay">1</setting>
         <setting name="minChars">0</setting>
         <setting name="maxChars">65535</setting>
-        <setting name="fieldHeight">1</setting>
         <setting name="usewysiwygeditor">0</setting>
        </settings>
       </metadataElement>
@@ -25465,7 +25472,7 @@
      <settings>
       <setting name="minAttributesPerRow">0</setting>
       <setting name="maxAttributesPerRow">1</setting>
-      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
      </settings>
     </restriction>
     <restriction>
@@ -25473,7 +25480,7 @@
      <settings>
       <setting name="minAttributesPerRow">0</setting>
       <setting name="maxAttributesPerRow">1</setting>
-      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
      </settings>
     </restriction>
    </typeRestrictions>
@@ -25532,6 +25539,8 @@
    </labels>
    <settings>
     <setting name="displayDelimiter">,</setting>
+    <setting name="minimumAttributeBundlesToDisplay">1</setting>
+    <setting name="doesNotTakeLocale">1</setting>
    </settings>
    <elements>
     <metadataElement code="data_limite_c" datatype="Container">
@@ -25598,7 +25607,7 @@
        <settings>
         <setting name="doesNotTakeLocale">1</setting>
         <setting name="canBeUsedInSort">1</setting>
-        <setting name="listWidth">70</setting>
+        <setting name="listWidth">50</setting>
 		<setting name="render">select</setting>
         <setting name="canBeUsedInSearchForm">1</setting>
         <setting name="canBeUsedInDisplay">1</setting>
@@ -25614,8 +25623,8 @@
      <table>ca_objects</table>
      <settings>
       <setting name="minAttributesPerRow">0</setting>
-      <setting name="maxAttributesPerRow">1</setting>
-      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+      <setting name="maxAttributesPerRow">5</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
      </settings>
     </restriction>
     <restriction>
@@ -25775,6 +25784,58 @@
     </restriction>
    </typeRestrictions>
   </metadataElement>
+  <metadataElement code="arq_doc_especial1" datatype="List" list="arq_doc_especiais">
+       <labels>
+        <label locale="pt_BR">
+         <name>Espécie / Tipo de Documento Especial</name>
+        </label>
+       </labels>
+       <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="render">checklist</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+        <setting name="canBeUsedInSort">1</setting>
+        <setting name="suggestExistingValues">0</setting>
+        <setting name="canBeUsedInSearchForm">1</setting>
+        <setting name="canBeUsedInDisplay">1</setting>
+        <setting name="canMakePDF">1</setting>
+        <setting name="canMakePDFForValue">0</setting>
+       </settings>
+       <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+      <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">10</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
+  <metadataElement code="arq_doc_especial2" datatype="Text">
+   <labels>
+    <label locale="pt_BR">
+     <name>Espécie / Tipo de Documento Especial - Outros</name>
+    </label>
+   </labels>
+   <settings>
+    <setting name="fieldWidth">100</setting>
+    <setting name="doesNotTakeLocale">1</setting>
+    <setting name="suggestExistingValues">0</setting>
+   </settings>
+   <typeRestrictions>
+    <restriction>
+     <table>ca_objects</table>
+     <type>arquivo</type>
+     <settings>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">10</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+     </settings>
+    </restriction>
+   </typeRestrictions>
+  </metadataElement>
   <metadataElement code="arq_ind_ono" datatype="Text">
    <labels>
     <label locale="pt_BR">
@@ -25793,7 +25854,7 @@
      <settings>
       <setting name="minAttributesPerRow">0</setting>
       <setting name="maxAttributesPerRow">20</setting>
-      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
      </settings>
     </restriction>
    </typeRestrictions>
@@ -25816,7 +25877,7 @@
      <settings>
       <setting name="minAttributesPerRow">0</setting>
       <setting name="maxAttributesPerRow">20</setting>
-      <setting name="minimumAttributeBundlesToDisplay">0</setting>
+      <setting name="minimumAttributeBundlesToDisplay">1</setting>
      </settings>
     </restriction>
    </typeRestrictions>
@@ -32917,7 +32978,10 @@
        <bundle>ca_attribute_arq_apresentacao</bundle>
       </placement>
       <placement code="arq_doc_especiais1">
-       <bundle>ca_attribute_arq_doc_especiais</bundle>
+       <bundle>ca_attribute_arq_doc_especial1</bundle>
+      </placement>
+      <placement code="arq_doc_especiais2">
+       <bundle>ca_attribute_arq_doc_especial2</bundle>
       </placement>
       <placement code="arq_est_conservacao1">
        <bundle>ca_attribute_arq_est_conservacao</bundle>
