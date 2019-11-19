@@ -25666,9 +25666,9 @@
      <table>ca_objects</table>
      <type>arquivo</type>
      <settings>
-      <setting name="minAttributesPerRow">1</setting>
-      <setting name="maxAttributesPerRow">1</setting>
-      <setting name="minimumAttributeBundlesToDisplay">1</setting>
+      <setting name="minAttributesPerRow">0</setting>
+      <setting name="maxAttributesPerRow">10</setting>
+      <setting name="minimumAttributeBundlesToDisplay">0</setting>
      </settings>
     </restriction>
    </typeRestrictions>
@@ -25681,6 +25681,7 @@
    </labels>
    <settings>
     <setting name="displayDelimiter">,</setting>
+    <setting name="doesNotTakeLocale">1</setting>
    </settings>
    <elements>
     <metadataElement code="doc_especial_c" datatype="Container">
@@ -25726,7 +25727,7 @@
       </label>
      </labels>
      <settings>
-      <setting name="doesNotTakeLocale">0</setting>
+      <setting name="doesNotTakeLocale">1</setting>
       <setting name="canBeUsedInSearchForm">1</setting>
       <setting name="canBeUsedInDisplay">1</setting>
       <setting name="lineBreakAfterNumberOfElements">0</setting>
@@ -32919,7 +32920,7 @@
        <bundle>ca_attribute_arq_doc_especiais</bundle>
       </placement>
       <placement code="arq_est_conservacao1">
-       <bundle>ca_attribute_arq_est_conservacao1</bundle>
+       <bundle>ca_attribute_arq_est_conservacao</bundle>
       </placement>  
       <placement code="arq_ind_ono1">
        <bundle>ca_attribute_arq_ind_ono</bundle>
