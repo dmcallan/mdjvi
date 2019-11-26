@@ -47,7 +47,7 @@ if (!defined("__CA_DB_PASSWORD__")) {
 # __CA_DB_DATABASE__ = The name of your CollectiveAccess database
 #
 if (!defined("__CA_DB_DATABASE__")) {
-	define("__CA_DB_DATABASE__", 'mdjvi4');
+	define("__CA_DB_DATABASE__", 'mdjvi');
 }
 
 # __CA_APP_DISPLAY_NAME__ = the name of your system, for display purposes
