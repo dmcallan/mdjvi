@@ -113,6 +113,22 @@
 				
 				{{{<ifdef code="ca_objects.dateSet.setDisplayValue"><H6>Date:</H6>^ca_objects.dateSet.setDisplayValue<br/></ifdef>}}}
 			
+				{{{<ifdef code="ca_objects.arq_fundo"><H6><b>Fundo:</b></H6>^ca_objects.arq_fundo<br/></ifdef>}}}
+				
+				{{{<unit relativeTo="ca_objects.arq_data_limite">
+					<H6><b>Datas Limites:</b></H6>
+						<ifdef code="ca_objects.arq_data_limite.data_info"><H8>Data: </H8>^ca_objects.arq_data_limite.data_limite<br/>
+						<H8>Informação da Data: </H8>^ca_objects.arq_data_limite.data_info<br/></ifdef>
+					</unit>}}}
+								
+				{{{<ifdef code="ca_objects.arq_num_doc"><H6><b>Número de Documentos:</b></H6>^ca_objects.arq_num_doc<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_aspecto_doc"><H6><b>Aspecto:</b></H6>^ca_objects.arq_aspecto_doc<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_apresentacao"><H6><b>Apresentação:</b></H6>^ca_objects.arq_apresentacao<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_est_conservacao"><H6><b>Conservação:</b></H6>^ca_objects.arq_est_conservacao<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_doc_especial1"><H6><b>Tipos de Documentos Especiais:</b></H6>^ca_objects.arq_doc_especial1<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_doc_especial2"><H6><b>Outros Documentos Especiais:</b></H6>^ca_objects.arq_doc_especial2<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.arq_conteudo.conteudo_assunto"><H6><b>Assunto:</b></H6>^ca_objects.arq_conteudo.conteudo_assunto<br/></ifdef>}}}
+			
 				<hr></hr>
 					<div class="row">
 						<div class="col-sm-6">		

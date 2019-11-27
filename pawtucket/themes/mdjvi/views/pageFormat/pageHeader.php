@@ -141,7 +141,7 @@
 					</div>
 				</form>-->
 				<ul class="nav navbar-nav navbar-right menuItems">
-					<li <?php print (($this->request->getController() == "About") && ($this->request->getAction() == "Index")) ? 'class="active"' : ''; ?>><?php print caNavLink($this->request, _t("Museu"), "", "", "About", "Index"); ?></li>					
+					<li <?php print (($this->request->getController() == "About") && ($this->request->getAction() == "Index")) ? 'class="active"' : ''; ?>><?php print caNavLink($this->request, _t("Sobre"), "", "", "About", "Index"); ?></li>					
 					<li class="<?php print (($this->request->getController() == "Browse")) ? 'active' : ''; ?> dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore</a>
 						<ul class='dropdown-menu'>
 							<li><?php print caNavLink($this->request, _t("Browse"), "", "", "Browse", "objects"); ?></li>
@@ -149,7 +149,8 @@
 						</ul>
 					</li>
 					<!--<li <?php print ($this->request->getController() == "Canada150") ? 'class="active"' : ''; ?>><?php print caNavLink($this->request, _t("#Canada150"), "", "NovaMuse", "Canada150", "Index"); ?></li>-->
-					<li <?php print (($this->request->getController() == "About") && ($this->request->getAction() == "teachers")) ? 'class="active"' : ''; ?>><?php print caNavLink($this->request, _t("Para professores"), "", "", "About", "teachers"); ?></li>
+					<li <?php print ($this->request->getController() == "Browse") ? 'class="active"' : ''; ?>><?php print caNavLink($this->request, _t("Acervo Arquivológico"), "", 'Browse/objects', 'facet', 'type_facet/id/50/view/list'); ?></li>
+					
 					<li class="<?php print (($this->request->getController() == "About") && ($this->request->getAction() != "teachers") && ($this->request->getAction() != "support") && ($this->request->getAction() != "Index")) ? 'active' : ''; ?> dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajuda</a>
 						<ul class='dropdown-menu'>
 							<li><?php print caNavLink($this->request, _t("Acervo"), "", "", "About", "acervo"); ?></li>
