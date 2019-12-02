@@ -125,23 +125,23 @@
       {D.S.} % iniciais do nome
 
 \titulo{Gerenciamento e Publicação do Acervo do Museu Dom João VI}
-\title{Título do trabalho em inglês}
+\title{Management and Publication of the Dom João VI Museum Collection}
 
 % se não for usar a quarta palavra chave, deixar o campo vazio: {}
-\palavraschaves{Primeira palavra-chave}
-               {Segunda palavra-chave}
-               {Terceira palavra-chave}
-               {Quarta palavra-chave (opcional) ou vazio}
+\palavraschaves{Sistema de Gerenciamento de Conteúdo}
+               {Museu}
+               {Collective Access}
+               {}
 
-\keywords{First keyword}
-         {Second keyword}
-         {Third keyword}
-         {Fourth keyword or empty}
+\keywords{Content Management System}
+         {Museum}
+         {Collective Access}
+         {}       
 
 \orientador{Prof. Dr.} 
            {João Araújo}{Ribeiro} 
            {Faculdade de Engenharia -- UERJ} 
-
+           
 %\coorientador{Cargo Titulação} 
  %            {Nome}{Sobrenome} 
  %            {Unidade -- Instituição} 
@@ -229,8 +229,8 @@
 % argumentos.
 % ---
 %
-\fichacatalografica{}
-%
+%\fichacatalografica{}
+%Ficha biblioteca
 % ----------------------------------------------------------
 % Folha de aprovação
 % ----------------------------------------------------------
@@ -250,9 +250,9 @@
 % Dedicatória
 % ----------------------------------------------------------
 %
-\pretextualchapter{Dedicatória}
-\vfill
-Texto da dedicatória (opcional).
+%\pretextualchapter{Dedicatória}
+%\vfill
+%Texto da dedicatória (opcional).
 %
 % ----------------------------------------------------------
 % Agradecimentos
@@ -260,19 +260,29 @@ Texto da dedicatória (opcional).
 %
 \pretextualchapter{Agradecimentos}
 
-Texto de agradecimento (opcional).
+Agradeço à minha namorada, noiva e agora esposa Rachel McAllan, que me acompanhou durante esta jornada e me ajudou a não desistir.
+\\
+
+Aos meus pais e irmã que sempre me apoiaram.
+\\
+
+Ao meu orientador, Prof. Dr. João Ribeiro pela ajuda essencial ao desenvolvimento deste projeto.
+\\
+
+À todos que participaram e incentivaram de alguma forma.
+
 %
 % ----------------------------------------------------------
 % Epigrafe (opcional)
 % ----------------------------------------------------------
 %
-\pretextualchapter{}
-  \vfill
-  \begin{flushright}
- (opcional)\\
- Pensamento, reflexão\\    
-    \textit{autor}
-  \end{flushright}
+%\pretextualchapter{}
+%  \vfill
+%  \begin{flushright}
+% (opcional)\\
+% Pensamento, reflexão\\    
+%    \textit{autor}
+%  \end{flushright}
 %
 % ----------------------------------------------------------
 % RESUMO
@@ -281,7 +291,7 @@ Texto de agradecimento (opcional).
 \pretextualchapter{Resumo}
 \referencia % linha em branco depois
 
-Texto do resumo em português.
+O Museu D. João VI, devido à falta de suporte e atualização, perdeu o acesso para editar e revisar os arquivos do seu acervo. Este trabalho irá desenvolver um sistema de fácil utilização e sem custos utilizando um Sistema de Gerenciamento de Conteúdo (SGC), descrevendo a pesquisa sobre os programas já existentes e os motivos da escolha do Collective Access. É apresentado toda a implementação e uso do programa que será utilizado pela equipe do museu, além da publicação do acervo em um site que contém um sistema fácil de pesquisa para uso do público geral. Apesar de estar pronto para utilização pelo museu, o programa pode e deve ser melhorado através de revisões nas fichas utilizadas conforme a necessidade de cada objeto e ocorrência.
 ~\\
 
 \imprimirchaves % linha em branco antes
@@ -293,7 +303,7 @@ Texto do resumo em português.
 \pretextualchapter{Abstract}
 \reference % linha em branco depois
 
-Texto do resumo em inglês.
+The D. João VI Museum, due to lack of support and updating, lost access to edit and review the archives of its collection. This work will develop a user-friendly and cost-free system using a Content Management System (CMS), describing the research on existing programs and the reasons for choosing Collective Access. All the implementation and use of the program that will be used by the museum staff is presented, as well as the publication of the collection on a site that contains an easy search system for the general public to use. Despite being ready for use by the museum, the program can and should be improved through revisions to the forms used according to the need of each object and occurrence.
 ~\\
 
 \printkeys % linha em branco antes
@@ -303,15 +313,15 @@ Texto do resumo em inglês.
 % ----------------------------------------------------------
 %
 \listadefiguras
-\listadegraficos
-\listadequadros
-\listadetabelas
+%\listadegraficos
+%\listadequadros
+%\listadetabelas
 %
 % ----------------------------------------------------------
 % Outras listas
 % ----------------------------------------------------------
 %
-\listadealgoritmos % opcional
+%\listadealgoritmos % opcional
 %
 % ----------------------------------------------------------
 % Lista de abreviaturas e siglas (opcional)
@@ -320,16 +330,17 @@ Texto do resumo em inglês.
 \pretextualchapter{Lista de abreviaturas e siglas}
     \abreviatura{EBA/UFRJ}{Escola de Belas Artes da Universidade Federal do Rio de Janeiro}
     \abreviatura{SGC}{Sistema de Gerenciamento de Conteúdo}
-    \abreviatura{sigla 3}{por extenso}
+    \abreviatura{UFRJ}{Universidade Federal do Rio de Janeiro}
+  
 %
 % ----------------------------------------------------------
 % Lista de simbolos (opcional)
 % ----------------------------------------------------------
 %
-\pretextualchapter{Lista de símbolos}
-    \simbolo{$simbolo 1$}{significado e/ou valor}
-    \simbolo{$simbolo 2$}{significado e/ou valor}
-    \simbolo{$simbolo 3$}{significado e/ou valor}
+%\pretextualchapter{Lista de símbolos}
+%    \simbolo{$simbolo 1$}{significado e/ou valor}
+%    \simbolo{$simbolo 2$}{significado e/ou valor}
+%    \simbolo{$simbolo 3$}{significado e/ou valor}
 %
 % ----------------------------------------------------------
 % Sumario
@@ -373,11 +384,17 @@ Esse banco de dados deverá ser exibido em um novo site, contendo um sistema de 
 
 \section*{Estrutura da Monografia}
 
-Esta monografia está dividida em REVISAR capítulos, os quais são: Introdução, REVISAR...
+Esta monografia está dividida em cinco capítulos, os quais são: Introdução, Desenvolvimento Inicial, Providence, Pawtucket e Conclusão.
 
 No primeiro e atual capítulo foi fornecido o histórico do Museu Dom João VI da EBA/UFRJ, apresentando dados da criação do acervo e do sistema informatizado atual, assim como a motivação para este projeto.
 
-No segundo...
+No segundo capítulo encontram-se um histórico mais detalhado do projeto original realizado no \textbf{Museu D. João VI} e o método escolhido para desenvolver a nova estrutura do banco de dados do mesmo. É relatado os possíveis programas que foram pesquisados e testados e a motivação para escolha final.
+
+O terceiro capítulo contém as informações sobre o Providence, a parte do programa responsável por todo gerenciamento do acervo e o relacionamento entre as tabelas. São detalhadas a configuração, instalação e uso do programa, além do tratamento dos dados do acervo original para uso no projeto.
+
+No quarto capítulo foi detalhado a instalação e uso do Pawtucket, ferramenta utilizada para exibir as informações do banco de dados para o público. Também são exibidas as páginas criadas para o site do Museu e os modos de pesquisa e navegação do acervo.
+
+O quinto e último capítulo apresenta um resumo sobre o sistema desenvolvido, ideias para seu uso e aplicações além de sugestões de melhorias futuras.
 
 
 %================================================================
@@ -402,9 +419,9 @@ O projeto original de informatização do acervo do \textbf{Museu D. João VI} v
 
 Cada um destes banco de dados possuía dois arquivos diferentes, um com as tabelas com os dados propriamente ditos, e outro com os formulários para entrada e alteração de dados, relatórios e sistema de pesquisa. Esse segundo arquivo ficava no computador ``Mãe'', onde todas as alterações nos dados do acervo era realizada.
 
-O foco deste projeto é o gerenciamento e exposição do Acervo Museológico, devido a recente retirada do ar do site que fazia a exibição do mesmo, e para isto foi recebido o arquivo do banco de dados \textit{Acervo\_be.mdb}.
+O foco inicial deste projeto é o gerenciamento e exposição do Acervo Museológico, devido a recente retirada do ar do site que fazia a exibição do mesmo. Porém durante a execução do mesmo foi decidido que o Acervo Arquivológico também seria importado, evitando assim a perda das informações existentes sobre o mesmo. 
 
-Este banco de dados foi criado utilizando o programa \textit{Microsoft Access 97} e desde então, devido à falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
+O arquivo do banco de dados \textit{Acervo\_be.mdb} foi recebido da equipe responsável pelo Museu. Avaliando o arquivo verificou-se que este banco de dados foi criado utilizando o programa \textit{Microsoft Access 97} e desde então, devido à falta de atualização e manutenção do mesmo, não sofreu alterações em seu formato.
 
 Com as atualizações do programa \textit{Microsoft Access}, a última versão não conseguia abrir o arquivo existente. Para se poder utilizar o mesmo foi necessário a instalação de uma versão intermediária, neste caso foi utilizado o \textit{Access 2003}. Com isto o arquivo pode ser salvo em um formato mais recente que pode ser aberto e tratado utilizando as ferramentas mais atuais.
 
@@ -455,6 +472,14 @@ Dividido em duas versões, uma gratuita e uma \textit{premium} que podia ser ace
 \subsection{Adlib Museum Lite}
 
 Versão gratuita e com menos recursos da solução paga, Adlib Museum, oferecida pela mesma empresa. Limitado a um máximo de 5000 objetos cadastrados, não oferece suporte ao usuário e só funciona em Windows. Não permite a instalação em um servidor, impossibilitando a edição do banco de dados de mais de um computador.~\citetext{Adlib}
+
+Mais recentemente a empresa responsável por este programa se uniu a Axiell, parando de oferecer o mesmo.
+
+\subsection{Axiell}
+
+A Axiell oferece uma solução completa para gerenciamento de coleções como Museus e Bibliotecas, oferecendo a possibilidade de controlar o acervo remotamente, movimentações, condição das peças e publicar os dados em um site. 
+
+A empresa não fornece informações sobre o programa utilizado ou custo, solicitando que a pessoa ou instituição entre em contato para receber um orçamento.~\citetext{Axiell}
 
 \subsection{Museolog}
 
@@ -687,7 +712,7 @@ Já no menu ENCONTRAR, conforme visto na Figura \ref{fig:menu_encontrar}, as op�
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=15cm, center]{figuras/navegar_obj.jpg}
-	\caption{Busca no modo Navegar de um objeto} \label{fig:navegar_obj}
+	\caption{Busca de um objeto no modo Navegar} \label{fig:navegar_obj}
 \end{figure}
 
 No menu também irá aparecer a opção ``Última pesquisa rápida'', onde conforme o nome já diz, pode-se usar quando se deseja visualizar novamente a última pesquisa rápida, que é a executada na barra de pesquisa no canto superior direito.
@@ -760,11 +785,15 @@ Além disso as dimensões das peças do acervo, que inicialmente se encontravam 
 
 Após isso foi necessário separar a tabela em 34 planilhas de excel, uma para cada classe e subclasse registrada no acervo do Museu, para que as informações pudessem ser importadas para cada uma delas corretamente.
 
+Para o Acervo Arquivológico foi utilizada a tabela Arquivo onde também foi necessário realizar o tratamento dos dados. Para a coluna Notação, que será importada como Número de Registro, foi adicionado o prefixo ``A-'' para diferenciar os registros do Acervo Museológico, evitando assim que o número ficasse duplicado. As colunas de Data Limite, que estavam separadas em campos separados para dia, mês e ano, foram unidas em uma única coluna. Também foi necessário revisar a incerteza das datas de forma similar a feita anteriormente.
+
 \section{Mapeamento dos dados a serem importados}
 
 Para realizar a importação dos dados para o Providence é necessário primeiro criar uma planilha de mapeamento, que irá conter as regras e definições como o tipo de informação que será transferida. Deverá ser criada uma planilha para cada categoria da informação que se deseja importar, como por exemplo uma para as Pinturas, outra para as Gravuras, até abranger todas os objetos do Acervo, sendo possível também realizar importações de mídias, pessoas, instituições e qualquer outra informação relevante.
 
-O \textbf{Acervo Museológico} foi separado em 34 arquivos diferentes, um para cada tipo de classe/subclasse existente, logo também foi necessário criar um arquivo de mapeamento para cada um desses arquivos. Neste projeto, devido a facilidade de criação e uso, foi decidido utilizar o formato do Excel ``\textit{.xlsx}'' para a elaboração desses mapeamentos.
+O \textbf{Acervo Museológico} foi separado em 34 arquivos diferentes, um para cada tipo de classe/subclasse existente, logo também foi necessário criar um arquivo de mapeamento para cada um desses arquivos. Já para o \textbf{Acervo Arquivológico} foram criadas três planilhas de mapeamento. A primeira foi utilizada com a tabela Arquivo, mas também foram importadas as tabelas Índice\_Onomástico e Índice\_Temático, que continham informações relevantes e estavam armazenadas de forma separada.
+
+Neste projeto, devido a facilidade de criação e uso, foi decidido utilizar o formato do Excel ``\textit{.xlsx}'' para a elaboração desses mapeamentos.
 
 Cada arquivo de mapeamento deve informar para cada coluna de dados da origem o local de destino no banco de dados do Collective Access, conforme estabelecido na configuração do perfil de instalação. É necessário informar o tipo de item, o nome do conjunto de elementos e o nome do campo de destino do dado.
 
@@ -794,11 +823,11 @@ Já nas linhas 16 a 24 são definidas as configurações do mapeamento conforme 
 
 \section{Importação dos dados}
 
-Antes de se importar os dados, assim como qualquer modificação grande em banco de dados, é importante criar uma cópia de segurança dos arquivos para evitar perdas e problemas nos objetos importados, principalmente se for a primeira vez que um mapeamento é utilizado.
+Antes de se importar os dados, assim como qualquer modificação grande em banco de dados, é importante criar uma cópia de segurança dos arquivos para evitar perdas e problemas nos objetos importados, principalmente se for a primeira vez que um mapeamento é utilizado. Este assunto será aprofundado em uma seção neste capítulo.
 
 O Collective Access aceita vários tipos de formato de dados para importação, desde arquivos de Excel em .xls ou .xlsx, provenientes de bancos de dados MYSQL, vários formatos de XML diferentes oriundos de outros SGC como PastPerfect XML e Omeka, de um outro sistema Collective Access, para migrações de um sistema para outro, e até de sistemas web como ULAN e Worldcat. Este projeto utilizou somente os dados já existentes do Museu D. João VI que foi dividido em planilhas de Excel por classe.
 
-Após o tratamento do acervo e a criação de todos os arquivos de mapeamento, a próxima etapa é realizar a importação dos dados. O Providence conta com uma interface fácil e intuitiva, onde primeiro o arquivo de mapeamento é carregado para o site e posteriormente se seleciona o arquivo com os dados a serem importados com o mapeamento selecionado.
+Após o tratamento do acervo e a criação de todos os arquivos de mapeamento, a próxima etapa é realizar a importação dos dados. Apesar de poder ser realizado através do terminal do servidor, o Providence conta com uma interface fácil e intuitiva, onde primeiro o arquivo de mapeamento é carregado para o site e posteriormente se seleciona o arquivo com os dados a serem importados com o mapeamento selecionado.
 
 \begin{figure}[!ht]{17cm}
 	\includegraphics[width=15cm, left]{figuras/tela_map.jpg}
@@ -831,6 +860,56 @@ Conforme já foi dito na seção da Configuração do perfil de instalação, ca
 
 Caso alguma inconsistência seja percebida pode-se retornar o banco de dados para o estado anterior e revisar o mapeamento, corrigindo os erros identificados e realizando novamente a importação.
 
+\section{Manutenção do Banco de Dados e Servidor}
+
+Durante a elaboração do projeto algumas configurações do banco de dados e do servidor foram alteradas, além da necessidade de realização da cópia de segurança das instalações para retornar ao ponto anterior caso ocorresse algum problema em alguma modificação realizada.
+
+Para a realização da cópia de segurança pode-se utilizar algum programa ou ferramenta que copie os arquivos necessários do servidor para algum outro lugar, como um computador ou um servidor próprio para isso, onde os arquivos possam ser recuperados quando necessário.
+
+Para as tabelas contendo as informações dos registros é necessário realizar um \textit{dump} do banco de dados, através do comando \textit{mysqldump} no terminal do servidor. O arquivo gerado irá conter as instruções ambas a estrutura do banco de dados e toda a informação armazenada nele. É recomendado que este comando seja executado periodicamente através de um agendamento no servidor ou utilizando um programa próprio para isto.
+
+As mídias que foram enviadas para o servidor são armazenadas em um diretório próprio, logo uma cópia dos arquivos contidos neste local também deve ser realizada. Além disso o arquivo de instalação ``setup.php'' e o diretório contendo os arquivos de configuração do Providence também devem ser copiados. Os mesmos contém informações necessárias para o funcionamento do mesmo e podem ser alterados conforme a necessidade do projeto e do servidor.
+
+Em resumo os seguintes arquivos e diretórios devem ser salvos periodicamente:
+
+\begin{itemize}
+	\item Arquivo \textit{dump} criado do banco de dados
+	\item /diretório do providence/media
+	\item /diretório do Providence/app/conf
+	\item /diretório do Providence/setup.php
+\end{itemize}
+
+Estas informações podem encontradas com maiores detalhes na página do Collective Access.~\citetext{Backup}
+
+Em uma das instalações de teste do projeto, após uma importação de dados, a pesquisa parou de exibir todos os resultados. Para corrigir este problema foi necessário realizar a reconstrução dos índices de pesquisa no Providence, opção que se encontra no Menu GERIR -> Administração -> Manutenção.
+
+Devido ao tamanho do acervo inicialmente o servidor não conseguiu realizar esta ação. Para corrigir isso foi necessário alterar as seguintes variáveis:
+
+\begin{itemize}
+	\item memory\_limit no arquivo /etc/php/7.0/apache2/php.ini foi aumentado de 128M para 512M;
+	\item max allowed packet na aba de Variáveis do phpMyAdmin foi alterado para 16M	
+\end{itemize}
+
+Após estas alterações foi possível executar a reconstrução dos índices de pesquisa e restabelecer os resultados corretos. Também é importante ressaltar que os erros que interrompiam a execução deste procedimento só foram exibidos quando o mesmo foi executado no terminal do servidor, pois utilizando a interface gráfica do Providence a execução era interrompida informando um erro fatal não identificado.
+
+\section{Relacionamento entre as Tabelas do Banco de Dados}
+
+No banco de dados do projeto original não foi encontrado nenhum relacionamento existente entre as tabelas. Ao analisar os dados contidos nas mesmas e as informações do Anexo 1, foi possível criar a tabela de relacionamento da Figura \ref{fig:relac_antigo}. Com ela pode-se verificar onde cada informação pertence e deve ser importada. Não foi exibido os relacionamentos das tabelas auxiliares que geravam os relatórios do sistema pois as mesmas não foram utilizadas.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/relac_antigo.jpg}
+	\caption{Tabela de Relacionamentos do Projeto original} \label{fig:relac_antigo}
+\end{figure}
+
+A instalação do Providence cria um banco de dados com 224 tabelas diferentes, o que torna a exibição de todas as relações de forma gráfica inviável. Na Figura \ref{fig:relac_novo} pode-se ver a estrutura da tabela ``ca\_objects\_x\_objects'' que controla o relacionamento entre dois objetos, salvando algumas informações de cada um deles e armazenando com um código único ``relation\_id'' e outros dados do relacionamento.
+
+\begin{figure}[!ht]{17cm}
+	\includegraphics[width=15cm, left]{figuras/relac_novo.jpg}
+	\caption{Exemplo de Tabela do Collective Access} \label{fig:relac_novo}
+\end{figure}
+
+Como os tipos de dados e seus relacionamentos são gerados pelo perfil de instalação utilizado, o número de tabelas e como elas se relacionam pode alterar de acordo com a necessidade e uso do programa. Toda a criação e configuração das tabelas é feita pelo Providence, sem necessidade de conhecimento em Banco de Dados pelo usuário final que estiver gerindo o acervo.
+
 %================================================================
 \chapter{Pawtucket}
 %================================================================
@@ -859,9 +938,9 @@ Após a configuração correta dos arquivos basta acessar o endereço do servido
 
 \section{Configurando o Pawtucket}
 
-As configurações e páginas do Pawtucket são recebidas do diretório de temas que foi selecionado no arquivo ``setup.php''. O tema \textit{default} contém todos os arquivos necessários para as páginas exibidas e o estilo das mesmas. Um diretório \textit{mdjvi} foi criado para controlar as alterações feitas para o projeto.
+As configurações e páginas do Pawtucket são recebidas do diretório de temas que foi selecionado no arquivo ``setup.php''. O tema \textit{default} contém todos os arquivos necessários para as páginas exibidas e o estilo das mesmas. Um diretório \textit{themes/mdjvi} foi criado para controlar as alterações feitas para o projeto.
 
-Este novo diretório precisa conter somente os arquivos novos ou algum existente que foi alterado. Todos os arquivos que forem necessários e não estiverem presentes no tema que estiver sendo utilizado serão carregados do diretório \textit{default}, facilitando assim o controle, revisão e atualização do tema.
+Este novo diretório precisa conter somente os arquivos novos ou algum existente que foi alterado. Todos aqueles que forem necessários e não estiverem presentes no tema que estiver sendo utilizado serão carregados do diretório \textit{default}, facilitando assim o controle, revisão e atualização do tema.
 
 Com esta forma de trabalho, caso ocorra alguma atualização do tema \textit{default} pela equipe do Collective Access, os arquivos do mesmo podem ser substituídos pela nova versão sem prejudicar o site exibido, já que os arquivos do projeto estarão em um diretório separado.
 
@@ -900,7 +979,7 @@ Logo abaixo desta imagem se encontra a possibilidade de se navegar por cada cate
 No menu superior as seguintes opções estarão disponíveis:
 
 \begin{itemize}
-	\item \textbf{MUSEU} - Irá redirecionar para a página com informações sobre o Museu, um breve histórico, o endereço, telefone e email de contato;
+	\item \textbf{SOBRE} - Irá redirecionar para a página com informações sobre o Museu, um breve histórico, o endereço, telefone e email de contato;
 	\item \textbf{EXPLORE} - Abre duas opções, NAVEGAR e PESQUISA AVANÇADA;
 
 	\begin{itemize}
@@ -908,7 +987,7 @@ No menu superior as seguintes opções estarão disponíveis:
 		\item PESQUISA AVANÇADA - Exibe os campos que podem ser utilizados na pesquisa avançada. Também tem uma uma coluna com dicas de como realizar uma pesquisa;
 	\end{itemize} 
 	
-	\item \textbf{PARA PROFESSORES} - Contém informações úteis para os professores e pesquisadores interessados em realizar uma pesquisa ou saber mais sobre o acervo.
+	\item \textbf{ACERVO ARQUIVOLÓGICO} - Direciona para a página contendo os itens importados do Acervo Arquivológico.
 	\item \textbf{AJUDA} - Abre as opções ACERVO e PLANEJE SUA VISITA:
 	
 	\begin{itemize}
@@ -925,7 +1004,7 @@ No menu superior as seguintes opções estarão disponíveis:
 
 A Pesquisa Avançada permite uma pesquisa específica dentro do acervo. Todos os campos preenchidos na pesquisa devem ser correspondidos simultaneamente pelo objeto para que o mesmo seja exibido nos resultados. Todas as opções de filtros da pesquisa avançada possuem uma dica que será exibida quando se passar o cursor do mouse por cima do texto.
 
-Nesta pesquisa qualquer campo do objeto ou conteúdo do Providence pode ser pesquisado, sendo que conforme a Figura \ref{fig:tela_pesqav} mostra foram configurados escolhidos as seguintes opções:
+Nesta pesquisa qualquer campo do objeto ou conteúdo do Providence pode ser pesquisado, sendo que conforme a Figura \ref{fig:tela_pesqav} mostra, foram escolhidas as seguintes opções:
 
 \begin{itemize}
 	\item \textbf{Palavra-Chave} - A palavra ou texto inserido aqui será pesquisada em todo o acervo, similar a pesquisa múltipla ou pesquisa rápida da tela inicial. Pode ser inserido qualquer conteúdo do acervo independente de onde se encontre (título, localização, criador, etc.);
@@ -966,7 +1045,7 @@ Os dados escolhidos para serem exibidos são:
 	\item Termos de vocabulário relacionados
 \end{itemize}
 
-Apesar de qualquer campo do objeto preenchido no Providence poder ser exibido, esses foram escolhidos por fornecerem um panorama geral do item. Qualquer outra informação desejada, como a localização do item no Museu que foi omitida por motivo de segurança, deverá ser solicitada a equipe responsável pelo acervo que poderá realizar a pesquisa e fornecer os dados. Nenhuma informação dos campos de análise histórica e estilística foi inclusa pois como foram criados durante o projeto nenhum objeto possuía qualquer dado preenchido.
+Apesar de qualquer campo do objeto preenchido no Providence poder ser exibido, esses foram escolhidos por fornecerem um panorama geral do item. Qualquer outra informação desejada, como a localização do item no Museu que foi omitida por motivo de segurança, deverá ser solicitada à equipe responsável pelo acervo que poderá realizar a pesquisa e fornecer os dados. Nenhuma informação dos campos de análise histórica e estilística foi inclusa pois como foram criados durante o projeto nenhum objeto possuía qualquer dado preenchido.
 
 Também é importante notar que quando um objeto não possui um dos dados esta informação é omitida da exibição, evitando campos em branco e deixando a visualização mais limpa para o usuário.
 
@@ -983,7 +1062,19 @@ Já no final de todas as páginas foram acrescentados alguns links úteis para o
 \chapter*{Conclusão}
 %================================================================
 
-Texto da conclusão.
+Com o desenvolvimento do projeto em seu estágio atual já é possível utilizá-lo para o gerenciamento e visualização do acervo do \textbf{Museu Dom João VI}. O mesmo ainda deve ser testado pela equipe responsável, que poderá solicitar possíveis correções e melhorias, e posteriormente implementado em ambiente de produção no servidor da UFRJ.
+
+Utilizar um SGC para o gerenciamento do acervo irá facilitar a atualização e manutenção do mesmo, possibilitando o uso e edição do conteúdo de qualquer computador com acesso ao servidor web no qual ele for instalado, seja o uso permitido somente na rede local ou através da internet. Além disso não foi utilizado nenhum programa que necessite de pagamento ou licença conforme a proposta inicial, evitando assim qualquer custo.
+
+Para um melhor uso do programa o ideal é que sejam criados procedimentos e rotinas para utilização do mesmo, assim evita-se a realização do mesmo trabalho de forma duplicada ou incorreta.
+
+Também é recomendável a criação de um usuário para cada pessoa que acessar o Providence, limitando o acesso conforme autorização e possibilitando a verificação do registro de alterações por pessoa. Desta forma será possível realizar um treinamento ou reforço das melhores práticas de uso caso seja verificado algum erro na utilização por um usuário específico.
+
+Uma das melhorias que pode-se realizar futuramente é a edição das fichas de objetos conforme a Classe do mesmo, exibindo alguns campos somente quando eles forem necessários. Também é recomendável a revisão das fichas de ocorrências de forma similar, dividindo a mesma para cada tipo de ocorrência.
+
+Apesar de não ter sido o foco deste projeto, o conteúdo do Acervo Arquivológico foi importado para o programa. Como este material encontra-se digitalizado em um site externo, também seria interessante a criação de uma ligação entre a ficha do arquivo com a versão digitalizada do mesmo através de um \textit{link}.
+
+Este projeto também pode servir de base para a utilização em outros museus, sendo necessário a revisão do arquivo de instalação para se adequar ao acervo utilizado, mas já contendo as ações necessárias para o gerenciamento e controle do mesmo.
 
 %\index{Introdução!Capítulo}.
 
@@ -1001,12 +1092,12 @@ Texto da conclusão.
 \bibliography{abnt-options4,bibliografia}
 
 %===========================================================
-\postextualchapter*{Glossário} % elemento opcional
+%\postextualchapter*{Glossário} % elemento opcional
 %===========================================================
 
-\definicao{termo 1}{significado}
-\definicao{termo 2}{significado}
-\definicao{termo 3}{significado}
+%\definicao{termo 1}{significado}
+%\definicao{termo 2}{significado}
+%\definicao{termo 3}{significado}
 
 %XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 % Apêndices (opcionais)
@@ -1026,52 +1117,52 @@ Texto da conclusão.
 %XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 % Anexos (opcionais)
 %XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-\annex % inicia os anexos
+%\annex % inicia os anexos
 %XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 %===========================================================
-\postextualchapter{Primeiro anexo}
+%\postextualchapter{Primeiro anexo}
 %===========================================================
 
 % ----------------------------------------------------------
-\section{Primeira seção}
+%\section{Primeira seção}
 % ----------------------------------------------------------
 
-Texto da primeira seção.
+%Texto da primeira seção.
 
 % ----------------------------------------------------------
-\subsection{Primeira subseção}
+%\subsection{Primeira subseção}
 % ----------------------------------------------------------
 
-Texto da primeira subseção.
+%Texto da primeira subseção.
 
 % ----------------------------------------------------------
-\subsubsection{Primeira subsubseção}
+%\subsubsection{Primeira subsubseção}
 % ----------------------------------------------------------
 
-Texto da primeira subsubseção.
+%Texto da primeira subsubseção.
 
 %===========================================================
-\postextualchapter{Segundo anexo}
+%\postextualchapter{Segundo anexo}
 %===========================================================
 
 % ----------------------------------------------------------
-\section{Primeira seção}
+%\section{Primeira seção}
 % ----------------------------------------------------------
 
-Texto da primeira seção.
+%Texto da primeira seção.
 
 % ----------------------------------------------------------
-\subsection{Primeira subseção}
+%\subsection{Primeira subseção}
 % ----------------------------------------------------------
 
-Texto da primeira subseção.
+%Texto da primeira subseção.
 
 % ----------------------------------------------------------
-\subsubsection{Primeira subsubseção}
+%\subsubsection{Primeira subsubseção}
 % ----------------------------------------------------------
 
-Texto da primeira subsubseção.
+%Texto da primeira subsubseção.
 
 %/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 \end{document}
