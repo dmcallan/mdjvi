@@ -428,8 +428,8 @@
        <item idno="arquivo" enabled="1" default="0">
          <labels>
            <label locale="pt_BR" preferred="1">
-             <name_singular>Acervo Arquivológico</name_singular>
-             <name_plural>Acervo Arquivológico</name_plural>
+             <name_singular>Acervo Arquivístico</name_singular>
+             <name_plural>Acervo Arquivístico</name_plural>
            </label>
          </labels>
        </item>
@@ -32916,14 +32916,14 @@
   <userInterface code="saisie_arquivo" type="ca_objects" typeRestrictions="arquivo" includeSubtypes="0">
    <labels>
     <label locale="pt_BR">
-     <name>Entrada acervo arquivológico</name>
+     <name>Entrada acervo arquivístico</name>
     </label>
    </labels>
    <screens>
     <screen idno="registro_arq" default="1" typeRestrictions="arquivo" includeSubtypes="0">
      <labels>
       <label locale="pt_BR">
-       <name>Acervo arquivológico</name>
+       <name>Acervo arquivístico</name>
       </label>
      </labels>
      <bundlePlacements>

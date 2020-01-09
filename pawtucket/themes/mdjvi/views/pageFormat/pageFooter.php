@@ -38,6 +38,7 @@
 			</div>
 			<ul class="list-inline">
 				<li><a href="http://www.eba.ufrj.br/">EBA - Escola de Belas Artes</a></li>
+				<li><a href="http://obrasraras.eba.ufrj.br//">Biblioteca de Obras Raras - EBA</a></li>
 				<li><a href="https://www.bn.gov.br/">Biblioteca Nacional</a></li>
 				
 			</ul>
